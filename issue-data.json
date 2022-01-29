@@ -6777,8 +6777,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/517",
       "html_url": "https://github.com/psf/black/issues/517",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": "ambv"
+      "closed_at": "2022-01-29T20:42:28+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Automatic test-case detection",
@@ -10431,14 +10431,15 @@
       "created_at": "2019-04-10T11:44:58+00:00",
       "created_by": "flying-sheep",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: rejected",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/799",
       "html_url": "https://github.com/psf/black/issues/799",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T17:09:38+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "failure to reformat multiline dict with inline comments in a reasonable manner",
@@ -27080,8 +27081,8 @@
       "created_at": "2021-03-05T10:29:32+00:00",
       "created_by": "WhyNotHugo",
       "labels": [
-        "F: empty lines",
-        "T: design"
+        "T: design",
+        "F: empty lines"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2020",
       "html_url": "https://github.com/psf/black/issues/2020",
@@ -29635,8 +29636,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2194",
       "html_url": "https://github.com/psf/black/issues/2194",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T17:12:22+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Disable pandas while we look into #2193",
@@ -32101,8 +32102,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2366",
       "html_url": "https://github.com/psf/black/issues/2366",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T17:41:25+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Second run of `tox -e py` results in a test error for test marked with `no_python2`",
@@ -33288,8 +33289,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2448",
       "html_url": "https://github.com/psf/black/issues/2448",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T17:27:46+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "setuptools-scm is causing issues (especially since 20.8b1 doesn't have wheels) ",
@@ -38584,10 +38585,38 @@
       "is_pr": true,
       "closed_at": "2022-01-29T16:00:59+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Fix changelog entries in the wrong release",
+      "number": 2825,
+      "created_at": "2022-01-29T17:30:06+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2825",
+      "html_url": "https://github.com/psf/black/pull/2825",
+      "is_pr": true,
+      "closed_at": "2022-01-29T17:32:52+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Prepare docs for release 22.1.0",
+      "number": 2826,
+      "created_at": "2022-01-29T19:17:21+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2826",
+      "html_url": "https://github.com/psf/black/pull/2826",
+      "is_pr": true,
+      "closed_at": "2022-01-29T19:30:25+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-01-29T17:08:11+00:00",
+    "last_updated": "2022-01-29T20:58:52+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
