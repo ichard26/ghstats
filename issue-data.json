@@ -3102,9 +3102,10 @@
       "created_at": "2018-05-20T16:40:20+00:00",
       "created_by": "ambv",
       "labels": [
-        "F: parentheses",
         "T: bug",
-        "stable"
+        "F: parentheses",
+        "stable",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/236",
       "html_url": "https://github.com/psf/black/issues/236",
@@ -3631,8 +3632,9 @@
       "created_at": "2018-05-29T17:49:29+00:00",
       "created_by": "ambv",
       "labels": [
-        "design",
-        "parentheses"
+        "T: design",
+        "F: parentheses",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/275",
       "html_url": "https://github.com/psf/black/issues/275",
@@ -5428,14 +5430,14 @@
       "closed_by": "ambv"
     },
     {
-      "title": "Merging two lines results in line being too long.",
+      "title": "Line too long: Dictionary key-value pair",
       "number": 413,
       "created_at": "2018-07-19T22:24:18+00:00",
       "created_by": "ghost",
       "labels": [
-        "F: linetoolong",
+        "T: bug",
         "F: parentheses",
-        "T: bug"
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/413",
       "html_url": "https://github.com/psf/black/issues/413",
@@ -6497,9 +6499,9 @@
       "created_at": "2018-09-03T13:10:58+00:00",
       "created_by": "matejcik",
       "labels": [
+        "T: bug",
         "F: empty lines",
-        "F: fmtoff",
-        "T: bug"
+        "F: fmtoff"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/496",
       "html_url": "https://github.com/psf/black/issues/496",
@@ -6672,13 +6674,13 @@
       "closed_by": "JelleZijlstra"
     },
     {
-      "title": "black forces lines to be too long",
+      "title": "Line too long: Attribute chain",
       "number": 510,
       "created_at": "2018-09-13T09:05:56+00:00",
       "created_by": "decibyte",
       "labels": [
-        "F: linetoolong",
-        "T: design"
+        "T: design",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/510",
       "html_url": "https://github.com/psf/black/issues/510",
@@ -7539,14 +7541,14 @@
       "created_at": "2018-10-18T22:04:55+00:00",
       "created_by": "dwaxe",
       "labels": [
-        "F: linetoolong",
-        "T: design"
+        "T: design",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/578",
       "html_url": "https://github.com/psf/black/issues/578",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T15:54:35+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Inconsistency in formatting new line at the beginning of the code block",
@@ -7921,14 +7923,14 @@
       "closed_by": null
     },
     {
-      "title": "Black does not remove redundant parentheses around a list",
+      "title": "Redundant parentheses around lists",
       "number": 608,
       "created_at": "2018-11-14T15:20:25+00:00",
       "created_by": "cypreess",
       "labels": [
+        "T: design",
         "F: parentheses",
-        "S: accepted",
-        "T: design"
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/608",
       "html_url": "https://github.com/psf/black/issues/608",
@@ -8064,14 +8066,16 @@
       "created_at": "2018-11-24T09:03:18+00:00",
       "created_by": "cmin764",
       "labels": [
+        "T: bug",
+        "R: rejected",
         "F: empty lines",
-        "T: bug"
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/619",
       "html_url": "https://github.com/psf/black/issues/619",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:30:49+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Black should add parentheses to long values in dict literals",
@@ -8558,15 +8562,16 @@
       "created_at": "2019-01-02T21:57:40+00:00",
       "created_by": "zzzeek",
       "labels": [
-        "F: linetoolong",
         "T: bug",
-        "stable"
+        "R: duplicate",
+        "stable",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/657",
       "html_url": "https://github.com/psf/black/issues/657",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T15:55:23+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Multiple equations badly formatted",
@@ -9556,8 +9561,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/733",
       "html_url": "https://github.com/psf/black/issues/733",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:52:31+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Vim plugin: 'Cursor position outside buffer' when old cursor location no longer exists",
@@ -10537,13 +10542,13 @@
       "closed_by": null
     },
     {
-      "title": "Lambdas in dictionaries go over line length limits",
+      "title": "Line too long: Lambda in dictionary value",
       "number": 808,
       "created_at": "2019-04-17T15:59:46+00:00",
       "created_by": "alexbecker",
       "labels": [
-        "F: linetoolong",
-        "T: bug"
+        "T: bug",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/808",
       "html_url": "https://github.com/psf/black/issues/808",
@@ -10552,13 +10557,13 @@
       "closed_by": null
     },
     {
-      "title": "When a lambda has many parameters, the wrapping doesn't happen at all",
+      "title": "Line too long: Lambda with many parameters",
       "number": 809,
       "created_at": "2019-04-18T20:11:35+00:00",
       "created_by": "mikelane",
       "labels": [
-        "F: linetoolong",
-        "T: design"
+        "T: design",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/809",
       "html_url": "https://github.com/psf/black/issues/809",
@@ -11951,16 +11956,16 @@
       "created_at": "2019-07-03T07:22:01+00:00",
       "created_by": "tbicr",
       "labels": [
-        "F: linebreak",
-        "F: linetoolong",
         "T: bug",
-        "T: design"
+        "T: design",
+        "F: linetoolong",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/917",
       "html_url": "https://github.com/psf/black/issues/917",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T15:57:15+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Remove rpar case from can_remove_invisible_parens",
@@ -12411,14 +12416,14 @@
       "created_at": "2019-08-01T03:39:31+00:00",
       "created_by": "adamfaulkner",
       "labels": [
-        "C: invalid code",
-        "T: bug"
+        "T: bug",
+        "C: invalid code"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/952",
       "html_url": "https://github.com/psf/black/issues/952",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:32:26+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Black moves type annotations when fixing value unpacking",
@@ -14618,13 +14623,13 @@
       "closed_by": "ichard26"
     },
     {
-      "title": "Black doesn't remove redundant parens",
+      "title": "Redundant parentheses around string/int literals",
       "number": 1123,
       "created_at": "2019-10-30T18:21:50+00:00",
       "created_by": "wimglenn",
       "labels": [
-        "F: parentheses",
-        "T: design"
+        "T: design",
+        "F: parentheses"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1123",
       "html_url": "https://github.com/psf/black/issues/1123",
@@ -15152,14 +15157,14 @@
       "created_at": "2019-11-17T23:45:47+00:00",
       "created_by": "jamespfennell",
       "labels": [
-        "F: linetoolong",
-        "T: design"
+        "T: design",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1161",
       "html_url": "https://github.com/psf/black/issues/1161",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T15:58:48+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "# fmt: pass - ignore formatting for single statements",
@@ -16193,14 +16198,15 @@
       "created_at": "2020-01-20T15:29:44+00:00",
       "created_by": "adarshk7",
       "labels": [
-        "F: linetoolong",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1237",
       "html_url": "https://github.com/psf/black/issues/1237",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T15:59:08+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Different code on second pass: mypy/typeshed/third_party/2and3/decorator.pyi",
@@ -16806,14 +16812,14 @@
       "created_at": "2020-02-22T21:42:37+00:00",
       "created_by": "Fhyarnir",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1281",
       "html_url": "https://github.com/psf/black/issues/1281",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:53:24+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "black.vim error when open file under directory site-packages.",
@@ -17253,15 +17259,16 @@
       "created_at": "2020-03-24T22:26:02+00:00",
       "created_by": "jaraco",
       "labels": [
-        "F: linetoolong",
         "T: bug",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1314",
       "html_url": "https://github.com/psf/black/issues/1314",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:00:04+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Fix `produced code that is not equivalent to the source` (related to comments)",
@@ -17831,23 +17838,23 @@
       "created_at": "2020-04-23T02:51:41+00:00",
       "created_by": "vnavkal",
       "labels": [
-        "F: trailing comma",
-        "T: bug"
+        "T: bug",
+        "F: trailing comma"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1356",
       "html_url": "https://github.com/psf/black/issues/1356",
       "is_pr": false,
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "felix-hilden"
     },
     {
-      "title": "Multi-line global becomes one line",
+      "title": "Line too long: Multi-line global",
       "number": 1357,
       "created_at": "2020-04-23T07:08:27+00:00",
       "created_by": "YodaEmbedding",
       "labels": [
-        "F: linetoolong",
-        "T: design"
+        "T: design",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1357",
       "html_url": "https://github.com/psf/black/issues/1357",
@@ -18237,14 +18244,15 @@
       "created_at": "2020-05-07T20:07:23+00:00",
       "created_by": "jacobchrismarsh",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1386",
       "html_url": "https://github.com/psf/black/issues/1386",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:32:48+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "internal error on tuple with trailing comma and redundant parentheses",
@@ -18568,14 +18576,14 @@
       "created_at": "2020-05-14T07:56:23+00:00",
       "created_by": "jsparmani",
       "labels": [
-        "C: maintenance",
-        "T: enhancement"
+        "T: enhancement",
+        "C: maintenance"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1411",
       "html_url": "https://github.com/psf/black/issues/1411",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:15:36+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Black crashes formatting this snippet",
@@ -19527,14 +19535,14 @@
       "created_at": "2020-06-06T04:31:24+00:00",
       "created_by": "tschaub",
       "labels": [
-        "enhancement",
-        "lib2to3"
+        "T: enhancement",
+        "C: blib2to3"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1481",
       "html_url": "https://github.com/psf/black/issues/1481",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T15:46:50+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "title": "Black Deletes the Escape Sequence's Leading Backslash",
@@ -20110,13 +20118,14 @@
       "closed_by": null
     },
     {
-      "title": "Parenthesize long lines",
+      "title": "Line too long: Attribute chain on right-hand side",
       "number": 1525,
       "created_at": "2020-06-30T15:54:50+00:00",
       "created_by": "joaoe",
       "labels": [
         "T: design",
-        "F: parentheses"
+        "F: parentheses",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1525",
       "html_url": "https://github.com/psf/black/issues/1525",
@@ -20130,14 +20139,15 @@
       "created_at": "2020-06-30T16:07:10+00:00",
       "created_by": "geeanlooca",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1526",
       "html_url": "https://github.com/psf/black/issues/1526",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:21:35+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Fix attribute error on black module in Vim",
@@ -20372,14 +20382,15 @@
       "created_at": "2020-07-11T16:55:52+00:00",
       "created_by": "nschloe",
       "labels": [
-        "C: api",
-        "T: enhancement"
+        "R: duplicate",
+        "T: enhancement",
+        "C: api"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1544",
       "html_url": "https://github.com/psf/black/issues/1544",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:11:32+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "[vim plugin] Fix g:black_fast and g:black_(skip)_string_normalization opts",
@@ -21384,14 +21395,14 @@
       "closed_by": "GriceTurrble"
     },
     {
-      "title": "Introducing a `=` in a string literal on a line that is too long undoes the attempted column shortening",
+      "title": "Line too long: Long triple-quoted string",
       "number": 1617,
       "created_at": "2020-08-22T00:20:55+00:00",
       "created_by": "brettcannon",
       "labels": [
-        "F: linetoolong",
+        "T: design",
         "F: strings / docstrings",
-        "T: design"
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1617",
       "html_url": "https://github.com/psf/black/issues/1617",
@@ -22161,14 +22172,17 @@
       "created_at": "2020-09-04T19:05:38+00:00",
       "created_by": "earonesty",
       "labels": [
+        "R: rejected",
+        "T: design",
+        "F: strings / docstrings",
         "F: linebreak",
-        "T: design"
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1675",
       "html_url": "https://github.com/psf/black/issues/1675",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:37:16+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "black splits argument list over several lines, even though code requires <88 characters",
@@ -22350,16 +22364,17 @@
       "created_at": "2020-09-09T13:33:25+00:00",
       "created_by": "klahnakoski",
       "labels": [
-        "F: parentheses",
-        "S: accepted",
+        "R: duplicate",
+        "T: enhancement",
         "T: design",
-        "T: enhancement"
+        "F: parentheses",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1689",
       "html_url": "https://github.com/psf/black/issues/1689",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:19:01+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "ANSII color escaping results in hidden output for light themes",
@@ -22698,7 +22713,7 @@
       "closed_by": "henryiii"
     },
     {
-      "title": "Split comments into multiple lines if exceed line length",
+      "title": "Line too long: Comments",
       "number": 1713,
       "created_at": "2020-09-16T16:39:49+00:00",
       "created_by": "anirudnits",
@@ -23008,8 +23023,8 @@
       "created_at": "2020-10-02T09:54:02+00:00",
       "created_by": "Cielquan",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1735",
       "html_url": "https://github.com/psf/black/issues/1735",
@@ -23330,14 +23345,15 @@
       "created_at": "2020-10-09T20:35:06+00:00",
       "created_by": "gsamaras",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1758",
       "html_url": "https://github.com/psf/black/issues/1758",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:22:49+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Reorganize documentation",
@@ -23665,14 +23681,15 @@
       "created_at": "2020-10-23T00:01:26+00:00",
       "created_by": "juanrgon",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1781",
       "html_url": "https://github.com/psf/black/issues/1781",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:31:07+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "short imports are not squeezed to one line",
@@ -24158,8 +24175,9 @@
       "created_at": "2020-11-11T19:39:48+00:00",
       "created_by": "vmgustavo",
       "labels": [
+        "T: design",
         "F: linebreak",
-        "T: design"
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1816",
       "html_url": "https://github.com/psf/black/issues/1816",
@@ -24840,15 +24858,16 @@
       "created_at": "2020-12-10T13:26:52+00:00",
       "created_by": "keli",
       "labels": [
-        "F: linebreak",
         "T: bug",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1863",
       "html_url": "https://github.com/psf/black/issues/1863",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:39:46+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "INTERNAL ERROR: Black produced different code on the second pass of the formatter",
@@ -26074,8 +26093,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/1948",
       "html_url": "https://github.com/psf/black/issues/1948",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T15:50:57+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Consistency: bring default line length in-line with PEP8",
@@ -26402,14 +26421,15 @@
       "created_at": "2021-02-07T16:51:24+00:00",
       "created_by": "bbkane",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1974",
       "html_url": "https://github.com/psf/black/issues/1974",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:35:21+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Stability fixup: interaction between newlines and comments",
@@ -27324,24 +27344,26 @@
       "created_at": "2021-03-12T10:47:56+00:00",
       "created_by": "cdce8p",
       "labels": [
-        "F: linebreak",
+        "R: duplicate",
+        "T: design",
         "S: accepted",
-        "T: design"
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2038",
       "html_url": "https://github.com/psf/black/issues/2038",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:46:35+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
-      "title": "Remove superfluous parentheses in type annotations",
+      "title": "Redundant parentheses around names",
       "number": 2039,
       "created_at": "2021-03-12T10:57:59+00:00",
       "created_by": "cdce8p",
       "labels": [
-        "design",
-        "parentheses"
+        "T: design",
+        "F: parentheses",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2039",
       "html_url": "https://github.com/psf/black/issues/2039",
@@ -27366,14 +27388,14 @@
       "closed_by": "ichard26"
     },
     {
-      "title": "Unnecessary parentheses preserved in type annotation",
+      "title": "Redundant parentheses around return annotation",
       "number": 2041,
       "created_at": "2021-03-12T15:52:48+00:00",
       "created_by": "NeilGirdhar",
       "labels": [
+        "T: design",
         "F: parentheses",
-        "S: accepted",
-        "T: design"
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2041",
       "html_url": "https://github.com/psf/black/issues/2041",
@@ -27697,14 +27719,15 @@
       "created_at": "2021-03-25T23:18:24+00:00",
       "created_by": "mathben",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2063",
       "html_url": "https://github.com/psf/black/issues/2063",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:34:12+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Add `--skip-magic-trailing-comma` to CHANGES.md",
@@ -28544,13 +28567,13 @@
       "closed_by": "ambv"
     },
     {
-      "title": "How can I get readable comprehensions?",
+      "title": "Add linebreak in comprehension with complex element expression",
       "number": 2121,
       "created_at": "2021-04-20T22:51:58+00:00",
       "created_by": "Peilonrayz",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2121",
       "html_url": "https://github.com/psf/black/issues/2121",
@@ -29590,8 +29613,8 @@
       "created_at": "2021-05-04T18:34:31+00:00",
       "created_by": "cooperlees",
       "labels": [
-        "C: maintenance",
-        "T: bug"
+        "T: bug",
+        "C: maintenance"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2193",
       "html_url": "https://github.com/psf/black/issues/2193",
@@ -31502,9 +31525,9 @@
       "created_at": "2021-06-11T00:39:25+00:00",
       "created_by": "memeplex",
       "labels": [
-        "F: linebreak",
+        "T: design",
         "F: parentheses",
-        "T: design"
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2327",
       "html_url": "https://github.com/psf/black/issues/2327",
@@ -31606,10 +31629,10 @@
       "created_at": "2021-06-13T20:05:25+00:00",
       "created_by": "bbugyi200",
       "labels": [
-        "F: linebreak",
-        "F: strings / docstrings",
+        "T: enhancement",
         "S: accepted",
-        "T: enhancement"
+        "F: strings / docstrings",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2334",
       "html_url": "https://github.com/psf/black/issues/2334",
@@ -31666,13 +31689,13 @@
       "closed_by": "ichard26"
     },
     {
-      "title": "Remove unnecessary parentheses in for unpacking",
+      "title": "Redundant parentheses in for loop unpacking",
       "number": 2338,
       "created_at": "2021-06-16T13:57:31+00:00",
       "created_by": "felix-hilden",
       "labels": [
-        "F: parentheses",
-        "T: design"
+        "T: design",
+        "F: parentheses"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2338",
       "html_url": "https://github.com/psf/black/issues/2338",
@@ -32688,13 +32711,14 @@
       "created_at": "2021-07-30T08:54:43+00:00",
       "created_by": "complyue",
       "labels": [
-        "T: enhancement"
+        "R: rejected",
+        "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2409",
       "html_url": "https://github.com/psf/black/issues/2409",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T15:56:24+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Add tox to Pipfile",
@@ -33046,7 +33070,7 @@
       "closed_by": null
     },
     {
-      "title": "extremely long left hand side expressions are not reflowed at all",
+      "title": "Line too long: Attribute chain on left hand side of assignment",
       "number": 2434,
       "created_at": "2021-08-20T17:22:35+00:00",
       "created_by": "glyph",
@@ -35085,8 +35109,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2578",
       "html_url": "https://github.com/psf/black/issues/2578",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": "ichard26"
+      "closed_at": "2022-01-29T16:01:37+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Pin regex in docker to 2021.10.8",
@@ -36262,8 +36286,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2662",
       "html_url": "https://github.com/psf/black/issues/2662",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T15:36:48+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "remove regex dependency",
@@ -36767,7 +36791,7 @@
       "closed_by": null
     },
     {
-      "title": "Quoted type hints can exceed line length limits",
+      "title": "Line too long: String in return annotation",
       "number": 2699,
       "created_at": "2021-12-15T14:33:51+00:00",
       "created_by": "intgr",
@@ -37201,14 +37225,15 @@
       "created_by": "mfrlin",
       "labels": [
         "T: bug",
+        "R: duplicate",
         "F: linetoolong",
         "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2729",
       "html_url": "https://github.com/psf/black/issues/2729",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-29T16:04:18+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "python format with black: remove \\ from origin code",
@@ -38531,10 +38556,38 @@
       "is_pr": true,
       "closed_at": "2022-01-29T03:38:51+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Update classifiers to reflect stable",
+      "number": 2823,
+      "created_at": "2022-01-29T15:22:10+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2823",
+      "html_url": "https://github.com/psf/black/pull/2823",
+      "is_pr": true,
+      "closed_at": "2022-01-29T15:37:52+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Remove test suite from setup.py",
+      "number": 2824,
+      "created_at": "2022-01-29T15:40:17+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2824",
+      "html_url": "https://github.com/psf/black/pull/2824",
+      "is_pr": true,
+      "closed_at": "2022-01-29T16:00:59+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-01-29T15:11:26+00:00",
+    "last_updated": "2022-01-29T17:08:11+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
