@@ -1,0 +1,22 @@
+{
+  "name": "ghstats",
+  "version": "1.0.0",
+  "description": "Graphs of issue and pull request data and more!",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npx vite dev",
+    "build": "npx vite build"
+  },
+  "author": "Richard Si",
+  "license": "MIT",
+  "repository": "https://github.com/ichard26/ghstats.github.io",
+  "devDependencies": {
+    "vite": "^2.7.13"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.0",
+    "chartjs-adapter-luxon": "^1.1.0",
+    "chartjs-plugin-zoom": "^1.2.0",
+    "luxon": "^2.3.0"
+  }
+}
