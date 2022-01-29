@@ -30,7 +30,7 @@ def months_between(start_date: date, end_date: date) -> Iterator[datetime]:
     year = start_date.year
     month = start_date.month
 
-    while (year, month) <= (end_date.year, end_date.month):
+    while (year, month) <= (end_date.year, end_date.month + 1):
         yield date(year, month, 1)
         # Move to the next month.  If we're at the end of the year, wrap around
         # to the start of the next.
