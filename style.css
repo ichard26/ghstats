@@ -28,6 +28,12 @@ a {
 .header > h1 { padding: 20px 15px 10px 15px; }
 .header > p { padding: 10px 15px 20px 15px; font-weight: bold; }
 
+.guide-list {
+  width: fit-content;
+  margin: auto;
+  list-style-type: none;
+}
+
 h2 {
   color: var(--secondary-accent-color);
   margin-bottom: 0.4em;
