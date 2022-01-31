@@ -3104,7 +3104,6 @@
       "labels": [
         "T: bug",
         "F: parentheses",
-        "stable",
         "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/236",
@@ -3372,7 +3371,6 @@
       "labels": [
         "T: bug",
         "T: design",
-        "stable",
         "F: strings / docstrings",
         "F: linebreak"
       ],
@@ -4993,9 +4991,8 @@
       "created_at": "2018-06-26T21:46:36+00:00",
       "created_by": "quodlibetor",
       "labels": [
-        "comments",
-        "enhancement",
-        "stable"
+        "T: enhancement",
+        "F: comments"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/379",
       "html_url": "https://github.com/psf/black/issues/379",
@@ -5906,8 +5903,7 @@
       "created_by": "njsmith",
       "labels": [
         "T: design",
-        "F: parentheses",
-        "stable"
+        "F: parentheses"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/449",
       "html_url": "https://github.com/psf/black/issues/449",
@@ -6024,9 +6020,8 @@
       "created_at": "2018-08-17T17:36:57+00:00",
       "created_by": "max-sixty",
       "labels": [
-        "bug",
-        "comments",
-        "stable"
+        "T: bug",
+        "F: comments"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/458",
       "html_url": "https://github.com/psf/black/issues/458",
@@ -7451,7 +7446,8 @@
       "created_by": "WouldYouKindly",
       "labels": [
         "T: design",
-        "F: linebreak"
+        "F: linebreak",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/571",
       "html_url": "https://github.com/psf/black/issues/571",
@@ -8652,9 +8648,7 @@
       "number": 664,
       "created_at": "2019-01-09T11:13:24+00:00",
       "created_by": "mhham",
-      "labels": [
-        "stable"
-      ],
+      "labels": [],
       "url": "https://api.github.com/repos/psf/black/issues/664",
       "html_url": "https://github.com/psf/black/issues/664",
       "is_pr": false,
@@ -9768,9 +9762,8 @@
       "created_at": "2019-03-14T15:20:35+00:00",
       "created_by": "matejbasic",
       "labels": [
-        "F: linebreak",
         "T: design",
-        "stable"
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/749",
       "html_url": "https://github.com/psf/black/issues/749",
@@ -13190,8 +13183,7 @@
       "created_at": "2019-09-10T04:55:52+00:00",
       "created_by": "Zac-HD",
       "labels": [
-        "lib2to3",
-        "stable"
+        "C: blib2to3"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1012",
       "html_url": "https://github.com/psf/black/issues/1012",
@@ -24176,15 +24168,15 @@
       "created_at": "2020-11-11T19:39:48+00:00",
       "created_by": "vmgustavo",
       "labels": [
+        "R: duplicate",
         "T: design",
-        "F: linebreak",
-        "S: needs discussion"
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1816",
       "html_url": "https://github.com/psf/black/issues/1816",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-31T12:14:40+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Unhelpful error message if you forget `# fmt: on` after a `# fmt: off`",
@@ -28844,13 +28836,13 @@
       "closed_by": "ichard26"
     },
     {
-      "title": "multiple fmt:on/off sections around context managers lead to INTERNAL ERROR: Black produced invalid code on pass 1",
+      "title": "fmt: off/on on different indentation levels leads to INTERNAL ERROR: Black produced invalid code on pass 1",
       "number": 2140,
       "created_at": "2021-04-26T11:25:08+00:00",
       "created_by": "mkhl",
       "labels": [
-        "F: fmtoff",
-        "T: bug"
+        "T: bug",
+        "F: fmtoff"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2140",
       "html_url": "https://github.com/psf/black/issues/2140",
@@ -30842,14 +30834,15 @@
       "created_at": "2021-05-30T10:11:59+00:00",
       "created_by": "PeterJCLaw",
       "labels": [
+        "R: duplicate",
         "T: design",
         "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2279",
       "html_url": "https://github.com/psf/black/issues/2279",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-01-31T12:20:26+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Valid toml syntax causes black to crash",
@@ -38674,10 +38667,216 @@
       "is_pr": false,
       "closed_at": "2022-01-30T14:20:37+00:00",
       "closed_by": "felix-hilden"
+    },
+    {
+      "title": "Doing a soft comparison with --required-version instead of a hard one.",
+      "number": 2831,
+      "created_at": "2022-01-30T18:51:11+00:00",
+      "created_by": "freud14",
+      "labels": [
+        "T: enhancement",
+        "C: command line / config",
+        "S: accepted"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2831",
+      "html_url": "https://github.com/psf/black/issues/2831",
+      "is_pr": false,
+      "closed_at": "2022-01-30T21:43:20+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "title": "Soft comparison of --required-version",
+      "number": 2832,
+      "created_at": "2022-01-30T19:21:29+00:00",
+      "created_by": "freud14",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2832",
+      "html_url": "https://github.com/psf/black/pull/2832",
+      "is_pr": true,
+      "closed_at": "2022-01-30T21:42:57+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Adjust `--preview` documentation",
+      "number": 2833,
+      "created_at": "2022-01-30T19:27:46+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2833",
+      "html_url": "https://github.com/psf/black/pull/2833",
+      "is_pr": true,
+      "closed_at": "2022-01-30T19:53:46+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Ignore __pypackages__ directory contents",
+      "number": 2834,
+      "created_at": "2022-01-30T19:41:59+00:00",
+      "created_by": "cachitas",
+      "labels": [
+        "T: enhancement",
+        "S: accepted",
+        "C: file collection"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2834",
+      "html_url": "https://github.com/psf/black/issues/2834",
+      "is_pr": false,
+      "closed_at": "2022-01-30T20:01:56+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "title": "Improve documentation for configuration options",
+      "number": 2835,
+      "created_at": "2022-01-30T19:42:53+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2835",
+      "html_url": "https://github.com/psf/black/issues/2835",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Exclude __pypackages__ by default",
+      "number": 2836,
+      "created_at": "2022-01-30T19:45:36+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2836",
+      "html_url": "https://github.com/psf/black/pull/2836",
+      "is_pr": true,
+      "closed_at": "2022-01-30T20:01:56+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "release process: formalize the changelog template",
+      "number": 2837,
+      "created_at": "2022-01-30T20:17:48+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2837",
+      "html_url": "https://github.com/psf/black/pull/2837",
+      "is_pr": true,
+      "closed_at": "2022-01-30T22:04:06+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Trailing comma incorrectly added in 3.5",
+      "number": 2838,
+      "created_at": "2022-01-30T20:37:53+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "F: trailing comma",
+        "C: parser"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2838",
+      "html_url": "https://github.com/psf/black/issues/2838",
+      "is_pr": false,
+      "closed_at": "2022-01-30T20:38:50+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Document each configuration option in more detail",
+      "number": 2839,
+      "created_at": "2022-01-30T21:50:17+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2839",
+      "html_url": "https://github.com/psf/black/pull/2839",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Make all documentation files .md",
+      "number": 2840,
+      "created_at": "2022-01-30T21:55:51+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2840",
+      "html_url": "https://github.com/psf/black/issues/2840",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Always split \"complex\" comprehensions into multiple lines",
+      "number": 2841,
+      "created_at": "2022-01-31T04:46:55+00:00",
+      "created_by": "freakboy3742",
+      "labels": [
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2841",
+      "html_url": "https://github.com/psf/black/issues/2841",
+      "is_pr": false,
+      "closed_at": "2022-01-31T11:08:49+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "fmt on/off raises internal error when fmt: off in multi-level intended code block",
+      "number": 2842,
+      "created_at": "2022-01-31T08:08:45+00:00",
+      "created_by": "izikeros",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "F: fmtoff"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2842",
+      "html_url": "https://github.com/psf/black/issues/2842",
+      "is_pr": false,
+      "closed_at": "2022-01-31T08:14:01+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "pylint inline comments wrapped to wrong line",
+      "number": 2843,
+      "created_at": "2022-01-31T13:26:54+00:00",
+      "created_by": "drootang",
+      "labels": [
+        "T: bug",
+        "F: comments",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2843",
+      "html_url": "https://github.com/psf/black/issues/2843",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Make required-version accept range of versions",
+      "number": 2844,
+      "created_at": "2022-01-31T14:31:39+00:00",
+      "created_by": "adriantre",
+      "labels": [
+        "R: duplicate",
+        "C: command line / config"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2844",
+      "html_url": "https://github.com/psf/black/issues/2844",
+      "is_pr": false,
+      "closed_at": "2022-01-31T14:35:09+00:00",
+      "closed_by": "felix-hilden"
     }
   ],
   "record": {
-    "last_updated": "2022-01-30T15:11:35+00:00",
+    "last_updated": "2022-01-31T15:12:25+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
