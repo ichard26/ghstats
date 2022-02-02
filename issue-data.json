@@ -7657,14 +7657,15 @@
       "created_at": "2018-10-25T11:49:52+00:00",
       "created_by": "jleclanche",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/587",
       "html_url": "https://github.com/psf/black/issues/587",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-02-01T18:13:43+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "remove dead code",
@@ -11835,14 +11836,15 @@
       "created_at": "2019-06-25T05:23:18+00:00",
       "created_by": "aklajnert",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/908",
       "html_url": "https://github.com/psf/black/issues/908",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-02-01T18:10:28+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Force parentheses between unary op and binary power.",
@@ -13670,14 +13672,15 @@
       "created_at": "2019-10-08T21:11:02+00:00",
       "created_by": "LucidOne",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1050",
       "html_url": "https://github.com/psf/black/issues/1050",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-02-01T18:19:08+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "BUG: extra \" \" inserted when reformatting long string literals",
@@ -14221,14 +14224,15 @@
       "created_at": "2019-10-25T15:13:33+00:00",
       "created_by": "ovidiu-munteanu",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1094",
       "html_url": "https://github.com/psf/black/issues/1094",
       "is_pr": false,
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "felix-hilden"
     },
     {
       "title": "coverage: omit tests/data",
@@ -16435,8 +16439,8 @@
       "created_at": "2020-01-31T15:39:59+00:00",
       "created_by": "MarkusPiotrowski",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1254",
       "html_url": "https://github.com/psf/black/issues/1254",
@@ -22852,14 +22856,15 @@
       "created_at": "2020-09-23T17:04:57+00:00",
       "created_by": "rvinzent",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1723",
       "html_url": "https://github.com/psf/black/issues/1723",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-02-01T18:48:32+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Black's suggested indentation not accepted by pylint",
@@ -35992,13 +35997,15 @@
       "created_at": "2021-11-24T17:12:25+00:00",
       "created_by": "Numerlor",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "R: duplicate",
+        "F: strings / docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2640",
       "html_url": "https://github.com/psf/black/issues/2640",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-02-01T18:06:06+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Assignment to env var in Jupyter Notebook doesn't round-trip",
@@ -36995,13 +37002,14 @@
       "created_at": "2021-12-21T14:00:49+00:00",
       "created_by": "amacfie",
       "labels": [
+        "R: rejected",
         "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2713",
       "html_url": "https://github.com/psf/black/issues/2713",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-02-01T17:59:02+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Define is name token to resolve some `type: ignore`s",
@@ -38226,8 +38234,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2798",
       "html_url": "https://github.com/psf/black/issues/2798",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-02-01T15:24:16+00:00",
+      "closed_by": "itsthejoker"
     },
     {
       "title": "Use parentheses on method access on float and int literals",
@@ -39003,16 +39011,62 @@
       "number": 2853,
       "created_at": "2022-02-01T14:41:31+00:00",
       "created_by": "benknoble",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/2853",
       "html_url": "https://github.com/psf/black/pull/2853",
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Isolate command line tests for notebooks from user-level config",
+      "number": 2854,
+      "created_at": "2022-02-01T15:54:57+00:00",
+      "created_by": "freud14",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2854",
+      "html_url": "https://github.com/psf/black/pull/2854",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Putting our foot down for the Nth time (a.k.a. Indentation IV: electric hullabaloo)",
+      "number": 2855,
+      "created_at": "2022-02-01T17:38:55+00:00",
+      "created_by": "felix-hilden",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2855",
+      "html_url": "https://github.com/psf/black/pull/2855",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Use one line if statement if the line is short enough",
+      "number": 2856,
+      "created_at": "2022-02-01T20:01:44+00:00",
+      "created_by": "thedemons",
+      "labels": [
+        "R: rejected",
+        "T: design",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2856",
+      "html_url": "https://github.com/psf/black/issues/2856",
+      "is_pr": false,
+      "closed_at": "2022-02-01T20:07:13+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-02-01T15:12:08+00:00",
+    "last_updated": "2022-02-02T00:27:03+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
