@@ -39012,6 +39012,7 @@
       "created_at": "2022-02-01T14:41:31+00:00",
       "created_by": "benknoble",
       "labels": [
+        "C: vim",
         "skip news"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/2853",
@@ -39045,7 +39046,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2855",
       "html_url": "https://github.com/psf/black/pull/2855",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-02-02T06:59:43+00:00",
       "closed_by": null
     },
     {
@@ -39063,10 +39064,65 @@
       "is_pr": false,
       "closed_at": "2022-02-01T20:07:13+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Switch out tox for nox",
+      "number": 2857,
+      "created_at": "2022-02-02T01:37:16+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2857",
+      "html_url": "https://github.com/psf/black/pull/2857",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Update description for GitHub Action `options:` argument",
+      "number": 2858,
+      "created_at": "2022-02-02T02:54:11+00:00",
+      "created_by": "magnetikonline",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2858",
+      "html_url": "https://github.com/psf/black/pull/2858",
+      "is_pr": true,
+      "closed_at": "2022-02-02T03:17:45+00:00",
+      "closed_by": null
+    },
+    {
+      "title": ".Delete black.vim",
+      "number": 2859,
+      "created_at": "2022-02-02T04:13:48+00:00",
+      "created_by": "global12958",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2859",
+      "html_url": "https://github.com/psf/black/pull/2859",
+      "is_pr": true,
+      "closed_at": "2022-02-02T04:41:57+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Update file_collection_and_discovery.md",
+      "number": 2860,
+      "created_at": "2022-02-02T09:39:20+00:00",
+      "created_by": "LLyaudet",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2860",
+      "html_url": "https://github.com/psf/black/pull/2860",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-02T00:27:03+00:00",
+    "last_updated": "2022-02-02T15:12:06+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
