@@ -24189,8 +24189,8 @@
       "created_at": "2020-11-13T09:16:34+00:00",
       "created_by": "knatten",
       "labels": [
-        "F: fmtoff",
-        "T: enhancement"
+        "T: enhancement",
+        "F: fmtoff"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1817",
       "html_url": "https://github.com/psf/black/issues/1817",
@@ -39119,10 +39119,67 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Add special config verbose log case when black is using user-level config",
+      "number": 2861,
+      "created_at": "2022-02-02T16:58:05+00:00",
+      "created_by": "Shivansh-007",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2861",
+      "html_url": "https://github.com/psf/black/pull/2861",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Allow black to add a configurable header to source files",
+      "number": 2862,
+      "created_at": "2022-02-02T23:49:08+00:00",
+      "created_by": "jacksonwb",
+      "labels": [
+        "T: enhancement",
+        "S: needs discussion"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2862",
+      "html_url": "https://github.com/psf/black/issues/2862",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black stops looking for config at first pyproject.toml file even if there's no black section in it",
+      "number": 2863,
+      "created_at": "2022-02-03T11:53:01+00:00",
+      "created_by": "slafs",
+      "labels": [
+        "T: enhancement",
+        "C: command line / config"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2863",
+      "html_url": "https://github.com/psf/black/issues/2863",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Disabling black on a long condition of if statement",
+      "number": 2864,
+      "created_at": "2022-02-03T14:27:20+00:00",
+      "created_by": "Akuli",
+      "labels": [
+        "T: bug",
+        "F: fmtoff"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2864",
+      "html_url": "https://github.com/psf/black/issues/2864",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-02T15:12:06+00:00",
+    "last_updated": "2022-02-03T15:12:01+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
