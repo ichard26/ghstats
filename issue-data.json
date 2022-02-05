@@ -39208,10 +39208,41 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "black running on address sanitized Python interpreter crashes",
+      "number": 2867,
+      "created_at": "2022-02-04T16:15:16+00:00",
+      "created_by": "NAThompson",
+      "labels": [
+        "T: bug",
+        "help wanted",
+        "C: installation / packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2867",
+      "html_url": "https://github.com/psf/black/issues/2867",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "INTERNAL ERROR: Black produced code that is not equivalent to the source",
+      "number": 2868,
+      "created_at": "2022-02-05T00:39:17+00:00",
+      "created_by": "szeitlin",
+      "labels": [
+        "T: bug",
+        "C: invalid code"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2868",
+      "html_url": "https://github.com/psf/black/issues/2868",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-04T15:10:28+00:00",
+    "last_updated": "2022-02-05T15:09:41+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
