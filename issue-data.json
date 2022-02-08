@@ -39281,7 +39281,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2871",
       "html_url": "https://github.com/psf/black/pull/2871",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-02-07T15:31:59+00:00",
       "closed_by": null
     },
     {
@@ -39298,10 +39298,53 @@
       "is_pr": false,
       "closed_at": "2022-02-07T12:26:22+00:00",
       "closed_by": "VRGhost"
+    },
+    {
+      "title": "Black 22.1.0 strips some comments",
+      "number": 2873,
+      "created_at": "2022-02-07T15:47:04+00:00",
+      "created_by": "henryiii",
+      "labels": [
+        "T: bug",
+        "C: invalid code",
+        "F: comments"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2873",
+      "html_url": "https://github.com/psf/black/issues/2873",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Copy over comments when hugging power ops ",
+      "number": 2874,
+      "created_at": "2022-02-08T03:32:57+00:00",
+      "created_by": "ichard26",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2874",
+      "html_url": "https://github.com/psf/black/pull/2874",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add Django in 'used by' section in Readme",
+      "number": 2875,
+      "created_at": "2022-02-08T10:23:10+00:00",
+      "created_by": "pauloxnet",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2875",
+      "html_url": "https://github.com/psf/black/pull/2875",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-07T15:12:04+00:00",
+    "last_updated": "2022-02-08T15:12:16+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
