@@ -31540,10 +31540,10 @@
       "created_at": "2021-06-11T09:55:04+00:00",
       "created_by": "mironnn",
       "labels": [
+        "T: bug",
         "F: empty lines",
-        "S: awaiting response",
         "S: needs repro",
-        "T: bug"
+        "S: awaiting response"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2328",
       "html_url": "https://github.com/psf/black/issues/2328",
@@ -39116,7 +39116,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2860",
       "html_url": "https://github.com/psf/black/pull/2860",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-02-11T01:32:55+00:00",
       "closed_by": null
     },
     {
@@ -39264,7 +39264,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2870",
       "html_url": "https://github.com/psf/black/pull/2870",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-02-11T01:31:29+00:00",
       "closed_by": null
     },
     {
@@ -39354,10 +39354,41 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black removes empty lines in fmt:off sections",
+      "number": 2877,
+      "created_at": "2022-02-10T21:58:03+00:00",
+      "created_by": "jreese",
+      "labels": [
+        "T: bug",
+        "F: fmtoff"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2877",
+      "html_url": "https://github.com/psf/black/issues/2877",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black cannot parse multiple unpacking operations in one line",
+      "number": 2878,
+      "created_at": "2022-02-11T08:32:25+00:00",
+      "created_by": "derhintze",
+      "labels": [
+        "T: bug",
+        "C: crash",
+        "C: parser"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2878",
+      "html_url": "https://github.com/psf/black/issues/2878",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-09T15:12:32+00:00",
+    "last_updated": "2022-02-11T15:12:03+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
