@@ -39385,10 +39385,36 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Allow `for`'s target expression to be starred",
+      "number": 2879,
+      "created_at": "2022-02-11T16:20:44+00:00",
+      "created_by": "isidentical",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2879",
+      "html_url": "https://github.com/psf/black/pull/2879",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Enforce formatting at the start of comments",
+      "number": 2880,
+      "created_at": "2022-02-11T18:27:33+00:00",
+      "created_by": "hellocoldworld",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2880",
+      "html_url": "https://github.com/psf/black/issues/2880",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-11T15:12:03+00:00",
+    "last_updated": "2022-02-12T15:11:17+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
