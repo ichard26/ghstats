@@ -39409,12 +39409,28 @@
       "url": "https://api.github.com/repos/psf/black/issues/2880",
       "html_url": "https://github.com/psf/black/issues/2880",
       "is_pr": false,
+      "closed_at": "2022-02-14T13:05:38+00:00",
+      "closed_by": "hellocoldworld"
+    },
+    {
+      "title": "Bump myst-parser from 0.16.1 to 0.17.0 in /docs",
+      "number": 2881,
+      "created_at": "2022-02-14T06:04:18+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2881",
+      "html_url": "https://github.com/psf/black/pull/2881",
+      "is_pr": true,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-12T15:11:17+00:00",
+    "last_updated": "2022-02-14T15:12:12+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
