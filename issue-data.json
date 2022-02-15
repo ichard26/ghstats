@@ -39427,10 +39427,39 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "INTERNAL ERROR: Black produced code that is not equivalent to the source",
+      "number": 2882,
+      "created_at": "2022-02-14T22:06:30+00:00",
+      "created_by": "jreese",
+      "labels": [
+        "T: bug",
+        "F: fmtoff"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2882",
+      "html_url": "https://github.com/psf/black/issues/2882",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black over Language Server Protocol and VS Code extension",
+      "number": 2883,
+      "created_at": "2022-02-15T01:21:10+00:00",
+      "created_by": "karthiknadig",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2883",
+      "html_url": "https://github.com/psf/black/issues/2883",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-14T15:12:12+00:00",
+    "last_updated": "2022-02-15T15:10:58+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
