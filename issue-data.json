@@ -29912,8 +29912,8 @@
       "created_at": "2021-05-10T12:31:38+00:00",
       "created_by": "HarrySky",
       "labels": [
-        "S: accepted",
-        "T: enhancement"
+        "T: enhancement",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2213",
       "html_url": "https://github.com/psf/black/issues/2213",
@@ -38973,8 +38973,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2850",
       "html_url": "https://github.com/psf/black/issues/2850",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-02-21T01:59:36+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Isolate command line tests from user-level config",
@@ -39017,7 +39017,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2853",
       "html_url": "https://github.com/psf/black/pull/2853",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-02-21T01:37:09+00:00",
       "closed_by": null
     },
     {
@@ -39031,7 +39031,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2854",
       "html_url": "https://github.com/psf/black/pull/2854",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-02-21T01:17:01+00:00",
       "closed_by": null
     },
     {
@@ -39128,7 +39128,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2861",
       "html_url": "https://github.com/psf/black/pull/2861",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-02-21T01:59:36+00:00",
       "closed_by": null
     },
     {
@@ -39503,7 +39503,8 @@
       "created_at": "2022-02-20T09:14:50+00:00",
       "created_by": "AIGeneratedUsername",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: empty lines"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2887",
       "html_url": "https://github.com/psf/black/issues/2887",
@@ -39522,12 +39523,71 @@
       "url": "https://api.github.com/repos/psf/black/issues/2888",
       "html_url": "https://github.com/psf/black/issues/2888",
       "is_pr": false,
+      "closed_at": "2022-02-20T22:08:03+00:00",
+      "closed_by": "MarcoGorelli"
+    },
+    {
+      "title": "Format ourselves in preview mode",
+      "number": 2889,
+      "created_at": "2022-02-21T01:46:35+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2889",
+      "html_url": "https://github.com/psf/black/pull/2889",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "separate CHANGELOG section for preview style",
+      "number": 2890,
+      "created_at": "2022-02-21T01:50:59+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2890",
+      "html_url": "https://github.com/psf/black/pull/2890",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "diff-shades: force --preview for PRs and pushes",
+      "number": 2891,
+      "created_at": "2022-02-21T02:22:58+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2891",
+      "html_url": "https://github.com/psf/black/pull/2891",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump furo from 2022.1.2 to 2022.2.14.1 in /docs",
+      "number": 2892,
+      "created_at": "2022-02-21T06:04:05+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2892",
+      "html_url": "https://github.com/psf/black/pull/2892",
+      "is_pr": true,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-20T15:13:05+00:00",
+    "last_updated": "2022-02-21T15:14:37+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
