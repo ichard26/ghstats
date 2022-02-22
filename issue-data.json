@@ -39584,10 +39584,39 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Line too long: Keyword argument",
+      "number": 2893,
+      "created_at": "2022-02-21T20:29:44+00:00",
+      "created_by": "Redjest",
+      "labels": [
+        "T: bug",
+        "F: linetoolong"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2893",
+      "html_url": "https://github.com/psf/black/issues/2893",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Break outer expressions before sub-expressions",
+      "number": 2894,
+      "created_at": "2022-02-22T01:41:45+00:00",
+      "created_by": "ktbarrett",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2894",
+      "html_url": "https://github.com/psf/black/issues/2894",
+      "is_pr": false,
+      "closed_at": "2022-02-22T01:45:37+00:00",
+      "closed_by": "ktbarrett"
     }
   ],
   "record": {
-    "last_updated": "2022-02-21T15:14:37+00:00",
+    "last_updated": "2022-02-22T15:13:47+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
