@@ -21961,8 +21961,8 @@
       "created_at": "2020-08-31T17:33:53+00:00",
       "created_by": "johnthagen",
       "labels": [
-        "documentation",
-        "enhancement"
+        "T: enhancement",
+        "T: documentation"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1660",
       "html_url": "https://github.com/psf/black/issues/1660",
@@ -21976,7 +21976,7 @@
       "created_at": "2020-08-31T19:04:18+00:00",
       "created_by": "jdufresne",
       "labels": [
-        "documentation"
+        "T: documentation"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/1661",
       "html_url": "https://github.com/psf/black/pull/1661",
@@ -39616,7 +39616,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-02-22T15:13:47+00:00",
+    "last_updated": "2022-02-23T15:13:41+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
