@@ -39665,10 +39665,41 @@
       "is_pr": true,
       "closed_at": "2022-02-27T03:10:16+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Bump furo from 2022.2.14.1 to 2022.2.23 in /docs",
+      "number": 2899,
+      "created_at": "2022-02-28T06:04:58+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2899",
+      "html_url": "https://github.com/psf/black/pull/2899",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Remove unnecessary brackets around function parameters",
+      "number": 2900,
+      "created_at": "2022-02-28T13:32:52+00:00",
+      "created_by": "saroad2",
+      "labels": [
+        "T: design",
+        "F: parentheses"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2900",
+      "html_url": "https://github.com/psf/black/issues/2900",
+      "is_pr": false,
+      "closed_at": "2022-02-28T14:57:05+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-02-27T15:12:42+00:00",
+    "last_updated": "2022-02-28T15:13:55+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
