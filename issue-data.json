@@ -39651,8 +39651,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2897",
       "html_url": "https://github.com/psf/black/issues/2897",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-01T04:13:35+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Pycln QA tool as a pre-commit hook.",
@@ -39696,10 +39696,24 @@
       "is_pr": false,
       "closed_at": "2022-02-28T14:57:05+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "README: fix \"Pragmatism\" link target",
+      "number": 2901,
+      "created_at": "2022-03-01T04:02:22+00:00",
+      "created_by": "hauntsaninja",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2901",
+      "html_url": "https://github.com/psf/black/pull/2901",
+      "is_pr": true,
+      "closed_at": "2022-03-01T04:13:35+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-02-28T15:13:55+00:00",
+    "last_updated": "2022-03-01T15:13:32+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
