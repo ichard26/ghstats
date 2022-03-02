@@ -11757,8 +11757,8 @@
       "created_at": "2019-06-23T08:54:28+00:00",
       "created_by": "rogalski",
       "labels": [
-        "design",
-        "empty lines"
+        "T: design",
+        "F: empty lines"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/902",
       "html_url": "https://github.com/psf/black/issues/902",
@@ -29552,14 +29552,15 @@
       "created_at": "2021-05-04T00:11:41+00:00",
       "created_by": "ggoodvin-fincad",
       "labels": [
-        "F: empty lines",
-        "T: design"
+        "R: duplicate",
+        "T: design",
+        "F: empty lines"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2189",
       "html_url": "https://github.com/psf/black/issues/2189",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-01T16:06:02+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Add test configuration that doesn't contain python2 optional install",
@@ -39503,14 +39504,15 @@
       "created_at": "2022-02-20T09:14:50+00:00",
       "created_by": "AIGeneratedUsername",
       "labels": [
+        "R: duplicate",
         "T: design",
         "F: empty lines"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2887",
       "html_url": "https://github.com/psf/black/issues/2887",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-01T16:08:38+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Return code 1 when reformatting files",
@@ -39710,10 +39712,25 @@
       "is_pr": true,
       "closed_at": "2022-03-01T04:13:35+00:00",
       "closed_by": null
+    },
+    {
+      "title": "StringToNumberOp could not correctly convert string when we train the NERC Keras model",
+      "number": 2902,
+      "created_at": "2022-03-02T06:08:24+00:00",
+      "created_by": "martingaudio94",
+      "labels": [
+        "T: bug",
+        "R: invalid"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2902",
+      "html_url": "https://github.com/psf/black/issues/2902",
+      "is_pr": false,
+      "closed_at": "2022-03-02T06:10:20+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-03-01T15:13:32+00:00",
+    "last_updated": "2022-03-02T15:13:22+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
