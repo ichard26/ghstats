@@ -39761,12 +39761,12 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2905",
       "html_url": "https://github.com/psf/black/pull/2905",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-03T17:29:49+00:00",
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-03T15:13:13+00:00",
+    "last_updated": "2022-03-04T15:13:54+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
