@@ -16911,8 +16911,7 @@
       "created_at": "2020-03-03T10:07:42+00:00",
       "created_by": "ambv",
       "labels": [
-        "bug",
-        "stable"
+        "T: bug"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1288",
       "html_url": "https://github.com/psf/black/issues/1288",
@@ -39886,10 +39885,24 @@
       "is_pr": false,
       "closed_at": "2022-03-09T06:51:52+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "pylint checks seem to no longer exist?",
+      "number": 2914,
+      "created_at": "2022-03-09T17:03:21+00:00",
+      "created_by": "alkatar21",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2914",
+      "html_url": "https://github.com/psf/black/issues/2914",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-09T15:13:13+00:00",
+    "last_updated": "2022-03-10T15:14:28+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
