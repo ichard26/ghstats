@@ -39787,7 +39787,9 @@
       "created_by": "Zac-HD",
       "labels": [
         "T: enhancement",
-        "C: parser"
+        "S: accepted",
+        "C: parser",
+        "C: target version"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2907",
       "html_url": "https://github.com/psf/black/issues/2907",
@@ -39899,10 +39901,26 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Horizontally align quotes in multi-line f-string breaks",
+      "number": 2915,
+      "created_at": "2022-03-11T18:05:19+00:00",
+      "created_by": "ajoino",
+      "labels": [
+        "T: design",
+        "F: strings / docstrings",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2915",
+      "html_url": "https://github.com/psf/black/issues/2915",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-11T15:13:23+00:00",
+    "last_updated": "2022-03-12T15:12:45+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
