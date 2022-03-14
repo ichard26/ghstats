@@ -39929,10 +39929,63 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "`#fmt:skip` causes NTERNAL ERROR: Black produced different code on the second pass of the formatter",
+      "number": 2917,
+      "created_at": "2022-03-13T17:46:48+00:00",
+      "created_by": "ewahl-al",
+      "labels": [
+        "T: bug",
+        "F: fmtskip"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2917",
+      "html_url": "https://github.com/psf/black/issues/2917",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Avoid magic-trailing-comma newline in `tuple[int,]`, like tuple literal `(1,)`",
+      "number": 2918,
+      "created_at": "2022-03-14T01:03:53+00:00",
+      "created_by": "Zac-HD",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2918",
+      "html_url": "https://github.com/psf/black/issues/2918",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "dont skip formatting #%%",
+      "number": 2919,
+      "created_at": "2022-03-14T09:54:05+00:00",
+      "created_by": "MarcoGorelli",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2919",
+      "html_url": "https://github.com/psf/black/pull/2919",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Unexpected formatting of subscript fluent interface",
+      "number": 2920,
+      "created_at": "2022-03-14T11:16:28+00:00",
+      "created_by": "petersaalbrink",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/2920",
+      "html_url": "https://github.com/psf/black/issues/2920",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-13T15:12:46+00:00",
+    "last_updated": "2022-03-14T15:14:43+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
