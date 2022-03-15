@@ -39976,16 +39976,64 @@
       "number": 2920,
       "created_at": "2022-03-14T11:16:28+00:00",
       "created_by": "petersaalbrink",
-      "labels": [],
+      "labels": [
+        "F: linebreak"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/2920",
       "html_url": "https://github.com/psf/black/issues/2920",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Drop redundant parenthesis in `with` statement",
+      "number": 2921,
+      "created_at": "2022-03-14T15:28:24+00:00",
+      "created_by": "intgr",
+      "labels": [
+        "T: bug",
+        "F: parentheses",
+        "S: accepted"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2921",
+      "html_url": "https://github.com/psf/black/issues/2921",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump mypy, flake8 and pre-commit-hooks in pre-commit",
+      "number": 2922,
+      "created_at": "2022-03-14T23:10:03+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2922",
+      "html_url": "https://github.com/psf/black/pull/2922",
+      "is_pr": true,
+      "closed_at": "2022-03-14T23:41:46+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "INTERNAL ERROR: Black produced different code on the second pass of the formatter.",
+      "number": 2923,
+      "created_at": "2022-03-15T01:39:58+00:00",
+      "created_by": "RandyMcMillan",
+      "labels": [
+        "T: bug",
+        "C: unstable formatting"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2923",
+      "html_url": "https://github.com/psf/black/issues/2923",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-14T15:14:43+00:00",
+    "last_updated": "2022-03-15T15:13:39+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
