@@ -29618,8 +29618,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2193",
       "html_url": "https://github.com/psf/black/issues/2193",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-15T19:57:59+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "title": "Primer: Rethink expected changes logic + configuration",
@@ -38546,8 +38546,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2821",
       "html_url": "https://github.com/psf/black/issues/2821",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-15T19:57:59+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "title": "Add a test case to torture.py",
@@ -39894,6 +39894,7 @@
       "created_at": "2022-03-09T17:03:21+00:00",
       "created_by": "alkatar21",
       "labels": [
+        "good first issue",
         "T: documentation"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2914",
@@ -40023,17 +40024,158 @@
       "created_by": "RandyMcMillan",
       "labels": [
         "T: bug",
-        "C: unstable formatting"
+        "C: unstable formatting",
+        "R: outdated"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2923",
       "html_url": "https://github.com/psf/black/issues/2923",
       "is_pr": false,
+      "closed_at": "2022-03-15T16:46:02+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "title": "Farewell black-primer, it was nice knowing you",
+      "number": 2924,
+      "created_at": "2022-03-15T16:36:48+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2924",
+      "html_url": "https://github.com/psf/black/pull/2924",
+      "is_pr": true,
+      "closed_at": "2022-03-15T19:58:00+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Does flake8 still ignore W503 by default?",
+      "number": 2925,
+      "created_at": "2022-03-15T16:58:58+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "good first issue",
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2925",
+      "html_url": "https://github.com/psf/black/issues/2925",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Remove unnecessary parentheses from `with` statements",
+      "number": 2926,
+      "created_at": "2022-03-15T17:35:27+00:00",
+      "created_by": "jpy-git",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2926",
+      "html_url": "https://github.com/psf/black/pull/2926",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "legecy install failure",
+      "number": 2927,
+      "created_at": "2022-03-15T20:11:13+00:00",
+      "created_by": "Drr1122",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2927",
+      "html_url": "https://github.com/psf/black/issues/2927",
+      "is_pr": false,
+      "closed_at": "2022-03-15T20:13:02+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Remove power hugging formatting from preview ",
+      "number": 2928,
+      "created_at": "2022-03-16T00:35:28+00:00",
+      "created_by": "Shivansh-007",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2928",
+      "html_url": "https://github.com/psf/black/pull/2928",
+      "is_pr": true,
+      "closed_at": "2022-03-16T03:13:56+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Add support for user git ignore configuration file.",
+      "number": 2929,
+      "created_at": "2022-03-16T02:29:49+00:00",
+      "created_by": "hardkrash",
+      "labels": [
+        "T: enhancement",
+        "C: command line / config",
+        "C: file collection"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2929",
+      "html_url": "https://github.com/psf/black/issues/2929",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Addition of `isort` to our dev toolchain",
+      "number": 2930,
+      "created_at": "2022-03-16T09:53:26+00:00",
+      "created_by": "Shivansh-007",
+      "labels": [
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2930",
+      "html_url": "https://github.com/psf/black/issues/2930",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Update pylint config docs",
+      "number": 2931,
+      "created_at": "2022-03-16T10:38:50+00:00",
+      "created_by": "jpy-git",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2931",
+      "html_url": "https://github.com/psf/black/pull/2931",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "G",
+      "number": 2933,
+      "created_at": "2022-03-16T14:12:37+00:00",
+      "created_by": "Ieatemptiness",
+      "labels": [
+        "R: invalid"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2933",
+      "html_url": "https://github.com/psf/black/issues/2933",
+      "is_pr": false,
+      "closed_at": "2022-03-16T14:22:27+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "mount",
+      "number": 2934,
+      "created_at": "2022-03-16T14:58:39+00:00",
+      "created_by": "SUDDSDUDDS",
+      "labels": [
+        "R: invalid",
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2934",
+      "html_url": "https://github.com/psf/black/issues/2934",
+      "is_pr": false,
+      "closed_at": "2022-03-16T15:11:56+00:00",
+      "closed_by": "ichard26"
     }
   ],
   "record": {
-    "last_updated": "2022-03-15T15:13:39+00:00",
+    "last_updated": "2022-03-16T15:13:44+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
