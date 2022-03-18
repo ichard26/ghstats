@@ -27965,7 +27965,7 @@
       "url": "https://api.github.com/repos/psf/black/issues/2079",
       "html_url": "https://github.com/psf/black/issues/2079",
       "is_pr": false,
-      "closed_at": null,
+      "closed_at": "2022-03-18T12:59:14+00:00",
       "closed_by": "JelleZijlstra"
     },
     {
@@ -34567,13 +34567,15 @@
       "created_at": "2021-10-14T21:08:56+00:00",
       "created_by": "myw",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "R: duplicate",
+        "F: fmtskip"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2539",
       "html_url": "https://github.com/psf/black/issues/2539",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-17T08:50:10+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Crash on fmt:skip with comment inside argument list",
@@ -36079,7 +36081,9 @@
       "created_at": "2021-11-26T10:51:00+00:00",
       "created_by": "dansebcar",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: unstable formatting",
+        "F: fmtskip"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2646",
       "html_url": "https://github.com/psf/black/issues/2646",
@@ -36552,7 +36556,7 @@
       "html_url": "https://github.com/psf/black/issues/2681",
       "is_pr": false,
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "avatar-lavventura"
     },
     {
       "title": "# fmt skip internal error fix (space between # and f)",
@@ -39900,8 +39904,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2914",
       "html_url": "https://github.com/psf/black/issues/2914",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-16T17:00:30+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Horizontally align quotes in multi-line f-string breaks",
@@ -40141,7 +40145,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2931",
       "html_url": "https://github.com/psf/black/pull/2931",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-16T17:00:30+00:00",
       "closed_by": null
     },
     {
@@ -40172,10 +40176,68 @@
       "is_pr": false,
       "closed_at": "2022-03-16T15:11:56+00:00",
       "closed_by": "ichard26"
+    },
+    {
+      "title": "\"# fmt: skip\" does not work defined function",
+      "number": 2936,
+      "created_at": "2022-03-17T13:48:27+00:00",
+      "created_by": "rpvdkley",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "C: unstable formatting",
+        "F: fmtskip"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2936",
+      "html_url": "https://github.com/psf/black/issues/2936",
+      "is_pr": false,
+      "closed_at": "2022-03-17T14:16:35+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "Remove redundant brackets from `except` clause",
+      "number": 2937,
+      "created_at": "2022-03-17T23:44:37+00:00",
+      "created_by": "jpy-git",
+      "labels": [
+        "T: enhancement",
+        "F: parentheses"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2937",
+      "html_url": "https://github.com/psf/black/issues/2937",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Future style for stub file docstrings that use C/C++ extensions",
+      "number": 2938,
+      "created_at": "2022-03-18T13:45:19+00:00",
+      "created_by": "bkolligs",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2938",
+      "html_url": "https://github.com/psf/black/issues/2938",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Remove unnecessary parentheses from `except` clauses",
+      "number": 2939,
+      "created_at": "2022-03-18T14:42:45+00:00",
+      "created_by": "jpy-git",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2939",
+      "html_url": "https://github.com/psf/black/pull/2939",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-16T15:13:44+00:00",
+    "last_updated": "2022-03-18T15:13:27+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
