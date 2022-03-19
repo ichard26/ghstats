@@ -40201,7 +40201,8 @@
       "created_by": "jpy-git",
       "labels": [
         "T: enhancement",
-        "F: parentheses"
+        "F: parentheses",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2937",
       "html_url": "https://github.com/psf/black/issues/2937",
@@ -40234,10 +40235,51 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "stub style: remove some possible future changes",
+      "number": 2940,
+      "created_at": "2022-03-18T15:33:37+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2940",
+      "html_url": "https://github.com/psf/black/pull/2940",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add ISort",
+      "number": 2941,
+      "created_at": "2022-03-18T16:18:21+00:00",
+      "created_by": "Shivansh-007",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2941",
+      "html_url": "https://github.com/psf/black/pull/2941",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Avoid magic-trailing-comma in single-element subscripts",
+      "number": 2942,
+      "created_at": "2022-03-18T17:10:00+00:00",
+      "created_by": "jpy-git",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2942",
+      "html_url": "https://github.com/psf/black/pull/2942",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-18T15:13:27+00:00",
+    "last_updated": "2022-03-19T15:13:07+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
