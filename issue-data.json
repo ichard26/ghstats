@@ -31700,8 +31700,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2338",
       "html_url": "https://github.com/psf/black/issues/2338",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-24T14:59:54+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "fmt: skip removes a comment-only line before it",
@@ -39561,7 +39561,7 @@
       "closed_by": null
     },
     {
-      "title": "diff-shades: force --preview for PRs and pushes",
+      "title": "Overhaul diff-shades integration to fail on stable changes and preview changes for all projects ",
       "number": 2891,
       "created_at": "2022-02-21T02:22:58+00:00",
       "created_by": "ichard26",
@@ -39961,8 +39961,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2918",
       "html_url": "https://github.com/psf/black/issues/2918",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-24T02:16:10+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "dont skip formatting #%%",
@@ -40274,7 +40274,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2942",
       "html_url": "https://github.com/psf/black/pull/2942",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-24T02:16:10+00:00",
       "closed_by": null
     },
     {
@@ -40318,7 +40318,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2945",
       "html_url": "https://github.com/psf/black/pull/2945",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-24T14:59:55+00:00",
       "closed_by": null
     },
     {
@@ -40364,12 +40364,41 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2948",
       "html_url": "https://github.com/psf/black/pull/2948",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-23T17:42:32+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Resolve new flake8 errors thanks to recent flake8-bugbear feature releases",
+      "number": 2949,
+      "created_at": "2022-03-24T02:19:34+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "good first issue",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2949",
+      "html_url": "https://github.com/psf/black/issues/2949",
+      "is_pr": false,
+      "closed_at": "2022-03-24T15:14:21+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "title": "Resolve new flake8-bugbear errors (B020)",
+      "number": 2950,
+      "created_at": "2022-03-24T09:59:10+00:00",
+      "created_by": "jpy-git",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2950",
+      "html_url": "https://github.com/psf/black/pull/2950",
+      "is_pr": true,
+      "closed_at": "2022-03-24T15:14:22+00:00",
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-23T15:14:09+00:00",
+    "last_updated": "2022-03-24T15:14:29+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
