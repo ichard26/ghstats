@@ -39572,7 +39572,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2891",
       "html_url": "https://github.com/psf/black/pull/2891",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-24T19:38:35+00:00",
       "closed_by": null
     },
     {
@@ -40395,10 +40395,70 @@
       "is_pr": true,
       "closed_at": "2022-03-24T15:14:22+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Overhaul diff-shades integration to fail on stable changes and preview changes for all projects",
+      "number": 2951,
+      "created_at": "2022-03-24T19:38:19+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2951",
+      "html_url": "https://github.com/psf/black/pull/2951",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Removing multiple unnecessary parenthesizes for for assignment targes is unstable",
+      "number": 2952,
+      "created_at": "2022-03-24T22:08:06+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "T: bug",
+        "C: unstable formatting",
+        "F: parentheses"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2952",
+      "html_url": "https://github.com/psf/black/issues/2952",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Remove for brackets: Extra unit test",
+      "number": 2953,
+      "created_at": "2022-03-24T23:13:45+00:00",
+      "created_by": "jpy-git",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2953",
+      "html_url": "https://github.com/psf/black/pull/2953",
+      "is_pr": true,
+      "closed_at": "2022-03-25T08:58:40+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Sensible minimum number of char width \"won back\" before indentation used.",
+      "number": 2954,
+      "created_at": "2022-03-25T08:56:37+00:00",
+      "created_by": "mangelozzi",
+      "labels": [
+        "T: design",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2954",
+      "html_url": "https://github.com/psf/black/issues/2954",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-24T15:14:29+00:00",
+    "last_updated": "2022-03-25T15:13:37+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
