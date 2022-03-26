@@ -40448,17 +40448,76 @@
       "created_by": "mangelozzi",
       "labels": [
         "T: design",
-        "F: linebreak"
+        "F: linebreak",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2954",
       "html_url": "https://github.com/psf/black/issues/2954",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black fails of CMake macros",
+      "number": 2955,
+      "created_at": "2022-03-25T15:27:17+00:00",
+      "created_by": "InnocentBug",
+      "labels": [
+        "T: enhancement",
+        "R: rejected",
+        "C: parser"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2955",
+      "html_url": "https://github.com/psf/black/issues/2955",
+      "is_pr": false,
+      "closed_at": "2022-03-25T16:10:29+00:00",
+      "closed_by": "InnocentBug"
+    },
+    {
+      "title": "Avoid split strings in a single line.",
+      "number": 2956,
+      "created_at": "2022-03-26T08:51:47+00:00",
+      "created_by": "mvaled",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2956",
+      "html_url": "https://github.com/psf/black/issues/2956",
+      "is_pr": false,
+      "closed_at": "2022-03-26T12:05:22+00:00",
+      "closed_by": "mvaled"
+    },
+    {
+      "title": "Remove underscores in numeric literals",
+      "number": 2957,
+      "created_at": "2022-03-26T12:05:47+00:00",
+      "created_by": "jpy-git",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2957",
+      "html_url": "https://github.com/psf/black/issues/2957",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Brackets around lambda expressions in functions",
+      "number": 2958,
+      "created_at": "2022-03-26T12:57:09+00:00",
+      "created_by": "jpy-git",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2958",
+      "html_url": "https://github.com/psf/black/issues/2958",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-25T15:13:37+00:00",
+    "last_updated": "2022-03-26T15:13:29+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
