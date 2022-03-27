@@ -8650,7 +8650,12 @@
       "number": 664,
       "created_at": "2019-01-09T11:13:24+00:00",
       "created_by": "mhham",
-      "labels": [],
+      "labels": [
+        "T: design",
+        "F: parentheses",
+        "S: accepted",
+        "C: target version"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/664",
       "html_url": "https://github.com/psf/black/issues/664",
       "is_pr": false,
@@ -38997,7 +39002,7 @@
       "closed_by": null
     },
     {
-      "title": "Convert `index.rst` and `lisence.rst` to markdown",
+      "title": "Convert `index.rst` and `license.rst` to markdown",
       "number": 2852,
       "created_at": "2022-02-01T13:15:54+00:00",
       "created_by": "gunungpw",
@@ -40207,8 +40212,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2937",
       "html_url": "https://github.com/psf/black/issues/2937",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-26T16:56:50+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Future style for stub file docstrings that use C/C++ extensions",
@@ -40233,7 +40238,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2939",
       "html_url": "https://github.com/psf/black/pull/2939",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-26T16:56:50+00:00",
       "closed_by": null
     },
     {
@@ -40408,7 +40413,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2951",
       "html_url": "https://github.com/psf/black/pull/2951",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-26T21:22:38+00:00",
       "closed_by": null
     },
     {
@@ -40479,7 +40484,8 @@
       "created_at": "2022-03-26T08:51:47+00:00",
       "created_by": "mvaled",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: strings / docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2956",
       "html_url": "https://github.com/psf/black/issues/2956",
@@ -40493,13 +40499,14 @@
       "created_at": "2022-03-26T12:05:47+00:00",
       "created_by": "jpy-git",
       "labels": [
-        "T: enhancement"
+        "R: rejected",
+        "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2957",
       "html_url": "https://github.com/psf/black/issues/2957",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-26T21:28:28+00:00",
+      "closed_by": "jpy-git"
     },
     {
       "title": "Brackets around lambda expressions in functions",
@@ -40507,7 +40514,8 @@
       "created_at": "2022-03-26T12:57:09+00:00",
       "created_by": "jpy-git",
       "labels": [
-        "T: enhancement"
+        "T: design",
+        "F: parentheses"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2958",
       "html_url": "https://github.com/psf/black/issues/2958",
@@ -40517,7 +40525,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-03-26T15:13:29+00:00",
+    "last_updated": "2022-03-27T15:12:58+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
