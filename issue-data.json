@@ -40536,7 +40536,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2959",
       "html_url": "https://github.com/psf/black/pull/2959",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-28T17:21:13+00:00",
       "closed_by": null
     },
     {
@@ -40581,12 +40581,162 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2962",
       "html_url": "https://github.com/psf/black/pull/2962",
       "is_pr": true,
+      "closed_at": "2022-03-29T01:42:53+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "black fails due to _unicodefun",
+      "number": 2963,
+      "created_at": "2022-03-28T17:59:09+00:00",
+      "created_by": "NAThompson",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "C: installation / packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2963",
+      "html_url": "https://github.com/psf/black/issues/2963",
+      "is_pr": false,
+      "closed_at": "2022-03-28T18:06:15+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Incompatible with click 8.1.0 (ImportError: cannot import name '_unicodefun' from 'click')",
+      "number": 2964,
+      "created_at": "2022-03-28T17:59:10+00:00",
+      "created_by": "stumpylog",
+      "labels": [
+        "T: bug",
+        "C: installation / packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2964",
+      "html_url": "https://github.com/psf/black/issues/2964",
+      "is_pr": false,
+      "closed_at": "2022-03-28T19:01:13+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Pin click between 8.0.0 and 8.0.4 as 8.1.0 drops Python 3.6",
+      "number": 2965,
+      "created_at": "2022-03-28T18:07:55+00:00",
+      "created_by": "ichard26",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2965",
+      "html_url": "https://github.com/psf/black/pull/2965",
+      "is_pr": true,
+      "closed_at": "2022-03-28T18:51:57+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Fix _unicodefun patch code for Click 8.1.0",
+      "number": 2966,
+      "created_at": "2022-03-28T18:30:55+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2966",
+      "html_url": "https://github.com/psf/black/pull/2966",
+      "is_pr": true,
+      "closed_at": "2022-03-28T19:01:13+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Remove usage of _unicodefun module from dependency: 'click'",
+      "number": 2967,
+      "created_at": "2022-03-28T18:37:01+00:00",
+      "created_by": "bcrant",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2967",
+      "html_url": "https://github.com/psf/black/pull/2967",
+      "is_pr": true,
+      "closed_at": "2022-03-28T18:38:36+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Prepare release 22.3.0",
+      "number": 2968,
+      "created_at": "2022-03-28T19:04:37+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2968",
+      "html_url": "https://github.com/psf/black/pull/2968",
+      "is_pr": true,
+      "closed_at": "2022-03-28T19:08:29+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Bug using a previous click version",
+      "number": 2969,
+      "created_at": "2022-03-28T19:12:29+00:00",
+      "created_by": "nidhaloff",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "C: installation / packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2969",
+      "html_url": "https://github.com/psf/black/issues/2969",
+      "is_pr": false,
+      "closed_at": "2022-03-28T19:12:54+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Correctly handle fmt skip comments without internal spaces",
+      "number": 2970,
+      "created_at": "2022-03-28T20:09:15+00:00",
+      "created_by": "siuryan",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2970",
+      "html_url": "https://github.com/psf/black/pull/2970",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Address breakage of our test suite *before* aiohttp 4.0.0 goes out of alpha",
+      "number": 2971,
+      "created_at": "2022-03-29T00:35:48+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "help wanted",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2971",
+      "html_url": "https://github.com/psf/black/issues/2971",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Issue with click library upgrade",
+      "number": 2972,
+      "created_at": "2022-03-29T15:09:28+00:00",
+      "created_by": "cormaza",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2972",
+      "html_url": "https://github.com/psf/black/issues/2972",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "[FIX] update setup.py for click library upgrade",
+      "number": 2973,
+      "created_at": "2022-03-29T15:13:45+00:00",
+      "created_by": "cormaza",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2973",
+      "html_url": "https://github.com/psf/black/pull/2973",
+      "is_pr": true,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-28T15:13:46+00:00",
+    "last_updated": "2022-03-29T15:14:08+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
