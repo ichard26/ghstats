@@ -40714,13 +40714,15 @@
       "created_at": "2022-03-29T15:09:28+00:00",
       "created_by": "cormaza",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "R: duplicate",
+        "C: installation / packaging"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2972",
       "html_url": "https://github.com/psf/black/issues/2972",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-29T15:41:13+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "[FIX] update setup.py for click library upgrade",
@@ -40731,12 +40733,70 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2973",
       "html_url": "https://github.com/psf/black/pull/2973",
       "is_pr": true,
+      "closed_at": "2022-03-29T15:40:49+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Keep tests working w/ upcoming aiohttp 4.0.0",
+      "number": 2974,
+      "created_at": "2022-03-29T21:51:14+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2974",
+      "html_url": "https://github.com/psf/black/pull/2974",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Docker images use a user install of Black so don't work when running as another user",
+      "number": 2975,
+      "created_at": "2022-03-30T04:09:05+00:00",
+      "created_by": "RoryDungan",
+      "labels": [
+        "T: bug",
+        "C: installation / packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2975",
+      "html_url": "https://github.com/psf/black/issues/2975",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "ImportError: cannot import name '_unicodefun' from 'click'",
+      "number": 2976,
+      "created_at": "2022-03-30T06:34:52+00:00",
+      "created_by": "enaskopelja",
+      "labels": [
+        "T: bug",
+        "R: duplicate"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2976",
+      "html_url": "https://github.com/psf/black/issues/2976",
+      "is_pr": false,
+      "closed_at": "2022-03-30T08:12:17+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "Space inserted between function calls and colons within list comprehensions",
+      "number": 2978,
+      "created_at": "2022-03-30T14:17:35+00:00",
+      "created_by": "aeftimia",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2978",
+      "html_url": "https://github.com/psf/black/issues/2978",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-29T15:14:08+00:00",
+    "last_updated": "2022-03-30T15:14:06+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
