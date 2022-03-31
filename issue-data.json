@@ -19006,7 +19006,7 @@
       "created_at": "2020-05-21T18:46:52+00:00",
       "created_by": "xxiang4",
       "labels": [
-        "design"
+        "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1443",
       "html_url": "https://github.com/psf/black/issues/1443",
@@ -33926,7 +33926,7 @@
       "created_at": "2021-09-13T14:53:07+00:00",
       "created_by": "spookylukey",
       "labels": [
-        "T: bug",
+        "T: documentation",
         "C: integrations",
         "C: command line / config"
       ],
@@ -38828,8 +38828,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2840",
       "html_url": "https://github.com/psf/black/issues/2840",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-30T20:43:46+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Always split \"complex\" comprehensions into multiple lines",
@@ -39012,7 +39012,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2852",
       "html_url": "https://github.com/psf/black/pull/2852",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-30T20:43:46+00:00",
       "closed_by": null
     },
     {
@@ -40705,8 +40705,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2971",
       "html_url": "https://github.com/psf/black/issues/2971",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-03-30T20:40:51+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Issue with click library upgrade",
@@ -40747,7 +40747,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2974",
       "html_url": "https://github.com/psf/black/pull/2974",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-03-30T20:40:51+00:00",
       "closed_by": null
     },
     {
@@ -40786,17 +40786,58 @@
       "created_at": "2022-03-30T14:17:35+00:00",
       "created_by": "aeftimia",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "R: not a bug"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2978",
       "html_url": "https://github.com/psf/black/issues/2978",
       "is_pr": false,
+      "closed_at": "2022-03-30T15:44:31+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Remove click pin in diff-shades workflow",
+      "number": 2979,
+      "created_at": "2022-03-30T20:21:55+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2979",
+      "html_url": "https://github.com/psf/black/pull/2979",
+      "is_pr": true,
+      "closed_at": "2022-03-30T21:33:16+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Add # type: ignore for click._unicodefun import",
+      "number": 2981,
+      "created_at": "2022-03-30T20:39:06+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2981",
+      "html_url": "https://github.com/psf/black/pull/2981",
+      "is_pr": true,
+      "closed_at": "2022-03-30T21:01:03+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Update FAQ: Mention formatting of custom jupyter cell magic",
+      "number": 2982,
+      "created_at": "2022-03-31T06:31:31+00:00",
+      "created_by": "kolibril13",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2982",
+      "html_url": "https://github.com/psf/black/pull/2982",
+      "is_pr": true,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-30T15:14:06+00:00",
+    "last_updated": "2022-03-31T15:14:33+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
