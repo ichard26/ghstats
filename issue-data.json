@@ -40834,10 +40834,69 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Python 3.11 ModuleNotFoundError: No module named 'tomllib'",
+      "number": 2983,
+      "created_at": "2022-03-31T20:46:08+00:00",
+      "created_by": "PerchunPak",
+      "labels": [
+        "T: bug",
+        "C: installation / packaging",
+        "C: dependencies"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2983",
+      "html_url": "https://github.com/psf/black/issues/2983",
+      "is_pr": false,
+      "closed_at": "2022-03-31T20:48:57+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Still getting `ImportError: cannot import name '_unicodefun' from 'click'` with `=black-22.3.0`",
+      "number": 2984,
+      "created_at": "2022-03-31T22:19:25+00:00",
+      "created_by": "TheChymera",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2984",
+      "html_url": "https://github.com/psf/black/issues/2984",
+      "is_pr": false,
+      "closed_at": "2022-03-31T22:41:50+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Using 'fmt: off/on' can cause black to fail if there's an unindent in between.",
+      "number": 2985,
+      "created_at": "2022-04-01T07:43:15+00:00",
+      "created_by": "mvaled",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2985",
+      "html_url": "https://github.com/psf/black/issues/2985",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Style question: Should comments count against the line-breaking of non-comments on the same line?",
+      "number": 2986,
+      "created_at": "2022-04-01T09:22:49+00:00",
+      "created_by": "LuminairPrime",
+      "labels": [
+        "T: design",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2986",
+      "html_url": "https://github.com/psf/black/issues/2986",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-03-31T15:14:33+00:00",
+    "last_updated": "2022-04-01T15:14:33+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
