@@ -40008,8 +40008,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2921",
       "html_url": "https://github.com/psf/black/issues/2921",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-03T03:27:34+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Bump mypy, flake8 and pre-commit-hooks in pre-commit",
@@ -40080,7 +40080,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2926",
       "html_url": "https://github.com/psf/black/pull/2926",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-03T03:27:34+00:00",
       "closed_by": null
     },
     {
@@ -40429,8 +40429,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2952",
       "html_url": "https://github.com/psf/black/issues/2952",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-03T03:27:34+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Remove for brackets: Extra unit test",
@@ -40551,7 +40551,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2960",
       "html_url": "https://github.com/psf/black/pull/2960",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-02T15:22:53+00:00",
       "closed_by": null
     },
     {
@@ -40566,7 +40566,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2961",
       "html_url": "https://github.com/psf/black/pull/2961",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-02T15:23:08+00:00",
       "closed_by": null
     },
     {
@@ -40828,7 +40828,9 @@
       "number": 2982,
       "created_at": "2022-03-31T06:31:31+00:00",
       "created_by": "kolibril13",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/2982",
       "html_url": "https://github.com/psf/black/pull/2982",
       "is_pr": true,
@@ -40903,7 +40905,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2987",
       "html_url": "https://github.com/psf/black/pull/2987",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-02T15:29:32+00:00",
       "closed_by": null
     },
     {
@@ -40921,10 +40923,36 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Fix broken link in README.md",
+      "number": 2989,
+      "created_at": "2022-04-02T21:51:49+00:00",
+      "created_by": "jpy-git",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2989",
+      "html_url": "https://github.com/psf/black/pull/2989",
+      "is_pr": true,
+      "closed_at": "2022-04-02T23:18:14+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Return annotation brackets",
+      "number": 2990,
+      "created_at": "2022-04-02T22:15:16+00:00",
+      "created_by": "jpy-git",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2990",
+      "html_url": "https://github.com/psf/black/pull/2990",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-02T15:12:55+00:00",
+    "last_updated": "2022-04-03T15:13:19+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
