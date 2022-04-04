@@ -15796,7 +15796,7 @@
       "created_at": "2019-12-16T20:38:09+00:00",
       "created_by": "jonasrk",
       "labels": [
-        "bug"
+        "T: bug"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1207",
       "html_url": "https://github.com/psf/black/issues/1207",
@@ -40949,10 +40949,36 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Remove redundant parentheses around awaited coroutines/tasks",
+      "number": 2991,
+      "created_at": "2022-04-04T13:21:40+00:00",
+      "created_by": "jpy-git",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2991",
+      "html_url": "https://github.com/psf/black/pull/2991",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add Python version to output of `black --version`",
+      "number": 2992,
+      "created_at": "2022-04-04T14:09:14+00:00",
+      "created_by": "CharlesB2",
+      "labels": [
+        "C: command line / config"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2992",
+      "html_url": "https://github.com/psf/black/issues/2992",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-04-03T15:13:19+00:00",
+    "last_updated": "2022-04-04T15:14:42+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
