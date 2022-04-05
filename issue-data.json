@@ -40834,7 +40834,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2982",
       "html_url": "https://github.com/psf/black/pull/2982",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-05T01:24:16+00:00",
       "closed_by": null
     },
     {
@@ -40921,8 +40921,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2988",
       "html_url": "https://github.com/psf/black/issues/2988",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-04T22:58:10+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Fix broken link in README.md",
@@ -40968,6 +40968,7 @@
       "created_at": "2022-04-04T14:09:14+00:00",
       "created_by": "CharlesB2",
       "labels": [
+        "T: enhancement",
         "C: command line / config"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2992",
@@ -40975,10 +40976,54 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Update test_black.shhh_click test for click 8+",
+      "number": 2993,
+      "created_at": "2022-04-04T21:43:49+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2993",
+      "html_url": "https://github.com/psf/black/pull/2993",
+      "is_pr": true,
+      "closed_at": "2022-04-05T01:23:30+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "610faff656c4cfcbb4a3__mypyc",
+      "number": 2994,
+      "created_at": "2022-04-05T02:19:52+00:00",
+      "created_by": "mrclary",
+      "labels": [
+        "T: user support",
+        "C: installation / packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/2994",
+      "html_url": "https://github.com/psf/black/issues/2994",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Top PyPI Packages: Use 30-days data, 365 is no longer available",
+      "number": 2995,
+      "created_at": "2022-04-05T06:09:37+00:00",
+      "created_by": "hugovk",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/2995",
+      "html_url": "https://github.com/psf/black/pull/2995",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-04T15:14:42+00:00",
+    "last_updated": "2022-04-05T15:14:21+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
