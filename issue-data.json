@@ -41018,12 +41018,36 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2995",
       "html_url": "https://github.com/psf/black/pull/2995",
       "is_pr": true,
+      "closed_at": "2022-04-06T12:48:50+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Standardise newlines after module-level docstrings",
+      "number": 2996,
+      "created_at": "2022-04-05T21:23:29+00:00",
+      "created_by": "jpy-git",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2996",
+      "html_url": "https://github.com/psf/black/pull/2996",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Output python version and implementation as part of `--version` flag",
+      "number": 2997,
+      "created_at": "2022-04-06T10:25:31+00:00",
+      "created_by": "jpy-git",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/2997",
+      "html_url": "https://github.com/psf/black/pull/2997",
+      "is_pr": true,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-05T15:14:21+00:00",
+    "last_updated": "2022-04-06T15:13:58+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
