@@ -28097,7 +28097,7 @@
       "created_at": "2021-04-06T13:04:39+00:00",
       "created_by": "milanbalazs",
       "labels": [
-        "enhancement"
+        "T: enhancement"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2088",
       "html_url": "https://github.com/psf/black/issues/2088",
@@ -41082,17 +41082,29 @@
       "labels": [
         "T: bug",
         "T: user support",
-        "S: awaiting response"
+        "R: not a bug"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3000",
       "html_url": "https://github.com/psf/black/issues/3000",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-07T15:21:03+00:00",
+      "closed_by": "rijobro"
+    },
+    {
+      "title": "Do not collapse adjanced string concatenation",
+      "number": 3001,
+      "created_at": "2022-04-08T04:23:29+00:00",
+      "created_by": "KAction",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/3001",
+      "html_url": "https://github.com/psf/black/issues/3001",
+      "is_pr": false,
+      "closed_at": "2022-04-08T04:27:09+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-04-07T15:13:01+00:00",
+    "last_updated": "2022-04-08T15:14:20+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
