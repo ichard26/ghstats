@@ -24804,8 +24804,8 @@
       "created_at": "2020-12-04T22:28:21+00:00",
       "created_by": "RadixSeven",
       "labels": [
-        "duplicate",
-        "not a bug"
+        "R: duplicate",
+        "R: not a bug"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1859",
       "html_url": "https://github.com/psf/black/issues/1859",
@@ -27403,8 +27403,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2041",
       "html_url": "https://github.com/psf/black/issues/2041",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-09T14:36:05+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Proposal: use mode 1 when all lines fit",
@@ -36813,8 +36813,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2699",
       "html_url": "https://github.com/psf/black/issues/2699",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-09T14:36:06+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Unpacking on flow constructs (return/yield) now implies 3.8+",
@@ -40947,7 +40947,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2990",
       "html_url": "https://github.com/psf/black/pull/2990",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-09T14:36:06+00:00",
       "closed_by": null
     },
     {
@@ -41104,7 +41104,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-04-08T15:14:20+00:00",
+    "last_updated": "2022-04-09T15:13:38+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
