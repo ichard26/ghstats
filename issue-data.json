@@ -3637,8 +3637,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/275",
       "html_url": "https://github.com/psf/black/issues/275",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-09T20:49:40+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "I cannot get stdin formatting to work",
@@ -39215,8 +39215,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2866",
       "html_url": "https://github.com/psf/black/issues/2866",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-09T22:01:50+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "black running on address sanitized Python interpreter crashes",
@@ -39255,7 +39255,8 @@
       "created_at": "2022-02-06T19:16:53+00:00",
       "created_by": "swaldhoer",
       "labels": [
-        "T: documentation"
+        "T: documentation",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2869",
       "html_url": "https://github.com/psf/black/issues/2869",
@@ -39461,7 +39462,8 @@
       "labels": [
         "T: enhancement",
         "C: integrations",
-        "C: maintenance"
+        "C: maintenance",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2883",
       "html_url": "https://github.com/psf/black/issues/2883",
@@ -39952,8 +39954,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2917",
       "html_url": "https://github.com/psf/black/issues/2917",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-09T20:52:46+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Avoid magic-trailing-comma newline in `tuple[int,]`, like tuple literal `(1,)`",
@@ -40690,7 +40692,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2970",
       "html_url": "https://github.com/psf/black/pull/2970",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-09T20:52:46+00:00",
       "closed_by": null
     },
     {
@@ -40873,7 +40875,8 @@
       "created_at": "2022-04-01T07:43:15+00:00",
       "created_by": "mvaled",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: fmtoff"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2985",
       "html_url": "https://github.com/psf/black/issues/2985",
@@ -40959,7 +40962,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2991",
       "html_url": "https://github.com/psf/black/pull/2991",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-09T20:49:40+00:00",
       "closed_by": null
     },
     {
@@ -41004,8 +41007,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2994",
       "html_url": "https://github.com/psf/black/issues/2994",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-09T20:58:07+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Top PyPI Packages: Use 30-days data, 365 is no longer available",
@@ -41101,10 +41104,25 @@
       "is_pr": false,
       "closed_at": "2022-04-08T04:27:09+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Explain our use of mypyc in the FAQ",
+      "number": 3002,
+      "created_at": "2022-04-09T21:22:35+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3002",
+      "html_url": "https://github.com/psf/black/pull/3002",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-09T15:13:38+00:00",
+    "last_updated": "2022-04-10T15:13:43+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
