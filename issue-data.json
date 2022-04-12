@@ -41133,7 +41133,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3003",
       "html_url": "https://github.com/psf/black/pull/3003",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-11T23:24:00+00:00",
       "closed_by": null
     },
     {
@@ -41148,7 +41148,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3004",
       "html_url": "https://github.com/psf/black/pull/3004",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-04-11T21:26:28+00:00",
       "closed_by": null
     },
     {
@@ -41157,7 +41157,9 @@
       "created_at": "2022-04-11T11:55:19+00:00",
       "created_by": "jimmyx0x",
       "labels": [
-        "T: enhancement"
+        "R: duplicate",
+        "T: enhancement",
+        "R: outdated"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3005",
       "html_url": "https://github.com/psf/black/issues/3005",
@@ -41166,7 +41168,7 @@
       "closed_by": "JelleZijlstra"
     },
     {
-      "title": "Quote \"black[jupyter]\" in installation docs",
+      "title": "Quote black[jupyter] and black[d] in installation docs",
       "number": 3006,
       "created_at": "2022-04-11T15:04:45+00:00",
       "created_by": "JelleZijlstra",
@@ -41176,12 +41178,68 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3006",
       "html_url": "https://github.com/psf/black/pull/3006",
       "is_pr": true,
+      "closed_at": "2022-04-11T23:25:47+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Quote \"black[jupyter]\" in README.md",
+      "number": 3007,
+      "created_at": "2022-04-11T16:23:31+00:00",
+      "created_by": "dignissimus",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3007",
+      "html_url": "https://github.com/psf/black/pull/3007",
+      "is_pr": true,
+      "closed_at": "2022-04-11T22:10:46+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Make ipynb tests compatible with ipython 8.3.0+",
+      "number": 3008,
+      "created_at": "2022-04-11T18:19:54+00:00",
+      "created_by": "MarcoGorelli",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3008",
+      "html_url": "https://github.com/psf/black/pull/3008",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Feature request: Respect `# fmt: skip` at the end of multi-line statements",
+      "number": 3009,
+      "created_at": "2022-04-11T21:17:07+00:00",
+      "created_by": "goodside",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3009",
+      "html_url": "https://github.com/psf/black/issues/3009",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Trailing comma is not deleted in a one-line dict literal",
+      "number": 3010,
+      "created_at": "2022-04-12T14:27:59+00:00",
+      "created_by": "futujaos",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3010",
+      "html_url": "https://github.com/psf/black/issues/3010",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-11T15:14:59+00:00",
+    "last_updated": "2022-04-12T15:14:55+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
