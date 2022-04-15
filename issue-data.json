@@ -41253,10 +41253,87 @@
       "is_pr": false,
       "closed_at": "2022-04-14T14:39:12+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Add support for PEP 654 (`except*`)",
+      "number": 3012,
+      "created_at": "2022-04-14T22:53:41+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: enhancement",
+        "S: accepted",
+        "C: parser"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3012",
+      "html_url": "https://github.com/psf/black/issues/3012",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "'exclude' in configuration toml file does not work as expected",
+      "number": 3013,
+      "created_at": "2022-04-14T22:58:08+00:00",
+      "created_by": "ankitanallana-livongo",
+      "labels": [
+        "T: bug",
+        "R: not a bug",
+        "C: file collection"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3013",
+      "html_url": "https://github.com/psf/black/issues/3013",
+      "is_pr": false,
+      "closed_at": "2022-04-14T23:03:27+00:00",
+      "closed_by": "ankitanallana-livongo"
+    },
+    {
+      "title": "Add support for PEP 646 syntax",
+      "number": 3014,
+      "created_at": "2022-04-14T22:59:24+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: enhancement",
+        "S: accepted",
+        "C: parser"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3014",
+      "html_url": "https://github.com/psf/black/issues/3014",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Document using pre-commit and how --force-exclude can help ",
+      "number": 3015,
+      "created_at": "2022-04-14T23:19:53+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "good first issue",
+        "T: documentation",
+        "C: integrations",
+        "C: file collection"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3015",
+      "html_url": "https://github.com/psf/black/issues/3015",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "PEP 654 syntax",
+      "number": 3016,
+      "created_at": "2022-04-15T00:43:29+00:00",
+      "created_by": "isidentical",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3016",
+      "html_url": "https://github.com/psf/black/pull/3016",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-14T15:14:33+00:00",
+    "last_updated": "2022-04-15T15:14:05+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
