@@ -41267,8 +41267,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3012",
       "html_url": "https://github.com/psf/black/issues/3012",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-04-15T16:25:07+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "'exclude' in configuration toml file does not work as expected",
@@ -41328,12 +41328,42 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3016",
       "html_url": "https://github.com/psf/black/pull/3016",
       "is_pr": true,
+      "closed_at": "2022-04-15T16:25:07+00:00",
+      "closed_by": null
+    },
+    {
+      "title": " Consolidate test and release workflows + add concurrency limit to test + fuzz",
+      "number": 3017,
+      "created_at": "2022-04-15T17:11:06+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3017",
+      "html_url": "https://github.com/psf/black/pull/3017",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black collapses lists in return type annotations onto one line, regardless of the \"magic\" trailing comma.",
+      "number": 3018,
+      "created_at": "2022-04-15T19:45:02+00:00",
+      "created_by": "alexreinking",
+      "labels": [
+        "T: bug",
+        "F: trailing comma"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3018",
+      "html_url": "https://github.com/psf/black/issues/3018",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-15T15:14:05+00:00",
+    "last_updated": "2022-04-16T15:13:28+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
