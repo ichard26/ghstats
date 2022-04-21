@@ -41390,10 +41390,93 @@
       "is_pr": false,
       "closed_at": "2022-04-19T12:54:10+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Who is correct on flake8 E0203",
+      "number": 3021,
+      "created_at": "2022-04-20T15:17:27+00:00",
+      "created_by": "boatcoder",
+      "labels": [
+        "T: bug",
+        "R: duplicate"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3021",
+      "html_url": "https://github.com/psf/black/issues/3021",
+      "is_pr": false,
+      "closed_at": "2022-04-20T15:18:22+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Black Docker Hub URL as HTML link",
+      "number": 3022,
+      "created_at": "2022-04-20T20:03:51+00:00",
+      "created_by": "JiriKr",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3022",
+      "html_url": "https://github.com/psf/black/issues/3022",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Updated Black Docker Hub link in docs (#3022)",
+      "number": 3023,
+      "created_at": "2022-04-20T20:22:09+00:00",
+      "created_by": "JiriKr",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3023",
+      "html_url": "https://github.com/psf/black/pull/3023",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add documentation for full list of config values for black",
+      "number": 3024,
+      "created_at": "2022-04-20T22:54:31+00:00",
+      "created_by": "hopper-signifyd",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3024",
+      "html_url": "https://github.com/psf/black/issues/3024",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix strtobool function",
+      "number": 3025,
+      "created_at": "2022-04-21T10:16:08+00:00",
+      "created_by": "defntvdm",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3025",
+      "html_url": "https://github.com/psf/black/pull/3025",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "`yapf: enable` comments inside expression cause infinite hang",
+      "number": 3026,
+      "created_at": "2022-04-21T14:33:17+00:00",
+      "created_by": "danthedeckie",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3026",
+      "html_url": "https://github.com/psf/black/issues/3026",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-19T15:14:35+00:00",
+    "last_updated": "2022-04-21T15:15:28+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
