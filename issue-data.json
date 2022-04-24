@@ -41519,10 +41519,52 @@
       "is_pr": false,
       "closed_at": "2022-04-23T13:30:55+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Missing `f` prefix on f-strings",
+      "number": 3030,
+      "created_at": "2022-04-23T22:14:44+00:00",
+      "created_by": "code-review-doctor",
+      "labels": [
+        "R: rejected",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3030",
+      "html_url": "https://github.com/psf/black/issues/3030",
+      "is_pr": false,
+      "closed_at": "2022-04-23T23:51:47+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "title": "Missing `f` prefix on f-strings fix",
+      "number": 3031,
+      "created_at": "2022-04-23T23:34:33+00:00",
+      "created_by": "code-review-doctor",
+      "labels": [
+        "R: rejected",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3031",
+      "html_url": "https://github.com/psf/black/pull/3031",
+      "is_pr": true,
+      "closed_at": "2022-04-23T23:52:20+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "follow python typing export requirements",
+      "number": 3032,
+      "created_at": "2022-04-24T01:05:39+00:00",
+      "created_by": "danpf",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3032",
+      "html_url": "https://github.com/psf/black/pull/3032",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-23T15:14:13+00:00",
+    "last_updated": "2022-04-24T15:13:51+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
