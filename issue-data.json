@@ -41561,10 +41561,63 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Remove newlines after `def`",
+      "number": 3033,
+      "created_at": "2022-04-24T19:07:33+00:00",
+      "created_by": "saroad2",
+      "labels": [
+        "T: design",
+        "F: empty lines"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3033",
+      "html_url": "https://github.com/psf/black/issues/3033",
+      "is_pr": false,
+      "closed_at": "2022-04-24T21:42:24+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Read simple data cases automatically",
+      "number": 3034,
+      "created_at": "2022-04-25T06:49:27+00:00",
+      "created_by": "saroad2",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3034",
+      "html_url": "https://github.com/psf/black/pull/3034",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Remove newline after `def` statement",
+      "number": 3035,
+      "created_at": "2022-04-25T09:17:58+00:00",
+      "created_by": "saroad2",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3035",
+      "html_url": "https://github.com/psf/black/pull/3035",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Inconsistent adding of space after # in inline comments depending on single / double quotes used",
+      "number": 3036,
+      "created_at": "2022-04-25T12:30:01+00:00",
+      "created_by": "thatlittleboy",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3036",
+      "html_url": "https://github.com/psf/black/issues/3036",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": "thatlittleboy"
     }
   ],
   "record": {
-    "last_updated": "2022-04-24T15:13:51+00:00",
+    "last_updated": "2022-04-25T15:15:57+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
