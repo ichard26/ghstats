@@ -41640,10 +41640,38 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Space before slice colon is not always omitted when slice parameter is omitted",
+      "number": 3039,
+      "created_at": "2022-04-27T22:17:34+00:00",
+      "created_by": "RobbeSneyders",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3039",
+      "html_url": "https://github.com/psf/black/issues/3039",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "black does not exclude files in git submodules",
+      "number": 3040,
+      "created_at": "2022-04-28T14:56:19+00:00",
+      "created_by": "janjachnik-dyson",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3040",
+      "html_url": "https://github.com/psf/black/issues/3040",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-04-27T15:15:44+00:00",
+    "last_updated": "2022-04-28T15:15:33+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
