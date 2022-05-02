@@ -41702,7 +41702,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-05-01T15:14:35+00:00",
+    "last_updated": "2022-05-02T15:15:32+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
