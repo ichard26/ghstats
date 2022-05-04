@@ -2583,8 +2583,8 @@
       "created_at": "2018-05-08T12:57:46+00:00",
       "created_by": "shish",
       "labels": [
-        "F: comments",
-        "T: design"
+        "T: design",
+        "F: comments"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/195",
       "html_url": "https://github.com/psf/black/issues/195",
@@ -39163,7 +39163,7 @@
       "created_by": "slafs",
       "labels": [
         "T: enhancement",
-        "C: command line / config"
+        "C: configuration"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2863",
       "html_url": "https://github.com/psf/black/issues/2863",
@@ -41716,10 +41716,34 @@
       "is_pr": true,
       "closed_at": "2022-05-03T13:08:33+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Docstring too long (issue #1632 fix)",
+      "number": 3044,
+      "created_at": "2022-05-03T21:21:25+00:00",
+      "created_by": "idorrington92",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3044",
+      "html_url": "https://github.com/psf/black/pull/3044",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "chore: Enable codeql action",
+      "number": 3045,
+      "created_at": "2022-05-04T02:42:11+00:00",
+      "created_by": "naveensrinivasan",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3045",
+      "html_url": "https://github.com/psf/black/pull/3045",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-03T15:15:08+00:00",
+    "last_updated": "2022-05-04T15:15:28+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
