@@ -41740,10 +41740,38 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Move imports of `ThreadPoolExecutor` into `reformat_many()`, allowing Black-in-the-browser",
+      "number": 3046,
+      "created_at": "2022-05-06T05:30:11+00:00",
+      "created_by": "Zac-HD",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3046",
+      "html_url": "https://github.com/psf/black/pull/3046",
+      "is_pr": true,
+      "closed_at": "2022-05-06T14:06:28+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Failed for python3.10",
+      "number": 3047,
+      "created_at": "2022-05-06T09:14:37+00:00",
+      "created_by": "mikesongming",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3047",
+      "html_url": "https://github.com/psf/black/issues/3047",
+      "is_pr": false,
+      "closed_at": "2022-05-06T13:52:16+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-05-05T15:13:52+00:00",
+    "last_updated": "2022-05-06T15:14:52+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
