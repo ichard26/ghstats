@@ -41761,17 +41761,32 @@
       "created_at": "2022-05-06T09:14:37+00:00",
       "created_by": "mikesongming",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "R: outdated"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3047",
       "html_url": "https://github.com/psf/black/issues/3047",
       "is_pr": false,
       "closed_at": "2022-05-06T13:52:16+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Docs: clarify fmt:on/off requirements",
+      "number": 3048,
+      "created_at": "2022-05-07T08:55:26+00:00",
+      "created_by": "felix-hilden",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3048",
+      "html_url": "https://github.com/psf/black/pull/3048",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-06T15:14:52+00:00",
+    "last_updated": "2022-05-07T15:14:27+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
