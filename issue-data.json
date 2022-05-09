@@ -41589,7 +41589,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3034",
       "html_url": "https://github.com/psf/black/pull/3034",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-05-08T19:27:40+00:00",
       "closed_by": null
     },
     {
@@ -41785,10 +41785,133 @@
       "is_pr": true,
       "closed_at": "2022-05-08T00:58:10+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Bump docker/setup-qemu-action from 1 to 2",
+      "number": 3056,
+      "created_at": "2022-05-09T06:22:52+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3056",
+      "html_url": "https://github.com/psf/black/pull/3056",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump docker/build-push-action from 2 to 3",
+      "number": 3057,
+      "created_at": "2022-05-09T06:22:56+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3057",
+      "html_url": "https://github.com/psf/black/pull/3057",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump docker/setup-buildx-action from 1 to 2",
+      "number": 3058,
+      "created_at": "2022-05-09T06:22:58+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3058",
+      "html_url": "https://github.com/psf/black/pull/3058",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump docker/login-action from 1 to 2",
+      "number": 3059,
+      "created_at": "2022-05-09T06:23:02+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3059",
+      "html_url": "https://github.com/psf/black/pull/3059",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Literal string not formatted correctly",
+      "number": 3060,
+      "created_at": "2022-05-09T08:17:35+00:00",
+      "created_by": "thedemons",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3060",
+      "html_url": "https://github.com/psf/black/issues/3060",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "fmt: on and other comments before fmt: skip removed",
+      "number": 3061,
+      "created_at": "2022-05-09T10:42:50+00:00",
+      "created_by": "felix-hilden",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "C: invalid code",
+        "F: fmtskip"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3061",
+      "html_url": "https://github.com/psf/black/issues/3061",
+      "is_pr": false,
+      "closed_at": "2022-05-09T13:19:48+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "Remove hard coded test cases",
+      "number": 3062,
+      "created_at": "2022-05-09T12:30:29+00:00",
+      "created_by": "saroad2",
+      "labels": [
+        "C: cleanup",
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3062",
+      "html_url": "https://github.com/psf/black/pull/3062",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Document new Microsoft Black Formatter extension for VSCode",
+      "number": 3063,
+      "created_at": "2022-05-09T12:48:57+00:00",
+      "created_by": "laundmo",
+      "labels": [
+        "T: documentation",
+        "C: integrations",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3063",
+      "html_url": "https://github.com/psf/black/pull/3063",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-08T15:13:57+00:00",
+    "last_updated": "2022-05-09T15:15:11+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
