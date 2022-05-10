@@ -41798,7 +41798,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3056",
       "html_url": "https://github.com/psf/black/pull/3056",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-05-10T02:08:57+00:00",
       "closed_by": null
     },
     {
@@ -41813,7 +41813,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3057",
       "html_url": "https://github.com/psf/black/pull/3057",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-05-10T02:11:30+00:00",
       "closed_by": null
     },
     {
@@ -41828,7 +41828,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3058",
       "html_url": "https://github.com/psf/black/pull/3058",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-05-10T02:22:01+00:00",
       "closed_by": null
     },
     {
@@ -41843,7 +41843,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3059",
       "html_url": "https://github.com/psf/black/pull/3059",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-05-10T02:13:12+00:00",
       "closed_by": null
     },
     {
@@ -41908,10 +41908,39 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black module coredumps numerous times when PyCharm updates its indices",
+      "number": 3064,
+      "created_at": "2022-05-09T17:24:09+00:00",
+      "created_by": "ajgringo619",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3064",
+      "html_url": "https://github.com/psf/black/issues/3064",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Ugly string concat ",
+      "number": 3066,
+      "created_at": "2022-05-10T14:50:45+00:00",
+      "created_by": "blankRiot96",
+      "labels": [
+        "T: design",
+        "F: strings / docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3066",
+      "html_url": "https://github.com/psf/black/issues/3066",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-09T15:15:11+00:00",
+    "last_updated": "2022-05-10T15:14:49+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
