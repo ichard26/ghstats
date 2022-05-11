@@ -41935,12 +41935,56 @@
       "url": "https://api.github.com/repos/psf/black/issues/3066",
       "html_url": "https://github.com/psf/black/issues/3066",
       "is_pr": false,
+      "closed_at": "2022-05-10T15:30:50+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Format string annotations and type aliases",
+      "number": 3067,
+      "created_at": "2022-05-11T07:10:39+00:00",
+      "created_by": "Phlogistique",
+      "labels": [
+        "T: enhancement",
+        "T: design",
+        "F: strings / docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3067",
+      "html_url": "https://github.com/psf/black/issues/3067",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Indexing square brackets split on 3 lines",
+      "number": 3068,
+      "created_at": "2022-05-11T09:04:02+00:00",
+      "created_by": "ikamensh",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3068",
+      "html_url": "https://github.com/psf/black/issues/3068",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "use is_number_token insteaed of assertion",
+      "number": 3069,
+      "created_at": "2022-05-11T13:17:03+00:00",
+      "created_by": "MarcoGorelli",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3069",
+      "html_url": "https://github.com/psf/black/pull/3069",
+      "is_pr": true,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-10T15:14:49+00:00",
+    "last_updated": "2022-05-11T15:15:24+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
