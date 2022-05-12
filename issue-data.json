@@ -41852,7 +41852,8 @@
       "created_at": "2022-05-09T08:17:35+00:00",
       "created_by": "thedemons",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "S: awaiting response"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3060",
       "html_url": "https://github.com/psf/black/issues/3060",
@@ -41981,10 +41982,34 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Add more examples to exclude files in addition to the defaults",
+      "number": 3070,
+      "created_at": "2022-05-12T06:21:53+00:00",
+      "created_by": "ysk24ok",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3070",
+      "html_url": "https://github.com/psf/black/pull/3070",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Implement support for PEP 646",
+      "number": 3071,
+      "created_at": "2022-05-12T12:05:37+00:00",
+      "created_by": "isidentical",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3071",
+      "html_url": "https://github.com/psf/black/pull/3071",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-11T15:15:24+00:00",
+    "last_updated": "2022-05-12T15:15:05+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
