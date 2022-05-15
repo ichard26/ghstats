@@ -42023,10 +42023,26 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black pre-commit and black command line disagree",
+      "number": 3073,
+      "created_at": "2022-05-14T15:54:11+00:00",
+      "created_by": "justinxzhao",
+      "labels": [
+        "T: bug",
+        "C: integrations",
+        "S: needs repro"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3073",
+      "html_url": "https://github.com/psf/black/issues/3073",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-14T15:14:20+00:00",
+    "last_updated": "2022-05-15T15:14:04+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
