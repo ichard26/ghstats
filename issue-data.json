@@ -42056,10 +42056,40 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Fresh install still has writing grammar bug",
+      "number": 3075,
+      "created_at": "2022-05-17T18:44:43+00:00",
+      "created_by": "michaelaye",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3075",
+      "html_url": "https://github.com/psf/black/issues/3075",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "fmt skip wipes comments out from the line above",
+      "number": 3076,
+      "created_at": "2022-05-18T01:00:24+00:00",
+      "created_by": "DStauffman",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "F: fmtskip"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3076",
+      "html_url": "https://github.com/psf/black/issues/3076",
+      "is_pr": false,
+      "closed_at": "2022-05-18T01:03:13+00:00",
+      "closed_by": "DStauffman"
     }
   ],
   "record": {
-    "last_updated": "2022-05-17T15:24:50+00:00",
+    "last_updated": "2022-05-18T15:15:19+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
