@@ -11764,7 +11764,8 @@
       "created_by": "rogalski",
       "labels": [
         "T: design",
-        "F: empty lines"
+        "F: empty lines",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/902",
       "html_url": "https://github.com/psf/black/issues/902",
@@ -41593,7 +41594,7 @@
       "closed_by": null
     },
     {
-      "title": "Remove newline after `def` statement",
+      "title": "Remove newline after code block open",
       "number": 3035,
       "created_at": "2022-04-25T09:17:58+00:00",
       "created_by": "saroad2",
@@ -41860,8 +41861,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3060",
       "html_url": "https://github.com/psf/black/issues/3060",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-05-19T10:22:31+00:00",
+      "closed_by": "thedemons"
     },
     {
       "title": "fmt: on and other comments before fmt: skip removed",
@@ -41893,7 +41894,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3062",
       "html_url": "https://github.com/psf/black/pull/3062",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-05-18T19:11:37+00:00",
       "closed_by": null
     },
     {
@@ -42086,10 +42087,36 @@
       "is_pr": false,
       "closed_at": "2022-05-18T01:03:13+00:00",
       "closed_by": "DStauffman"
+    },
+    {
+      "title": "Use the Vanity Discord Invite",
+      "number": 3077,
+      "created_at": "2022-05-19T02:56:28+00:00",
+      "created_by": "Pysics",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3077",
+      "html_url": "https://github.com/psf/black/pull/3077",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Split cases data files into smaller tests and introduce more subdirectories",
+      "number": 3078,
+      "created_at": "2022-05-19T08:30:18+00:00",
+      "created_by": "saroad2",
+      "labels": [
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3078",
+      "html_url": "https://github.com/psf/black/issues/3078",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-18T15:15:19+00:00",
+    "last_updated": "2022-05-19T15:21:11+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
