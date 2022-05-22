@@ -41910,7 +41910,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3063",
       "html_url": "https://github.com/psf/black/pull/3063",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-05-21T20:18:06+00:00",
       "closed_by": null
     },
     {
@@ -42161,10 +42161,37 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Strip pointless f-string",
+      "number": 3082,
+      "created_at": "2022-05-21T16:25:00+00:00",
+      "created_by": "KAction",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3082",
+      "html_url": "https://github.com/psf/black/pull/3082",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Doctests formatting in Docstrings",
+      "number": 3083,
+      "created_at": "2022-05-22T09:43:11+00:00",
+      "created_by": "KelSolaar",
+      "labels": [
+        "T: enhancement",
+        "F: strings / docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3083",
+      "html_url": "https://github.com/psf/black/issues/3083",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-21T15:14:37+00:00",
+    "last_updated": "2022-05-22T15:15:35+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
