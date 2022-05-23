@@ -42188,10 +42188,22 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Introduce Pants to the repo, as a proof of concept.",
+      "number": 3084,
+      "created_at": "2022-05-23T05:35:56+00:00",
+      "created_by": "benjyw",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3084",
+      "html_url": "https://github.com/psf/black/pull/3084",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-22T15:15:35+00:00",
+    "last_updated": "2022-05-23T15:15:23+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
