@@ -42200,10 +42200,24 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Show trailing space in diff in explicit way",
+      "number": 3085,
+      "created_at": "2022-05-25T13:48:55+00:00",
+      "created_by": "abcdenis",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3085",
+      "html_url": "https://github.com/psf/black/issues/3085",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-24T15:15:22+00:00",
+    "last_updated": "2022-05-25T15:16:36+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
