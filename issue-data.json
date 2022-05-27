@@ -41301,8 +41301,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3014",
       "html_url": "https://github.com/psf/black/issues/3014",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-05-26T16:45:23+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Document using pre-commit and how --force-exclude can help ",
@@ -42009,7 +42009,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3071",
       "html_url": "https://github.com/psf/black/pull/3071",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-05-26T16:45:23+00:00",
       "closed_by": null
     },
     {
@@ -42236,17 +42236,48 @@
       "created_at": "2022-05-26T14:12:48+00:00",
       "created_by": "JelleZijlstra",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "T: design",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3087",
       "html_url": "https://github.com/psf/black/issues/3087",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "ImportError: GitWildMatchPatternError missing from pathspec",
+      "number": 3088,
+      "created_at": "2022-05-27T01:49:28+00:00",
+      "created_by": "danibene",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3088",
+      "html_url": "https://github.com/psf/black/issues/3088",
+      "is_pr": false,
+      "closed_at": "2022-05-27T02:23:09+00:00",
+      "closed_by": "danibene"
+    },
+    {
+      "title": "Don't insert extra blank lines at the start of an indent",
+      "number": 3089,
+      "created_at": "2022-05-27T13:59:03+00:00",
+      "created_by": "Rizhiy",
+      "labels": [
+        "T: design",
+        "F: empty lines"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3089",
+      "html_url": "https://github.com/psf/black/issues/3089",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-05-26T15:16:44+00:00",
+    "last_updated": "2022-05-27T15:15:06+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
