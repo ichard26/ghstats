@@ -15092,8 +15092,8 @@
       "created_at": "2019-11-12T23:40:44+00:00",
       "created_by": "raybuhr",
       "labels": [
-        "F: strings / docstrings",
-        "T: enhancement"
+        "T: enhancement",
+        "F: strings / docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1156",
       "html_url": "https://github.com/psf/black/issues/1156",
@@ -42159,8 +42159,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3081",
       "html_url": "https://github.com/psf/black/issues/3081",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-05-28T03:14:30+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Strip pointless f-string",
@@ -42274,10 +42274,24 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Have an opinion about spaces around f-string arguments",
+      "number": 3090,
+      "created_at": "2022-05-28T03:13:16+00:00",
+      "created_by": "dimaqq",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3090",
+      "html_url": "https://github.com/psf/black/issues/3090",
+      "is_pr": false,
+      "closed_at": "2022-05-28T03:15:05+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-05-27T15:15:06+00:00",
+    "last_updated": "2022-05-28T15:14:29+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
