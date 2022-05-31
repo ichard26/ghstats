@@ -42307,7 +42307,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-05-30T15:16:42+00:00",
+    "last_updated": "2022-05-31T15:18:54+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
