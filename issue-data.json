@@ -41643,7 +41643,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3038",
       "html_url": "https://github.com/psf/black/pull/3038",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-06-01T18:20:03+00:00",
       "closed_by": null
     },
     {
@@ -42318,10 +42318,38 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Add magic-trailing-comma newline to function definition and call.",
+      "number": 3093,
+      "created_at": "2022-06-01T16:37:59+00:00",
+      "created_by": "synchronizing",
+      "labels": [
+        "R: invalid"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3093",
+      "html_url": "https://github.com/psf/black/issues/3093",
+      "is_pr": false,
+      "closed_at": "2022-06-01T17:32:47+00:00",
+      "closed_by": "synchronizing"
+    },
+    {
+      "title": "Github actions: Setup jobs failed to start",
+      "number": 3094,
+      "created_at": "2022-06-02T09:27:06+00:00",
+      "created_by": "ebattat",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3094",
+      "html_url": "https://github.com/psf/black/issues/3094",
+      "is_pr": false,
+      "closed_at": "2022-06-02T09:28:31+00:00",
+      "closed_by": "ebattat"
     }
   ],
   "record": {
-    "last_updated": "2022-06-01T15:16:42+00:00",
+    "last_updated": "2022-06-02T15:15:31+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
