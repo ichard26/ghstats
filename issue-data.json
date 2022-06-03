@@ -16561,7 +16561,7 @@
       "created_at": "2020-02-06T13:41:25+00:00",
       "created_by": "brmc",
       "labels": [
-        "bug"
+        "T: bug"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1262",
       "html_url": "https://github.com/psf/black/issues/1262",
@@ -42346,10 +42346,24 @@
       "is_pr": false,
       "closed_at": "2022-06-02T09:28:31+00:00",
       "closed_by": "ebattat"
+    },
+    {
+      "title": "How should black handle whitespace going against operator precedence?",
+      "number": 3095,
+      "created_at": "2022-06-02T22:34:28+00:00",
+      "created_by": "Jacob-Stevens-Haas",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3095",
+      "html_url": "https://github.com/psf/black/issues/3095",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-02T15:15:31+00:00",
+    "last_updated": "2022-06-03T15:13:57+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
