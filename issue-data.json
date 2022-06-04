@@ -42360,10 +42360,76 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Fix minor typo",
+      "number": 3096,
+      "created_at": "2022-06-03T20:29:49+00:00",
+      "created_by": "vivekvashist",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3096",
+      "html_url": "https://github.com/psf/black/pull/3096",
+      "is_pr": true,
+      "closed_at": "2022-06-03T22:59:26+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Proposal: create new empty lines less",
+      "number": 3097,
+      "created_at": "2022-06-03T21:02:59+00:00",
+      "created_by": "bukzor",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3097",
+      "html_url": "https://github.com/psf/black/pull/3097",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Memory error",
+      "number": 3098,
+      "created_at": "2022-06-04T07:25:49+00:00",
+      "created_by": "ashgrantham",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3098",
+      "html_url": "https://github.com/psf/black/pull/3098",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "ImportError: cannot import name 'NL' from 'blib2to3.pytree'",
+      "number": 3099,
+      "created_at": "2022-06-04T08:54:58+00:00",
+      "created_by": "CudaText-addons",
+      "labels": [
+        "R: invalid"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3099",
+      "html_url": "https://github.com/psf/black/issues/3099",
+      "is_pr": false,
+      "closed_at": "2022-06-04T13:55:52+00:00",
+      "closed_by": "zsol"
+    },
+    {
+      "title": "Intentional call chain with explicit parenthesis not respected",
+      "number": 3100,
+      "created_at": "2022-06-04T09:28:25+00:00",
+      "created_by": "scarf005",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3100",
+      "html_url": "https://github.com/psf/black/issues/3100",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-03T15:13:57+00:00",
+    "last_updated": "2022-06-04T15:12:49+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
