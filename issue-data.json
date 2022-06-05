@@ -1914,11 +1914,10 @@
       "created_at": "2018-04-18T08:31:33+00:00",
       "created_by": "Lukas0907",
       "labels": [
-        "design",
-        "enhancement",
-        "good first issue",
+        "T: enhancement",
         "help wanted",
-        "stable"
+        "good first issue",
+        "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/144",
       "html_url": "https://github.com/psf/black/issues/144",
@@ -42392,11 +42391,13 @@
       "number": 3098,
       "created_at": "2022-06-04T07:25:49+00:00",
       "created_by": "ashgrantham",
-      "labels": [],
+      "labels": [
+        "R: invalid"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3098",
       "html_url": "https://github.com/psf/black/pull/3098",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-06-04T15:29:58+00:00",
       "closed_by": null
     },
     {
@@ -42419,17 +42420,91 @@
       "created_at": "2022-06-04T09:28:25+00:00",
       "created_by": "scarf005",
       "labels": [
-        "T: bug"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3100",
       "html_url": "https://github.com/psf/black/issues/3100",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "where can users get latest version of blib2to3?",
+      "number": 3101,
+      "created_at": "2022-06-04T15:15:48+00:00",
+      "created_by": "CudaText-addons",
+      "labels": [
+        "T: user support",
+        "S: awaiting response"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3101",
+      "html_url": "https://github.com/psf/black/issues/3101",
+      "is_pr": false,
+      "closed_at": "2022-06-04T15:37:41+00:00",
+      "closed_by": "CudaText-addons"
+    },
+    {
+      "title": "Attrib error, when I call Black from CudaText on Ubuntu Python 3.8",
+      "number": 3102,
+      "created_at": "2022-06-04T15:39:53+00:00",
+      "created_by": "CudaText-addons",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3102",
+      "html_url": "https://github.com/psf/black/issues/3102",
+      "is_pr": false,
+      "closed_at": "2022-06-04T15:43:19+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "help to adapte code from 2020 to new Black",
+      "number": 3103,
+      "created_at": "2022-06-04T15:49:00+00:00",
+      "created_by": "CudaText-addons",
+      "labels": [
+        "T: user support",
+        "C: integrations"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3103",
+      "html_url": "https://github.com/psf/black/issues/3103",
+      "is_pr": false,
+      "closed_at": "2022-06-04T16:23:16+00:00",
+      "closed_by": "CudaText-addons"
+    },
+    {
+      "title": "is library 'attr' still needed?",
+      "number": 3104,
+      "created_at": "2022-06-04T15:52:57+00:00",
+      "created_by": "CudaText-addons",
+      "labels": [
+        "T: user support",
+        "C: integrations"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3104",
+      "html_url": "https://github.com/psf/black/issues/3104",
+      "is_pr": false,
+      "closed_at": "2022-06-04T15:58:54+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Bugs maybe",
+      "number": 3105,
+      "created_at": "2022-06-05T07:05:14+00:00",
+      "created_by": "erney83",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3105",
+      "html_url": "https://github.com/psf/black/issues/3105",
+      "is_pr": false,
+      "closed_at": "2022-06-05T14:32:17+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-06-04T15:12:49+00:00",
+    "last_updated": "2022-06-05T15:12:50+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
