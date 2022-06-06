@@ -23481,8 +23481,8 @@
       "created_at": "2020-10-18T15:54:43+00:00",
       "created_by": "sbruder",
       "labels": [
-        "bug",
-        "vim"
+        "T: bug",
+        "C: vim"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1767",
       "html_url": "https://github.com/psf/black/issues/1767",
@@ -42301,7 +42301,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3091",
       "html_url": "https://github.com/psf/black/pull/3091",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-06-06T06:04:59+00:00",
       "closed_by": null
     },
     {
@@ -42501,10 +42501,87 @@
       "is_pr": false,
       "closed_at": "2022-06-05T14:32:17+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Bump furo from 2022.4.7 to 2022.6.4.1 in /docs",
+      "number": 3106,
+      "created_at": "2022-06-06T06:04:51+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3106",
+      "html_url": "https://github.com/psf/black/pull/3106",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump sphinx from 4.5.0 to 5.0.1 in /docs",
+      "number": 3107,
+      "created_at": "2022-06-06T06:04:55+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3107",
+      "html_url": "https://github.com/psf/black/pull/3107",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump pre-commit/action from 2.0.3 to 3.0.0",
+      "number": 3108,
+      "created_at": "2022-06-06T06:15:07+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3108",
+      "html_url": "https://github.com/psf/black/pull/3108",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Document pre-commit with --force-exclude",
+      "number": 3109,
+      "created_at": "2022-06-06T13:32:26+00:00",
+      "created_by": "Ttibsi",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3109",
+      "html_url": "https://github.com/psf/black/pull/3109",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "DeprecationWarning: There is no current event loop",
+      "number": 3110,
+      "created_at": "2022-06-06T14:28:11+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3110",
+      "html_url": "https://github.com/psf/black/issues/3110",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-05T15:12:50+00:00",
+    "last_updated": "2022-06-06T15:14:37+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
