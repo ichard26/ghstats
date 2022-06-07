@@ -42578,10 +42578,24 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": " cannot import name 'ParameterSource' from 'click.core'  ",
+      "number": 3111,
+      "created_at": "2022-06-07T09:16:39+00:00",
+      "created_by": "omonimus1",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3111",
+      "html_url": "https://github.com/psf/black/issues/3111",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-06T15:14:37+00:00",
+    "last_updated": "2022-06-07T15:18:38+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
