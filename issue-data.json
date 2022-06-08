@@ -42592,10 +42592,52 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black doesn't wrap functions with parameter comments",
+      "number": 3113,
+      "created_at": "2022-06-08T03:59:30+00:00",
+      "created_by": "liam-mipac",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3113",
+      "html_url": "https://github.com/psf/black/issues/3113",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Test run black on self",
+      "number": 3114,
+      "created_at": "2022-06-08T12:33:03+00:00",
+      "created_by": "saroad2",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3114",
+      "html_url": "https://github.com/psf/black/pull/3114",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": " INTERNAL ERROR: Black produced code that is not equivalent to the source",
+      "number": 3115,
+      "created_at": "2022-06-08T14:20:28+00:00",
+      "created_by": "damien-devpy",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3115",
+      "html_url": "https://github.com/psf/black/issues/3115",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-07T15:18:38+00:00",
+    "last_updated": "2022-06-08T15:13:28+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
