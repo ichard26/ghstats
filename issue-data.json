@@ -11769,8 +11769,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/902",
       "html_url": "https://github.com/psf/black/issues/902",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-06-11T06:55:01+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Black stuck on bad cache(?)",
@@ -33897,7 +33897,9 @@
       "created_at": "2021-09-11T11:57:33+00:00",
       "created_by": "Zac-HD",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: strings / docstrings",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2491",
       "html_url": "https://github.com/psf/black/issues/2491",
@@ -41601,7 +41603,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3035",
       "html_url": "https://github.com/psf/black/pull/3035",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-06-11T06:55:02+00:00",
       "closed_by": null
     },
     {
@@ -42516,7 +42518,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3106",
       "html_url": "https://github.com/psf/black/pull/3106",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-06-11T00:50:35+00:00",
       "closed_by": null
     },
     {
@@ -42532,7 +42534,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3107",
       "html_url": "https://github.com/psf/black/pull/3107",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-06-11T00:50:02+00:00",
       "closed_by": null
     },
     {
@@ -42547,7 +42549,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3108",
       "html_url": "https://github.com/psf/black/pull/3108",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-06-11T00:29:33+00:00",
       "closed_by": null
     },
     {
@@ -42601,7 +42603,9 @@
       "created_at": "2022-06-08T03:59:30+00:00",
       "created_by": "liam-mipac",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: comments",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3113",
       "html_url": "https://github.com/psf/black/issues/3113",
@@ -42653,10 +42657,41 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black --preview mode produces invalid code in the first pass, causing second pass to fail",
+      "number": 3117,
+      "created_at": "2022-06-10T17:39:33+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3117",
+      "html_url": "https://github.com/psf/black/issues/3117",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Update documentation dependencies",
+      "number": 3118,
+      "created_at": "2022-06-11T00:49:39+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3118",
+      "html_url": "https://github.com/psf/black/pull/3118",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-10T15:16:53+00:00",
+    "last_updated": "2022-06-11T15:12:59+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
