@@ -41984,7 +41984,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3069",
       "html_url": "https://github.com/psf/black/pull/3069",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-06-11T16:04:09+00:00",
       "closed_by": null
     },
     {
@@ -42686,12 +42686,24 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3118",
       "html_url": "https://github.com/psf/black/pull/3118",
       "is_pr": true,
+      "closed_at": "2022-06-11T15:44:01+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Remove trailing spaces in f-string expressions",
+      "number": 3119,
+      "created_at": "2022-06-12T12:11:55+00:00",
+      "created_by": "saroad2",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3119",
+      "html_url": "https://github.com/psf/black/pull/3119",
+      "is_pr": true,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-11T15:12:59+00:00",
+    "last_updated": "2022-06-12T15:12:52+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
