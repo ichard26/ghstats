@@ -4377,8 +4377,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/333",
       "html_url": "https://github.com/psf/black/issues/333",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-06-13T08:36:07+00:00",
+      "closed_by": "zsol"
     },
     {
       "title": "Internal error + error 12/11 with multiple format on/off",
@@ -42618,9 +42618,7 @@
       "number": 3114,
       "created_at": "2022-06-08T12:33:03+00:00",
       "created_by": "saroad2",
-      "labels": [
-        "skip news"
-      ],
+      "labels": [],
       "url": "https://api.github.com/repos/psf/black/pulls/3114",
       "html_url": "https://github.com/psf/black/pull/3114",
       "is_pr": true,
@@ -42700,10 +42698,39 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Bump actions/setup-python from 3 to 4",
+      "number": 3120,
+      "created_at": "2022-06-13T06:19:31+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3120",
+      "html_url": "https://github.com/psf/black/pull/3120",
+      "is_pr": true,
+      "closed_at": "2022-06-13T14:01:10+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Bump actions/setup-python from 3 to 4",
+      "number": 3121,
+      "created_at": "2022-06-13T07:25:45+00:00",
+      "created_by": "hugovk",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3121",
+      "html_url": "https://github.com/psf/black/pull/3121",
+      "is_pr": true,
+      "closed_at": "2022-06-13T14:02:40+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-12T15:12:52+00:00",
+    "last_updated": "2022-06-13T15:18:56+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
