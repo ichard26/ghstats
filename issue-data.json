@@ -42312,13 +42312,14 @@
       "created_at": "2022-06-01T04:11:18+00:00",
       "created_by": "sjkillen",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "R: rejected"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3092",
       "html_url": "https://github.com/psf/black/issues/3092",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-06-15T18:17:36+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Add magic-trailing-comma newline to function definition and call.",
@@ -42423,14 +42424,15 @@
       "created_at": "2022-06-04T09:28:25+00:00",
       "created_by": "scarf005",
       "labels": [
+        "R: rejected",
         "T: design",
         "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3100",
       "html_url": "https://github.com/psf/black/issues/3100",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-06-15T18:14:25+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "where can users get latest version of blib2to3?",
@@ -42589,7 +42591,9 @@
       "created_by": "omonimus1",
       "labels": [
         "T: bug",
-        "C: installation / packaging"
+        "help wanted",
+        "C: installation / packaging",
+        "S: needs repro"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3111",
       "html_url": "https://github.com/psf/black/issues/3111",
@@ -42747,7 +42751,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-06-15T15:14:57+00:00",
+    "last_updated": "2022-06-16T15:13:29+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
