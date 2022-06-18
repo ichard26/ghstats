@@ -19509,7 +19509,7 @@
       "created_at": "2020-06-05T14:57:49+00:00",
       "created_by": "urbnbob",
       "labels": [
-        "bug"
+        "T: bug"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1479",
       "html_url": "https://github.com/psf/black/issues/1479",
@@ -42776,10 +42776,39 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Replace link to Requests documentation",
+      "number": 3125,
+      "created_at": "2022-06-17T16:55:31+00:00",
+      "created_by": "nateprewitt",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3125",
+      "html_url": "https://github.com/psf/black/pull/3125",
+      "is_pr": true,
+      "closed_at": "2022-06-17T19:37:33+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Blank lines for functions inside blocks & skip",
+      "number": 3126,
+      "created_at": "2022-06-18T01:20:16+00:00",
+      "created_by": "Rizhiy",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3126",
+      "html_url": "https://github.com/psf/black/issues/3126",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-17T15:13:48+00:00",
+    "last_updated": "2022-06-18T15:13:02+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
