@@ -42798,7 +42798,8 @@
       "created_at": "2022-06-18T01:20:16+00:00",
       "created_by": "Rizhiy",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: fmtskip"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3126",
       "html_url": "https://github.com/psf/black/issues/3126",
@@ -42821,10 +42822,41 @@
       "is_pr": false,
       "closed_at": "2022-06-18T23:42:36+00:00",
       "closed_by": "ichard26"
+    },
+    {
+      "title": "Bump sphinx from 5.0.1 to 5.0.2 in /docs",
+      "number": 3128,
+      "created_at": "2022-06-20T06:05:10+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3128",
+      "html_url": "https://github.com/psf/black/pull/3128",
+      "is_pr": true,
+      "closed_at": "2022-06-20T14:22:24+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Black hangs when using fmt:on/off improperly",
+      "number": 3129,
+      "created_at": "2022-06-20T10:16:29+00:00",
+      "created_by": "vinzeebreak",
+      "labels": [
+        "T: bug",
+        "F: fmtoff"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3129",
+      "html_url": "https://github.com/psf/black/issues/3129",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-19T15:12:47+00:00",
+    "last_updated": "2022-06-20T15:16:31+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
