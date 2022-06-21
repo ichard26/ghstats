@@ -42853,10 +42853,25 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Reorder import statements",
+      "number": 3130,
+      "created_at": "2022-06-21T03:17:40+00:00",
+      "created_by": "cathaysia",
+      "labels": [
+        "R: duplicate",
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3130",
+      "html_url": "https://github.com/psf/black/issues/3130",
+      "is_pr": false,
+      "closed_at": "2022-06-21T03:19:56+00:00",
+      "closed_by": "cathaysia"
     }
   ],
   "record": {
-    "last_updated": "2022-06-20T15:16:31+00:00",
+    "last_updated": "2022-06-21T15:15:13+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
