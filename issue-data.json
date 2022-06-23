@@ -42868,10 +42868,53 @@
       "is_pr": false,
       "closed_at": "2022-06-21T03:19:56+00:00",
       "closed_by": "cathaysia"
+    },
+    {
+      "title": "Add documentation for format_cell() function. ",
+      "number": 3131,
+      "created_at": "2022-06-23T03:24:24+00:00",
+      "created_by": "Hangzhi",
+      "labels": [
+        "R: rejected",
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3131",
+      "html_url": "https://github.com/psf/black/issues/3131",
+      "is_pr": false,
+      "closed_at": "2022-06-23T05:39:09+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "Added my name to AUTHORS.md so that I can contribute to this project",
+      "number": 3132,
+      "created_at": "2022-06-23T11:00:54+00:00",
+      "created_by": "SamAdebisi",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3132",
+      "html_url": "https://github.com/psf/black/pull/3132",
+      "is_pr": true,
+      "closed_at": "2022-06-23T13:11:35+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Black broke cyrillic text to Unicodish \\u1234",
+      "number": 3133,
+      "created_at": "2022-06-23T13:17:53+00:00",
+      "created_by": "snvmk",
+      "labels": [
+        "T: bug",
+        "R: invalid",
+        "C: invalid code"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3133",
+      "html_url": "https://github.com/psf/black/issues/3133",
+      "is_pr": false,
+      "closed_at": "2022-06-23T13:32:40+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-06-21T15:15:13+00:00",
+    "last_updated": "2022-06-23T15:15:37+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
