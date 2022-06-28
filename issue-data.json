@@ -21612,7 +21612,8 @@
       "created_by": "mlissner",
       "labels": [
         "T: bug",
-        "F: strings / docstrings"
+        "F: strings / docstrings",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1632",
       "html_url": "https://github.com/psf/black/issues/1632",
@@ -26584,8 +26585,8 @@
       "created_at": "2021-02-13T18:31:36+00:00",
       "created_by": "jidicula",
       "labels": [
-        "integrations",
-        "not a bug"
+        "R: not a bug",
+        "C: integrations"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1985",
       "html_url": "https://github.com/psf/black/issues/1985",
@@ -39938,7 +39939,11 @@
       "number": 2916,
       "created_at": "2022-03-13T10:55:05+00:00",
       "created_by": "Shivansh-007",
-      "labels": [],
+      "labels": [
+        "T: design",
+        "S: awaiting response",
+        "F: strings / docstrings"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/2916",
       "html_url": "https://github.com/psf/black/pull/2916",
       "is_pr": true,
@@ -42769,7 +42774,9 @@
       "created_at": "2022-06-17T10:45:33+00:00",
       "created_by": "GamePad64",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "C: configuration",
+        "C: target version"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3124",
       "html_url": "https://github.com/psf/black/issues/3124",
@@ -42950,7 +42957,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3136",
       "html_url": "https://github.com/psf/black/pull/3136",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-06-27T20:24:34+00:00",
       "closed_by": null
     },
     {
@@ -42983,10 +42990,102 @@
       "is_pr": true,
       "closed_at": "2022-06-27T13:54:49+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Prepare docs for release 22.6.0",
+      "number": 3139,
+      "created_at": "2022-06-27T20:55:43+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3139",
+      "html_url": "https://github.com/psf/black/pull/3139",
+      "is_pr": true,
+      "closed_at": "2022-06-28T00:33:35+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "(\ud83d\udc1e) 22.6.0 isn't compiled / doesn't have any wheels available",
+      "number": 3140,
+      "created_at": "2022-06-28T00:56:33+00:00",
+      "created_by": "KotlinIsland",
+      "labels": [
+        "T: bug",
+        "C: installation / packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3140",
+      "html_url": "https://github.com/psf/black/issues/3140",
+      "is_pr": false,
+      "closed_at": "2022-06-28T02:51:17+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "title": "(\ud83d\udc1e) Can't parse single quoted doc string longer than line length",
+      "number": 3141,
+      "created_at": "2022-06-28T07:33:14+00:00",
+      "created_by": "KotlinIsland",
+      "labels": [
+        "T: bug",
+        "C: invalid code",
+        "F: strings / docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3141",
+      "html_url": "https://github.com/psf/black/issues/3141",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix typo in CHANGES.md",
+      "number": 3142,
+      "created_at": "2022-06-28T07:38:42+00:00",
+      "created_by": "dmerejkowsky",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3142",
+      "html_url": "https://github.com/psf/black/pull/3142",
+      "is_pr": true,
+      "closed_at": "2022-06-28T07:44:56+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Black fails to format an un-formatted file with walrus operator",
+      "number": 3143,
+      "created_at": "2022-06-28T10:37:36+00:00",
+      "created_by": "michcio1234",
+      "labels": [
+        "T: bug",
+        "R: not a bug",
+        "C: parser"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3143",
+      "html_url": "https://github.com/psf/black/issues/3143",
+      "is_pr": false,
+      "closed_at": "2022-06-28T10:46:54+00:00",
+      "closed_by": "michcio1234"
+    },
+    {
+      "title": "Warn (or error) if targeting a higher version of Python than the one Black is running on ",
+      "number": 3144,
+      "created_at": "2022-06-28T14:20:39+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "T: enhancement",
+        "C: parser",
+        "C: target version"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3144",
+      "html_url": "https://github.com/psf/black/issues/3144",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-27T15:16:23+00:00",
+    "last_updated": "2022-06-28T15:14:46+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
