@@ -43082,10 +43082,38 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Playground seems to be broken",
+      "number": 3145,
+      "created_at": "2022-06-30T11:32:29+00:00",
+      "created_by": "ParitoshSingh07",
+      "labels": [
+        "R: invalid"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3145",
+      "html_url": "https://github.com/psf/black/issues/3145",
+      "is_pr": false,
+      "closed_at": "2022-06-30T11:40:58+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "Recommend using BlackConnect in PyCharm",
+      "number": 3146,
+      "created_at": "2022-06-30T13:11:44+00:00",
+      "created_by": "m-aciek",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3146",
+      "html_url": "https://github.com/psf/black/issues/3146",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-06-29T15:45:15+00:00",
+    "last_updated": "2022-06-30T15:15:01+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
