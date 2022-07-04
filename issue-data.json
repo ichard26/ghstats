@@ -41745,11 +41745,14 @@
       "number": 3045,
       "created_at": "2022-05-04T02:42:11+00:00",
       "created_by": "naveensrinivasan",
-      "labels": [],
+      "labels": [
+        "R: rejected",
+        "C: maintenance"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3045",
       "html_url": "https://github.com/psf/black/pull/3045",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-03T20:52:33+00:00",
       "closed_by": null
     },
     {
@@ -42186,8 +42189,7 @@
       "created_at": "2022-05-22T09:43:11+00:00",
       "created_by": "KelSolaar",
       "labels": [
-        "T: enhancement",
-        "F: strings / docstrings"
+        "T: documentation"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3083",
       "html_url": "https://github.com/psf/black/issues/3083",
@@ -43149,7 +43151,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3149",
       "html_url": "https://github.com/psf/black/pull/3149",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-03T20:47:18+00:00",
       "closed_by": null
     },
     {
@@ -43194,12 +43196,45 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3152",
       "html_url": "https://github.com/psf/black/pull/3152",
       "is_pr": true,
+      "closed_at": "2022-07-03T22:57:50+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Document that `blackd` shouldn't be run as a publicly accessible server",
+      "number": 3153,
+      "created_at": "2022-07-03T20:48:30+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "good first issue",
+        "T: documentation",
+        "C: integrations"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3153",
+      "html_url": "https://github.com/psf/black/issues/3153",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Cannot format: INTERNAL ERROR: Black produced different code on the second pass of the formatter.",
+      "number": 3154,
+      "created_at": "2022-07-04T14:55:32+00:00",
+      "created_by": "mangelozzi",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "C: unstable formatting",
+        "F: fmtskip"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3154",
+      "html_url": "https://github.com/psf/black/issues/3154",
+      "is_pr": false,
+      "closed_at": "2022-07-04T14:59:14+00:00",
+      "closed_by": "felix-hilden"
     }
   ],
   "record": {
-    "last_updated": "2022-07-03T15:12:59+00:00",
+    "last_updated": "2022-07-04T15:13:47+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
