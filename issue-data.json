@@ -43301,10 +43301,38 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "added parsable line number and col number",
+      "number": 3160,
+      "created_at": "2022-07-10T15:29:27+00:00",
+      "created_by": "cibinmathew",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3160",
+      "html_url": "https://github.com/psf/black/pull/3160",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump docutils from 0.18.1 to 0.19 in /docs",
+      "number": 3161,
+      "created_at": "2022-07-11T06:05:12+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3161",
+      "html_url": "https://github.com/psf/black/pull/3161",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-09T15:14:11+00:00",
+    "last_updated": "2022-07-11T15:14:19+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
