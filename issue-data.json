@@ -23451,9 +23451,9 @@
       "created_at": "2020-10-15T20:39:11+00:00",
       "created_by": "passichenko",
       "labels": [
-        "F: linebreak",
         "T: bug",
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1765",
       "html_url": "https://github.com/psf/black/issues/1765",
@@ -43110,8 +43110,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3146",
       "html_url": "https://github.com/psf/black/issues/3146",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-11T16:27:52+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "title": "https://black.readthedocs.io/en/stable/ should be referencing 22.6.0 but references 22.3.0",
@@ -43165,7 +43165,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3150",
       "html_url": "https://github.com/psf/black/pull/3150",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-11T16:27:52+00:00",
       "closed_by": null
     },
     {
@@ -43332,7 +43332,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-07-11T15:14:19+00:00",
+    "last_updated": "2022-07-12T15:19:43+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
