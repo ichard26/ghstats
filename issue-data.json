@@ -42583,6 +42583,7 @@
       "created_by": "JelleZijlstra",
       "labels": [
         "T: bug",
+        "help wanted",
         "C: maintenance"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3110",
@@ -43329,10 +43330,50 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Add parens around implicit string concatenations where increases readability",
+      "number": 3162,
+      "created_at": "2022-07-13T00:06:28+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3162",
+      "html_url": "https://github.com/psf/black/pull/3162",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Release 22.7.0 (July)",
+      "number": 3163,
+      "created_at": "2022-07-13T02:58:24+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3163",
+      "html_url": "https://github.com/psf/black/issues/3163",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Move to explicitly creating a new loop",
+      "number": 3164,
+      "created_at": "2022-07-13T05:06:15+00:00",
+      "created_by": "cooperlees",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3164",
+      "html_url": "https://github.com/psf/black/pull/3164",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-12T15:19:43+00:00",
+    "last_updated": "2022-07-13T15:19:56+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
