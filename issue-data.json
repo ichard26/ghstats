@@ -1915,8 +1915,6 @@
       "created_by": "Lukas0907",
       "labels": [
         "T: enhancement",
-        "help wanted",
-        "good first issue",
         "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/144",
@@ -12807,12 +12805,14 @@
       "created_at": "2019-08-13T22:11:15+00:00",
       "created_by": "dougthor42",
       "labels": [
-        "duplicate"
+        "T: design",
+        "F: strings / docstrings",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/982",
       "html_url": "https://github.com/psf/black/issues/982",
       "is_pr": false,
-      "closed_at": "2020-03-04T21:55:25+00:00",
+      "closed_at": null,
       "closed_by": "ambv"
     },
     {
@@ -39325,8 +39325,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2873",
       "html_url": "https://github.com/psf/black/issues/2873",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-14T00:02:52+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Copy over comments when hugging power ops ",
@@ -39337,7 +39337,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2874",
       "html_url": "https://github.com/psf/black/pull/2874",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-14T00:02:52+00:00",
       "closed_by": null
     },
     {
@@ -43037,8 +43037,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3141",
       "html_url": "https://github.com/psf/black/issues/3141",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-14T02:26:05+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Fix typo in CHANGES.md",
@@ -43370,10 +43370,53 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Unable to reproduce short_string test output",
+      "number": 3165,
+      "created_at": "2022-07-13T22:00:06+00:00",
+      "created_by": "Thijss",
+      "labels": [
+        "T: bug",
+        "R: invalid",
+        "R: not a bug",
+        "F: strings / docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3165",
+      "html_url": "https://github.com/psf/black/issues/3165",
+      "is_pr": false,
+      "closed_at": "2022-07-14T07:33:08+00:00",
+      "closed_by": "Thijss"
+    },
+    {
+      "title": "Don't (ever) put a single-char closing docstring quote on a new line",
+      "number": 3166,
+      "created_at": "2022-07-13T23:47:53+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "F: strings / docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3166",
+      "html_url": "https://github.com/psf/black/pull/3166",
+      "is_pr": true,
+      "closed_at": "2022-07-14T02:26:05+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "update on warning message",
+      "number": 3167,
+      "created_at": "2022-07-14T07:22:41+00:00",
+      "created_by": "Panther-12",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3167",
+      "html_url": "https://github.com/psf/black/pull/3167",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-13T15:19:56+00:00",
+    "last_updated": "2022-07-14T15:15:27+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
