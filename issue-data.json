@@ -42589,8 +42589,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3110",
       "html_url": "https://github.com/psf/black/issues/3110",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-14T22:24:35+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "title": " cannot import name 'ParameterSource' from 'click.core'  ",
@@ -43213,8 +43213,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3153",
       "html_url": "https://github.com/psf/black/issues/3153",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-14T19:22:29+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Cannot format: INTERNAL ERROR: Black produced different code on the second pass of the formatter.",
@@ -43368,7 +43368,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3164",
       "html_url": "https://github.com/psf/black/pull/3164",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-14T22:24:35+00:00",
       "closed_by": null
     },
     {
@@ -43403,20 +43403,80 @@
       "closed_by": null
     },
     {
-      "title": "update on warning message",
+      "title": "Add warning to not run blackd publicly in docs",
       "number": 3167,
       "created_at": "2022-07-14T07:22:41+00:00",
       "created_by": "Panther-12",
-      "labels": [],
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3167",
       "html_url": "https://github.com/psf/black/pull/3167",
       "is_pr": true,
+      "closed_at": "2022-07-14T19:22:29+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Actually disable docstring prefix normalization with -S + fix instability",
+      "number": 3168,
+      "created_at": "2022-07-14T17:55:27+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "F: strings / docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3168",
+      "html_url": "https://github.com/psf/black/pull/3168",
+      "is_pr": true,
+      "closed_at": "2022-07-14T23:47:34+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Drop Python 3.6 support (for running Black only, presumably?)",
+      "number": 3169,
+      "created_at": "2022-07-14T18:17:51+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: cleanup",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3169",
+      "html_url": "https://github.com/psf/black/issues/3169",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix typo in black docs for --extend-exclude",
+      "number": 3170,
+      "created_at": "2022-07-14T21:38:26+00:00",
+      "created_by": "onescriptkid",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3170",
+      "html_url": "https://github.com/psf/black/pull/3170",
+      "is_pr": true,
+      "closed_at": "2022-07-14T23:51:18+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "run pytest with `filterwarnings=['error', ...`",
+      "number": 3171,
+      "created_at": "2022-07-14T22:30:33+00:00",
+      "created_by": "graingert",
+      "labels": [
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3171",
+      "html_url": "https://github.com/psf/black/issues/3171",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-14T15:15:27+00:00",
+    "last_updated": "2022-07-15T15:15:49+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
