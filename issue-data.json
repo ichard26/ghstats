@@ -43514,7 +43514,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3174",
       "html_url": "https://github.com/psf/black/pull/3174",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-17T01:55:46+00:00",
       "closed_by": null
     },
     {
@@ -43531,10 +43531,25 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Upcoming aiohttp 4.0 is breaking our test suite with a new deprecation warning",
+      "number": 3176,
+      "created_at": "2022-07-17T01:54:15+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: dependencies",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3176",
+      "html_url": "https://github.com/psf/black/issues/3176",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-16T15:13:02+00:00",
+    "last_updated": "2022-07-17T15:13:14+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
