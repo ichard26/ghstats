@@ -43546,10 +43546,36 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Passing \"pyproject.toml\" when calling black using the API",
+      "number": 3177,
+      "created_at": "2022-07-18T10:38:40+00:00",
+      "created_by": "khrynczenko",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/3177",
+      "html_url": "https://github.com/psf/black/issues/3177",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black prints succes to stderr",
+      "number": 3178,
+      "created_at": "2022-07-18T13:31:52+00:00",
+      "created_by": "trbjo",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3178",
+      "html_url": "https://github.com/psf/black/issues/3178",
+      "is_pr": false,
+      "closed_at": "2022-07-18T13:38:05+00:00",
+      "closed_by": "trbjo"
     }
   ],
   "record": {
-    "last_updated": "2022-07-17T15:13:14+00:00",
+    "last_updated": "2022-07-18T15:17:50+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
