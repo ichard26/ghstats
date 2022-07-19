@@ -32598,7 +32598,7 @@
       "labels": [
         "R: not a bug",
         "C: integrations",
-        "C: command line / config"
+        "C: configuration"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2401",
       "html_url": "https://github.com/psf/black/issues/2401",
@@ -43529,7 +43529,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3175",
       "html_url": "https://github.com/psf/black/pull/3175",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-19T02:17:13+00:00",
       "closed_by": null
     },
     {
@@ -43552,12 +43552,15 @@
       "number": 3177,
       "created_at": "2022-07-18T10:38:40+00:00",
       "created_by": "khrynczenko",
-      "labels": [],
+      "labels": [
+        "C: configuration",
+        "C: api"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/3177",
       "html_url": "https://github.com/psf/black/issues/3177",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-18T23:40:15+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Black prints succes to stderr",
@@ -43572,10 +43575,24 @@
       "is_pr": false,
       "closed_at": "2022-07-18T13:38:05+00:00",
       "closed_by": "trbjo"
+    },
+    {
+      "title": "Large (4.6MB) parser test code takes 4+ minutes to check.",
+      "number": 3179,
+      "created_at": "2022-07-19T08:36:48+00:00",
+      "created_by": "jorisgeer",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3179",
+      "html_url": "https://github.com/psf/black/issues/3179",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-18T15:17:50+00:00",
+    "last_updated": "2022-07-19T15:19:36+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
