@@ -22116,7 +22116,7 @@
       "closed_by": null
     },
     {
-      "title": "Only the last trailing comma in a series of chained method calls is magic",
+      "title": "Only the last trailing comma in a statement is magic",
       "number": 1671,
       "created_at": "2020-09-03T03:42:52+00:00",
       "created_by": "andersk",
@@ -34004,13 +34004,14 @@
       "created_at": "2021-09-17T16:06:59+00:00",
       "created_by": "nik-sm",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: trailing comma"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2498",
       "html_url": "https://github.com/psf/black/issues/2498",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-20T13:47:26+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte",
@@ -43596,17 +43597,32 @@
       "created_at": "2022-07-19T21:04:12+00:00",
       "created_by": "yilei",
       "labels": [
-        "skip news"
+        "skip news",
+        "C: maintenance"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/3180",
       "html_url": "https://github.com/psf/black/pull/3180",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-20T01:33:00+00:00",
       "closed_by": null
+    },
+    {
+      "title": "multi-line declaration incorrectly concatenated",
+      "number": 3181,
+      "created_at": "2022-07-20T12:24:53+00:00",
+      "created_by": "tsmorrill",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3181",
+      "html_url": "https://github.com/psf/black/issues/3181",
+      "is_pr": false,
+      "closed_at": "2022-07-20T13:43:00+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-07-20T00:59:17+00:00",
+    "last_updated": "2022-07-20T15:15:09+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
