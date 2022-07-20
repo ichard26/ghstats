@@ -27011,15 +27011,15 @@
       "created_at": "2021-03-01T19:46:03+00:00",
       "created_by": "remyjette",
       "labels": [
+        "T: bug",
         "C: performance",
-        "F: fmtoff",
-        "T: bug"
+        "F: fmtoff"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2015",
       "html_url": "https://github.com/psf/black/issues/2015",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-20T00:57:24+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Turn test_regex into a click callback",
@@ -28829,8 +28829,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2138",
       "html_url": "https://github.com/psf/black/issues/2138",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-19T21:26:12+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Black does not support \"Assignment Expressions\" (\"the walrus operator\") in the `assert` statements.",
@@ -31723,8 +31723,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2339",
       "html_url": "https://github.com/psf/black/issues/2339",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-19T21:26:12+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Issue: file \"/urs/lib/python3.7/ast.py\", line 35, in parse",
@@ -32897,8 +32897,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2421",
       "html_url": "https://github.com/psf/black/issues/2421",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-19T21:26:12+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Better Comments",
@@ -36096,8 +36096,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2646",
       "html_url": "https://github.com/psf/black/issues/2646",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-19T21:26:11+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "grammar: match subject can include starred expression",
@@ -36549,8 +36549,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2680",
       "html_url": "https://github.com/psf/black/issues/2680",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-19T21:26:12+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Writing failed: [Errno 2] No such file or directory: '/home/user/.cache/black/21.11b1/tmpb3yqz52h'",
@@ -41480,8 +41480,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3026",
       "html_url": "https://github.com/psf/black/issues/3026",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-20T00:57:24+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Add custom configuration file with precedence over pyproject.toml",
@@ -42814,8 +42814,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3126",
       "html_url": "https://github.com/psf/black/issues/3126",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-19T21:26:11+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Error",
@@ -42861,8 +42861,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3129",
       "html_url": "https://github.com/psf/black/issues/3129",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-20T00:57:24+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Reorder import statements",
@@ -43137,7 +43137,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3148",
       "html_url": "https://github.com/psf/black/pull/3148",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-19T21:26:12+00:00",
       "closed_by": null
     },
     {
@@ -43285,7 +43285,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3158",
       "html_url": "https://github.com/psf/black/pull/3158",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-20T00:57:24+00:00",
       "closed_by": null
     },
     {
@@ -43589,10 +43589,24 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Use underscores instead of a space in this test file's name, to be consistent.",
+      "number": 3180,
+      "created_at": "2022-07-19T21:04:12+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3180",
+      "html_url": "https://github.com/psf/black/pull/3180",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-19T15:19:36+00:00",
+    "last_updated": "2022-07-20T00:59:17+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
