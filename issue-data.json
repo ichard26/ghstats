@@ -42574,7 +42574,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3109",
       "html_url": "https://github.com/psf/black/pull/3109",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-23T20:59:43+00:00",
       "closed_by": null
     },
     {
@@ -43636,7 +43636,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-07-22T15:14:41+00:00",
+    "last_updated": "2022-07-24T15:14:06+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
