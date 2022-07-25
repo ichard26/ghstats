@@ -43633,10 +43633,55 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Bump sphinx from 5.0.2 to 5.1.0 in /docs",
+      "number": 3183,
+      "created_at": "2022-07-25T06:05:40+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3183",
+      "html_url": "https://github.com/psf/black/pull/3183",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black crashes when disabling fmt in some parts of the code",
+      "number": 3184,
+      "created_at": "2022-07-25T09:09:15+00:00",
+      "created_by": "masipcat",
+      "labels": [
+        "T: bug",
+        "F: fmtoff"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3184",
+      "html_url": "https://github.com/psf/black/issues/3184",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Vim plugin: prefix errors with \"Black\"",
+      "number": 3185,
+      "created_at": "2022-07-25T12:15:57+00:00",
+      "created_by": "tobast",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3185",
+      "html_url": "https://github.com/psf/black/issues/3185",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-24T15:14:06+00:00",
+    "last_updated": "2022-07-25T15:15:09+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
