@@ -43678,10 +43678,22 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "\"stable\" branch changed to \"stable\" tag",
+      "number": 3186,
+      "created_at": "2022-07-25T17:24:53+00:00",
+      "created_by": "KevinWhalen",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3186",
+      "html_url": "https://github.com/psf/black/pull/3186",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-25T15:15:09+00:00",
+    "last_updated": "2022-07-26T15:16:22+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
