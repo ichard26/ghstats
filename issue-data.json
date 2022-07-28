@@ -14901,13 +14901,13 @@
       "closed_by": null
     },
     {
-      "title": "Error writing grammar tables",
+      "title": "Improve the the blib2to3 grammar caching mechanism  ",
       "number": 1143,
       "created_at": "2019-11-06T12:27:21+00:00",
       "created_by": "EWouters",
       "labels": [
-        "T: bug",
-        "C: command line / config"
+        "T: enhancement",
+        "C: configuration"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1143",
       "html_url": "https://github.com/psf/black/issues/1143",
@@ -40149,8 +40149,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2930",
       "html_url": "https://github.com/psf/black/issues/2930",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-07-27T21:19:29+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Update pylint config docs",
@@ -40278,7 +40278,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2941",
       "html_url": "https://github.com/psf/black/pull/2941",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-27T21:19:29+00:00",
       "closed_by": null
     },
     {
@@ -43692,7 +43692,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3186",
       "html_url": "https://github.com/psf/black/pull/3186",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-07-28T00:50:02+00:00",
       "closed_by": null
     },
     {
@@ -43722,12 +43722,114 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3188",
       "html_url": "https://github.com/psf/black/pull/3188",
       "is_pr": true,
+      "closed_at": "2022-07-27T21:19:28+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Consolidate test CI and add concurrency limits",
+      "number": 3189,
+      "created_at": "2022-07-27T22:09:11+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: cleanup",
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3189",
+      "html_url": "https://github.com/psf/black/pull/3189",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add sanity check to executable CD + more",
+      "number": 3190,
+      "created_at": "2022-07-28T00:47:37+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: cleanup",
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3190",
+      "html_url": "https://github.com/psf/black/pull/3190",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump pre-commit hooks",
+      "number": 3191,
+      "created_at": "2022-07-28T01:39:29+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3191",
+      "html_url": "https://github.com/psf/black/pull/3191",
+      "is_pr": true,
+      "closed_at": "2022-07-28T02:04:14+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "[mypyc] GHA macOS 10.15 is deprecated and is going to be removed by August 30, 2022",
+      "number": 3192,
+      "created_at": "2022-07-28T01:50:22+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: installation / packaging",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3192",
+      "html_url": "https://github.com/psf/black/issues/3192",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Remove blib2to3 grammar cache logging",
+      "number": 3193,
+      "created_at": "2022-07-28T02:56:52+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: blib2to3"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3193",
+      "html_url": "https://github.com/psf/black/pull/3193",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Vim: prefix messages with \"Black:\"",
+      "number": 3194,
+      "created_at": "2022-07-28T10:49:56+00:00",
+      "created_by": "tobast",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3194",
+      "html_url": "https://github.com/psf/black/pull/3194",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Preview option support for blackd",
+      "number": 3195,
+      "created_at": "2022-07-28T13:59:35+00:00",
+      "created_by": "Mogost",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3195",
+      "html_url": "https://github.com/psf/black/issues/3195",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-27T15:15:52+00:00",
+    "last_updated": "2022-07-28T15:14:29+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
