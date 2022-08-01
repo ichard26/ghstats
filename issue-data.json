@@ -43901,10 +43901,26 @@
       "is_pr": false,
       "closed_at": "2022-07-31T14:24:49+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Bump sphinx from 5.1.0 to 5.1.1 in /docs",
+      "number": 3201,
+      "created_at": "2022-08-01T06:05:31+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3201",
+      "html_url": "https://github.com/psf/black/pull/3201",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-07-31T15:13:28+00:00",
+    "last_updated": "2022-08-01T15:18:04+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
