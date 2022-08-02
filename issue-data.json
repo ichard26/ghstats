@@ -30181,9 +30181,9 @@
       "created_at": "2021-05-14T02:17:20+00:00",
       "created_by": "rdemetrescu",
       "labels": [
+        "T: bug",
         "C: invalid code",
-        "F: fmtoff",
-        "T: bug"
+        "F: fmtoff"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2232",
       "html_url": "https://github.com/psf/black/issues/2232",
@@ -40765,8 +40765,11 @@
       "created_at": "2022-03-30T04:09:05+00:00",
       "created_by": "RoryDungan",
       "labels": [
-        "T: bug",
-        "C: installation / packaging"
+        "T: enhancement",
+        "help wanted",
+        "C: integrations",
+        "C: packaging",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2975",
       "html_url": "https://github.com/psf/black/issues/2975",
@@ -42048,8 +42051,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3073",
       "html_url": "https://github.com/psf/black/issues/3073",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-01T19:43:21+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Turn off color depending on PY_COLORS / NO_COLOR",
@@ -42148,7 +42151,8 @@
       "created_by": "Akuli",
       "labels": [
         "T: design",
-        "F: parentheses"
+        "F: parentheses",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3080",
       "html_url": "https://github.com/psf/black/issues/3080",
@@ -43863,7 +43867,10 @@
       "number": 3198,
       "created_at": "2022-07-30T09:55:13+00:00",
       "created_by": "shivamdurgbuns",
-      "labels": [],
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3198",
       "html_url": "https://github.com/psf/black/pull/3198",
       "is_pr": true,
@@ -43915,12 +43922,26 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3201",
       "html_url": "https://github.com/psf/black/pull/3201",
       "is_pr": true,
+      "closed_at": "2022-08-01T17:51:46+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "makes install available for all users in docker image",
+      "number": 3202,
+      "created_at": "2022-08-01T21:34:56+00:00",
+      "created_by": "n-borges",
+      "labels": [
+        "C: integrations"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3202",
+      "html_url": "https://github.com/psf/black/pull/3202",
+      "is_pr": true,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-01T15:18:04+00:00",
+    "last_updated": "2022-08-02T15:14:31+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
