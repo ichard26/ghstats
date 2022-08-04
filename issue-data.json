@@ -25100,7 +25100,9 @@
       "created_at": "2020-12-22T19:40:06+00:00",
       "created_by": "aneeshusa",
       "labels": [
-        "F: strings / docstrings"
+        "help wanted",
+        "F: strings",
+        "S: up for grabs"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/1879",
       "html_url": "https://github.com/psf/black/pull/1879",
@@ -30253,7 +30255,8 @@
       "created_at": "2021-05-16T18:54:28+00:00",
       "created_by": "cdce8p",
       "labels": [
-        "F: parentheses"
+        "F: parentheses",
+        "S: blocked"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/2237",
       "html_url": "https://github.com/psf/black/pull/2237",
@@ -33800,7 +33803,9 @@
       "number": 2484,
       "created_at": "2021-09-07T19:33:13+00:00",
       "created_by": "akaihola",
-      "labels": [],
+      "labels": [
+        "S: up for grabs"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/2484",
       "html_url": "https://github.com/psf/black/pull/2484",
       "is_pr": true,
@@ -34417,7 +34422,8 @@
       "created_at": "2021-10-07T08:31:21+00:00",
       "created_by": "Shivansh-007",
       "labels": [
-        "C: command line / config"
+        "C: configuration",
+        "S: blocked"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/2527",
       "html_url": "https://github.com/psf/black/pull/2527",
@@ -37841,7 +37847,11 @@
       "number": 2770,
       "created_at": "2022-01-14T09:57:20+00:00",
       "created_by": "Shivansh-007",
-      "labels": [],
+      "labels": [
+        "F: parentheses",
+        "S: up for grabs",
+        "S: blocked"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/2770",
       "html_url": "https://github.com/psf/black/pull/2770",
       "is_pr": true,
@@ -39088,7 +39098,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2857",
       "html_url": "https://github.com/psf/black/pull/2857",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-03T16:20:15+00:00",
       "closed_by": null
     },
     {
@@ -39939,9 +39949,10 @@
       "created_at": "2022-03-13T10:55:05+00:00",
       "created_by": "Shivansh-007",
       "labels": [
+        "help wanted",
         "T: design",
-        "S: awaiting response",
-        "F: strings / docstrings"
+        "F: strings",
+        "S: up for grabs"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/2916",
       "html_url": "https://github.com/psf/black/pull/2916",
@@ -43298,7 +43309,9 @@
       "created_by": "yilei",
       "labels": [
         "T: design",
-        "F: strings / docstrings"
+        "F: parentheses",
+        "S: accepted",
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3159",
       "html_url": "https://github.com/psf/black/issues/3159",
@@ -43326,7 +43339,8 @@
       "labels": [
         "T: documentation",
         "C: dependencies",
-        "skip news"
+        "skip news",
+        "S: blocked"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/3161",
       "html_url": "https://github.com/psf/black/pull/3161",
@@ -43341,7 +43355,7 @@
       "created_by": "yilei",
       "labels": [
         "F: parentheses",
-        "F: strings / docstrings"
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/3162",
       "html_url": "https://github.com/psf/black/pull/3162",
@@ -44002,10 +44016,39 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Misdetection of project root when `--stdin-filename` targets a filepath outside the current working directory",
+      "number": 3207,
+      "created_at": "2022-08-03T19:28:10+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "T: bug",
+        "help wanted",
+        "C: configuration",
+        "C: file collection"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3207",
+      "html_url": "https://github.com/psf/black/issues/3207",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix misdetection of project root when `--stdin-filename` filepath is outside the current working directory",
+      "number": 3208,
+      "created_at": "2022-08-04T12:12:58+00:00",
+      "created_by": "n-borges",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3208",
+      "html_url": "https://github.com/psf/black/pull/3208",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-03T15:15:56+00:00",
+    "last_updated": "2022-08-04T15:16:37+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
