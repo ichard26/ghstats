@@ -39888,7 +39888,7 @@
       "created_by": "thejcannon",
       "labels": [
         "T: design",
-        "F: strings / docstrings"
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2912",
       "html_url": "https://github.com/psf/black/issues/2912",
@@ -42190,7 +42190,11 @@
       "number": 3082,
       "created_at": "2022-05-21T16:25:00+00:00",
       "created_by": "KAction",
-      "labels": [],
+      "labels": [
+        "S: awaiting response",
+        "F: strings",
+        "S: up for grabs"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3082",
       "html_url": "https://github.com/psf/black/pull/3082",
       "is_pr": true,
@@ -44052,7 +44056,9 @@
       "number": 3209,
       "created_at": "2022-08-05T04:14:09+00:00",
       "created_by": "hauntsaninja",
-      "labels": [],
+      "labels": [
+        "F: trailing comma"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3209",
       "html_url": "https://github.com/psf/black/pull/3209",
       "is_pr": true,
@@ -44072,10 +44078,24 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Reduce single file format overhead by lazily importing modules and loading .gitignore / --exclude",
+      "number": 3211,
+      "created_at": "2022-08-05T18:35:28+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: performance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3211",
+      "html_url": "https://github.com/psf/black/pull/3211",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-05T15:15:05+00:00",
+    "last_updated": "2022-08-06T15:13:23+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
