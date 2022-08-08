@@ -44092,10 +44092,41 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Incorrect handling the content of the .gitignore file",
+      "number": 3212,
+      "created_at": "2022-08-08T01:57:55+00:00",
+      "created_by": "wenh06",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3212",
+      "html_url": "https://github.com/psf/black/issues/3212",
+      "is_pr": false,
+      "closed_at": "2022-08-08T08:54:08+00:00",
+      "closed_by": "wenh06"
+    },
+    {
+      "title": "code inside fstring not getting formatted",
+      "number": 3213,
+      "created_at": "2022-08-08T03:16:24+00:00",
+      "created_by": "jerryc05",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "F: strings",
+        "C: parser"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3213",
+      "html_url": "https://github.com/psf/black/issues/3213",
+      "is_pr": false,
+      "closed_at": "2022-08-08T03:19:16+00:00",
+      "closed_by": "ichard26"
     }
   ],
   "record": {
-    "last_updated": "2022-08-06T15:13:23+00:00",
+    "last_updated": "2022-08-08T15:15:55+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
