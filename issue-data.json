@@ -44137,10 +44137,34 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Use debug f-strings for feature detection",
+      "number": 3215,
+      "created_at": "2022-08-10T03:46:56+00:00",
+      "created_by": "hauntsaninja",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3215",
+      "html_url": "https://github.com/psf/black/pull/3215",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix misdetection of project root with `--stdin-filename`",
+      "number": 3216,
+      "created_at": "2022-08-10T06:53:59+00:00",
+      "created_by": "hauntsaninja",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3216",
+      "html_url": "https://github.com/psf/black/pull/3216",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-09T15:15:39+00:00",
+    "last_updated": "2022-08-10T15:14:25+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
