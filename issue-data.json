@@ -43804,7 +43804,7 @@
       "created_at": "2022-07-28T01:50:22+00:00",
       "created_by": "ichard26",
       "labels": [
-        "C: installation / packaging",
+        "C: packaging",
         "C: maintenance"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3192",
@@ -44170,10 +44170,22 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "feat(#3195): add preview option support for blackd",
+      "number": 3217,
+      "created_at": "2022-08-11T17:53:38+00:00",
+      "created_by": "Mogost",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3217",
+      "html_url": "https://github.com/psf/black/pull/3217",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-11T15:15:12+00:00",
+    "last_updated": "2022-08-12T15:15:30+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
