@@ -31087,14 +31087,14 @@
       "created_at": "2021-06-01T08:01:00+00:00",
       "created_by": "hauntsaninja",
       "labels": [
-        "F: trailing comma",
-        "T: bug"
+        "T: bug",
+        "F: trailing comma"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2296",
       "html_url": "https://github.com/psf/black/issues/2296",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-13T13:41:36+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Normalise string prefix order",
@@ -43810,8 +43810,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3192",
       "html_url": "https://github.com/psf/black/issues/3192",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-13T03:33:18+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Remove blib2to3 grammar cache logging",
@@ -43855,8 +43855,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3195",
       "html_url": "https://github.com/psf/black/issues/3195",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-13T03:23:03+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Better quotes normalisation with triple quotes",
@@ -43885,7 +43885,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3197",
       "html_url": "https://github.com/psf/black/pull/3197",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-13T03:33:17+00:00",
       "closed_by": null
     },
     {
@@ -44067,7 +44067,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3209",
       "html_url": "https://github.com/psf/black/pull/3209",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-13T13:41:35+00:00",
       "closed_by": null
     },
     {
@@ -44180,12 +44180,67 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3217",
       "html_url": "https://github.com/psf/black/pull/3217",
       "is_pr": true,
+      "closed_at": "2022-08-13T03:23:02+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "The blackd daemon doesn't work, it just returns the input source code with line endings stripped",
+      "number": 3218,
+      "created_at": "2022-08-12T22:31:48+00:00",
+      "created_by": "Hubro",
+      "labels": [
+        "T: bug",
+        "help wanted"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3218",
+      "html_url": "https://github.com/psf/black/issues/3218",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Infer target version based on project metadata",
+      "number": 3219,
+      "created_at": "2022-08-12T23:10:43+00:00",
+      "created_by": "stinodego",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3219",
+      "html_url": "https://github.com/psf/black/pull/3219",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Use --no-implicit-optional for type checking",
+      "number": 3220,
+      "created_at": "2022-08-13T01:54:36+00:00",
+      "created_by": "hauntsaninja",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3220",
+      "html_url": "https://github.com/psf/black/pull/3220",
+      "is_pr": true,
+      "closed_at": "2022-08-13T02:28:47+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Top",
+      "number": 3221,
+      "created_at": "2022-08-13T08:30:32+00:00",
+      "created_by": "SabinXtha1",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3221",
+      "html_url": "https://github.com/psf/black/issues/3221",
+      "is_pr": false,
+      "closed_at": "2022-08-13T13:39:54+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-08-12T15:15:30+00:00",
+    "last_updated": "2022-08-13T15:13:47+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
