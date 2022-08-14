@@ -44240,7 +44240,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-08-13T15:13:47+00:00",
+    "last_updated": "2022-08-14T15:13:59+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
