@@ -30707,8 +30707,8 @@
       "created_at": "2021-05-28T11:13:57+00:00",
       "created_by": "tmotyl",
       "labels": [
-        "F: strings / docstrings",
-        "T: design"
+        "T: design",
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2268",
       "html_url": "https://github.com/psf/black/issues/2268",
@@ -34768,7 +34768,8 @@
       "created_at": "2021-10-21T19:48:30+00:00",
       "created_by": "chasefinch",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2553",
       "html_url": "https://github.com/psf/black/issues/2553",
@@ -41986,7 +41987,8 @@
       "created_at": "2022-05-11T09:04:02+00:00",
       "created_by": "ikamensh",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3068",
       "html_url": "https://github.com/psf/black/issues/3068",
@@ -42946,12 +42948,17 @@
       "number": 3134,
       "created_at": "2022-06-23T18:32:30+00:00",
       "created_by": "mangelozzi",
-      "labels": [],
+      "labels": [
+        "R: rejected",
+        "T: design",
+        "F: strings",
+        "F: linebreak"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/3134",
       "html_url": "https://github.com/psf/black/issues/3134",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-15T20:38:00+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Only call get_future_imports when needed.",
@@ -43653,13 +43660,15 @@
       "created_at": "2022-07-22T07:26:08+00:00",
       "created_by": "Vincent0706",
       "labels": [
-        "T: design"
+        "R: rejected",
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3182",
       "html_url": "https://github.com/psf/black/issues/3182",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-15T20:48:34+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Bump sphinx from 5.0.2 to 5.1.0 in /docs",
@@ -44274,17 +44283,48 @@
       "created_by": "dependabot[bot]",
       "labels": [
         "C: dependencies",
-        "skip news"
+        "skip news",
+        "S: blocked"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/3224",
       "html_url": "https://github.com/psf/black/pull/3224",
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "comments removed by black in case the following line has a fmt skip",
+      "number": 3225,
+      "created_at": "2022-08-15T15:37:46+00:00",
+      "created_by": "LuisBL",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "C: invalid code",
+        "F: comments",
+        "F: fmtskip"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3225",
+      "html_url": "https://github.com/psf/black/issues/3225",
+      "is_pr": false,
+      "closed_at": "2022-08-15T21:34:02+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "Removed need for subprocess call in `action.yml`",
+      "number": 3226,
+      "created_at": "2022-08-15T22:12:04+00:00",
+      "created_by": "ionite34",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3226",
+      "html_url": "https://github.com/psf/black/pull/3226",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-15T15:16:19+00:00",
+    "last_updated": "2022-08-16T15:15:17+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
