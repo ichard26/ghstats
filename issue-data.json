@@ -44333,10 +44333,55 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Incorrect handling of .gitignore negate pattern",
+      "number": 3228,
+      "created_at": "2022-08-18T04:46:56+00:00",
+      "created_by": "ajasmin",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3228",
+      "html_url": "https://github.com/psf/black/issues/3228",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Trailing commas not removed when dict/function call collapsed into single line",
+      "number": 3229,
+      "created_at": "2022-08-18T13:50:47+00:00",
+      "created_by": "nyuszika7h",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3229",
+      "html_url": "https://github.com/psf/black/issues/3229",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Complete 3.11 Support",
+      "number": 3230,
+      "created_at": "2022-08-18T15:09:52+00:00",
+      "created_by": "cooperlees",
+      "labels": [
+        "T: enhancement",
+        "help wanted",
+        "C: packaging",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3230",
+      "html_url": "https://github.com/psf/black/issues/3230",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-17T15:15:44+00:00",
+    "last_updated": "2022-08-18T15:24:01+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
