@@ -44410,10 +44410,40 @@
       "is_pr": true,
       "closed_at": "2022-08-19T13:27:40+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Switch build backend to Hatchling",
+      "number": 3233,
+      "created_at": "2022-08-19T22:26:46+00:00",
+      "created_by": "ofek",
+      "labels": [
+        "C: packaging",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3233",
+      "html_url": "https://github.com/psf/black/pull/3233",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add passing 3.11 CI by exempting blackd tests",
+      "number": 3234,
+      "created_at": "2022-08-20T02:57:47+00:00",
+      "created_by": "cooperlees",
+      "labels": [
+        "T: enhancement",
+        "C: integrations"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3234",
+      "html_url": "https://github.com/psf/black/pull/3234",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-19T15:16:31+00:00",
+    "last_updated": "2022-08-20T15:13:59+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
