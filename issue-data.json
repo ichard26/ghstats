@@ -44440,10 +44440,24 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Update email",
+      "number": 3235,
+      "created_at": "2022-08-20T17:37:30+00:00",
+      "created_by": "ahrex",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3235",
+      "html_url": "https://github.com/psf/black/pull/3235",
+      "is_pr": true,
+      "closed_at": "2022-08-20T17:45:20+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-20T15:13:59+00:00",
+    "last_updated": "2022-08-21T15:13:32+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
