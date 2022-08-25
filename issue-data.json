@@ -44473,10 +44473,36 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Look for gitignore file in the initial target folder ad and ignore patterns",
+      "number": 3237,
+      "created_at": "2022-08-24T19:17:01+00:00",
+      "created_by": "martinResearch",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3237",
+      "html_url": "https://github.com/psf/black/pull/3237",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Is there any way to avoid __getitem__ fom",
+      "number": 3238,
+      "created_at": "2022-08-25T05:53:45+00:00",
+      "created_by": "Opalo",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3238",
+      "html_url": "https://github.com/psf/black/issues/3238",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-24T15:15:06+00:00",
+    "last_updated": "2022-08-25T15:15:10+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
