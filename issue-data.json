@@ -20823,8 +20823,8 @@
       "created_at": "2020-08-07T10:43:20+00:00",
       "created_by": "eighthave",
       "labels": [
-        "C: integrations",
-        "T: enhancement"
+        "T: enhancement",
+        "C: integrations"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1576",
       "html_url": "https://github.com/psf/black/issues/1576",
@@ -44499,10 +44499,37 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "skip_magic_trailing_comma=true not working in certain scenario",
+      "number": 3239,
+      "created_at": "2022-08-26T05:10:56+00:00",
+      "created_by": "nipunn1313",
+      "labels": [
+        "T: bug",
+        "F: trailing comma"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3239",
+      "html_url": "https://github.com/psf/black/issues/3239",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "INTERNAL ERROR: Black produced different code on the second pass of the formatter.",
+      "number": 3240,
+      "created_at": "2022-08-26T09:01:16+00:00",
+      "created_by": "maxmunzel",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/3240",
+      "html_url": "https://github.com/psf/black/issues/3240",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-25T15:15:10+00:00",
+    "last_updated": "2022-08-26T15:16:34+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
