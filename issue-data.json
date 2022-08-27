@@ -34927,8 +34927,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2564",
       "html_url": "https://github.com/psf/black/issues/2564",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-27T01:11:01+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Black reforms Click docstring use \"prevent rewrapping\" controls",
@@ -36223,7 +36223,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2656",
       "html_url": "https://github.com/psf/black/pull/2656",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-27T01:11:02+00:00",
       "closed_by": null
     },
     {
@@ -44050,8 +44050,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3207",
       "html_url": "https://github.com/psf/black/issues/3207",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-26T21:07:26+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Fix misdetection of project root when `--stdin-filename` filepath is outside the current working directory",
@@ -44062,7 +44062,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3208",
       "html_url": "https://github.com/psf/black/pull/3208",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-26T21:15:01+00:00",
       "closed_by": null
     },
     {
@@ -44106,7 +44106,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3211",
       "html_url": "https://github.com/psf/black/pull/3211",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-27T01:11:00+00:00",
       "closed_by": null
     },
     {
@@ -44177,7 +44177,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3216",
       "html_url": "https://github.com/psf/black/pull/3216",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-26T21:07:25+00:00",
       "closed_by": null
     },
     {
@@ -44323,7 +44323,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3226",
       "html_url": "https://github.com/psf/black/pull/3226",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-26T19:45:32+00:00",
       "closed_by": null
     },
     {
@@ -44520,16 +44520,34 @@
       "number": 3240,
       "created_at": "2022-08-26T09:01:16+00:00",
       "created_by": "maxmunzel",
-      "labels": [],
+      "labels": [
+        "T: bug",
+        "C: unstable formatting",
+        "R: outdated"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/3240",
       "html_url": "https://github.com/psf/black/issues/3240",
+      "is_pr": false,
+      "closed_at": "2022-08-26T16:37:45+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Convert lists to tuples when safe",
+      "number": 3241,
+      "created_at": "2022-08-26T21:07:48+00:00",
+      "created_by": "TomFryers",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3241",
+      "html_url": "https://github.com/psf/black/issues/3241",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-26T15:16:34+00:00",
+    "last_updated": "2022-08-27T15:14:13+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
