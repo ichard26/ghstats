@@ -41052,7 +41052,9 @@
       "number": 2996,
       "created_at": "2022-04-05T21:23:29+00:00",
       "created_by": "jpy-git",
-      "labels": [],
+      "labels": [
+        "F: empty lines"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/2996",
       "html_url": "https://github.com/psf/black/pull/2996",
       "is_pr": true,
@@ -44570,10 +44572,24 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Strip even more redundant for parentheses",
+      "number": 3243,
+      "created_at": "2022-08-29T00:02:16+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "F: parentheses"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3243",
+      "html_url": "https://github.com/psf/black/pull/3243",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-28T15:14:29+00:00",
+    "last_updated": "2022-08-29T15:15:26+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
