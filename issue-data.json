@@ -10281,13 +10281,13 @@
       "closed_by": null
     },
     {
-      "title": "% formatted arguments put on new lines after docstrings",
+      "title": "% formatted arguments put on new lines after multiline strings",
       "number": 789,
       "created_at": "2019-03-28T21:15:28+00:00",
       "created_by": "hugovk",
       "labels": [
-        "F: strings / docstrings",
-        "T: design"
+        "T: design",
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/789",
       "html_url": "https://github.com/psf/black/issues/789",
@@ -12805,8 +12805,8 @@
       "created_by": "dougthor42",
       "labels": [
         "T: design",
-        "F: strings / docstrings",
-        "S: needs discussion"
+        "S: needs discussion",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/982",
       "html_url": "https://github.com/psf/black/issues/982",
@@ -19394,8 +19394,8 @@
       "created_at": "2020-06-01T00:41:12+00:00",
       "created_by": "jack1142",
       "labels": [
-        "F: strings / docstrings",
-        "T: bug"
+        "T: bug",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1471",
       "html_url": "https://github.com/psf/black/issues/1471",
@@ -21878,8 +21878,8 @@
       "created_at": "2020-08-29T12:25:59+00:00",
       "created_by": "henrifroese",
       "labels": [
-        "F: strings / docstrings",
-        "T: bug"
+        "T: bug",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1654",
       "html_url": "https://github.com/psf/black/issues/1654",
@@ -22499,8 +22499,8 @@
       "created_at": "2020-09-12T00:17:22+00:00",
       "created_by": "gar1t",
       "labels": [
-        "F: strings / docstrings",
-        "T: design"
+        "T: design",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1698",
       "html_url": "https://github.com/psf/black/issues/1698",
@@ -23655,14 +23655,15 @@
       "created_at": "2020-10-22T16:46:53+00:00",
       "created_by": "berislavlopac",
       "labels": [
-        "T: bug",
-        "F: strings / docstrings"
+        "R: rejected",
+        "T: design",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1779",
       "html_url": "https://github.com/psf/black/issues/1779",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-29T15:55:31+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Provide a stdin-filename to allow stdin to respect force-exclude rules",
@@ -28993,14 +28994,15 @@
       "created_at": "2021-04-26T23:10:27+00:00",
       "created_by": "godlygeek",
       "labels": [
-        "T: bug",
-        "F: strings / docstrings"
+        "R: rejected",
+        "T: design",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2150",
       "html_url": "https://github.com/psf/black/issues/2150",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-29T16:04:09+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Update CHANGELOG for 21.4b1 release",
@@ -29711,9 +29713,10 @@
       "created_at": "2021-05-05T14:23:52+00:00",
       "created_by": "turian",
       "labels": [
+        "T: bug",
         "C: invalid code",
-        "F: strings / docstrings",
-        "T: bug"
+        "S: needs repro",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2199",
       "html_url": "https://github.com/psf/black/issues/2199",
@@ -30986,7 +30989,8 @@
       "labels": [
         "T: design",
         "F: comments",
-        "F: strings / docstrings"
+        "F: strings",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2289",
       "html_url": "https://github.com/psf/black/issues/2289",
@@ -36592,7 +36596,8 @@
       "created_by": "MarcinKonowalczyk",
       "labels": [
         "T: bug",
-        "F: strings / docstrings"
+        "F: strings",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2683",
       "html_url": "https://github.com/psf/black/issues/2683",
@@ -39208,9 +39213,9 @@
       "created_by": "danohn",
       "labels": [
         "T: design",
-        "F: strings / docstrings",
         "F: linetoolong",
-        "F: linebreak"
+        "F: linebreak",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2865",
       "html_url": "https://github.com/psf/black/issues/2865",
@@ -39890,7 +39895,7 @@
       "created_by": "thejcannon",
       "labels": [
         "T: design",
-        "F: strings"
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2912",
       "html_url": "https://github.com/psf/black/issues/2912",
@@ -42152,7 +42157,8 @@
       "created_by": "rabarberski",
       "labels": [
         "T: bug",
-        "C: invalid code"
+        "C: invalid code",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3079",
       "html_url": "https://github.com/psf/black/issues/3079",
@@ -42203,7 +42209,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3082",
       "html_url": "https://github.com/psf/black/pull/3082",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-29T23:43:38+00:00",
       "closed_by": null
     },
     {
@@ -42212,7 +42218,9 @@
       "created_at": "2022-05-22T09:43:11+00:00",
       "created_by": "KelSolaar",
       "labels": [
-        "T: documentation"
+        "good first issue",
+        "T: documentation",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3083",
       "html_url": "https://github.com/psf/black/issues/3083",
@@ -42268,14 +42276,14 @@
       "created_by": "JelleZijlstra",
       "labels": [
         "T: enhancement",
-        "T: design",
-        "S: needs discussion"
+        "R: rejected",
+        "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3087",
       "html_url": "https://github.com/psf/black/issues/3087",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-29T15:42:02+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "ImportError: GitWildMatchPatternError missing from pathspec",
@@ -44474,13 +44482,14 @@
       "created_by": "jakub-m",
       "labels": [
         "T: bug",
+        "R: duplicate",
         "F: fmtoff"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3236",
       "html_url": "https://github.com/psf/black/issues/3236",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-29T16:45:10+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Look for gitignore file in the initial target folder ad and ignore patterns",
@@ -44586,10 +44595,24 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "support comment # black: off",
+      "number": 3244,
+      "created_at": "2022-08-30T09:05:38+00:00",
+      "created_by": "martinResearch",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3244",
+      "html_url": "https://github.com/psf/black/issues/3244",
+      "is_pr": false,
+      "closed_at": "2022-08-30T14:40:22+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-08-29T15:15:26+00:00",
+    "last_updated": "2022-08-30T15:15:12+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
