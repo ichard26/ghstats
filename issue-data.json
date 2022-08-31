@@ -43341,8 +43341,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3159",
       "html_url": "https://github.com/psf/black/issues/3159",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-31T02:52:01+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "added parsable line number and col number",
@@ -43385,7 +43385,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3162",
       "html_url": "https://github.com/psf/black/pull/3162",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-31T02:52:01+00:00",
       "closed_by": null
     },
     {
@@ -44273,7 +44273,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3222",
       "html_url": "https://github.com/psf/black/pull/3222",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-31T03:46:46+00:00",
       "closed_by": null
     },
     {
@@ -44602,17 +44602,45 @@
       "created_at": "2022-08-30T09:05:38+00:00",
       "created_by": "martinResearch",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "R: rejected",
+        "F: fmtoff"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3244",
       "html_url": "https://github.com/psf/black/issues/3244",
       "is_pr": false,
       "closed_at": "2022-08-30T14:40:22+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "\"Complete\" example of pyproject.toml.",
+      "number": 3245,
+      "created_at": "2022-08-30T17:37:14+00:00",
+      "created_by": "WoosterInitiative",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3245",
+      "html_url": "https://github.com/psf/black/issues/3245",
+      "is_pr": false,
+      "closed_at": "2022-08-30T17:55:54+00:00",
+      "closed_by": "WoosterInitiative"
+    },
+    {
+      "title": "add preview flag in vim plugin",
+      "number": 3246,
+      "created_at": "2022-08-31T07:41:17+00:00",
+      "created_by": "SyPeter",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3246",
+      "html_url": "https://github.com/psf/black/pull/3246",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-30T15:15:12+00:00",
+    "last_updated": "2022-08-31T15:14:54+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
