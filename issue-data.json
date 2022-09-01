@@ -34089,8 +34089,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2503",
       "html_url": "https://github.com/psf/black/issues/2503",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-01T00:28:16+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Pull Request for #2476 - Parse `skip_magic_trailing_comma` from pyproject.toml",
@@ -34871,8 +34871,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2560",
       "html_url": "https://github.com/psf/black/issues/2560",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-01T04:25:14+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "if-expression line breaks in function arguments",
@@ -35288,8 +35288,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2589",
       "html_url": "https://github.com/psf/black/issues/2589",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-31T23:40:31+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Add a missing space",
@@ -35420,8 +35420,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2598",
       "html_url": "https://github.com/psf/black/issues/2598",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-31T19:47:43+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Multi line if clauses",
@@ -36812,7 +36812,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2698",
       "html_url": "https://github.com/psf/black/pull/2698",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-01T07:13:33+00:00",
       "closed_by": null
     },
     {
@@ -43164,8 +43164,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3147",
       "html_url": "https://github.com/psf/black/issues/3147",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-31T23:41:39+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Fix the handling of `# fmt: skip` when it's at a colon line.",
@@ -43399,8 +43399,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3163",
       "html_url": "https://github.com/psf/black/issues/3163",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-08-31T23:26:09+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Move to explicitly creating a new loop",
@@ -43477,7 +43477,7 @@
       "closed_by": null
     },
     {
-      "title": "Drop Python 3.6 support (for running Black only, presumably?)",
+      "title": "Drop Python 3.6 support (for running Black only)",
       "number": 3169,
       "created_at": "2022-07-14T18:17:51+00:00",
       "created_by": "ichard26",
@@ -44288,7 +44288,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3223",
       "html_url": "https://github.com/psf/black/pull/3223",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-31T21:56:47+00:00",
       "closed_by": null
     },
     {
@@ -44492,7 +44492,7 @@
       "closed_by": "felix-hilden"
     },
     {
-      "title": "Look for gitignore file in the initial target folder ad and ignore patterns",
+      "title": "Use .gitignore files in the initial source directories",
       "number": 3237,
       "created_at": "2022-08-24T19:17:01+00:00",
       "created_by": "martinResearch",
@@ -44503,7 +44503,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3237",
       "html_url": "https://github.com/psf/black/pull/3237",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-31T19:47:42+00:00",
       "closed_by": null
     },
     {
@@ -44579,7 +44579,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3242",
       "html_url": "https://github.com/psf/black/pull/3242",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-08-31T21:46:49+00:00",
       "closed_by": null
     },
     {
@@ -44631,16 +44631,92 @@
       "number": 3246,
       "created_at": "2022-08-31T07:41:17+00:00",
       "created_by": "SyPeter",
-      "labels": [],
+      "labels": [
+        "C: integrations",
+        "C: configuration",
+        "C: vim"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3246",
       "html_url": "https://github.com/psf/black/pull/3246",
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "docs: adds ExitStack alternative to future_style.md",
+      "number": 3247,
+      "created_at": "2022-08-31T18:57:17+00:00",
+      "created_by": "jsal13",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3247",
+      "html_url": "https://github.com/psf/black/pull/3247",
+      "is_pr": true,
+      "closed_at": "2022-09-01T04:25:13+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Prepare docs for release 22.8.0",
+      "number": 3248,
+      "created_at": "2022-08-31T22:17:46+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3248",
+      "html_url": "https://github.com/psf/black/pull/3248",
+      "is_pr": true,
+      "closed_at": "2022-08-31T22:39:54+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Release 22.9.0 (September 2022) planning",
+      "number": 3249,
+      "created_at": "2022-08-31T23:12:55+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3249",
+      "html_url": "https://github.com/psf/black/issues/3249",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix start up code to also call freeze_support() on macOS when frozen so native macOS executables work",
+      "number": 3250,
+      "created_at": "2022-08-31T23:23:10+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "T: bug",
+        "C: packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3250",
+      "html_url": "https://github.com/psf/black/issues/3250",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "BlackDTestCase.test_cors_preflight failure on 22.8.0",
+      "number": 3251,
+      "created_at": "2022-09-01T04:55:52+00:00",
+      "created_by": "polyzen",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3251",
+      "html_url": "https://github.com/psf/black/issues/3251",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-08-31T15:14:54+00:00",
+    "last_updated": "2022-09-01T15:16:41+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
