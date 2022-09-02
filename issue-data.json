@@ -38920,8 +38920,9 @@
       "created_by": "evilrhinohater",
       "labels": [
         "T: bug",
-        "help wanted",
-        "C: installation / packaging"
+        "C: packaging",
+        "C: crash",
+        "S: blocked"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2845",
       "html_url": "https://github.com/psf/black/issues/2845",
@@ -44521,7 +44522,7 @@
       "closed_by": null
     },
     {
-      "title": "skip_magic_trailing_comma=true not working in certain scenario",
+      "title": "magic trailing comma not working in certain scenario",
       "number": 3239,
       "created_at": "2022-08-26T05:10:56+00:00",
       "created_by": "nipunn1313",
@@ -44533,8 +44534,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3239",
       "html_url": "https://github.com/psf/black/issues/3239",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-02T02:17:55+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "INTERNAL ERROR: Black produced different code on the second pass of the formatter.",
@@ -44639,7 +44640,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3246",
       "html_url": "https://github.com/psf/black/pull/3246",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-01T16:39:47+00:00",
       "closed_by": null
     },
     {
@@ -44706,17 +44707,31 @@
       "created_at": "2022-09-01T04:55:52+00:00",
       "created_by": "polyzen",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "help wanted",
+        "C: integrations"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3251",
       "html_url": "https://github.com/psf/black/issues/3251",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Added an option for number of spaces before inline comments",
+      "number": 3252,
+      "created_at": "2022-09-01T20:21:51+00:00",
+      "created_by": "excitoon",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3252",
+      "html_url": "https://github.com/psf/black/pull/3252",
+      "is_pr": true,
+      "closed_at": "2022-09-01T21:09:48+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-01T15:16:41+00:00",
+    "last_updated": "2022-09-02T15:15:15+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
