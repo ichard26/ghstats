@@ -9603,8 +9603,8 @@
       "created_at": "2019-03-07T15:53:48+00:00",
       "created_by": "allan-simon",
       "labels": [
-        "comments",
-        "design"
+        "T: design",
+        "F: comments"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/737",
       "html_url": "https://github.com/psf/black/issues/737",
@@ -30357,8 +30357,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2243",
       "html_url": "https://github.com/psf/black/issues/2243",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-03T07:24:23+00:00",
+      "closed_by": "tirkarthi"
     },
     {
       "title": "Make Prettier preserve line ending type",
@@ -41641,7 +41641,8 @@
       "created_by": "thatlittleboy",
       "labels": [
         "T: bug",
-        "F: comments"
+        "F: comments",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3036",
       "html_url": "https://github.com/psf/black/issues/3036",
@@ -44728,10 +44729,26 @@
       "is_pr": true,
       "closed_at": "2022-09-01T21:09:48+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Disabling E501 hurts E225",
+      "number": 3253,
+      "created_at": "2022-09-03T04:28:50+00:00",
+      "created_by": "BenjaminHoegh",
+      "labels": [
+        "T: bug",
+        "R: invalid",
+        "S: awaiting response"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3253",
+      "html_url": "https://github.com/psf/black/issues/3253",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-02T15:15:15+00:00",
+    "last_updated": "2022-09-03T15:14:36+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
