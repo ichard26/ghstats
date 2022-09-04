@@ -44745,10 +44745,22 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Return pip install black[jupyter] hint with syntax to match platform",
+      "number": 3254,
+      "created_at": "2022-09-03T18:39:50+00:00",
+      "created_by": "Mitchellpkt",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3254",
+      "html_url": "https://github.com/psf/black/pull/3254",
+      "is_pr": true,
+      "closed_at": "2022-09-03T21:49:12+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-03T15:14:36+00:00",
+    "last_updated": "2022-09-04T15:14:11+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
