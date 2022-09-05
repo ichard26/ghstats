@@ -44757,10 +44757,53 @@
       "is_pr": true,
       "closed_at": "2022-09-03T21:49:12+00:00",
       "closed_by": null
+    },
+    {
+      "title": "(\ud83d\udc1e) Windows line endings not preserved with blackd",
+      "number": 3255,
+      "created_at": "2022-09-05T00:40:48+00:00",
+      "created_by": "KotlinIsland",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3255",
+      "html_url": "https://github.com/psf/black/issues/3255",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black reformats entire virtual environment when named `env` with pathspec==0.10.0 ",
+      "number": 3256,
+      "created_at": "2022-09-05T02:40:38+00:00",
+      "created_by": "jnhyperion",
+      "labels": [
+        "T: bug",
+        "C: packaging",
+        "C: file collection",
+        "S: blocked"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3256",
+      "html_url": "https://github.com/psf/black/issues/3256",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "(\ud83c\udf81) Preserve crlf newlines in blackd",
+      "number": 3257,
+      "created_at": "2022-09-05T08:29:04+00:00",
+      "created_by": "KotlinIsland",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3257",
+      "html_url": "https://github.com/psf/black/pull/3257",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-04T15:14:11+00:00",
+    "last_updated": "2022-09-05T15:15:42+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
