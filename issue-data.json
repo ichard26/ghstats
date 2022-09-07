@@ -13049,8 +13049,8 @@
       "created_at": "2019-08-29T07:06:57+00:00",
       "created_by": "smr97",
       "labels": [
-        "integrations",
-        "vim"
+        "C: integrations",
+        "C: vim"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1001",
       "html_url": "https://github.com/psf/black/issues/1001",
@@ -44831,10 +44831,50 @@
       "is_pr": true,
       "closed_at": "2022-09-05T20:27:06+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Consider keeping the parens of implicitly concatenated strings when it's a argument of a function call",
+      "number": 3260,
+      "created_at": "2022-09-06T22:27:35+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3260",
+      "html_url": "https://github.com/psf/black/issues/3260",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black --preview crashes with nested long dict str keys",
+      "number": 3261,
+      "created_at": "2022-09-06T22:52:49+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3261",
+      "html_url": "https://github.com/psf/black/issues/3261",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix a crash when formatting some dicts with parenthesis-wrapped long string keys",
+      "number": 3262,
+      "created_at": "2022-09-07T00:40:18+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3262",
+      "html_url": "https://github.com/psf/black/pull/3262",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-06T15:15:33+00:00",
+    "last_updated": "2022-09-07T15:15:41+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
