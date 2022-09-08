@@ -44871,10 +44871,24 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black crashes when a backlash escape is in a docstring",
+      "number": 3263,
+      "created_at": "2022-09-07T19:45:31+00:00",
+      "created_by": "LouisJustinTALLOT",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3263",
+      "html_url": "https://github.com/psf/black/issues/3263",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-07T15:15:41+00:00",
+    "last_updated": "2022-09-08T15:16:13+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
