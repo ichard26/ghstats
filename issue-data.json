@@ -28778,9 +28778,9 @@
       "created_at": "2021-04-26T06:26:58+00:00",
       "created_by": "jaklan",
       "labels": [
-        "F: trailing comma",
+        "T: enhancement",
         "T: design",
-        "T: enhancement"
+        "F: trailing comma"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2135",
       "html_url": "https://github.com/psf/black/issues/2135",
@@ -44885,10 +44885,50 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "How do I match GitHub action with stability policy?",
+      "number": 3264,
+      "created_at": "2022-09-08T19:51:33+00:00",
+      "created_by": "lofidevops",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3264",
+      "html_url": "https://github.com/psf/black/issues/3264",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": "lofidevops"
+    },
+    {
+      "title": "Support version specifiers in GH action",
+      "number": 3265,
+      "created_at": "2022-09-08T20:38:39+00:00",
+      "created_by": "jack1142",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3265",
+      "html_url": "https://github.com/psf/black/pull/3265",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "[FIX] migrate-black.py: don't fail on binary files",
+      "number": 3266,
+      "created_at": "2022-09-08T22:59:07+00:00",
+      "created_by": "hbrunn",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3266",
+      "html_url": "https://github.com/psf/black/pull/3266",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-08T15:16:13+00:00",
+    "last_updated": "2022-09-09T15:17:04+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
