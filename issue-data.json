@@ -44925,10 +44925,24 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "File failed to reformat",
+      "number": 3267,
+      "created_at": "2022-09-09T20:59:50+00:00",
+      "created_by": "KennedyRichard",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3267",
+      "html_url": "https://github.com/psf/black/issues/3267",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-09T15:17:04+00:00",
+    "last_updated": "2022-09-10T15:15:09+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
