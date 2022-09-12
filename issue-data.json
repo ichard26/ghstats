@@ -44795,7 +44795,7 @@
       "closed_by": "ichard26"
     },
     {
-      "title": "(\ud83c\udf81) Preserve crlf newlines in blackd",
+      "title": "(\ud83c\udf81) Preserve crlf line endings in blackd",
       "number": 3257,
       "created_at": "2022-09-05T08:29:04+00:00",
       "created_by": "KotlinIsland",
@@ -44951,10 +44951,36 @@
       "is_pr": false,
       "closed_at": "2022-09-11T13:37:03+00:00",
       "closed_by": "felix-hilden"
+    },
+    {
+      "title": "Trailing comma gives newline on wrong expressions",
+      "number": 3268,
+      "created_at": "2022-09-12T06:57:41+00:00",
+      "created_by": "jlubcke",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3268",
+      "html_url": "https://github.com/psf/black/issues/3268",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Inconsistent parsing error when using dictionary and f-string",
+      "number": 3269,
+      "created_at": "2022-09-12T14:19:17+00:00",
+      "created_by": "lb-desupervised",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/3269",
+      "html_url": "https://github.com/psf/black/issues/3269",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-11T15:15:27+00:00",
+    "last_updated": "2022-09-12T15:17:54+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
