@@ -44971,7 +44971,10 @@
       "number": 3269,
       "created_at": "2022-09-12T14:19:17+00:00",
       "created_by": "lb-desupervised",
-      "labels": [],
+      "labels": [
+        "T: bug",
+        "F: strings"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/3269",
       "html_url": "https://github.com/psf/black/issues/3269",
       "is_pr": false,
@@ -44980,7 +44983,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-09-12T15:17:54+00:00",
+    "last_updated": "2022-09-13T15:16:33+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
