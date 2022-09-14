@@ -44859,13 +44859,13 @@
       "created_at": "2022-09-06T22:52:49+00:00",
       "created_by": "yilei",
       "labels": [
-        "T: bug"
+        "C: crash"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3261",
       "html_url": "https://github.com/psf/black/issues/3261",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-14T03:23:53+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Fix a crash when formatting some dicts with parenthesis-wrapped long string keys",
@@ -44876,7 +44876,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3262",
       "html_url": "https://github.com/psf/black/pull/3262",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-14T03:23:52+00:00",
       "closed_by": null
     },
     {
@@ -44932,7 +44932,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3266",
       "html_url": "https://github.com/psf/black/pull/3266",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-14T03:06:54+00:00",
       "closed_by": null
     },
     {
@@ -44958,7 +44958,9 @@
       "created_at": "2022-09-12T06:57:41+00:00",
       "created_by": "jlubcke",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: trailing comma",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3268",
       "html_url": "https://github.com/psf/black/issues/3268",
@@ -44980,10 +44982,38 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Improve order of paragraphs on line splitting",
+      "number": 3270,
+      "created_at": "2022-09-14T11:51:41+00:00",
+      "created_by": "TomFryers",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3270",
+      "html_url": "https://github.com/psf/black/pull/3270",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "PyCharm File Watcher documentation missing",
+      "number": 3271,
+      "created_at": "2022-09-14T12:12:19+00:00",
+      "created_by": "ruslaniv",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3271",
+      "html_url": "https://github.com/psf/black/issues/3271",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-13T15:16:33+00:00",
+    "last_updated": "2022-09-14T15:16:40+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
