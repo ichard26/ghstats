@@ -44975,13 +44975,14 @@
       "created_by": "lb-desupervised",
       "labels": [
         "T: bug",
+        "R: not a bug",
         "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3269",
       "html_url": "https://github.com/psf/black/issues/3269",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-15T02:20:57+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Improve order of paragraphs on line splitting",
@@ -44989,12 +44990,13 @@
       "created_at": "2022-09-14T11:51:41+00:00",
       "created_by": "TomFryers",
       "labels": [
+        "T: documentation",
         "skip news"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/3270",
       "html_url": "https://github.com/psf/black/pull/3270",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-15T02:31:27+00:00",
       "closed_by": null
     },
     {
@@ -45003,7 +45005,9 @@
       "created_at": "2022-09-14T12:12:19+00:00",
       "created_by": "ruslaniv",
       "labels": [
-        "T: documentation"
+        "good first issue",
+        "T: documentation",
+        "C: integrations"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3271",
       "html_url": "https://github.com/psf/black/issues/3271",
@@ -45013,7 +45017,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-09-14T15:16:40+00:00",
+    "last_updated": "2022-09-15T15:16:35+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
