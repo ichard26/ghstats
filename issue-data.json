@@ -42635,7 +42635,7 @@
       "labels": [
         "T: bug",
         "help wanted",
-        "C: installation / packaging",
+        "C: packaging",
         "S: needs repro"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3111",
@@ -45014,10 +45014,24 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Fix mypyc build errors on newer manylinux2014_x86_64 images",
+      "number": 3272,
+      "created_at": "2022-09-15T19:02:33+00:00",
+      "created_by": "zsol",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3272",
+      "html_url": "https://github.com/psf/black/pull/3272",
+      "is_pr": true,
+      "closed_at": "2022-09-15T20:08:26+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-15T15:16:35+00:00",
+    "last_updated": "2022-09-16T15:16:00+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
