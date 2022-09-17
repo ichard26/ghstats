@@ -45028,10 +45028,38 @@
       "is_pr": true,
       "closed_at": "2022-09-15T20:08:26+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Changing line lengths should be reversible",
+      "number": 3273,
+      "created_at": "2022-09-16T17:12:41+00:00",
+      "created_by": "smurfix",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3273",
+      "html_url": "https://github.com/psf/black/issues/3273",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Update future_style.md",
+      "number": 3274,
+      "created_at": "2022-09-17T02:06:37+00:00",
+      "created_by": "Blandes22",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3274",
+      "html_url": "https://github.com/psf/black/pull/3274",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-16T15:16:00+00:00",
+    "last_updated": "2022-09-17T15:15:39+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
