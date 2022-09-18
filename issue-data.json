@@ -45035,7 +45035,8 @@
       "created_at": "2022-09-16T17:12:41+00:00",
       "created_by": "smurfix",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: trailing comma"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3273",
       "html_url": "https://github.com/psf/black/issues/3273",
@@ -45056,10 +45057,39 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Always call freeze_support() if sys.frozen is True",
+      "number": 3275,
+      "created_at": "2022-09-17T23:21:05+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3275",
+      "html_url": "https://github.com/psf/black/pull/3275",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Build mypyc wheels for CPython 3.11",
+      "number": 3276,
+      "created_at": "2022-09-18T01:33:34+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: performance",
+        "C: packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3276",
+      "html_url": "https://github.com/psf/black/pull/3276",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-17T15:15:39+00:00",
+    "last_updated": "2022-09-18T15:15:48+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
