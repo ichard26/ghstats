@@ -45100,7 +45100,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3277",
       "html_url": "https://github.com/psf/black/pull/3277",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-19T23:35:46+00:00",
       "closed_by": null
     },
     {
@@ -45120,7 +45120,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-09-19T15:16:51+00:00",
+    "last_updated": "2022-09-20T15:16:53+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
