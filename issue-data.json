@@ -51,7 +51,7 @@
       "created_at": "2018-03-14T20:05:15+00:00",
       "created_by": "ambv",
       "labels": [
-        "enhancement"
+        "T: enhancement"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/4",
       "html_url": "https://github.com/psf/black/issues/4",
@@ -44918,7 +44918,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3265",
       "html_url": "https://github.com/psf/black/pull/3265",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-23T03:23:35+00:00",
       "closed_by": null
     },
     {
@@ -45055,7 +45055,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3274",
       "html_url": "https://github.com/psf/black/pull/3274",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-23T03:19:31+00:00",
       "closed_by": null
     },
     {
@@ -45084,7 +45084,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3276",
       "html_url": "https://github.com/psf/black/pull/3276",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-23T03:11:56+00:00",
       "closed_by": null
     },
     {
@@ -45124,17 +45124,72 @@
       "created_at": "2022-09-22T08:09:27+00:00",
       "created_by": "carmenbianca",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: linetoolong"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3279",
       "html_url": "https://github.com/psf/black/issues/3279",
+      "is_pr": false,
+      "closed_at": "2022-09-23T01:21:44+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Support formatting Jupyter Notebooks in GitHub Actions",
+      "number": 3280,
+      "created_at": "2022-09-22T15:47:16+00:00",
+      "created_by": "aaossa",
+      "labels": [
+        "T: enhancement",
+        "C: integrations",
+        "S: accepted"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3280",
+      "html_url": "https://github.com/psf/black/issues/3280",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix a crash when `# fmt: on` is used on a different block level than `# fmt: off`",
+      "number": 3281,
+      "created_at": "2022-09-23T00:02:47+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3281",
+      "html_url": "https://github.com/psf/black/pull/3281",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add option to format Jupyter Notebooks files in GitHub Actions",
+      "number": 3282,
+      "created_at": "2022-09-23T13:38:01+00:00",
+      "created_by": "aaossa",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3282",
+      "html_url": "https://github.com/psf/black/pull/3282",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Not respected # fmt: off block with comment right before # fmt: on",
+      "number": 3283,
+      "created_at": "2022-09-23T14:18:21+00:00",
+      "created_by": "b-x",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3283",
+      "html_url": "https://github.com/psf/black/issues/3283",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-22T15:16:49+00:00",
+    "last_updated": "2022-09-23T15:17:55+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
