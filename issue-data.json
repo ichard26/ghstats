@@ -7421,8 +7421,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/569",
       "html_url": "https://github.com/psf/black/issues/569",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-24T03:37:26+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Incorrectly formats `textwrap.dedent`",
@@ -24201,8 +24201,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/1817",
       "html_url": "https://github.com/psf/black/issues/1817",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-24T03:37:25+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Internal error while formatting this code",
@@ -28860,8 +28860,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2140",
       "html_url": "https://github.com/psf/black/issues/2140",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-24T03:37:25+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "black behaves differently in duplicated directories",
@@ -30193,8 +30193,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2232",
       "html_url": "https://github.com/psf/black/issues/2232",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-24T03:37:24+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "vim plugin nonfunctional",
@@ -34973,8 +34973,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2567",
       "html_url": "https://github.com/psf/black/issues/2567",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-24T03:37:23+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Docker upload CI is broken",
@@ -39463,7 +39463,7 @@
       "title": "INTERNAL ERROR: Black produced code that is not equivalent to the source",
       "number": 2882,
       "created_at": "2022-02-14T22:06:30+00:00",
-      "created_by": "jreese",
+      "created_by": "amyreese",
       "labels": [
         "T: bug",
         "F: fmtoff"
@@ -39471,8 +39471,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2882",
       "html_url": "https://github.com/psf/black/issues/2882",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-24T03:37:24+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Black over Language Server Protocol and VS Code extension",
@@ -40911,8 +40911,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2985",
       "html_url": "https://github.com/psf/black/issues/2985",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-24T03:37:24+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Style question: Should comments count against the line-breaking of non-comments on the same line?",
@@ -43717,8 +43717,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3184",
       "html_url": "https://github.com/psf/black/issues/3184",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-24T03:37:24+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Vim plugin: prefix errors with \"Black\"",
@@ -44906,7 +44906,7 @@
       "url": "https://api.github.com/repos/psf/black/issues/3264",
       "html_url": "https://github.com/psf/black/issues/3264",
       "is_pr": false,
-      "closed_at": null,
+      "closed_at": "2022-09-23T16:32:46+00:00",
       "closed_by": "lofidevops"
     },
     {
@@ -45158,7 +45158,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3281",
       "html_url": "https://github.com/psf/black/pull/3281",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-24T03:37:23+00:00",
       "closed_by": null
     },
     {
@@ -45184,12 +45184,27 @@
       "url": "https://api.github.com/repos/psf/black/issues/3283",
       "html_url": "https://github.com/psf/black/issues/3283",
       "is_pr": false,
+      "closed_at": "2022-09-23T23:56:41+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Update README.md",
+      "number": 3284,
+      "created_at": "2022-09-24T03:08:09+00:00",
+      "created_by": "NedJWestern",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3284",
+      "html_url": "https://github.com/psf/black/pull/3284",
+      "is_pr": true,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-23T15:17:55+00:00",
+    "last_updated": "2022-09-24T15:15:42+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
