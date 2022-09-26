@@ -44450,7 +44450,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3233",
       "html_url": "https://github.com/psf/black/pull/3233",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-25T21:54:34+00:00",
       "closed_by": null
     },
     {
@@ -44705,8 +44705,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3250",
       "html_url": "https://github.com/psf/black/issues/3250",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-09-26T00:55:53+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "BlackDTestCase.test_cors_preflight failure on 22.8.0",
@@ -45069,7 +45069,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3275",
       "html_url": "https://github.com/psf/black/pull/3275",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-26T00:55:53+00:00",
       "closed_by": null
     },
     {
@@ -45166,7 +45166,9 @@
       "number": 3282,
       "created_at": "2022-09-23T13:38:01+00:00",
       "created_by": "aaossa",
-      "labels": [],
+      "labels": [
+        "C: integrations"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3282",
       "html_url": "https://github.com/psf/black/pull/3282",
       "is_pr": true,
@@ -45215,10 +45217,86 @@
       "is_pr": true,
       "closed_at": "2022-09-25T09:28:44+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Fix outdated references to 3.6 and run pyupgrade",
+      "number": 3286,
+      "created_at": "2022-09-25T22:25:52+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: packaging",
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3286",
+      "html_url": "https://github.com/psf/black/pull/3286",
+      "is_pr": true,
+      "closed_at": "2022-09-26T00:24:18+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Standardise newlines after module-level docstrings",
+      "number": 3287,
+      "created_at": "2022-09-26T01:35:43+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "F: empty lines"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3287",
+      "html_url": "https://github.com/psf/black/pull/3287",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump sphinx from 5.1.1 to 5.2.1 in /docs",
+      "number": 3288,
+      "created_at": "2022-09-26T06:04:35+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3288",
+      "html_url": "https://github.com/psf/black/pull/3288",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump actions/upload-artifact from 2 to 3",
+      "number": 3289,
+      "created_at": "2022-09-26T06:12:16+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3289",
+      "html_url": "https://github.com/psf/black/pull/3289",
+      "is_pr": true,
+      "closed_at": "2022-09-26T12:35:23+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Bump pypa/cibuildwheel from 2.10.0 to 2.10.2",
+      "number": 3290,
+      "created_at": "2022-09-26T06:12:19+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3290",
+      "html_url": "https://github.com/psf/black/pull/3290",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-25T15:15:47+00:00",
+    "last_updated": "2022-09-26T15:18:38+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
