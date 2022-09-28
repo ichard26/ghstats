@@ -19551,11 +19551,9 @@
       "created_at": "2020-06-08T00:58:58+00:00",
       "created_by": "SoCalDude",
       "labels": [
-        "F: strings / docstrings",
-        "R: invalid",
         "R: not a bug",
-        "S: awaiting response",
-        "S: needs repro"
+        "S: needs repro",
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1482",
       "html_url": "https://github.com/psf/black/issues/1482",
@@ -45308,10 +45306,36 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "String processing: wrap concatenated strings in parens in all cases",
+      "number": 3292,
+      "created_at": "2022-09-27T18:23:00+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3292",
+      "html_url": "https://github.com/psf/black/issues/3292",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "add \\.ipynb_checkpoints to DEFAULT_EXCLUDES",
+      "number": 3293,
+      "created_at": "2022-09-28T02:54:04+00:00",
+      "created_by": "raybellwaves",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3293",
+      "html_url": "https://github.com/psf/black/pull/3293",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-27T15:19:05+00:00",
+    "last_updated": "2022-09-28T15:20:44+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
