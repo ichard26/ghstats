@@ -45290,7 +45290,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3290",
       "html_url": "https://github.com/psf/black/pull/3290",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-09-29T02:19:09+00:00",
       "closed_by": null
     },
     {
@@ -45299,7 +45299,8 @@
       "created_at": "2022-09-27T13:19:23+00:00",
       "created_by": "szandara",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: file collection"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3291",
       "html_url": "https://github.com/psf/black/issues/3291",
@@ -45332,10 +45333,69 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Clearer errorr message for \"Cannot parse\" when targetting multiple version",
+      "number": 3294,
+      "created_at": "2022-09-28T18:02:57+00:00",
+      "created_by": "plannigan",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3294",
+      "html_url": "https://github.com/psf/black/issues/3294",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "note that the CHANGELOG can be found at CHANGES.md for the PR template",
+      "number": 3295,
+      "created_at": "2022-09-28T19:02:49+00:00",
+      "created_by": "raybellwaves",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3295",
+      "html_url": "https://github.com/psf/black/pull/3295",
+      "is_pr": true,
+      "closed_at": "2022-09-29T01:44:16+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Black formats union arguments with default call value weirdly",
+      "number": 3296,
+      "created_at": "2022-09-28T20:04:35+00:00",
+      "created_by": "Ovsyanka83",
+      "labels": [
+        "R: duplicate",
+        "T: design",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3296",
+      "html_url": "https://github.com/psf/black/issues/3296",
+      "is_pr": false,
+      "closed_at": "2022-09-28T21:24:49+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "title": "Enable build isolation under CIWB",
+      "number": 3297,
+      "created_at": "2022-09-29T02:20:06+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3297",
+      "html_url": "https://github.com/psf/black/pull/3297",
+      "is_pr": true,
+      "closed_at": "2022-09-29T02:56:29+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-09-28T15:20:44+00:00",
+    "last_updated": "2022-09-29T15:18:01+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
