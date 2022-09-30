@@ -45392,10 +45392,64 @@
       "is_pr": true,
       "closed_at": "2022-09-29T02:56:29+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Add option to skip the first line of source code",
+      "number": 3298,
+      "created_at": "2022-09-29T17:10:47+00:00",
+      "created_by": "aaossa",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3298",
+      "html_url": "https://github.com/psf/black/pull/3298",
+      "is_pr": true,
+      "closed_at": "2022-09-29T17:18:24+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Add option to skip the first line of source code",
+      "number": 3299,
+      "created_at": "2022-09-29T17:22:52+00:00",
+      "created_by": "aaossa",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3299",
+      "html_url": "https://github.com/psf/black/pull/3299",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black forcibly removes the empty line before an inner function with leading comments after code block open",
+      "number": 3300,
+      "created_at": "2022-09-29T22:37:33+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: bug",
+        "F: comments",
+        "F: empty lines"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3300",
+      "html_url": "https://github.com/psf/black/issues/3300",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Unnecessary linebreak on 3.10-style Union types.",
+      "number": 3301,
+      "created_at": "2022-09-30T08:29:22+00:00",
+      "created_by": "kthy",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3301",
+      "html_url": "https://github.com/psf/black/issues/3301",
+      "is_pr": false,
+      "closed_at": "2022-09-30T09:46:01+00:00",
+      "closed_by": "kthy"
     }
   ],
   "record": {
-    "last_updated": "2022-09-29T15:18:01+00:00",
+    "last_updated": "2022-09-30T15:19:25+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
