@@ -3368,7 +3368,7 @@
       "labels": [
         "T: bug",
         "T: design",
-        "F: strings / docstrings",
+        "F: strings",
         "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/256",
@@ -43373,7 +43373,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3161",
       "html_url": "https://github.com/psf/black/pull/3161",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-03T16:36:44+00:00",
       "closed_by": null
     },
     {
@@ -45516,17 +45516,57 @@
       "created_at": "2022-10-03T15:01:24+00:00",
       "created_by": "cazador481",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3306",
       "html_url": "https://github.com/psf/black/issues/3306",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Wrap concatenated strings used as function args in parens.",
+      "number": 3307,
+      "created_at": "2022-10-03T19:59:07+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3307",
+      "html_url": "https://github.com/psf/black/pull/3307",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "please support use of the system black installation",
+      "number": 3308,
+      "created_at": "2022-10-04T00:44:30+00:00",
+      "created_by": "bugfood",
+      "labels": [
+        "T: enhancement",
+        "C: vim"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3308",
+      "html_url": "https://github.com/psf/black/issues/3308",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Vim plugin: allow using system black rather than virtualenv",
+      "number": 3309,
+      "created_at": "2022-10-04T00:48:11+00:00",
+      "created_by": "bugfood",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3309",
+      "html_url": "https://github.com/psf/black/pull/3309",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-03T15:20:04+00:00",
+    "last_updated": "2022-10-04T15:21:01+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
