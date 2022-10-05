@@ -3922,7 +3922,9 @@
       "number": 298,
       "created_at": "2018-06-04T09:36:36+00:00",
       "created_by": "MrinalJain17",
-      "labels": [],
+      "labels": [
+        "C: jupyter"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/298",
       "html_url": "https://github.com/psf/black/issues/298",
       "is_pr": false,
@@ -10086,7 +10088,9 @@
       "number": 774,
       "created_at": "2019-03-20T20:06:49+00:00",
       "created_by": "jzazo",
-      "labels": [],
+      "labels": [
+        "C: jupyter"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/774",
       "html_url": "https://github.com/psf/black/issues/774",
       "is_pr": false,
@@ -31806,7 +31810,8 @@
         "T: enhancement",
         "T: design",
         "C: dependencies",
-        "S: accepted"
+        "S: accepted",
+        "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2345",
       "html_url": "https://github.com/psf/black/issues/2345",
@@ -32780,7 +32785,8 @@
       "created_by": "ichard26",
       "labels": [
         "T: documentation",
-        "C: maintenance"
+        "C: maintenance",
+        "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2413",
       "html_url": "https://github.com/psf/black/issues/2413",
@@ -33264,7 +33270,8 @@
       "labels": [
         "T: bug",
         "T: user support",
-        "C: integrations"
+        "C: integrations",
+        "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2446",
       "html_url": "https://github.com/psf/black/issues/2446",
@@ -33649,7 +33656,8 @@
       "created_by": "Myname10",
       "labels": [
         "T: bug",
-        "S: needs repro"
+        "S: needs repro",
+        "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2473",
       "html_url": "https://github.com/psf/black/issues/2473",
@@ -33792,7 +33800,8 @@
       "created_at": "2021-09-07T12:00:05+00:00",
       "created_by": "MarcoGorelli",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2483",
       "html_url": "https://github.com/psf/black/issues/2483",
@@ -34264,7 +34273,8 @@
       "created_at": "2021-09-30T05:58:37+00:00",
       "created_by": "jfthuong",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2516",
       "html_url": "https://github.com/psf/black/issues/2516",
@@ -35831,7 +35841,8 @@
       "created_at": "2021-11-19T02:31:53+00:00",
       "created_by": "danielsparing",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2627",
       "html_url": "https://github.com/psf/black/issues/2627",
@@ -36032,7 +36043,8 @@
       "created_at": "2021-11-25T08:41:15+00:00",
       "created_by": "MarcoGorelli",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2641",
       "html_url": "https://github.com/psf/black/issues/2641",
@@ -44773,8 +44785,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3255",
       "html_url": "https://github.com/psf/black/issues/3255",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-04T20:10:12+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Black reformats entire virtual environment when named `env` with pathspec==0.10.0 ",
@@ -44801,7 +44813,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3257",
       "html_url": "https://github.com/psf/black/pull/3257",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-04T20:10:11+00:00",
       "closed_by": null
     },
     {
@@ -45139,7 +45151,8 @@
       "labels": [
         "T: enhancement",
         "C: integrations",
-        "S: accepted"
+        "S: accepted",
+        "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3280",
       "html_url": "https://github.com/psf/black/issues/3280",
@@ -45563,10 +45576,25 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Do not remove semicolons in Jupyter notebooks",
+      "number": 3310,
+      "created_at": "2022-10-04T16:25:25+00:00",
+      "created_by": "NChechulin",
+      "labels": [
+        "T: design",
+        "C: jupyter"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3310",
+      "html_url": "https://github.com/psf/black/issues/3310",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-04T15:21:01+00:00",
+    "last_updated": "2022-10-05T15:18:00+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
