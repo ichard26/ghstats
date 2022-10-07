@@ -37573,7 +37573,7 @@
       "created_by": "ketozhang",
       "labels": [
         "T: bug",
-        "C: command line / config",
+        "C: configuration",
         "C: file collection"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2750",
@@ -44185,8 +44185,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3214",
       "html_url": "https://github.com/psf/black/issues/3214",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-06T22:17:33+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Use debug f-strings for feature detection",
@@ -44700,8 +44700,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3249",
       "html_url": "https://github.com/psf/black/issues/3249",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-06T23:01:35+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Fix start up code to also call freeze_support() on macOS when frozen so native macOS executables work",
@@ -45430,7 +45430,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3299",
       "html_url": "https://github.com/psf/black/pull/3299",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-06T22:17:32+00:00",
       "closed_by": null
     },
     {
@@ -45591,10 +45591,68 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Prepare release 22.10.0",
+      "number": 3311,
+      "created_at": "2022-10-06T22:30:10+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3311",
+      "html_url": "https://github.com/psf/black/pull/3311",
+      "is_pr": true,
+      "closed_at": "2022-10-06T22:33:51+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Wrong architecture for 22.10.0 macosx wheel",
+      "number": 3312,
+      "created_at": "2022-10-06T23:43:13+00:00",
+      "created_by": "lecardozo",
+      "labels": [
+        "T: bug",
+        "C: packaging",
+        "C: crash"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3312",
+      "html_url": "https://github.com/psf/black/issues/3312",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Remove redundant 3.6 code and bump mypy's python_version to 3.7",
+      "number": 3313,
+      "created_at": "2022-10-07T00:14:07+00:00",
+      "created_by": "hugovk",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3313",
+      "html_url": "https://github.com/psf/black/pull/3313",
+      "is_pr": true,
+      "closed_at": "2022-10-07T00:37:37+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "22.10.0: sphinx warnings `reference target not found`",
+      "number": 3314,
+      "created_at": "2022-10-07T11:43:15+00:00",
+      "created_by": "kloczek",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3314",
+      "html_url": "https://github.com/psf/black/issues/3314",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-06T15:19:46+00:00",
+    "last_updated": "2022-10-07T15:19:04+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
