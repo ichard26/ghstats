@@ -45045,14 +45045,15 @@
       "created_at": "2022-09-16T17:12:41+00:00",
       "created_by": "smurfix",
       "labels": [
+        "R: duplicate",
         "T: design",
         "F: trailing comma"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3273",
       "html_url": "https://github.com/psf/black/issues/3273",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-07T20:53:23+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Make context manager examples in future style docs consistent",
@@ -45356,7 +45357,8 @@
       "created_at": "2022-09-28T18:02:57+00:00",
       "created_by": "plannigan",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "good first issue"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3294",
       "html_url": "https://github.com/psf/black/issues/3294",
@@ -45583,14 +45585,15 @@
       "created_at": "2022-10-04T16:25:25+00:00",
       "created_by": "NChechulin",
       "labels": [
+        "R: invalid",
         "T: design",
         "C: jupyter"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3310",
       "html_url": "https://github.com/psf/black/issues/3310",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-07T18:07:41+00:00",
+      "closed_by": "felix-hilden"
     },
     {
       "title": "Prepare release 22.10.0",
@@ -45649,10 +45652,68 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Incorrectly ignored files when `subfolder/.gitignore` contains */*",
+      "number": 3315,
+      "created_at": "2022-10-07T15:52:16+00:00",
+      "created_by": "aaossa",
+      "labels": [
+        "T: bug",
+        "C: file collection"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3315",
+      "html_url": "https://github.com/psf/black/issues/3315",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Using version specifier in GitHub Action fails",
+      "number": 3316,
+      "created_at": "2022-10-07T16:57:37+00:00",
+      "created_by": "lofidevops",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3316",
+      "html_url": "https://github.com/psf/black/issues/3316",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Documentation around skipping trailing comma check",
+      "number": 3317,
+      "created_at": "2022-10-07T17:15:06+00:00",
+      "created_by": "crypticraven",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3317",
+      "html_url": "https://github.com/psf/black/issues/3317",
+      "is_pr": false,
+      "closed_at": "2022-10-07T18:59:44+00:00",
+      "closed_by": "crypticraven"
+    },
+    {
+      "title": "Vim plugin formatter fails with error",
+      "number": 3318,
+      "created_at": "2022-10-07T23:51:57+00:00",
+      "created_by": "nullromo",
+      "labels": [
+        "T: bug",
+        "C: vim"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3318",
+      "html_url": "https://github.com/psf/black/issues/3318",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-07T15:19:04+00:00",
+    "last_updated": "2022-10-08T15:16:15+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
