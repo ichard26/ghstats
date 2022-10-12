@@ -10738,13 +10738,13 @@
       "created_at": "2019-05-04T01:13:52+00:00",
       "created_by": "AlmogCohen",
       "labels": [
-        "C: installation / packaging"
+        "C: packaging"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/822",
       "html_url": "https://github.com/psf/black/issues/822",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-11T18:56:59+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Consistent formatting in lists items",
@@ -20985,8 +20985,8 @@
       "created_at": "2020-08-11T19:09:04+00:00",
       "created_by": "rpdelaney",
       "labels": [
-        "C: vim",
-        "T: enhancement"
+        "T: enhancement",
+        "C: vim"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1587",
       "html_url": "https://github.com/psf/black/issues/1587",
@@ -45750,7 +45750,7 @@
       "title": "unreachable code in `parsing.py`",
       "number": 3321,
       "created_at": "2022-10-10T13:08:19+00:00",
-      "created_by": "NNRepos",
+      "created_by": "nnrepos",
       "labels": [
         "T: bug",
         "C: cleanup"
@@ -45758,8 +45758,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3321",
       "html_url": "https://github.com/psf/black/issues/3321",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-11T21:34:39+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "added python version to parse error message",
@@ -45777,7 +45777,7 @@
       "title": "added python version to parse error message",
       "number": 3323,
       "created_at": "2022-10-10T13:32:15+00:00",
-      "created_by": "NNRepos",
+      "created_by": "nnrepos",
       "labels": [],
       "url": "https://api.github.com/repos/psf/black/pulls/3323",
       "html_url": "https://github.com/psf/black/pull/3323",
@@ -45839,10 +45839,40 @@
       "is_pr": true,
       "closed_at": "2022-10-10T23:54:09+00:00",
       "closed_by": null
+    },
+    {
+      "title": "remove unreachable code",
+      "number": 3328,
+      "created_at": "2022-10-11T21:11:04+00:00",
+      "created_by": "nnrepos",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3328",
+      "html_url": "https://github.com/psf/black/pull/3328",
+      "is_pr": true,
+      "closed_at": "2022-10-11T21:34:38+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Don't break a line if it's too long because of comments",
+      "number": 3329,
+      "created_at": "2022-10-12T07:44:47+00:00",
+      "created_by": "josephernest",
+      "labels": [
+        "T: design",
+        "F: comments",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3329",
+      "html_url": "https://github.com/psf/black/issues/3329",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-11T15:20:01+00:00",
+    "last_updated": "2022-10-12T15:23:13+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
