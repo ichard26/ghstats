@@ -44181,8 +44181,8 @@
       "created_by": "pmp-p",
       "labels": [
         "T: enhancement",
-        "C: parser",
-        "S: needs discussion"
+        "S: accepted",
+        "C: parser"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3214",
       "html_url": "https://github.com/psf/black/issues/3214",
@@ -45810,7 +45810,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3325",
       "html_url": "https://github.com/psf/black/pull/3325",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-15T18:44:03+00:00",
       "closed_by": null
     },
     {
@@ -45884,7 +45884,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-10-15T15:16:57+00:00",
+    "last_updated": "2022-10-16T15:16:54+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
