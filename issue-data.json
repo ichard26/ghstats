@@ -45881,10 +45881,97 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Docstring reformatting causes line to be too long",
+      "number": 3331,
+      "created_at": "2022-10-16T17:44:57+00:00",
+      "created_by": "adamjstewart",
+      "labels": [
+        "T: bug",
+        "R: outdated",
+        "F: docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3331",
+      "html_url": "https://github.com/psf/black/issues/3331",
+      "is_pr": false,
+      "closed_at": "2022-10-16T18:12:21+00:00",
+      "closed_by": "adamjstewart"
+    },
+    {
+      "title": "Add compatible `indentexpr` to Vim plugin",
+      "number": 3332,
+      "created_at": "2022-10-16T20:13:27+00:00",
+      "created_by": "aus-hawk",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3332",
+      "html_url": "https://github.com/psf/black/pull/3332",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump sphinx from 5.2.3 to 5.3.0 in /docs",
+      "number": 3333,
+      "created_at": "2022-10-17T06:04:58+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3333",
+      "html_url": "https://github.com/psf/black/pull/3333",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump pypa/cibuildwheel from 2.10.2 to 2.11.1",
+      "number": 3334,
+      "created_at": "2022-10-17T06:12:46+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3334",
+      "html_url": "https://github.com/psf/black/pull/3334",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "No matching distribution found for hatchling>=1.8.0",
+      "number": 3335,
+      "created_at": "2022-10-17T09:54:59+00:00",
+      "created_by": "tnhgiang",
+      "labels": [
+        "T: user support",
+        "R: not a bug",
+        "C: packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3335",
+      "html_url": "https://github.com/psf/black/issues/3335",
+      "is_pr": false,
+      "closed_at": "2022-10-17T14:09:13+00:00",
+      "closed_by": "tnhgiang"
+    },
+    {
+      "title": "Apply .gitignore correctly in every source entry",
+      "number": 3336,
+      "created_at": "2022-10-17T13:46:33+00:00",
+      "created_by": "aaossa",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3336",
+      "html_url": "https://github.com/psf/black/pull/3336",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-16T15:16:54+00:00",
+    "last_updated": "2022-10-17T15:21:31+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
