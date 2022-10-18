@@ -40395,8 +40395,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2947",
       "html_url": "https://github.com/psf/black/issues/2947",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-18T13:59:10+00:00",
+      "closed_by": "costika1234"
     },
     {
       "title": "Github now supports .git-blame-ignore-revs",
@@ -45923,7 +45923,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3333",
       "html_url": "https://github.com/psf/black/pull/3333",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-18T01:12:41+00:00",
       "closed_by": null
     },
     {
@@ -45968,10 +45968,80 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black license",
+      "number": 3337,
+      "created_at": "2022-10-17T16:33:41+00:00",
+      "created_by": "lovingmyfamily24",
+      "labels": [
+        "R: invalid"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3337",
+      "html_url": "https://github.com/psf/black/pull/3337",
+      "is_pr": true,
+      "closed_at": "2022-10-17T17:00:27+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Compare each .gitignore found with an appropiate relative path",
+      "number": 3338,
+      "created_at": "2022-10-17T19:46:16+00:00",
+      "created_by": "aaossa",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3338",
+      "html_url": "https://github.com/psf/black/pull/3338",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "[2097] Fix is_type_comment",
+      "number": 3339,
+      "created_at": "2022-10-17T20:51:07+00:00",
+      "created_by": "itxasos23",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3339",
+      "html_url": "https://github.com/psf/black/pull/3339",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "maximum recursion depth exceeded while calling a Python object",
+      "number": 3340,
+      "created_at": "2022-10-17T22:47:56+00:00",
+      "created_by": "trumpet2012",
+      "labels": [
+        "T: bug",
+        "help wanted",
+        "C: crash"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3340",
+      "html_url": "https://github.com/psf/black/issues/3340",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Formatting Tabular Data with black - Special Formatting Rules for Code Blocks",
+      "number": 3341,
+      "created_at": "2022-10-18T09:35:10+00:00",
+      "created_by": "randolf-scholz",
+      "labels": [
+        "T: enhancement",
+        "T: design",
+        "S: needs discussion"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3341",
+      "html_url": "https://github.com/psf/black/issues/3341",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-17T15:21:31+00:00",
+    "last_updated": "2022-10-18T15:21:14+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
