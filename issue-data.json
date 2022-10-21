@@ -46053,12 +46053,66 @@
       "url": "https://api.github.com/repos/psf/black/issues/3343",
       "html_url": "https://github.com/psf/black/issues/3343",
       "is_pr": false,
+      "closed_at": "2022-10-21T14:47:33+00:00",
+      "closed_by": "asottile"
+    },
+    {
+      "title": "comments.py: Fix typo \"iff\" in docstring",
+      "number": 3344,
+      "created_at": "2022-10-20T16:38:33+00:00",
+      "created_by": "Stevoisiak",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3344",
+      "html_url": "https://github.com/psf/black/pull/3344",
+      "is_pr": true,
+      "closed_at": "2022-10-20T16:44:50+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Black ignores # fmt: skip if run via pre-commit",
+      "number": 3345,
+      "created_at": "2022-10-21T01:30:53+00:00",
+      "created_by": "viivanofu",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3345",
+      "html_url": "https://github.com/psf/black/issues/3345",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Break long lines at dominant semantic features",
+      "number": 3346,
+      "created_at": "2022-10-21T06:51:02+00:00",
+      "created_by": "naught101",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3346",
+      "html_url": "https://github.com/psf/black/issues/3346",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "File-specific line-endings misbehaviour when doing in-place black",
+      "number": 3347,
+      "created_at": "2022-10-21T13:13:27+00:00",
+      "created_by": "bwagner",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3347",
+      "html_url": "https://github.com/psf/black/issues/3347",
+      "is_pr": false,
+      "closed_at": "2022-10-21T14:00:12+00:00",
+      "closed_by": "bwagner"
     }
   ],
   "record": {
-    "last_updated": "2022-10-19T15:20:36+00:00",
+    "last_updated": "2022-10-21T15:24:16+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
