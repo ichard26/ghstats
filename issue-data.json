@@ -46088,7 +46088,8 @@
       "created_at": "2022-10-21T06:51:02+00:00",
       "created_by": "naught101",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3346",
       "html_url": "https://github.com/psf/black/issues/3346",
@@ -46109,10 +46110,48 @@
       "is_pr": false,
       "closed_at": "2022-10-21T14:00:12+00:00",
       "closed_by": "bwagner"
+    },
+    {
+      "title": "Remove whitespaces of whitespace-only files",
+      "number": 3348,
+      "created_at": "2022-10-21T19:35:54+00:00",
+      "created_by": "aaossa",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3348",
+      "html_url": "https://github.com/psf/black/pull/3348",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "No, tabs for indentation are the devil. Making this configurable would go against Black's philosophy.",
+      "number": 3349,
+      "created_at": "2022-10-22T12:10:32+00:00",
+      "created_by": "busterbeam",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/3349",
+      "html_url": "https://github.com/psf/black/issues/3349",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Type hint wrapping after comment",
+      "number": 3350,
+      "created_at": "2022-10-22T15:00:04+00:00",
+      "created_by": "henryiii",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3350",
+      "html_url": "https://github.com/psf/black/issues/3350",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-21T15:24:16+00:00",
+    "last_updated": "2022-10-22T15:16:45+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
