@@ -7329,10 +7329,10 @@
       "created_at": "2018-10-15T01:54:52+00:00",
       "created_by": "bertjwregeer",
       "labels": [
-        "C: crash",
+        "T: bug",
         "C: invalid code",
         "F: comments",
-        "T: bug"
+        "C: crash"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/563",
       "html_url": "https://github.com/psf/black/issues/563",
@@ -34035,13 +34035,14 @@
       "labels": [
         "T: bug",
         "C: crash",
+        "S: needs repro",
         "C: file collection"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2499",
       "html_url": "https://github.com/psf/black/issues/2499",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-23T14:20:20+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "re-implement simple CORS middleware for blackd",
@@ -46132,8 +46133,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3349",
       "html_url": "https://github.com/psf/black/issues/3349",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-23T02:31:10+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Type hint wrapping after comment",
@@ -46141,17 +46142,44 @@
       "created_at": "2022-10-22T15:00:04+00:00",
       "created_by": "henryiii",
       "labels": [
-        "T: design"
+        "T: bug",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3350",
       "html_url": "https://github.com/psf/black/issues/3350",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Typo: 'iff' should be 'if'",
+      "number": 3351,
+      "created_at": "2022-10-23T07:44:10+00:00",
+      "created_by": "circles-png",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/3351",
+      "html_url": "https://github.com/psf/black/issues/3351",
+      "is_pr": false,
+      "closed_at": "2022-10-23T14:18:31+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Unexpected behaviour",
+      "number": 3352,
+      "created_at": "2022-10-23T14:16:17+00:00",
+      "created_by": "Freed-Wu",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3352",
+      "html_url": "https://github.com/psf/black/issues/3352",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-22T15:16:45+00:00",
+    "last_updated": "2022-10-23T15:16:48+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
