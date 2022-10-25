@@ -1446,8 +1446,8 @@
       "created_at": "2018-04-05T08:48:51+00:00",
       "created_by": "ojii",
       "labels": [
-        "design",
-        "enhancement"
+        "T: enhancement",
+        "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/109",
       "html_url": "https://github.com/psf/black/issues/109",
@@ -29549,7 +29549,7 @@
         "T: enhancement",
         "T: design",
         "S: accepted",
-        "F: strings / docstrings"
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2188",
       "html_url": "https://github.com/psf/black/issues/2188",
@@ -30338,7 +30338,6 @@
       "created_by": "tirkarthi",
       "labels": [
         "T: enhancement",
-        "C: blib2to3",
         "S: accepted",
         "C: parser"
       ],
@@ -46192,7 +46191,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3353",
       "html_url": "https://github.com/psf/black/pull/3353",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-24T16:50:15+00:00",
       "closed_by": null
     },
     {
@@ -46207,7 +46206,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3354",
       "html_url": "https://github.com/psf/black/pull/3354",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-24T18:40:19+00:00",
       "closed_by": null
     },
     {
@@ -46226,7 +46225,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-10-24T15:22:09+00:00",
+    "last_updated": "2022-10-25T15:22:15+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
