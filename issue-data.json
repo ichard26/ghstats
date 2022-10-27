@@ -45335,8 +45335,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3292",
       "html_url": "https://github.com/psf/black/issues/3292",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-27T01:03:15+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "add \\.ipynb_checkpoints to DEFAULT_EXCLUDES",
@@ -45551,7 +45551,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3307",
       "html_url": "https://github.com/psf/black/pull/3307",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-27T01:03:11+00:00",
       "closed_by": null
     },
     {
@@ -46257,17 +46257,33 @@
       "created_at": "2022-10-26T06:52:39+00:00",
       "created_by": "Deejuha",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "R: rejected",
+        "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3358",
       "html_url": "https://github.com/psf/black/issues/3358",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-26T22:57:53+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "title": "A solution to the obnoxious emojis problem.",
+      "number": 3359,
+      "created_at": "2022-10-26T17:32:31+00:00",
+      "created_by": "yuvallangerontheroad",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3359",
+      "html_url": "https://github.com/psf/black/issues/3359",
+      "is_pr": false,
+      "closed_at": "2022-10-26T17:35:55+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-10-26T15:16:19+00:00",
+    "last_updated": "2022-10-27T15:15:59+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
