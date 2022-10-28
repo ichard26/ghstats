@@ -43315,8 +43315,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3156",
       "html_url": "https://github.com/psf/black/issues/3156",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-27T23:42:39+00:00",
+      "closed_by": "adam-grant-hendry"
     },
     {
       "title": "Change the error report style to file:line:column",
@@ -45566,8 +45566,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3308",
       "html_url": "https://github.com/psf/black/issues/3308",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-10-27T23:55:35+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "title": "Vim plugin: allow using system black rather than virtualenv",
@@ -45578,7 +45578,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3309",
       "html_url": "https://github.com/psf/black/pull/3309",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-27T23:55:34+00:00",
       "closed_by": null
     },
     {
@@ -46280,10 +46280,52 @@
       "is_pr": false,
       "closed_at": "2022-10-26T17:35:55+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Black does not fix missing newline (flake8 E302) before comment + class definition",
+      "number": 3360,
+      "created_at": "2022-10-27T16:32:46+00:00",
+      "created_by": "kerrickstaley",
+      "labels": [
+        "T: bug",
+        "R: duplicate"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3360",
+      "html_url": "https://github.com/psf/black/issues/3360",
+      "is_pr": false,
+      "closed_at": "2022-10-28T07:54:03+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "docs(readme): add Archer Aviation to organizations",
+      "number": 3361,
+      "created_at": "2022-10-27T20:16:08+00:00",
+      "created_by": "Hongbo-Miao",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3361",
+      "html_url": "https://github.com/psf/black/pull/3361",
+      "is_pr": true,
+      "closed_at": "2022-10-27T21:22:44+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Format type hints after comments",
+      "number": 3362,
+      "created_at": "2022-10-28T12:18:16+00:00",
+      "created_by": "charlie572",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3362",
+      "html_url": "https://github.com/psf/black/pull/3362",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-27T15:15:59+00:00",
+    "last_updated": "2022-10-28T15:16:26+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
