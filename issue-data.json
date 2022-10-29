@@ -46210,12 +46210,14 @@
       "closed_by": null
     },
     {
-      "title": "Use Pylint on Black source code",
+      "title": "Lint `src/blib2to3`",
       "number": 3355,
       "created_at": "2022-10-24T12:08:34+00:00",
       "created_by": "clavedeluna",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "C: maintenance",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3355",
       "html_url": "https://github.com/psf/black/issues/3355",
@@ -46322,10 +46324,22 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Lint blib2to3",
+      "number": 3363,
+      "created_at": "2022-10-29T12:54:54+00:00",
+      "created_by": "clavedeluna",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3363",
+      "html_url": "https://github.com/psf/black/pull/3363",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-28T15:16:26+00:00",
+    "last_updated": "2022-10-29T15:15:36+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
