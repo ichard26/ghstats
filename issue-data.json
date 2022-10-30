@@ -46339,7 +46339,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-10-29T15:15:36+00:00",
+    "last_updated": "2022-10-30T15:15:15+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
