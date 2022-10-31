@@ -45938,7 +45938,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3334",
       "html_url": "https://github.com/psf/black/pull/3334",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-10-31T06:13:02+00:00",
       "closed_by": null
     },
     {
@@ -46015,7 +46015,8 @@
       "labels": [
         "T: bug",
         "help wanted",
-        "C: crash"
+        "C: crash",
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3340",
       "html_url": "https://github.com/psf/black/issues/3340",
@@ -46330,16 +46331,76 @@
       "number": 3363,
       "created_at": "2022-10-29T12:54:54+00:00",
       "created_by": "clavedeluna",
-      "labels": [],
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3363",
       "html_url": "https://github.com/psf/black/pull/3363",
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "`# fmt: skip` ignored in fluent interface",
+      "number": 3364,
+      "created_at": "2022-10-30T22:19:36+00:00",
+      "created_by": "metov",
+      "labels": [
+        "T: bug",
+        "F: fmtskip"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3364",
+      "html_url": "https://github.com/psf/black/issues/3364",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add IntelliJ docs on external tools and file watcher",
+      "number": 3365,
+      "created_at": "2022-10-31T04:42:01+00:00",
+      "created_by": "ruslaniv",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3365",
+      "html_url": "https://github.com/psf/black/pull/3365",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump peter-evans/create-or-update-comment from 2.0.1 to 2.1.0",
+      "number": 3366,
+      "created_at": "2022-10-31T06:12:53+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3366",
+      "html_url": "https://github.com/psf/black/pull/3366",
+      "is_pr": true,
+      "closed_at": "2022-10-31T13:49:52+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Bump pypa/cibuildwheel from 2.10.2 to 2.11.2",
+      "number": 3367,
+      "created_at": "2022-10-31T06:12:58+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3367",
+      "html_url": "https://github.com/psf/black/pull/3367",
+      "is_pr": true,
+      "closed_at": "2022-10-31T13:50:43+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-10-30T15:15:15+00:00",
+    "last_updated": "2022-10-31T15:16:11+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
