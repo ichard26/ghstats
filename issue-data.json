@@ -46419,11 +46419,13 @@
       "number": 3369,
       "created_at": "2022-11-01T03:06:24+00:00",
       "created_by": "GerhardOfRivia",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3369",
       "html_url": "https://github.com/psf/black/pull/3369",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-11-01T18:42:48+00:00",
       "closed_by": null
     },
     {
@@ -46437,10 +46439,38 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Line Breaks on long class member names",
+      "number": 3371,
+      "created_at": "2022-11-02T10:34:24+00:00",
+      "created_by": "timozerrer",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3371",
+      "html_url": "https://github.com/psf/black/issues/3371",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "# fmt: off block is partially reformatted",
+      "number": 3372,
+      "created_at": "2022-11-02T12:41:58+00:00",
+      "created_by": "ikamensh",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3372",
+      "html_url": "https://github.com/psf/black/issues/3372",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-11-01T15:16:59+00:00",
+    "last_updated": "2022-11-02T15:16:47+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
