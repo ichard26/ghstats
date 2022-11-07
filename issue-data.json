@@ -46528,7 +46528,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-11-06T15:15:44+00:00",
+    "last_updated": "2022-11-07T15:15:15+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
