@@ -27190,7 +27190,7 @@
       "created_by": "ichard26",
       "labels": [
         "C: integrations",
-        "C: installation / packaging",
+        "C: packaging",
         "C: vim",
         "C: cleanup"
       ],
@@ -46528,7 +46528,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-11-07T15:15:15+00:00",
+    "last_updated": "2022-11-08T15:15:29+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
