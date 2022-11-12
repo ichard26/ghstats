@@ -32322,8 +32322,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2382",
       "html_url": "https://github.com/psf/black/issues/2382",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-11-12T01:05:38+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Question: Does the code format differ between versions of python 3 (3.7, 3.8, 3.9) ?",
@@ -33819,7 +33819,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2484",
       "html_url": "https://github.com/psf/black/pull/2484",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-11-12T01:05:38+00:00",
       "closed_by": null
     },
     {
@@ -46121,7 +46121,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3348",
       "html_url": "https://github.com/psf/black/pull/3348",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-11-12T01:05:37+00:00",
       "closed_by": null
     },
     {
@@ -46518,7 +46518,9 @@
       "created_at": "2022-11-06T09:22:15+00:00",
       "created_by": "isac322",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: performance",
+        "C: packaging"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3376",
       "html_url": "https://github.com/psf/black/issues/3376",
@@ -46568,7 +46570,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-11-11T15:16:09+00:00",
+    "last_updated": "2022-11-12T15:15:09+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
