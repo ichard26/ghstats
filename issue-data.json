@@ -46075,7 +46075,9 @@
       "created_at": "2022-10-21T01:30:53+00:00",
       "created_by": "viivanofu",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "help wanted",
+        "T: user support"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3345",
       "html_url": "https://github.com/psf/black/issues/3345",
@@ -46581,10 +46583,54 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "inconsistent format of `if` condition",
+      "number": 3381,
+      "created_at": "2022-11-13T18:37:53+00:00",
+      "created_by": "drdv",
+      "labels": [
+        "T: design",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3381",
+      "html_url": "https://github.com/psf/black/issues/3381",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "GitHub Action: Use action version as default Black version, instead of latest",
+      "number": 3382,
+      "created_at": "2022-11-14T13:40:52+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "T: enhancement",
+        "C: integrations"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3382",
+      "html_url": "https://github.com/psf/black/issues/3382",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Wordsmith current_style.md",
+      "number": 3383,
+      "created_at": "2022-11-14T14:43:34+00:00",
+      "created_by": "sckarlin",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3383",
+      "html_url": "https://github.com/psf/black/pull/3383",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-11-13T15:14:05+00:00",
+    "last_updated": "2022-11-14T15:16:25+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
