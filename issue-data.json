@@ -45782,7 +45782,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3323",
       "html_url": "https://github.com/psf/black/pull/3323",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-11-18T07:27:59+00:00",
       "closed_by": null
     },
     {
@@ -46668,10 +46668,22 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Not sure what the bug was. Might be me importing a custom function, but it still crashed when I defined it at the top",
+      "number": 3387,
+      "created_at": "2022-11-18T08:53:48+00:00",
+      "created_by": "Shadow2008",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/3387",
+      "html_url": "https://github.com/psf/black/issues/3387",
+      "is_pr": false,
+      "closed_at": "2022-11-18T14:40:06+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-11-17T15:14:39+00:00",
+    "last_updated": "2022-11-18T15:14:02+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
