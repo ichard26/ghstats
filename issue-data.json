@@ -46773,10 +46773,24 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Add an option to dereference symlinks",
+      "number": 3395,
+      "created_at": "2022-11-27T14:00:12+00:00",
+      "created_by": "calliecameron",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3395",
+      "html_url": "https://github.com/psf/black/issues/3395",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-11-26T15:12:10+00:00",
+    "last_updated": "2022-11-27T15:12:10+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
