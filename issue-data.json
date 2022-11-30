@@ -46787,10 +46787,37 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "typing_extensions module not installed under Python3.10",
+      "number": 3396,
+      "created_at": "2022-11-30T05:02:19+00:00",
+      "created_by": "Skyline124",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/3396",
+      "html_url": "https://github.com/psf/black/issues/3396",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Allow Leo to use black :-)",
+      "number": 3397,
+      "created_at": "2022-11-30T14:23:23+00:00",
+      "created_by": "edreamleo",
+      "labels": [
+        "T: enhancement",
+        "F: comments"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3397",
+      "html_url": "https://github.com/psf/black/issues/3397",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-11-28T15:12:27+00:00",
+    "last_updated": "2022-11-30T15:14:09+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
