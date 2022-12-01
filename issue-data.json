@@ -46797,8 +46797,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3396",
       "html_url": "https://github.com/psf/black/issues/3396",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-01T01:42:03+00:00",
+      "closed_by": "Skyline124"
     },
     {
       "title": "Allow Leo to use black :-)",
@@ -46812,12 +46812,40 @@
       "url": "https://api.github.com/repos/psf/black/issues/3397",
       "html_url": "https://github.com/psf/black/issues/3397",
       "is_pr": false,
+      "closed_at": "2022-12-01T10:12:08+00:00",
+      "closed_by": "edreamleo"
+    },
+    {
+      "title": "`Chat` link is an invalid discord invite",
+      "number": 3398,
+      "created_at": "2022-11-30T16:46:02+00:00",
+      "created_by": "Avasam",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3398",
+      "html_url": "https://github.com/psf/black/issues/3398",
+      "is_pr": false,
+      "closed_at": "2022-11-30T17:19:25+00:00",
+      "closed_by": "Avasam"
+    },
+    {
+      "title": "Breaking `# pyright: ignore[]` used with `# type: ignore[]` comments on short lines",
+      "number": 3399,
+      "created_at": "2022-11-30T17:02:14+00:00",
+      "created_by": "Avasam",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3399",
+      "html_url": "https://github.com/psf/black/issues/3399",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-11-30T15:14:09+00:00",
+    "last_updated": "2022-12-01T15:13:54+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
