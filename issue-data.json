@@ -46868,10 +46868,24 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Feature request: add option to specify number of spaces around `=` in keyword arguments",
+      "number": 3402,
+      "created_at": "2022-12-02T16:47:21+00:00",
+      "created_by": "hacker-DOM",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3402",
+      "html_url": "https://github.com/psf/black/issues/3402",
+      "is_pr": false,
+      "closed_at": "2022-12-02T17:09:18+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-12-02T15:10:58+00:00",
+    "last_updated": "2022-12-03T15:11:23+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
