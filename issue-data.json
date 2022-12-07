@@ -38949,7 +38949,7 @@
       "labels": [
         "T: bug",
         "help wanted",
-        "C: installation / packaging"
+        "C: packaging"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2846",
       "html_url": "https://github.com/psf/black/issues/2846",
@@ -46927,7 +46927,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-12-06T15:12:55+00:00",
+    "last_updated": "2022-12-07T15:12:41+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
