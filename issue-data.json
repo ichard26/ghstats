@@ -25710,8 +25710,8 @@
       "created_at": "2021-01-12T14:34:03+00:00",
       "created_by": "raphj",
       "labels": [
-        "C: parser",
-        "T: bug"
+        "T: bug",
+        "C: parser"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1922",
       "html_url": "https://github.com/psf/black/issues/1922",
@@ -46910,7 +46910,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3404",
       "html_url": "https://github.com/psf/black/pull/3404",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-09T04:28:29+00:00",
       "closed_by": null
     },
     {
@@ -46928,10 +46928,126 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Add newline before indentation decrease, except for continuation of logical blocks",
+      "number": 3406,
+      "created_at": "2022-12-08T17:57:04+00:00",
+      "created_by": "csala",
+      "labels": [
+        "T: design",
+        "F: empty lines"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3406",
+      "html_url": "https://github.com/psf/black/issues/3406",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Setting the 2023 stable style",
+      "number": 3407,
+      "created_at": "2022-12-09T02:16:23+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: enhancement",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3407",
+      "html_url": "https://github.com/psf/black/issues/3407",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Preview style removes comment in with block",
+      "number": 3408,
+      "created_at": "2022-12-09T02:41:43+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug",
+        "F: comments"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3408",
+      "html_url": "https://github.com/psf/black/issues/3408",
+      "is_pr": false,
+      "closed_at": "2022-12-09T03:13:20+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "--preview reformats to exceed line length and is also ugly",
+      "number": 3409,
+      "created_at": "2022-12-09T02:49:20+00:00",
+      "created_by": "hauntsaninja",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3409",
+      "html_url": "https://github.com/psf/black/issues/3409",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Preview: Ugly reformatting of string literal with .format() method",
+      "number": 3410,
+      "created_at": "2022-12-09T03:04:39+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug",
+        "F: parentheses"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3410",
+      "html_url": "https://github.com/psf/black/issues/3410",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "release: skip bad macos wheels for now",
+      "number": 3411,
+      "created_at": "2022-12-09T03:23:59+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3411",
+      "html_url": "https://github.com/psf/black/pull/3411",
+      "is_pr": true,
+      "closed_at": "2022-12-09T04:36:39+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Fix CI with latest flake8-bugbear",
+      "number": 3412,
+      "created_at": "2022-12-09T03:30:53+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3412",
+      "html_url": "https://github.com/psf/black/pull/3412",
+      "is_pr": true,
+      "closed_at": "2022-12-09T04:11:08+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Prepare release 22.12.0",
+      "number": 3413,
+      "created_at": "2022-12-09T04:42:04+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3413",
+      "html_url": "https://github.com/psf/black/pull/3413",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-12-08T15:12:23+00:00",
+    "last_updated": "2022-12-09T15:12:28+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
