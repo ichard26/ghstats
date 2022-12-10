@@ -47042,12 +47042,54 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3413",
       "html_url": "https://github.com/psf/black/pull/3413",
       "is_pr": true,
+      "closed_at": "2022-12-09T15:49:43+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Crash in preview style with assert + parenthesized string",
+      "number": 3414,
+      "created_at": "2022-12-10T04:45:05+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug",
+        "F: trailing comma",
+        "C: crash"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3414",
+      "html_url": "https://github.com/psf/black/issues/3414",
+      "is_pr": false,
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix a crash in preview style with assert + parenthesized string.",
+      "number": 3415,
+      "created_at": "2022-12-10T07:14:38+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3415",
+      "html_url": "https://github.com/psf/black/pull/3415",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "fix(type): type annotation",
+      "number": 3416,
+      "created_at": "2022-12-10T13:03:19+00:00",
+      "created_by": "isac322",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3416",
+      "html_url": "https://github.com/psf/black/pull/3416",
+      "is_pr": true,
+      "closed_at": "2022-12-10T15:08:05+00:00",
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-12-09T15:12:28+00:00",
+    "last_updated": "2022-12-10T15:11:20+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
