@@ -46527,8 +46527,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3376",
       "html_url": "https://github.com/psf/black/issues/3376",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-10T20:56:35+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Fix internal magic commas not being force expanded",
@@ -46571,7 +46571,7 @@
       "closed_by": null
     },
     {
-      "title": "Bump mypy[c] from 0.971 to 0.990",
+      "title": "Bump mypy[c] from 0.971 to 0.991",
       "number": 3380,
       "created_at": "2022-11-13T00:57:30+00:00",
       "created_by": "ichard26",
@@ -46581,7 +46581,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3380",
       "html_url": "https://github.com/psf/black/pull/3380",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-10T20:56:34+00:00",
       "closed_by": null
     },
     {
@@ -46666,8 +46666,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3386",
       "html_url": "https://github.com/psf/black/issues/3386",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-10T20:56:15+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Not sure what the bug was. Might be me importing a custom function, but it still crashed when I defined it at the top",
@@ -46744,7 +46744,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3392",
       "html_url": "https://github.com/psf/black/pull/3392",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-10T20:56:14+00:00",
       "closed_by": null
     },
     {
@@ -46771,7 +46771,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3394",
       "html_url": "https://github.com/psf/black/pull/3394",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-10T19:49:33+00:00",
       "closed_by": null
     },
     {
@@ -47058,8 +47058,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3414",
       "html_url": "https://github.com/psf/black/issues/3414",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-10T15:58:47+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Fix a crash in preview style with assert + parenthesized string.",
@@ -47070,7 +47070,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3415",
       "html_url": "https://github.com/psf/black/pull/3415",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-10T15:58:46+00:00",
       "closed_by": null
     },
     {
@@ -47086,10 +47086,191 @@
       "is_pr": true,
       "closed_at": "2022-12-10T15:08:05+00:00",
       "closed_by": null
+    },
+    {
+      "title": "FR: Option for outputting the diff + applying the changes.",
+      "number": 3417,
+      "created_at": "2022-12-10T16:39:37+00:00",
+      "created_by": "kxrob",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3417",
+      "html_url": "https://github.com/psf/black/issues/3417",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Draft for Black 2023 stable style",
+      "number": 3418,
+      "created_at": "2022-12-10T16:55:32+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3418",
+      "html_url": "https://github.com/psf/black/pull/3418",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Preview style incorrectly removes parens from walrus in annotation",
+      "number": 3419,
+      "created_at": "2022-12-10T17:07:17+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3419",
+      "html_url": "https://github.com/psf/black/issues/3419",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Preview mode crash with `--fast` and walrus in except clause",
+      "number": 3420,
+      "created_at": "2022-12-10T17:17:43+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3420",
+      "html_url": "https://github.com/psf/black/issues/3420",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Change the '=' in function",
+      "number": 3421,
+      "created_at": "2022-12-10T17:30:19+00:00",
+      "created_by": "POEG1726",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3421",
+      "html_url": "https://github.com/psf/black/issues/3421",
+      "is_pr": false,
+      "closed_at": "2022-12-10T17:36:03+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Fix crash in return annotation with walrus",
+      "number": 3422,
+      "created_at": "2022-12-10T17:55:09+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3422",
+      "html_url": "https://github.com/psf/black/pull/3422",
+      "is_pr": true,
+      "closed_at": "2022-12-10T18:20:44+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Check stability for both preview and non-preview styles",
+      "number": 3423,
+      "created_at": "2022-12-10T18:15:10+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3423",
+      "html_url": "https://github.com/psf/black/pull/3423",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Instability with line length = 8 and parenthesized string",
+      "number": 3424,
+      "created_at": "2022-12-10T18:55:22+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug",
+        "C: unstable formatting",
+        "F: parentheses"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3424",
+      "html_url": "https://github.com/psf/black/issues/3424",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Crash with line-length 18 and backslash in docstring",
+      "number": 3425,
+      "created_at": "2022-12-10T19:01:41+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug",
+        "C: crash",
+        "F: docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3425",
+      "html_url": "https://github.com/psf/black/issues/3425",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix syntax error in match test",
+      "number": 3426,
+      "created_at": "2022-12-10T19:11:45+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3426",
+      "html_url": "https://github.com/psf/black/pull/3426",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Crash with line-length 6 and multi-line docstring",
+      "number": 3427,
+      "created_at": "2022-12-10T19:17:55+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug",
+        "F: docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3427",
+      "html_url": "https://github.com/psf/black/issues/3427",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Crash with comment inside implicitly concatenated string (and --line-length 4)",
+      "number": 3428,
+      "created_at": "2022-12-10T19:29:42+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3428",
+      "html_url": "https://github.com/psf/black/issues/3428",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Additional sanity checks",
+      "number": 3429,
+      "created_at": "2022-12-10T21:06:23+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3429",
+      "html_url": "https://github.com/psf/black/issues/3429",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-12-10T15:11:20+00:00",
+    "last_updated": "2022-12-11T15:11:43+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
