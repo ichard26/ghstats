@@ -47267,10 +47267,81 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Do not put the closing quotes in a docstring on a separate line",
+      "number": 3430,
+      "created_at": "2022-12-11T23:36:04+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3430",
+      "html_url": "https://github.com/psf/black/pull/3430",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Formatting is slow using VS Code",
+      "number": 3431,
+      "created_at": "2022-12-12T05:24:11+00:00",
+      "created_by": "luan-xiaokun",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3431",
+      "html_url": "https://github.com/psf/black/issues/3431",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "[style] Function default parameters - ugly lambda explosion",
+      "number": 3432,
+      "created_at": "2022-12-12T05:53:20+00:00",
+      "created_by": "Starwort",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3432",
+      "html_url": "https://github.com/psf/black/issues/3432",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Bump furo from 2022.9.29 to 2022.12.7 in /docs",
+      "number": 3433,
+      "created_at": "2022-12-12T06:01:01+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3433",
+      "html_url": "https://github.com/psf/black/pull/3433",
+      "is_pr": true,
+      "closed_at": "2022-12-12T14:28:12+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Bump pypa/cibuildwheel from 2.11.2 to 2.11.3",
+      "number": 3434,
+      "created_at": "2022-12-12T06:02:46+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3434",
+      "html_url": "https://github.com/psf/black/pull/3434",
+      "is_pr": true,
+      "closed_at": "2022-12-12T14:27:18+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-12-11T15:11:43+00:00",
+    "last_updated": "2022-12-12T15:13:14+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
