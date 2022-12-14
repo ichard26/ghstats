@@ -47286,7 +47286,9 @@
       "created_at": "2022-12-12T05:24:11+00:00",
       "created_by": "luan-xiaokun",
       "labels": [
-        "T: bug"
+        "T: user support",
+        "C: performance",
+        "C: integrations"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3431",
       "html_url": "https://github.com/psf/black/issues/3431",
@@ -47381,10 +47383,53 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black adds an extra blank line to an import line that ends with `# fmt: skip`",
+      "number": 3438,
+      "created_at": "2022-12-13T21:39:27+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: bug",
+        "F: comments",
+        "F: fmtskip"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3438",
+      "html_url": "https://github.com/psf/black/issues/3438",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix a crash when a colon line is marked between `# fmt: off` and `# fmt: on`",
+      "number": 3439,
+      "created_at": "2022-12-13T22:34:43+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "C: invalid code",
+        "F: fmtoff"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3439",
+      "html_url": "https://github.com/psf/black/pull/3439",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Improve long values in dict literals",
+      "number": 3440,
+      "created_at": "2022-12-14T07:09:54+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3440",
+      "html_url": "https://github.com/psf/black/pull/3440",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-12-13T15:15:55+00:00",
+    "last_updated": "2022-12-14T15:13:16+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
