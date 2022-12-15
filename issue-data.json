@@ -44862,8 +44862,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3260",
       "html_url": "https://github.com/psf/black/issues/3260",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-15T06:23:38+00:00",
+      "closed_by": "yilei"
     },
     {
       "title": "Black --preview crashes with nested long dict str keys",
@@ -47369,8 +47369,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3436",
       "html_url": "https://github.com/psf/black/issues/3436",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-15T01:56:15+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Whitespace before functions is being removed",
@@ -47412,7 +47412,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3439",
       "html_url": "https://github.com/psf/black/pull/3439",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-15T01:56:15+00:00",
       "closed_by": null
     },
     {
@@ -47426,10 +47426,52 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "No Match Case Support for Python 3.10+",
+      "number": 3441,
+      "created_at": "2022-12-14T18:57:03+00:00",
+      "created_by": "hg0428",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3441",
+      "html_url": "https://github.com/psf/black/issues/3441",
+      "is_pr": false,
+      "closed_at": "2022-12-14T19:13:27+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Long dict key with operators are oddly broken into multiple lines",
+      "number": 3442,
+      "created_at": "2022-12-15T06:10:01+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3442",
+      "html_url": "https://github.com/psf/black/issues/3442",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "#fmt: skip is ignored",
+      "number": 3443,
+      "created_at": "2022-12-15T13:14:21+00:00",
+      "created_by": "FSpanhel",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3443",
+      "html_url": "https://github.com/psf/black/issues/3443",
+      "is_pr": false,
+      "closed_at": "2022-12-15T13:18:54+00:00",
+      "closed_by": "FSpanhel"
     }
   ],
   "record": {
-    "last_updated": "2022-12-14T15:13:16+00:00",
+    "last_updated": "2022-12-15T15:13:04+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
