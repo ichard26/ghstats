@@ -8086,8 +8086,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/620",
       "html_url": "https://github.com/psf/black/issues/620",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-15T16:25:29+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Silence expected stderr",
@@ -10554,8 +10554,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/808",
       "html_url": "https://github.com/psf/black/issues/808",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-15T16:25:30+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Line too long: Lambda with many parameters",
@@ -19769,8 +19769,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/1498",
       "html_url": "https://github.com/psf/black/issues/1498",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-15T23:58:52+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Comments in list comprehensions cause breakages",
@@ -42730,8 +42730,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3117",
       "html_url": "https://github.com/psf/black/issues/3117",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-15T16:25:30+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Update documentation dependencies",
@@ -43324,7 +43324,8 @@
       "created_at": "2022-07-06T09:47:19+00:00",
       "created_by": "ptsl",
       "labels": [
-        "T: bug"
+        "T: enhancement",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3157",
       "html_url": "https://github.com/psf/black/issues/3157",
@@ -44863,7 +44864,7 @@
       "html_url": "https://github.com/psf/black/issues/3260",
       "is_pr": false,
       "closed_at": "2022-12-15T06:23:38+00:00",
-      "closed_by": "yilei"
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Black --preview crashes with nested long dict str keys",
@@ -46413,7 +46414,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3368",
       "html_url": "https://github.com/psf/black/pull/3368",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-15T23:58:51+00:00",
       "closed_by": null
     },
     {
@@ -47286,6 +47287,7 @@
       "created_at": "2022-12-12T05:24:11+00:00",
       "created_by": "luan-xiaokun",
       "labels": [
+        "help wanted",
         "T: user support",
         "C: performance",
         "C: integrations"
@@ -47424,7 +47426,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3440",
       "html_url": "https://github.com/psf/black/pull/3440",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-15T16:25:28+00:00",
       "closed_by": null
     },
     {
@@ -47468,10 +47470,24 @@
       "is_pr": false,
       "closed_at": "2022-12-15T13:18:54+00:00",
       "closed_by": "FSpanhel"
+    },
+    {
+      "title": "Fix an infinite recursion error.",
+      "number": 3444,
+      "created_at": "2022-12-16T06:09:49+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3444",
+      "html_url": "https://github.com/psf/black/pull/3444",
+      "is_pr": true,
+      "closed_at": "2022-12-16T13:02:41+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-12-15T15:13:04+00:00",
+    "last_updated": "2022-12-16T15:13:56+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
