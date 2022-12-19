@@ -1965,8 +1965,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/147",
       "html_url": "https://github.com/psf/black/issues/147",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-19T03:36:13+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Math expressions and readability",
@@ -4820,8 +4820,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/366",
       "html_url": "https://github.com/psf/black/issues/366",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-19T04:02:30+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Need an option to disable slicing formatting",
@@ -5438,8 +5438,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/413",
       "html_url": "https://github.com/psf/black/issues/413",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-19T04:10:44+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Vim plugin should respect pyproject.toml config",
@@ -8652,6 +8652,7 @@
         "T: design",
         "F: parentheses",
         "S: accepted",
+        "F: linetoolong",
         "C: target version"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/664",
@@ -9767,14 +9768,15 @@
       "created_at": "2019-03-14T15:20:35+00:00",
       "created_by": "matejbasic",
       "labels": [
+        "R: duplicate",
         "T: design",
         "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/749",
       "html_url": "https://github.com/psf/black/issues/749",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-19T04:06:28+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Add back --py36 as a deprecated option",
@@ -10609,7 +10611,8 @@
       "created_at": "2019-04-24T07:56:15+00:00",
       "created_by": "boscotsang",
       "labels": [
-        "C: integrations"
+        "C: integrations",
+        "C: vim"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/812",
       "html_url": "https://github.com/psf/black/issues/812",
@@ -10635,14 +10638,14 @@
       "created_at": "2019-04-24T13:55:37+00:00",
       "created_by": "cducrest",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/814",
       "html_url": "https://github.com/psf/black/issues/814",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-19T04:20:01+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "black reformats conditionals to be too long",
@@ -13540,8 +13543,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/1038",
       "html_url": "https://github.com/psf/black/issues/1038",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-19T04:26:05+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Fix typechecking under mypy 0.730",
@@ -14860,8 +14863,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/1139",
       "html_url": "https://github.com/psf/black/issues/1139",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-19T03:50:08+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Inconsistent performance between GitHub CI and local",
@@ -17849,8 +17852,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/1356",
       "html_url": "https://github.com/psf/black/issues/1356",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": "felix-hilden"
+      "closed_at": "2022-12-19T03:52:17+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Line too long: Multi-line global",
@@ -22729,8 +22732,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/1713",
       "html_url": "https://github.com/psf/black/issues/1713",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-19T03:40:36+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Formatting does not respect line length if comma at the end",
@@ -23313,14 +23316,14 @@
       "closed_by": null
     },
     {
-      "title": "Changing line lengths cause inconsistent type hint formatting",
+      "title": "Trailing comma not removed in type annotation",
       "number": 1756,
       "created_at": "2020-10-09T20:00:15+00:00",
       "created_by": "fuglede",
       "labels": [
-        "C: command line / config",
+        "T: bug",
         "F: trailing comma",
-        "T: bug"
+        "C: configuration"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1756",
       "html_url": "https://github.com/psf/black/issues/1756",
@@ -27782,13 +27785,13 @@
       "closed_by": "JelleZijlstra"
     },
     {
-      "title": "Format the hex codes in Unicode escape sequences (`\\U` and `\\u`) in string literals",
+      "title": "Format the hex codes in Unicode/hex escape sequences (`\\U`, `\\u`, `\\x`) in string literals",
       "number": 2067,
       "created_at": "2021-03-26T12:42:58+00:00",
-      "created_by": "jack1142",
+      "created_by": "Jackenmen",
       "labels": [
         "T: design",
-        "F: strings / docstrings"
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2067",
       "html_url": "https://github.com/psf/black/issues/2067",
@@ -31643,8 +31646,9 @@
       "labels": [
         "T: enhancement",
         "S: accepted",
-        "F: strings / docstrings",
-        "F: linebreak"
+        "F: strings",
+        "F: linebreak",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2334",
       "html_url": "https://github.com/psf/black/issues/2334",
@@ -39968,10 +39972,8 @@
       "created_at": "2022-03-13T10:55:05+00:00",
       "created_by": "Shivansh-007",
       "labels": [
-        "help wanted",
         "T: design",
-        "F: strings",
-        "S: up for grabs"
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/pulls/2916",
       "html_url": "https://github.com/psf/black/pull/2916",
@@ -42252,7 +42254,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3084",
       "html_url": "https://github.com/psf/black/pull/3084",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-18T17:12:29+00:00",
       "closed_by": null
     },
     {
@@ -44122,7 +44124,8 @@
       "labels": [
         "T: bug",
         "T: design",
-        "F: linebreak"
+        "F: linebreak",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3210",
       "html_url": "https://github.com/psf/black/issues/3210",
@@ -46017,7 +46020,8 @@
         "T: bug",
         "help wanted",
         "C: crash",
-        "F: strings"
+        "F: strings",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3340",
       "html_url": "https://github.com/psf/black/issues/3340",
@@ -46952,6 +46956,8 @@
       "created_by": "JelleZijlstra",
       "labels": [
         "T: enhancement",
+        "help wanted",
+        "T: design",
         "C: maintenance"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3407",
@@ -46981,7 +46987,8 @@
       "created_at": "2022-12-09T02:49:20+00:00",
       "created_by": "hauntsaninja",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3409",
       "html_url": "https://github.com/psf/black/issues/3409",
@@ -46996,7 +47003,8 @@
       "created_by": "JelleZijlstra",
       "labels": [
         "T: bug",
-        "F: parentheses"
+        "F: parentheses",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3410",
       "html_url": "https://github.com/psf/black/issues/3410",
@@ -47188,7 +47196,8 @@
       "labels": [
         "T: bug",
         "C: unstable formatting",
-        "F: parentheses"
+        "F: parentheses",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3424",
       "html_url": "https://github.com/psf/black/issues/3424",
@@ -47204,7 +47213,8 @@
       "labels": [
         "T: bug",
         "C: crash",
-        "F: docstrings"
+        "F: docstrings",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3425",
       "html_url": "https://github.com/psf/black/issues/3425",
@@ -47233,7 +47243,8 @@
       "created_by": "JelleZijlstra",
       "labels": [
         "T: bug",
-        "F: docstrings"
+        "F: docstrings",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3427",
       "html_url": "https://github.com/psf/black/issues/3427",
@@ -47247,7 +47258,8 @@
       "created_at": "2022-12-10T19:29:42+00:00",
       "created_by": "JelleZijlstra",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3428",
       "html_url": "https://github.com/psf/black/issues/3428",
@@ -47350,7 +47362,8 @@
       "created_by": "intgr",
       "labels": [
         "T: bug",
-        "C: crash"
+        "C: crash",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3435",
       "html_url": "https://github.com/psf/black/issues/3435",
@@ -47564,10 +47577,38 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Fix two docstring crashes",
+      "number": 3451,
+      "created_at": "2022-12-19T00:26:33+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3451",
+      "html_url": "https://github.com/psf/black/pull/3451",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Suboptimal line split choices in 23.1a1",
+      "number": 3452,
+      "created_at": "2022-12-19T10:36:21+00:00",
+      "created_by": "tolomea",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3452",
+      "html_url": "https://github.com/psf/black/issues/3452",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-12-18T15:10:50+00:00",
+    "last_updated": "2022-12-19T15:14:36+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
