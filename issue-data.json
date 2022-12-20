@@ -31349,7 +31349,8 @@
       "created_by": "JelleZijlstra",
       "labels": [
         "C: performance",
-        "F: strings / docstrings"
+        "F: strings",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2314",
       "html_url": "https://github.com/psf/black/issues/2314",
@@ -41675,8 +41676,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3037",
       "html_url": "https://github.com/psf/black/issues/3037",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-20T02:17:17+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Add script to ease migration to black",
@@ -42011,14 +42012,15 @@
       "created_at": "2022-05-11T09:04:02+00:00",
       "created_by": "ikamensh",
       "labels": [
+        "R: duplicate",
         "T: design",
         "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3068",
       "html_url": "https://github.com/psf/black/issues/3068",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-20T02:15:10+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "use is_number_token insteaed of assertion",
@@ -42655,8 +42657,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3111",
       "html_url": "https://github.com/psf/black/issues/3111",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-20T02:13:59+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Black doesn't wrap functions with parameter comments",
@@ -44582,13 +44584,14 @@
       "created_at": "2022-08-26T21:07:48+00:00",
       "created_by": "TomFryers",
       "labels": [
+        "R: rejected",
         "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3241",
       "html_url": "https://github.com/psf/black/issues/3241",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-20T02:12:54+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Improve & update release process to reflect recent changes",
@@ -45879,7 +45882,9 @@
       "number": 3330,
       "created_at": "2022-10-13T11:29:37+00:00",
       "created_by": "e-gebes",
-      "labels": [],
+      "labels": [
+        "F: fmtskip"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/3330",
       "html_url": "https://github.com/psf/black/issues/3330",
       "is_pr": false,
@@ -46871,8 +46876,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3401",
       "html_url": "https://github.com/psf/black/issues/3401",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-20T12:13:26+00:00",
+      "closed_by": "kytta"
     },
     {
       "title": "Feature request: add option to specify number of spaces around `=` in keyword arguments",
@@ -47102,7 +47107,8 @@
       "created_at": "2022-12-10T16:39:37+00:00",
       "created_by": "kxrob",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3417",
       "html_url": "https://github.com/psf/black/issues/3417",
@@ -47598,17 +47604,203 @@
       "created_at": "2022-12-19T10:36:21+00:00",
       "created_by": "tolomea",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: linebreak",
+        "C: preview style"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3452",
       "html_url": "https://github.com/psf/black/issues/3452",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Docker latest_release is pointing to an alpha version",
+      "number": 3453,
+      "created_at": "2022-12-19T15:29:38+00:00",
+      "created_by": "babyhuey",
+      "labels": [
+        "T: bug",
+        "help wanted",
+        "C: integrations",
+        "C: packaging",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3453",
+      "html_url": "https://github.com/psf/black/issues/3453",
+      "is_pr": false,
+      "closed_at": "2022-12-20T02:08:14+00:00",
+      "closed_by": "cooperlees"
+    },
+    {
+      "title": "Extra newlines added before function with fmt skip on decorator",
+      "number": 3454,
+      "created_at": "2022-12-19T15:50:27+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "F: comments",
+        "F: fmtskip",
+        "C: preview style"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3454",
+      "html_url": "https://github.com/psf/black/issues/3454",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black --preview crashes on long dict key followed by a comment line",
+      "number": 3455,
+      "created_at": "2022-12-19T19:26:26+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: bug",
+        "C: crash",
+        "C: preview style"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3455",
+      "html_url": "https://github.com/psf/black/issues/3455",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Marker to bypass expected parsing problems",
+      "number": 3456,
+      "created_at": "2022-12-19T19:27:31+00:00",
+      "created_by": "theelderbeever",
+      "labels": [
+        "T: enhancement",
+        "C: configuration"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3456",
+      "html_url": "https://github.com/psf/black/issues/3456",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black --preview (ESP) crashes with implicitly concatenated stringified generic type params",
+      "number": 3457,
+      "created_at": "2022-12-19T19:51:03+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3457",
+      "html_url": "https://github.com/psf/black/issues/3457",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black crashes with a single `# fmt: off` before a dict's closing bracket",
+      "number": 3458,
+      "created_at": "2022-12-19T20:01:06+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: bug",
+        "C: crash",
+        "F: fmtoff"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3458",
+      "html_url": "https://github.com/psf/black/issues/3458",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Black --preview (ESP) crashes on an implicitly concatenated f-string",
+      "number": 3459,
+      "created_at": "2022-12-19T20:15:14+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3459",
+      "html_url": "https://github.com/psf/black/issues/3459",
+      "is_pr": false,
+      "closed_at": "2022-12-20T14:36:43+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Black is not honoring #fmt: skip",
+      "number": 3460,
+      "created_at": "2022-12-19T23:09:14+00:00",
+      "created_by": "ricardo-dematos",
+      "labels": [
+        "T: bug",
+        "F: fmtskip"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3460",
+      "html_url": "https://github.com/psf/black/issues/3460",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Do not move docker `latest_release` tag for Pre-Releases",
+      "number": 3461,
+      "created_at": "2022-12-19T23:38:06+00:00",
+      "created_by": "cooperlees",
+      "labels": [
+        "T: bug",
+        "C: packaging",
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3461",
+      "html_url": "https://github.com/psf/black/pull/3461",
+      "is_pr": true,
+      "closed_at": "2022-12-20T02:08:13+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Exclude string type annotations from ESP",
+      "number": 3462,
+      "created_at": "2022-12-20T05:06:24+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3462",
+      "html_url": "https://github.com/psf/black/pull/3462",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix an f-string crash in ESP.",
+      "number": 3463,
+      "created_at": "2022-12-20T05:42:45+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3463",
+      "html_url": "https://github.com/psf/black/pull/3463",
+      "is_pr": true,
+      "closed_at": "2022-12-20T14:36:42+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Black doesn't fit short lists on a single line.",
+      "number": 3464,
+      "created_at": "2022-12-20T11:39:06+00:00",
+      "created_by": "MSK61",
+      "labels": [
+        "T: bug",
+        "R: not a bug",
+        "F: trailing comma",
+        "F: linebreak"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3464",
+      "html_url": "https://github.com/psf/black/issues/3464",
+      "is_pr": false,
+      "closed_at": "2022-12-20T14:35:13+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2022-12-19T15:14:36+00:00",
+    "last_updated": "2022-12-20T15:13:51+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
