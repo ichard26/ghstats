@@ -47374,8 +47374,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3435",
       "html_url": "https://github.com/psf/black/issues/3435",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-20T21:38:36+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Crash on conditional inside # fmt: off, depending on comment indentation",
@@ -47645,8 +47645,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3454",
       "html_url": "https://github.com/psf/black/issues/3454",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-21T01:58:03+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Black --preview crashes on long dict key followed by a comment line",
@@ -47661,8 +47661,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3455",
       "html_url": "https://github.com/psf/black/issues/3455",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-20T22:59:39+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Marker to bypass expected parsing problems",
@@ -47671,7 +47671,8 @@
       "created_by": "theelderbeever",
       "labels": [
         "T: enhancement",
-        "C: configuration"
+        "C: configuration",
+        "S: needs discussion"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3456",
       "html_url": "https://github.com/psf/black/issues/3456",
@@ -47691,8 +47692,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3457",
       "html_url": "https://github.com/psf/black/issues/3457",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-20T21:38:36+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Black crashes with a single `# fmt: off` before a dict's closing bracket",
@@ -47766,7 +47767,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3462",
       "html_url": "https://github.com/psf/black/pull/3462",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2022-12-20T21:38:35+00:00",
       "closed_by": null
     },
     {
@@ -47797,10 +47798,86 @@
       "is_pr": false,
       "closed_at": "2022-12-20T14:35:13+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Add latest_prerelease Docker Hub tag for following the latest alpha release",
+      "number": 3465,
+      "created_at": "2022-12-20T18:59:49+00:00",
+      "created_by": "matthewarmand",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3465",
+      "html_url": "https://github.com/psf/black/pull/3465",
+      "is_pr": true,
+      "closed_at": "2022-12-21T03:18:15+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Extra parentheses added even when string isn't split",
+      "number": 3466,
+      "created_at": "2022-12-20T20:01:50+00:00",
+      "created_by": "wookie184",
+      "labels": [
+        "T: bug",
+        "F: strings",
+        "C: preview style"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3466",
+      "html_url": "https://github.com/psf/black/issues/3466",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Significantly speedup ESP on large expressions that contain many strings",
+      "number": 3467,
+      "created_at": "2022-12-20T20:06:10+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3467",
+      "html_url": "https://github.com/psf/black/pull/3467",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Vim plugin docs improvements",
+      "number": 3468,
+      "created_at": "2022-12-20T21:10:02+00:00",
+      "created_by": "matthewarmand",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3468",
+      "html_url": "https://github.com/psf/black/pull/3468",
+      "is_pr": true,
+      "closed_at": "2022-12-20T23:00:06+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Fix a crash in ESP where a standalone comment is placed before a dict's value.",
+      "number": 3469,
+      "created_at": "2022-12-20T22:32:13+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3469",
+      "html_url": "https://github.com/psf/black/pull/3469",
+      "is_pr": true,
+      "closed_at": "2022-12-20T22:59:38+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Fix an issue where extra empty lines are added.",
+      "number": 3470,
+      "created_at": "2022-12-20T23:51:37+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3470",
+      "html_url": "https://github.com/psf/black/pull/3470",
+      "is_pr": true,
+      "closed_at": "2022-12-21T01:58:02+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-12-20T15:13:51+00:00",
+    "last_updated": "2022-12-21T15:12:42+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
