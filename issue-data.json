@@ -14747,7 +14747,7 @@
       "created_at": "2019-11-02T20:06:11+00:00",
       "created_by": "shreyasbapat",
       "labels": [
-        "bug"
+        "T: bug"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1131",
       "html_url": "https://github.com/psf/black/issues/1131",
@@ -47874,10 +47874,24 @@
       "is_pr": true,
       "closed_at": "2022-12-21T01:58:02+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Inheritance list trailing comma",
+      "number": 3471,
+      "created_at": "2022-12-22T13:44:26+00:00",
+      "created_by": "wieczorek1990",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3471",
+      "html_url": "https://github.com/psf/black/issues/3471",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2022-12-21T15:12:42+00:00",
+    "last_updated": "2022-12-22T15:12:53+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
