@@ -46577,8 +46577,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3379",
       "html_url": "https://github.com/psf/black/issues/3379",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2022-12-31T18:56:50+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Bump mypy[c] from 0.971 to 0.991",
@@ -47982,7 +47982,7 @@
     }
   ],
   "record": {
-    "last_updated": "2022-12-31T15:10:50+00:00",
+    "last_updated": "2023-01-01T15:11:16+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
