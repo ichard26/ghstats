@@ -16989,8 +16989,8 @@
       "created_at": "2020-03-03T18:37:13+00:00",
       "created_by": "rollschild",
       "labels": [
-        "C: vim",
-        "T: bug"
+        "T: bug",
+        "C: vim"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1293",
       "html_url": "https://github.com/psf/black/issues/1293",
@@ -48013,7 +48013,7 @@
     }
   ],
   "record": {
-    "last_updated": "2023-01-03T15:13:07+00:00",
+    "last_updated": "2023-01-04T15:14:29+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
