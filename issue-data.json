@@ -20114,8 +20114,8 @@
       "created_at": "2020-06-28T15:48:51+00:00",
       "created_by": "ryanwalder",
       "labels": [
-        "C: parser",
-        "T: enhancement"
+        "T: enhancement",
+        "C: parser"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/1524",
       "html_url": "https://github.com/psf/black/issues/1524",
@@ -48010,10 +48010,24 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Request for a mechanism to accept more target files than the platform line length will allow",
+      "number": 3480,
+      "created_at": "2023-01-04T19:26:00+00:00",
+      "created_by": "mkillianey",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3480",
+      "html_url": "https://github.com/psf/black/issues/3480",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-04T15:14:29+00:00",
+    "last_updated": "2023-01-05T15:13:49+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
