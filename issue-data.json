@@ -12407,14 +12407,14 @@
       "created_at": "2019-07-30T18:35:52+00:00",
       "created_by": "yurkobb",
       "labels": [
-        "F: linebreak",
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/951",
       "html_url": "https://github.com/psf/black/issues/951",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-06T19:45:27+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Black handles mixed tabs/spaces files badly.",
@@ -48042,7 +48042,7 @@
     }
   ],
   "record": {
-    "last_updated": "2023-01-06T15:12:58+00:00",
+    "last_updated": "2023-01-07T15:11:05+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
