@@ -48101,10 +48101,66 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Wrap multiple context managers in parens when targeting Python 3.10+",
+      "number": 3486,
+      "created_at": "2023-01-09T18:02:04+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: design",
+        "S: accepted"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3486",
+      "html_url": "https://github.com/psf/black/issues/3486",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Cannot format code with local variable name `match` in same line as match pattern matching expression",
+      "number": 3487,
+      "created_at": "2023-01-09T22:51:54+00:00",
+      "created_by": "CelestialGuru",
+      "labels": [
+        "T: bug",
+        "C: parser"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3487",
+      "html_url": "https://github.com/psf/black/issues/3487",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Documentation: clarify the state of multiple context managers.",
+      "number": 3488,
+      "created_at": "2023-01-09T23:21:59+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3488",
+      "html_url": "https://github.com/psf/black/pull/3488",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Wrap multiple context managers in parentheses when targeting Python 3.9+",
+      "number": 3489,
+      "created_at": "2023-01-10T06:15:01+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3489",
+      "html_url": "https://github.com/psf/black/pull/3489",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-09T15:18:17+00:00",
+    "last_updated": "2023-01-10T15:18:20+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
