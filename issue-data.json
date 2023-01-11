@@ -48157,10 +48157,52 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "One space between class definition and the first inner method",
+      "number": 3490,
+      "created_at": "2023-01-10T23:56:17+00:00",
+      "created_by": "Danipulok",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3490",
+      "html_url": "https://github.com/psf/black/issues/3490",
+      "is_pr": false,
+      "closed_at": "2023-01-11T01:30:12+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Cannot find full list of options in the documentation",
+      "number": 3491,
+      "created_at": "2023-01-11T11:22:27+00:00",
+      "created_by": "nicoddemus",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3491",
+      "html_url": "https://github.com/psf/black/issues/3491",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Remove misleading phrase in Usage and Configuration",
+      "number": 3492,
+      "created_at": "2023-01-11T11:48:19+00:00",
+      "created_by": "nicoddemus",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3492",
+      "html_url": "https://github.com/psf/black/pull/3492",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-10T15:18:20+00:00",
+    "last_updated": "2023-01-11T15:24:26+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
