@@ -48239,12 +48239,26 @@
       "url": "https://api.github.com/repos/psf/black/issues/3495",
       "html_url": "https://github.com/psf/black/issues/3495",
       "is_pr": false,
+      "closed_at": "2023-01-12T16:31:06+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Internal error on type hinted comment with trailing space",
+      "number": 3496,
+      "created_at": "2023-01-12T22:25:13+00:00",
+      "created_by": "leaver2000",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3496",
+      "html_url": "https://github.com/psf/black/issues/3496",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-12T15:19:49+00:00",
+    "last_updated": "2023-01-13T15:13:37+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
