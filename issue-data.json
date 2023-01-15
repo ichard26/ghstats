@@ -46381,7 +46381,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3365",
       "html_url": "https://github.com/psf/black/pull/3365",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-14T18:32:01+00:00",
       "closed_by": null
     },
     {
@@ -48144,7 +48144,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3488",
       "html_url": "https://github.com/psf/black/pull/3488",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-14T17:51:59+00:00",
       "closed_by": null
     },
     {
@@ -48207,7 +48207,8 @@
       "created_at": "2023-01-11T18:48:42+00:00",
       "created_by": "yilei",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: docstrings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3493",
       "html_url": "https://github.com/psf/black/issues/3493",
@@ -48274,10 +48275,24 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Black fails to satisfy  the constraint of number of characters per line",
+      "number": 3498,
+      "created_at": "2023-01-15T11:20:03+00:00",
+      "created_by": "AdeliManesh",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3498",
+      "html_url": "https://github.com/psf/black/issues/3498",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-14T15:11:01+00:00",
+    "last_updated": "2023-01-15T15:11:19+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
