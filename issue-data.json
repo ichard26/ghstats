@@ -48100,7 +48100,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3485",
       "html_url": "https://github.com/psf/black/pull/3485",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-16T06:01:19+00:00",
       "closed_by": null
     },
     {
@@ -48277,22 +48277,40 @@
       "closed_by": null
     },
     {
-      "title": "Black fails to satisfy  the constraint of number of characters per line",
+      "title": "Black doesn't split too long for-in in list comprehension",
       "number": 3498,
       "created_at": "2023-01-15T11:20:03+00:00",
       "created_by": "AdeliManesh",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: linetoolong",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3498",
       "html_url": "https://github.com/psf/black/issues/3498",
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Bump sphinx from 5.3.0 to 6.1.3 in /docs",
+      "number": 3499,
+      "created_at": "2023-01-16T06:01:14+00:00",
+      "created_by": "dependabot[bot]",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3499",
+      "html_url": "https://github.com/psf/black/pull/3499",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-15T15:11:19+00:00",
+    "last_updated": "2023-01-16T15:12:48+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
