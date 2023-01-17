@@ -46743,8 +46743,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3391",
       "html_url": "https://github.com/psf/black/issues/3391",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-16T20:29:52+00:00",
+      "closed_by": "KOLANICH"
     },
     {
       "title": "Adding pyproject.toml configuration output to verbose logging",
@@ -46791,7 +46791,9 @@
       "created_at": "2022-11-27T14:00:12+00:00",
       "created_by": "calliecameron",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "C: configuration",
+        "C: file collection"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3395",
       "html_url": "https://github.com/psf/black/issues/3395",
@@ -47226,8 +47228,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3425",
       "html_url": "https://github.com/psf/black/issues/3425",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-16T20:26:04+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Fix syntax error in match test",
@@ -47256,8 +47258,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3427",
       "html_url": "https://github.com/psf/black/issues/3427",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-16T20:26:04+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Crash with comment inside implicitly concatenated string (and --line-length 4)",
@@ -47596,7 +47598,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3451",
       "html_url": "https://github.com/psf/black/pull/3451",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-16T20:26:03+00:00",
       "closed_by": null
     },
     {
@@ -48307,10 +48309,22 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Use dashes for pycodestyle max line length config",
+      "number": 3500,
+      "created_at": "2023-01-17T11:16:53+00:00",
+      "created_by": "meliache",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3500",
+      "html_url": "https://github.com/psf/black/pull/3500",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-16T15:12:48+00:00",
+    "last_updated": "2023-01-17T15:12:20+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
