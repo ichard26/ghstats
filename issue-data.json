@@ -47908,8 +47908,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3472",
       "html_url": "https://github.com/psf/black/issues/3472",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-18T06:25:07+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Fix crash with walrus + await + with",
@@ -47920,7 +47920,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3473",
       "html_url": "https://github.com/psf/black/pull/3473",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-18T06:25:06+00:00",
       "closed_by": null
     },
     {
@@ -48315,16 +48315,74 @@
       "number": 3500,
       "created_at": "2023-01-17T11:16:53+00:00",
       "created_by": "meliache",
-      "labels": [],
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3500",
       "html_url": "https://github.com/psf/black/pull/3500",
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Please make emojis optional",
+      "number": 3501,
+      "created_at": "2023-01-17T16:03:03+00:00",
+      "created_by": "fredrgrs",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3501",
+      "html_url": "https://github.com/psf/black/issues/3501",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add --emoji/--no-emoji option",
+      "number": 3502,
+      "created_at": "2023-01-17T17:48:01+00:00",
+      "created_by": "Secrus",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3502",
+      "html_url": "https://github.com/psf/black/pull/3502",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Add flake8-bugbear B907 to ignore list",
+      "number": 3503,
+      "created_at": "2023-01-18T00:45:10+00:00",
+      "created_by": "Secrus",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3503",
+      "html_url": "https://github.com/psf/black/pull/3503",
+      "is_pr": true,
+      "closed_at": "2023-01-18T02:01:03+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Enforce leading vs trailing spaces in multiline strings",
+      "number": 3504,
+      "created_at": "2023-01-18T10:26:36+00:00",
+      "created_by": "jakkdl",
+      "labels": [
+        "T: design",
+        "F: strings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3504",
+      "html_url": "https://github.com/psf/black/issues/3504",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-17T15:12:20+00:00",
+    "last_updated": "2023-01-18T15:13:00+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
