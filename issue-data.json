@@ -46651,8 +46651,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3384",
       "html_url": "https://github.com/psf/black/issues/3384",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-19T02:38:29+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Fix false symlink detection claims in verbose output",
@@ -46663,7 +46663,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3385",
       "html_url": "https://github.com/psf/black/pull/3385",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-19T02:38:28+00:00",
       "closed_by": null
     },
     {
@@ -46738,7 +46738,9 @@
       "created_at": "2022-11-22T13:50:02+00:00",
       "created_by": "KOLANICH",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "R: rejected",
+        "C: configuration"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3391",
       "html_url": "https://github.com/psf/black/issues/3391",
@@ -46848,7 +46850,9 @@
       "created_at": "2022-11-30T17:02:14+00:00",
       "created_by": "Avasam",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: comments",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3399",
       "html_url": "https://github.com/psf/black/issues/3399",
@@ -48081,6 +48085,7 @@
       "created_by": "tdegeus",
       "labels": [
         "T: design",
+        "S: accepted",
         "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3484",
@@ -48379,10 +48384,26 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "\"unindent does not match any outer indentation level\" for valid Python syntax",
+      "number": 3505,
+      "created_at": "2023-01-19T02:35:18+00:00",
+      "created_by": "goretkin",
+      "labels": [
+        "T: bug",
+        "C: invalid code",
+        "F: fmtoff"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3505",
+      "html_url": "https://github.com/psf/black/issues/3505",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-18T15:13:00+00:00",
+    "last_updated": "2023-01-19T15:13:41+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
