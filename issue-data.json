@@ -48122,8 +48122,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3486",
       "html_url": "https://github.com/psf/black/issues/3486",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-20T12:14:07+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Cannot format code with local variable name `match` in same line as match pattern matching expression",
@@ -48163,7 +48163,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3489",
       "html_url": "https://github.com/psf/black/pull/3489",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-20T12:14:06+00:00",
       "closed_by": null
     },
     {
@@ -48341,8 +48341,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3501",
       "html_url": "https://github.com/psf/black/issues/3501",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-20T12:05:33+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Add --emoji/--no-emoji option",
@@ -48353,7 +48353,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3502",
       "html_url": "https://github.com/psf/black/pull/3502",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-20T12:04:38+00:00",
       "closed_by": null
     },
     {
@@ -48400,10 +48400,38 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "--preview flag produces INTERNAL ERROR: f-string expression part cannot include a backslash",
+      "number": 3506,
+      "created_at": "2023-01-19T19:09:40+00:00",
+      "created_by": "oleksandr-terentiev",
+      "labels": [
+        "C: preview style"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3506",
+      "html_url": "https://github.com/psf/black/issues/3506",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Autoload vim script uses non-specific path to python binary",
+      "number": 3507,
+      "created_at": "2023-01-20T14:37:13+00:00",
+      "created_by": "kephircheek",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3507",
+      "html_url": "https://github.com/psf/black/issues/3507",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-19T15:13:41+00:00",
+    "last_updated": "2023-01-20T15:12:49+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
