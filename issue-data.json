@@ -48327,7 +48327,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3500",
       "html_url": "https://github.com/psf/black/pull/3500",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-21T11:25:41+00:00",
       "closed_by": null
     },
     {
@@ -48428,10 +48428,90 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Specify python binary path (#3507)",
+      "number": 3508,
+      "created_at": "2023-01-20T15:58:51+00:00",
+      "created_by": "kephircheek",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3508",
+      "html_url": "https://github.com/psf/black/pull/3508",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix an invalid quote escaping bug in f-string expressions.",
+      "number": 3509,
+      "created_at": "2023-01-20T19:35:13+00:00",
+      "created_by": "yilei",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3509",
+      "html_url": "https://github.com/psf/black/pull/3509",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Formatting of long expressions in arguments",
+      "number": 3510,
+      "created_at": "2023-01-21T00:19:38+00:00",
+      "created_by": "oskarkk",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3510",
+      "html_url": "https://github.com/psf/black/issues/3510",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Reenable macOS mypyc wheel build",
+      "number": 3511,
+      "created_at": "2023-01-21T03:37:45+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "C: performance",
+        "C: packaging",
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3511",
+      "html_url": "https://github.com/psf/black/pull/3511",
+      "is_pr": true,
+      "closed_at": "2023-01-21T07:50:00+00:00",
+      "closed_by": null
+    },
+    {
+      "title": " Please be careful I love you all so I need you safe",
+      "number": 3512,
+      "created_at": "2023-01-21T11:42:05+00:00",
+      "created_by": "Olumeni1",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3512",
+      "html_url": "https://github.com/psf/black/issues/3512",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Use dashes for pycodestyle max line length config",
+      "number": 3513,
+      "created_at": "2023-01-21T11:48:58+00:00",
+      "created_by": "meliache",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3513",
+      "html_url": "https://github.com/psf/black/pull/3513",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-20T15:12:49+00:00",
+    "last_updated": "2023-01-21T15:11:17+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
