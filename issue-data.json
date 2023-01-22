@@ -27796,8 +27796,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2067",
       "html_url": "https://github.com/psf/black/issues/2067",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-22T13:21:11+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Internal error due to second pass mismatch  ",
@@ -38689,8 +38689,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2828",
       "html_url": "https://github.com/psf/black/issues/2828",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-22T13:21:12+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "breaking change in 22.1.0 `TypeError: set object expected; got list`",
@@ -39979,7 +39979,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/2916",
       "html_url": "https://github.com/psf/black/pull/2916",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-22T13:21:10+00:00",
       "closed_by": null
     },
     {
@@ -48412,8 +48412,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3506",
       "html_url": "https://github.com/psf/black/issues/3506",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-22T13:27:13+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Autoload vim script uses non-specific path to python binary",
@@ -48450,7 +48450,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3509",
       "html_url": "https://github.com/psf/black/pull/3509",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-22T13:27:12+00:00",
       "closed_by": null
     },
     {
@@ -48494,24 +48494,67 @@
       "url": "https://api.github.com/repos/psf/black/issues/3512",
       "html_url": "https://github.com/psf/black/issues/3512",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-21T16:39:47+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Use dashes for pycodestyle max line length config",
       "number": 3513,
       "created_at": "2023-01-21T11:48:58+00:00",
       "created_by": "meliache",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3513",
       "html_url": "https://github.com/psf/black/pull/3513",
       "is_pr": true,
+      "closed_at": "2023-01-22T05:20:54+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Reproducible `black --help` output for `--python-cell-magics` option",
+      "number": 3515,
+      "created_at": "2023-01-22T00:59:13+00:00",
+      "created_by": "echoix",
+      "labels": [
+        "T: bug",
+        "C: configuration"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3515",
+      "html_url": "https://github.com/psf/black/issues/3515",
+      "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Fix `black --help` output for `--python-cell-magics` option to be reproducible",
+      "number": 3516,
+      "created_at": "2023-01-22T02:44:01+00:00",
+      "created_by": "echoix",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/pulls/3516",
+      "html_url": "https://github.com/psf/black/pull/3516",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Documentary",
+      "number": 3517,
+      "created_at": "2023-01-22T08:27:17+00:00",
+      "created_by": "Red530",
+      "labels": [
+        "T: documentation"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3517",
+      "html_url": "https://github.com/psf/black/issues/3517",
+      "is_pr": false,
+      "closed_at": "2023-01-22T08:54:35+00:00",
+      "closed_by": "felix-hilden"
     }
   ],
   "record": {
-    "last_updated": "2023-01-21T15:11:17+00:00",
+    "last_updated": "2023-01-22T15:11:25+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
