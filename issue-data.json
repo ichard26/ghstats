@@ -48523,8 +48523,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3515",
       "html_url": "https://github.com/psf/black/issues/3515",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-24T13:43:26+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Fix `black --help` output for `--python-cell-magics` option to be reproducible",
@@ -48535,7 +48535,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3516",
       "html_url": "https://github.com/psf/black/pull/3516",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-24T13:43:24+00:00",
       "closed_by": null
     },
     {
@@ -48580,10 +48580,24 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Update document now that paren wrapping CMs on Python 3.9+ is implemented",
+      "number": 3520,
+      "created_at": "2023-01-24T03:05:16+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3520",
+      "html_url": "https://github.com/psf/black/pull/3520",
+      "is_pr": true,
+      "closed_at": "2023-01-24T05:38:31+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-23T15:13:34+00:00",
+    "last_updated": "2023-01-24T15:12:24+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
