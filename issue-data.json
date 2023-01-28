@@ -48691,10 +48691,36 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Update Python version in the_basics.md",
+      "number": 3528,
+      "created_at": "2023-01-27T20:49:41+00:00",
+      "created_by": "vEnhance",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3528",
+      "html_url": "https://github.com/psf/black/pull/3528",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Properly (?) splitted line is merged into a single line (which is too long)",
+      "number": 3529,
+      "created_at": "2023-01-27T23:14:03+00:00",
+      "created_by": "SylvainDe",
+      "labels": [],
+      "url": "https://api.github.com/repos/psf/black/issues/3529",
+      "html_url": "https://github.com/psf/black/issues/3529",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-27T15:12:30+00:00",
+    "last_updated": "2023-01-28T15:11:23+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
