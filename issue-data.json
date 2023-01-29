@@ -47329,7 +47329,8 @@
       "created_at": "2022-12-12T05:53:20+00:00",
       "created_by": "Starwort",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3432",
       "html_url": "https://github.com/psf/black/issues/3432",
@@ -47401,11 +47402,14 @@
       "closed_by": "JelleZijlstra"
     },
     {
-      "title": "Whitespace before functions is being removed",
+      "title": "Whitespace before blocks is removed",
       "number": 3437,
       "created_at": "2022-12-13T14:49:16+00:00",
       "created_by": "EwanBrambleBell",
-      "labels": [],
+      "labels": [
+        "T: design",
+        "F: empty lines"
+      ],
       "url": "https://api.github.com/repos/psf/black/issues/3437",
       "html_url": "https://github.com/psf/black/issues/3437",
       "is_pr": false,
@@ -48670,7 +48674,9 @@
       "created_at": "2023-01-26T13:07:49+00:00",
       "created_by": "rjalexa",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "C: integrations",
+        "S: up for grabs"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3526",
       "html_url": "https://github.com/psf/black/issues/3526",
@@ -48684,7 +48690,8 @@
       "created_at": "2023-01-27T10:20:05+00:00",
       "created_by": "itoijala-huld",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "C: file collection"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3527",
       "html_url": "https://github.com/psf/black/issues/3527",
@@ -48703,7 +48710,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3528",
       "html_url": "https://github.com/psf/black/pull/3528",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-29T00:12:12+00:00",
       "closed_by": null
     },
     {
@@ -48717,10 +48724,24 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Enforced Spacing Around the Binary Operators",
+      "number": 3530,
+      "created_at": "2023-01-29T11:11:02+00:00",
+      "created_by": "gokberkgunes",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3530",
+      "html_url": "https://github.com/psf/black/issues/3530",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-01-28T15:11:23+00:00",
+    "last_updated": "2023-01-29T15:11:08+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
