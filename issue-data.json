@@ -31022,12 +31022,12 @@
       "created_at": "2021-05-31T14:39:35+00:00",
       "created_by": "cooperlees",
       "labels": [
-        "C: cleanup",
+        "T: enhancement",
+        "help wanted",
+        "C: packaging",
         "C: dependencies",
-        "C: installation / packaging",
-        "C: maintenance",
-        "S: accepted",
-        "T: enhancement"
+        "C: cleanup",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2291",
       "html_url": "https://github.com/psf/black/issues/2291",
@@ -31565,8 +31565,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2328",
       "html_url": "https://github.com/psf/black/issues/2328",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-01T04:59:10+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "`# fmt: off` fails to stop formatting on a comment block",
@@ -38943,8 +38943,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/2845",
       "html_url": "https://github.com/psf/black/issues/2845",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-01T04:38:24+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Release 22.1.0: segfaults and runtime type violations due to mypyc",
@@ -39262,13 +39262,13 @@
       "labels": [
         "T: bug",
         "help wanted",
-        "C: installation / packaging"
+        "C: packaging"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2867",
       "html_url": "https://github.com/psf/black/issues/2867",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-01T04:39:48+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "INTERNAL ERROR: Black produced code that is not equivalent to the source",
@@ -40332,7 +40332,8 @@
       "created_by": "sterliakov",
       "labels": [
         "T: design",
-        "F: parentheses"
+        "F: parentheses",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2943",
       "html_url": "https://github.com/psf/black/issues/2943",
@@ -41115,6 +41116,8 @@
       "created_at": "2022-04-07T01:52:53+00:00",
       "created_by": "jsma",
       "labels": [
+        "help wanted",
+        "good first issue",
         "T: documentation"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2999",
@@ -42838,8 +42841,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3124",
       "html_url": "https://github.com/psf/black/issues/3124",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-01T02:00:19+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Replace link to Requests documentation",
@@ -44256,7 +44259,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3219",
       "html_url": "https://github.com/psf/black/pull/3219",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-02-01T02:00:17+00:00",
       "closed_by": null
     },
     {
@@ -45031,8 +45034,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3271",
       "html_url": "https://github.com/psf/black/issues/3271",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-01T04:52:22+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Fix mypyc build errors on newer manylinux2014_x86_64 images",
@@ -45631,8 +45634,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3312",
       "html_url": "https://github.com/psf/black/issues/3312",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-01T04:25:01+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Remove redundant 3.6 code and bump mypy's python_version to 3.7",
@@ -45689,8 +45692,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3316",
       "html_url": "https://github.com/psf/black/issues/3316",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-01T04:50:52+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Documentation around skipping trailing comma check",
@@ -46975,8 +46978,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3407",
       "html_url": "https://github.com/psf/black/issues/3407",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-01-31T23:39:58+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Preview style removes comment in with block",
@@ -47132,7 +47135,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3418",
       "html_url": "https://github.com/psf/black/pull/3418",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-01-31T23:39:57+00:00",
       "closed_by": null
     },
     {
@@ -48058,6 +48061,7 @@
       "created_by": "ZeroIntensity",
       "labels": [
         "T: bug",
+        "help wanted",
         "C: crash"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3482",
@@ -48807,10 +48811,66 @@
       "is_pr": false,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Prepare release 23.1.0",
+      "number": 3536,
+      "created_at": "2023-02-01T02:17:32+00:00",
+      "created_by": "JelleZijlstra",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3536",
+      "html_url": "https://github.com/psf/black/pull/3536",
+      "is_pr": true,
+      "closed_at": "2023-02-01T02:47:11+00:00",
+      "closed_by": null
+    },
+    {
+      "title": "Black is not honoring fmt: off for comment changes",
+      "number": 3537,
+      "created_at": "2023-02-01T09:26:45+00:00",
+      "created_by": "nijel",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3537",
+      "html_url": "https://github.com/psf/black/issues/3537",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "github actions black run suddenly failing",
+      "number": 3538,
+      "created_at": "2023-02-01T10:54:48+00:00",
+      "created_by": "ThomasWaldmann",
+      "labels": [
+        "T: bug"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3538",
+      "html_url": "https://github.com/psf/black/issues/3538",
+      "is_pr": false,
+      "closed_at": "2023-02-01T13:55:14+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Style editions should be configurable",
+      "number": 3539,
+      "created_at": "2023-02-01T13:18:51+00:00",
+      "created_by": "Rapptz",
+      "labels": [
+        "T: enhancement"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3539",
+      "html_url": "https://github.com/psf/black/issues/3539",
+      "is_pr": false,
+      "closed_at": "2023-02-01T13:53:13+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
-    "last_updated": "2023-01-31T15:12:36+00:00",
+    "last_updated": "2023-02-01T15:12:41+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
