@@ -8658,8 +8658,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/664",
       "html_url": "https://github.com/psf/black/issues/664",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-01T22:31:10+00:00",
+      "closed_by": "ichard26"
     },
     {
       "title": "Additional comma breaks JSON format rules",
@@ -37453,7 +37453,7 @@
       "created_by": "felix-hilden",
       "labels": [
         "T: design",
-        "F: strings / docstrings"
+        "F: strings"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/2741",
       "html_url": "https://github.com/psf/black/issues/2741",
@@ -48087,13 +48087,15 @@
       "closed_by": "kamarton"
     },
     {
-      "title": "grouped `with foo(...) as file`",
+      "title": "Break long with statements using backslashes if parentheses aren't usable",
       "number": 3484,
       "created_at": "2023-01-08T10:41:50+00:00",
       "created_by": "tdegeus",
       "labels": [
+        "help wanted",
         "T: design",
         "S: accepted",
+        "F: linetoolong",
         "F: linebreak"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3484",
@@ -48860,17 +48862,48 @@
       "created_at": "2023-02-01T13:18:51+00:00",
       "created_by": "Rapptz",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "T: design"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3539",
       "html_url": "https://github.com/psf/black/issues/3539",
       "is_pr": false,
       "closed_at": "2023-02-01T13:53:13+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "title": "Markdown formatting of Docstrings broken by removal of Trailing-Whitespace",
+      "number": 3540,
+      "created_at": "2023-02-01T17:38:22+00:00",
+      "created_by": "ethanmsl",
+      "labels": [
+        "T: bug",
+        "R: duplicate",
+        "F: docstrings"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3540",
+      "html_url": "https://github.com/psf/black/issues/3540",
+      "is_pr": false,
+      "closed_at": "2023-02-02T08:17:39+00:00",
+      "closed_by": "felix-hilden"
+    },
+    {
+      "title": "Document the future style changes introduced in #3489 and #3440.",
+      "number": 3541,
+      "created_at": "2023-02-02T00:17:38+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3541",
+      "html_url": "https://github.com/psf/black/pull/3541",
+      "is_pr": true,
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-02-01T15:12:41+00:00",
+    "last_updated": "2023-02-02T15:12:35+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
