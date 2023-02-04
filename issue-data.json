@@ -48931,10 +48931,53 @@
       "is_pr": true,
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "title": "Does not install on alpine",
+      "number": 3544,
+      "created_at": "2023-02-03T22:33:27+00:00",
+      "created_by": "builder555",
+      "labels": [
+        "T: user support",
+        "C: packaging"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3544",
+      "html_url": "https://github.com/psf/black/issues/3544",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "A single conditional expression inside a list is unnecessarily parenthesized",
+      "number": 3545,
+      "created_at": "2023-02-04T00:48:33+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "T: design"
+      ],
+      "url": "https://api.github.com/repos/psf/black/issues/3545",
+      "html_url": "https://github.com/psf/black/issues/3545",
+      "is_pr": false,
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "title": "Fix this import, it's blib2to3.pgen2.driver, not blib2to3.driver.",
+      "number": 3546,
+      "created_at": "2023-02-04T05:11:59+00:00",
+      "created_by": "yilei",
+      "labels": [
+        "skip news"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3546",
+      "html_url": "https://github.com/psf/black/pull/3546",
+      "is_pr": true,
+      "closed_at": "2023-02-04T06:00:09+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-02-03T15:12:33+00:00",
+    "last_updated": "2023-02-04T15:11:08+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
