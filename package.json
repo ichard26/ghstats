@@ -4,8 +4,8 @@
   "description": "Graphs of issue and pull request data and more!",
   "main": "main.js",
   "scripts": {
-    "dev": "npx vite dev",
-    "build": "npx vite build"
+    "dev": "npx vite dev web",
+    "build": "npx vite build web"
   },
   "author": "Richard Si",
   "license": "MIT",

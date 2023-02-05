@@ -12,12 +12,13 @@ def refresh(session: nox.Session) -> None:
         base = Path.cwd()
 
     session.install("attrs", "click", "colorama", "requests")
-    session.run("python", "download.py", "update", str(base / "issue-data.json"))
+    session.run("python", "-m", "scripts.download", "update", str(base / "issue-data.json"))
 
     for name in ("issue-counts", "issue-closers", "issue-deltas", "pull-counts"):
         session.run(
             "python",
-            "generate_data.py",
+            "-m"
+            "scripts.generate_data",
             name,
             str(base / "issue-data.json"),
             "-o",

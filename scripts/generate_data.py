@@ -63,7 +63,7 @@ def cal_open_issues_over_time(days, issues):
         open_ = 0
         for i in issues:
             if i.created_at.date() <= day:
-                if i.closed_at is None:
+                if i.closed_at is none:
                     open_ += 1
                 elif i.closed_at.date() > day:
                     open_ += 1
