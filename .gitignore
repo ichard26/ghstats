@@ -15,8 +15,9 @@ env/
 # ignore components loaded via Bower
 /bower_components
 
-# ignore jekyll build directory
-/_site
+# ignore build directories
+/dist/
+/web/dist/
 
 # ignore OS generated files
 ehthumbs.db

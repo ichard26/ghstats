@@ -1,7 +1,7 @@
 {
   "name": "ghstats",
   "version": "1.0.0",
-  "description": "Graphs of issue and pull request data and more!",
+  "description": "Graphs of data pulled from the GitHub API.",
   "main": "main.js",
   "scripts": {
     "dev": "npx vite dev web",
@@ -9,7 +9,7 @@
   },
   "author": "Richard Si",
   "license": "MIT",
-  "repository": "https://github.com/ichard26/ghstats.github.io",
+  "repository": "https://github.com/ichard26/ghstats/",
   "devDependencies": {
     "vite": "^2.7.13"
   },

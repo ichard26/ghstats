@@ -1,0 +1,5 @@
+{
+    "username": "ichard26",
+    "base_path": "/ghstats/",
+    "repos": ["psf/black", "mypyc/mypyc"]
+}
