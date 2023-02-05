@@ -1,6 +1,5 @@
-import datetime
-import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable, Optional, Tuple
 
@@ -15,8 +14,6 @@ from .ghlib import Issue, IssueSet, Record, Repo
 
 DEFAULT_TIMEOUT = (3.1, 11.9)
 GITHUB_API = "https://api.github.com"
-USERNAME = "@ichard26"
-USER_AGENT = f"{USERNAME} using python-requests/{requests.__version__}"
 
 colorama.init(autoreset=True)
 
@@ -35,7 +32,7 @@ class HTTPAdapter(requests.adapters.HTTPAdapter):
 @attrs.define(slots=False)
 class Fetcher:
     url: str = attrs.field()
-    auth: Optional[Tuple[str, str]] = None
+    auth: Tuple[str, str] = attrs.field()
     timeout: Tuple[float, float] = DEFAULT_TIMEOUT
     debug: bool = False
 
@@ -48,7 +45,7 @@ class Fetcher:
         self.session = requests.Session()
         self.session.mount("http://", HTTPAdapter(timeout=self.timeout))
         self.session.mount("https://", HTTPAdapter(timeout=self.timeout))
-        self.session.headers["User-Agent"] = USER_AGENT
+        self.session.headers["User-Agent"] = "{self.auth[0]} using requests/{requests.__version__}"
         if self.auth is not None:
             self.session.auth = self.auth
         return self
@@ -57,19 +54,15 @@ class Fetcher:
         self.session.close()
 
     @staticmethod
-    def _extract_rate_limit(
-        resp: requests.Response,
-    ) -> Tuple[int, int, datetime.datetime]:
+    def _extract_rate_limit(resp: requests.Response) -> Tuple[int, int, datetime]:
         headers = resp.headers
         limit = int(headers["X-Ratelimit-Limit"])
         remaining = int(headers["X-Ratelimit-Remaining"])
         reset = int(headers["X-Ratelimit-Reset"])
-        reset_datetime = datetime.datetime.fromtimestamp(reset, tz=datetime.timezone.utc)
+        reset_datetime = datetime.fromtimestamp(reset, tz=timezone.utc)
         return (limit, remaining, reset_datetime)
 
-    def get(
-        self, path: str, check_status_code: bool = True, **kwargs: Any
-    ) -> requests.Response:
+    def get(self, path: str, check_status_code: bool = True, **kwargs: Any) -> requests.Response:
         if not (path.startswith("https://") or path.startswith("http://")):
             path = self.url + path
 
@@ -85,18 +78,18 @@ class Fetcher:
 
         return resp
 
-    def rate_limit(self) -> Tuple[int, int, datetime.datetime]:
+    def rate_limit(self) -> Tuple[int, int, datetime]:
         if not hasattr(self, "_rate_limit"):
             self.get("/rate_limit")
 
         return self._rate_limit
 
 
-def get_current_datetime() -> datetime.datetime:
-    return datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
+def get_current_datetime() -> datetime:
+    return datetime.now(timezone.utc).replace(microsecond=0)
 
 
-def print_rate_limit(headers: Tuple[int, int, datetime.datetime]) -> None:
+def print_rate_limit(headers: Tuple[int, int, datetime]) -> None:
     print(
         f"{headers[1]} API calls remain out of {headers[0]}."
         " Rate limit resets after"
@@ -105,7 +98,7 @@ def print_rate_limit(headers: Tuple[int, int, datetime.datetime]) -> None:
 
 
 def enumerate_issues(
-    repo: Repo, fetcher: Fetcher, last_updated: Optional[datetime.datetime] = None
+    repo: Repo, fetcher: Fetcher, last_updated: Optional[datetime] = None
 ) -> IssueSet:
     print("Enumerating how many to fetch ...", end="", flush=True)
     if last_updated is not None:
@@ -113,10 +106,7 @@ def enumerate_issues(
         since = f"&since={stringified}"
     else:
         since = ""
-    url = (
-        f"/repos/{repo.user}/{repo.name}/issues"
-        f"?per_page=100&state=all&direction=asc{since}"
-    )
+    url = f"/repos/{repo.user}/{repo.name}/issues?per_page=100&state=all&direction=asc{since}"
 
     issues = IssueSet()
     while True:
@@ -153,7 +143,8 @@ def fetch_issueset_data(
         print(
             "\rFetching issues and pull requests ..."
             f" {fetched}/{count} ({int(fetched / count * 100)}%)",
-            end="", flush=True
+            end="",
+            flush=True,
         )
     print()
 
@@ -163,138 +154,109 @@ def fetch_issueset_data(
 def repo_callback(ctx: click.Context, param: click.Parameter, value: str) -> Repo:
     if value.count("/") != 1:
         raise click.BadParameter(
-            "There should be exactly one backslash splitting the repo owner and name.",
+            "There should be only one backslash splitting the repo owner and name.",
             ctx=ctx,
             param=param,
         )
 
-    repo = tuple(value.split("/"))
-    return Repo(user=repo[0], name=repo[1])
+    return Repo.parse(value)
 
 
 @click.group()
+@click.option("--id", default="ichard26/ghstats", help="GitHub username (for User-Agent).")
 @click.option(
-    "-k",
     "--api-key",
     envvar="GITHUB_API_KEY",
     help="GitHub PAT to authenticate with the GitHub API.",
 )
+@click.option("--debug", is_flag=True, help="Print debug information.")
 @click.pass_context
-def main(ctx: click.Context, api_key: str) -> None:
+def main(ctx: click.Context, id: str, api_key: str, debug: bool) -> None:
     if not api_key:
         print(Fore.RED + "ERROR: GitHub API key or Personal Access Token unavailable.")
         ctx.exit(0)
 
-    ctx.obj = {
-        "api_key": api_key,
-        "t0": time.perf_counter()
-    }
+    t0 = time.perf_counter()
+
+    def _elapsed() -> float:
+        return time.perf_counter() - t0
+
+    fetcher = Fetcher(url=GITHUB_API, auth=(id, api_key), debug=debug)
+    ctx.obj = {"fetcher": fetcher, "elapsed": _elapsed, "current-dt": get_current_datetime()}
 
 
 @main.command(help="Fetch and save all issue data to a file.")
-@click.argument(
-    "output_path",
-    type=click.Path(
-        file_okay=True,
-        writable=True,
-        resolve_path=True,
-        path_type=Path
-    ),
-)
+@click.argument("output_path", type=click.Path(writable=True, path_type=Path))
 @click.option(
     "--repo",
     help="Repository to fetch issue data for. Format is {user}/{name}.",
     callback=repo_callback,
+    required=True,
 )
 @click.pass_context
 def fetch(ctx: click.Context, output_path: Path, repo: Repo) -> None:
-    api_key = ctx.obj["api_key"]
-    t0 = ctx.obj["t0"]
+    elapsed = ctx.obj["elapsed"]
 
-    last_updated = get_current_datetime()
-    with Fetcher(url=GITHUB_API, auth=(USERNAME, api_key)) as fetcher:
+    with ctx.obj["fetcher"] as fetcher:
         issues = enumerate_issues(repo, fetcher)
         issues = fetch_issueset_data(repo, issues, issues, fetcher)
 
-    record = Record(last_updated=last_updated, repo=repo)
+    record = Record(last_updated=ctx.obj["current-dt"], repo=repo)
     ghlib.save(issues, record, output_path)
 
     print()
     print_rate_limit(fetcher.rate_limit())
-    t1 = time.perf_counter()
-    print(f"Command took {round(t1 - t0, 3)} seconds to complete.")
-    ctx.exit(0)
+    print(f"Command took {elapsed():.3f} seconds to complete.")
 
 
 @main.command(help="Update files holding issue and pull request data.")
 @click.argument(
-    "data_files",
-    type=click.Path(
-        exists=True,
-        writable=True,
-        readable=True,
-        resolve_path=True,
-        path_type=Path
-    ),
+    "data-files",
+    type=click.Path(exists=True, writable=True, readable=True, path_type=Path),
     nargs=-1,
 )
-@click.option("-d", "--debug", is_flag=True, help="Print debug information.")
 @click.pass_context
-def update(ctx: click.Context, data_files: Iterable[Path], debug: bool) -> None:
-    t0 = ctx.obj["t0"]
-    api_key = ctx.obj["api_key"]
+def update(ctx: click.Context, data_files: Iterable[Path]) -> None:
+    elapsed = ctx.obj["elapsed"]
 
-    new_last_updated = get_current_datetime()
-    with Fetcher(url=GITHUB_API, auth=(USERNAME, api_key), debug=debug) as fetcher:
+    with ctx.obj["fetcher"] as fetcher:
         for df in data_files:
-            try:
-                pretty_path = df.relative_to(Path.cwd())
-            except Exception:
-                pretty_path = df
-            print(Style.BRIGHT + f"Update operation for {pretty_path!s} starting")
+            print(Style.BRIGHT + f"Update operation for {df!s} starting")
             print("Loading data file ... ", end="")
             issue_set, record = ghlib.load(df)
             original_issue_set = IssueSet(issue_set)
             print("done")
 
-            issues_to_update = enumerate_issues(
-                record.repo, fetcher, last_updated=record.last_updated
-            )
-            if not issues_to_update:
+            outdated = enumerate_issues(record.repo, fetcher, record.last_updated)
+            if not outdated:
                 print()
                 continue
 
-            updated_issues = fetch_issueset_data(
-                record.repo, issues_to_update, issue_set, fetcher
-            )
+            updated_issues = fetch_issueset_data(record.repo, outdated, issue_set, fetcher)
 
             print("Summary of changes:")
-            for i in issues_to_update:
+            for i in outdated:
                 kind = "pull request" if i.is_pr else "issue"
                 if i.number not in original_issue_set:
                     styling = Fore.GREEN
                     change = "NEW"
                 else:
-                    if not issue_set[i.number].closed and i.closed:
+                    if not original_issue_set[i].closed and i.closed:
                         styling = Fore.RED
                         change = "CLOSED"
                     else:
                         styling = Fore.YELLOW
                         change = "UPDATED"
-                print(
-                    styling + f"  {change}" + Style.RESET_ALL,
-                    f"- {kind} {int(i)} '{i.title}'",
-                )
+                print(styling + f"  {change}", end="")
+                print(f" - {kind} {int(i)} '{i.title}'")
 
-            new_record = attrs.evolve(record, last_updated=new_last_updated)
+            new_record = attrs.evolve(record, last_updated=ctx.obj["current-dt"])
             print("Saving updated data ... ", end="")
             ghlib.save(updated_issues, new_record, df)
             print("done\n")
 
     print_rate_limit(fetcher.rate_limit())
-    t1 = time.perf_counter()
-    print(f"Command took {t1 - t0:.3f} seconds to complete.")
-    ctx.exit(0)
+    print(f"Command took {elapsed():.3f} seconds to complete.")
 
 
 if __name__ == "__main__":
