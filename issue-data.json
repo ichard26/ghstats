@@ -46764,7 +46764,7 @@
       "closed_by": null
     },
     {
-      "title": "Adding trailing commas to dictionaries when comments are present",
+      "title": "Actually add trailing commas to collection literals even if there are terminating comments",
       "number": 3393,
       "created_at": "2022-11-22T18:03:48+00:00",
       "created_by": "mainj12",
@@ -48953,7 +48953,9 @@
       "created_at": "2023-02-04T00:48:33+00:00",
       "created_by": "yilei",
       "labels": [
-        "T: design"
+        "T: design",
+        "F: parentheses",
+        "S: accepted"
       ],
       "url": "https://api.github.com/repos/psf/black/issues/3545",
       "html_url": "https://github.com/psf/black/issues/3545",
@@ -48977,7 +48979,7 @@
     }
   ],
   "record": {
-    "last_updated": "2023-02-04T15:11:08+00:00",
+    "last_updated": "2023-02-05T03:20:10+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
