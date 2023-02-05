@@ -42077,8 +42077,8 @@
       "url": "https://api.github.com/repos/psf/black/issues/3072",
       "html_url": "https://github.com/psf/black/issues/3072",
       "is_pr": false,
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-05T03:35:45+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "title": "Black pre-commit and black command line disagree",
@@ -46772,7 +46772,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3393",
       "html_url": "https://github.com/psf/black/pull/3393",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-02-05T03:35:44+00:00",
       "closed_by": null
     },
     {
@@ -48900,7 +48900,7 @@
       "url": "https://api.github.com/repos/psf/black/pulls/3541",
       "html_url": "https://github.com/psf/black/pull/3541",
       "is_pr": true,
-      "closed_at": null,
+      "closed_at": "2023-02-05T03:30:47+00:00",
       "closed_by": null
     },
     {
@@ -48925,7 +48925,9 @@
       "number": 3543,
       "created_at": "2023-02-02T17:25:27+00:00",
       "created_by": "Jackenmen",
-      "labels": [],
+      "labels": [
+        "C: integrations"
+      ],
       "url": "https://api.github.com/repos/psf/black/pulls/3543",
       "html_url": "https://github.com/psf/black/pull/3543",
       "is_pr": true,
@@ -48976,10 +48978,25 @@
       "is_pr": true,
       "closed_at": "2023-02-04T06:00:09+00:00",
       "closed_by": null
+    },
+    {
+      "title": "Rename design label to style because it's clearer",
+      "number": 3547,
+      "created_at": "2023-02-05T03:27:57+00:00",
+      "created_by": "ichard26",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "url": "https://api.github.com/repos/psf/black/pulls/3547",
+      "html_url": "https://github.com/psf/black/pull/3547",
+      "is_pr": true,
+      "closed_at": "2023-02-05T03:51:46+00:00",
+      "closed_by": null
     }
   ],
   "record": {
-    "last_updated": "2023-02-05T03:20:10+00:00",
+    "last_updated": "2023-02-05T04:02:51+00:00",
     "repo": {
       "user": "psf",
       "name": "black"
