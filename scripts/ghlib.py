@@ -1,29 +1,20 @@
 from __future__ import annotations
 
-import datetime
 import json
+from datetime import datetime
 from functools import partial
 from operator import attrgetter
 from pathlib import Path
-from typing import (
-    Any,
-    Dict,
-    Iterator,
-    List,
-    Mapping,
-    Optional,
-    Sequence,
-    Tuple,
-    Union,
-)
+from typing import Any, Collection, Dict, Iterable, Iterator, List, Optional, Tuple, Union
 
 import attrs
 
+JSON = Dict[str, Any]
+
 
 def serialize(inst: type, field: attrs.Attribute, value: object) -> object:
-    if isinstance(value, datetime.datetime):
+    if isinstance(value, datetime):
         return value.isoformat()
-
     if isinstance(value, IssueSet):
         return list(sorted(value._issues.values(), key=attrgetter("number")))
 
@@ -33,11 +24,8 @@ def serialize(inst: type, field: attrs.Attribute, value: object) -> object:
 asdict = partial(attrs.asdict, value_serializer=serialize)
 
 
-def convert_iso8601_string(string: str) -> Optional[datetime.datetime]:
-    if string:
-        return datetime.datetime.strptime(string, "%Y-%m-%dT%H:%M:%S%z")
-    else:
-        return None
+def convert_iso8601_string(string: Optional[str]) -> Optional[datetime]:
+    return datetime.strptime(string, "%Y-%m-%dT%H:%M:%S%z") if string else None
 
 
 @attrs.define
@@ -46,19 +34,17 @@ class Issue:
 
     title: str
     number: int
-    created_at: datetime.datetime = attrs.field(converter=convert_iso8601_string)
+    created_at: datetime = attrs.field(converter=convert_iso8601_string)
     created_by: str
     labels: List[str]
     url: str
     html_url: str
     is_pr: bool
-    closed_at: Optional[datetime.datetime] = attrs.field(
-        default=None, converter=convert_iso8601_string
-    )
+    closed_at: Optional[datetime] = attrs.field(default=None, converter=convert_iso8601_string)
     closed_by: Optional[str] = None
 
     def __init__(self, **kwargs: Any) -> None:
-        api_format = "login" in kwargs or not "created_by" in kwargs
+        api_format = "login" in kwargs or "created_by" not in kwargs
         if api_format:
             created_by = kwargs.pop("user")["login"]
             closed_by = None
@@ -73,11 +59,7 @@ class Issue:
                 if attribute.name in kwargs
             }
             self.__attrs_init__(
-                **filtered,
-                created_by=created_by,
-                closed_by=closed_by,
-                is_pr=is_pr,
-                labels=labels,
+                **filtered, created_by=created_by, closed_by=closed_by, is_pr=is_pr, labels=labels
             )
         else:
             self.__attrs_init__(**kwargs)
@@ -91,70 +73,54 @@ class Issue:
 
 
 @attrs.define
-class IssueSet(Sequence[Issue]):
+class IssueSet(Collection[Issue]):
     _issues: Dict[int, Issue]
 
-    def __init__(
-        self, issues: Optional[Union[Sequence[Issue], "IssueSet"]] = None
-    ) -> None:
-        if isinstance(issues, Sequence):
-            issues = {i.number: i for i in issues}
-        elif isinstance(issues, self.__class__):
-            issues = issues._issues.copy()
+    def __init__(self, issues: Union[Iterable[Issue], "IssueSet"] = ()) -> None:
+        if isinstance(issues, self.__class__):
+            self._issues = issues._issues.copy()
+        else:
+            self._issues = {i.number: i for i in issues}
 
-        assert isinstance(issues, dict) or issues is None 
-        self._issues = issues or {}
+    def add(self, i: Issue) -> None:
+        self._issues[i.number] = i
 
-    def add(self, issue: Union[Issue, dict]) -> None:
-        issue = issue if isinstance(issue, Issue) else Issue(**issue)
-        self._issues[issue.number] = issue
-
-    def extend(
-        self, issues: Union["IssueSet", Sequence[Issue], Mapping[int, Any]]
-    ) -> None:
-        issues_as_dict: Mapping[int, Issue]
+    def extend(self, issues: Union["IssueSet", Iterable[Issue]]) -> None:
         if isinstance(issues, IssueSet):
             issues_as_dict = issues._issues
-        elif isinstance(issues, Sequence):
-            issues_as_dict = IssueSet.from_json(issues)._issues
-        else:
-            issues_as_dict = IssueSet.from_json(list(issues.values()))._issues
+        elif isinstance(issues, Iterable):
+            issues_as_dict = IssueSet(issues)._issues
 
         self._issues.update(issues_as_dict)
 
     def oldest(self) -> Issue:
-        lowest = min(i for i in self._issues.keys())
-        return self._issues[lowest]
+        return self._issues[min(self._issues)]
 
     def newest(self) -> Issue:
-        newest = max(i for i in self._issues.keys())
-        return self._issues[newest]
+        return self._issues[max(self._issues)]
 
     def __len__(self) -> int:
-        return len(self._issues.keys())
+        return len(self._issues)
 
     def __iter__(self) -> Iterator[Issue]:
         return iter(self._issues.values())
 
     def __contains__(self, item: object) -> bool:
         if isinstance(item, int):
-            return item in self._issues.keys()
+            return item in self._issues
+        if isinstance(item, Issue):
+            return item.number in self._issues
 
-        if not isinstance(item, Issue) or item.number not in self._issues.keys():
-            return False
-
-        return True
+        return False
 
     def __getitem__(self, issue_number: int) -> Issue:
         if not isinstance(issue_number, int):
             raise TypeError("Only integers are supported as keys for item lookup.")
 
         try:
-            issue = self._issues[issue_number]
+            return self._issues[issue_number]
         except KeyError:
             raise KeyError(f"Issue {issue_number} doesn't exist in the set") from None
-
-        return issue
 
     def __setitem__(self, issue_number: int, issue_obj: Issue) -> None:
         if not isinstance(issue_number, int):
@@ -174,19 +140,13 @@ class IssueSet(Sequence[Issue]):
             raise KeyError(f"Cannot delete non-existent issue {issue_number}")
 
     @classmethod
-    def from_json(
-        cls, issues: Union[Sequence[Issue], Sequence[Dict[str, Any]]]
-    ) -> "IssueSet":
-        if not isinstance(issues, Sequence):
-            raise TypeError("Issue set data must be a sequence.")
-
-        parsed_issues = {}
+    def from_json(cls, issues: Union[Iterable[Issue], Iterable[JSON]]) -> "IssueSet":
+        parsed_issues = []
         for i in issues:
             if isinstance(i, Issue):
-                parsed_issues[i.number] = i
+                parsed_issues.append(i)
             elif isinstance(i, dict):
-                parsed_issue = Issue(**i)
-                parsed_issues[parsed_issue.number] = parsed_issue
+                parsed_issues.append(Issue(**i))
             else:
                 raise TypeError("Issue data must be an Issue object or a dictionary.")
 
@@ -204,16 +164,8 @@ class Repo:
 
 @attrs.define
 class Record:
-    last_updated: datetime.datetime
+    last_updated: datetime
     repo: Repo
-
-
-def _parse_record_json(contents: Dict) -> Record:
-    last_updated = datetime.datetime.strptime(
-        contents["last_updated"], "%Y-%m-%dT%H:%M:%S%z"
-    )
-    repo = Repo(**contents["repo"])
-    return Record(last_updated=last_updated, repo=repo)
 
 
 def save(issues: IssueSet, record: Record, output_path: Path) -> None:
@@ -226,4 +178,10 @@ def save(issues: IssueSet, record: Record, output_path: Path) -> None:
 
 def load(data_path: Path) -> Tuple[IssueSet, Record]:
     data = json.loads(data_path.read_text("utf-8"))
-    return IssueSet.from_json(data["issues"]), _parse_record_json(data["record"])
+
+    last_updated = convert_iso8601_string(data["record"]["last_updated"])
+    assert last_updated is not None
+    repo = Repo(**data["record"]["repo"])
+    record = Record(last_updated=last_updated, repo=repo)
+
+    return IssueSet.from_json(data["issues"]), record

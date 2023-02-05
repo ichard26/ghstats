@@ -2,19 +2,18 @@
 
 import json
 from collections import defaultdict
-from datetime import datetime, date, timedelta
+from datetime import date, datetime, timedelta
 from functools import wraps
 from pathlib import Path
-from typing import Any, Callable, Iterator, List
+from typing import Any, Callable, Iterable, Iterator, List
 
 import click
 
-from .  import lib
+from . import ghlib
+from .ghlib import Issue, IssueSet
 
-print("[*] Importing finished")
 
-
-def months_between(start_date: date, end_date: date) -> Iterator[datetime]:
+def months_between(start_date: date, end_date: date) -> Iterator[date]:
     # https://alexwlchan.net/2020/06/finding-the-months-between-two-dates-in-python/
     """
     Given two instances of ``datetime.date``, generate a list of dates on
@@ -46,6 +45,19 @@ def months_between(start_date: date, end_date: date) -> Iterator[datetime]:
             month += 1
 
 
+def get_days(issues: IssueSet) -> List[date]:
+    sdate = issues[1].created_at.date()
+    edate = datetime.utcnow().date()
+    delta = edate - sdate
+    return [sdate + timedelta(days=i) for i in range(delta.days + 1)]
+
+
+def get_months(issues: IssueSet) -> List[date]:
+    sdate = issues[1].created_at.date()
+    edate = datetime.utcnow().date()
+    return list(months_between(sdate, edate))
+
+
 def generate_command_args(func: Callable) -> Callable:
 
     @click.argument("data-file", type=click.Path(exists=True, path_type=Path))
@@ -57,7 +69,7 @@ def generate_command_args(func: Callable) -> Callable:
     return wrapper
 
 
-def cal_open_issues_over_time(days, issues):
+def cal_open_issues_over_time(days, issues: Iterable[Issue]):
     issues_per_day = []
     for day in days:
         open_ = 0
@@ -72,18 +84,18 @@ def cal_open_issues_over_time(days, issues):
 
 
 def get_rid_of_prs(issues):
-    return lib.IssueSet([i for i in issues if not i.is_pr])
+    return IssueSet([i for i in issues if not i.is_pr])
 
 
 def get_closed_issues(issues):
-    return lib.IssueSet([i for i in issues if i.closed_at is not None])
+    return IssueSet([i for i in issues if i.closed_at is not None])
 
 
 def get_closers(issues):
     return set([i.closed_by for i in issues])
 
 
-def timeseries_line_dataset(label: str, data: List[int], days: List[datetime]) -> Any:
+def timeseries_line_dataset(label: str, data: List[int], days: List[date]) -> Any:
     return {"label": label, "data": [{"x": dt.isoformat(), "y": n} for dt, n in zip(days, data)]}
 
 
@@ -95,23 +107,17 @@ def main() -> None:
 @main.command("issue-counts")
 @generate_command_args
 def issue_counts(data_file: Path, output: Path) -> None:
-    issues, record = lib.load(data_file)
+    issues, record = ghlib.load(data_file)
 
     print("[*] Data file loaded")
-    print("[*] Data parsing finished")
-
-    sdate = issues[1].created_at.date()
-    edate = datetime.utcnow().date()
-    delta = edate - sdate
-    days = [sdate + timedelta(days=i) for i in range(delta.days + 1)]
-
+    days = get_days(issues)
     print("[*] Supporting data generation finished")
 
-    issues_noprs = lib.IssueSet([v for v in issues if not v.is_pr])
-    issues_noprs_bug = lib.IssueSet([v for v in issues_noprs if "T: bug" in v.labels])
-    issues_noprs_doc = lib.IssueSet([v for v in issues_noprs if "T: documentation" in v.labels])
-    issues_noprs_enhanc = lib.IssueSet([v for v in issues_noprs if "T: enhancement" in v.labels])
-    issues_noprs_style = lib.IssueSet([v for v in issues_noprs if "T: style" in v.labels])
+    issues_noprs = IssueSet([v for v in issues if not v.is_pr])
+    issues_noprs_bug = IssueSet([v for v in issues_noprs if "T: bug" in v.labels])
+    issues_noprs_doc = IssueSet([v for v in issues_noprs if "T: documentation" in v.labels])
+    issues_noprs_enhanc = IssueSet([v for v in issues_noprs if "T: enhancement" in v.labels])
+    issues_noprs_style = IssueSet([v for v in issues_noprs if "T: style" in v.labels])
 
     print("[*] Data preparation finished")
 
@@ -137,19 +143,13 @@ def issue_counts(data_file: Path, output: Path) -> None:
 @main.command("pull-counts")
 @generate_command_args
 def pr_counts(data_file: Path, output: Path) -> None:
-    issues, record = lib.load(data_file)
+    issues, record = ghlib.load(data_file)
 
     print("[*] Data file loaded")
-    print("[*] Data parsing finished")
-
-    sdate = issues[1].created_at.date()
-    edate = datetime.utcnow().date()
-    delta = edate - sdate
-    days = [sdate + timedelta(days=i) for i in range(delta.days + 1)]
-
+    days = get_days(issues)
     print("[*] Supporting data generation finished")
 
-    pulls_noprs = lib.IssueSet([v for v in issues if v.is_pr])
+    pulls_noprs = IssueSet([v for v in issues if v.is_pr])
 
     print("[*] Data preparation finished")
 
@@ -165,16 +165,10 @@ def pr_counts(data_file: Path, output: Path) -> None:
 @main.command("issue-closers")
 @generate_command_args
 def issue_closers(data_file: Path, output: Path) -> None:
-    issues, record = lib.load(data_file)
+    issues, record = ghlib.load(data_file)
 
     print("[*] JSON file loaded")
-    print("[*] Data parsing finished")
-
-    sdate = issues[1].created_at.date()
-    edate = datetime.utcnow().date()
-    delta = edate - sdate
-    days = [sdate + timedelta(days=i) for i in range(delta.days + 1)]
-
+    days = get_days(issues)
     print("[*] Supporting data generation finished")
 
     def prepare_data_collection(days, closers):
@@ -229,15 +223,10 @@ def issue_closers(data_file: Path, output: Path) -> None:
 @main.command("issue-deltas")
 @generate_command_args
 def issue_deltas(data_file: Path, output: Path) -> None:
-    issues, record = lib.load(data_file)
+    issues, record = ghlib.load(data_file)
 
     print("[*] Data file loaded")
-    print("[*] Data parsing finished")
-
-    sdate = issues[1].created_at.date()
-    edate = datetime.utcnow().date()
-    months = list(months_between(sdate, edate))
-
+    months = get_months(issues)
     print("[*] Supporting data generation finished")
 
     def cal_delta_over_time(open_issues_over_time):
