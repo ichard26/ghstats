@@ -6,10 +6,10 @@ import 'chartjs-adapter-luxon';
 //   https://github.com/withastro/snowpack/issues/3692
 import zoomPlugin from 'chartjs-plugin-zoom';
 
-const blackIssueCountsURL = "https://ichard26.github.io/ghstats/issue-counts.json";
-const blackPullCountsURL = "https://ichard26.github.io/ghstats/pull-counts.json";
-const blackIssueDeltasURL = "https://ichard26.github.io/ghstats/issue-deltas.json";
-const blackIssueClosersURL = "https://ichard26.github.io/ghstats/issue-closers.json";
+const blackIssueCountsURL = "https://ichard26.github.io/ghstats/data/psf/black/issue-counts.json";
+const blackPullCountsURL = "https://ichard26.github.io/ghstats/data/psf/black/pull-counts.json";
+const blackIssueDeltasURL = "https://ichard26.github.io/ghstats/data/psf/black/issue-deltas.json";
+const blackIssueClosersURL = "https://ichard26.github.io/ghstats/data/psf/black/issue-closers.json";
 
 // while this makes "copy as image" somewhat usable, the lack of a title
 // is a problem >.<
