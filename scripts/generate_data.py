@@ -9,7 +9,7 @@ from typing import Any, Callable, Iterator, List
 
 import click
 
-import lib
+from .  import lib
 
 print("[*] Importing finished")
 
@@ -63,7 +63,7 @@ def cal_open_issues_over_time(days, issues):
         open_ = 0
         for i in issues:
             if i.created_at.date() <= day:
-                if i.closed_at is none:
+                if i.closed_at is None:
                     open_ += 1
                 elif i.closed_at.date() > day:
                     open_ += 1

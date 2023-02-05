@@ -10,8 +10,8 @@ import colorama
 from colorama import Fore, Style
 import requests
 
-import lib
-from lib import Issue, IssueSet, Record, Repo
+from . import lib
+from .lib import Issue, IssueSet, Record, Repo
 
 DEFAULT_TIMEOUT = (3.1, 11.9)
 GITHUB_API = "https://api.github.com"
