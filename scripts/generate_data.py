@@ -111,7 +111,7 @@ def issue_counts(data_file: Path, output: Path) -> None:
     issues_noprs_bug = lib.IssueSet([v for v in issues_noprs if "T: bug" in v.labels])
     issues_noprs_doc = lib.IssueSet([v for v in issues_noprs if "T: documentation" in v.labels])
     issues_noprs_enhanc = lib.IssueSet([v for v in issues_noprs if "T: enhancement" in v.labels])
-    issues_noprs_design = lib.IssueSet([v for v in issues_noprs if "T: design" in v.labels])
+    issues_noprs_style = lib.IssueSet([v for v in issues_noprs if "T: style" in v.labels])
 
     print("[*] Data preparation finished")
 
@@ -119,7 +119,7 @@ def issue_counts(data_file: Path, output: Path) -> None:
     ydata_bug = cal_open_issues_over_time(days, issues_noprs_bug)
     ydata_doc = cal_open_issues_over_time(days, issues_noprs_doc)
     ydata_enhanc = cal_open_issues_over_time(days, issues_noprs_enhanc)
-    ydata_design = cal_open_issues_over_time(days, issues_noprs_design)
+    ydata_style = cal_open_issues_over_time(days, issues_noprs_style)
 
     print("[*] Data chrunching finished")
 
@@ -128,7 +128,7 @@ def issue_counts(data_file: Path, output: Path) -> None:
         timeseries_line_dataset("open issues (bug)", ydata_bug, days),
         timeseries_line_dataset("open issues (docs)", ydata_doc, days),
         timeseries_line_dataset("open issues (feature)", ydata_enhanc, days),
-        timeseries_line_dataset("open issues (design)", ydata_design, days)
+        timeseries_line_dataset("open issues (style)", ydata_style, days)
     ]
     blob = json.dumps(data)
     output.write_text(blob)
