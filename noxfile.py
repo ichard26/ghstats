@@ -3,7 +3,7 @@ from pathlib import Path
 import nox
 
 
-@nox.session(name="refresh")
+@nox.session(name="refresh-data")
 def refresh(session: nox.Session) -> None:
     """Update and regenerate data."""
     try:

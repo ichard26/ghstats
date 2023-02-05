@@ -113,12 +113,12 @@ class IssueSet(Collection[Issue]):
 
         return False
 
-    def __getitem__(self, issue_number: int) -> Issue:
-        if not isinstance(issue_number, int):
-            raise TypeError("Only integers are supported as keys for item lookup.")
+    def __getitem__(self, issue_number: Union[int, Issue]) -> Issue:
+        if not isinstance(issue_number, (int, Issue)):
+            raise TypeError("Only integers/issues are supported as keys for item lookup.")
 
         try:
-            return self._issues[issue_number]
+            return self._issues[int(issue_number)]
         except KeyError:
             raise KeyError(f"Issue {issue_number} doesn't exist in the set") from None
 
@@ -160,6 +160,11 @@ class Repo:
 
     def __str__(self) -> str:
         return f"{self.user}/{self.name}"
+
+    @classmethod
+    def parse(cls, r: str) -> "Repo":
+        repo = tuple(r.split("/"))
+        return cls(user=repo[0], name=repo[1])
 
 
 @attrs.define
