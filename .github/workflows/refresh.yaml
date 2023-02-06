@@ -50,7 +50,7 @@ jobs:
           GITHUB_API_KEY: ${{ github.token }}
         run: |
           python -m pip install nox
-          python -m nox -s refresh-data --force-color -- ../prod/
+          python -m nox -s refresh-data --force-color -- ../prod/data/
 
       - name: Commit & push changes
         working-directory: prod

@@ -45,7 +45,7 @@ class Fetcher:
         self.session = requests.Session()
         self.session.mount("http://", HTTPAdapter(timeout=self.timeout))
         self.session.mount("https://", HTTPAdapter(timeout=self.timeout))
-        self.session.headers["User-Agent"] = "{self.auth[0]} using requests/{requests.__version__}"
+        self.session.headers["User-Agent"] = f"{self.auth[0]} using requests/{requests.__version__}"
         if self.auth is not None:
             self.session.auth = self.auth
         return self

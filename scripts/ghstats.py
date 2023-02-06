@@ -4,6 +4,7 @@ from typing import List
 
 import attrs
 import click
+from click import secho
 
 from . import ghlib
 
@@ -42,7 +43,50 @@ def main(ctx: click.Context, config_path: Path) -> None:
 @click.pass_context
 def print_base_path(ctx: click.Context) -> None:
     config = ctx.obj["config"]
-    click.echo(config.base_path)
+    secho(config.base_path)
+
+
+@main.command("fetch-issue-data", help="Download or update issue data files.")
+@click.argument("base-path", type=click.Path(exists=True, file_okay=False, path_type=Path))
+@click.pass_context
+def fetch_issue_data(ctx: click.Context, base_path: Path) -> None:
+    from . import download
+
+    config = ctx.obj["config"]
+    for r in config.repos:
+        repo_path = Path(base_path, r.user, r.name)
+        if not repo_path.exists():
+            secho(f"[ghstats:warn] Skipping {r} because there's no data saved.", fg="yellow")
+            continue
+
+        data_path = Path(repo_path, "issues.json")
+        assert data_path.exists(), f"{data_path} should exist!"
+        download.main(
+            ["--id", config.username, "update", str(data_path)],
+            standalone_mode=False,
+        )
+
+
+@main.command("generate-ghstats-data", help="Generate data files used by ghstats' front-end.")
+@click.argument("base-path", type=click.Path(exists=True, file_okay=False, path_type=Path))
+@click.pass_context
+def generate_ghstats_data(ctx: click.Context, base_path: Path) -> None:
+    from . import generate_data
+
+    config = ctx.obj["config"]
+    for r in config.repos:
+        data_path = Path(base_path, r.user, r.name, "issues.json")
+        if not data_path.exists():
+            secho(f"[ghstats:warn] Skipping {r} because there's no data saved.", fg="yellow")
+            continue
+
+        for cmd in ("issue-counts", "issue-closers", "issue-deltas", "pull-counts"):
+            secho(f"[ghstats] Generating '{cmd}' for {r}", bold=True)
+            out_path = data_path.with_name(cmd + ".json")
+            generate_data.main(
+                [cmd, str(data_path), "--output", str(out_path)],
+                standalone_mode=False,
+            )
 
 
 if __name__ == "__main__":

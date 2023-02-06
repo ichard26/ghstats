@@ -9,18 +9,8 @@ def refresh(session: nox.Session) -> None:
     try:
         base = Path(session.posargs[0])
     except IndexError:
-        base = Path.cwd()
+        session.error("Please specify the /data/ directory")
 
     session.install("attrs", "click", "colorama", "requests")
-    session.run("python", "-m", "scripts.download", "update", str(base / "issue-data.json"))
-
-    for name in ("issue-counts", "issue-closers", "issue-deltas", "pull-counts"):
-        session.run(
-            "python",
-            "-m"
-            "scripts.generate_data",
-            name,
-            str(base / "issue-data.json"),
-            "-o",
-            str(base / f"{name}.json"),
-        )
+    session.run("python", "-m", "scripts.ghstats", "fetch-issue-data", str(base))
+    session.run("python", "-m", "scripts.ghstats", "generate-ghstats-data", str(base))
