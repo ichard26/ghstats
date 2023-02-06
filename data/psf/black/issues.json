@@ -48993,6 +48993,65 @@
       "created_by": "ichard26",
       "closed_at": "2023-02-05T03:51:46+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3548,
+      "title": "Bump peter-evans/create-or-update-comment from 2.1.0 to 2.1.1",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "url": "https://api.github.com/repos/psf/black/pulls/3548",
+      "html_url": "https://github.com/psf/black/pull/3548",
+      "created_at": "2023-02-06T06:03:08+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3549,
+      "title": "Bump docker/build-push-action from 3 to 4",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "url": "https://api.github.com/repos/psf/black/pulls/3549",
+      "html_url": "https://github.com/psf/black/pull/3549",
+      "created_at": "2023-02-06T06:03:13+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3550,
+      "title": "Bump peter-evans/find-comment from 2.2.0 to 2.2.1",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "url": "https://api.github.com/repos/psf/black/pulls/3550",
+      "html_url": "https://github.com/psf/black/pull/3550",
+      "created_at": "2023-02-06T06:03:20+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3551,
+      "title": "Allow a single newline after opening blocks, possibly via an option setting",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "url": "https://api.github.com/repos/psf/black/issues/3551",
+      "html_url": "https://github.com/psf/black/issues/3551",
+      "created_at": "2023-02-06T09:28:43+00:00",
+      "created_by": "bluenote10",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -49000,7 +49059,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-02-06T01:20:20+00:00",
+    "last_updated": "2023-02-06T15:11:27+00:00",
     "version": 1
   }
 }
