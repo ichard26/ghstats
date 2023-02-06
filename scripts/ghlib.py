@@ -32,14 +32,12 @@ def convert_iso8601_string(string: Optional[str]) -> Optional[datetime]:
 class Issue:
     """Read-only issue data and metadata representation object."""
 
-    title: str
     number: int
+    title: str
+    labels: List[str]
+    is_pr: bool
     created_at: datetime = attrs.field(converter=convert_iso8601_string)
     created_by: str
-    labels: List[str]
-    url: str
-    html_url: str
-    is_pr: bool
     closed_at: Optional[datetime] = attrs.field(default=None, converter=convert_iso8601_string)
     closed_by: Optional[str] = None
 
@@ -155,22 +153,23 @@ class IssueSet(Collection[Issue]):
 
 @attrs.define
 class Repo:
-    user: str
+    owner: str
     name: str
 
     def __str__(self) -> str:
-        return f"{self.user}/{self.name}"
+        return f"{self.owner}/{self.name}"
 
     @classmethod
     def parse(cls, r: str) -> "Repo":
         repo = tuple(r.split("/"))
-        return cls(user=repo[0], name=repo[1])
+        return cls(owner=repo[0], name=repo[1])
 
 
 @attrs.define
 class Record:
-    last_updated: datetime
     repo: Repo
+    last_updated: datetime
+    version: int = 1
 
 
 def save(issues: IssueSet, record: Record, output_path: Path) -> None:
@@ -187,6 +186,5 @@ def load(data_path: Path) -> Tuple[IssueSet, Record]:
     last_updated = convert_iso8601_string(data["record"]["last_updated"])
     assert last_updated is not None
     repo = Repo(**data["record"]["repo"])
-    record = Record(last_updated=last_updated, repo=repo)
 
-    return IssueSet.from_json(data["issues"]), record
+    return IssueSet.from_json(data["issues"]), Record(repo, last_updated)

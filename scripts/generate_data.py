@@ -136,7 +136,7 @@ def issue_counts(data_file: Path, output: Path) -> None:
         timeseries_line_dataset("open issues (feature)", ydata_enhanc, days),
         timeseries_line_dataset("open issues (style)", ydata_style, days)
     ]
-    blob = json.dumps(data)
+    blob = json.dumps(data, indent=2)
     output.write_text(blob)
 
 
@@ -158,7 +158,7 @@ def pr_counts(data_file: Path, output: Path) -> None:
     print("[*] Data chrunching finished")
 
     data = [timeseries_line_dataset("open PRs", ydata, days)]
-    blob = json.dumps(data)
+    blob = json.dumps(data, indent=2)
     output.write_text(blob)
 
 
@@ -247,7 +247,7 @@ def issue_deltas(data_file: Path, output: Path) -> None:
     print("[*] Data chrunching finished")
 
     data = [timeseries_line_dataset("changes (issues)", ydata, months)]
-    blob = json.dumps(data)
+    blob = json.dumps(data, indent=2)
     output.write_text(blob)
 
 

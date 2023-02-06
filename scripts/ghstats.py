@@ -54,7 +54,7 @@ def fetch_issue_data(ctx: click.Context, base_path: Path) -> None:
 
     config = ctx.obj["config"]
     for r in config.repos:
-        repo_path = Path(base_path, r.user, r.name)
+        repo_path = Path(base_path, r.owner, r.name)
         if not repo_path.exists():
             secho(f"[ghstats:warn] Skipping {r} because there's no data saved.", fg="yellow")
             continue
@@ -75,7 +75,7 @@ def generate_ghstats_data(ctx: click.Context, base_path: Path) -> None:
 
     config = ctx.obj["config"]
     for r in config.repos:
-        data_path = Path(base_path, r.user, r.name, "issues.json")
+        data_path = Path(base_path, r.owner, r.name, "issues.json")
         if not data_path.exists():
             secho(f"[ghstats:warn] Skipping {r} because there's no data saved.", fg="yellow")
             continue

@@ -106,7 +106,7 @@ def enumerate_issues(
         since = f"&since={stringified}"
     else:
         since = ""
-    url = f"/repos/{repo.user}/{repo.name}/issues?per_page=100&state=all&direction=asc{since}"
+    url = f"/repos/{repo.owner}/{repo.name}/issues?per_page=100&state=all&direction=asc{since}"
 
     issues = IssueSet()
     while True:
@@ -124,7 +124,7 @@ def enumerate_issues(
 
 def fetch_issue_data(repo: Repo, issue: Issue, fetcher: Fetcher) -> Issue:
     endpoint = "pulls" if issue.is_pr else "issues"
-    url = f"/repos/{repo.user}/{repo.name}/{endpoint}/{issue.number}"
+    url = f"/repos/{repo.owner}/{repo.name}/{endpoint}/{issue.number}"
     resp = fetcher.get(url)
     return Issue(**resp.json())
 
@@ -189,7 +189,7 @@ def main(ctx: click.Context, id: str, api_key: str, debug: bool) -> None:
 @click.argument("output_path", type=click.Path(writable=True, path_type=Path))
 @click.option(
     "--repo",
-    help="Repository to fetch issue data for. Format is {user}/{name}.",
+    help="Repository to fetch issue data for. Format is {owner}/{name}.",
     callback=repo_callback,
     required=True,
 )
