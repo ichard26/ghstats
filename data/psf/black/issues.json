@@ -29548,7 +29548,7 @@
       "title": "Enable `--experimental-string-processing` to be default",
       "labels": [
         "T: enhancement",
-        "T: design",
+        "T: style",
         "S: accepted",
         "F: strings"
       ],
@@ -49094,6 +49094,35 @@
       "created_by": "garf365",
       "closed_at": "2023-02-07T13:09:04+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3555,
+      "title": "Black unexpectedly alters comments and one-liner expressions when comments are placed above, when using --preview",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "url": "https://api.github.com/repos/psf/black/issues/3555",
+      "html_url": "https://github.com/psf/black/issues/3555",
+      "created_at": "2023-02-07T18:21:19+00:00",
+      "created_by": "sjdemartini",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3556,
+      "title": "Fix typos in comments: assignement -> assignment.",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "url": "https://api.github.com/repos/psf/black/pulls/3556",
+      "html_url": "https://github.com/psf/black/pull/3556",
+      "created_at": "2023-02-07T22:05:46+00:00",
+      "created_by": "yilei",
+      "closed_at": "2023-02-07T22:48:09+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -49101,7 +49130,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-02-07T15:11:26+00:00",
+    "last_updated": "2023-02-08T15:11:54+00:00",
     "version": 1
   }
 }
