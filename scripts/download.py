@@ -14,74 +14,115 @@ from .ghlib import Issue, IssueSet, Record, Repo
 
 DEFAULT_TIMEOUT = (3.1, 11.9)
 GITHUB_API = "https://api.github.com"
+GITHUB_GRAPHQL_API = "https://api.github.com/graphql"
+
+ISSUES_QUERY = """\
+query GraphQLQuery {
+  repository(name: "black", owner: "psf") {
+    kind(orderBy: {field: CREATED_AT, direction: ASC}, first: 100, after: null) {
+      totalCount
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+      edges {
+        node {
+          number
+          title
+          labels(first: 15) {
+            nodes {
+              name
+            }
+          }
+          author {
+            login
+          }
+          createdAt
+          closedAt
+          timelineItems(itemTypes: CLOSED_EVENT, first: 1) {
+            nodes {
+              ... on ClosedEvent {
+                actor {
+                  login
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  rateLimit {
+    limit
+    remaining
+    resetAt
+  }
+}
+"""
 
 colorama.init(autoreset=True)
 
-
-class HTTPAdapter(requests.adapters.HTTPAdapter):
-    def __init__(self, timeout: Tuple[float, float], *args: Any, **kwargs: Any):
-        self.timeout = timeout
-        super().__init__(*args, **kwargs)
-
-    def send(self, *args: Any, **kwargs: Any):
-        if "timeout" not in kwargs.keys():
-            kwargs["timeout"] = self.timeout
-        return super().send(*args, **kwargs)
+RateLimit = Tuple[int, int, datetime]
 
 
 @attrs.define(slots=False)
 class Fetcher:
-    url: str = attrs.field()
-    auth: Tuple[str, str] = attrs.field()
-    timeout: Tuple[float, float] = DEFAULT_TIMEOUT
+    api: str = attrs.field(validator=attrs.validators.in_(("rest", "graphql")))
+    auth: Tuple[str, Optional[str]]
     debug: bool = False
 
-    @url.validator
-    def check(self, attribute: attrs.Attribute, value: str):
-        if not (value.startswith("http://") or value.startswith("https://")):
-            raise ValueError(f"url should start with 'http://' or 'https://': {self.url}")
+    _rate_limit: Optional[RateLimit] = attrs.field(default=None, init=False)
 
     def __enter__(self) -> "Fetcher":
         self.session = requests.Session()
-        self.session.mount("http://", HTTPAdapter(timeout=self.timeout))
-        self.session.mount("https://", HTTPAdapter(timeout=self.timeout))
         self.session.headers["User-Agent"] = f"{self.auth[0]} using requests/{requests.__version__}"
-        if self.auth is not None:
+        if self.auth[1] is not None:
             self.session.auth = self.auth
         return self
 
     def __exit__(self, *exc: Any) -> None:
         self.session.close()
 
-    @staticmethod
-    def _extract_rate_limit(resp: requests.Response) -> Tuple[int, int, datetime]:
-        headers = resp.headers
-        limit = int(headers["X-Ratelimit-Limit"])
-        remaining = int(headers["X-Ratelimit-Remaining"])
-        reset = int(headers["X-Ratelimit-Reset"])
-        reset_datetime = datetime.fromtimestamp(reset, tz=timezone.utc)
+    def _extract_rate_limit(self, resp: requests.Response) -> RateLimit:
+        if self.api == "rest":
+            headers = resp.headers
+            limit = int(headers["X-Ratelimit-Limit"])
+            remaining = int(headers["X-Ratelimit-Remaining"])
+            reset = int(headers["X-Ratelimit-Reset"])
+            reset_datetime = datetime.fromtimestamp(reset, tz=timezone.utc)
+        else:
+            rate_data = resp.json()["data"]["rateLimit"]
+            limit = rate_data["limit"]
+            remaining = rate_data["remaining"]
+            reset_datetime = ghlib.convert_iso8601_string(rate_data["resetAt"])
+            assert reset_datetime is not None
+
         return (limit, remaining, reset_datetime)
 
-    def get(self, path: str, check_status_code: bool = True, **kwargs: Any) -> requests.Response:
+    def root_url(self) -> str:
+        if self.api == "rest":
+            return GITHUB_API
+        else:
+            return GITHUB_GRAPHQL_API
+
+    def request(self, method: str, path: str, **kwargs: Any) -> requests.Response:
         if not (path.startswith("https://") or path.startswith("http://")):
-            path = self.url + path
+            path = self.root_url() + path
 
         t0 = time.perf_counter()
-        resp = self.session.get(path, **kwargs)
+        resp = self.session.request(method, path, timeout=DEFAULT_TIMEOUT, **kwargs)
         t1 = time.perf_counter()
         if self.debug:
             print(path, round(t1 - t0, 3))
 
         self._rate_limit = self._extract_rate_limit(resp)
-        if check_status_code:
-            resp.raise_for_status()
-
+        resp.raise_for_status()
         return resp
 
-    def rate_limit(self) -> Tuple[int, int, datetime]:
-        if not hasattr(self, "_rate_limit"):
-            self.get("/rate_limit")
+    def get(self, path: str) -> requests.Response:
+        return self.request("GET", path)
 
+    def rate_limit(self) -> RateLimit:
         return self._rate_limit
 
 
@@ -89,12 +130,10 @@ def get_current_datetime() -> datetime:
     return datetime.now(timezone.utc).replace(microsecond=0)
 
 
-def print_rate_limit(headers: Tuple[int, int, datetime]) -> None:
-    print(
-        f"{headers[1]} API calls remain out of {headers[0]}."
-        " Rate limit resets after"
-        f" {headers[2].astimezone().strftime('%b %d %I:%M:%S %p')}."
-    )
+def print_rate_limit(rate_limit: RateLimit) -> None:
+    reset_date = rate_limit[2].astimezone().strftime('%b %d %I:%M:%S %p')
+    print(f"{rate_limit[1]} API calls/points remain out of {rate_limit[0]}.", end="")
+    print(f" Rate limit resets after {reset_date}.")
 
 
 def enumerate_issues(
@@ -119,6 +158,57 @@ def enumerate_issues(
             break
 
     print()
+    return issues
+
+
+def _parse_graphql_issues_json(payload: Any, *, is_pr: bool) -> IssueSet:
+    issues = IssueSet()
+    payload = payload["edges"]
+    for edge_entry in payload:
+        node = edge_entry["node"]
+        get_user = lambda key, n: n[key]["login"] if n[key] else "ghost"
+        data = {
+            "number": node["number"],
+            "title": node["title"],
+            "is_pr": is_pr,
+            "created_at": node["createdAt"],
+            "created_by": get_user("author", node),
+            "closed_at": node["closedAt"],
+            "closed_by": (
+                get_user("actor", node["timelineItems"]["nodes"][0])
+                if node["closedAt"] and node["timelineItems"]["nodes"]
+                else None
+            ),
+            "labels": [label_node["name"] for label_node in node["labels"]["nodes"]]
+        }
+        issues.add(Issue(**data))
+
+    return issues
+
+
+def fetch_issues_graphql(repo: Repo, fetcher: Fetcher) -> IssueSet:
+    issues = IssueSet()
+    query = ISSUES_QUERY.replace("psf", repo.owner).replace("black", repo.name)
+    for kind in ("issues", "pullRequests"):
+        kind_issues = IssueSet()
+        next_page_cursor = None
+        more_pages = True
+        while more_pages:
+            this_query = query.replace("kind", kind)
+            if next_page_cursor:
+                this_query = this_query.replace("null", f'"{next_page_cursor}"')
+            r = fetcher.request("POST", "", json={"query": this_query})
+
+            query_data = r.json()["data"]["repository"][kind]
+            kind_issues.extend(_parse_graphql_issues_json(query_data, is_pr=(kind != "issues")))
+            skind = kind if kind == "issues" else "pull requests"
+            print(f"\rFetching {skind} ...", len(kind_issues), end="", flush=True)
+
+            more_pages = query_data["pageInfo"]["hasNextPage"]
+            next_page_cursor = query_data["pageInfo"]["endCursor"]
+        issues.extend(kind_issues)
+        print()
+
     return issues
 
 
@@ -181,7 +271,7 @@ def main(ctx: click.Context, id: str, api_key: str, debug: bool) -> None:
     def _elapsed() -> float:
         return time.perf_counter() - t0
 
-    fetcher = Fetcher(url=GITHUB_API, auth=(id, api_key), debug=debug)
+    fetcher = Fetcher(api="rest", auth=(id, api_key), debug=debug)
     ctx.obj = {"fetcher": fetcher, "elapsed": _elapsed, "current-dt": get_current_datetime()}
 
 
@@ -198,8 +288,10 @@ def fetch(ctx: click.Context, output_path: Path, repo: Repo) -> None:
     elapsed = ctx.obj["elapsed"]
 
     with ctx.obj["fetcher"] as fetcher:
-        issues = enumerate_issues(repo, fetcher)
-        issues = fetch_issueset_data(repo, issues, issues, fetcher)
+        # issues = enumerate_issues(repo, fetcher)
+        # issues = fetch_issueset_data(repo, issues, issues, fetcher)
+        fetcher.api = "graphql"
+        issues = fetch_issues_graphql(repo, fetcher)
 
     record = Record(last_updated=ctx.obj["current-dt"], repo=repo)
     ghlib.save(issues, record, output_path)

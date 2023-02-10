@@ -28,7 +28,7 @@ def convert_iso8601_string(string: Optional[str]) -> Optional[datetime]:
     return datetime.strptime(string, "%Y-%m-%dT%H:%M:%S%z") if string else None
 
 
-@attrs.define
+@attrs.frozen
 class Issue:
     """Read-only issue data and metadata representation object."""
 
