@@ -35537,7 +35537,7 @@
       "created_at": "2022-04-25T09:17:58+00:00",
       "created_by": "saroad2",
       "closed_at": "2022-06-11T06:55:02+00:00",
-      "closed_by": "felix-hilden"
+      "closed_by": null
     },
     {
       "number": 3036,
@@ -41969,7 +41969,9 @@
       "number": 3557,
       "title": "Support Quarto-style comment blocks",
       "labels": [
-        "T: style"
+        "T: style",
+        "F: comments",
+        "S: accepted"
       ],
       "is_pr": false,
       "created_at": "2023-02-09T20:26:47+00:00",
@@ -41986,6 +41988,52 @@
       "created_by": "KotlinIsland",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3559,
+      "title": "Ability to exclude files/paths with glob",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-02-10T11:09:26+00:00",
+      "created_by": "mwgamble",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3560,
+      "title": "Ability to view which files black will actually run on",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-02-10T11:15:01+00:00",
+      "created_by": "mwgamble",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3561,
+      "title": "Leave alone Quarto-style comments (\"#|\")",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-02-10T12:20:17+00:00",
+      "created_by": "tomshafer",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3562,
+      "title": "black github workflow showing errors when nothing to black",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-02-10T15:11:35+00:00",
+      "created_by": "shahzebsiddiqui",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -41993,7 +42041,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-02-10T01:49:06+00:00",
+    "last_updated": "2023-02-10T15:12:03+00:00",
     "version": 1
   }
 }
