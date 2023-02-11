@@ -41,8 +41,16 @@ jobs:
           python -m pip install attrs click
           npm ci
           npm run build -- --base "$(python -m scripts.ghstats base-path)"
-          rm ../prod/assets -rf
+
+      - name: Copy website over to production
+        working-directory: src
+        run: |
+          mkdir prod-backup
+          cp ../prod/data/ ../prod/.git/ prod-backup -r
+          rm ../prod/* -r
+          cp prod-backup/* scripts/ noxfile.py ../prod -r
           cp web/dist/* ../prod -r
+          touch ../prod/.nojekyll
 
       - name: Refresh data assets
         working-directory: src
