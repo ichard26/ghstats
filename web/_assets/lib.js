@@ -1,15 +1,15 @@
 import { DateTime } from 'luxon';
 import { Chart, registerables } from 'chart.js';
 import 'chartjs-adapter-luxon';
-// broken with snowpack:
-//   https://github.com/withastro/snowpack/discussions/1856#discussioncomment-809593
-//   https://github.com/withastro/snowpack/issues/3692
 import zoomPlugin from 'chartjs-plugin-zoom';
 
-const blackIssueCountsURL = "https://ichard26.github.io/ghstats/data/psf/black/issue-counts.json";
-const blackPullCountsURL = "https://ichard26.github.io/ghstats/data/psf/black/pull-counts.json";
-const blackIssueDeltasURL = "https://ichard26.github.io/ghstats/data/psf/black/issue-deltas.json";
-const blackIssueClosersURL = "https://ichard26.github.io/ghstats/data/psf/black/issue-closers.json";
+// Replace 'import.meta.env.BASE_URL' to pull data files from somewhere else.
+// Useful to avoid needing to serve the data files alongside the local version
+// of the website. (vite dev would be unusable without this.)
+//
+// Example:
+//   export const dataBaseURL = "https://ichard26.github.io/ghstats/" + "data/"
+export const dataBaseURL = import.meta.env.BASE_URL + "data/";
 
 // while this makes "copy as image" somewhat usable, the lack of a title
 // is a problem >.<
@@ -37,7 +37,7 @@ const resetPlugin = {
 Chart.register(zoomPlugin, bgPlugin, resetPlugin, ...registerables);
 
 
-function createChartElement(id, configuration) {
+export function createChartElement(id, configuration) {
     const section = document.querySelector(`#${id}-chart-section`);
     // https://www.chartjs.org/docs/3.7.0/configuration/responsive.html#important-note
     // div.setAttribute("style", "position: relative; height:40vh; width:80vw");
@@ -53,13 +53,13 @@ const COLORS = [
     'rgba(153, 102, 255, 1)', // BLUE
     'rgba(255, 159, 64, 1)',  // PURPLE
     'rgba(255, 192, 203, 1)', // PINK
-    'rgb(201, 203, 207)',  // GREY
-    'rgba(0, 0, 0, 1) ' // BLACK
+    'rgb(201, 203, 207)',     // GREY
+    'rgba(0, 0, 0, 1)'        // BLACK
 ];
 const RED = COLORS[0];
 const GREEN = COLORS[3];
 
-function loadTimeSeriesJSON(json, bar = false, autocolors = true) {
+export function loadTimeSeriesJSON(json, bar = false, autocolors = true) {
     const loaded = [];
     for (const [index, dataset] of json.entries()) {
         const points = [];
@@ -118,13 +118,13 @@ const BASE_OPTIONS = {
     },
 };
 
-function lineOptions(ytitle) {
+export function lineOptions(ytitle) {
     const options = JSON.parse(JSON.stringify(BASE_OPTIONS));
     options.scales.y.title.text = ytitle;
     return options;
 }
 
-function barOptions(ytitle) {
+export function barOptions(ytitle) {
     const options = JSON.parse(JSON.stringify(BASE_OPTIONS));
     options.scales.y.title.text = ytitle;
     options.elements = { bar: {} };
@@ -134,46 +134,3 @@ function barOptions(ytitle) {
     }
     return options;
 }
-
-async function loadCharts() {
-    let startTime = performance.now()
-
-    let response = await fetch(blackIssueCountsURL);
-    const issue_data = await response.json();
-    createChartElement("black-issues", {
-        type: 'line',
-        data: { datasets: loadTimeSeriesJSON(issue_data) },
-        options: lineOptions("Open issues"),
-    });
-
-    response = await fetch(blackPullCountsURL);
-    const pull_data = await response.json();
-    createChartElement("black-pulls", {
-        type: 'line',
-        data: { datasets: loadTimeSeriesJSON(pull_data) },
-        options: lineOptions("Open pulls"),
-    });
-
-    response = await fetch(blackIssueDeltasURL);
-    const deltas_data = await response.json();
-    createChartElement("black-issue-deltas", {
-        type: 'bar',
-        data: { datasets: loadTimeSeriesJSON(deltas_data, true, false) },
-        options: barOptions("changes"),
-    });
-
-    response = await fetch(blackIssueClosersURL);
-    const closers_data = await response.json();
-    createChartElement("black-issue-closers", {
-        type: 'line',
-        data: { datasets: loadTimeSeriesJSON(closers_data) },
-        options: lineOptions("Closed issues"),
-    });
-
-    const elapsed = Math.round(performance.now() - startTime);
-    console.log(
-        `[debug] loading charts took ${elapsed} milliseconds`
-    )
-}
-
-loadCharts();
