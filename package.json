@@ -11,12 +11,12 @@
   "license": "MIT",
   "repository": "https://github.com/ichard26/ghstats/",
   "devDependencies": {
-    "vite": "^2.7.13"
+    "vite": "^4.1.1"
   },
   "dependencies": {
-    "chart.js": "^3.7.0",
-    "chartjs-adapter-luxon": "^1.1.0",
-    "chartjs-plugin-zoom": "^1.2.0",
-    "luxon": "^2.3.0"
+    "chart.js": "^4.2.1",
+    "chartjs-adapter-luxon": "^1.3.1",
+    "chartjs-plugin-zoom": "^2.0.0",
+    "luxon": "^3.2.1"
   }
 }
