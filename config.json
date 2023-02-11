@@ -1,5 +1,21 @@
 {
     "username": "ichard26",
     "base_path": "/ghstats/",
-    "repos": ["psf/black", "mypyc/mypyc"]
+    "repos": {
+        "psf/black": {
+            "views": ["issue-counts", "pull-counts", "issue-deltas", "issue-closers"],
+            "view:issue-counts:groups": {
+                "bug": "T: bug",
+                "docs": "T: documentation",
+                "feature": "T: enhancement",
+                "style": "T: style"
+            }
+        },
+        "mypyc/mypyc": {
+            "views": ["issue-counts", "issue-deltas"],
+            "view:issue-counts:groups": {
+                "bug": "bug"
+            }
+        }
+    }
 }

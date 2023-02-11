@@ -151,7 +151,7 @@ class IssueSet(Collection[Issue]):
         return cls(parsed_issues)
 
 
-@attrs.define
+@attrs.frozen
 class Repo:
     owner: str
     name: str

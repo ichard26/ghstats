@@ -5,7 +5,7 @@ from collections import defaultdict
 from datetime import date, datetime, timedelta
 from functools import wraps
 from pathlib import Path
-from typing import Any, Callable, Iterable, Iterator, List
+from typing import Any, Callable, Iterable, Iterator, List, Tuple
 
 import click
 
@@ -106,35 +106,29 @@ def main() -> None:
 
 @main.command("issue-counts")
 @generate_command_args
-def issue_counts(data_file: Path, output: Path) -> None:
+@click.option("-l", "--show-label", "labels", nargs=2, multiple=True, help="Count issues with a specific label.")
+def issue_counts(data_file: Path, output: Path, labels: Iterable[Tuple[str, str]]) -> None:
     issues, record = ghlib.load(data_file)
 
     print("[*] Data file loaded")
     days = get_days(issues)
-    print("[*] Supporting data generation finished")
 
-    issues_noprs = IssueSet([v for v in issues if not v.is_pr])
-    issues_noprs_bug = IssueSet([v for v in issues_noprs if "T: bug" in v.labels])
-    issues_noprs_doc = IssueSet([v for v in issues_noprs if "T: documentation" in v.labels])
-    issues_noprs_enhanc = IssueSet([v for v in issues_noprs if "T: enhancement" in v.labels])
-    issues_noprs_style = IssueSet([v for v in issues_noprs if "T: style" in v.labels])
+    issues = IssueSet(i for i in issues if not i.is_pr)
+    group_data = {"total": issues}
+    for group, gh_label in labels:
+        assert group != "total", "'total' is used internally by ghstats, please use a different group name"
+        group_data[group] = IssueSet(i for i in issues if gh_label in i.labels)
 
     print("[*] Data preparation finished")
 
-    ydata = cal_open_issues_over_time(days, issues_noprs)
-    ydata_bug = cal_open_issues_over_time(days, issues_noprs_bug)
-    ydata_doc = cal_open_issues_over_time(days, issues_noprs_doc)
-    ydata_enhanc = cal_open_issues_over_time(days, issues_noprs_enhanc)
-    ydata_style = cal_open_issues_over_time(days, issues_noprs_style)
+    for group, group_issues in group_data.items():
+        group_data[group] = cal_open_issues_over_time(days, group_data[group])
 
     print("[*] Data chrunching finished")
 
     data = [
-        timeseries_line_dataset("open issues (total)", ydata, days),
-        timeseries_line_dataset("open issues (bug)", ydata_bug, days),
-        timeseries_line_dataset("open issues (docs)", ydata_doc, days),
-        timeseries_line_dataset("open issues (feature)", ydata_enhanc, days),
-        timeseries_line_dataset("open issues (style)", ydata_style, days)
+        timeseries_line_dataset(f"open issues ({group})", ydata, days)
+        for group, ydata in group_data.items()
     ]
     blob = json.dumps(data, indent=2)
     output.write_text(blob)
@@ -147,7 +141,6 @@ def pr_counts(data_file: Path, output: Path) -> None:
 
     print("[*] Data file loaded")
     days = get_days(issues)
-    print("[*] Supporting data generation finished")
 
     pulls_noprs = IssueSet([v for v in issues if v.is_pr])
 
@@ -169,7 +162,6 @@ def issue_closers(data_file: Path, output: Path) -> None:
 
     print("[*] JSON file loaded")
     days = get_days(issues)
-    print("[*] Supporting data generation finished")
 
     def prepare_data_collection(days, closers):
         template = []
@@ -227,7 +219,6 @@ def issue_deltas(data_file: Path, output: Path) -> None:
 
     print("[*] Data file loaded")
     months = get_months(issues)
-    print("[*] Supporting data generation finished")
 
     def cal_delta_over_time(open_issues_over_time):
         delta_per_month = []
