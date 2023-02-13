@@ -159,6 +159,10 @@ class Repo:
     def __str__(self) -> str:
         return f"{self.owner}/{self.name}"
 
+    @property
+    def fullname(self) -> str:
+        return str(self)
+
     @classmethod
     def parse(cls, r: str) -> "Repo":
         repo = tuple(r.split("/"))

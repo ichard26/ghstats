@@ -3,10 +3,10 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Richard's GitHub stats playground</title>
+    <title>psf/black - GHstats</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="data:text/css;base64,OnJvb3QgewogIC0tcHJpbWFyeS1hY2NlbnQtY29sb3I6ICNmYmFhNDA7CiAgLS1zZWNvbmRhcnktYWNjZW50LWNvbG9yOiAjZmQ4ZjAwOwp9CgpodG1sLCBib2R5IHsKICB3aWR0aDogMTAwJTsKICBoZWlnaHQ6IDEwMCU7CiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCBPeHlnZW4sIFVidW50dSwgQ2FudGFyZWxsLCAnT3BlbiBTYW5zJywgJ0hlbHZldGljYSBOZXVlJywgc2Fucy1zZXJpZjsKfQoKYm9keSB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIG1hcmdpbjogMDsKICB0ZXh0LWFsaWduOiBjZW50ZXI7Cn0KCmEgewogIGNvbG9yOiBpbmhlcml0Owp9CgpoZWFkZXIgewogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLXByaW1hcnktYWNjZW50LWNvbG9yKTsKICB0ZXh0LXNoYWRvdzogMnB4IDJweCAwcHggdmFyKC0tc2Vjb25kYXJ5LWFjY2VudC1jb2xvcik7Cn0KCmhlYWRlciA+IGgxLCBoZWFkZXIgPiBwIHsKICBtYXJnaW46IDA7CiAgcGFkZGluZzogMjBweCAxNXB4OwogIGNvbG9yOiB3aGl0ZTsKfQoKaGVhZGVyID4gaDEgeyBwYWRkaW5nOiAyMHB4IDE1cHggMTBweCAxNXB4OyB9CmhlYWRlciA+IHAgeyBwYWRkaW5nOiAxMHB4IDE1cHggMjBweCAxNXB4OyBmb250LXdlaWdodDogYm9sZDsgfQoKLmd1aWRlLWxpc3QgewogIHdpZHRoOiBmaXQtY29udGVudDsKICBtYXJnaW46IGF1dG87CiAgbGlzdC1zdHlsZS10eXBlOiBub25lOwp9CgpoMiB7CiAgY29sb3I6IHZhcigtLXNlY29uZGFyeS1hY2NlbnQtY29sb3IpOwogIG1hcmdpbi1ib3R0b206IDAuNGVtOwp9CgoucmVwby1tZW51LCAuZGF0YS12aWV3LXNlY3Rpb24gewogIHBhZGRpbmc6IDF2aCA4dnc7CiAgbWFyZ2luLWJvdHRvbTogMWVtOwp9CgoucmVwby1tZW51IHsKICBkaXNwbGF5OiBncmlkOwogIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKfQoKLnJlcG8tbWVudSBhIHsKICBwYWRkaW5nOiAyMHB4OwogIG1hcmdpbjogMTBweDsKICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyZXk7CiAgYm9yZGVyLXJhZGl1czogMC4ycmVtOwogIGJveC1zaGFkb3c6IDAgMC4ycmVtIDAuNXJlbSByZ2IoMCAwIDAgLyAxNSUpLCAwIDAgMC4xcmVtIHJnYigwIDAgMCAvIDI1JSk7CiAgZm9udC13ZWlnaHQ6IGJvbGQ7Cn0KCi5yZXBvLW1lbnUgYTpob3ZlciB7CiAgYmFja2dyb3VuZC1jb2xvcjogZ3JleTsKfQoKZm9vdGVyIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1wcmltYXJ5LWFjY2VudC1jb2xvcik7CiAgY29sb3I6IHdoaXRlOwogIGZvbnQtd2VpZ2h0OiBib2xkOwogIHBhZGRpbmc6IDIwcHggMTVweDsKICBtYXJnaW4tdG9wOiBhdXRvOwp9Cg==">
-    
+    <link rel="stylesheet" type="text/css" media="screen" href="data:text/css;base64,OnJvb3QgewogIC0tcHJpbWFyeS1hY2NlbnQtY29sb3I6ICNmYmFhNDA7CiAgLS1zZWNvbmRhcnktYWNjZW50LWNvbG9yOiAjZmQ4ZjAwOwp9CgpodG1sLCBib2R5IHsKICB3aWR0aDogMTAwJTsKICBoZWlnaHQ6IDEwMCU7CiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCBPeHlnZW4sIFVidW50dSwgQ2FudGFyZWxsLCAnT3BlbiBTYW5zJywgJ0hlbHZldGljYSBOZXVlJywgc2Fucy1zZXJpZjsKfQoKYm9keSB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIG1hcmdpbjogMDsKICB0ZXh0LWFsaWduOiBjZW50ZXI7Cn0KCmEgewogIGNvbG9yOiBpbmhlcml0Owp9CgpoZWFkZXIgewogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLXByaW1hcnktYWNjZW50LWNvbG9yKTsKICB0ZXh0LXNoYWRvdzogMnB4IDJweCAwcHggdmFyKC0tc2Vjb25kYXJ5LWFjY2VudC1jb2xvcik7Cn0KCmhlYWRlciA+IGgxLCBoZWFkZXIgPiBwIHsKICBtYXJnaW46IDA7CiAgcGFkZGluZzogMjBweCAxNXB4OwogIGNvbG9yOiB3aGl0ZTsKfQoKaGVhZGVyID4gaDEgeyBwYWRkaW5nOiAyMHB4IDE1cHggMTBweCAxNXB4OyB9CmhlYWRlciA+IHAgeyBwYWRkaW5nOiAxMHB4IDE1cHggMjBweCAxNXB4OyBmb250LXdlaWdodDogYm9sZDsgfQoKLmd1aWRlLWxpc3QgewogIHdpZHRoOiBmaXQtY29udGVudDsKICBtYXJnaW46IGF1dG87CiAgbGlzdC1zdHlsZS10eXBlOiBub25lOwp9CgpoMiB7CiAgY29sb3I6IHZhcigtLXNlY29uZGFyeS1hY2NlbnQtY29sb3IpOwogIG1hcmdpbi1ib3R0b206IDAuNGVtOwp9CgoucmVwby1tZW51LCAuZGF0YS12aWV3LXNlY3Rpb24gewogIHBhZGRpbmc6IDF2aCA4dnc7CiAgbWFyZ2luLWJvdHRvbTogMWVtOwp9CgoucmVwby1tZW51IHsKICBkaXNwbGF5OiBncmlkOwogIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKfQoKLnJlcG8tbWVudSBhIHsKICBwYWRkaW5nOiAyMHB4OwogIG1hcmdpbjogMTBweDsKICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyZXk7CiAgYm9yZGVyLXJhZGl1czogMC4ycmVtOwogIGJveC1zaGFkb3c6IDAgMC4ycmVtIDAuNXJlbSByZ2IoMCAwIDAgLyAxNSUpLCAwIDAgMC4xcmVtIHJnYigwIDAgMCAvIDI1JSk7CiAgZm9udC13ZWlnaHQ6IGJvbGQ7Cn0KCi5yZXBvLW1lbnUgYTpob3ZlciB7CiAgYmFja2dyb3VuZC1jb2xvcjogZ3JleTsKfQoKZm9vdGVyIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1wcmltYXJ5LWFjY2VudC1jb2xvcik7CiAgY29sb3I6IHdoaXRlOwogIHBhZGRpbmc6IDIwcHggMTVweDsKICBtYXJnaW4tdG9wOiBhdXRvOwp9Cg==">
+
     <script type="module" crossorigin src="/ghstats/assets/black.js"></script>
     <link rel="modulepreload" crossorigin href="/ghstats/assets/lib.js">
   </head>
@@ -14,46 +14,46 @@
   <body>
     <main>
       <header>
-        <h1>Richard's GitHub stats playground</h1>
+        <h1>Richard's playground for visualizing GitHub data</h1>
         <p>Graphs of issue and pull request data and more!</p>
       </header>
-      <p><b><a href="../">Return to repository menu</a></b></p>
-      <h2><strong>[super duper quick guide]</strong></h2>
-      <ul class="guide-list">
-        <li><strong>click & drag</strong> -> moves the chart</li>
-        <li><strong>ctrl + click & drag</strong> -> select area to zoom in</li>
-        <li><strong>double click</strong> -> resets the chart</li>
-        <li><strong>click legend items</strong> -> disable/enable datasets</li>
-      </ul>
-      <section class="data-view-section" id="black-issues-chart-section">
-        <h2>psf/black issues</h2>
-        <div class="chart-div-container">
-          <canvas></canvas>
-        </div>
-      </section>
-      <section class="data-view-section" id="black-pulls-chart-section">
-        <h2>psf/black pull requests</h2>
-        <div class="chart-div-container">
-          <canvas></canvas>
-        </div>
-      </section>
-      <section class="data-view-section" id="black-issue-deltas-chart-section">
-        <h2>psf/black issue deltas</h2>
-        <div class="chart-div-container">
-          <canvas></canvas>
-        </div>
-      </section>
-      <section class="data-view-section" id="black-issue-closers-chart-section">
-        <h2>psf/black issue closers</h2>
-        <p>heyyyy Jelle 👀</p>
-        <div class="chart-div-container">
-          <canvas></canvas>
-        </div>
-      </section>
-    </main>
+<p><b><a href="../">Return to repository menu</a></b></p>
+<h2><strong>[Chart guide]</strong></h2>
+<ul class="guide-list">
+  <li><strong>click & drag</strong> -> moves the chart</li>
+  <li><strong>ctrl + click & drag</strong> -> select area to zoom in</li>
+  <li><strong>double click</strong> -> resets the chart</li>
+  <li><strong>click legend items</strong> -> disable/enable datasets</li>
+</ul>
+ <section class="data-view-section" id="issue-counts-chart-section">
+  <h2>psf/black issues</h2>
+  <div class="chart-div-container">
+    <canvas></canvas>
+  </div>
+</section>
+  <section class="data-view-section" id="pull-counts-chart-section">
+  <h2>psf/black pull requests</h2>
+  <div class="chart-div-container">
+    <canvas></canvas>
+  </div>
+</section>
+  <section class="data-view-section" id="issue-deltas-chart-section">
+  <h2>psf/black issue deltas</h2>
+  <div class="chart-div-container">
+    <canvas></canvas>
+  </div>
+</section>
+  <section class="data-view-section" id="issue-closers-chart-section">
+  <h2>psf/black issue closers</h2>
+  <div class="chart-div-container">
+    <canvas></canvas>
+  </div>
+</section>
+     </main>
     <footer>
-      <p>© 2022-present
-        <a href="https://github.com/ichard26">Richard Si</a>
+      <p>
+      <b>© <a href="https://ichard26.github.io/">Richard Si</a></b>
+      • Made with @ichard26's <a href="https://github.com/ichard26/ghstats">GHstats</a>
       </p>
     </footer>
   </body>
