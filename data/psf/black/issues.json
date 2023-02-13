@@ -42055,6 +42055,42 @@
       "created_by": "WMOkiishi",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3565,
+      "title": "Outdated documentation for isort compatibility",
+      "labels": [
+        "T: documentation",
+        "C: integrations",
+        "F: linebreak"
+      ],
+      "is_pr": false,
+      "created_at": "2023-02-12T20:25:47+00:00",
+      "created_by": "mitchnegus",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3566,
+      "title": "Do not add empty lines before `# endregion` comments",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-02-12T20:36:14+00:00",
+      "created_by": "bersbersbers",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3567,
+      "title": "Update documentation regarding isort compatibility",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-02-12T23:42:59+00:00",
+      "created_by": "mitchnegus",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -42062,7 +42098,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-02-12T15:10:01+00:00",
+    "last_updated": "2023-02-13T15:11:36+00:00",
     "version": 1
   }
 }
