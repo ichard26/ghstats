@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Repositories</h2>
+<div class="repo-menu">
+  {% for repo in repositories %}
+  <a href="./{{ repo.name }}/">{{ repo.fullname }}</a>
+  {% endfor %}
+</div>
+{% endblock content %}

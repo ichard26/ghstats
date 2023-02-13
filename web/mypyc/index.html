@@ -3,42 +3,79 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Richard's GitHub stats playground</title>
+    <title>mypyc/mypyc - GHstats</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/_assets/style.css">
-    <script defer type="module" src="mypyc.js"></script>
+<script type="module">
+import { dataBaseURL, barOptions, createChartElement, lineOptions, loadTimeSeriesJSON } from '../_assets/lib.js'
+
+const issueCountsURL = dataBaseURL + "mypyc/mypyc/issue-counts.json";
+const pullCountsURL = dataBaseURL + "mypyc/mypyc/pull-counts.json";
+const issueDeltasURL = dataBaseURL + "mypyc/mypyc/issue-deltas.json";
+const issueClosersURL = dataBaseURL + "mypyc/mypyc/issue-closers.json";
+
+async function loadCharts() {
+    let startTime = performance.now()
+
+    let response = await fetch(issueCountsURL);
+    const issue_data = await response.json();
+    createChartElement("issue-counts", {
+        type: 'line',
+        data: { datasets: loadTimeSeriesJSON(issue_data) },
+        options: lineOptions("Open issues"),
+    });
+
+
+    response = await fetch(issueDeltasURL);
+    const deltas_data = await response.json();
+    createChartElement("issue-deltas", {
+        type: 'bar',
+        data: { datasets: loadTimeSeriesJSON(deltas_data, true, false) },
+        options: barOptions("changes"),
+    });
+
+
+    const elapsed = Math.round(performance.now() - startTime);
+    console.log(
+        `[debug] loading charts took ${elapsed} milliseconds`
+    )
+}
+
+loadCharts();
+</script>
   </head>
 
   <body>
     <main>
       <header>
-        <h1>Richard's GitHub stats playground</h1>
+        <h1>Richard's playground for visualizing GitHub data</h1>
         <p>Graphs of issue and pull request data and more!</p>
       </header>
-      <p><b><a href="../">Return to repository menu</a></b></p>
-      <h2><strong>[super duper quick guide]</strong></h2>
-      <ul class="guide-list">
-        <li><strong>click & drag</strong> -> moves the chart</li>
-        <li><strong>ctrl + click & drag</strong> -> select area to zoom in</li>
-        <li><strong>double click</strong> -> resets the chart</li>
-        <li><strong>click legend items</strong> -> disable/enable datasets</li>
-      </ul>
-      <section class="data-view-section" id="issues-chart-section">
-        <h2>mypyc/mypyc issues</h2>
-        <div class="chart-div-container">
-          <canvas></canvas>
-        </div>
-      </section>
-      <section class="data-view-section" id="issue-deltas-chart-section">
-        <h2>mypyc/mypyc issue deltas</h2>
-        <div class="chart-div-container">
-          <canvas></canvas>
-        </div>
-      </section>
-    </main>
+<p><b><a href="../">Return to repository menu</a></b></p>
+<h2><strong>[Chart guide]</strong></h2>
+<ul class="guide-list">
+  <li><strong>click & drag</strong> -> moves the chart</li>
+  <li><strong>ctrl + click & drag</strong> -> select area to zoom in</li>
+  <li><strong>double click</strong> -> resets the chart</li>
+  <li><strong>click legend items</strong> -> disable/enable datasets</li>
+</ul>
+ <section class="data-view-section" id="issue-counts-chart-section">
+  <h2>mypyc/mypyc issues</h2>
+  <div class="chart-div-container">
+    <canvas></canvas>
+  </div>
+</section>
+  <section class="data-view-section" id="issue-deltas-chart-section">
+  <h2>mypyc/mypyc issue deltas</h2>
+  <div class="chart-div-container">
+    <canvas></canvas>
+  </div>
+</section>
+     </main>
     <footer>
-      <p>© 2022-present
-        <a href="https://github.com/ichard26">Richard Si</a>
+      <p>
+      <b>© <a href="https://ichard26.github.io/">Richard Si</a></b>
+      • Made with @ichard26's <a href="https://github.com/ichard26/ghstats">GHstats</a>
       </p>
     </footer>
   </body>

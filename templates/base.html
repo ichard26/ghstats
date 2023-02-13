@@ -3,29 +3,29 @@
 
   <head>
     <meta charset="utf-8">
-    <title>GHstats</title>
+    <title>{% block meta_title %}GHstats{% endblock meta_title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/_assets/style.css">
+    {% block meta_tags %}
+    {% endblock meta_tags %}
   </head>
 
   <body>
     <main>
       <header>
-        <h1>Richard's playground for visualizing GitHub data</h1>
+        <h1>{{ title }}</h1>
         <p>Graphs of issue and pull request data and more!</p>
       </header>
-<h2>Repositories</h2>
-<div class="repo-menu">
-  <a href="./black/">psf/black</a>
-  <a href="./mypyc/">mypyc/mypyc</a>
-</div>
+      {% block content %}
+      {% endblock content %}
     </main>
     <footer>
       <p>
-      <b>© <a href="https://ichard26.github.io/">Richard Si</a></b>
+      <b>© <a href="{{ author.link }}">{{ author.name }}</a></b>
       • Made with @ichard26's <a href="https://github.com/ichard26/ghstats">GHstats</a>
       </p>
     </footer>
   </body>
 
 </html>
+

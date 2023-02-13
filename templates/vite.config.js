@@ -7,8 +7,9 @@ export default defineConfig({
       // https://rollupjs.org/configuration-options/
       input: {
         main: resolve(__dirname, 'index.html'),
-        black: resolve(__dirname, 'black/index.html'),
-        mypyc: resolve(__dirname, 'mypyc/index.html'),
+        {% for repo in repositories %}
+        {{ repo.name }}: resolve(__dirname, '{{ repo.name }}/index.html'),
+        {% endfor %}
       },
       output: {
         entryFileNames: `assets/[name].js`,
@@ -18,3 +19,4 @@ export default defineConfig({
     },
   },
 })
+

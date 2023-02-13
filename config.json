@@ -1,5 +1,7 @@
 {
+    "title": "Richard's playground for visualizing GitHub data",
     "username": "ichard26",
+    "author": { "name": "Richard Si", "link": "https://ichard26.github.io/" },
     "base_path": "/ghstats/",
     "repos": {
         "psf/black": {
