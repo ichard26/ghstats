@@ -41982,7 +41982,9 @@
     {
       "number": 3558,
       "title": "(\ud83d\udc1e) blackd: fix issue for mishandling single character input",
-      "labels": [],
+      "labels": [
+        "S: awaiting response"
+      ],
       "is_pr": true,
       "created_at": "2023-02-10T00:46:02+00:00",
       "created_by": "KotlinIsland",
@@ -42039,11 +42041,13 @@
     {
       "number": 3563,
       "title": "update docs:  actions/checkout v3 [ bump from v2 ]",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-02-10T20:49:58+00:00",
       "created_by": "brucearctor",
-      "closed_at": null,
+      "closed_at": "2023-02-14T01:24:29+00:00",
       "closed_by": null
     },
     {
@@ -42111,7 +42115,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-02-13T23:39:41+00:00",
+    "last_updated": "2023-02-14T15:11:19+00:00",
     "version": 1
   }
 }
