@@ -46,9 +46,10 @@ jobs:
         working-directory: src
         run: |
           mkdir prod-backup
-          cp ../prod/data/ ../prod/.git/ prod-backup -r
+          cp ../prod/data/ prod-backup/data -r || true
           rm ../prod/* -r
-          cp prod-backup/* scripts/ noxfile.py ../prod -r
+          cp scripts/ noxfile.py ../prod -r
+          cp prod-backup/data/ ../prod/data -r || mkdir ../prod/data
           cp web/dist/* ../prod -r
           touch ../prod/.nojekyll
 
