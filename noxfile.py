@@ -11,7 +11,7 @@ def refresh(session: nox.Session) -> None:
     except IndexError:
         session.error("Please specify the /data/ directory")
 
-    session.install("attrs", "click", "colorama", "requests")
+    session.install("attrs", "click", "requests")
     session.run("python", "-m", "scripts.ghstats", "fetch-issue-data", str(base))
     session.run("python", "-m", "scripts.ghstats", "generate-ghstats-data", str(base))
 
@@ -19,5 +19,5 @@ def refresh(session: nox.Session) -> None:
 @nox.session(name="run-ghstats")
 def run_ghstats(session: nox.Session) -> None:
     """Run scripts.ghstats with arguments."""
-    session.install("attrs", "click", "colorama", "jinja2")
+    session.install("attrs", "click", "jinja2", "requests")
     session.run("python", "-m", "scripts.ghstats", *session.posargs)
