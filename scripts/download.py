@@ -5,9 +5,8 @@ from typing import Any, Iterable, Optional, Tuple
 
 import attrs
 import click
-import colorama
 import requests
-from colorama import Fore, Style
+from click import secho
 
 from . import ghlib
 from .ghlib import Issue, IssueSet, Record, Repo
@@ -59,8 +58,6 @@ query GraphQLQuery {
   }
 }
 """
-
-colorama.init(autoreset=True)
 
 RateLimit = Tuple[int, int, datetime]
 
@@ -263,7 +260,7 @@ def repo_callback(ctx: click.Context, param: click.Parameter, value: str) -> Rep
 @click.pass_context
 def main(ctx: click.Context, id: str, api_key: str, debug: bool) -> None:
     if not api_key:
-        print(Fore.RED + "ERROR: GitHub API key or Personal Access Token unavailable.")
+        secho("ERROR: GitHub API key or Personal Access Token unavailable.", fg="red")
         ctx.exit(0)
 
     t0 = time.perf_counter()
@@ -313,7 +310,7 @@ def update(ctx: click.Context, data_files: Iterable[Path]) -> None:
 
     with ctx.obj["fetcher"] as fetcher:
         for df in data_files:
-            print(Style.BRIGHT + f"Update operation for {df!s} starting")
+            secho(f"Update operation for {df!s} starting", bold=True)
             print("Loading data file ... ", end="")
             issue_set, record = ghlib.load(df)
             original_issue_set = IssueSet(issue_set)
@@ -330,16 +327,16 @@ def update(ctx: click.Context, data_files: Iterable[Path]) -> None:
             for i in outdated:
                 kind = "pull request" if i.is_pr else "issue"
                 if i.number not in original_issue_set:
-                    styling = Fore.GREEN
+                    styling = "green"
                     change = "NEW"
                 else:
                     if not original_issue_set[i].closed and i.closed:
-                        styling = Fore.RED
+                        styling = "red"
                         change = "CLOSED"
                     else:
-                        styling = Fore.YELLOW
+                        styling = "yellow"
                         change = "UPDATED"
-                print(styling + f"  {change}", end="")
+                secho("  " + click.style(change, fg=styling), nl=False)
                 print(f" - {kind} {int(i)} '{i.title}'")
 
             new_record = attrs.evolve(record, last_updated=ctx.obj["current-dt"])
