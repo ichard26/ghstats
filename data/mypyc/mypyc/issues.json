@@ -10693,8 +10693,8 @@
       "is_pr": false,
       "created_at": "2023-01-18T06:45:50+00:00",
       "created_by": "KimSoungRyoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-19T04:19:02+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 968,
@@ -10738,6 +10738,7 @@
       "number": 971,
       "title": "Optimized membership tests against constant tuples and lists don't include identity checks as per the language reference",
       "labels": [
+        "bug",
         "priority-2-low",
         "python compat"
       ],
@@ -10778,7 +10779,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-02-17T15:11:17+00:00",
+    "last_updated": "2023-02-19T15:10:07+00:00",
     "version": 1
   }
 }
