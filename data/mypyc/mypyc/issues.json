@@ -7780,8 +7780,11 @@
     },
     {
       "number": 721,
-      "title": "Enum",
-      "labels": [],
+      "title": "IntEnum unsupported",
+      "labels": [
+        "priority-0-high",
+        "feature"
+      ],
       "is_pr": false,
       "created_at": "2020-05-01T13:18:23+00:00",
       "created_by": "benman1",
@@ -7961,7 +7964,9 @@
     {
       "number": 736,
       "title": "Refactor LoadStatic",
-      "labels": [],
+      "labels": [
+        "refactor"
+      ],
       "is_pr": false,
       "created_at": "2020-06-09T17:05:18+00:00",
       "created_by": "TH3CHARLie",
@@ -8050,7 +8055,9 @@
     {
       "number": 744,
       "title": "[Feature Request] mypyc support compilation to WebAssembly",
-      "labels": [],
+      "labels": [
+        "feature"
+      ],
       "is_pr": false,
       "created_at": "2020-07-03T15:26:47+00:00",
       "created_by": "redradist",
@@ -8082,7 +8089,9 @@
     {
       "number": 747,
       "title": "Add result type as an attribute to all ops/values",
-      "labels": [],
+      "labels": [
+        "refactor"
+      ],
       "is_pr": false,
       "created_at": "2020-07-07T20:02:05+00:00",
       "created_by": "JukkaL",
@@ -8290,7 +8299,8 @@
       "labels": [
         "enhancement",
         "help wanted",
-        "good first issue"
+        "good first issue",
+        "refactor"
       ],
       "is_pr": false,
       "created_at": "2020-10-17T17:21:22+00:00",
@@ -9359,8 +9369,8 @@
       "is_pr": false,
       "created_at": "2021-05-03T10:55:40+00:00",
       "created_by": "erny",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-20T18:40:52+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 850,
@@ -9582,6 +9592,7 @@
       "number": 869,
       "title": "Using TypedDict in function triggers AssertionError during compilation",
       "labels": [
+        "bug",
         "priority-0-high",
         "crash"
       ],
@@ -9949,12 +9960,15 @@
     {
       "number": 900,
       "title": "RuntimeError: close method on generator classes unimplemented",
-      "labels": [],
+      "labels": [
+        "duplicate",
+        "feature"
+      ],
       "is_pr": false,
       "created_at": "2021-10-23T18:26:57+00:00",
       "created_by": "abersheeran",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-20T23:36:37+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 901,
@@ -10008,6 +10022,7 @@
       "number": 905,
       "title": "Specialize contextlib.contextmanager",
       "labels": [
+        "priority-1-normal",
         "speed",
         "area-specialized-ops"
       ],
@@ -10117,6 +10132,7 @@
       "number": 916,
       "title": "Unnecessary code when creating closures",
       "labels": [
+        "enhancement",
         "codesize"
       ],
       "is_pr": false,
@@ -10179,6 +10195,7 @@
       "number": 922,
       "title": "Change CPyObject_Hash to return a native int",
       "labels": [
+        "enhancement",
         "speed"
       ],
       "is_pr": false,
@@ -10785,7 +10802,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-02-20T15:11:36+00:00",
+    "last_updated": "2023-02-21T00:46:22+00:00",
     "version": 1
   }
 }
