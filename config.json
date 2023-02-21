@@ -16,7 +16,9 @@
         "mypyc/mypyc": {
             "views": ["issue-counts", "issue-deltas"],
             "view:issue-counts:groups": {
-                "bug": "bug"
+                "bug": "bug",
+                "speed": "speed",
+                "codesize": "codesize"
             }
         }
     }
