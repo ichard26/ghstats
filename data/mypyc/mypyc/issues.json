@@ -10795,6 +10795,16 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 974,
+      "title": "mypyc native classes don't call __set_name__ on descriptors (PEP 487)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-02-21T20:19:52+00:00",
+      "created_by": "tlambert03",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -10802,7 +10812,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-02-21T15:11:47+00:00",
+    "last_updated": "2023-02-22T15:11:28+00:00",
     "version": 1
   }
 }
