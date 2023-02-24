@@ -10535,8 +10535,8 @@
       "is_pr": false,
       "created_at": "2022-10-22T03:29:42+00:00",
       "created_by": "linearcombination",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-02-23T20:26:37+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 953,
@@ -10812,10 +10812,54 @@
     {
       "number": 975,
       "title": "Add Sequence/Mapping like types that are specialized to List/Dict?",
-      "labels": [],
+      "labels": [
+        "speed",
+        "feature",
+        "area-specialized-ops"
+      ],
       "is_pr": false,
       "created_at": "2023-02-22T18:40:06+00:00",
       "created_by": "msullivan",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 976,
+      "title": "Referencing missing generic types in stubs doesn't generate errors ",
+      "labels": [
+        "bug",
+        "contributor UX"
+      ],
+      "is_pr": false,
+      "created_at": "2023-02-23T20:21:14+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 977,
+      "title": "Function-based Enums aren't set up properly (undeclared statics) ",
+      "labels": [
+        "priority-1-normal",
+        "feature"
+      ],
+      "is_pr": false,
+      "created_at": "2023-02-23T20:47:46+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 978,
+      "title": "Overhauling the mypyc user documentation",
+      "labels": [
+        "priority-0-high",
+        "meta",
+        "docs"
+      ],
+      "is_pr": false,
+      "created_at": "2023-02-24T00:56:56+00:00",
+      "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
     }
@@ -10825,7 +10869,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-02-23T15:11:42+00:00",
+    "last_updated": "2023-02-24T15:09:59+00:00",
     "version": 1
   }
 }
