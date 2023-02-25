@@ -42251,6 +42251,18 @@
       "created_by": "mccarthyp-snet",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3581,
+      "title": "Inference of target versions from `requires-python` config is incorrect.",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-02-24T20:04:28+00:00",
+      "created_by": "manueljacob",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -42258,7 +42270,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-02-23T15:11:41+00:00",
+    "last_updated": "2023-02-25T15:10:03+00:00",
     "version": 1
   }
 }
