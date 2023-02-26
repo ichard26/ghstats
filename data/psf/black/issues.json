@@ -42263,6 +42263,19 @@
       "created_by": "manueljacob",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3582,
+      "title": "Multiple accesses are turned multiline when the last argument of a call has a trailing comma",
+      "labels": [
+        "T: style",
+        "F: linebreak"
+      ],
+      "is_pr": false,
+      "created_at": "2023-02-25T20:05:55+00:00",
+      "created_by": "halworsen",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -42270,7 +42283,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-02-25T15:10:03+00:00",
+    "last_updated": "2023-02-26T15:10:15+00:00",
     "version": 1
   }
 }
