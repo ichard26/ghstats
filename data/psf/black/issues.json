@@ -42343,6 +42343,40 @@
       "created_by": "alexandrenorman",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3589,
+      "title": "Consistently wrap two context managers in parens (in --preview).",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-03-01T00:34:06+00:00",
+      "created_by": "yilei",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3590,
+      "title": "dictionary key reference brackets used to split line",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-03-01T00:36:50+00:00",
+      "created_by": "mccarthyp-snet",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3591,
+      "title": "Preview style: async with context managers aren't wrapped in parentheses",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-03-01T05:11:49+00:00",
+      "created_by": "yilei",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -42350,7 +42384,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-02-28T15:11:22+00:00",
+    "last_updated": "2023-03-01T15:11:57+00:00",
     "version": 1
   }
 }
