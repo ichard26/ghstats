@@ -42315,7 +42315,9 @@
     {
       "number": 3586,
       "title": "tests: Ignore pkg_resources.declare_namespace warnings",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-02-27T09:25:39+00:00",
       "created_by": "stanislavlevin",
@@ -42401,6 +42403,16 @@
       "created_by": "tushar-deepsource",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3594,
+      "title": "Support files with type comment syntax errors",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-03-04T06:56:50+00:00",
+      "created_by": "tusharsadhwani",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -42408,7 +42420,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-03-03T15:11:36+00:00",
+    "last_updated": "2023-03-04T15:10:02+00:00",
     "version": 1
   }
 }
