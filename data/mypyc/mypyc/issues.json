@@ -4826,6 +4826,7 @@
       "number": 451,
       "title": "Fix up tuple unboxing code",
       "labels": [
+        "priority-0-high",
         "codesize",
         "speed"
       ],
@@ -7637,7 +7638,8 @@
       "title": "Generalize IR to make non-C backends possible",
       "labels": [
         "enhancement",
-        "priority-0-high"
+        "priority-0-high",
+        "refactor"
       ],
       "is_pr": false,
       "created_at": "2020-01-18T12:06:33+00:00",
@@ -7976,7 +7978,9 @@
     {
       "number": 737,
       "title": "Refactor name generation logic",
-      "labels": [],
+      "labels": [
+        "refactor"
+      ],
       "is_pr": false,
       "created_at": "2020-06-11T08:36:17+00:00",
       "created_by": "TH3CHARLie",
@@ -10866,10 +10870,22 @@
     {
       "number": 979,
       "title": "skipped init when serializable=True class inheriting from allow_interpreted_subclasses=True",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2023-03-02T08:27:13+00:00",
       "created_by": "mr-c",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 980,
+      "title": "Codegen C extensions Support PEP489 and PEP630?",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-03-06T12:21:49+00:00",
+      "created_by": "JunyiXie",
       "closed_at": null,
       "closed_by": null
     }
@@ -10879,7 +10895,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-03-05T15:10:23+00:00",
+    "last_updated": "2023-03-06T15:11:46+00:00",
     "version": 1
   }
 }
