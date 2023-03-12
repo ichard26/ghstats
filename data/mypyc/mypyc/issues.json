@@ -8596,7 +8596,7 @@
       "title": "Don't add imports made in functions to globals",
       "labels": [
         "bug",
-        "priority-1-normal",
+        "priority-2-low",
         "python compat"
       ],
       "is_pr": false,
@@ -10895,7 +10895,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-03-11T15:09:43+00:00",
+    "last_updated": "2023-03-12T15:09:46+00:00",
     "version": 1
   }
 }
