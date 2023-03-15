@@ -768,7 +768,7 @@
       "created_at": "2018-03-23T07:34:28+00:00",
       "created_by": "sfermigier",
       "closed_at": "2018-05-16T22:27:02+00:00",
-      "closed_by": "carljm"
+      "closed_by": "ambv"
     },
     {
       "number": 68,
@@ -42512,7 +42512,7 @@
       "is_pr": true,
       "created_at": "2023-03-13T06:58:04+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2023-03-15T07:30:04+00:00",
       "closed_by": null
     },
     {
@@ -42550,6 +42550,30 @@
       "created_by": "DavidKorczynski",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3606,
+      "title": "Parenthesizing a lambda's body if it contain line wraps",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-03-14T23:22:13+00:00",
+      "created_by": "huzecong",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3607,
+      "title": "Sort types in Unions",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-03-15T10:58:55+00:00",
+      "created_by": "jakkdl",
+      "closed_at": "2023-03-15T14:36:37+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -42557,7 +42581,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-03-14T15:13:58+00:00",
+    "last_updated": "2023-03-15T15:11:09+00:00",
     "version": 1
   }
 }

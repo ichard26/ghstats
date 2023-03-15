@@ -1031,7 +1031,6 @@
       "number": 99,
       "title": "Avoid pointless boxing and unboxing",
       "labels": [
-        "priority-2-low",
         "codesize",
         "speed"
       ],
@@ -10706,8 +10705,8 @@
       "is_pr": false,
       "created_at": "2023-01-09T12:14:28+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-03-14T19:26:15+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 967,
@@ -10888,6 +10887,16 @@
       "created_by": "JunyiXie",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 981,
+      "title": "More benchmarks",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-03-15T07:47:11+00:00",
+      "created_by": "vmstarchenko",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -10895,7 +10904,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-03-13T15:10:23+00:00",
+    "last_updated": "2023-03-15T15:11:12+00:00",
     "version": 1
   }
 }
