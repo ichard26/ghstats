@@ -10897,6 +10897,16 @@
       "created_by": "vmstarchenko",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 982,
+      "title": "Wrong output for combined expressions",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-03-15T17:30:00+00:00",
+      "created_by": "4atj",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -10904,7 +10914,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-03-15T15:11:12+00:00",
+    "last_updated": "2023-03-16T15:11:56+00:00",
     "version": 1
   }
 }
