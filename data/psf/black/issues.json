@@ -1623,7 +1623,7 @@
       "created_at": "2018-04-18T08:31:33+00:00",
       "created_by": "Lukas0907",
       "closed_at": "2020-09-21T19:07:57+00:00",
-      "closed_by": "ambv"
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 145,
@@ -9131,7 +9131,7 @@
       "created_at": "2019-05-05T02:46:35+00:00",
       "created_by": "durin42",
       "closed_at": "2019-10-20T14:08:35+00:00",
-      "closed_by": "ambv"
+      "closed_by": null
     },
     {
       "number": 827,
@@ -40602,7 +40602,7 @@
       "is_pr": true,
       "created_at": "2022-12-17T07:32:22+00:00",
       "created_by": "dahlia",
-      "closed_at": null,
+      "closed_at": "2023-03-19T23:09:58+00:00",
       "closed_by": null
     },
     {
@@ -41284,13 +41284,12 @@
       "labels": [
         "T: documentation",
         "C: dependencies",
-        "skip news",
-        "S: blocked"
+        "skip news"
       ],
       "is_pr": true,
       "created_at": "2023-01-16T06:01:14+00:00",
-      "created_by": "dependabot",
-      "closed_at": null,
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-03-19T23:00:14+00:00",
       "closed_by": null
     },
     {
@@ -42401,8 +42400,8 @@
       "is_pr": false,
       "created_at": "2023-03-03T13:07:27+00:00",
       "created_by": "tushar-deepsource",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-03-19T22:52:08+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 3594,
@@ -42411,7 +42410,7 @@
       "is_pr": true,
       "created_at": "2023-03-04T06:56:50+00:00",
       "created_by": "tusharsadhwani",
-      "closed_at": null,
+      "closed_at": "2023-03-19T22:52:07+00:00",
       "closed_by": null
     },
     {
@@ -42499,7 +42498,7 @@
       "is_pr": true,
       "created_at": "2023-03-13T06:57:01+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2023-03-19T22:52:41+00:00",
       "closed_by": null
     },
     {
@@ -42543,7 +42542,8 @@
       "number": 3605,
       "title": "AttributeError in format_file_contents",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: crash"
       ],
       "is_pr": false,
       "created_at": "2023-03-14T00:23:23+00:00",
@@ -42666,6 +42666,30 @@
       "created_by": "yilei",
       "closed_at": "2023-03-19T14:43:39+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3616,
+      "title": "(\ud83d\udc1e) blackd bad f-string fragment causes 500 response",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-03-20T06:56:48+00:00",
+      "created_by": "KotlinIsland",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3617,
+      "title": "extend-exclude does not work for files. ",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-03-20T13:47:41+00:00",
+      "created_by": "asgerbolet",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -42673,7 +42697,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-03-19T15:10:07+00:00",
+    "last_updated": "2023-03-20T15:11:00+00:00",
     "version": 1
   }
 }
