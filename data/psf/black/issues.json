@@ -42700,8 +42700,8 @@
       "is_pr": false,
       "created_at": "2023-03-21T15:01:54+00:00",
       "created_by": "sehoffmann",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-03-21T15:15:13+00:00",
+      "closed_by": "sehoffmann"
     }
   ],
   "record": {
@@ -42709,7 +42709,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-03-21T15:10:12+00:00",
+    "last_updated": "2023-03-22T15:11:07+00:00",
     "version": 1
   }
 }
