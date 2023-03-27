@@ -42751,6 +42751,32 @@
       "created_by": "matejsp",
       "closed_at": "2023-03-24T11:56:20+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3623,
+      "title": "(\ud83d\udc1e) Inconsistent quote formatting with adjacent string literals",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-03-27T04:22:02+00:00",
+      "created_by": "KotlinIsland",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3624,
+      "title": "Bump furo from 2022.12.7 to 2023.3.23 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-03-27T06:57:23+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-03-27T11:15:43+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -42758,7 +42784,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-03-26T15:09:17+00:00",
+    "last_updated": "2023-03-27T15:11:32+00:00",
     "version": 1
   }
 }

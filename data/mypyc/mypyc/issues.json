@@ -10950,6 +10950,30 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 986,
+      "title": "Faster float unboxing",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2023-03-26T18:12:46+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 987,
+      "title": "Faster native int unboxing",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2023-03-26T18:16:27+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -10957,7 +10981,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-03-26T15:09:18+00:00",
+    "last_updated": "2023-03-27T15:11:34+00:00",
     "version": 1
   }
 }
