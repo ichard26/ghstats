@@ -39825,8 +39825,8 @@
       "is_pr": false,
       "created_at": "2022-11-14T13:40:52+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-03-28T01:40:29+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3383,
@@ -41387,8 +41387,8 @@
       "is_pr": false,
       "created_at": "2023-01-20T14:37:13+00:00",
       "created_by": "kephircheek",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-03-28T04:12:30+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3508,
@@ -41397,7 +41397,7 @@
       "is_pr": true,
       "created_at": "2023-01-20T15:58:51+00:00",
       "created_by": "kephircheek",
-      "closed_at": null,
+      "closed_at": "2023-03-28T04:12:25+00:00",
       "closed_by": null
     },
     {
@@ -41797,7 +41797,7 @@
       "is_pr": true,
       "created_at": "2023-02-02T17:25:27+00:00",
       "created_by": "Jackenmen",
-      "closed_at": null,
+      "closed_at": "2023-03-28T01:40:28+00:00",
       "closed_by": null
     },
     {
@@ -42777,6 +42777,18 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2023-03-27T11:15:43+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3625,
+      "title": "Prepare release 23.3.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-03-28T02:01:14+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -42784,7 +42796,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-03-27T15:11:32+00:00",
+    "last_updated": "2023-03-28T15:11:28+00:00",
     "version": 1
   }
 }
