@@ -29353,7 +29353,7 @@
       "created_at": "2021-10-07T08:31:21+00:00",
       "created_by": "Shivansh-007",
       "closed_at": "2022-12-29T22:19:56+00:00",
-      "closed_by": "JelleZijlstra"
+      "closed_by": null
     },
     {
       "number": 2528,
@@ -32298,7 +32298,7 @@
       "created_at": "2022-01-14T09:57:20+00:00",
       "created_by": "Shivansh-007",
       "closed_at": "2022-12-29T22:31:59+00:00",
-      "closed_by": "JelleZijlstra"
+      "closed_by": null
     },
     {
       "number": 2771,
@@ -34382,7 +34382,7 @@
       "created_at": "2022-03-18T16:18:21+00:00",
       "created_by": "Shivansh-007",
       "closed_at": "2022-07-27T21:19:29+00:00",
-      "closed_by": "ichard26"
+      "closed_by": null
     },
     {
       "number": 2942,
@@ -42891,7 +42891,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-01T15:08:59+00:00",
+    "last_updated": "2023-04-02T15:08:54+00:00",
     "version": 1
   }
 }
