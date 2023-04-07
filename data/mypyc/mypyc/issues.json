@@ -10987,6 +10987,16 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 989,
+      "title": "multiprocessingForkingPickler errors when multiprocessing calls mypyc compiled code",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-04-06T20:55:52+00:00",
+      "created_by": "Paradoxdruid",
+      "closed_at": "2023-04-07T01:05:50+00:00",
+      "closed_by": "Paradoxdruid"
     }
   ],
   "record": {
@@ -10994,7 +11004,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-04-05T15:11:44+00:00",
+    "last_updated": "2023-04-07T15:09:46+00:00",
     "version": 1
   }
 }
