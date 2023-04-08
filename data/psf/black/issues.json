@@ -42946,6 +42946,16 @@
       "created_by": "vishalnandagopal",
       "closed_at": "2023-04-03T18:10:59+00:00",
       "closed_by": "vishalnandagopal"
+    },
+    {
+      "number": 3640,
+      "title": "Do not wrap implicitly concatenated strings used as func args in parens.",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-04-07T22:59:51+00:00",
+      "created_by": "yilei",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -42953,7 +42963,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-07T15:09:45+00:00",
+    "last_updated": "2023-04-08T15:08:53+00:00",
     "version": 1
   }
 }
