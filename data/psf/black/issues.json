@@ -43003,6 +43003,30 @@
       "created_by": "Chandrabhanjha",
       "closed_at": "2023-04-12T13:53:38+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3645,
+      "title": "Explicitly annotate this with `Final[str]` to make it work in mypyc 1.0.0+.",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-04-13T23:03:10+00:00",
+      "created_by": "yilei",
+      "closed_at": "2023-04-14T00:12:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3646,
+      "title": "(\ud83c\udf81) Ability to specify default files in the config",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-14T05:50:12+00:00",
+      "created_by": "KotlinIsland",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43010,7 +43034,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-13T15:10:13+00:00",
+    "last_updated": "2023-04-14T15:09:58+00:00",
     "version": 1
   }
 }
