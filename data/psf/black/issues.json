@@ -43020,13 +43020,16 @@
       "number": 3646,
       "title": "(\ud83c\udf81) Ability to specify default files in the config",
       "labels": [
-        "T: enhancement"
+        "R: duplicate",
+        "T: enhancement",
+        "C: configuration",
+        "C: file collection"
       ],
       "is_pr": false,
       "created_at": "2023-04-14T05:50:12+00:00",
       "created_by": "KotlinIsland",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-17T02:11:35+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3647,
@@ -43051,6 +43054,42 @@
       "created_by": "yilei",
       "closed_at": "2023-04-14T21:05:08+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3649,
+      "title": "Ugly line splitting for 3.10+ union type hints",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-16T20:12:59+00:00",
+      "created_by": "NiklasRosenstein",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3650,
+      "title": "Documented black-jupyter hook",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-04-17T00:41:42+00:00",
+      "created_by": "jamesbraza",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3651,
+      "title": "Bump sphinx-copybutton from 0.5.1 to 0.5.2 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-04-17T06:56:59+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-04-17T14:17:11+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -43058,7 +43097,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-15T15:08:56+00:00",
+    "last_updated": "2023-04-17T15:10:26+00:00",
     "version": 1
   }
 }
