@@ -8571,7 +8571,7 @@
     },
     {
       "number": 785,
-      "title": "Development focus areas for 2021",
+      "title": "Development focus areas for 2023",
       "labels": [
         "meta"
       ],
@@ -11014,6 +11014,20 @@
       "created_by": "yilei",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 992,
+      "title": "Segmentation fault executing mypyc compiled code with dataclass referencing a class that has not been defined",
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "crash"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-17T21:41:53+00:00",
+      "created_by": "shaolo1",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11021,7 +11035,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-04-17T15:10:29+00:00",
+    "last_updated": "2023-04-18T15:11:27+00:00",
     "version": 1
   }
 }

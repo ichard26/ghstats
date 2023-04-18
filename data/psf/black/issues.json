@@ -43070,7 +43070,11 @@
     {
       "number": 3650,
       "title": "Documented black-jupyter hook",
-      "labels": [],
+      "labels": [
+        "T: documentation",
+        "C: integrations",
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-04-17T00:41:42+00:00",
       "created_by": "jamesbraza",
@@ -43097,7 +43101,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-17T15:10:26+00:00",
+    "last_updated": "2023-04-18T15:11:26+00:00",
     "version": 1
   }
 }
