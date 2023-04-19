@@ -14085,14 +14085,15 @@
       "number": 1269,
       "title": "Option not to install black venv and use the system one",
       "labels": [
+        "R: duplicate",
         "T: enhancement",
         "C: vim"
       ],
       "is_pr": false,
       "created_at": "2020-02-10T21:54:54+00:00",
       "created_by": "mcepl",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-19T03:38:51+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 1270,
@@ -38932,7 +38933,7 @@
       "created_at": "2022-10-04T00:48:11+00:00",
       "created_by": "bugfood",
       "closed_at": "2022-10-27T23:55:34+00:00",
-      "closed_by": "cooperlees"
+      "closed_by": null
     },
     {
       "number": 3310,
@@ -42966,8 +42967,8 @@
       "is_pr": false,
       "created_at": "2023-04-09T04:33:54+00:00",
       "created_by": "jamesbraza",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-19T10:24:05+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3642,
@@ -43078,7 +43079,7 @@
       "is_pr": true,
       "created_at": "2023-04-17T00:41:42+00:00",
       "created_by": "jamesbraza",
-      "closed_at": null,
+      "closed_at": "2023-04-19T10:24:04+00:00",
       "closed_by": null
     },
     {
@@ -43094,6 +43095,28 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2023-04-17T14:17:11+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3654,
+      "title": "Allow aligning assignments using multiple spaces before `=`",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-18T23:34:39+00:00",
+      "created_by": "sven-frotscher",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3655,
+      "title": "docs: update note on GitHub .git-blame-ignore-revs support",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-04-19T09:33:37+00:00",
+      "created_by": "soxofaan",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43101,7 +43124,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-18T15:11:26+00:00",
+    "last_updated": "2023-04-19T15:10:27+00:00",
     "version": 1
   }
 }
