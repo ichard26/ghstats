@@ -6918,8 +6918,7 @@
       "labels": [
         "help wanted",
         "priority-0-high",
-        "speed",
-        "good first issue"
+        "speed"
       ],
       "is_pr": false,
       "created_at": "2019-06-08T23:55:20+00:00",
@@ -8216,8 +8215,7 @@
       "title": "Faster basic tagged integer operations",
       "labels": [
         "help wanted",
-        "speed",
-        "good first issue"
+        "speed"
       ],
       "is_pr": false,
       "created_at": "2020-08-18T16:43:41+00:00",
@@ -8278,8 +8276,7 @@
       "number": 762,
       "title": "Add primitive for bit_length()",
       "labels": [
-        "speed",
-        "good first issue"
+        "speed"
       ],
       "is_pr": false,
       "created_at": "2020-10-06T10:12:42+00:00",
@@ -9234,7 +9231,6 @@
       "title": "Support missing slots in mypyc",
       "labels": [
         "priority-1-normal",
-        "good first issue",
         "python compat"
       ],
       "is_pr": false,
@@ -11050,7 +11046,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-04-22T15:08:57+00:00",
+    "last_updated": "2023-04-24T15:10:25+00:00",
     "version": 1
   }
 }
