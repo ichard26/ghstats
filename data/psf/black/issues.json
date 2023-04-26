@@ -43065,8 +43065,8 @@
       "is_pr": false,
       "created_at": "2023-04-16T20:12:59+00:00",
       "created_by": "NiklasRosenstein",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-26T04:39:07+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3650,
@@ -43168,6 +43168,18 @@
       "created_by": "jonathanberthias",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3660,
+      "title": "Whitespace around = in multi-line function call",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-26T01:00:38+00:00",
+      "created_by": "st-pasha",
+      "closed_at": "2023-04-26T03:24:59+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -43175,7 +43187,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-25T15:10:11+00:00",
+    "last_updated": "2023-04-26T15:10:10+00:00",
     "version": 1
   }
 }
