@@ -43180,6 +43180,40 @@
       "created_by": "st-pasha",
       "closed_at": "2023-04-26T03:24:59+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3661,
+      "title": "Fix \"# pyright: ignore\" comment mobility",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-04-26T18:44:51+00:00",
+      "created_by": "etripier",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3662,
+      "title": "If a dictionary key with leading 12 spaces is being assigned a long string, it will split the variable and key with new line",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-26T18:52:13+00:00",
+      "created_by": "curiouslaw",
+      "closed_at": "2023-04-26T20:10:27+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3663,
+      "title": "Better whitespace allocation for an assert statement",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-26T20:52:37+00:00",
+      "created_by": "st-pasha",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43187,7 +43221,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-26T15:10:10+00:00",
+    "last_updated": "2023-04-27T15:09:01+00:00",
     "version": 1
   }
 }
