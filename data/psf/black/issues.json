@@ -43214,6 +43214,54 @@
       "created_by": "st-pasha",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3664,
+      "title": "Multi-line raw strings do not get merged properly into a single string",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-27T19:08:21+00:00",
+      "created_by": "st-pasha",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3665,
+      "title": "Preview style duplicates comments when reformatting a multi-line call with comments in the middle",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-27T21:42:41+00:00",
+      "created_by": "yilei",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3666,
+      "title": "blackd hangs ",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-28T01:02:37+00:00",
+      "created_by": "Loch64",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3667,
+      "title": "Excessive additional whitespace when using \"\"\" \"\"\" to document functions and tab indentation",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-28T11:41:21+00:00",
+      "created_by": "wardioai",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43221,7 +43269,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-27T15:09:01+00:00",
+    "last_updated": "2023-04-28T15:09:35+00:00",
     "version": 1
   }
 }
