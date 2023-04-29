@@ -4226,7 +4226,7 @@
       "created_at": "2018-06-26T21:46:36+00:00",
       "created_by": "quodlibetor",
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "zsol"
     },
     {
       "number": 380,
@@ -5242,8 +5242,8 @@
       "is_pr": false,
       "created_at": "2018-08-22T10:22:06+00:00",
       "created_by": "madig",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:06:17+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 473,
@@ -11182,8 +11182,8 @@
       "is_pr": false,
       "created_at": "2019-09-11T16:05:42+00:00",
       "created_by": "edreamleo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:10:32+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1015,
@@ -11295,8 +11295,8 @@
       "is_pr": false,
       "created_at": "2019-09-17T01:10:10+00:00",
       "created_by": "asford",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:11:09+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1025,
@@ -11389,8 +11389,8 @@
       "is_pr": false,
       "created_at": "2019-09-24T17:18:37+00:00",
       "created_by": "cfbolz",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:31:29+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1034,
@@ -13534,8 +13534,8 @@
       "is_pr": false,
       "created_at": "2020-01-07T12:35:01+00:00",
       "created_by": "exhuma",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:18:10+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1223,
@@ -13726,7 +13726,8 @@
       "title": "Comments removed in pyi files",
       "labels": [
         "T: bug",
-        "F: comments"
+        "F: comments",
+        "C: crash"
       ],
       "is_pr": false,
       "created_at": "2020-01-20T15:33:55+00:00",
@@ -15067,8 +15068,8 @@
       "is_pr": false,
       "created_at": "2020-04-22T10:42:27+00:00",
       "created_by": "NakulK48",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:12:04+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1354,
@@ -15092,8 +15093,8 @@
       "is_pr": false,
       "created_at": "2020-04-22T22:21:35+00:00",
       "created_by": "leos",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:16:51+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1356,
@@ -17055,8 +17056,8 @@
       "is_pr": false,
       "created_at": "2020-06-30T15:54:50+00:00",
       "created_by": "joaoe",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:26:21+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1526,
@@ -17252,8 +17253,8 @@
       "is_pr": false,
       "created_at": "2020-07-10T15:25:16+00:00",
       "created_by": "Skylion007",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:18:51+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1543,
@@ -17518,8 +17519,8 @@
       "is_pr": false,
       "created_at": "2020-07-29T09:13:44+00:00",
       "created_by": "pokey",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:13:04+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1566,
@@ -20285,7 +20286,8 @@
       "title": "Allow reduced number of blank lines for dummy implementations",
       "labels": [
         "T: style",
-        "F: empty lines"
+        "F: empty lines",
+        "S: accepted"
       ],
       "is_pr": false,
       "created_at": "2020-10-30T10:22:16+00:00",
@@ -22918,8 +22920,8 @@
       "is_pr": false,
       "created_at": "2021-03-01T14:00:25+00:00",
       "created_by": "bersbersbers",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:19:40+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2013,
@@ -23014,10 +23016,11 @@
     },
     {
       "number": 2020,
-      "title": "First line after imports is not formatted consistently",
+      "title": "Two blank lines after an import should be reduced to one",
       "labels": [
         "T: style",
-        "F: empty lines"
+        "F: empty lines",
+        "S: accepted"
       ],
       "is_pr": false,
       "created_at": "2021-03-05T10:29:32+00:00",
@@ -26382,8 +26385,8 @@
       "is_pr": false,
       "created_at": "2021-05-31T04:51:09+00:00",
       "created_by": "fpdotmonkey",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:03:15+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2290,
@@ -27139,8 +27142,8 @@
       "is_pr": false,
       "created_at": "2021-06-28T08:30:50+00:00",
       "created_by": "bzoracler",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:59:15+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2350,
@@ -28044,8 +28047,8 @@
       "is_pr": false,
       "created_at": "2021-08-11T21:32:52+00:00",
       "created_by": "Coronon",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:58:13+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2423,
@@ -28283,8 +28286,8 @@
       "is_pr": false,
       "created_at": "2021-08-24T10:42:24+00:00",
       "created_by": "jonnyarnold",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:57:51+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2442,
@@ -33467,8 +33470,8 @@
       "is_pr": false,
       "created_at": "2022-02-03T22:20:17+00:00",
       "created_by": "danohn",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:05:07+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2866,
@@ -35551,8 +35554,8 @@
       "is_pr": false,
       "created_at": "2022-04-25T12:30:01+00:00",
       "created_by": "thatlittleboy",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:55:04+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3037,
@@ -36130,8 +36133,8 @@
       "is_pr": false,
       "created_at": "2022-05-27T13:59:03+00:00",
       "created_by": "Rizhiy",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:24:11+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3090,
@@ -39181,8 +39184,8 @@
       "is_pr": false,
       "created_at": "2022-10-12T07:44:47+00:00",
       "created_by": "josephernest",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:35:07+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3330,
@@ -39689,8 +39692,8 @@
       "is_pr": false,
       "created_at": "2022-11-02T10:34:24+00:00",
       "created_by": "timozerrer",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T02:25:40+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3372,
@@ -40506,8 +40509,8 @@
       "is_pr": false,
       "created_at": "2022-12-13T14:49:16+00:00",
       "created_by": "EwanBrambleBell",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:26:25+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3438,
@@ -41976,8 +41979,8 @@
       "is_pr": false,
       "created_at": "2023-02-09T20:26:47+00:00",
       "created_by": "tomshafer",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:55:29+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3558,
@@ -42955,7 +42958,7 @@
       "is_pr": true,
       "created_at": "2023-04-07T22:59:51+00:00",
       "created_by": "yilei",
-      "closed_at": null,
+      "closed_at": "2023-04-28T18:10:02+00:00",
       "closed_by": null
     },
     {
@@ -43105,8 +43108,8 @@
       "is_pr": false,
       "created_at": "2023-04-18T23:34:39+00:00",
       "created_by": "sven-frotscher",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-04-29T01:09:48+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3655,
@@ -43161,7 +43164,9 @@
       "number": 3659,
       "title": "Blank lines before class docstring are not removed",
       "labels": [
-        "T: style"
+        "T: style",
+        "F: empty lines",
+        "S: accepted"
       ],
       "is_pr": false,
       "created_at": "2023-04-24T13:33:00+00:00",
@@ -43262,6 +43267,20 @@
       "created_by": "wardioai",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3668,
+      "title": "Exceptions to comment spacing",
+      "labels": [
+        "T: enhancement",
+        "F: comments",
+        "S: needs discussion"
+      ],
+      "is_pr": false,
+      "created_at": "2023-04-29T01:54:48+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43269,7 +43288,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-04-28T15:09:35+00:00",
+    "last_updated": "2023-04-29T03:00:12+00:00",
     "version": 1
   }
 }
