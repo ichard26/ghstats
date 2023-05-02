@@ -11063,6 +11063,26 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 996,
+      "title": "Relative imports in __init__.py raise ModuleNotFoundError",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-05-01T19:55:43+00:00",
+      "created_by": "bsdz",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 997,
+      "title": "Add support for recursive tail call optimization",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-05-02T04:43:43+00:00",
+      "created_by": "dosisod",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11070,7 +11090,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-04-28T15:09:37+00:00",
+    "last_updated": "2023-05-02T15:11:27+00:00",
     "version": 1
   }
 }
