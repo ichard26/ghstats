@@ -11077,7 +11077,9 @@
     {
       "number": 997,
       "title": "Add support for recursive tail call optimization",
-      "labels": [],
+      "labels": [
+        "speed"
+      ],
       "is_pr": false,
       "created_at": "2023-05-02T04:43:43+00:00",
       "created_by": "dosisod",
@@ -11090,7 +11092,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-05-02T15:11:27+00:00",
+    "last_updated": "2023-05-03T15:09:58+00:00",
     "version": 1
   }
 }

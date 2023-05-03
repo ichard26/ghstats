@@ -43340,6 +43340,18 @@
       "created_by": "deepyaman",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3674,
+      "title": "Fix new mypy error in blib2to3",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-05-03T14:14:31+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43347,7 +43359,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-05-02T15:11:26+00:00",
+    "last_updated": "2023-05-03T15:09:57+00:00",
     "version": 1
   }
 }
