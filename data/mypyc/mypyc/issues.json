@@ -11043,7 +11043,9 @@
     {
       "number": 994,
       "title": "Support unpacking non dictionary types",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2023-04-25T22:06:39+00:00",
       "created_by": "hauntsaninja",
@@ -11092,7 +11094,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-05-03T15:09:58+00:00",
+    "last_updated": "2023-05-07T15:09:10+00:00",
     "version": 1
   }
 }

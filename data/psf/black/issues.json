@@ -43429,11 +43429,26 @@
       "number": 3681,
       "title": "Addition of type ignore causes undesirable splitting on another line",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: comments",
+        "F: linebreak"
       ],
       "is_pr": false,
       "created_at": "2023-05-06T04:17:36+00:00",
       "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3682,
+      "title": "`# fmt: skip` ignored in `if` conditionals",
+      "labels": [
+        "T: bug",
+        "F: fmtskip"
+      ],
+      "is_pr": false,
+      "created_at": "2023-05-07T05:25:38+00:00",
+      "created_by": "metov",
       "closed_at": null,
       "closed_by": null
     }
@@ -43443,7 +43458,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-05-06T15:08:34+00:00",
+    "last_updated": "2023-05-07T15:09:09+00:00",
     "version": 1
   }
 }
