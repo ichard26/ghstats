@@ -11087,6 +11087,16 @@
       "created_by": "dosisod",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 998,
+      "title": "Question: Why does `mypyc` not remove unused symbols in certain situations?",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-05-08T05:41:07+00:00",
+      "created_by": "dosisod",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11094,7 +11104,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-05-07T15:09:10+00:00",
+    "last_updated": "2023-05-08T15:10:06+00:00",
     "version": 1
   }
 }

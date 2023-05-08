@@ -42983,7 +42983,7 @@
       "is_pr": true,
       "created_at": "2023-04-10T06:57:44+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2023-05-08T06:58:19+00:00",
       "closed_by": null
     },
     {
@@ -43451,6 +43451,19 @@
       "created_by": "metov",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3683,
+      "title": "Bump peter-evans/create-or-update-comment from 2.1.1 to 3.0.1",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-05-08T06:58:13+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-05-08T13:36:25+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -43458,7 +43471,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-05-07T15:09:09+00:00",
+    "last_updated": "2023-05-08T15:10:05+00:00",
     "version": 1
   }
 }
