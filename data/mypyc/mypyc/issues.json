@@ -9458,7 +9458,8 @@
       "number": 857,
       "title": "Relative Import Incorrect Base Module",
       "labels": [
-        "bug"
+        "bug",
+        "priority-0-high"
       ],
       "is_pr": false,
       "created_at": "2021-05-31T03:20:52+00:00",
@@ -11069,7 +11070,10 @@
     {
       "number": 996,
       "title": "Relative imports in __init__.py raise ModuleNotFoundError",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high"
+      ],
       "is_pr": false,
       "created_at": "2023-05-01T19:55:43+00:00",
       "created_by": "bsdz",
@@ -11097,6 +11101,19 @@
       "created_by": "dosisod",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 999,
+      "title": "mayhem with nested packages and relative import",
+      "labels": [
+        "bug",
+        "priority-0-high"
+      ],
+      "is_pr": false,
+      "created_at": "2023-05-10T12:58:39+00:00",
+      "created_by": "belm0",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11104,7 +11121,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-05-08T15:10:06+00:00",
+    "last_updated": "2023-05-10T15:09:47+00:00",
     "version": 1
   }
 }
