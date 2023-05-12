@@ -43476,6 +43476,16 @@
       "created_by": "tunecrew",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3686,
+      "title": "add option: allow_block_newline",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-05-12T14:51:46+00:00",
+      "created_by": "mathause",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43483,7 +43493,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-05-11T15:10:09+00:00",
+    "last_updated": "2023-05-12T15:09:26+00:00",
     "version": 1
   }
 }
