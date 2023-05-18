@@ -43546,6 +43546,16 @@
       "created_by": "raybellwaves",
       "closed_at": "2023-05-17T02:47:46+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3692,
+      "title": "Remove blank lines before class docstring",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-05-18T08:34:45+00:00",
+      "created_by": "jonathanberthias",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43553,7 +43563,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-05-17T15:09:49+00:00",
+    "last_updated": "2023-05-18T15:09:27+00:00",
     "version": 1
   }
 }
