@@ -43171,8 +43171,8 @@
       "is_pr": false,
       "created_at": "2023-04-24T13:33:00+00:00",
       "created_by": "jonathanberthias",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-05-18T23:57:19+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3660,
@@ -43554,6 +43554,54 @@
       "is_pr": true,
       "created_at": "2023-05-18T08:34:45+00:00",
       "created_by": "jonathanberthias",
+      "closed_at": "2023-05-18T23:57:18+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3693,
+      "title": "Black Formatter Adds Whitespace Before Colon in String Access, Triggering Flake8 Error (E203)",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-05-18T15:45:26+00:00",
+      "created_by": "joe-r-healy",
+      "closed_at": "2023-05-18T15:46:06+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3694,
+      "title": "gitignore patterns with trailing slashes are incorrectly handled",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-05-18T15:56:44+00:00",
+      "created_by": "ortk95",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3695,
+      "title": "EncodingWarning in pgen",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-05-19T00:24:10+00:00",
+      "created_by": "jaraco",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3696,
+      "title": "Avoid EncodingWarning. Fixes #3695.",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-05-19T00:27:12+00:00",
+      "created_by": "jaraco",
       "closed_at": null,
       "closed_by": null
     }
@@ -43563,7 +43611,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-05-18T15:09:27+00:00",
+    "last_updated": "2023-05-19T15:09:36+00:00",
     "version": 1
   }
 }
