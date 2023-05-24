@@ -43642,6 +43642,18 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3700,
+      "title": "Black crashes on files containing `\\r`, from e.g. old MacOS",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-05-24T13:25:38+00:00",
+      "created_by": "Zac-HD",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43649,7 +43661,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-05-23T15:10:23+00:00",
+    "last_updated": "2023-05-24T15:09:56+00:00",
     "version": 1
   }
 }
