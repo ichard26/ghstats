@@ -11124,6 +11124,26 @@
       "created_by": "bsdz",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1001,
+      "title": "Error when reusing variable name in async context manager",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-05-24T17:39:30+00:00",
+      "created_by": "interrogator",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1002,
+      "title": "More modern alternative to setup.py build_ext?",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-05-24T17:53:44+00:00",
+      "created_by": "interrogator",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11131,7 +11151,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-05-22T15:10:10+00:00",
+    "last_updated": "2023-05-25T15:09:44+00:00",
     "version": 1
   }
 }
