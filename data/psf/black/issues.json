@@ -43661,7 +43661,8 @@
       "number": 3701,
       "title": "Black produced different code on the second pass of the formatter",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: unstable formatting"
       ],
       "is_pr": false,
       "created_at": "2023-05-24T19:36:43+00:00",
@@ -43678,8 +43679,8 @@
       "is_pr": false,
       "created_at": "2023-05-24T19:52:54+00:00",
       "created_by": "Zac-HD",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-05-26T05:17:40+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3703,
@@ -43712,18 +43713,44 @@
       "is_pr": false,
       "created_at": "2023-05-25T14:21:30+00:00",
       "created_by": "DRMacIver",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-05-26T05:18:05+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3706,
       "title": "Black produced different code on the second pass, moving a comment",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: unstable formatting"
       ],
       "is_pr": false,
       "created_at": "2023-05-25T14:30:59+00:00",
       "created_by": "DRMacIver",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3707,
+      "title": "exponentiation/power (`**`) operator should always have spaces on either side like all (?) other operators",
+      "labels": [
+        "T: style",
+        "R: not a bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-05-25T23:16:02+00:00",
+      "created_by": "admackin",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3708,
+      "title": "Black Github action causes subsequent actions to fail on self-hosted runner",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-05-26T09:02:42+00:00",
+      "created_by": "cjproud",
       "closed_at": null,
       "closed_by": null
     }
@@ -43733,7 +43760,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-05-25T15:09:39+00:00",
+    "last_updated": "2023-05-26T15:09:27+00:00",
     "version": 1
   }
 }
