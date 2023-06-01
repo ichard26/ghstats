@@ -42876,7 +42876,7 @@
       "is_pr": true,
       "created_at": "2023-03-30T15:58:39+00:00",
       "created_by": "SauravMaheshkar",
-      "closed_at": null,
+      "closed_at": "2023-05-31T20:59:28+00:00",
       "closed_by": null
     },
     {
@@ -43798,7 +43798,7 @@
       "is_pr": true,
       "created_at": "2023-05-30T13:22:11+00:00",
       "created_by": "joelsgp",
-      "closed_at": null,
+      "closed_at": "2023-05-31T21:29:31+00:00",
       "closed_by": null
     },
     {
@@ -43812,6 +43812,30 @@
       "created_by": "yilei",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3714,
+      "title": "treatment of code comments inside of parentheses",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-05-31T18:06:15+00:00",
+      "created_by": "Ricyteach",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3715,
+      "title": "Automatic magic trailing comma behavior to split arguments/items onto separate lines regardless of line length",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-01T00:50:42+00:00",
+      "created_by": "alex-hunt-materialize",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43819,7 +43843,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-05-31T15:09:55+00:00",
+    "last_updated": "2023-06-01T15:09:48+00:00",
     "version": 1
   }
 }
