@@ -10685,8 +10685,8 @@
       "is_pr": false,
       "created_at": "2023-01-06T17:44:24+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-02T14:29:43+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 965,
@@ -10955,8 +10955,8 @@
       "is_pr": false,
       "created_at": "2023-03-26T12:49:32+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-02T13:51:27+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 986,
@@ -11144,6 +11144,18 @@
       "created_by": "interrogator",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1003,
+      "title": "Support boxed float literals",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-02T13:54:38+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11151,7 +11163,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-06-01T15:09:50+00:00",
+    "last_updated": "2023-06-02T15:09:55+00:00",
     "version": 1
   }
 }

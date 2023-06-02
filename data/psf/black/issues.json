@@ -43689,7 +43689,7 @@
       "is_pr": true,
       "created_at": "2023-05-25T03:57:16+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-06-02T01:37:08+00:00",
       "closed_by": null
     },
     {
@@ -43843,7 +43843,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-01T15:09:48+00:00",
+    "last_updated": "2023-06-02T15:09:54+00:00",
     "version": 1
   }
 }
