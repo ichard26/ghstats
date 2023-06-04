@@ -43836,6 +43836,18 @@
       "created_by": "alex-hunt-materialize",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3716,
+      "title": "Shouldn't max-line-length be 80 when using bugbear?",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-04T10:25:10+00:00",
+      "created_by": "Alveel",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43843,7 +43855,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-03T15:08:41+00:00",
+    "last_updated": "2023-06-04T15:08:48+00:00",
     "version": 1
   }
 }
