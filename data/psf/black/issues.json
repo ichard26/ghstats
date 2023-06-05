@@ -43848,6 +43848,40 @@
       "created_by": "Alveel",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3717,
+      "title": "INTERNAL ERROR: Black produced code that is not equivalent to the source",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-04T18:48:32+00:00",
+      "created_by": "dtch1997",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3718,
+      "title": "Honour pyproject.toml when using stdin and calling black from parent directory",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-05T01:54:27+00:00",
+      "created_by": "renan-r-santos",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3719,
+      "title": "Fix not honouring pyproject.toml when using stdin and calling black from parent directory",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-06-05T13:37:52+00:00",
+      "created_by": "renan-r-santos",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43855,7 +43889,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-04T15:08:48+00:00",
+    "last_updated": "2023-06-05T15:10:04+00:00",
     "version": 1
   }
 }
