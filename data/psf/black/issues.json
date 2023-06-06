@@ -43841,7 +43841,8 @@
       "number": 3716,
       "title": "Shouldn't max-line-length be 80 when using bugbear?",
       "labels": [
-        "T: documentation"
+        "T: documentation",
+        "C: configuration"
       ],
       "is_pr": false,
       "created_at": "2023-06-04T10:25:10+00:00",
@@ -43882,6 +43883,18 @@
       "created_by": "renan-r-santos",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3720,
+      "title": "Comma at end of assignment changes output with 23.3.0",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-05T21:45:24+00:00",
+      "created_by": "daveisfera",
+      "closed_at": "2023-06-05T21:47:20+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -43889,7 +43902,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-05T15:10:04+00:00",
+    "last_updated": "2023-06-06T15:09:53+00:00",
     "version": 1
   }
 }
