@@ -43895,6 +43895,55 @@
       "created_by": "daveisfera",
       "closed_at": "2023-06-05T21:47:20+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3721,
+      "title": "BlackD client",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-07T00:17:15+00:00",
+      "created_by": "maludwig",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3722,
+      "title": "Add CITATION.cff file",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-07T01:49:34+00:00",
+      "created_by": "schackartk",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3723,
+      "title": "Add CITATION.cff file",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-06-07T02:06:30+00:00",
+      "created_by": "schackartk",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3724,
+      "title": "Black fails to format a long string if it is a path (no spaces)",
+      "labels": [
+        "T: bug",
+        "F: linetoolong"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-07T14:51:21+00:00",
+      "created_by": "CodeCubeNeo",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -43902,7 +43951,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-06T15:09:53+00:00",
+    "last_updated": "2023-06-07T15:10:07+00:00",
     "version": 1
   }
 }
