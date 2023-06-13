@@ -43847,8 +43847,8 @@
       "is_pr": false,
       "created_at": "2023-06-04T10:25:10+00:00",
       "created_by": "Alveel",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-12T19:20:33+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "number": 3717,
@@ -44004,7 +44004,7 @@
       "is_pr": true,
       "created_at": "2023-06-12T06:57:43+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2023-06-12T17:05:50+00:00",
       "closed_by": null
     },
     {
@@ -44017,17 +44017,19 @@
       "is_pr": true,
       "created_at": "2023-06-12T06:57:45+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2023-06-12T17:08:46+00:00",
       "closed_by": null
     },
     {
       "number": 3731,
       "title": "Max line length with bugbear",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-06-12T08:32:41+00:00",
       "created_by": "Alveel",
-      "closed_at": null,
+      "closed_at": "2023-06-12T19:20:32+00:00",
       "closed_by": null
     }
   ],
@@ -44036,7 +44038,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-12T15:09:49+00:00",
+    "last_updated": "2023-06-13T15:10:07+00:00",
     "version": 1
   }
 }
