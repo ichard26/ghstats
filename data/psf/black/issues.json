@@ -44089,13 +44089,16 @@
       "is_pr": false,
       "created_at": "2023-06-19T00:39:53+00:00",
       "created_by": "rdrll",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-20T15:44:49+00:00",
+      "closed_by": "rdrll"
     },
     {
       "number": 3737,
       "title": "Black crashes when moving type: ignore comments",
-      "labels": [],
+      "labels": [
+        "F: comments",
+        "C: crash"
+      ],
       "is_pr": false,
       "created_at": "2023-06-19T00:53:28+00:00",
       "created_by": "Zeckie",
@@ -44127,6 +44130,29 @@
       "created_by": "rdrll",
       "closed_at": "2023-06-20T14:06:04+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3740,
+      "title": "Fix a magical comment caused internal error",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-06-21T09:21:28+00:00",
+      "created_by": "rdrll",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3741,
+      "title": "Black moves same-block trailing comment inside expression wrapped with parentheses ",
+      "labels": [
+        "T: bug",
+        "F: comments"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-21T12:37:36+00:00",
+      "created_by": "cnpryer",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -44134,7 +44160,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-20T15:09:50+00:00",
+    "last_updated": "2023-06-21T15:09:34+00:00",
     "version": 1
   }
 }
