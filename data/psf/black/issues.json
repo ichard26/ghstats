@@ -44210,6 +44210,19 @@
       "created_by": "JelleZijlstra",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3747,
+      "title": "Long dictionary and f-string not formatted after breaking first line",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-23T22:25:32+00:00",
+      "created_by": "workonoss",
+      "closed_at": null,
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -44217,7 +44230,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-23T15:11:14+00:00",
+    "last_updated": "2023-06-24T15:10:34+00:00",
     "version": 1
   }
 }
