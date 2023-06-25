@@ -9376,6 +9376,8 @@
       "number": 850,
       "title": "compile in MSYS2+Mingw64 on windows?",
       "labels": [
+        "help wanted",
+        "priority-2-low",
         "feature"
       ],
       "is_pr": false,
@@ -11173,7 +11175,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-06-24T15:10:35+00:00",
+    "last_updated": "2023-06-25T15:10:22+00:00",
     "version": 1
   }
 }

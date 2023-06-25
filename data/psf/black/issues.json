@@ -44163,8 +44163,8 @@
       "is_pr": false,
       "created_at": "2023-06-22T06:34:02+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-24T23:06:13+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3743,
@@ -44173,7 +44173,7 @@
       "is_pr": true,
       "created_at": "2023-06-22T06:44:23+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2023-06-24T23:06:12+00:00",
       "closed_by": null
     },
     {
@@ -44223,6 +44223,48 @@
       "created_by": "workonoss",
       "closed_at": null,
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3748,
+      "title": "Decrease cost of ipynb code path when unneeded",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-06-24T22:13:29+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3749,
+      "title": "Integrate verbose logging with get_sources",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-06-24T22:51:53+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-06-25T00:27:47+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3750,
+      "title": "Check self format for the whole repo",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-06-24T23:47:32+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-06-25T13:53:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3751,
+      "title": "Improve performance by skipping unnecessary normalisation",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-06-25T00:35:32+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -44230,7 +44272,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-24T15:10:34+00:00",
+    "last_updated": "2023-06-25T15:10:19+00:00",
     "version": 1
   }
 }
