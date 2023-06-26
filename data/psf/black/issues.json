@@ -44265,6 +44265,18 @@
       "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3752,
+      "title": "New type parameter syntax: parameters should be broken up before type parameters",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-26T10:23:36+00:00",
+      "created_by": "tmke8",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -44272,7 +44284,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-25T15:10:19+00:00",
+    "last_updated": "2023-06-26T15:10:49+00:00",
     "version": 1
   }
 }
