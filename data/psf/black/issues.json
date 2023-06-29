@@ -3277,8 +3277,8 @@
       "is_pr": false,
       "created_at": "2018-06-02T18:14:25+00:00",
       "created_by": "blueyed",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T06:45:19+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 295,
@@ -9510,8 +9510,8 @@
       "is_pr": false,
       "created_at": "2019-05-21T15:25:15+00:00",
       "created_by": "mwysokin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T07:09:40+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 862,
@@ -14024,8 +14024,8 @@
       "is_pr": false,
       "created_at": "2020-02-06T19:30:12+00:00",
       "created_by": "samuel-massinon",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T06:48:19+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1264,
@@ -19786,8 +19786,8 @@
       "is_pr": false,
       "created_at": "2020-10-09T20:00:15+00:00",
       "created_by": "fuglede",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T05:12:00+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1757,
@@ -23438,8 +23438,8 @@
       "is_pr": false,
       "created_at": "2021-03-19T11:05:57+00:00",
       "created_by": "Wim-De-Clercq",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T06:36:53+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2053,
@@ -26509,8 +26509,8 @@
       "is_pr": false,
       "created_at": "2021-06-02T04:04:52+00:00",
       "created_by": "HassanAbouelela",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T07:13:45+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2300,
@@ -27202,14 +27202,15 @@
       "number": 2354,
       "title": "A comma should only be considered magical if followed by a newline",
       "labels": [
+        "R: rejected",
         "T: style",
         "F: trailing comma"
       ],
       "is_pr": false,
       "created_at": "2021-07-02T11:38:56+00:00",
       "created_by": "graingert",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T06:27:48+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2355,
@@ -31679,7 +31680,7 @@
       "is_pr": true,
       "created_at": "2021-12-21T23:38:33+00:00",
       "created_by": "na-stewart",
-      "closed_at": null,
+      "closed_at": "2023-06-29T06:44:42+00:00",
       "closed_by": null
     },
     {
@@ -39718,8 +39719,8 @@
       "is_pr": false,
       "created_at": "2022-11-03T20:26:53+00:00",
       "created_by": "aaossa",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T07:01:59+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3374,
@@ -40256,8 +40257,8 @@
       "is_pr": false,
       "created_at": "2022-12-10T16:39:37+00:00",
       "created_by": "kxrob",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T06:57:20+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3418,
@@ -41814,8 +41815,8 @@
       "is_pr": false,
       "created_at": "2023-02-03T22:33:27+00:00",
       "created_by": "builder555",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T06:59:30+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3545,
@@ -42488,8 +42489,8 @@
       "is_pr": false,
       "created_at": "2023-03-11T13:10:27+00:00",
       "created_by": "priyeshkulkarni",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T06:58:20+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3601,
@@ -43829,7 +43830,8 @@
       "number": 3715,
       "title": "Automatic magic trailing comma behavior to split arguments/items onto separate lines regardless of line length",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "F: trailing comma"
       ],
       "is_pr": false,
       "created_at": "2023-06-01T00:50:42+00:00",
@@ -44067,8 +44069,8 @@
       "is_pr": false,
       "created_at": "2023-06-14T14:32:04+00:00",
       "created_by": "mrVragec",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T07:26:42+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3735,
@@ -44185,8 +44187,8 @@
       "is_pr": false,
       "created_at": "2023-06-22T09:17:53+00:00",
       "created_by": "jontwo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-06-29T07:28:00+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3745,
@@ -44309,6 +44311,18 @@
       "is_pr": true,
       "created_at": "2023-06-28T05:58:13+00:00",
       "created_by": "rdrll",
+      "closed_at": "2023-06-28T20:45:56+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3756,
+      "title": "comment next to string wrapped in parentheses in list removed in preview mode",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-29T04:23:17+00:00",
+      "created_by": "DetachHead",
       "closed_at": null,
       "closed_by": null
     }
@@ -44318,7 +44332,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-28T15:10:59+00:00",
+    "last_updated": "2023-06-29T15:10:45+00:00",
     "version": 1
   }
 }
