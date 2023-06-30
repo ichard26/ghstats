@@ -43747,7 +43747,8 @@
       "number": 3708,
       "title": "Black Github action causes subsequent actions to fail on self-hosted runner",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: integrations"
       ],
       "is_pr": false,
       "created_at": "2023-05-26T09:02:42+00:00",
@@ -44325,6 +44326,16 @@
       "created_by": "DetachHead",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3757,
+      "title": "CI Test: Deprecating 'set-output' command ",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-06-30T07:10:30+00:00",
+      "created_by": "rdrll",
+      "closed_at": "2023-06-30T14:07:42+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -44332,7 +44343,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-29T15:10:45+00:00",
+    "last_updated": "2023-06-30T15:10:41+00:00",
     "version": 1
   }
 }
