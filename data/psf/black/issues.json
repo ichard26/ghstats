@@ -44336,6 +44336,19 @@
       "created_by": "rdrll",
       "closed_at": "2023-06-30T14:07:42+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3758,
+      "title": "cannot parse assignment expression in preview style since 23.1",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-06-30T22:52:59+00:00",
+      "created_by": "wizpig64",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -44343,7 +44356,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-06-30T15:10:41+00:00",
+    "last_updated": "2023-07-01T15:09:56+00:00",
     "version": 1
   }
 }
