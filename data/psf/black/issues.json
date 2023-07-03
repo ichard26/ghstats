@@ -44348,6 +44348,16 @@
       "created_by": "wizpig64",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3759,
+      "title": "Remove ENV_PATH on Black action completion.",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-07-03T09:36:19+00:00",
+      "created_by": "cjproud",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -44355,7 +44365,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-02T15:09:49+00:00",
+    "last_updated": "2023-07-03T15:11:09+00:00",
     "version": 1
   }
 }
