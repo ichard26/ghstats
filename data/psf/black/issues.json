@@ -44358,6 +44358,18 @@
       "created_by": "cjproud",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3760,
+      "title": "Hatchling version is incorrect in toml file",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-04T11:13:59+00:00",
+      "created_by": "KiraUnderwood",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -44365,7 +44377,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-03T15:11:09+00:00",
+    "last_updated": "2023-07-04T15:11:35+00:00",
     "version": 1
   }
 }
