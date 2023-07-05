@@ -2887,8 +2887,8 @@
       "is_pr": false,
       "created_at": "2018-05-26T07:11:05+00:00",
       "created_by": "shacker",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:09:24+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 260,
@@ -7405,8 +7405,8 @@
       "is_pr": false,
       "created_at": "2019-01-17T16:02:09+00:00",
       "created_by": "joaqo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:23:36+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 673,
@@ -7997,8 +7997,8 @@
       "is_pr": false,
       "created_at": "2019-02-26T10:10:06+00:00",
       "created_by": "cypreess",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T03:55:41+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 727,
@@ -9916,8 +9916,8 @@
       "is_pr": false,
       "created_at": "2019-06-21T17:52:07+00:00",
       "created_by": "clbarnes",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:19:15+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 900,
@@ -10561,8 +10561,8 @@
       "is_pr": false,
       "created_at": "2019-08-02T14:28:13+00:00",
       "created_by": "skewty",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T03:54:02+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 958,
@@ -11674,8 +11674,8 @@
       "is_pr": false,
       "created_at": "2019-10-12T12:51:36+00:00",
       "created_by": "srittau",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:13:49+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1061,
@@ -11796,8 +11796,8 @@
       "is_pr": false,
       "created_at": "2019-10-16T07:43:00+00:00",
       "created_by": "MaxG87",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:24:13+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1073,
@@ -14373,8 +14373,8 @@
       "is_pr": false,
       "created_at": "2020-03-03T18:37:13+00:00",
       "created_by": "rollschild",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T03:01:22+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1294,
@@ -14504,8 +14504,8 @@
       "is_pr": false,
       "created_at": "2020-03-11T09:41:50+00:00",
       "created_by": "odormond",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T03:14:42+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1306,
@@ -15328,8 +15328,8 @@
       "is_pr": false,
       "created_at": "2020-05-03T01:24:54+00:00",
       "created_by": "bearcatsandor",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T03:58:15+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1376,
@@ -18617,8 +18617,8 @@
       "is_pr": false,
       "created_at": "2020-08-31T16:14:12+00:00",
       "created_by": "MartinThoma",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:11:44+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1660,
@@ -27660,8 +27660,8 @@
       "is_pr": false,
       "created_at": "2021-07-22T20:11:58+00:00",
       "created_by": "erikr",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:23:05+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2393,
@@ -28740,7 +28740,9 @@
       "number": 2478,
       "title": "INTERNAL ERROR: Black produced invalid code on pass 1: unmatched ')'",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: invalid code",
+        "F: fmtoff"
       ],
       "is_pr": false,
       "created_at": "2021-09-05T23:04:10+00:00",
@@ -29809,8 +29811,8 @@
       "is_pr": false,
       "created_at": "2021-10-26T06:03:32+00:00",
       "created_by": "Cherrymelon",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:33:38+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2567,
@@ -33610,8 +33612,8 @@
       "is_pr": false,
       "created_at": "2022-02-09T08:18:59+00:00",
       "created_by": "DanielWicz",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:22:58+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2877,
@@ -42190,8 +42192,8 @@
       "is_pr": false,
       "created_at": "2023-02-16T13:36:16+00:00",
       "created_by": "konstin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T05:45:59+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3575,
@@ -42692,8 +42694,8 @@
       "is_pr": false,
       "created_at": "2023-03-20T13:47:41+00:00",
       "created_by": "asgerbolet",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T08:01:58+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3618,
@@ -43157,8 +43159,8 @@
       "is_pr": false,
       "created_at": "2023-04-24T07:15:56+00:00",
       "created_by": "Zac-HD",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-04T23:38:41+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3659,
@@ -43328,8 +43330,8 @@
       "is_pr": false,
       "created_at": "2023-05-01T15:29:04+00:00",
       "created_by": "A-tA-v",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T04:22:52+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3673,
@@ -44301,8 +44303,8 @@
       "is_pr": false,
       "created_at": "2023-06-28T05:51:02+00:00",
       "created_by": "asarkar",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-05T05:45:59+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3755,
@@ -44368,8 +44370,62 @@
       "is_pr": false,
       "created_at": "2023-07-04T11:13:59+00:00",
       "created_by": "KiraUnderwood",
+      "closed_at": "2023-07-05T12:56:38+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3763,
+      "title": "Enable `PYTHONWARNDEFAULTENCODING = 1` in CI",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-07-04T19:29:55+00:00",
+      "created_by": "Zac-HD",
+      "closed_at": "2023-07-04T23:38:39+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3764,
+      "title": "Better error message for invalid exclude types",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-07-05T04:46:25+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-07-05T05:45:58+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3765,
+      "title": "Drop support for Python 3.7",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-07-05T05:41:18+00:00",
+      "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3766,
+      "title": "Drop Python 3.7 support (for running Black only)",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-05T06:04:18+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3767,
+      "title": "--extend-exclude not working when in pre-commit",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-05T07:17:08+00:00",
+      "created_by": "jsh9",
+      "closed_at": "2023-07-05T07:43:43+00:00",
+      "closed_by": "hauntsaninja"
     }
   ],
   "record": {
@@ -44377,7 +44433,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-04T15:11:35+00:00",
+    "last_updated": "2023-07-05T15:11:58+00:00",
     "version": 1
   }
 }
