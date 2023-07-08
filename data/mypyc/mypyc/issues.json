@@ -11168,6 +11168,30 @@
       "created_by": "davystrong",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1005,
+      "title": "Faster equality comparison of optional values",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-08T10:03:43+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1006,
+      "title": "Profile-guided or opt-in aggressive optimizations within mypyc",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-08T10:43:24+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11175,7 +11199,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-07-01T15:09:57+00:00",
+    "last_updated": "2023-07-08T15:09:48+00:00",
     "version": 1
   }
 }
