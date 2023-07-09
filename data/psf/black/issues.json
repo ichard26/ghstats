@@ -44450,6 +44450,18 @@
       "created_by": "dnrhead",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3770,
+      "title": "Fix CI for Click typing issue",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-08T20:07:22+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -44457,7 +44469,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-08T15:09:47+00:00",
+    "last_updated": "2023-07-09T15:10:07+00:00",
     "version": 1
   }
 }
