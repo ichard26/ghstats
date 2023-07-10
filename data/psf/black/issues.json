@@ -7795,8 +7795,8 @@
       "is_pr": false,
       "created_at": "2019-02-13T11:52:38+00:00",
       "created_by": "DRMacIver",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-09T23:05:57+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 709,
@@ -11250,8 +11250,8 @@
       "is_pr": false,
       "created_at": "2019-09-14T14:05:02+00:00",
       "created_by": "di",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-09T22:52:43+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1021,
@@ -13731,8 +13731,8 @@
       "is_pr": false,
       "created_at": "2020-01-20T15:33:55+00:00",
       "created_by": "juliatuttle",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-09T22:52:43+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1240,
@@ -33232,8 +33232,8 @@
       "is_pr": false,
       "created_at": "2022-01-31T19:18:29+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-09T22:19:30+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2847,
@@ -34216,8 +34216,8 @@
       "is_pr": false,
       "created_at": "2022-03-15T16:58:58+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-09T22:24:43+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2926,
@@ -35209,7 +35209,8 @@
       "number": 3009,
       "title": "Feature request: Respect `# fmt: skip` at the end of multi-line statements",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "F: fmtskip"
       ],
       "is_pr": false,
       "created_at": "2022-04-11T21:17:07+00:00",
@@ -35409,8 +35410,8 @@
       "is_pr": false,
       "created_at": "2022-04-20T22:54:31+00:00",
       "created_by": "hopper-signifyd",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-09T21:50:52+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3025,
@@ -35824,8 +35825,8 @@
       "is_pr": false,
       "created_at": "2022-05-09T17:24:09+00:00",
       "created_by": "ajgringo619",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-10T00:09:13+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3066,
@@ -41253,8 +41254,8 @@
       "is_pr": false,
       "created_at": "2023-01-12T22:25:13+00:00",
       "created_by": "leaver2000",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-09T23:28:28+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3497,
@@ -41791,8 +41792,8 @@
       "is_pr": false,
       "created_at": "2023-02-02T17:03:16+00:00",
       "created_by": "gaborbernat",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-10T00:08:02+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3543,
@@ -42653,7 +42654,8 @@
       "number": 3614,
       "title": "Preview style: Preserve empty lines between async def and async for",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2023-03-18T21:21:47+00:00",
@@ -43214,7 +43216,8 @@
       "number": 3663,
       "title": "Better whitespace allocation for an assert statement",
       "labels": [
-        "T: style"
+        "T: style",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2023-04-26T20:52:37+00:00",
@@ -43238,7 +43241,8 @@
       "number": 3665,
       "title": "Preview style duplicates comments when reformatting a multi-line call with comments in the middle",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2023-04-27T21:42:41+00:00",
@@ -43921,8 +43925,8 @@
       "is_pr": false,
       "created_at": "2023-06-07T01:49:34+00:00",
       "created_by": "schackartk",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-09T22:07:23+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3723,
@@ -43933,7 +43937,7 @@
       "is_pr": true,
       "created_at": "2023-06-07T02:06:30+00:00",
       "created_by": "schackartk",
-      "closed_at": null,
+      "closed_at": "2023-07-09T22:07:22+00:00",
       "closed_by": null
     },
     {
@@ -44199,7 +44203,7 @@
       "is_pr": true,
       "created_at": "2023-06-23T04:04:32+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-07-09T22:52:41+00:00",
       "closed_by": null
     },
     {
@@ -44267,7 +44271,7 @@
       "is_pr": true,
       "created_at": "2023-06-25T00:35:32+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2023-07-09T22:24:01+00:00",
       "closed_by": null
     },
     {
@@ -44320,7 +44324,8 @@
       "number": 3756,
       "title": "comment next to string wrapped in parentheses in list removed in preview mode",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2023-06-29T04:23:17+00:00",
@@ -44412,8 +44417,8 @@
       "is_pr": false,
       "created_at": "2023-07-05T06:04:18+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-09T22:06:00+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3767,
@@ -44436,7 +44441,7 @@
       "is_pr": true,
       "created_at": "2023-07-05T21:25:12+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2023-07-09T20:29:47+00:00",
       "closed_by": null
     },
     {
@@ -44460,6 +44465,88 @@
       "is_pr": true,
       "created_at": "2023-07-08T20:07:22+00:00",
       "created_by": "hauntsaninja",
+      "closed_at": "2023-07-09T15:14:39+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3771,
+      "title": "Run pyupgrade on blib2to3 and src",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-09T21:37:19+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-07-09T22:05:01+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3772,
+      "title": "Unpin pytest-xdist",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-09T21:55:54+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3773,
+      "title": "Fix crash on type comment with trailing space",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-07-09T22:38:26+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-07-09T23:28:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3774,
+      "title": "Release 23.7.0",
+      "labels": [
+        "C: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-09T23:09:31+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3775,
+      "title": "Upgrade to latest mypy",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-09T23:32:49+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-07-10T00:04:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3776,
+      "title": "Prepare release 23.7.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-10T04:22:42+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3777,
+      "title": "Disable coverage on pypy tests",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-10T06:36:24+00:00",
+      "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
     }
@@ -44469,7 +44556,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-09T15:10:07+00:00",
+    "last_updated": "2023-07-10T15:11:34+00:00",
     "version": 1
   }
 }
