@@ -11205,6 +11205,36 @@
       "created_by": "Zerophase",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1008,
+      "title": "\"mypyc.build\": module is installed, but missing library stubs or py.typed marker",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-07-10T23:33:37+00:00",
+      "created_by": "Avasam",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1009,
+      "title": "error: could not create '__init__.cp39-win_amd64.pyd': No such file or directory",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-07-11T00:24:54+00:00",
+      "created_by": "Avasam",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1010,
+      "title": "Feature request: Option to output to a different folder",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-07-11T01:13:20+00:00",
+      "created_by": "Avasam",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11212,7 +11242,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-07-10T15:11:44+00:00",
+    "last_updated": "2023-07-11T15:11:16+00:00",
     "version": 1
   }
 }

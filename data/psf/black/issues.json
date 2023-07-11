@@ -39522,8 +39522,8 @@
       "is_pr": false,
       "created_at": "2022-10-26T02:07:25+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-10T18:49:41+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3358,
@@ -40667,8 +40667,8 @@
       "is_pr": false,
       "created_at": "2022-12-18T12:19:14+00:00",
       "created_by": "FSpanhel",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-11T14:01:52+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3451,
@@ -40796,7 +40796,7 @@
     },
     {
       "number": 3460,
-      "title": "Black is not honoring #fmt: skip",
+      "title": "# fmt: skip cannot be combined with another comment",
       "labels": [
         "T: bug",
         "F: fmtskip"
@@ -40804,8 +40804,8 @@
       "is_pr": false,
       "created_at": "2022-12-19T23:09:14+00:00",
       "created_by": "ricardo-dematos",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-10T15:50:24+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3461,
@@ -42455,8 +42455,8 @@
       "is_pr": false,
       "created_at": "2023-03-07T18:43:31+00:00",
       "created_by": "kkom",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-11T14:10:42+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3598,
@@ -44489,7 +44489,7 @@
       "is_pr": true,
       "created_at": "2023-07-09T21:55:54+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2023-07-10T18:49:40+00:00",
       "closed_by": null
     },
     {
@@ -44511,8 +44511,8 @@
       "is_pr": false,
       "created_at": "2023-07-09T23:09:31+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-11T00:45:07+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3775,
@@ -44535,7 +44535,7 @@
       "is_pr": true,
       "created_at": "2023-07-10T04:22:42+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-07-11T00:09:48+00:00",
       "closed_by": null
     },
     {
@@ -44547,7 +44547,91 @@
       "is_pr": true,
       "created_at": "2023-07-10T06:36:24+00:00",
       "created_by": "hauntsaninja",
+      "closed_at": "2023-07-10T15:37:12+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3778,
+      "title": "black skips subdirectories due to incorrect interpretation of .gitignore rules",
+      "labels": [
+        "T: bug",
+        "C: file collection"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-10T19:56:20+00:00",
+      "created_by": "A-CGray",
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3779,
+      "title": "Fix typo in CITATION.cff",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-11T01:44:08+00:00",
+      "created_by": "skykasko",
+      "closed_at": "2023-07-11T02:38:02+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3780,
+      "title": "[pre-commit.ci] pre-commit autoupdate",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-11T06:30:26+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2023-07-11T14:50:53+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3781,
+      "title": "Fix lint in test_ipynb",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-11T06:36:41+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-07-11T14:35:42+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3782,
+      "title": "PERF: minimize cost of introspection to detect jupyter dependencies",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-07-11T08:09:16+00:00",
+      "created_by": "neutrinoceros",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3783,
+      "title": "Remove unneeded mypy dependencies",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-11T09:11:40+00:00",
+      "created_by": "AlexWaygood",
+      "closed_at": "2023-07-11T14:21:37+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3784,
+      "title": "Remove Python 3.7 from classifiers",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-11T10:24:52+00:00",
+      "created_by": "nsoranzo",
+      "closed_at": "2023-07-11T14:21:16+00:00",
       "closed_by": null
     }
   ],
@@ -44556,7 +44640,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-10T15:11:34+00:00",
+    "last_updated": "2023-07-11T15:11:10+00:00",
     "version": 1
   }
 }
