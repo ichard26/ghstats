@@ -31087,8 +31087,8 @@
       "is_pr": false,
       "created_at": "2021-12-05T17:17:54+00:00",
       "created_by": "char101",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-11T19:15:02+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2673,
@@ -44633,6 +44633,40 @@
       "created_by": "nsoranzo",
       "closed_at": "2023-07-11T14:21:16+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3785,
+      "title": "Formatter runs, no output, never ends.",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-07-11T15:33:17+00:00",
+      "created_by": "eddtrettel",
+      "closed_at": "2023-07-11T21:35:55+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 3786,
+      "title": "Documentation of current code-style formatting of comment omits mention of hashbangs",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-11T18:17:19+00:00",
+      "created_by": "kotnen",
+      "closed_at": "2023-07-11T19:16:52+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 3787,
+      "title": "Update documentation about comments to include mention of hashbangs.",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-11T19:05:25+00:00",
+      "created_by": "kotnen",
+      "closed_at": "2023-07-11T19:16:44+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -44640,7 +44674,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-11T15:11:10+00:00",
+    "last_updated": "2023-07-12T15:11:03+00:00",
     "version": 1
   }
 }
