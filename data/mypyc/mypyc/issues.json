@@ -11066,8 +11066,8 @@
       "is_pr": false,
       "created_at": "2023-04-26T23:04:24+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-12T15:56:14+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 996,
@@ -11242,7 +11242,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-07-11T15:11:16+00:00",
+    "last_updated": "2023-07-13T15:11:06+00:00",
     "version": 1
   }
 }

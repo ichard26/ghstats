@@ -44667,6 +44667,41 @@
       "created_by": "kotnen",
       "closed_at": "2023-07-11T19:16:44+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3788,
+      "title": "black not working with required_version in pre-commit",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-07-12T21:04:47+00:00",
+      "created_by": "shahzebsiddiqui",
+      "closed_at": "2023-07-12T21:07:24+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 3789,
+      "title": "Line breaking long sequence of assignments",
+      "labels": [
+        "T: style",
+        "F: linetoolong"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-13T08:57:33+00:00",
+      "created_by": "piotro888",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3790,
+      "title": "Black 23.7.0 thinks accessing an attribute named `type` inside brackets in a switch statement is invalid syntax",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-13T11:34:42+00:00",
+      "created_by": "aucampia",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -44674,7 +44709,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-12T15:11:03+00:00",
+    "last_updated": "2023-07-13T15:11:05+00:00",
     "version": 1
   }
 }
