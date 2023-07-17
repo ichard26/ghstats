@@ -4995,8 +4995,8 @@
       "is_pr": false,
       "created_at": "2018-08-14T08:23:15+00:00",
       "created_by": "njsmith",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-17T08:25:23+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 450,
@@ -39498,8 +39498,8 @@
       "is_pr": false,
       "created_at": "2022-10-24T12:08:34+00:00",
       "created_by": "clavedeluna",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-07-17T04:33:59+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3356,
@@ -39597,7 +39597,7 @@
       "is_pr": true,
       "created_at": "2022-10-29T12:54:54+00:00",
       "created_by": "clavedeluna",
-      "closed_at": null,
+      "closed_at": "2023-07-17T03:32:53+00:00",
       "closed_by": null
     },
     {
@@ -44607,7 +44607,7 @@
       "is_pr": true,
       "created_at": "2023-07-11T08:09:16+00:00",
       "created_by": "neutrinoceros",
-      "closed_at": null,
+      "closed_at": "2023-07-17T01:09:26+00:00",
       "closed_by": null
     },
     {
@@ -44703,6 +44703,102 @@
       "created_by": "aucampia",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3791,
+      "title": "Continue to avoid Click typing issue",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-17T00:27:27+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-07-17T00:35:19+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3792,
+      "title": "Maintainers += Shantanu Jain (hauntsaninja)",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-17T01:12:49+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2023-07-17T01:16:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3793,
+      "title": "`if` clauses in `match`-`case` blocks aren't reformatted to fit the line width limit",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-17T03:19:14+00:00",
+      "created_by": "alexander-c-b",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3794,
+      "title": "Fix most blib2to3 lint",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-17T03:32:07+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-07-17T04:33:58+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3795,
+      "title": "Bump pypa/cibuildwheel from 2.13.1 to 2.14.1",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-17T06:23:12+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-07-17T06:59:36+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3796,
+      "title": "[ignore] curious for diff shade output",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-07-17T06:41:22+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3797,
+      "title": "Simplify empty line tracker",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-17T07:41:27+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3798,
+      "title": "Update main.py",
+      "labels": [
+        "R: invalid"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-17T11:38:12+00:00",
+      "created_by": "sbzzlle2113",
+      "closed_at": "2023-07-17T13:27:14+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -44710,7 +44806,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-16T15:09:51+00:00",
+    "last_updated": "2023-07-17T15:11:28+00:00",
     "version": 1
   }
 }
