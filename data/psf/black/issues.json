@@ -10556,7 +10556,8 @@
       "number": 957,
       "title": "Documentation inconsistent use of  _ and - in cmd line params / pyproject.toml / Vim",
       "labels": [
-        "T: documentation"
+        "T: documentation",
+        "C: vim"
       ],
       "is_pr": false,
       "created_at": "2019-08-02T14:28:13+00:00",
@@ -44359,7 +44360,9 @@
     {
       "number": 3759,
       "title": "Remove ENV_PATH on Black action completion.",
-      "labels": [],
+      "labels": [
+        "C: integrations"
+      ],
       "is_pr": true,
       "created_at": "2023-07-03T09:36:19+00:00",
       "created_by": "cjproud",
@@ -44448,7 +44451,9 @@
       "number": 3769,
       "title": "Add line number to the --diff output.",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "C: configuration",
+        "S: needs discussion"
       ],
       "is_pr": false,
       "created_at": "2023-07-07T12:47:30+00:00",
@@ -44773,7 +44778,7 @@
       "is_pr": true,
       "created_at": "2023-07-17T06:41:22+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2023-07-18T14:23:58+00:00",
       "closed_by": null
     },
     {
@@ -44799,6 +44804,19 @@
       "created_by": "sbzzlle2113",
       "closed_at": "2023-07-17T13:27:14+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3799,
+      "title": "Fix diff-shades comment missing newlines",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-18T14:23:26+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2023-07-18T14:51:17+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -44806,7 +44824,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-17T15:11:28+00:00",
+    "last_updated": "2023-07-18T15:10:25+00:00",
     "version": 1
   }
 }
