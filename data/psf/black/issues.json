@@ -44296,7 +44296,7 @@
       "is_pr": true,
       "created_at": "2023-06-27T00:14:10+00:00",
       "created_by": "rdrll",
-      "closed_at": null,
+      "closed_at": "2023-07-18T21:11:24+00:00",
       "closed_by": null
     },
     {
@@ -44778,7 +44778,7 @@
       "is_pr": true,
       "created_at": "2023-07-17T06:41:22+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": "2023-07-18T14:23:58+00:00",
+      "closed_at": null,
       "closed_by": null
     },
     {
@@ -44817,6 +44817,41 @@
       "created_by": "ichard26",
       "closed_at": "2023-07-18T14:51:17+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3800,
+      "title": "Always respect original comment/code-order",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-18T17:08:42+00:00",
+      "created_by": "randolf-scholz",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3801,
+      "title": "replaced single-quoted strings with double-quoted ones.",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-07-18T20:04:23+00:00",
+      "created_by": "lsloan",
+      "closed_at": "2023-07-18T21:00:14+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 3802,
+      "title": "`--preview` makes it impossible to use a comment to ignore a static type violation",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-19T04:58:29+00:00",
+      "created_by": "tylerlaprade",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -44824,7 +44859,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-18T15:10:25+00:00",
+    "last_updated": "2023-07-19T15:10:17+00:00",
     "version": 1
   }
 }
