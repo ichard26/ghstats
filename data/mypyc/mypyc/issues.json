@@ -9532,6 +9532,7 @@
       "number": 863,
       "title": "Keep track of exact types of variables when possible",
       "labels": [
+        "priority-2-low",
         "speed"
       ],
       "is_pr": false,
@@ -11177,6 +11178,7 @@
       "number": 1005,
       "title": "Faster equality comparison of optional values",
       "labels": [
+        "priority-1-normal",
         "speed"
       ],
       "is_pr": false,
@@ -11246,7 +11248,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-07-20T15:10:08+00:00",
+    "last_updated": "2023-07-21T15:09:59+00:00",
     "version": 1
   }
 }
