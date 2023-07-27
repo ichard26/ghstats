@@ -45002,6 +45002,28 @@
       "created_by": "sagark4",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3816,
+      "title": "Black breaks lines in type hints that use '|' operator.",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-07-27T06:14:05+00:00",
+      "created_by": "dusktreader",
+      "closed_at": "2023-07-27T09:18:24+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3817,
+      "title": "Fix typo in `target-version` param wrongly used in plural",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-07-27T10:14:54+00:00",
+      "created_by": "zyv",
+      "closed_at": "2023-07-27T14:12:38+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -45009,7 +45031,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-26T15:09:38+00:00",
+    "last_updated": "2023-07-27T15:09:32+00:00",
     "version": 1
   }
 }
