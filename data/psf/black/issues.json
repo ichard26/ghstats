@@ -45091,6 +45091,20 @@
       "created_by": "charliermarsh",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3824,
+      "title": "Bump furo from 2023.5.20 to 2023.7.26 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-07-31T06:13:32+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -45098,7 +45112,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-07-30T15:08:52+00:00",
+    "last_updated": "2023-07-31T15:10:43+00:00",
     "version": 1
   }
 }
