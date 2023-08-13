@@ -9,6 +9,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         black: resolve(__dirname, 'black/index.html'),
         mypyc: resolve(__dirname, 'mypyc/index.html'),
+        mypy: resolve(__dirname, 'mypy/index.html'),
       },
       output: {
         entryFileNames: `assets/[name].js`,

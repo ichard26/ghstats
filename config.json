@@ -20,6 +20,9 @@
                 "speed": "speed",
                 "codesize": "codesize"
             }
+        },
+        "python/mypy": {
+            "views": ["issue-counts", "pull-counts", "issue-deltas", "issue-closers"]
         }
     }
 }
