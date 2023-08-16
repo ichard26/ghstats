@@ -11135,7 +11135,9 @@
     {
       "number": 1001,
       "title": "Error when reusing variable name in async context manager",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2023-05-24T17:39:30+00:00",
       "created_by": "interrogator",
@@ -11260,7 +11262,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-08-14T15:09:03+00:00",
+    "last_updated": "2023-08-16T15:09:33+00:00",
     "version": 1
   }
 }
