@@ -45279,7 +45279,9 @@
     {
       "number": 3839,
       "title": "Add Black PyCharm 2023.2 integration instructions",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-08-15T15:21:33+00:00",
       "created_by": "jonashaag",
@@ -45292,7 +45294,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-08-16T15:09:30+00:00",
+    "last_updated": "2023-08-17T15:09:09+00:00",
     "version": 1
   }
 }
