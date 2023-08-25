@@ -45384,7 +45384,7 @@
     },
     {
       "number": 3848,
-      "title": "Bump furo from 2023.7.26 to 2023.8.19 in /docs",
+      "title": "Bump furo from 2023.7.26 to 2023.8.19 in /docs + sphinx to 7.2.3",
       "labels": [
         "T: documentation",
         "C: dependencies",
@@ -45455,6 +45455,19 @@
       "created_by": "kmgrime",
       "closed_at": "2023-08-22T19:40:10+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3854,
+      "title": "Undesired line breaks when using multiple assignments",
+      "labels": [
+        "T: bug",
+        "F: linebreak"
+      ],
+      "is_pr": false,
+      "created_at": "2023-08-24T22:44:40+00:00",
+      "created_by": "yilei",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -45462,7 +45475,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-08-24T15:09:52+00:00",
+    "last_updated": "2023-08-25T15:09:26+00:00",
     "version": 1
   }
 }
