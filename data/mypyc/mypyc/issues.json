@@ -11260,6 +11260,26 @@
       "created_by": "JotaRata",
       "closed_at": "2023-08-11T09:50:20+00:00",
       "closed_by": "JukkaL"
+    },
+    {
+      "number": 1012,
+      "title": "Faster argument type-checking",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-09-04T15:13:56+00:00",
+      "created_by": "nickdrozd",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1013,
+      "title": "Mypyc ignores custom `__new__` without warning",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-09-04T15:30:37+00:00",
+      "created_by": "nickdrozd",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11267,7 +11287,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-09-02T15:08:32+00:00",
+    "last_updated": "2023-09-05T15:10:05+00:00",
     "version": 1
   }
 }
