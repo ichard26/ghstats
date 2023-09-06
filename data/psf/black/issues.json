@@ -29652,7 +29652,8 @@
       "title": "Use explicit string concatenation in (experimental) string processing",
       "labels": [
         "T: style",
-        "F: strings"
+        "F: strings",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2021-10-21T19:48:30+00:00",
@@ -45558,7 +45559,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-05T15:10:04+00:00",
+    "last_updated": "2023-09-06T15:11:04+00:00",
     "version": 1
   }
 }
