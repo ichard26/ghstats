@@ -11290,6 +11290,26 @@
       "created_by": "eli-schwartz",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1015,
+      "title": "More efficient lambdas",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-09-08T22:59:23+00:00",
+      "created_by": "dosisod",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1016,
+      "title": "Perfomance with Numpy? ",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-09-09T06:34:21+00:00",
+      "created_by": "JotaRata",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11297,7 +11317,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-09-06T15:11:05+00:00",
+    "last_updated": "2023-09-09T15:08:29+00:00",
     "version": 1
   }
 }

@@ -45562,8 +45562,8 @@
       "is_pr": false,
       "created_at": "2023-09-06T16:34:55+00:00",
       "created_by": "konstin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-09-09T01:51:28+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3862,
@@ -45572,6 +45572,64 @@
       "is_pr": true,
       "created_at": "2023-09-08T14:51:21+00:00",
       "created_by": "konstin",
+      "closed_at": "2023-09-09T01:51:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3863,
+      "title": "Prepare release 23.9.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-09T02:01:34+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-09-09T03:24:49+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3864,
+      "title": "Upgrade mypy",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-09-09T03:50:38+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-09-09T05:16:15+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3865,
+      "title": "No mypyc wheels for release 23.9.0",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-09-09T04:00:15+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3866,
+      "title": "Add classifier for 3.12",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-09T04:04:13+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-09-09T05:16:25+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3867,
+      "title": "Run wheel build on PRs",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-09T14:35:58+00:00",
+      "created_by": "JelleZijlstra",
       "closed_at": null,
       "closed_by": null
     }
@@ -45581,7 +45639,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-08T15:08:16+00:00",
+    "last_updated": "2023-09-09T15:08:26+00:00",
     "version": 1
   }
 }
