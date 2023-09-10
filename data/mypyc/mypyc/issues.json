@@ -11310,6 +11310,30 @@
       "created_by": "JotaRata",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1017,
+      "title": "Avoid cyclic references in nested functions",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2023-09-10T10:05:48+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1018,
+      "title": "Use per-class freelists for nested and async functions",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2023-09-10T10:26:22+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11317,7 +11341,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-09-09T15:08:29+00:00",
+    "last_updated": "2023-09-10T15:08:42+00:00",
     "version": 1
   }
 }
