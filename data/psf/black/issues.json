@@ -42322,8 +42322,8 @@
       "is_pr": false,
       "created_at": "2023-02-27T09:13:41+00:00",
       "created_by": "stanislavlevin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-09-11T00:26:05+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3586,
@@ -42334,7 +42334,7 @@
       "is_pr": true,
       "created_at": "2023-02-27T09:25:39+00:00",
       "created_by": "stanislavlevin",
-      "closed_at": null,
+      "closed_at": "2023-09-11T00:24:35+00:00",
       "closed_by": null
     },
     {
@@ -45606,8 +45606,8 @@
       "is_pr": false,
       "created_at": "2023-09-09T04:00:15+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-09-11T01:01:01+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3866,
@@ -45630,7 +45630,7 @@
       "is_pr": true,
       "created_at": "2023-09-09T14:35:58+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-09-10T23:48:21+00:00",
       "closed_by": null
     },
     {
@@ -45661,14 +45661,14 @@
     },
     {
       "number": 3870,
-      "title": "Compile what can be compiled",
+      "title": "mypyc builds on PRs, skip mypyc wheels for 3.12",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2023-09-10T04:16:05+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2023-09-10T23:47:08+00:00",
       "closed_by": null
     },
     {
@@ -45697,13 +45697,152 @@
     },
     {
       "number": 3873,
-      "title": "Downgrade Furo to 2023.8.17 to fix docs build",
+      "title": "Upgrade to Furo 2023.9.10 to fix docs build",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2023-09-10T14:51:47+00:00",
       "created_by": "hugovk",
+      "closed_at": "2023-09-10T21:36:25+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3874,
+      "title": "Don't wrap `| None` on a new line",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-09-10T16:07:42+00:00",
+      "created_by": "Olegt0rr",
+      "closed_at": "2023-09-10T21:44:06+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 3875,
+      "title": "Re-export black.Mode",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-10T22:21:42+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-09-10T23:12:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3876,
+      "title": "Ignore aiohttp DeprecationWarning for 3.12",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-10T22:25:05+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-09-10T22:45:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3877,
+      "title": "Pickle raw tuples in FileData cache",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-09-10T22:33:21+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-09-10T23:16:24+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3878,
+      "title": "Prepare release 23.9.1",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-10T23:54:47+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-09-11T00:35:41+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3879,
+      "title": "Run wheel build on fewer PRs?",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-09-11T00:20:37+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3880,
+      "title": "Black should never try to format symlinks",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-09-11T02:01:45+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3881,
+      "title": "mypyc build improvements",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-11T04:54:11+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3882,
+      "title": "Bump sphinx from 7.2.3 to 7.2.5 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-11T06:20:18+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3883,
+      "title": "Bump actions/checkout from 3 to 4",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-11T06:56:46+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3884,
+      "title": "Remove `$`, `>>>` and other prompt prefixes when code copied from the\u2026",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-09-11T12:39:15+00:00",
+      "created_by": "david-lev",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3885,
+      "title": "Fix broken url in editors.md",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-09-11T13:33:50+00:00",
+      "created_by": "AlinderS",
       "closed_at": null,
       "closed_by": null
     }
@@ -45713,7 +45852,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-10T15:08:38+00:00",
+    "last_updated": "2023-09-11T15:10:13+00:00",
     "version": 1
   }
 }
