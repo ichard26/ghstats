@@ -43657,7 +43657,7 @@
       "is_pr": true,
       "created_at": "2023-05-22T06:56:56+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2023-09-11T20:20:36+00:00",
       "closed_by": null
     },
     {
@@ -45687,7 +45687,8 @@
       "number": 3872,
       "title": "\"More concise formatting for dummy implementations\" can be less concise",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2023-09-10T07:23:19+00:00",
@@ -45772,8 +45773,8 @@
       "is_pr": false,
       "created_at": "2023-09-11T00:20:37+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-09-11T20:36:39+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3880,
@@ -45796,7 +45797,7 @@
       "is_pr": true,
       "created_at": "2023-09-11T04:54:11+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2023-09-11T20:36:37+00:00",
       "closed_by": null
     },
     {
@@ -45810,7 +45811,7 @@
       "is_pr": true,
       "created_at": "2023-09-11T06:20:18+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2023-09-11T20:19:58+00:00",
       "closed_by": null
     },
     {
@@ -45823,7 +45824,7 @@
       "is_pr": true,
       "created_at": "2023-09-11T06:56:46+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2023-09-11T16:34:36+00:00",
       "closed_by": null
     },
     {
@@ -45839,10 +45840,25 @@
     {
       "number": 3885,
       "title": "Fix broken url in editors.md",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-09-11T13:33:50+00:00",
       "created_by": "AlinderS",
+      "closed_at": "2023-09-11T16:47:47+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3886,
+      "title": "Magic trailing comma should not apply to functions with a single argument",
+      "labels": [
+        "T: style",
+        "F: trailing comma"
+      ],
+      "is_pr": false,
+      "created_at": "2023-09-12T12:45:41+00:00",
+      "created_by": "jj-tetraquark",
       "closed_at": null,
       "closed_by": null
     }
@@ -45852,7 +45868,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-11T15:10:13+00:00",
+    "last_updated": "2023-09-12T15:10:41+00:00",
     "version": 1
   }
 }
