@@ -45830,7 +45830,9 @@
     {
       "number": 3884,
       "title": "Remove `$`, `>>>` and other prompt prefixes when code copied from the\u2026",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-09-11T12:39:15+00:00",
       "created_by": "david-lev",
@@ -45899,6 +45901,85 @@
       "created_by": "andersk",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3890,
+      "title": "Bump docker/setup-qemu-action from 2 to 3",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-18T06:24:58+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-09-18T13:48:12+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3891,
+      "title": "Bump docker/login-action from 2 to 3",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-18T06:25:01+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-09-18T13:47:43+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3892,
+      "title": "Bump docker/setup-buildx-action from 2 to 3",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-18T06:25:04+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-09-18T13:48:03+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3893,
+      "title": "Bump actions/checkout from 3 to 4",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-18T06:25:08+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-09-18T13:48:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3894,
+      "title": "Bump docker/build-push-action from 4 to 5",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-18T06:25:11+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-09-18T13:47:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3895,
+      "title": "Bump sphinx from 7.2.5 to 7.2.6 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-18T06:28:46+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-09-18T13:47:02+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -45906,7 +45987,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-17T15:08:40+00:00",
+    "last_updated": "2023-09-18T15:10:47+00:00",
     "version": 1
   }
 }
