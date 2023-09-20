@@ -45992,6 +45992,28 @@
       "created_by": "eerovaher",
       "closed_at": "2023-09-18T17:35:07+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3897,
+      "title": "Add Python 3.11 as part of the `-t` configuration",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2023-09-20T11:18:58+00:00",
+      "created_by": "iamibi",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3898,
+      "title": "added the py311 to target-version config",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-09-20T11:24:57+00:00",
+      "created_by": "iamibi",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -45999,7 +46021,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-19T15:10:13+00:00",
+    "last_updated": "2023-09-20T15:10:26+00:00",
     "version": 1
   }
 }
