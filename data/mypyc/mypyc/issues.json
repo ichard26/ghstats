@@ -11344,6 +11344,16 @@
       "created_by": "nickdrozd",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1020,
+      "title": "Unnecessary generator warning",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-09-20T17:32:10+00:00",
+      "created_by": "nickdrozd",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11351,7 +11361,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-09-13T15:10:16+00:00",
+    "last_updated": "2023-09-21T15:09:10+00:00",
     "version": 1
   }
 }

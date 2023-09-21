@@ -45861,8 +45861,8 @@
       "is_pr": false,
       "created_at": "2023-09-12T12:45:41+00:00",
       "created_by": "jj-tetraquark",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-09-21T13:31:26+00:00",
+      "closed_by": "jj-tetraquark"
     },
     {
       "number": 3887,
@@ -46014,6 +46014,28 @@
       "created_by": "iamibi",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3899,
+      "title": "fix indentation of line breaks in long type hints by adding parens",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-09-20T15:31:12+00:00",
+      "created_by": "jakkdl",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3900,
+      "title": "Proposal: strip empty lines between module docstring and first import",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-09-20T18:18:23+00:00",
+      "created_by": "euan-reid",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46021,7 +46043,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-20T15:10:26+00:00",
+    "last_updated": "2023-09-21T15:09:06+00:00",
     "version": 1
   }
 }
