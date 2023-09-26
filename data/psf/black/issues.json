@@ -46049,6 +46049,18 @@
       "is_pr": true,
       "created_at": "2023-09-25T06:40:15+00:00",
       "created_by": "dependabot[bot]",
+      "closed_at": "2023-09-25T16:32:59+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3902,
+      "title": "add support for printing the diff of AST trees when running tests",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-09-25T15:24:14+00:00",
+      "created_by": "jakkdl",
       "closed_at": null,
       "closed_by": null
     }
@@ -46058,7 +46070,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-25T15:10:22+00:00",
+    "last_updated": "2023-09-26T15:10:26+00:00",
     "version": 1
   }
 }
