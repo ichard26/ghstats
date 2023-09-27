@@ -11354,6 +11354,16 @@
       "created_by": "nickdrozd",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1021,
+      "title": "Final classes support",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-09-27T10:47:09+00:00",
+      "created_by": "4atj",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11361,7 +11371,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-09-21T15:09:10+00:00",
+    "last_updated": "2023-09-27T15:10:31+00:00",
     "version": 1
   }
 }
