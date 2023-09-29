@@ -46073,8 +46073,8 @@
       "is_pr": false,
       "created_at": "2023-09-28T14:07:03+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-09-28T16:10:02+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3904,
@@ -46085,8 +46085,20 @@
       "is_pr": true,
       "created_at": "2023-09-28T14:08:12+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-09-28T16:10:01+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3905,
+      "title": "Dont format dictionaries in Code (json)",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-09-29T05:52:06+00:00",
+      "created_by": "Pymann",
+      "closed_at": "2023-09-29T06:28:14+00:00",
+      "closed_by": "hauntsaninja"
     }
   ],
   "record": {
@@ -46094,7 +46106,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-28T15:10:16+00:00",
+    "last_updated": "2023-09-29T15:10:22+00:00",
     "version": 1
   }
 }
