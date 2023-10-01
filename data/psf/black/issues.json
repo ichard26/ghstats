@@ -46099,6 +46099,38 @@
       "created_by": "Pymann",
       "closed_at": "2023-09-29T06:28:14+00:00",
       "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 3906,
+      "title": "Black fails to determine version if a file named 'secrets.py' is present in the repository",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-01T05:39:37+00:00",
+      "created_by": "samskiter",
+      "closed_at": "2023-10-01T09:02:25+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 3907,
+      "title": "Update test_requirements.txt",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-01T09:34:19+00:00",
+      "created_by": "reyesvicente",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3908,
+      "title": "fuzzy testing with pysource_codegen",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-01T12:07:32+00:00",
+      "created_by": "15r10nk",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46106,7 +46138,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-09-30T15:08:32+00:00",
+    "last_updated": "2023-10-01T15:08:32+00:00",
     "version": 1
   }
 }
