@@ -46198,6 +46198,50 @@
       "created_by": "csalerno-asml",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3915,
+      "title": "[pre-commit.ci] pre-commit autoupdate",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-03T10:19:32+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3916,
+      "title": "respect magic trailing commas in return types",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-03T11:16:27+00:00",
+      "created_by": "jakkdl",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3917,
+      "title": "exclude tests/data/.* from mypy",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-03T12:44:09+00:00",
+      "created_by": "jakkdl",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3918,
+      "title": "Formatting one-tuples as multi-line if already multi-line",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-03T13:12:47+00:00",
+      "created_by": "bluetech",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46205,7 +46249,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-02T15:10:20+00:00",
+    "last_updated": "2023-10-03T15:10:42+00:00",
     "version": 1
   }
 }
