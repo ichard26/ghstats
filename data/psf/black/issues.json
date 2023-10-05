@@ -35337,8 +35337,8 @@
       "is_pr": false,
       "created_at": "2022-04-15T19:45:02+00:00",
       "created_by": "alexreinking",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-04T23:42:43+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3019,
@@ -46218,7 +46218,7 @@
       "is_pr": true,
       "created_at": "2023-10-03T11:16:27+00:00",
       "created_by": "jakkdl",
-      "closed_at": null,
+      "closed_at": "2023-10-04T23:42:35+00:00",
       "closed_by": null
     },
     {
@@ -46280,6 +46280,31 @@
       "created_by": "jake-anto",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3922,
+      "title": "Support inline flags in test cases",
+      "labels": [
+        "C: maintenance",
+        "good second issue"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-04T23:44:46+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3923,
+      "title": "Usage of `--exclude` can be further clarified",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-05T03:28:09+00:00",
+      "created_by": "frankcaoyun",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46287,7 +46312,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-04T15:10:33+00:00",
+    "last_updated": "2023-10-05T15:10:29+00:00",
     "version": 1
   }
 }
