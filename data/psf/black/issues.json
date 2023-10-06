@@ -45836,7 +45836,7 @@
       "is_pr": true,
       "created_at": "2023-09-11T12:39:15+00:00",
       "created_by": "david-lev",
-      "closed_at": null,
+      "closed_at": "2023-10-06T01:21:56+00:00",
       "closed_by": null
     },
     {
@@ -46224,11 +46224,13 @@
     {
       "number": 3917,
       "title": "exclude tests/data/.* from mypy",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-10-03T12:44:09+00:00",
       "created_by": "jakkdl",
-      "closed_at": null,
+      "closed_at": "2023-10-06T01:15:36+00:00",
       "closed_by": null
     },
     {
@@ -46278,7 +46280,7 @@
       "is_pr": true,
       "created_at": "2023-10-04T14:00:26+00:00",
       "created_by": "jake-anto",
-      "closed_at": null,
+      "closed_at": "2023-10-06T01:15:00+00:00",
       "closed_by": null
     },
     {
@@ -46305,6 +46307,46 @@
       "created_by": "frankcaoyun",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3924,
+      "title": "Preview style unnecessarily moves comment",
+      "labels": [
+        "T: bug",
+        "F: strings",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-06T01:42:25+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3925,
+      "title": "Black 23.9.1 reformat already clean code expression and creates a line too long",
+      "labels": [
+        "T: bug",
+        "F: linetoolong"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-06T10:30:43+00:00",
+      "created_by": "LLyaudet",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3926,
+      "title": "Long string in return annotation does not get split if there's parameters",
+      "labels": [
+        "T: bug",
+        "F: linetoolong"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-06T13:56:38+00:00",
+      "created_by": "jakkdl",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46312,7 +46354,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-05T15:10:29+00:00",
+    "last_updated": "2023-10-06T15:10:38+00:00",
     "version": 1
   }
 }
