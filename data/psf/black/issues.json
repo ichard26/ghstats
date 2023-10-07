@@ -46119,7 +46119,7 @@
       "is_pr": true,
       "created_at": "2023-10-01T09:34:19+00:00",
       "created_by": "reyesvicente",
-      "closed_at": null,
+      "closed_at": "2023-10-07T02:44:02+00:00",
       "closed_by": null
     },
     {
@@ -46196,7 +46196,7 @@
       "is_pr": true,
       "created_at": "2023-10-02T13:51:56+00:00",
       "created_by": "csalerno-asml",
-      "closed_at": null,
+      "closed_at": "2023-10-06T17:41:36+00:00",
       "closed_by": null
     },
     {
@@ -46347,6 +46347,46 @@
       "created_by": "jakkdl",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3927,
+      "title": "Set Docker to use 3.11 for now",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-06T17:45:33+00:00",
+      "created_by": "cooperlees",
+      "closed_at": "2023-10-06T18:39:20+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3928,
+      "title": "[black docker] Let's compile black in the containers",
+      "labels": [
+        "T: enhancement",
+        "help wanted",
+        "C: performance",
+        "C: integrations"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-06T17:50:31+00:00",
+      "created_by": "cooperlees",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3929,
+      "title": "Line wrapping on generic functions using the type parameter syntax",
+      "labels": [
+        "T: style",
+        "S: accepted"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-06T23:33:42+00:00",
+      "created_by": "PaulWassermann",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46354,7 +46394,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-06T15:10:38+00:00",
+    "last_updated": "2023-10-07T15:08:28+00:00",
     "version": 1
   }
 }
