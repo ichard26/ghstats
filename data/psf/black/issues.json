@@ -29532,8 +29532,8 @@
       "is_pr": false,
       "created_at": "2021-10-18T18:36:22+00:00",
       "created_by": "bukzor",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-08T00:36:32+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2544,
@@ -36236,7 +36236,7 @@
       "is_pr": true,
       "created_at": "2022-06-03T21:02:59+00:00",
       "created_by": "bukzor",
-      "closed_at": null,
+      "closed_at": "2023-10-08T00:36:44+00:00",
       "closed_by": null
     },
     {
@@ -45234,8 +45234,8 @@
       "is_pr": false,
       "created_at": "2023-08-11T09:02:36+00:00",
       "created_by": "mmohrhard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-07T22:16:38+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3835,
@@ -46387,6 +46387,38 @@
       "created_by": "PaulWassermann",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3930,
+      "title": "split long function parameter type hints without parentheses",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-07T15:33:56+00:00",
+      "created_by": "jakkdl",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3931,
+      "title": "Use inline flags for test cases",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-07T23:39:50+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3932,
+      "title": "Standardise newlines after module-level docstrings",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-08T10:13:29+00:00",
+      "created_by": "DanielNoord",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46394,7 +46426,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-07T15:08:28+00:00",
+    "last_updated": "2023-10-08T15:09:17+00:00",
     "version": 1
   }
 }
