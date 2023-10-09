@@ -26717,8 +26717,8 @@
       "is_pr": false,
       "created_at": "2021-06-08T12:17:09+00:00",
       "created_by": "srittau",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-09T14:04:53+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2317,
@@ -46395,7 +46395,7 @@
       "is_pr": true,
       "created_at": "2023-10-07T15:33:56+00:00",
       "created_by": "jakkdl",
-      "closed_at": null,
+      "closed_at": "2023-10-09T11:39:48+00:00",
       "closed_by": null
     },
     {
@@ -46419,6 +46419,41 @@
       "created_by": "DanielNoord",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3933,
+      "title": "Drop support for parsing Python 2",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-09T00:52:37+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-10-09T14:02:49+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3934,
+      "title": "Bump pypa/cibuildwheel from 2.16.1 to 2.16.2",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-09T06:29:42+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2023-10-09T14:00:49+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3935,
+      "title": "Long list formatted into each element occupies one row",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-09T09:08:42+00:00",
+      "created_by": "paoxiaode",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46426,7 +46461,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-08T15:09:17+00:00",
+    "last_updated": "2023-10-09T15:10:31+00:00",
     "version": 1
   }
 }
