@@ -21231,8 +21231,8 @@
       "is_pr": false,
       "created_at": "2020-12-16T14:42:23+00:00",
       "created_by": "lsorber",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-10T02:34:27+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1873,
@@ -35053,7 +35053,7 @@
       "is_pr": true,
       "created_at": "2022-04-05T21:23:29+00:00",
       "created_by": "jpy-git",
-      "closed_at": null,
+      "closed_at": "2023-10-10T03:00:59+00:00",
       "closed_by": null
     },
     {
@@ -46293,8 +46293,8 @@
       "is_pr": false,
       "created_at": "2023-10-04T23:44:46+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-10T01:43:48+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3923,
@@ -46407,7 +46407,7 @@
       "is_pr": true,
       "created_at": "2023-10-07T23:39:50+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-10-10T01:43:47+00:00",
       "closed_by": null
     },
     {
@@ -46417,7 +46417,7 @@
       "is_pr": true,
       "created_at": "2023-10-08T10:13:29+00:00",
       "created_by": "DanielNoord",
-      "closed_at": null,
+      "closed_at": "2023-10-10T02:34:26+00:00",
       "closed_by": null
     },
     {
@@ -46454,6 +46454,60 @@
       "created_by": "paoxiaode",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3936,
+      "title": "Migrate mypy config to pyproject.toml",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-09T19:31:30+00:00",
+      "created_by": "acharles7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3937,
+      "title": "Fix cache versioning when BLACK_CACHE_DIR is set",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-09T20:44:09+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-10-10T01:44:37+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3938,
+      "title": "Report all stacktraces in verbose mode",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-09T23:27:24+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-10-10T02:15:52+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3939,
+      "title": "Fix test that was not being run",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-10T02:12:29+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-10-10T03:02:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3940,
+      "title": "confine pre-commit to stages",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-10T14:34:09+00:00",
+      "created_by": "davidculley",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46461,7 +46515,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-09T15:10:31+00:00",
+    "last_updated": "2023-10-10T15:10:23+00:00",
     "version": 1
   }
 }
