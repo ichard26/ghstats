@@ -36054,7 +36054,7 @@
     },
     {
       "number": 3083,
-      "title": "Doctests formatting in Docstrings",
+      "title": "Documentation: mention tools that can do doctests formatting",
       "labels": [
         "good first issue",
         "T: documentation",
@@ -46452,8 +46452,8 @@
       "is_pr": false,
       "created_at": "2023-10-09T09:08:42+00:00",
       "created_by": "paoxiaode",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-11T05:42:19+00:00",
+      "closed_by": "paoxiaode"
     },
     {
       "number": 3936,
@@ -46515,7 +46515,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-10T15:10:23+00:00",
+    "last_updated": "2023-10-11T15:09:35+00:00",
     "version": 1
   }
 }
