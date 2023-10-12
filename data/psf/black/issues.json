@@ -46508,6 +46508,16 @@
       "created_by": "davidculley",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3941,
+      "title": "[2492] Add new page to document installation methods",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-12T14:29:52+00:00",
+      "created_by": "takoman-mg",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46515,7 +46525,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-11T15:09:35+00:00",
+    "last_updated": "2023-10-12T15:10:13+00:00",
     "version": 1
   }
 }
