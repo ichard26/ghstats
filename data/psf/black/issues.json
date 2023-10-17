@@ -44716,8 +44716,8 @@
       "is_pr": false,
       "created_at": "2023-07-13T11:34:42+00:00",
       "created_by": "aucampia",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-17T07:59:17+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3791,
@@ -46550,8 +46550,8 @@
       "is_pr": false,
       "created_at": "2023-10-16T07:30:26+00:00",
       "created_by": "konstin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-16T17:51:53+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3945,
@@ -46585,7 +46585,7 @@
       "is_pr": true,
       "created_at": "2023-10-16T12:39:50+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-10-16T17:51:52+00:00",
       "closed_by": null
     },
     {
@@ -46598,8 +46598,8 @@
       "is_pr": false,
       "created_at": "2023-10-16T13:18:53+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-16T17:53:40+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3949,
@@ -46608,7 +46608,7 @@
       "is_pr": true,
       "created_at": "2023-10-16T13:39:37+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-10-16T17:53:38+00:00",
       "closed_by": null
     },
     {
@@ -46618,7 +46618,19 @@
       "is_pr": true,
       "created_at": "2023-10-16T14:07:05+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-10-17T07:59:16+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3951,
+      "title": "Prepare release 23.10.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-17T14:17:34+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-10-17T14:22:26+00:00",
       "closed_by": null
     }
   ],
@@ -46627,7 +46639,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-16T15:10:25+00:00",
+    "last_updated": "2023-10-17T15:10:30+00:00",
     "version": 1
   }
 }
