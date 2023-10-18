@@ -11400,6 +11400,16 @@
       "created_by": "KotlinIsland",
       "closed_at": "2023-10-11T01:56:17+00:00",
       "closed_by": "ichard26"
+    },
+    {
+      "number": 1025,
+      "title": "undeclared identifier",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-10-18T14:27:00+00:00",
+      "created_by": "dineshbvadhia",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11407,7 +11417,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-10-12T15:10:15+00:00",
+    "last_updated": "2023-10-18T15:11:01+00:00",
     "version": 1
   }
 }
