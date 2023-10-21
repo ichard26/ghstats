@@ -46708,6 +46708,52 @@
       "created_by": "dariocurr",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 3959,
+      "title": "[2213] Add support for single line format skip with other comments on the same line",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-20T15:27:09+00:00",
+      "created_by": "henriholopainen",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3960,
+      "title": "Guide for neovim? I Found one for vim but not sure how to apply it to neovim.",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-20T15:55:42+00:00",
+      "created_by": "leet0rz",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3961,
+      "title": "docs: specifies the use of the .git-blame-ignore-revs file",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-20T22:28:19+00:00",
+      "created_by": "williamjmorenor",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3962,
+      "title": "Fixed typo in CHANGES.md",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-21T09:59:20+00:00",
+      "created_by": "AniketP04",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46715,7 +46761,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-20T15:09:09+00:00",
+    "last_updated": "2023-10-21T15:08:24+00:00",
     "version": 1
   }
 }
