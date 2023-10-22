@@ -10417,8 +10417,8 @@
       "is_pr": false,
       "created_at": "2022-07-16T01:17:55+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-22T00:32:49+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 941,
@@ -11430,6 +11430,18 @@
       "created_by": "dineshbvadhia",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1028,
+      "title": "Dead code triggers mypyc assertion",
+      "labels": [
+        "bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-21T18:50:41+00:00",
+      "created_by": "msullivan",
+      "closed_at": "2023-10-22T00:06:44+00:00",
+      "closed_by": "JukkaL"
     }
   ],
   "record": {
@@ -11437,7 +11449,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-10-21T15:08:26+00:00",
+    "last_updated": "2023-10-22T15:08:53+00:00",
     "version": 1
   }
 }
