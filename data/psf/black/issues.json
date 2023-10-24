@@ -25466,7 +25466,8 @@
       "title": "Can't use other comments after \"# fmt: ...\" (like \"# noqa: ...\")",
       "labels": [
         "T: enhancement",
-        "S: accepted"
+        "S: accepted",
+        "F: fmtskip"
       ],
       "is_pr": false,
       "created_at": "2021-05-10T12:31:38+00:00",
@@ -39202,8 +39203,8 @@
       "is_pr": false,
       "created_at": "2022-10-13T11:29:37+00:00",
       "created_by": "e-gebes",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-23T15:52:05+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3331,
@@ -41914,8 +41915,8 @@
       "is_pr": false,
       "created_at": "2023-02-06T09:28:43+00:00",
       "created_by": "bluenote10",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-23T17:49:17+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3552,
@@ -46372,8 +46373,8 @@
       "is_pr": false,
       "created_at": "2023-10-06T17:50:31+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-23T15:36:49+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3929,
@@ -46654,8 +46655,8 @@
       "is_pr": false,
       "created_at": "2023-10-17T21:43:58+00:00",
       "created_by": "huhlim",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-23T17:37:16+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "number": 3954,
@@ -46696,7 +46697,7 @@
       "is_pr": true,
       "created_at": "2023-10-19T12:47:27+00:00",
       "created_by": "kiyoon",
-      "closed_at": null,
+      "closed_at": "2023-10-23T17:37:14+00:00",
       "closed_by": null
     },
     {
@@ -46706,7 +46707,7 @@
       "is_pr": true,
       "created_at": "2023-10-19T16:46:08+00:00",
       "created_by": "dariocurr",
-      "closed_at": null,
+      "closed_at": "2023-10-23T16:40:09+00:00",
       "closed_by": null
     },
     {
@@ -46740,7 +46741,7 @@
       "is_pr": true,
       "created_at": "2023-10-20T22:28:19+00:00",
       "created_by": "williamjmorenor",
-      "closed_at": null,
+      "closed_at": "2023-10-23T17:21:59+00:00",
       "closed_by": null
     },
     {
@@ -46787,7 +46788,7 @@
       "is_pr": true,
       "created_at": "2023-10-22T19:56:02+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
+      "closed_at": "2023-10-23T15:36:48+00:00",
       "closed_by": null
     },
     {
@@ -46812,6 +46813,93 @@
       "created_by": "henriholopainen",
       "closed_at": "2023-10-23T14:38:37+00:00",
       "closed_by": null
+    },
+    {
+      "number": 3968,
+      "title": "Fix failing Windows documentation build",
+      "labels": [
+        "T: bug",
+        "C: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-23T17:36:56+00:00",
+      "created_by": "cooperlees",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3969,
+      "title": "Prepare release 23.10.1",
+      "labels": [
+        "T: enhancement",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-23T17:48:42+00:00",
+      "created_by": "cooperlees",
+      "closed_at": "2023-10-23T17:59:16+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3970,
+      "title": "Add release.py automation for release commits",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-23T18:05:19+00:00",
+      "created_by": "cooperlees",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3971,
+      "title": "[docker ci building] See if we can get aarch64 + x86_64 building in parallel",
+      "labels": [
+        "T: enhancement",
+        "C: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-23T18:11:15+00:00",
+      "created_by": "cooperlees",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3972,
+      "title": "Request: new releases triggering `black-pre-commit-mirror`'s `mirror` action",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-23T20:42:03+00:00",
+      "created_by": "jamesbraza",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3973,
+      "title": "Add Unreleased template to CHANGES.md",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-24T04:49:12+00:00",
+      "created_by": "cooperlees",
+      "closed_at": "2023-10-24T06:26:40+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3974,
+      "title": "Add release tool",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-24T06:54:22+00:00",
+      "created_by": "cooperlees",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -46819,7 +46907,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-23T15:10:30+00:00",
+    "last_updated": "2023-10-24T15:11:00+00:00",
     "version": 1
   }
 }
