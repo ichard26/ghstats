@@ -43877,8 +43877,8 @@
       "is_pr": false,
       "created_at": "2023-06-04T18:48:32+00:00",
       "created_by": "dtch1997",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-28T05:16:16+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3718,
@@ -45513,8 +45513,8 @@
       "is_pr": false,
       "created_at": "2023-08-30T06:03:59+00:00",
       "created_by": "masterspelling",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-28T05:08:21+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3858,
@@ -46037,8 +46037,8 @@
       "is_pr": false,
       "created_at": "2023-09-20T18:18:23+00:00",
       "created_by": "euan-reid",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-28T05:05:54+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3901,
@@ -46507,7 +46507,7 @@
       "is_pr": true,
       "created_at": "2023-10-10T14:34:09+00:00",
       "created_by": "davidculley",
-      "closed_at": null,
+      "closed_at": "2023-10-27T22:43:34+00:00",
       "closed_by": null
     },
     {
@@ -46824,8 +46824,8 @@
       "is_pr": false,
       "created_at": "2023-10-23T17:36:56+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-28T04:29:09+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3969,
@@ -46933,8 +46933,8 @@
       "is_pr": false,
       "created_at": "2023-10-25T18:39:23+00:00",
       "created_by": "ThGaskin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-28T04:17:59+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3978,
@@ -47034,12 +47034,15 @@
     {
       "number": 3986,
       "title": "crash with the wrong number of spaces before a type-comment for a typed-function",
-      "labels": [],
+      "labels": [
+        "C: invalid code",
+        "C: parser"
+      ],
       "is_pr": false,
       "created_at": "2023-10-27T10:17:33+00:00",
       "created_by": "15r10nk",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-28T04:13:20+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3987,
@@ -47054,10 +47057,92 @@
     {
       "number": 3988,
       "title": "Update CHANGES.md",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-10-27T13:45:21+00:00",
       "created_by": "Spyrosigma",
+      "closed_at": "2023-10-27T20:27:19+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3989,
+      "title": "When and which preview styles will be promoted to stable?",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-27T16:21:47+00:00",
+      "created_by": "konstin",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3990,
+      "title": "Update current_style.md",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-27T18:41:43+00:00",
+      "created_by": "Gabriel-p",
+      "closed_at": "2023-10-27T18:54:31+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3991,
+      "title": "Add trailing comma test case for hugging parens",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-27T18:54:58+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-10-27T19:17:54+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3992,
+      "title": "Hug parens also with multiline unpacking",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-27T21:28:09+00:00",
+      "created_by": "henriholopainen",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3993,
+      "title": "Regression test for match variable inside match",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-28T04:28:17+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3994,
+      "title": "Fix crash on await (a ** b)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-28T05:31:35+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 3995,
+      "title": "Update README.md",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-10-28T08:56:17+00:00",
+      "created_by": "Shivam250702",
       "closed_at": null,
       "closed_by": null
     }
@@ -47067,7 +47152,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-27T15:09:39+00:00",
+    "last_updated": "2023-10-28T15:08:31+00:00",
     "version": 1
   }
 }
