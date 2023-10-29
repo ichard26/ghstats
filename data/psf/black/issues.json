@@ -41153,8 +41153,8 @@
       "is_pr": false,
       "created_at": "2023-01-09T22:51:54+00:00",
       "created_by": "CelestialGuru",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-28T18:05:55+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3488,
@@ -47121,7 +47121,7 @@
       "is_pr": true,
       "created_at": "2023-10-28T04:28:17+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-10-28T18:05:54+00:00",
       "closed_by": null
     },
     {
@@ -47143,6 +47143,26 @@
       "is_pr": true,
       "created_at": "2023-10-28T08:56:17+00:00",
       "created_by": "Shivam250702",
+      "closed_at": "2023-10-28T17:48:18+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 3996,
+      "title": "Python",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-10-28T17:01:23+00:00",
+      "created_by": "Ehaun69",
+      "closed_at": "2023-10-28T17:44:42+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 3997,
+      "title": "Update README.md",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-29T08:14:46+00:00",
+      "created_by": "aditya7302",
       "closed_at": null,
       "closed_by": null
     }
@@ -47152,7 +47172,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-28T15:08:31+00:00",
+    "last_updated": "2023-10-29T15:08:46+00:00",
     "version": 1
   }
 }
