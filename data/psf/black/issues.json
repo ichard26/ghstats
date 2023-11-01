@@ -20463,8 +20463,8 @@
       "is_pr": false,
       "created_at": "2020-11-09T17:16:47+00:00",
       "created_by": "torotil",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-31T20:11:01+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1812,
@@ -43999,8 +43999,8 @@
       "is_pr": false,
       "created_at": "2023-06-09T13:20:51+00:00",
       "created_by": "DiscoveryFox",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-10-31T15:27:13+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3728,
@@ -45140,7 +45140,7 @@
       "is_pr": false,
       "created_at": "2023-08-02T19:56:47+00:00",
       "created_by": "slorg1",
-      "closed_at": null,
+      "closed_at": "2023-11-01T13:20:15+00:00",
       "closed_by": "JelleZijlstra"
     },
     {
@@ -47221,8 +47221,8 @@
       "is_pr": false,
       "created_at": "2023-10-30T09:08:31+00:00",
       "created_by": "konstin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-01T00:11:29+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4003,
@@ -47231,7 +47231,7 @@
       "is_pr": true,
       "created_at": "2023-10-30T14:38:27+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-11-01T00:11:28+00:00",
       "closed_by": null
     },
     {
@@ -47246,7 +47246,7 @@
     },
     {
       "number": 4005,
-      "title": "Treat strings with different quote types as equivalent",
+      "title": "Preserve printable quote types for debug f-strings",
       "labels": [],
       "is_pr": true,
       "created_at": "2023-10-31T09:01:55+00:00",
@@ -47270,7 +47270,9 @@
       "number": 4007,
       "title": "Preview: Improved line breaks with multiple targets",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "S: accepted",
+        "F: linebreak"
       ],
       "is_pr": false,
       "created_at": "2023-10-31T10:48:12+00:00",
@@ -47285,7 +47287,7 @@
       "is_pr": true,
       "created_at": "2023-10-31T12:23:33+00:00",
       "created_by": "henriholopainen",
-      "closed_at": null,
+      "closed_at": "2023-10-31T15:27:11+00:00",
       "closed_by": null
     },
     {
@@ -47297,6 +47299,60 @@
       "created_by": "Killer2OP",
       "closed_at": "2023-10-31T15:04:19+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4010,
+      "title": "Prefer more equal signs before a break when splitting chained assignments",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-10-31T16:17:25+00:00",
+      "created_by": "henriholopainen",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4011,
+      "title": "Preview: handle more huggable immediately nested parens/brackets",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-10-31T22:13:12+00:00",
+      "created_by": "yilei",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4012,
+      "title": "Fix #4011: Handle more huggable immediately nested parens/brackets.",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-01T00:19:10+00:00",
+      "created_by": "yilei",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4013,
+      "title": "Minor refactoring in get_sources and gen_python_files",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-11-01T06:08:02+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2023-11-01T13:20:14+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4014,
+      "title": "#2097 issue: is_type_comment() update",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-01T12:57:53+00:00",
+      "created_by": "Aashka1",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -47304,7 +47360,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-10-31T15:10:17+00:00",
+    "last_updated": "2023-11-01T15:10:11+00:00",
     "version": 1
   }
 }
