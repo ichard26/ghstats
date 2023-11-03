@@ -43394,8 +43394,8 @@
       "is_pr": false,
       "created_at": "2023-05-04T07:21:01+00:00",
       "created_by": "15r10nk",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-03T03:42:12+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3677,
@@ -47131,7 +47131,7 @@
       "is_pr": true,
       "created_at": "2023-10-28T05:31:35+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-11-03T03:42:11+00:00",
       "closed_by": null
     },
     {
@@ -47246,7 +47246,7 @@
     },
     {
       "number": 4005,
-      "title": "Preserve printable quote types for debug f-strings",
+      "title": "Preserve visible quote types for f-string debug expressions",
       "labels": [],
       "is_pr": true,
       "created_at": "2023-10-31T09:01:55+00:00",
@@ -47373,6 +47373,38 @@
       "created_by": "henriholopainen",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4017,
+      "title": "Fix arm wheels on macOS",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-03T03:46:42+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4018,
+      "title": "Internal error on a specific file",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-03T07:40:47+00:00",
+      "created_by": "zerothi",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4019,
+      "title": "Fix crash with f-string docstrings",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-03T08:07:04+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -47380,7 +47412,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-02T15:10:51+00:00",
+    "last_updated": "2023-11-03T15:10:22+00:00",
     "version": 1
   }
 }
