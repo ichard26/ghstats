@@ -2619,6 +2619,7 @@
       "number": 244,
       "title": "Optimize python global variables",
       "labels": [
+        "priority-2-low",
         "speed"
       ],
       "is_pr": false,
@@ -7675,7 +7676,8 @@
       "title": "More efficient nested functions",
       "labels": [
         "codesize",
-        "speed"
+        "speed",
+        "area-functions"
       ],
       "is_pr": false,
       "created_at": "2020-02-05T17:17:17+00:00",
@@ -9591,6 +9593,7 @@
       "title": "Finish async support",
       "labels": [
         "help wanted",
+        "priority-0-high",
         "feature"
       ],
       "is_pr": false,
@@ -9780,7 +9783,8 @@
       "labels": [
         "bug",
         "priority-0-high",
-        "python compat"
+        "python compat",
+        "area-functions"
       ],
       "is_pr": false,
       "created_at": "2021-08-05T20:33:05+00:00",
@@ -11315,19 +11319,21 @@
       "number": 1017,
       "title": "Avoid cyclic references in nested functions",
       "labels": [
-        "speed"
+        "speed",
+        "area-functions"
       ],
       "is_pr": false,
       "created_at": "2023-09-10T10:05:48+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-05T00:51:52+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 1018,
       "title": "Use per-class freelists for nested and async functions",
       "labels": [
-        "speed"
+        "speed",
+        "area-functions"
       ],
       "is_pr": false,
       "created_at": "2023-09-10T10:26:22+00:00",
@@ -11462,6 +11468,19 @@
       "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1031,
+      "title": "Reuse a single (callable) extension class for all nested functions in a compilation group ",
+      "labels": [
+        "codesize",
+        "area-functions"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-04T22:49:42+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11469,7 +11488,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-11-02T15:10:54+00:00",
+    "last_updated": "2023-11-05T15:08:46+00:00",
     "version": 1
   }
 }
