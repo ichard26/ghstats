@@ -9176,8 +9176,8 @@
       "is_pr": false,
       "created_at": "2019-05-06T09:53:22+00:00",
       "created_by": "GadgetSteve",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-07T02:05:26+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 831,
@@ -45427,8 +45427,8 @@
       "is_pr": false,
       "created_at": "2023-08-21T15:20:29+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-07T14:32:00+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3851,
@@ -47393,8 +47393,8 @@
       "is_pr": false,
       "created_at": "2023-11-03T07:40:47+00:00",
       "created_by": "zerothi",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-07T00:58:44+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4019,
@@ -47403,7 +47403,7 @@
       "is_pr": true,
       "created_at": "2023-11-03T08:07:04+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2023-11-07T00:58:43+00:00",
       "closed_by": null
     },
     {
@@ -47413,7 +47413,7 @@
       "is_pr": true,
       "created_at": "2023-11-03T22:56:51+00:00",
       "created_by": "yilei",
-      "closed_at": null,
+      "closed_at": "2023-11-07T02:05:25+00:00",
       "closed_by": null
     },
     {
@@ -47457,7 +47457,7 @@
       "is_pr": true,
       "created_at": "2023-11-04T23:32:38+00:00",
       "created_by": "rdrll",
-      "closed_at": null,
+      "closed_at": "2023-11-07T14:31:59+00:00",
       "closed_by": null
     },
     {
@@ -47484,6 +47484,42 @@
       "created_by": "zyzzyxdonta",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4027,
+      "title": "Conflict in blank lines after module docstring and before function",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-06T18:10:59+00:00",
+      "created_by": "peterjc",
+      "closed_at": "2023-11-06T22:30:06+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4028,
+      "title": "Preview: Keep requiring two empty lines between module-level docstring and first function or class definition.",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-06T20:09:00+00:00",
+      "created_by": "yilei",
+      "closed_at": "2023-11-06T22:30:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4029,
+      "title": "Black explodes list unnecessarily with long variable name",
+      "labels": [
+        "T: bug",
+        "F: linebreak"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-07T00:39:14+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -47491,7 +47527,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-06T15:11:07+00:00",
+    "last_updated": "2023-11-07T15:10:09+00:00",
     "version": 1
   }
 }
