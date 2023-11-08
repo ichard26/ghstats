@@ -6195,9 +6195,9 @@
       ],
       "is_pr": false,
       "created_at": "2018-10-15T01:54:52+00:00",
-      "created_by": "bertjwregeer",
-      "closed_at": null,
-      "closed_by": null
+      "created_by": "digitalresistor",
+      "closed_at": "2023-11-07T21:45:45+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 564,
@@ -15055,8 +15055,8 @@
       "is_pr": false,
       "created_at": "2020-04-20T15:24:21+00:00",
       "created_by": "tartley",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-07T23:48:41+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1353,
@@ -41083,8 +41083,8 @@
       "is_pr": false,
       "created_at": "2023-01-07T17:28:46+00:00",
       "created_by": "ZeroIntensity",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-07T21:51:22+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3483,
@@ -45140,7 +45140,7 @@
       "is_pr": false,
       "created_at": "2023-08-02T19:56:47+00:00",
       "created_by": "slorg1",
-      "closed_at": null,
+      "closed_at": "2023-11-07T19:31:45+00:00",
       "closed_by": "JelleZijlstra"
     },
     {
@@ -45551,8 +45551,8 @@
       "is_pr": false,
       "created_at": "2023-09-03T03:53:57+00:00",
       "created_by": "alexveden",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-08T09:06:09+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3861,
@@ -47051,7 +47051,7 @@
       "is_pr": true,
       "created_at": "2023-10-27T13:06:20+00:00",
       "created_by": "sth",
-      "closed_at": null,
+      "closed_at": "2023-11-07T19:59:40+00:00",
       "closed_by": null
     },
     {
@@ -47251,7 +47251,7 @@
       "is_pr": true,
       "created_at": "2023-10-31T09:01:55+00:00",
       "created_by": "henriholopainen",
-      "closed_at": null,
+      "closed_at": "2023-11-08T04:19:33+00:00",
       "closed_by": null
     },
     {
@@ -47351,7 +47351,7 @@
       "is_pr": true,
       "created_at": "2023-11-01T12:57:53+00:00",
       "created_by": "Aashka1",
-      "closed_at": null,
+      "closed_at": "2023-11-08T05:28:54+00:00",
       "closed_by": null
     },
     {
@@ -47361,7 +47361,7 @@
       "is_pr": true,
       "created_at": "2023-11-01T19:51:17+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2023-11-07T19:31:44+00:00",
       "closed_by": null
     },
     {
@@ -47371,7 +47371,7 @@
       "is_pr": true,
       "created_at": "2023-11-01T23:32:53+00:00",
       "created_by": "henriholopainen",
-      "closed_at": null,
+      "closed_at": "2023-11-07T19:29:25+00:00",
       "closed_by": null
     },
     {
@@ -47447,7 +47447,7 @@
       "is_pr": true,
       "created_at": "2023-11-04T18:31:11+00:00",
       "created_by": "bluetech",
-      "closed_at": null,
+      "closed_at": "2023-11-08T04:21:33+00:00",
       "closed_by": null
     },
     {
@@ -47520,6 +47520,54 @@
       "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4030,
+      "title": "docs: fix minor typo",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-11-07T20:39:51+00:00",
+      "created_by": "Ab2nour",
+      "closed_at": "2023-11-07T23:40:10+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4031,
+      "title": "pyproject.toml target-version support is undocumented",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-07T23:07:44+00:00",
+      "created_by": "adamchainz",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4032,
+      "title": "Prepare release 23.11.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-11-08T04:30:44+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-11-08T04:44:46+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4033,
+      "title": "`--line-ranges` bad behavior and internal errors",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-08T13:58:34+00:00",
+      "created_by": "tartley",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -47527,7 +47575,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-07T15:10:09+00:00",
+    "last_updated": "2023-11-08T15:10:35+00:00",
     "version": 1
   }
 }
