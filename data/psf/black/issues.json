@@ -46849,8 +46849,8 @@
       "is_pr": false,
       "created_at": "2023-10-23T18:05:19+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-09T05:44:00+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "number": 3971,
@@ -47568,6 +47568,40 @@
       "created_by": "tartley",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4034,
+      "title": "Disable the stability check with --line-ranges for now.",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-09T04:48:34+00:00",
+      "created_by": "yilei",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4035,
+      "title": "Make black[d] install + test run with 3.12",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-09T06:08:37+00:00",
+      "created_by": "cooperlees",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4036,
+      "title": "\"Black produced code that is not equivalent to the source\" error in preview mode on function call with two `type:ignore` comments",
+      "labels": [
+        "T: bug",
+        "C: crash",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-09T11:47:12+00:00",
+      "created_by": "DetachHead",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -47575,7 +47609,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-08T15:10:35+00:00",
+    "last_updated": "2023-11-09T15:10:11+00:00",
     "version": 1
   }
 }
