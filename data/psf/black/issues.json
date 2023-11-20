@@ -46862,8 +46862,8 @@
       "is_pr": false,
       "created_at": "2023-10-23T18:11:15+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-19T18:44:01+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "number": 3972,
@@ -47799,7 +47799,7 @@
       "is_pr": true,
       "created_at": "2023-11-18T21:43:02+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
+      "closed_at": "2023-11-19T18:44:00+00:00",
       "closed_by": null
     },
     {
@@ -47811,6 +47811,30 @@
       "created_by": "cooperlees",
       "closed_at": "2023-11-19T02:09:48+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4056,
+      "title": "Nested quotes in f-strings",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-19T18:06:19+00:00",
+      "created_by": "ujan-r",
+      "closed_at": "2023-11-19T20:28:34+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4057,
+      "title": "[docker ci] Revert \"parallel\" builds in seperate actions",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-11-19T19:25:20+00:00",
+      "created_by": "cooperlees",
+      "closed_at": "2023-11-19T19:28:00+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -47818,7 +47842,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-19T15:09:18+00:00",
+    "last_updated": "2023-11-20T15:11:06+00:00",
     "version": 1
   }
 }
