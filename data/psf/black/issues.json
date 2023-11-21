@@ -12090,8 +12090,8 @@
       "is_pr": false,
       "created_at": "2019-10-28T00:23:08+00:00",
       "created_by": "ryanprior",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-21T04:44:51+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1101,
@@ -42668,8 +42668,8 @@
       "is_pr": false,
       "created_at": "2023-03-18T21:21:47+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-21T04:48:54+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3615,
@@ -44858,6 +44858,7 @@
       "title": "`--preview` makes it impossible to use a comment to ignore a static type violation",
       "labels": [
         "T: bug",
+        "F: strings",
         "C: preview style"
       ],
       "is_pr": false,
@@ -47423,7 +47424,7 @@
       "is_pr": true,
       "created_at": "2023-11-03T23:57:56+00:00",
       "created_by": "tungol",
-      "closed_at": null,
+      "closed_at": "2023-11-21T04:44:34+00:00",
       "closed_by": null
     },
     {
@@ -47566,8 +47567,8 @@
       "is_pr": false,
       "created_at": "2023-11-08T13:58:34+00:00",
       "created_by": "tartley",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-21T04:45:52+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4034,
@@ -47576,7 +47577,7 @@
       "is_pr": true,
       "created_at": "2023-11-09T04:48:34+00:00",
       "created_by": "yilei",
-      "closed_at": null,
+      "closed_at": "2023-11-21T04:45:40+00:00",
       "closed_by": null
     },
     {
@@ -47835,6 +47836,121 @@
       "created_by": "cooperlees",
       "closed_at": "2023-11-19T19:28:00+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4058,
+      "title": "Add parenthesis around walrus",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-20T15:43:32+00:00",
+      "created_by": "Conchylicultor",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4059,
+      "title": "FIPS compliance for --diff ",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-21T00:12:22+00:00",
+      "created_by": "acestronautical",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4060,
+      "title": "Allow empty lines at beginning of blocks (again)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-21T05:05:25+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4061,
+      "title": "Run lint job on Ubuntu only",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-11-21T05:10:19+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-11-21T06:33:17+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4062,
+      "title": "Crash with preview style + line length 1",
+      "labels": [
+        "T: bug",
+        "C: crash",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-21T06:18:05+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4063,
+      "title": "Preview style: Don't collapse dummy implementation with comment",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-21T06:23:43+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4064,
+      "title": "First draft for 2024 stable style",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-21T06:32:35+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4065,
+      "title": "pre-commit: \"Expected one of commit, commit-msg, manual, ...\" since 23.11.0",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-21T13:19:34+00:00",
+      "created_by": "MT-Cash",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4066,
+      "title": "Do not treat \"...  # comment\" as a dummy implementation",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-21T14:27:57+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4067,
+      "title": "fix(pre-commit): raise minimum_pre_commit_version (#4065)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-21T15:06:26+00:00",
+      "created_by": "davidculley",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -47842,7 +47958,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-20T15:11:06+00:00",
+    "last_updated": "2023-11-21T15:10:28+00:00",
     "version": 1
   }
 }
