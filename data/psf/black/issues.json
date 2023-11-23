@@ -47278,8 +47278,8 @@
       "is_pr": false,
       "created_at": "2023-10-31T10:48:12+00:00",
       "created_by": "MichaReiser",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-23T03:11:50+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4008,
@@ -47308,7 +47308,7 @@
       "is_pr": true,
       "created_at": "2023-10-31T16:17:25+00:00",
       "created_by": "henriholopainen",
-      "closed_at": null,
+      "closed_at": "2023-11-23T03:11:49+00:00",
       "closed_by": null
     },
     {
@@ -47970,7 +47970,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-22T15:10:47+00:00",
+    "last_updated": "2023-11-23T15:10:35+00:00",
     "version": 1
   }
 }
