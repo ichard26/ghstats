@@ -47973,6 +47973,16 @@
       "created_by": "AlexWaygood",
       "closed_at": "2023-11-24T14:19:55+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4070,
+      "title": "Build mypycified wheels for Python 3.12",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-24T16:43:14+00:00",
+      "created_by": "AlexWaygood",
+      "closed_at": "2023-11-24T18:05:59+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -47980,7 +47990,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-24T15:10:08+00:00",
+    "last_updated": "2023-11-25T15:08:52+00:00",
     "version": 1
   }
 }
