@@ -47983,6 +47983,19 @@
       "created_by": "AlexWaygood",
       "closed_at": "2023-11-24T18:05:59+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4071,
+      "title": "Wrapping lines of a function signature that uses the new python 3.12 generic type parameter syntax",
+      "labels": [
+        "T: style",
+        "F: linebreak"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-26T00:03:29+00:00",
+      "created_by": "Questionsdenombres",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -47990,7 +48003,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-25T15:08:52+00:00",
+    "last_updated": "2023-11-26T15:09:06+00:00",
     "version": 1
   }
 }

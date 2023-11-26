@@ -11521,6 +11521,30 @@
       "created_by": "nickdrozd",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1036,
+      "title": "Fast str and bytes builders",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-26T13:14:14+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1037,
+      "title": "Fast access to item data data of str and bytes objects",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-26T13:45:46+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11528,7 +11552,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-11-23T15:10:38+00:00",
+    "last_updated": "2023-11-26T15:09:07+00:00",
     "version": 1
   }
 }
