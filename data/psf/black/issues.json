@@ -48030,6 +48030,66 @@
       "created_by": "zachsa",
       "closed_at": "2023-11-28T08:02:36+00:00",
       "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4075,
+      "title": "Break long expressions at operators, not inside inner parentheses",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-28T17:54:21+00:00",
+      "created_by": "mfripp",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4076,
+      "title": "docs: Unify option descriptions between `--help` and `the_basics.md`",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-11-28T18:00:03+00:00",
+      "created_by": "RedGuy12",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4077,
+      "title": "pathlib exception when symlinks are involved",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-28T20:56:34+00:00",
+      "created_by": "tg2648",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4078,
+      "title": "Avoid removing whitespace for parenthesized walrus in subscripts",
+      "labels": [
+        "T: bug",
+        "S: accepted",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-29T01:06:16+00:00",
+      "created_by": "MichaReiser",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4079,
+      "title": "fix",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-11-29T03:43:02+00:00",
+      "created_by": "SAMRIDHISAINII",
+      "closed_at": "2023-11-29T03:48:39+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -48037,7 +48097,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-28T15:11:00+00:00",
+    "last_updated": "2023-11-29T15:10:42+00:00",
     "version": 1
   }
 }
