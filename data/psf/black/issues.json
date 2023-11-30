@@ -47858,8 +47858,8 @@
       "is_pr": false,
       "created_at": "2023-11-21T00:12:22+00:00",
       "created_by": "acestronautical",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-11-30T00:47:46+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4060,
@@ -48090,6 +48090,30 @@
       "created_by": "SAMRIDHISAINII",
       "closed_at": "2023-11-29T03:48:39+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4080,
+      "title": "Single-argument function includes trailing comma inconsistently",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-30T05:52:47+00:00",
+      "created_by": "charliermarsh",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4081,
+      "title": "Black fails to format long string literals not containing any whitespace characters",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-11-30T13:59:24+00:00",
+      "created_by": "jhelgert",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -48097,7 +48121,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-11-29T15:10:42+00:00",
+    "last_updated": "2023-11-30T15:09:40+00:00",
     "version": 1
   }
 }

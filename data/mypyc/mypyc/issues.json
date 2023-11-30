@@ -11557,6 +11557,16 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1039,
+      "title": "[Question] Are any perfomance benefits by using the overload decorator inside native classes?",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-11-30T06:30:48+00:00",
+      "created_by": "JotaRata",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11564,7 +11574,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-11-27T15:10:43+00:00",
+    "last_updated": "2023-11-30T15:09:42+00:00",
     "version": 1
   }
 }
