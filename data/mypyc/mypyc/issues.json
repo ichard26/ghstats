@@ -11567,6 +11567,26 @@
       "created_by": "JotaRata",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1040,
+      "title": "mypyc `self` is maybe-uninitialized",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-12-03T22:08:33+00:00",
+      "created_by": "andrew-ld",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1041,
+      "title": "mypyc made my code slower",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-12-04T12:21:27+00:00",
+      "created_by": "Dreamsorcerer",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11574,7 +11594,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-11-30T15:09:42+00:00",
+    "last_updated": "2023-12-04T15:10:55+00:00",
     "version": 1
   }
 }

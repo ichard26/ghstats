@@ -47989,6 +47989,7 @@
       "title": "Wrapping lines of a function signature that uses the new python 3.12 generic type parameter syntax",
       "labels": [
         "T: style",
+        "S: accepted",
         "F: linebreak"
       ],
       "is_pr": false,
@@ -48136,7 +48137,29 @@
       "is_pr": false,
       "created_at": "2023-12-03T11:42:40+00:00",
       "created_by": "ismagilli",
+      "closed_at": "2023-12-03T15:30:20+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4084,
+      "title": "[4068] Fix:  --line-ranges dedents a # fmt: off in the middle of a decorator",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-12-03T16:12:24+00:00",
+      "created_by": "riyaz489",
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4085,
+      "title": "Fix minor typos in docstrings",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-12-04T05:31:03+00:00",
+      "created_by": "exag",
+      "closed_at": "2023-12-04T05:47:30+00:00",
       "closed_by": null
     }
   ],
@@ -48145,7 +48168,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-12-03T15:08:58+00:00",
+    "last_updated": "2023-12-04T15:10:53+00:00",
     "version": 1
   }
 }
