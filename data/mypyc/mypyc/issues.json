@@ -11587,6 +11587,16 @@
       "created_by": "Dreamsorcerer",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1042,
+      "title": "Dataclass in file named 9.py fails compilation",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-12-05T20:06:59+00:00",
+      "created_by": "johanrex",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11594,7 +11604,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-12-04T15:10:55+00:00",
+    "last_updated": "2023-12-06T15:11:03+00:00",
     "version": 1
   }
 }

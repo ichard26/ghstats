@@ -47894,8 +47894,8 @@
       "is_pr": false,
       "created_at": "2023-11-21T06:18:05+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-12-05T18:19:25+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4063,
@@ -48163,6 +48163,28 @@
       "created_by": "exag",
       "closed_at": "2023-12-04T05:47:30+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4086,
+      "title": "fix crash in preview mode with --line-length=1",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-12-05T17:07:06+00:00",
+      "created_by": "jakkdl",
+      "closed_at": "2023-12-05T18:19:24+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4087,
+      "title": "test preview cases with line-length 1 unless explicitly skipped",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-12-06T14:30:13+00:00",
+      "created_by": "jakkdl",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -48170,7 +48192,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-12-05T15:11:08+00:00",
+    "last_updated": "2023-12-06T15:11:01+00:00",
     "version": 1
   }
 }
