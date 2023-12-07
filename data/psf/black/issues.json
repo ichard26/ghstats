@@ -48183,8 +48183,20 @@
       "is_pr": true,
       "created_at": "2023-12-06T14:30:13+00:00",
       "created_by": "jakkdl",
-      "closed_at": null,
+      "closed_at": "2023-12-06T15:17:33+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4088,
+      "title": "Black 23.11 cannot parse 3.12 enhanced f-strings",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2023-12-06T16:09:39+00:00",
+      "created_by": "smcclure17",
+      "closed_at": "2023-12-06T16:28:28+00:00",
+      "closed_by": "hauntsaninja"
     }
   ],
   "record": {
@@ -48192,7 +48204,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-12-06T15:11:01+00:00",
+    "last_updated": "2023-12-07T15:10:49+00:00",
     "version": 1
   }
 }
