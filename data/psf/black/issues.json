@@ -42122,8 +42122,8 @@
       "is_pr": false,
       "created_at": "2023-02-13T20:10:53+00:00",
       "created_by": "yilei",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-12-10T02:51:54+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3569,
@@ -42475,8 +42475,8 @@
       "is_pr": false,
       "created_at": "2023-03-09T22:24:23+00:00",
       "created_by": "davidgilbertson",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-12-09T20:28:56+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3599,
@@ -47674,8 +47674,8 @@
       "is_pr": false,
       "created_at": "2023-11-13T07:52:46+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-12-10T02:29:10+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4044,
@@ -47868,7 +47868,7 @@
       "is_pr": true,
       "created_at": "2023-11-21T05:05:25+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-12-10T02:29:09+00:00",
       "closed_by": null
     },
     {
@@ -47934,7 +47934,7 @@
     },
     {
       "number": 4066,
-      "title": "Do not treat \"...  # comment\" as a dummy implementation",
+      "title": "Only use dummy implementation logic for functions and classes",
       "labels": [],
       "is_pr": true,
       "created_at": "2023-11-21T14:27:57+00:00",
@@ -48211,11 +48211,93 @@
     {
       "number": 4090,
       "title": "docs: Move `fmt: off` docs",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-12-08T16:03:51+00:00",
       "created_by": "RedGuy12",
+      "closed_at": "2023-12-10T01:44:15+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4091,
+      "title": "perf: increasing the performance to remove unnecessary for loops",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-12-09T18:25:00+00:00",
+      "created_by": "Krupeshgithub",
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4092,
+      "title": "don't split binary operation if right operand is a function call with short name",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-12-09T21:06:10+00:00",
+      "created_by": "denballakh",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4093,
+      "title": "Split preview into `--preview` and `--unstable`?",
+      "labels": [
+        "T: enhancement",
+        "C: configuration"
+      ],
+      "is_pr": false,
+      "created_at": "2023-12-10T02:26:59+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4094,
+      "title": "Docstring formatting does not apply to module docstrings",
+      "labels": [
+        "T: bug",
+        "F: docstrings"
+      ],
+      "is_pr": false,
+      "created_at": "2023-12-10T02:56:11+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4095,
+      "title": "Unify docstring detection",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-12-10T03:26:01+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4096,
+      "title": "Add --unstable flag",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-12-10T04:15:25+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4097,
+      "title": "Add dedicated preview feature for East Asian Width",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-12-10T04:17:27+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2023-12-10T05:14:25+00:00",
       "closed_by": null
     }
   ],
@@ -48224,7 +48306,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-12-09T15:09:01+00:00",
+    "last_updated": "2023-12-10T15:09:14+00:00",
     "version": 1
   }
 }
