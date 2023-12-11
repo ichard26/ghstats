@@ -48299,6 +48299,58 @@
       "created_by": "JelleZijlstra",
       "closed_at": "2023-12-10T05:14:25+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4098,
+      "title": "`hug_parens_with_braces_and_square_brackets`: Recursively hugging parens decrease readability",
+      "labels": [
+        "T: style",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-12-10T23:53:54+00:00",
+      "created_by": "MichaReiser",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4099,
+      "title": "`hug_parens_with_braces_and_square_brackets`: Doesn't hug if all entries fit on a line",
+      "labels": [
+        "T: style",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-12-11T00:03:30+00:00",
+      "created_by": "MichaReiser",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4100,
+      "title": "Formatting notebook cells leads to random blank lines",
+      "labels": [
+        "T: bug",
+        "C: jupyter"
+      ],
+      "is_pr": false,
+      "created_at": "2023-12-11T00:14:35+00:00",
+      "created_by": "CanePlayz",
+      "closed_at": "2023-12-11T01:44:35+00:00",
+      "closed_by": "CanePlayz"
+    },
+    {
+      "number": 4101,
+      "title": "Bump actions/setup-python from 4 to 5",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2023-12-11T06:36:29+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -48306,7 +48358,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-12-10T15:09:14+00:00",
+    "last_updated": "2023-12-11T15:10:56+00:00",
     "version": 1
   }
 }
