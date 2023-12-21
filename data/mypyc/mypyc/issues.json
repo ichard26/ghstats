@@ -11597,6 +11597,16 @@
       "created_by": "johanrex",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1043,
+      "title": "Module \"mypy_extensions\" has no attribute \"u8\"",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2023-12-21T14:01:05+00:00",
+      "created_by": "JotaRata",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11604,7 +11614,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2023-12-14T15:10:40+00:00",
+    "last_updated": "2023-12-21T15:10:06+00:00",
     "version": 1
   }
 }
