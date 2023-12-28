@@ -48081,8 +48081,8 @@
       "is_pr": false,
       "created_at": "2023-11-29T01:06:16+00:00",
       "created_by": "MichaReiser",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-12-28T06:24:26+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4079,
@@ -48265,8 +48265,8 @@
       "is_pr": false,
       "created_at": "2023-12-10T02:56:11+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-12-28T06:59:31+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4095,
@@ -48275,7 +48275,7 @@
       "is_pr": true,
       "created_at": "2023-12-10T03:26:01+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2023-12-28T06:59:30+00:00",
       "closed_by": null
     },
     {
@@ -48435,7 +48435,7 @@
       "is_pr": true,
       "created_at": "2023-12-13T17:27:48+00:00",
       "created_by": "RedGuy12",
-      "closed_at": null,
+      "closed_at": "2023-12-28T06:24:25+00:00",
       "closed_by": null
     },
     {
@@ -48495,7 +48495,7 @@
       "is_pr": true,
       "created_at": "2023-12-16T04:57:15+00:00",
       "created_by": "Anupya",
-      "closed_at": null,
+      "closed_at": "2023-12-28T06:23:42+00:00",
       "closed_by": null
     },
     {
@@ -48517,8 +48517,8 @@
       "is_pr": false,
       "created_at": "2023-12-17T17:31:34+00:00",
       "created_by": "Feuermurmel",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2023-12-28T06:24:58+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4117,
@@ -48561,7 +48561,8 @@
       "number": 4121,
       "title": "`allow_empty_first_line_before_new_block_or_comment` can lead to inconsistent formatting",
       "labels": [
-        "T: style"
+        "T: style",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2023-12-22T05:37:17+00:00",
@@ -48585,7 +48586,8 @@
       "number": 4123,
       "title": "Preview style feedback: Parenthesizing long dict, conditional, and type annotations",
       "labels": [
-        "T: style"
+        "T: style",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2023-12-22T10:19:47+00:00",
@@ -48644,6 +48646,29 @@
       "is_pr": true,
       "created_at": "2023-12-25T06:36:08+00:00",
       "created_by": "hauntsaninja",
+      "closed_at": "2023-12-28T06:24:57+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4129,
+      "title": "`wrap_long_dict_value_in_parens` can introduce unnecessary nesting for dicts in dicts",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2023-12-28T06:14:14+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4130,
+      "title": "Allow empty lines at beginnings of more blocks",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-12-28T06:56:54+00:00",
+      "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
     }
@@ -48653,7 +48678,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-12-26T15:09:45+00:00",
+    "last_updated": "2023-12-28T15:09:45+00:00",
     "version": 1
   }
 }
