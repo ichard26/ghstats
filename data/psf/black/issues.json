@@ -48735,6 +48735,16 @@
       "created_by": "BollinaVenkataManoj",
       "closed_at": "2023-12-29T09:18:24+00:00",
       "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4137,
+      "title": "Revert \"confine pre-commit to stages (#3940)\"",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2023-12-30T00:46:39+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -48742,7 +48752,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2023-12-29T15:09:43+00:00",
+    "last_updated": "2023-12-30T15:08:54+00:00",
     "version": 1
   }
 }
