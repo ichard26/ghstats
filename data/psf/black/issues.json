@@ -48793,6 +48793,30 @@
       "created_by": "hauntsaninja",
       "closed_at": "2024-01-02T04:14:57+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4142,
+      "title": "Method argument values as multi-line strings and continuation visual indents",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-03T10:09:57+00:00",
+      "created_by": "never147",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4143,
+      "title": "`fmt: skip` is still not respected with other comments",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-03T13:06:19+00:00",
+      "created_by": "m-czernek",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -48800,7 +48824,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-02T15:10:12+00:00",
+    "last_updated": "2024-01-03T15:09:57+00:00",
     "version": 1
   }
 }
