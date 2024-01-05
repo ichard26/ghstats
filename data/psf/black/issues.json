@@ -27611,8 +27611,8 @@
       "is_pr": false,
       "created_at": "2021-07-21T08:27:50+00:00",
       "created_by": "sveitser",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-05T09:05:29+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2389,
@@ -48815,8 +48815,8 @@
       "is_pr": false,
       "created_at": "2024-01-03T13:06:19+00:00",
       "created_by": "m-czernek",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-05T08:59:43+00:00",
+      "closed_by": "hauntsaninja"
     }
   ],
   "record": {
@@ -48824,7 +48824,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-04T15:11:05+00:00",
+    "last_updated": "2024-01-05T15:10:08+00:00",
     "version": 1
   }
 }
