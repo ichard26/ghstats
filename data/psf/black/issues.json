@@ -5008,8 +5008,8 @@
       "is_pr": false,
       "created_at": "2018-08-14T08:45:21+00:00",
       "created_by": "njsmith",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-06T23:48:38+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 451,
@@ -47464,7 +47464,7 @@
     },
     {
       "number": 4025,
-      "title": "Option to disable auto-remove of `;`",
+      "title": "Support for percent format notebooks",
       "labels": [
         "T: enhancement"
       ],
@@ -48639,8 +48639,8 @@
       "is_pr": false,
       "created_at": "2023-12-24T00:36:37+00:00",
       "created_by": "fabiorzfreitas",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-07T00:10:56+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4128,
@@ -48831,6 +48831,16 @@
       "created_by": "nathanneuro",
       "closed_at": "2024-01-05T23:54:55+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4145,
+      "title": "[Docs] Add note on `--exclude` about possibly verbose regex",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-06T16:08:29+00:00",
+      "created_by": "Dragorn421",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -48838,7 +48848,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-06T15:09:09+00:00",
+    "last_updated": "2024-01-07T15:09:32+00:00",
     "version": 1
   }
 }
