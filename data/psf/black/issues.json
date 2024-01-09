@@ -48841,6 +48841,16 @@
       "created_by": "Dragorn421",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4146,
+      "title": "fix: Don't normalize whitespace before fmt:skip comments",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-08T17:26:15+00:00",
+      "created_by": "RedGuy12",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -48848,7 +48858,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-07T15:09:32+00:00",
+    "last_updated": "2024-01-09T15:10:43+00:00",
     "version": 1
   }
 }
