@@ -48841,7 +48841,7 @@
       "is_pr": true,
       "created_at": "2024-01-06T16:08:29+00:00",
       "created_by": "Dragorn421",
-      "closed_at": null,
+      "closed_at": "2024-01-11T15:46:18+00:00",
       "closed_by": null
     },
     {
@@ -48875,20 +48875,45 @@
       "is_pr": false,
       "created_at": "2024-01-11T00:25:08+00:00",
       "created_by": "howardwu1",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-11T21:56:24+00:00",
+      "closed_by": "howardwu1"
     },
     {
       "number": 4149,
       "title": "Inconsistent formatting of `**` in tenary expression.",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "S: accepted"
       ],
       "is_pr": false,
       "created_at": "2024-01-11T13:43:05+00:00",
       "created_by": "randolf-scholz",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4150,
+      "title": "Can not format `method` code when method str parameter length default value too long",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-12T02:20:51+00:00",
+      "created_by": "pengdada00100",
+      "closed_at": "2024-01-12T05:08:03+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4151,
+      "title": "INTERNAL ERROR: Black produced invalid code: f-string: expecting '}'",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-12T09:09:07+00:00",
+      "created_by": "max-wittig",
+      "closed_at": "2024-01-12T09:12:35+00:00",
+      "closed_by": "hauntsaninja"
     }
   ],
   "record": {
@@ -48896,7 +48921,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-11T15:10:25+00:00",
+    "last_updated": "2024-01-12T15:09:59+00:00",
     "version": 1
   }
 }
