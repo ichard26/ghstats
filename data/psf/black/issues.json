@@ -48914,6 +48914,26 @@
       "created_by": "max-wittig",
       "closed_at": "2024-01-12T09:12:35+00:00",
       "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4152,
+      "title": "Fixed the empty spaces of '# type:'",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-13T06:24:02+00:00",
+      "created_by": "gawandeabhishek",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4153,
+      "title": "Improve call chain",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-13T14:37:05+00:00",
+      "created_by": "Booome",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -48921,7 +48941,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-12T15:09:59+00:00",
+    "last_updated": "2024-01-13T15:09:35+00:00",
     "version": 1
   }
 }
