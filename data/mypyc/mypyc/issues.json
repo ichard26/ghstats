@@ -11619,6 +11619,16 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1045,
+      "title": "mypyc + bidict",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-01-17T17:31:03+00:00",
+      "created_by": "jab",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11626,7 +11636,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-01-12T15:10:01+00:00",
+    "last_updated": "2024-01-18T15:10:44+00:00",
     "version": 1
   }
 }

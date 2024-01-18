@@ -44366,8 +44366,8 @@
       "is_pr": false,
       "created_at": "2023-06-30T22:52:59+00:00",
       "created_by": "wizpig64",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-17T19:04:16+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3759,
@@ -48952,6 +48952,28 @@
       "is_pr": true,
       "created_at": "2024-01-17T00:47:09+00:00",
       "created_by": "RedGuy12",
+      "closed_at": "2024-01-17T19:04:15+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4156,
+      "title": "[ISSUE] Github Action Black failing after successful reformatting.",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-18T04:08:42+00:00",
+      "created_by": "tikendraw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4157,
+      "title": "Update using_black_with_other_tools.md to ensure flake8 configuration examples are consistant",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-18T14:55:28+00:00",
+      "created_by": "kevin-paulson-mindbridge-ai",
       "closed_at": null,
       "closed_by": null
     }
@@ -48961,7 +48983,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-17T15:10:45+00:00",
+    "last_updated": "2024-01-18T15:10:43+00:00",
     "version": 1
   }
 }
