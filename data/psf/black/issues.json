@@ -48545,8 +48545,8 @@
       "is_pr": false,
       "created_at": "2023-12-18T20:18:39+00:00",
       "created_by": "dhruvmanila",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-20T00:55:34+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4120,
@@ -48570,8 +48570,8 @@
       "is_pr": false,
       "created_at": "2023-12-22T05:37:17+00:00",
       "created_by": "MichaReiser",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-20T00:58:49+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4122,
@@ -48662,8 +48662,8 @@
       "is_pr": false,
       "created_at": "2023-12-28T06:14:14+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-20T01:13:28+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4130,
@@ -48726,7 +48726,7 @@
       "is_pr": true,
       "created_at": "2023-12-29T01:44:44+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2024-01-20T01:13:27+00:00",
       "closed_by": null
     },
     {
@@ -48970,10 +48970,38 @@
     {
       "number": 4157,
       "title": "Update using_black_with_other_tools.md to ensure flake8 configuration examples are consistant",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2024-01-18T14:55:28+00:00",
       "created_by": "kevin-paulson-mindbridge-ai",
+      "closed_at": "2024-01-19T23:54:33+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4158,
+      "title": "wrap_long_dict_values_in_parens can remove parentheses",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-20T00:26:58+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4159,
+      "title": "`multiline_string_handling` sometimes leads to worse formatting",
+      "labels": [
+        "T: bug",
+        "C: preview style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-20T00:51:00+00:00",
+      "created_by": "JelleZijlstra",
       "closed_at": null,
       "closed_by": null
     }
@@ -48983,7 +49011,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-19T15:10:58+00:00",
+    "last_updated": "2024-01-20T15:09:19+00:00",
     "version": 1
   }
 }
