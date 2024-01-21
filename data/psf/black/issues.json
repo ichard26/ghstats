@@ -49004,6 +49004,18 @@
       "created_by": "JelleZijlstra",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4160,
+      "title": "Can we add a json schema to complete pyproject.toml's `[tool.black]`?",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-20T15:40:27+00:00",
+      "created_by": "Freed-Wu",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -49011,7 +49023,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-20T15:09:19+00:00",
+    "last_updated": "2024-01-21T15:09:31+00:00",
     "version": 1
   }
 }
