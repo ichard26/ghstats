@@ -49016,6 +49016,41 @@
       "created_by": "Freed-Wu",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4161,
+      "title": "fix: pathlib exception handling with symlinks",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-22T06:52:26+00:00",
+      "created_by": "dankrzeminski32",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4162,
+      "title": "Bump actions/cache from 3 to 4",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-01-22T06:57:12+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4163,
+      "title": "Latest docker images fail with an ImportError",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-22T12:45:24+00:00",
+      "created_by": "ravishi",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -49023,7 +49058,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-21T15:09:31+00:00",
+    "last_updated": "2024-01-22T15:11:19+00:00",
     "version": 1
   }
 }
