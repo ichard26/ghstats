@@ -11629,6 +11629,16 @@
       "created_by": "jab",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1046,
+      "title": "Off by one error using enumerate",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-01-24T18:46:11+00:00",
+      "created_by": "JulianWgs",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11636,7 +11646,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-01-22T15:11:22+00:00",
+    "last_updated": "2024-01-25T15:11:06+00:00",
     "version": 1
   }
 }

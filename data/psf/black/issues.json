@@ -47665,8 +47665,8 @@
       "is_pr": false,
       "created_at": "2023-11-13T07:32:32+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-25T01:06:15+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4043,
@@ -48404,7 +48404,7 @@
       "is_pr": true,
       "created_at": "2023-12-12T06:08:46+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2024-01-25T01:06:14+00:00",
       "closed_by": null
     },
     {
@@ -48817,7 +48817,7 @@
       "is_pr": false,
       "created_at": "2024-01-03T13:06:19+00:00",
       "created_by": "m-czernek",
-      "closed_at": null,
+      "closed_at": "2024-01-25T09:31:50+00:00",
       "closed_by": "hauntsaninja"
     },
     {
@@ -48851,7 +48851,7 @@
       "is_pr": true,
       "created_at": "2024-01-08T17:26:15+00:00",
       "created_by": "RedGuy12",
-      "closed_at": null,
+      "closed_at": "2024-01-25T09:31:49+00:00",
       "closed_by": null
     },
     {
@@ -49071,6 +49071,42 @@
       "created_by": "dankrzeminski32",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4166,
+      "title": "Cannot parse a complex conditional list comprehension inside of an f-string",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-24T23:38:25+00:00",
+      "created_by": "aphexcx",
+      "closed_at": "2024-01-24T23:43:00+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4167,
+      "title": "Simplify code in lines.py",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-01-25T07:13:56+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4168,
+      "title": "Describe 2024 module docstring more accurately",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-01-25T07:29:31+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -49078,7 +49114,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-24T15:11:10+00:00",
+    "last_updated": "2024-01-25T15:11:01+00:00",
     "version": 1
   }
 }
