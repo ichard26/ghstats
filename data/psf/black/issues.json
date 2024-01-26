@@ -48253,8 +48253,8 @@
       "is_pr": false,
       "created_at": "2023-12-10T02:26:59+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-26T01:00:49+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4094,
@@ -48286,7 +48286,7 @@
       "is_pr": true,
       "created_at": "2023-12-10T04:15:25+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2024-01-26T01:00:48+00:00",
       "closed_by": null
     },
     {
@@ -48782,8 +48782,8 @@
       "is_pr": false,
       "created_at": "2024-01-01T23:08:21+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-26T00:41:39+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4141,
@@ -49069,7 +49069,7 @@
       "is_pr": true,
       "created_at": "2024-01-23T20:18:32+00:00",
       "created_by": "dankrzeminski32",
-      "closed_at": null,
+      "closed_at": "2024-01-26T00:41:38+00:00",
       "closed_by": null
     },
     {
@@ -49093,7 +49093,7 @@
       "is_pr": true,
       "created_at": "2024-01-25T07:13:56+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2024-01-25T21:41:46+00:00",
       "closed_by": null
     },
     {
@@ -49105,6 +49105,91 @@
       "is_pr": true,
       "created_at": "2024-01-25T07:29:31+00:00",
       "created_by": "hauntsaninja",
+      "closed_at": "2024-01-26T00:15:18+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4169,
+      "title": "Remove reference",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-01-25T20:58:35+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-01-25T21:11:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4170,
+      "title": "Prepare release 24.1.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-01-26T01:06:12+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-01-26T04:35:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4171,
+      "title": "Black doesn't respect newlines between fmt: off and fmt: on",
+      "labels": [
+        "T: bug",
+        "F: fmtoff"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-26T10:06:53+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4172,
+      "title": "cache uses filenames that might be too long on some systems",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-26T13:06:48+00:00",
+      "created_by": "hottwaj",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4173,
+      "title": "Black and flake8 no longer in sync",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-26T13:36:03+00:00",
+      "created_by": "daveah",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4174,
+      "title": "eCryptfs incompatibility introduced in 24.1.0",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-26T14:06:28+00:00",
+      "created_by": "florczakraf",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4175,
+      "title": "Unexpected incompatibility with reorder-python-imports",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-26T14:54:00+00:00",
+      "created_by": "maxwell-k",
       "closed_at": null,
       "closed_by": null
     }
@@ -49114,7 +49199,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-25T15:11:01+00:00",
+    "last_updated": "2024-01-26T15:10:03+00:00",
     "version": 1
   }
 }
