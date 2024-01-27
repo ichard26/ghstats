@@ -40083,8 +40083,8 @@
       "is_pr": false,
       "created_at": "2022-12-05T02:47:45+00:00",
       "created_by": "grantroch",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-26T16:51:08+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3404,
@@ -41113,8 +41113,8 @@
       "is_pr": false,
       "created_at": "2023-01-08T10:41:50+00:00",
       "created_by": "tdegeus",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-26T19:03:17+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3485,
@@ -43961,8 +43961,8 @@
       "is_pr": false,
       "created_at": "2023-06-07T14:51:21+00:00",
       "created_by": "CodeCubeNeo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-26T16:56:32+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3725,
@@ -44751,6 +44751,7 @@
       "title": "`if` clauses in `match`-`case` blocks aren't reformatted to fit the line width limit",
       "labels": [
         "T: bug",
+        "S: accepted",
         "F: linetoolong"
       ],
       "is_pr": false,
@@ -49142,8 +49143,8 @@
       "is_pr": false,
       "created_at": "2024-01-26T10:06:53+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-26T15:17:41+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4172,
@@ -49154,8 +49155,8 @@
       "is_pr": false,
       "created_at": "2024-01-26T13:06:48+00:00",
       "created_by": "hottwaj",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-26T19:54:50+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4173,
@@ -49178,8 +49179,8 @@
       "is_pr": false,
       "created_at": "2024-01-26T14:06:28+00:00",
       "created_by": "florczakraf",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-26T15:14:18+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4175,
@@ -49192,6 +49193,76 @@
       "created_by": "maxwell-k",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4176,
+      "title": "Fix cache file length",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-26T15:38:51+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-01-26T19:54:49+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4177,
+      "title": "Black doesn't break long lines, and reverts manually broken lines",
+      "labels": [
+        "T: bug",
+        "F: linetoolong"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-26T16:25:01+00:00",
+      "created_by": "marianatuma",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4178,
+      "title": "Deprecate unusual ways to set things in pyproject.toml",
+      "labels": [
+        "T: enhancement",
+        "C: configuration"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-26T20:37:42+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4179,
+      "title": "Upgrading to 24.1.0 Causes Reformatting ",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-26T21:25:41+00:00",
+      "created_by": "EvanOman",
+      "closed_at": "2024-01-26T21:26:52+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4180,
+      "title": "additional newline added to docstring when the previous line length is less than the line length limit minus 1",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-27T01:27:38+00:00",
+      "created_by": "DetachHead",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4181,
+      "title": "feat: add schema and validate-pyproject support",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-27T04:38:37+00:00",
+      "created_by": "henryiii",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -49199,7 +49270,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-26T15:10:03+00:00",
+    "last_updated": "2024-01-27T15:08:27+00:00",
     "version": 1
   }
 }
