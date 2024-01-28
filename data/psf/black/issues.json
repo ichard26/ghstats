@@ -48105,8 +48105,8 @@
       "is_pr": false,
       "created_at": "2023-11-30T05:52:47+00:00",
       "created_by": "charliermarsh",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-01-27T21:55:23+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4081,
@@ -49060,7 +49060,7 @@
       "is_pr": true,
       "created_at": "2024-01-23T18:56:53+00:00",
       "created_by": "RedGuy12",
-      "closed_at": null,
+      "closed_at": "2024-01-27T21:55:22+00:00",
       "closed_by": null
     },
     {
@@ -49206,7 +49206,7 @@
     },
     {
       "number": 4177,
-      "title": "Black doesn't break long lines, and reverts manually broken lines",
+      "title": "Line too long: Long from import",
       "labels": [
         "T: bug",
         "F: linetoolong"
@@ -49263,6 +49263,98 @@
       "created_by": "henryiii",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4182,
+      "title": "Fix missing space in option description",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-01-27T15:53:22+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-01-27T20:34:02+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4183,
+      "title": "$Qdata8099",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-27T20:30:23+00:00",
+      "created_by": "Conduit83-Q",
+      "closed_at": "2024-01-27T20:43:44+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4184,
+      "title": "chore: ignore node_modules (produced by a pre-commit check)",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-01-28T04:07:17+00:00",
+      "created_by": "henryiii",
+      "closed_at": "2024-01-28T04:24:37+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4185,
+      "title": "fix: additional newline added to docstring when the previous line length is less than the line length limit minus 1",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-28T04:24:46+00:00",
+      "created_by": "veryslowcode",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4186,
+      "title": "Prepare release 24.1.1",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-01-28T04:41:55+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-01-28T04:51:33+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4187,
+      "title": "Test that preview/unstable features are documented",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-01-28T06:04:10+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4188,
+      "title": "SyntaxWarning on regexp on first run of black",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-01-28T08:13:57+00:00",
+      "created_by": "Julien-Elie",
+      "closed_at": "2024-01-28T15:05:58+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4189,
+      "title": "Swallow warnings when performing AST checks",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-01-28T10:57:47+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-01-28T15:05:57+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -49270,7 +49362,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-01-27T15:08:27+00:00",
+    "last_updated": "2024-01-28T15:08:38+00:00",
     "version": 1
   }
 }
