@@ -29470,8 +29470,8 @@
       "is_pr": false,
       "created_at": "2021-10-14T11:52:09+00:00",
       "created_by": "felix-hilden",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-02-02T05:55:04+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2538,
@@ -33446,8 +33446,8 @@
       "is_pr": false,
       "created_at": "2022-02-03T11:53:01+00:00",
       "created_by": "slafs",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-02-02T05:50:46+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2864,
@@ -47521,8 +47521,8 @@
       "is_pr": false,
       "created_at": "2023-11-07T00:39:14+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-02-01T19:59:35+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4030,
@@ -49167,8 +49167,8 @@
       "is_pr": false,
       "created_at": "2024-01-26T13:36:03+00:00",
       "created_by": "daveah",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-02-02T06:00:42+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4174,
@@ -49416,7 +49416,7 @@
       "is_pr": true,
       "created_at": "2024-01-29T18:00:56+00:00",
       "created_by": "RedGuy12",
-      "closed_at": null,
+      "closed_at": "2024-02-02T06:00:41+00:00",
       "closed_by": null
     },
     {
@@ -49428,7 +49428,7 @@
       "is_pr": true,
       "created_at": "2024-01-29T20:02:36+00:00",
       "created_by": "henryiii",
-      "closed_at": null,
+      "closed_at": "2024-02-01T17:25:39+00:00",
       "closed_by": null
     },
     {
@@ -49462,7 +49462,7 @@
       "is_pr": true,
       "created_at": "2024-01-31T03:38:26+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2024-02-02T05:58:52+00:00",
       "closed_by": null
     },
     {
@@ -49500,6 +49500,50 @@
       "created_by": "Niorlys",
       "closed_at": "2024-01-31T20:06:05+00:00",
       "closed_by": "Niorlys"
+    },
+    {
+      "number": 4202,
+      "title": "Make trailing comma logic more consise",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-01T16:29:04+00:00",
+      "created_by": "RedGuy12",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4203,
+      "title": "Improve the style of breaking long lines into two",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-01T19:51:23+00:00",
+      "created_by": "marcinwazny",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4204,
+      "title": "Ignore pyproject.toml missing tool.black section",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-02T03:15:17+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-02-02T05:50:45+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4205,
+      "title": "`black` ignores file in current folder if current folder is `git` workspace and (parent of) current folder is a symbolic link",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-02T07:43:13+00:00",
+      "created_by": "bersbersbers",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -49507,7 +49551,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-01T15:09:31+00:00",
+    "last_updated": "2024-02-02T15:10:25+00:00",
     "version": 1
   }
 }
