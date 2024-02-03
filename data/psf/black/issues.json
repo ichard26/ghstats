@@ -49537,7 +49537,8 @@
       "number": 4205,
       "title": "`black` ignores file in current folder if current folder is `git` workspace and (parent of) current folder is a symbolic link",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: file collection"
       ],
       "is_pr": false,
       "created_at": "2024-02-02T07:43:13+00:00",
@@ -49551,7 +49552,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-02T15:10:25+00:00",
+    "last_updated": "2024-02-03T15:08:56+00:00",
     "version": 1
   }
 }
