@@ -49545,6 +49545,28 @@
       "created_by": "bersbersbers",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4206,
+      "title": "Clearer error messages and handeling for different versions.",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-03T19:17:42+00:00",
+      "created_by": "AshishNarne",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4207,
+      "title": "blackd: Invalid method encountered",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-03T21:37:15+00:00",
+      "created_by": "albertz",
+      "closed_at": "2024-02-03T21:44:33+00:00",
+      "closed_by": "albertz"
     }
   ],
   "record": {
@@ -49552,7 +49574,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-03T15:08:56+00:00",
+    "last_updated": "2024-02-04T15:08:32+00:00",
     "version": 1
   }
 }
