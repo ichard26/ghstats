@@ -49251,8 +49251,8 @@
       "is_pr": false,
       "created_at": "2024-01-27T01:27:38+00:00",
       "created_by": "DetachHead",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-02-05T22:36:48+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4181,
@@ -49629,6 +49629,28 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2024-02-05T09:09:21+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4213,
+      "title": "Black folds ellipsis (`...`) symbol like `class test: ...`, which causes `flake8` to raise `E701` error.",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-05T22:19:56+00:00",
+      "created_by": "cainmagi",
+      "closed_at": "2024-02-05T22:37:02+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4214,
+      "title": "Remove redundant parentheses in `case` statement `if` guards",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-06T07:30:38+00:00",
+      "created_by": "dosisod",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -49636,7 +49658,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-05T15:09:39+00:00",
+    "last_updated": "2024-02-06T15:10:01+00:00",
     "version": 1
   }
 }
