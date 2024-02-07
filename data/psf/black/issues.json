@@ -49553,7 +49553,7 @@
       "is_pr": true,
       "created_at": "2024-02-03T19:17:42+00:00",
       "created_by": "AshishNarne",
-      "closed_at": null,
+      "closed_at": "2024-02-07T08:42:39+00:00",
       "closed_by": null
     },
     {
@@ -49649,6 +49649,16 @@
       "is_pr": true,
       "created_at": "2024-02-06T07:30:38+00:00",
       "created_by": "dosisod",
+      "closed_at": "2024-02-07T14:55:02+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4215,
+      "title": "fix: resolve symlinks when checking which files to format",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-07T15:06:53+00:00",
+      "created_by": "nfvs",
       "closed_at": null,
       "closed_by": null
     }
@@ -49658,7 +49668,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-06T15:10:01+00:00",
+    "last_updated": "2024-02-07T15:09:30+00:00",
     "version": 1
   }
 }
