@@ -49661,6 +49661,28 @@
       "created_by": "nfvs",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4216,
+      "title": "black formatter may change the content of string in nested f-strings",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-07T19:11:16+00:00",
+      "created_by": "koitococo",
+      "closed_at": "2024-02-07T19:13:43+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4217,
+      "title": "Use W503 instead of E704 in examples",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-08T11:49:55+00:00",
+      "created_by": "YoannQDQ",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -49668,7 +49690,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-07T15:09:30+00:00",
+    "last_updated": "2024-02-08T15:10:11+00:00",
     "version": 1
   }
 }
