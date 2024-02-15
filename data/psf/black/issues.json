@@ -49860,6 +49860,30 @@
       "created_by": "pmolodo",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4233,
+      "title": "Black fails to parse match-case statement in `black/scripts/generate_schema.py`",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-14T18:37:35+00:00",
+      "created_by": "dankrzeminski32",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4234,
+      "title": "formatter and symbolic link",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-15T13:10:16+00:00",
+      "created_by": "need47",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -49867,7 +49891,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-14T15:09:46+00:00",
+    "last_updated": "2024-02-15T15:09:55+00:00",
     "version": 1
   }
 }
