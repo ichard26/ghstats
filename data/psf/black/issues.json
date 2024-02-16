@@ -49884,6 +49884,38 @@
       "created_by": "need47",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4235,
+      "title": "Black joins lines when it shouldn't - short width characters.",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-15T17:13:02+00:00",
+      "created_by": "rtb-zla-karma",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4236,
+      "title": "Fix 4227: Black does not print errors with --quiet --check",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-15T18:36:58+00:00",
+      "created_by": "dankrzeminski32",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4237,
+      "title": "The first thing that comes to your attention",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-02-16T13:53:28+00:00",
+      "created_by": "Myo78779",
+      "closed_at": "2024-02-16T13:55:57+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -49891,7 +49923,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-15T15:09:55+00:00",
+    "last_updated": "2024-02-16T15:10:38+00:00",
     "version": 1
   }
 }
