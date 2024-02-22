@@ -50008,6 +50008,18 @@
       "created_by": "sbivol",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4246,
+      "title": "Cannot parse a formatted string like f\"{10 * [\"a\"]}\"",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-22T01:01:56+00:00",
+      "created_by": "jimmyzzxhlh",
+      "closed_at": "2024-02-22T01:19:56+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -50015,7 +50027,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-21T15:09:54+00:00",
+    "last_updated": "2024-02-22T15:10:16+00:00",
     "version": 1
   }
 }
