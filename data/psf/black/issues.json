@@ -50042,6 +50042,20 @@
       "created_by": "RedGuy12",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4249,
+      "title": "Bug hazard - multiple strings given same indentation",
+      "labels": [
+        "T: style",
+        "F: parentheses",
+        "F: strings"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-23T17:52:01+00:00",
+      "created_by": "JamesHutchison",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -50049,7 +50063,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-23T15:10:45+00:00",
+    "last_updated": "2024-02-24T15:08:37+00:00",
     "version": 1
   }
 }
