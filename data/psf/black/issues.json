@@ -49926,8 +49926,8 @@
       "is_pr": false,
       "created_at": "2024-02-18T21:13:15+00:00",
       "created_by": "FanchenBao",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-02-26T00:36:53+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4239,
@@ -49938,7 +49938,7 @@
       "is_pr": true,
       "created_at": "2024-02-18T22:29:05+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2024-02-26T00:36:52+00:00",
       "closed_by": null
     },
     {
@@ -50056,6 +50056,28 @@
       "created_by": "JamesHutchison",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4250,
+      "title": "Running black in module mode conflicts with certain package names",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-02-25T23:51:47+00:00",
+      "created_by": "toriningen",
+      "closed_at": "2024-02-26T00:36:20+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4251,
+      "title": "Remove usage of `pkg_resources` in `docs/conf.py`",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-26T13:02:21+00:00",
+      "created_by": "Viicos",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -50063,7 +50085,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-24T15:08:37+00:00",
+    "last_updated": "2024-02-26T15:11:11+00:00",
     "version": 1
   }
 }
