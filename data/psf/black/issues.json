@@ -50072,10 +50072,32 @@
     {
       "number": 4251,
       "title": "Remove usage of `pkg_resources` in `docs/conf.py`",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2024-02-26T13:02:21+00:00",
       "created_by": "Viicos",
+      "closed_at": "2024-02-26T15:49:39+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4252,
+      "title": "Use regex where we ignore case on windows",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-26T21:43:47+00:00",
+      "created_by": "KaiSforza",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4253,
+      "title": "Added test for the Khmer language",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-02-26T23:07:44+00:00",
+      "created_by": "KaiSforza",
       "closed_at": null,
       "closed_by": null
     }
@@ -50085,7 +50107,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-02-26T15:11:11+00:00",
+    "last_updated": "2024-02-27T15:10:10+00:00",
     "version": 1
   }
 }
