@@ -50276,8 +50276,8 @@
       "is_pr": false,
       "created_at": "2024-03-08T20:53:57+00:00",
       "created_by": "kwk",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-03-10T01:42:30+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4269,
@@ -50288,6 +50288,16 @@
       "created_by": "rdrll",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4270,
+      "title": "Fix AST safety check false negative",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-03-09T15:14:59+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-03-10T01:42:29+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -50295,7 +50305,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-03-09T15:08:22+00:00",
+    "last_updated": "2024-03-10T15:08:29+00:00",
     "version": 1
   }
 }
