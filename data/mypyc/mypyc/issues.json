@@ -8878,7 +8878,7 @@
       "created_at": "2021-03-07T14:04:21+00:00",
       "created_by": "JukkaL",
       "closed_at": "2021-03-07T14:04:25+00:00",
-      "closed_by": "JukkaL"
+      "closed_by": null
     },
     {
       "number": 811,
@@ -11678,7 +11678,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-03-10T15:08:30+00:00",
+    "last_updated": "2024-03-13T15:10:39+00:00",
     "version": 1
   }
 }
