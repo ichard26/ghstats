@@ -50356,6 +50356,18 @@
       "created_by": "sumezulike",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4276,
+      "title": "problematic formatting: indentation change in docstring",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-03-15T05:44:29+00:00",
+      "created_by": "kaddkaka",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -50363,7 +50375,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-03-14T15:10:23+00:00",
+    "last_updated": "2024-03-15T15:09:50+00:00",
     "version": 1
   }
 }
