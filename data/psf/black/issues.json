@@ -44757,8 +44757,8 @@
       "is_pr": false,
       "created_at": "2023-07-17T03:19:14+00:00",
       "created_by": "alexander-c-b",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-03-16T14:38:08+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3794,
@@ -50233,8 +50233,8 @@
       "is_pr": false,
       "created_at": "2024-03-04T09:28:06+00:00",
       "created_by": "jvacek",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-03-15T18:18:49+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4265,
@@ -50288,7 +50288,7 @@
       "is_pr": true,
       "created_at": "2024-03-09T01:22:52+00:00",
       "created_by": "rdrll",
-      "closed_at": null,
+      "closed_at": "2024-03-16T14:38:07+00:00",
       "closed_by": null
     },
     {
@@ -50330,7 +50330,7 @@
       "is_pr": true,
       "created_at": "2024-03-12T16:43:54+00:00",
       "created_by": "sumezulike",
-      "closed_at": null,
+      "closed_at": "2024-03-15T18:18:48+00:00",
       "closed_by": null
     },
     {
@@ -50368,6 +50368,53 @@
       "created_by": "kaddkaka",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4277,
+      "title": "How to skip reformatting of Heroku files?",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2024-03-15T17:27:37+00:00",
+      "created_by": "felipecao",
+      "closed_at": "2024-03-15T17:30:57+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4278,
+      "title": "Fix catastrophic performance in lines_with_leading_tabs_expanded()",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-03-15T18:47:24+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-03-15T19:06:12+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4279,
+      "title": "Prepare release 24.3.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-03-15T19:13:28+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-03-15T19:17:00+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4280,
+      "title": "Crash on formatting `case case` syntax when line length set to be small",
+      "labels": [
+        "T: bug",
+        "C: crash"
+      ],
+      "is_pr": false,
+      "created_at": "2024-03-15T22:49:03+00:00",
+      "created_by": "rdrll",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -50375,7 +50422,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-03-15T15:09:50+00:00",
+    "last_updated": "2024-03-16T15:08:43+00:00",
     "version": 1
   }
 }
