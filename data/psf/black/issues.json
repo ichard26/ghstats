@@ -50415,6 +50415,43 @@
       "created_by": "rdrll",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4281,
+      "title": "Style suggestiong: allow aligned dict values",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-03-17T23:16:37+00:00",
+      "created_by": "kaddkaka",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4282,
+      "title": "Black cannot parse valid code",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-03-18T04:57:39+00:00",
+      "created_by": "CanePlayz",
+      "closed_at": "2024-03-18T11:12:28+00:00",
+      "closed_by": "CanePlayz"
+    },
+    {
+      "number": 4283,
+      "title": "Bump pypa/cibuildwheel from 2.16.5 to 2.17.0",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-03-18T06:03:18+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -50422,7 +50459,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-03-17T15:10:33+00:00",
+    "last_updated": "2024-03-18T15:09:42+00:00",
     "version": 1
   }
 }
