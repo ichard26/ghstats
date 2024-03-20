@@ -50476,6 +50476,18 @@
       "created_by": "srittau",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4286,
+      "title": "Fix these two logging calls in the test helper.",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-03-19T21:10:05+00:00",
+      "created_by": "yilei",
+      "closed_at": "2024-03-20T05:04:48+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -50483,7 +50495,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-03-19T15:11:09+00:00",
+    "last_updated": "2024-03-20T15:10:49+00:00",
     "version": 1
   }
 }
