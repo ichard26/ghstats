@@ -50354,8 +50354,8 @@
       "is_pr": false,
       "created_at": "2024-03-14T14:30:16+00:00",
       "created_by": "sumezulike",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-03-21T01:15:43+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4276,
@@ -50488,6 +50488,18 @@
       "created_by": "yilei",
       "closed_at": "2024-03-20T05:04:48+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4287,
+      "title": "Remove mocking from tests",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-03-20T23:44:47+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-03-21T01:15:42+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -50495,7 +50507,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-03-20T15:10:49+00:00",
+    "last_updated": "2024-03-21T15:11:10+00:00",
     "version": 1
   }
 }
