@@ -50500,6 +50500,18 @@
       "created_by": "hauntsaninja",
       "closed_at": "2024-03-21T01:15:42+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4288,
+      "title": "When reformatting a triple-quote string, black fails with an INTERNAL ERROR: Black produced code that is not equivalent to the source",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-03-22T12:51:21+00:00",
+      "created_by": "aaribaud",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -50507,7 +50519,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-03-21T15:11:10+00:00",
+    "last_updated": "2024-03-22T15:10:23+00:00",
     "version": 1
   }
 }
