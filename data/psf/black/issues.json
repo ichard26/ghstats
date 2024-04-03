@@ -50613,6 +50613,18 @@
       "created_by": "pre-commit-ci[bot]",
       "closed_at": "2024-04-01T22:51:25+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4298,
+      "title": "Black keeps reformatting some code chunks back and forth between 2 different representations",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-04-02T16:24:47+00:00",
+      "created_by": "hepcat72",
+      "closed_at": "2024-04-02T16:35:47+00:00",
+      "closed_by": "hepcat72"
     }
   ],
   "record": {
@@ -50620,7 +50632,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-02T15:09:42+00:00",
+    "last_updated": "2024-04-03T15:10:14+00:00",
     "version": 1
   }
 }
