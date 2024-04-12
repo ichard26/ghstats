@@ -50706,6 +50706,18 @@
       "created_by": "li6in9muyou",
       "closed_at": "2024-04-08T12:17:13+00:00",
       "closed_by": "li6in9muyou"
+    },
+    {
+      "number": 4306,
+      "title": "Docstrings not part of a function are incorrectly labeled as non-equivalent code",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-04-12T14:09:39+00:00",
+      "created_by": "Anonymous941",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -50713,7 +50725,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-11T15:10:34+00:00",
+    "last_updated": "2024-04-12T15:09:56+00:00",
     "version": 1
   }
 }
