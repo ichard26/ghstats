@@ -50716,7 +50716,31 @@
       "is_pr": false,
       "created_at": "2024-04-12T14:09:39+00:00",
       "created_by": "Anonymous941",
-      "closed_at": null,
+      "closed_at": "2024-04-12T19:50:07+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4307,
+      "title": "Prepare release 24.4.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-12T19:55:19+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-04-12T20:12:22+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4308,
+      "title": "Add new change template",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-12T20:23:54+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-04-12T20:25:36+00:00",
       "closed_by": null
     }
   ],
@@ -50725,7 +50749,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-12T15:09:56+00:00",
+    "last_updated": "2024-04-13T15:07:25+00:00",
     "version": 1
   }
 }

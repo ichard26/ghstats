@@ -11683,6 +11683,16 @@
       "created_by": "smheidrich",
       "closed_at": "2024-03-19T20:27:04+00:00",
       "closed_by": "smheidrich"
+    },
+    {
+      "number": 1051,
+      "title": "AssertionError: unexpected type <class 'mypy.types.ParamSpecType'>",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-04-12T18:19:57+00:00",
+      "created_by": "itamarst",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11690,7 +11700,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-03-22T15:10:24+00:00",
+    "last_updated": "2024-04-13T15:07:27+00:00",
     "version": 1
   }
 }
