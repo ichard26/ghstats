@@ -50221,8 +50221,8 @@
       "is_pr": false,
       "created_at": "2024-03-03T18:03:03+00:00",
       "created_by": "lebedevdes",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-04-14T08:11:31+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4264,
@@ -50585,7 +50585,7 @@
       "is_pr": true,
       "created_at": "2024-03-31T19:13:39+00:00",
       "created_by": "Samuel12451",
-      "closed_at": null,
+      "closed_at": "2024-04-14T08:05:22+00:00",
       "closed_by": null
     },
     {
@@ -50663,11 +50663,13 @@
     {
       "number": 4302,
       "title": "Update Installation instructions for Black using pipx in Getting Started ",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2024-04-06T10:02:05+00:00",
       "created_by": "sharsha315",
-      "closed_at": null,
+      "closed_at": "2024-04-14T08:11:24+00:00",
       "closed_by": null
     },
     {
@@ -50742,6 +50744,30 @@
       "created_by": "hauntsaninja",
       "closed_at": "2024-04-12T20:25:36+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4309,
+      "title": "A bug when replacing quote variations",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-04-13T21:35:36+00:00",
+      "created_by": "Susexe",
+      "closed_at": "2024-04-13T21:42:23+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4310,
+      "title": "Use uv in docs build",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-14T08:10:10+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-04-14T08:51:07+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -50749,7 +50775,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-13T15:07:25+00:00",
+    "last_updated": "2024-04-14T22:03:12+00:00",
     "version": 1
   }
 }
