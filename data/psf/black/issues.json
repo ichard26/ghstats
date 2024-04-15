@@ -50768,6 +50768,20 @@
       "created_by": "hauntsaninja",
       "closed_at": "2024-04-14T08:51:07+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4311,
+      "title": "Bump docutils from 0.20.1 to 0.21.1 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-15T06:57:32+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -50775,7 +50789,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-14T22:03:12+00:00",
+    "last_updated": "2024-04-15T15:11:25+00:00",
     "version": 1
   }
 }
