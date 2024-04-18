@@ -50782,6 +50782,38 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2024-04-15T15:26:18+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4312,
+      "title": "fix: Remove parenthesis around sole list items",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-04-17T17:56:28+00:00",
+      "created_by": "RedGuy12",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4313,
+      "title": "Directly install from repo. if `export-subst` is skipped",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-04-17T19:19:11+00:00",
+      "created_by": "EarlMilktea",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4314,
+      "title": "black 24.4.0 returns error when parsing valid Python fstring sentence",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-04-18T12:03:22+00:00",
+      "created_by": "semuadmin",
+      "closed_at": "2024-04-18T12:25:49+00:00",
+      "closed_by": "semuadmin"
     }
   ],
   "record": {
@@ -50789,7 +50821,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-16T15:10:24+00:00",
+    "last_updated": "2024-04-18T15:10:35+00:00",
     "version": 1
   }
 }
