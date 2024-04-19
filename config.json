@@ -1,25 +1,44 @@
 {
-    "title": "Richard's playground for visualizing GitHub data",
-    "username": "ichard26",
-    "author": { "name": "Richard Si", "link": "https://ichard26.github.io/" },
-    "base_path": "/ghstats/",
-    "repos": {
-        "psf/black": {
-            "views": ["issue-counts", "pull-counts", "issue-deltas", "issue-closers"],
-            "view:issue-counts:groups": {
-                "bug": "T: bug",
-                "docs": "T: documentation",
-                "feature": "T: enhancement",
-                "style": "T: style"
-            }
-        },
-        "mypyc/mypyc": {
-            "views": ["issue-counts", "issue-deltas"],
-            "view:issue-counts:groups": {
-                "bug": "bug",
-                "speed": "speed",
-                "codesize": "codesize"
-            }
-        }
+  "title": "Richard's playground for visualizing GitHub data",
+  "username": "ichard26",
+  "base_path": "/ghstats/",
+  "repos": {
+    "psf/black": {
+      "views": [
+        "issue-counts",
+        "pull-counts",
+        "issue-deltas",
+        "issue-closers"
+      ],
+      "view:issue-counts:groups": {
+        "bug": "T: bug",
+        "docs": "T: documentation",
+        "feature": "T: enhancement",
+        "style": "T: style"
+      }
+    },
+    "mypyc/mypyc": {
+      "views": [
+        "issue-counts",
+        "issue-deltas"
+      ],
+      "view:issue-counts:groups": {
+        "bug": "bug",
+        "speed": "speed",
+        "codesize": "codesize"
+      }
+    },
+    "pypa/pip": {
+      "views": [
+        "issue-counts",
+        "pull-counts",
+        "issue-deltas",
+        "issue-closers"
+      ]
     }
+  },
+  "author": {
+    "name": "Richard Si",
+    "link": "https://ichard26.github.io/"
+  }
 }
