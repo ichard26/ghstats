@@ -50814,6 +50814,19 @@
       "created_by": "semuadmin",
       "closed_at": "2024-04-18T12:25:49+00:00",
       "closed_by": "semuadmin"
+    },
+    {
+      "number": 4315,
+      "title": "f-string internal formatting to be consistent with non-f-string formatting",
+      "labels": [
+        "T: enhancement",
+        "F: strings"
+      ],
+      "is_pr": false,
+      "created_at": "2024-04-19T01:32:49+00:00",
+      "created_by": "ColemanTom",
+      "closed_at": "2024-04-19T01:36:39+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -50821,7 +50834,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-18T15:10:35+00:00",
+    "last_updated": "2024-04-19T15:10:54+00:00",
     "version": 1
   }
 }
