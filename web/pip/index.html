@@ -41,14 +41,6 @@ async function loadCharts() {
         options: barOptions("changes"),
     });
 
-    response = await fetch(issueClosersURL);
-    const closers_data = await response.json();
-    createChartElement("issue-closers", {
-        type: 'line',
-        data: { datasets: loadTimeSeriesJSON(closers_data) },
-        options: lineOptions("Closed issues"),
-    });
-
     const elapsed = Math.round(performance.now() - startTime);
     console.log(
         `[debug] loading charts took ${elapsed} milliseconds`
@@ -87,12 +79,6 @@ loadCharts();
 </section>
   <section class="data-view-section" id="issue-deltas-chart-section">
   <h2>pypa/pip issue deltas</h2>
-  <div class="chart-div-container">
-    <canvas></canvas>
-  </div>
-</section>
-  <section class="data-view-section" id="issue-closers-chart-section">
-  <h2>pypa/pip issue closers</h2>
   <div class="chart-div-container">
     <canvas></canvas>
   </div>

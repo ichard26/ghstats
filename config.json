@@ -32,8 +32,7 @@
       "views": [
         "issue-counts",
         "pull-counts",
-        "issue-deltas",
-        "issue-closers"
+        "issue-deltas"
       ]
     }
   },
