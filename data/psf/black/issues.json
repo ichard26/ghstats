@@ -50851,6 +50851,66 @@
       "created_by": "arshan-ritual",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4318,
+      "title": "Add support to style function definitions with newlines before function stubs",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-04-22T00:54:38+00:00",
+      "created_by": "peterkra25",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4319,
+      "title": "Pin to old flake8-bugbear",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-22T02:56:01+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-04-22T03:19:48+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4320,
+      "title": "Line too long: string literal doesn't get split",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-04-22T03:13:17+00:00",
+      "created_by": "crhf",
+      "closed_at": "2024-04-22T03:19:24+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4321,
+      "title": "Remove node-specific logic from visit_default",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-22T04:54:31+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-04-22T06:59:30+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4322,
+      "title": "Bump sphinx from 7.2.6 to 7.3.7 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-22T06:50:04+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2024-04-22T07:01:38+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -50858,7 +50918,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-21T15:10:17+00:00",
+    "last_updated": "2024-04-22T15:11:10+00:00",
     "version": 1
   }
 }
