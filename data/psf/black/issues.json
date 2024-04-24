@@ -50543,8 +50543,8 @@
       "is_pr": false,
       "created_at": "2024-03-25T03:15:49+00:00",
       "created_by": "Azureblade3808",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-04-24T02:24:22+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4292,
@@ -50800,7 +50800,7 @@
       "is_pr": true,
       "created_at": "2024-04-17T19:19:11+00:00",
       "created_by": "EarlMilktea",
-      "closed_at": null,
+      "closed_at": "2024-04-24T03:01:53+00:00",
       "closed_by": null
     },
     {
@@ -50859,7 +50859,7 @@
       "is_pr": true,
       "created_at": "2024-04-22T00:54:38+00:00",
       "created_by": "peterkra25",
-      "closed_at": null,
+      "closed_at": "2024-04-24T02:19:56+00:00",
       "closed_by": null
     },
     {
@@ -50931,7 +50931,53 @@
       "is_pr": false,
       "created_at": "2024-04-22T22:27:23+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2024-04-23T21:16:48+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4325,
+      "title": "Prevent wrapping of multiline fstrings in parens",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-23T19:58:33+00:00",
+      "created_by": "tusharsadhwani",
+      "closed_at": "2024-04-23T21:16:47+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4326,
+      "title": "Move changelog entry to right section",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-24T02:23:41+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2024-04-24T02:26:49+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4327,
+      "title": "Support PEP 696",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-04-24T02:56:16+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-04-24T05:08:38+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4328,
+      "title": "Prepare release 24.4.1",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-24T14:17:41+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-04-24T14:23:25+00:00",
       "closed_by": null
     }
   ],
@@ -50940,7 +50986,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-23T15:10:29+00:00",
+    "last_updated": "2024-04-24T15:11:04+00:00",
     "version": 1
   }
 }
