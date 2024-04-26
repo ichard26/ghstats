@@ -50989,8 +50989,8 @@
       "is_pr": false,
       "created_at": "2024-04-24T15:35:34+00:00",
       "created_by": "mrmundt",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-04-25T23:45:47+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4330,
@@ -51021,6 +51021,55 @@
       "is_pr": true,
       "created_at": "2024-04-25T06:26:23+00:00",
       "created_by": "JelleZijlstra",
+      "closed_at": "2024-04-25T23:45:46+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4333,
+      "title": "Black not deleting unnecessary brackets ",
+      "labels": [
+        "T: bug",
+        "F: parentheses"
+      ],
+      "is_pr": false,
+      "created_at": "2024-04-25T16:17:19+00:00",
+      "created_by": "tkozuch",
+      "closed_at": "2024-04-25T16:23:54+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4334,
+      "title": "Cannot format f-strings where the contents re-use the same quotes as the enclosing f-string",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-04-25T17:04:46+00:00",
+      "created_by": "user27182",
+      "closed_at": "2024-04-25T17:06:09+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4335,
+      "title": "Prepare release 24.4.2",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-25T23:48:05+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-04-25T23:52:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4336,
+      "title": "24.4.2: pytest fails in tests/test_format.py with `AssertionError`",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-04-26T12:14:51+00:00",
+      "created_by": "kloczek",
       "closed_at": null,
       "closed_by": null
     }
@@ -51030,7 +51079,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-25T15:09:58+00:00",
+    "last_updated": "2024-04-26T15:10:59+00:00",
     "version": 1
   }
 }
