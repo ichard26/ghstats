@@ -51106,6 +51106,48 @@
       "created_by": "JelleZijlstra",
       "closed_at": "2024-04-27T08:24:20+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4340,
+      "title": "Bump furo from 2024.1.29 to 2024.4.27 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-29T06:03:21+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2024-04-29T13:16:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4341,
+      "title": "Bump myst-parser from 2.0.0 to 3.0.1 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-29T06:03:25+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2024-04-29T13:17:25+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4342,
+      "title": "Bump docutils from 0.20.1 to 0.21.2 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-04-29T06:03:27+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -51113,7 +51155,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-27T15:09:22+00:00",
+    "last_updated": "2024-04-29T15:10:42+00:00",
     "version": 1
   }
 }
