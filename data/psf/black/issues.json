@@ -51158,6 +51158,18 @@
       "created_by": "tusharsadhwani",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4344,
+      "title": "Is there any way to have a permalink for a specific version in the changelog doc?",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2024-05-02T08:59:23+00:00",
+      "created_by": "slafs",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -51165,7 +51177,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-04-30T15:08:49+00:00",
+    "last_updated": "2024-05-02T15:11:12+00:00",
     "version": 1
   }
 }
