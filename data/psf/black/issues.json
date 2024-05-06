@@ -51229,6 +51229,18 @@
       "created_by": "Pabloo22",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4350,
+      "title": "\"EOF in multi-line string\" on string containing same quote nested in f-string",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-05-05T16:35:23+00:00",
+      "created_by": "Feuermurmel",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -51236,7 +51248,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-05-05T15:11:18+00:00",
+    "last_updated": "2024-05-06T15:10:53+00:00",
     "version": 1
   }
 }
