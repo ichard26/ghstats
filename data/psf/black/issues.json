@@ -51375,6 +51375,18 @@
       "is_pr": false,
       "created_at": "2024-05-13T14:14:40+00:00",
       "created_by": "rushiagr",
+      "closed_at": "2024-05-13T17:59:37+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4362,
+      "title": "Black v24.4.1 & v24.4.2 fails to format f-strings containing multi-line strings",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-05-14T15:05:54+00:00",
+      "created_by": "gbatagian",
       "closed_at": null,
       "closed_by": null
     }
@@ -51384,7 +51396,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-05-13T15:11:35+00:00",
+    "last_updated": "2024-05-14T15:12:34+00:00",
     "version": 1
   }
 }
