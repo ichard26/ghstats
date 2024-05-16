@@ -28749,8 +28749,8 @@
       "is_pr": false,
       "created_at": "2021-09-05T23:04:10+00:00",
       "created_by": "Jasha10",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-05-16T00:32:28+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2479,
@@ -37007,7 +37007,7 @@
       "created_at": "2022-07-06T18:51:06+00:00",
       "created_by": "yilei",
       "closed_at": "2022-07-20T00:57:24+00:00",
-      "closed_by": "ichard26"
+      "closed_by": null
     },
     {
       "number": 3159,
@@ -37290,7 +37290,7 @@
       "created_at": "2022-07-19T21:04:12+00:00",
       "created_by": "yilei",
       "closed_at": "2022-07-20T01:33:00+00:00",
-      "closed_by": "ichard26"
+      "closed_by": null
     },
     {
       "number": 3181,
@@ -37897,7 +37897,7 @@
       "created_at": "2022-08-16T23:39:27+00:00",
       "created_by": "yilei",
       "closed_at": "2022-08-23T03:40:38+00:00",
-      "closed_by": "JelleZijlstra"
+      "closed_by": null
     },
     {
       "number": 3228,
@@ -39665,7 +39665,7 @@
       "created_at": "2022-10-31T22:42:21+00:00",
       "created_by": "yilei",
       "closed_at": "2022-12-15T23:58:51+00:00",
-      "closed_by": "JelleZijlstra"
+      "closed_by": null
     },
     {
       "number": 3369,
@@ -40786,8 +40786,8 @@
       "is_pr": false,
       "created_at": "2022-12-19T20:01:06+00:00",
       "created_by": "yilei",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-05-16T00:32:28+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3459,
@@ -41786,7 +41786,7 @@
       "created_at": "2023-02-02T00:17:38+00:00",
       "created_by": "yilei",
       "closed_at": "2023-02-05T03:30:47+00:00",
-      "closed_by": "ichard26"
+      "closed_by": null
     },
     {
       "number": 3542,
@@ -51387,6 +51387,38 @@
       "is_pr": false,
       "created_at": "2024-05-14T15:05:54+00:00",
       "created_by": "gbatagian",
+      "closed_at": "2024-05-15T21:10:35+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4363,
+      "title": "Make sure Black doesn't crash when `fmt:off` is used before a closing paren",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-05-15T22:25:05+00:00",
+      "created_by": "yilei",
+      "closed_at": "2024-05-16T00:32:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4364,
+      "title": "Advice (UFMT) command-failed Failed due to ASTSafetyError",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-05-16T01:48:04+00:00",
+      "created_by": "hippocookie",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4365,
+      "title": "Fix formatting of backslash escaped quote inside f-string",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-05-16T03:34:02+00:00",
+      "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
     }
@@ -51396,7 +51428,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-05-15T15:10:30+00:00",
+    "last_updated": "2024-05-16T15:10:38+00:00",
     "version": 1
   }
 }
