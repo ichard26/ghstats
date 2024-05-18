@@ -51421,6 +51421,19 @@
       "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4366,
+      "title": "fmt: skip is required at the line which follows the one incorrectly formatted",
+      "labels": [
+        "T: bug",
+        "F: fmtskip"
+      ],
+      "is_pr": false,
+      "created_at": "2024-05-17T15:32:45+00:00",
+      "created_by": "mgoral",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -51428,7 +51441,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-05-17T15:10:58+00:00",
+    "last_updated": "2024-05-18T15:11:30+00:00",
     "version": 1
   }
 }

@@ -8572,7 +8572,7 @@
     },
     {
       "number": 785,
-      "title": "Development focus areas for 2023",
+      "title": "Development focus areas for 2024",
       "labels": [
         "meta"
       ],
@@ -11548,7 +11548,7 @@
     },
     {
       "number": 1038,
-      "title": "Explore no-GIL support (\"free threading\")",
+      "title": "Explore no-GIL support (free threading)",
       "labels": [
         "feature"
       ],
@@ -11700,7 +11700,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-05-11T15:09:53+00:00",
+    "last_updated": "2024-05-18T15:11:30+00:00",
     "version": 1
   }
 }
