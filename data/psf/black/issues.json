@@ -51468,6 +51468,18 @@
       "created_by": "dan-auer",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4370,
+      "title": "Technical doc for smoother contribution",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2024-05-24T13:48:33+00:00",
+      "created_by": "AMK9978",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -51475,7 +51487,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-05-22T15:11:39+00:00",
+    "last_updated": "2024-05-24T15:11:58+00:00",
     "version": 1
   }
 }
