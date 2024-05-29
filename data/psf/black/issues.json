@@ -51466,8 +51466,8 @@
       "is_pr": false,
       "created_at": "2024-05-20T18:14:14+00:00",
       "created_by": "dan-auer",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-05-28T19:27:11+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4370,
@@ -51522,7 +51522,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-05-28T15:10:23+00:00",
+    "last_updated": "2024-05-29T15:12:07+00:00",
     "version": 1
   }
 }
