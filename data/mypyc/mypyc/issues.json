@@ -8342,7 +8342,9 @@
     {
       "number": 767,
       "title": "Can't decorate an overridden method",
-      "labels": [],
+      "labels": [
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2020-10-20T21:07:33+00:00",
       "created_by": "msullivan",
@@ -11700,7 +11702,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-06-01T15:09:57+00:00",
+    "last_updated": "2024-06-03T15:11:58+00:00",
     "version": 1
   }
 }
