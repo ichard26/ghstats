@@ -11705,6 +11705,16 @@
       "created_by": "itamarst",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1055,
+      "title": "__module__ considered an instance attribute",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-06-10T16:22:31+00:00",
+      "created_by": "dvarrazzo",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11712,7 +11722,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-06-04T15:11:31+00:00",
+    "last_updated": "2024-06-11T15:11:26+00:00",
     "version": 1
   }
 }
