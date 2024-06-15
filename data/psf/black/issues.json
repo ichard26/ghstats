@@ -51554,7 +51554,7 @@
     },
     {
       "number": 4377,
-      "title": "fix(preview): Don't remove parenthesis around long dictionary values",
+      "title": "fix: Don't remove parenthesis around long dictionary values",
       "labels": [],
       "is_pr": true,
       "created_at": "2024-06-06T20:57:34+00:00",
@@ -51583,6 +51583,16 @@
       "created_by": "SavageCore",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4380,
+      "title": "Fix the fmt: skip issues. Changed a test case also",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-06-15T06:45:46+00:00",
+      "created_by": "devshah9",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -51590,7 +51600,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-06-14T15:11:56+00:00",
+    "last_updated": "2024-06-15T15:11:28+00:00",
     "version": 1
   }
 }
