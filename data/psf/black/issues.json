@@ -43676,7 +43676,7 @@
     },
     {
       "number": 3701,
-      "title": "Black produced different code on the second pass of the formatter",
+      "title": "Unstable formatting: Comment is moved to lower line twice",
       "labels": [
         "T: bug",
         "C: unstable formatting"
@@ -43743,8 +43743,8 @@
       "is_pr": false,
       "created_at": "2023-05-25T14:30:59+00:00",
       "created_by": "DRMacIver",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-06-18T14:40:20+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3707,
@@ -51631,6 +51631,19 @@
       "created_by": "JelleZijlstra",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4384,
+      "title": "Black produced different code on the second pass of the formatter.",
+      "labels": [
+        "T: bug",
+        "C: unstable formatting"
+      ],
+      "is_pr": false,
+      "created_at": "2024-06-18T14:32:59+00:00",
+      "created_by": "peterdsharpe",
+      "closed_at": "2024-06-18T14:40:36+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -51638,7 +51651,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-06-17T15:12:28+00:00",
+    "last_updated": "2024-06-18T15:11:27+00:00",
     "version": 1
   }
 }
