@@ -51725,6 +51725,18 @@
       "created_by": "pre-commit-ci[bot]",
       "closed_at": "2024-07-02T00:18:22+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4393,
+      "title": "Fix use of deprecated ast.Str",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-07-04T05:18:58+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -51732,7 +51744,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-07-02T15:11:26+00:00",
+    "last_updated": "2024-07-04T15:11:07+00:00",
     "version": 1
   }
 }
