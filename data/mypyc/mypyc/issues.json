@@ -11715,6 +11715,16 @@
       "created_by": "dvarrazzo",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1056,
+      "title": "Support Python 3.13",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-07-06T10:38:08+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11722,7 +11732,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-06-17T15:12:29+00:00",
+    "last_updated": "2024-07-06T15:11:10+00:00",
     "version": 1
   }
 }
