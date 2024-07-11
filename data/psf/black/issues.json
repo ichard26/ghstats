@@ -51239,8 +51239,8 @@
       "is_pr": false,
       "created_at": "2024-05-05T16:35:23+00:00",
       "created_by": "Feuermurmel",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-07-11T02:52:38+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4351,
@@ -51419,7 +51419,7 @@
       "is_pr": true,
       "created_at": "2024-05-16T03:34:02+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2024-07-11T02:52:39+00:00",
       "closed_by": null
     },
     {
@@ -51537,8 +51537,8 @@
       "is_pr": false,
       "created_at": "2024-06-04T19:19:27+00:00",
       "created_by": "apes0",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-07-11T02:41:21+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4376,
@@ -51821,6 +51821,16 @@
       "created_by": "sam-xif",
       "closed_at": "2024-07-09T13:36:25+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4401,
+      "title": "fix: don't try to format strings inside f-strings",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-07-10T21:06:16+00:00",
+      "created_by": "tusharsadhwani",
+      "closed_at": "2024-07-11T02:52:37+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -51828,7 +51838,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-07-10T15:12:27+00:00",
+    "last_updated": "2024-07-11T15:11:38+00:00",
     "version": 1
   }
 }
