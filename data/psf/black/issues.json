@@ -39551,7 +39551,7 @@
       ],
       "is_pr": false,
       "created_at": "2022-10-26T17:32:31+00:00",
-      "created_by": "yuvallangerontheroad",
+      "created_by": "kakafarm",
       "closed_at": "2022-10-26T17:35:55+00:00",
       "closed_by": "JelleZijlstra"
     },
@@ -51874,7 +51874,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-07-15T15:13:46+00:00",
+    "last_updated": "2024-07-16T15:10:06+00:00",
     "version": 1
   }
 }
