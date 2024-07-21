@@ -51891,6 +51891,28 @@
       "created_by": "nattiechan",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4407,
+      "title": "Black failed to reformat",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-07-20T16:26:44+00:00",
+      "created_by": "mcnuggetsx20",
+      "closed_at": "2024-07-20T17:50:00+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4408,
+      "title": "Cannot parse nested f-strings if the same quote char is used inside and outside.",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-07-20T21:05:04+00:00",
+      "created_by": "maflAT",
+      "closed_at": "2024-07-20T21:08:13+00:00",
+      "closed_by": "hauntsaninja"
     }
   ],
   "record": {
@@ -51898,7 +51920,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-07-20T15:10:22+00:00",
+    "last_updated": "2024-07-21T15:12:07+00:00",
     "version": 1
   }
 }
