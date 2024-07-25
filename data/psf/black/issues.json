@@ -46519,8 +46519,8 @@
       "labels": [],
       "is_pr": true,
       "created_at": "2023-10-12T14:29:52+00:00",
-      "created_by": "takoman-mg",
-      "closed_at": null,
+      "created_by": "potatohead-mg",
+      "closed_at": "2024-07-25T05:11:52+00:00",
       "closed_by": null
     },
     {
@@ -51953,6 +51953,52 @@
       "created_by": "ppena-LiveData",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4412,
+      "title": "Error in the setup docs for black.",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2024-07-25T02:49:42+00:00",
+      "created_by": "Mr-Sunglasses",
+      "closed_at": "2024-07-25T04:40:28+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4413,
+      "title": "docs: fix the installation command of extra for blackd",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-07-25T03:36:16+00:00",
+      "created_by": "Mr-Sunglasses",
+      "closed_at": "2024-07-25T04:40:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4414,
+      "title": "INTERNAL ERROR: Black produced code that is not equivalent to the source",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-07-25T04:34:03+00:00",
+      "created_by": "madrasaty-tech",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4415,
+      "title": "fix: Enhace black efficiently to  skip directories listed in .gitignore",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-07-25T08:11:48+00:00",
+      "created_by": "Mr-Sunglasses",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -51960,7 +52006,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-07-24T15:12:25+00:00",
+    "last_updated": "2024-07-25T15:11:49+00:00",
     "version": 1
   }
 }
