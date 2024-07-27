@@ -11735,6 +11735,16 @@
       "created_by": "vidraj",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1058,
+      "title": "I am getting an AssertionError when trying to build my Python project using mypycify.",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-07-26T22:07:28+00:00",
+      "created_by": "deathbychocolate",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11742,7 +11752,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-07-15T15:13:47+00:00",
+    "last_updated": "2024-07-27T15:10:48+00:00",
     "version": 1
   }
 }
