@@ -52047,6 +52047,18 @@
       "created_by": "Kenza98",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4420,
+      "title": "Newlines between classes do not get added when the last method of one ends with ellipses",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-07-31T08:24:27+00:00",
+      "created_by": "blankRiot96",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -52054,7 +52066,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-07-30T15:11:42+00:00",
+    "last_updated": "2024-07-31T15:11:44+00:00",
     "version": 1
   }
 }
