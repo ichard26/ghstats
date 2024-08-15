@@ -52245,7 +52245,7 @@
     },
     {
       "number": 4436,
-      "title": "CI: Add Python 3.13 jobs to test matrices",
+      "title": "Fully support Python 3.13, including CI testing and wheel building",
       "labels": [],
       "is_pr": true,
       "created_at": "2024-08-14T15:07:30+00:00",
@@ -52259,7 +52259,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-08-14T15:11:52+00:00",
+    "last_updated": "2024-08-15T15:11:34+00:00",
     "version": 1
   }
 }
