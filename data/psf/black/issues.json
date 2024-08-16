@@ -43441,7 +43441,7 @@
       "is_pr": true,
       "created_at": "2023-05-05T06:53:02+00:00",
       "created_by": "KotlinIsland",
-      "closed_at": null,
+      "closed_at": "2024-08-15T22:37:36+00:00",
       "closed_by": null
     },
     {
@@ -52252,6 +52252,18 @@
       "created_by": "EwoutH",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4437,
+      "title": "Improve vim plugin error message if vim is too old or python support is missing",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-08-15T17:43:14+00:00",
+      "created_by": "nirs",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -52259,7 +52271,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-08-15T15:11:34+00:00",
+    "last_updated": "2024-08-16T15:11:11+00:00",
     "version": 1
   }
 }
