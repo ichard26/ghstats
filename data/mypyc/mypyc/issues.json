@@ -11755,6 +11755,16 @@
       "created_by": "dzakarov",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1060,
+      "title": "Looping over ParamSpec.args leads to AssertionError",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-08-23T11:52:46+00:00",
+      "created_by": "kasium",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11762,7 +11772,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-08-18T15:10:32+00:00",
+    "last_updated": "2024-08-23T15:13:32+00:00",
     "version": 1
   }
 }
