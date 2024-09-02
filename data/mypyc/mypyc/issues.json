@@ -11765,6 +11765,16 @@
       "created_by": "kasium",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1061,
+      "title": "Anything to do with dataclass and abstract / ABC classes seems broken: AttributeError: attribute '__dict__' of 'type' objects is not writable",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-09-02T09:19:06+00:00",
+      "created_by": "JohnstonJ",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11772,7 +11782,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-08-28T15:12:25+00:00",
+    "last_updated": "2024-09-02T15:12:34+00:00",
     "version": 1
   }
 }
