@@ -52330,6 +52330,16 @@
       "created_by": "LicViolationchecker",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4444,
+      "title": "Fix 4399 `ASTSafetyError`  on comment in return type annotation",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-09-03T16:44:09+00:00",
+      "created_by": "dankrzeminski32",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -52337,7 +52347,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-09-02T15:12:33+00:00",
+    "last_updated": "2024-09-04T15:12:44+00:00",
     "version": 1
   }
 }
