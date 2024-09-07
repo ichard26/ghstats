@@ -11775,6 +11775,16 @@
       "created_by": "JohnstonJ",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1062,
+      "title": "Interacting classes pass mypy but not mypyc",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-09-07T13:57:17+00:00",
+      "created_by": "dineshbvadhia",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11782,7 +11792,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-09-03T15:12:45+00:00",
+    "last_updated": "2024-09-07T15:11:39+00:00",
     "version": 1
   }
 }
