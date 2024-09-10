@@ -52436,6 +52436,18 @@
       "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4454,
+      "title": "Black crashes with INTERNAL ERROR: Black produced code that is not equivalent to the source.",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-09-10T14:37:46+00:00",
+      "created_by": "SimonDeBroyer",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -52443,7 +52455,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-09-09T15:13:14+00:00",
+    "last_updated": "2024-09-10T15:12:26+00:00",
     "version": 1
   }
 }
