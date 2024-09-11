@@ -41699,7 +41699,7 @@
       "created_at": "2023-01-31T01:59:44+00:00",
       "created_by": "JelleZijlstra",
       "closed_at": "2023-01-31T02:45:13+00:00",
-      "closed_by": "JelleZijlstra"
+      "closed_by": null
     },
     {
       "number": 3535,
@@ -52455,7 +52455,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-09-10T15:12:26+00:00",
+    "last_updated": "2024-09-11T15:13:05+00:00",
     "version": 1
   }
 }
