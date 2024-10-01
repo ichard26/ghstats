@@ -52609,6 +52609,18 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2024-09-30T15:00:31+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4469,
+      "title": "Black inserts spurious space into docstring starting with 4 quotes",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-09-30T21:12:42+00:00",
+      "created_by": "gvanrossum",
+      "closed_at": "2024-09-30T22:05:25+00:00",
+      "closed_by": "gvanrossum"
     }
   ],
   "record": {
@@ -52616,7 +52628,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-09-30T15:13:45+00:00",
+    "last_updated": "2024-10-01T15:13:12+00:00",
     "version": 1
   }
 }
