@@ -25135,7 +25135,7 @@
     },
     {
       "number": 2188,
-      "title": "Enable `--experimental-string-processing` to be default",
+      "title": "Enable feature `string_processing` to be default",
       "labels": [
         "T: enhancement",
         "T: style",
@@ -52628,7 +52628,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-10-01T15:13:12+00:00",
+    "last_updated": "2024-10-04T15:13:12+00:00",
     "version": 1
   }
 }
