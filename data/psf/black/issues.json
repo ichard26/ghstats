@@ -52389,12 +52389,12 @@
     },
     {
       "number": 4449,
-      "title": "Test mypyc 3.13 wheel build",
+      "title": "Add mypyc 3.13 wheel build",
       "labels": [],
       "is_pr": true,
       "created_at": "2024-09-07T23:48:22+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2024-10-07T14:32:53+00:00",
       "closed_by": null
     },
     {
@@ -52552,7 +52552,7 @@
       "is_pr": true,
       "created_at": "2024-09-23T06:04:29+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2024-10-07T06:34:14+00:00",
       "closed_by": null
     },
     {
@@ -52621,6 +52621,19 @@
       "created_by": "gvanrossum",
       "closed_at": "2024-09-30T22:05:25+00:00",
       "closed_by": "gvanrossum"
+    },
+    {
+      "number": 4470,
+      "title": "Bump pypa/cibuildwheel from 2.20.0 to 2.21.2",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-10-07T06:34:11+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2024-10-07T07:04:13+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -52628,7 +52641,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-10-06T15:12:20+00:00",
+    "last_updated": "2024-10-07T15:13:29+00:00",
     "version": 1
   }
 }
