@@ -52646,6 +52646,42 @@
       "created_by": "hauntsaninja",
       "closed_at": "2024-10-07T18:43:01+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4472,
+      "title": "Update documentation, error messages, etc. to reflect dropping Python 3.8 runtime support",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-09T01:36:10+00:00",
+      "created_by": "jtmedley",
+      "closed_at": "2024-10-09T02:11:23+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4473,
+      "title": "Clean up Python 3.8 remnants",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-10-09T02:00:43+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2024-10-09T02:11:23+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4474,
+      "title": "black makes functions and collections too high when they are too long",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-09T12:10:06+00:00",
+      "created_by": "ljhshuai",
+      "closed_at": "2024-10-09T12:14:04+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -52653,7 +52689,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-10-08T15:13:17+00:00",
+    "last_updated": "2024-10-09T15:13:10+00:00",
     "version": 1
   }
 }
