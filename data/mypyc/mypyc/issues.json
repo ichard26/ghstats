@@ -11827,6 +11827,40 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1067,
+      "title": "Compilation failure on Fedora 41",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-10-10T15:31:28+00:00",
+      "created_by": "Newbytee",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1068,
+      "title": "Bypass import machinery to speed up imports on macOS",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-10T19:49:17+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1069,
+      "title": "Doesn't understand empty class bodies with an ellipsis instead of \"pass\"",
+      "labels": [
+        "good first issue"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-10T20:27:31+00:00",
+      "created_by": "Newbytee",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11834,7 +11868,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-10-10T15:13:12+00:00",
+    "last_updated": "2024-10-11T15:12:50+00:00",
     "version": 1
   }
 }
