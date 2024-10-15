@@ -52796,6 +52796,18 @@
       "created_by": "AleksMat",
       "closed_at": "2024-10-14T13:55:59+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4485,
+      "title": "Replace remaining aliases to built-in types",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-10-14T17:54:50+00:00",
+      "created_by": "AleksMat",
+      "closed_at": "2024-10-14T23:37:58+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -52803,7 +52815,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-10-14T15:13:24+00:00",
+    "last_updated": "2024-10-15T15:13:13+00:00",
     "version": 1
   }
 }
