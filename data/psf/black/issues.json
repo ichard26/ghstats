@@ -13359,7 +13359,7 @@
       "created_at": "2019-12-16T20:38:09+00:00",
       "created_by": "jonasrk",
       "closed_at": "2020-02-03T19:21:45+00:00",
-      "closed_by": "JelleZijlstra"
+      "closed_by": "zsol"
     },
     {
       "number": 1208,
@@ -52808,6 +52808,18 @@
       "created_by": "AleksMat",
       "closed_at": "2024-10-14T23:37:58+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4486,
+      "title": "Update deprecated type aliases",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-10-15T18:13:38+00:00",
+      "created_by": "AleksMat",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -52815,7 +52827,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-10-15T15:13:13+00:00",
+    "last_updated": "2024-10-16T15:13:09+00:00",
     "version": 1
   }
 }
