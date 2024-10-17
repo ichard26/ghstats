@@ -11861,6 +11861,16 @@
       "created_by": "Newbytee",
       "closed_at": "2024-10-14T08:24:47+00:00",
       "closed_by": "JukkaL"
+    },
+    {
+      "number": 1070,
+      "title": "Incorrect code generation for relative imports inside `__init__.py`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-10-17T02:59:47+00:00",
+      "created_by": "aatle",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11868,7 +11878,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-10-15T15:13:13+00:00",
+    "last_updated": "2024-10-17T15:12:24+00:00",
     "version": 1
   }
 }
