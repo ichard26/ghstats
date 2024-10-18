@@ -11871,6 +11871,16 @@
       "created_by": "aatle",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1071,
+      "title": "`AssertionError` when building modules with similar names",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-10-18T04:21:14+00:00",
+      "created_by": "aatle",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11878,7 +11888,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-10-17T15:12:24+00:00",
+    "last_updated": "2024-10-18T15:13:19+00:00",
     "version": 1
   }
 }
