@@ -52818,7 +52818,7 @@
       "is_pr": true,
       "created_at": "2024-10-15T18:13:38+00:00",
       "created_by": "AleksMat",
-      "closed_at": null,
+      "closed_at": "2024-10-23T14:00:55+00:00",
       "closed_by": null
     },
     {
@@ -52910,6 +52910,81 @@
       "created_by": "MichaReiser",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4495,
+      "title": "string-processing f-string debug expressions quotes changed when using conversion",
+      "labels": [
+        "T: bug",
+        "F: strings"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-22T20:20:02+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4496,
+      "title": "Create python-app.yml",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-10-22T21:15:30+00:00",
+      "created_by": "OKEAMAH",
+      "closed_at": "2024-10-22T21:25:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4497,
+      "title": "Update AUTHORS.md",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-10-22T21:20:51+00:00",
+      "created_by": "OKEAMAH",
+      "closed_at": "2024-10-22T21:25:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4498,
+      "title": "Prevent f-string merge quote changes",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-10-22T23:45:33+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4499,
+      "title": "Based on PEP 8 and common practice, it is recommended to use single quotes as the default choice instead of double quotes.",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-10-23T03:50:40+00:00",
+      "created_by": "phanduynam",
+      "closed_at": "2024-10-23T07:23:23+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4500,
+      "title": "Using Black Playground automatically adds a blank line after the comment. Using CMD does not automatically add this blank line, resulting in the comment being right next to the line of code below. So which one should I use?",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-10-23T04:02:31+00:00",
+      "created_by": "phanduynam",
+      "closed_at": "2024-10-23T15:11:13+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4501,
+      "title": "What are your plans for the Black 2025 style guide?",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-23T13:50:54+00:00",
+      "created_by": "MichaReiser",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -52917,7 +52992,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-10-22T15:13:31+00:00",
+    "last_updated": "2024-10-23T15:13:27+00:00",
     "version": 1
   }
 }
