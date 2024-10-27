@@ -161115,8 +161115,8 @@
       "number": 13025,
       "title": "Packages installed from local sources appear also subject to dependency confusion attacks",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: security",
+        "state: needs discussion"
       ],
       "is_pr": false,
       "created_at": "2024-10-17T15:06:05+00:00",
@@ -161163,8 +161163,8 @@
       "number": 13029,
       "title": "Pip 24.2 Download size is doubled",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "S: needs triage",
+        "type: performance"
       ],
       "is_pr": false,
       "created_at": "2024-10-18T05:21:24+00:00",
@@ -161188,8 +161188,7 @@
       "number": 13031,
       "title": "Documentation errors",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: docs"
       ],
       "is_pr": false,
       "created_at": "2024-10-18T22:29:40+00:00",
@@ -161250,8 +161249,8 @@
       "number": 13036,
       "title": "test is failing for pip",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: support",
+        "type: maintenance"
       ],
       "is_pr": false,
       "created_at": "2024-10-22T06:42:15+00:00",
@@ -161353,6 +161352,44 @@
       "is_pr": true,
       "created_at": "2024-10-26T10:10:47+00:00",
       "created_by": "sbidoul",
+      "closed_at": "2024-10-27T09:40:33+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13045,
+      "title": "I would like to know what pip is sending to a simple repo",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-26T18:37:37+00:00",
+      "created_by": "girdevstack",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13046,
+      "title": "pip mistakenly reports recursion error even when there is no recursion",
+      "labels": [
+        "type: bug",
+        "C: requirement file"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-27T11:29:10+00:00",
+      "created_by": "d3dave",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13047,
+      "title": "Don't fail when the same req file is included more than once",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-10-27T13:52:49+00:00",
+      "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
     }
@@ -161362,7 +161399,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-10-26T15:11:37+00:00",
+    "last_updated": "2024-10-27T15:11:52+00:00",
     "version": 1
   }
 }

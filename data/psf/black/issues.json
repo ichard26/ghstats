@@ -53009,6 +53009,18 @@
       "created_by": "Mattwmaster58",
       "closed_at": "2024-10-25T01:58:24+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4504,
+      "title": "`tests/test_blackd.py` runs out of fds on systems with high nproc (is blackd leaking fds?)",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-26T18:59:20+00:00",
+      "created_by": "mgorny",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53016,7 +53028,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-10-26T15:11:36+00:00",
+    "last_updated": "2024-10-27T15:11:52+00:00",
     "version": 1
   }
 }
