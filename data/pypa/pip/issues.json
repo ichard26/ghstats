@@ -161454,7 +161454,7 @@
       "title": "24.3 release uses unreleased vendored `packaging`, breaking devendored systems",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "project: <downstream>"
       ],
       "is_pr": false,
       "created_at": "2024-10-28T04:30:31+00:00",
@@ -161474,6 +161474,56 @@
       "created_by": "mgorny",
       "closed_at": "2024-10-28T06:47:00+00:00",
       "closed_by": "sbidoul"
+    },
+    {
+      "number": 13055,
+      "title": "Files included relatively in `requirements.in` file gets converted to absolute paths",
+      "labels": [
+        "resolution: wrong project"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-28T16:54:59+00:00",
+      "created_by": "rosen-dash",
+      "closed_at": "2024-10-28T17:10:34+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13056,
+      "title": "OSError: HTTPSConnectionPool(host='<private PyPI>', port=443): Max retries exceeded with url Only For Specific Package Version",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-29T00:10:46+00:00",
+      "created_by": "martinezlc99",
+      "closed_at": "2024-10-29T03:50:10+00:00",
+      "closed_by": "martinezlc99"
+    },
+    {
+      "number": 13057,
+      "title": "Add protection against devendored packaging.",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-10-29T04:18:00+00:00",
+      "created_by": "freakboy3742",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13058,
+      "title": "show the date of installation in `pip list`",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-29T06:37:14+00:00",
+      "created_by": "mrrezaie",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161481,7 +161531,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-10-28T15:13:58+00:00",
+    "last_updated": "2024-10-29T15:13:40+00:00",
     "version": 1
   }
 }
