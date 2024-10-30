@@ -161516,12 +161516,25 @@
       "number": 13058,
       "title": "show the date of installation in `pip list`",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "resolution: needs standard"
       ],
       "is_pr": false,
       "created_at": "2024-10-29T06:37:14+00:00",
       "created_by": "mrrezaie",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13059,
+      "title": "Add flag for check to check requirements.txt",
+      "labels": [
+        "state: needs discussion",
+        "state: awaiting PR",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2024-10-29T21:15:04+00:00",
+      "created_by": "danieldulaney",
       "closed_at": null,
       "closed_by": null
     }
@@ -161531,7 +161544,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-10-29T15:13:40+00:00",
+    "last_updated": "2024-10-30T15:13:39+00:00",
     "version": 1
   }
 }
