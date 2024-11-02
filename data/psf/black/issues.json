@@ -49521,7 +49521,7 @@
       ],
       "is_pr": false,
       "created_at": "2024-02-01T19:51:23+00:00",
-      "created_by": "marcinwazny",
+      "created_by": "ghost",
       "closed_at": null,
       "closed_by": null
     },
@@ -53028,7 +53028,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-10-29T15:13:38+00:00",
+    "last_updated": "2024-11-02T15:12:49+00:00",
     "version": 1
   }
 }
