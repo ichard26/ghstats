@@ -161582,6 +161582,18 @@
       "created_by": "larsoner",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13063,
+      "title": "Pass CA and client TLS certificates to build subprocesses ",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-11-03T01:48:00+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161589,7 +161601,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-02T15:12:50+00:00",
+    "last_updated": "2024-11-03T15:11:50+00:00",
     "version": 1
   }
 }
