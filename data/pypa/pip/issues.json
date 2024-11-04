@@ -138273,8 +138273,8 @@
       "is_pr": false,
       "created_at": "2022-05-16T19:58:20+00:00",
       "created_by": "gvfork",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-11-03T18:58:21+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11126,
@@ -145322,7 +145322,7 @@
       "is_pr": true,
       "created_at": "2023-01-13T08:05:25+00:00",
       "created_by": "bebound",
-      "closed_at": null,
+      "closed_at": "2024-11-03T21:47:35+00:00",
       "closed_by": null
     },
     {
@@ -157774,13 +157774,14 @@
       "title": "pip._vendor.resolvelib.resolvers.ResolutionTooDeep: 200000 error ",
       "labels": [
         "type: bug",
-        "C: dependency resolution"
+        "C: dependency resolution",
+        "resolution: duplicate"
       ],
       "is_pr": false,
       "created_at": "2024-06-07T14:31:47+00:00",
       "created_by": "sreelathasankaranarayanan",
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "ichard26"
     },
     {
       "number": 12755,
@@ -158790,8 +158791,7 @@
       "number": 12836,
       "title": "Incorrect number of `\"` in documentation",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: docs"
       ],
       "is_pr": false,
       "created_at": "2024-07-08T10:05:48+00:00",
@@ -158861,8 +158861,8 @@
       "is_pr": false,
       "created_at": "2024-07-10T22:36:58+00:00",
       "created_by": "ztgzest",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-11-04T01:04:29+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12842,
@@ -161158,14 +161158,14 @@
       "number": 13028,
       "title": "Urlspec dependency with environment markers within pyproject.toml dependencies section is reported as pep508 offending rule",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: support",
+        "resolution: wrong project"
       ],
       "is_pr": false,
       "created_at": "2024-10-17T19:10:17+00:00",
       "created_by": "dre-hh",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-11-03T23:40:47+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13029,
@@ -161594,6 +161594,18 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13064,
+      "title": "Skip self version check on EXTERNALLY-MANAGED environments",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-11-03T19:44:15+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161601,7 +161613,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-03T15:11:50+00:00",
+    "last_updated": "2024-11-04T15:14:00+00:00",
     "version": 1
   }
 }
