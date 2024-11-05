@@ -161606,6 +161606,18 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13065,
+      "title": "Implement a `--group` option for installing from `[dependency-groups]` found in `pyproject.toml` in the current working directory",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-11-05T01:16:37+00:00",
+      "created_by": "sirosen",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161613,7 +161625,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-04T15:14:00+00:00",
+    "last_updated": "2024-11-05T15:13:10+00:00",
     "version": 1
   }
 }

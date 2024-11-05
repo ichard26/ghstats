@@ -53021,6 +53021,18 @@
       "created_by": "mgorny",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4505,
+      "title": "Avoid double indentation when unnecessary",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-05T14:57:19+00:00",
+      "created_by": "ego-thales",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53028,7 +53040,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-11-04T15:13:58+00:00",
+    "last_updated": "2024-11-05T15:13:10+00:00",
     "version": 1
   }
 }
