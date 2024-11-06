@@ -161059,14 +161059,13 @@
       "number": 13020,
       "title": "Can I overwrite the --index-url to point to another repo, when I have \"pip install  -r requirements.txt\"?",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: support"
       ],
       "is_pr": false,
       "created_at": "2024-10-16T10:00:57+00:00",
       "created_by": "k0s15",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-11-05T21:41:45+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13021,
@@ -161263,8 +161262,8 @@
       "is_pr": false,
       "created_at": "2024-10-22T06:42:15+00:00",
       "created_by": "rudraps-alt",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-11-05T21:36:18+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13037,
@@ -161618,6 +161617,32 @@
       "created_by": "sirosen",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13066,
+      "title": "\u2728[Feature Request]: Filter pip install by Python Package Authority's Security Advisory Database.\u2728",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-05T16:54:27+00:00",
+      "created_by": "galenseilis",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13067,
+      "title": "Why old version pip like 21 (python 3.8) can install packages that meet the compatibility?",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-06T08:14:24+00:00",
+      "created_by": "RonnieLincoln",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161625,7 +161650,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-05T15:13:10+00:00",
+    "last_updated": "2024-11-06T15:13:08+00:00",
     "version": 1
   }
 }
