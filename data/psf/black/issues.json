@@ -53045,6 +53045,18 @@
       "created_by": "MeGaGiGaGon",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4507,
+      "title": "Re-condensation / Simplification Of Code After Line Length Reduction",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-08T03:06:46+00:00",
+      "created_by": "SoundsSerious",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53052,7 +53064,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-11-06T15:13:06+00:00",
+    "last_updated": "2024-11-08T15:12:55+00:00",
     "version": 1
   }
 }
