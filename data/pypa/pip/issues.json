@@ -160609,7 +160609,7 @@
       "is_pr": true,
       "created_at": "2024-09-28T21:44:02+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2024-11-10T20:19:18+00:00",
       "closed_by": null
     },
     {
@@ -160906,7 +160906,7 @@
       "is_pr": true,
       "created_at": "2024-10-13T01:55:54+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2024-11-10T16:35:49+00:00",
       "closed_by": null
     },
     {
@@ -161040,7 +161040,7 @@
       "is_pr": true,
       "created_at": "2024-10-14T05:41:20+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2024-11-10T20:19:12+00:00",
       "closed_by": null
     },
     {
@@ -161299,7 +161299,7 @@
       "is_pr": true,
       "created_at": "2024-10-23T22:58:34+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2024-11-10T20:19:29+00:00",
       "closed_by": null
     },
     {
@@ -161517,7 +161517,7 @@
       "is_pr": true,
       "created_at": "2024-10-29T04:18:00+00:00",
       "created_by": "freakboy3742",
-      "closed_at": null,
+      "closed_at": "2024-11-10T22:23:17+00:00",
       "closed_by": null
     },
     {
@@ -161714,6 +161714,43 @@
       "created_by": "mgorny",
       "closed_at": "2024-11-09T16:50:39+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13074,
+      "title": "Vendoring bumps for 25.0",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-11-10T16:35:12+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13075,
+      "title": "Pass --proxy Option To Build Environment",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-11-10T21:36:55+00:00",
+      "created_by": "martinezlc99",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13076,
+      "title": "Vendor third party library `dep-logic` to calculate disjoint specifiers",
+      "labels": [
+        "project: vendored dependency",
+        "state: needs discussion"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-11T00:47:36+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161721,7 +161758,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-10T15:11:38+00:00",
+    "last_updated": "2024-11-11T15:12:45+00:00",
     "version": 1
   }
 }
