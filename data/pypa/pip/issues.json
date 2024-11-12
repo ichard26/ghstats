@@ -161751,6 +161751,19 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13077,
+      "title": "inconsistent behaviour between `PIP_NO_BINARY` and `--no-binary` ",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-11T22:25:42+00:00",
+      "created_by": "alexlancaster",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161758,7 +161771,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-11T15:12:45+00:00",
+    "last_updated": "2024-11-12T15:13:22+00:00",
     "version": 1
   }
 }

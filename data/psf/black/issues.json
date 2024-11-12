@@ -53055,7 +53055,7 @@
       "is_pr": false,
       "created_at": "2024-11-08T03:06:46+00:00",
       "created_by": "SoundsSerious",
-      "closed_at": null,
+      "closed_at": "2024-11-12T04:38:37+00:00",
       "closed_by": "SoundsSerious"
     },
     {
@@ -53084,7 +53084,8 @@
       "number": 4510,
       "title": "Multi-line strings with type ignore pragma get merged into a single line",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: strings"
       ],
       "is_pr": false,
       "created_at": "2024-11-11T14:36:00+00:00",
@@ -53098,7 +53099,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-11-11T15:12:44+00:00",
+    "last_updated": "2024-11-12T15:13:21+00:00",
     "version": 1
   }
 }
