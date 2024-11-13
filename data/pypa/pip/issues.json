@@ -161764,6 +161764,19 @@
       "created_by": "alexlancaster",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13078,
+      "title": "pip fails continuously on slow connections",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-12T20:39:16+00:00",
+      "created_by": "ballo",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161771,7 +161784,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-12T15:13:22+00:00",
+    "last_updated": "2024-11-13T15:13:22+00:00",
     "version": 1
   }
 }
