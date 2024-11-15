@@ -160107,8 +160107,8 @@
       "is_pr": false,
       "created_at": "2024-08-26T17:56:08+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-11-14T15:25:45+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 12942,
@@ -161771,8 +161771,7 @@
       "number": 13078,
       "title": "pip fails continuously on slow connections",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: support"
       ],
       "is_pr": false,
       "created_at": "2024-11-12T20:39:16+00:00",
@@ -161804,6 +161803,19 @@
       "created_by": "DoctorLiQ",
       "closed_at": "2024-11-14T04:48:15+00:00",
       "closed_by": "DiddiLeija"
+    },
+    {
+      "number": 13081,
+      "title": "Error while checking for conflicts.",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-14T16:55:50+00:00",
+      "created_by": "ahmedselim2017",
+      "closed_at": "2024-11-15T03:56:55+00:00",
+      "closed_by": "ahmedselim2017"
     }
   ],
   "record": {
@@ -161811,7 +161823,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-14T15:13:39+00:00",
+    "last_updated": "2024-11-15T15:13:28+00:00",
     "version": 1
   }
 }
