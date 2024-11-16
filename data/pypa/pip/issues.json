@@ -161816,6 +161816,19 @@
       "created_by": "ahmedselim2017",
       "closed_at": "2024-11-15T03:56:55+00:00",
       "closed_by": "ahmedselim2017"
+    },
+    {
+      "number": 13082,
+      "title": "Pip stuck on \"Preparing metadata (pyproject.toml)\"",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-16T13:12:38+00:00",
+      "created_by": "AntonioNDev",
+      "closed_at": "2024-11-16T13:38:10+00:00",
+      "closed_by": "AntonioNDev"
     }
   ],
   "record": {
@@ -161823,7 +161836,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-15T15:13:28+00:00",
+    "last_updated": "2024-11-16T15:11:59+00:00",
     "version": 1
   }
 }
