@@ -161870,6 +161870,60 @@
       "created_by": "calebbrown",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13086,
+      "title": "`pip cache remove` should also work with a package name",
+      "labels": [
+        "type: enhancement",
+        "C: cache",
+        "state: awaiting PR"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-19T15:22:01+00:00",
+      "created_by": "paugier",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13087,
+      "title": "Doc for option --no-binary is wrong",
+      "labels": [
+        "type: bug",
+        "type: docs",
+        "state: awaiting PR"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-19T15:50:16+00:00",
+      "created_by": "paugier",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13088,
+      "title": "Add new option --rebuild (or --never-binary) to the install command",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-20T00:04:16+00:00",
+      "created_by": "paugier",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13089,
+      "title": "Broken dependency evaluation in pip 24.3.1. Pip will not recognize installed prerelease versions",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-20T08:21:30+00:00",
+      "created_by": "maarre",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161877,7 +161931,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-19T15:13:56+00:00",
+    "last_updated": "2024-11-20T15:13:48+00:00",
     "version": 1
   }
 }

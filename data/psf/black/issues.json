@@ -53130,6 +53130,16 @@
       "created_by": "MeGaGiGaGon",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4514,
+      "title": "Line break added in list comprehension separates variable from its expression",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-11-19T22:56:39+00:00",
+      "created_by": "funkybob",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53137,7 +53147,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-11-19T15:13:55+00:00",
+    "last_updated": "2024-11-20T15:13:46+00:00",
     "version": 1
   }
 }
