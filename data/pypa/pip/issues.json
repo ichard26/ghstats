@@ -161924,6 +161924,19 @@
       "created_by": "maarre",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13090,
+      "title": "Rename --no-binary as --no-download-binary so that --no-binary can emit a warning",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-20T22:29:13+00:00",
+      "created_by": "paugier",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161931,7 +161944,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-20T15:13:48+00:00",
+    "last_updated": "2024-11-21T15:14:01+00:00",
     "version": 1
   }
 }
