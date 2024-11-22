@@ -53152,6 +53152,18 @@
       "created_by": "jaclark5",
       "closed_at": "2024-11-20T20:59:43+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4516,
+      "title": "Change the formatting behaviour when there is bracket in the if statement, like a list, a function",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-22T11:01:30+00:00",
+      "created_by": "mandy6610",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53159,7 +53171,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-11-21T15:14:01+00:00",
+    "last_updated": "2024-11-22T15:14:24+00:00",
     "version": 1
   }
 }
