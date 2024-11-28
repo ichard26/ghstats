@@ -161975,6 +161975,31 @@
       "created_by": "Luthaf",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13094,
+      "title": "Fix `pip cache remove` pattern matching.",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-11-27T22:43:58+00:00",
+      "created_by": "jsirois",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13095,
+      "title": "Requirements not satisfied although installed",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-28T01:25:43+00:00",
+      "created_by": "LaysonShen",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -161982,7 +162007,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-27T15:13:54+00:00",
+    "last_updated": "2024-11-28T15:13:53+00:00",
     "version": 1
   }
 }
