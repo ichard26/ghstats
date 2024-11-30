@@ -156437,8 +156437,8 @@
       "is_pr": false,
       "created_at": "2024-04-23T10:43:15+00:00",
       "created_by": "matx93",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-11-30T02:38:29+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12648,
@@ -162000,6 +162000,19 @@
       "created_by": "LaysonShen",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13096,
+      "title": "Indicate python version mismatch rather than say no versions available.",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-30T02:18:01+00:00",
+      "created_by": "ConnorStoneAstro",
+      "closed_at": "2024-11-30T02:44:26+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -162007,7 +162020,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-28T15:13:53+00:00",
+    "last_updated": "2024-11-30T15:12:16+00:00",
     "version": 1
   }
 }
