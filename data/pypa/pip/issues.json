@@ -147201,8 +147201,8 @@
       "is_pr": false,
       "created_at": "2023-03-21T12:55:11+00:00",
       "created_by": "mbway",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-01T12:39:03+00:00",
+      "closed_by": "mbway"
     },
     {
       "number": 11882,
@@ -147424,7 +147424,7 @@
       "is_pr": true,
       "created_at": "2023-03-26T20:35:36+00:00",
       "created_by": "mbway",
-      "closed_at": null,
+      "closed_at": "2024-12-01T12:39:59+00:00",
       "closed_by": null
     },
     {
@@ -162013,6 +162013,19 @@
       "created_by": "ConnorStoneAstro",
       "closed_at": "2024-11-30T02:44:26+00:00",
       "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13097,
+      "title": "404 responses on `--extra-index` should be cached.",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-11-30T18:54:19+00:00",
+      "created_by": "zopfli",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162020,7 +162033,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-11-30T15:12:16+00:00",
+    "last_updated": "2024-12-01T15:12:19+00:00",
     "version": 1
   }
 }
