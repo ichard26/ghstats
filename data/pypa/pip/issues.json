@@ -161998,8 +161998,8 @@
       "is_pr": false,
       "created_at": "2024-11-28T01:25:43+00:00",
       "created_by": "LaysonShen",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-02T02:10:44+00:00",
+      "closed_by": "LaysonShen"
     },
     {
       "number": 13096,
@@ -162026,6 +162026,19 @@
       "created_by": "zopfli",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13098,
+      "title": "Proxy settings not forwarded to subprocess",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-02T12:30:20+00:00",
+      "created_by": "motaatmo",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162033,7 +162046,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-01T15:12:19+00:00",
+    "last_updated": "2024-12-02T15:14:17+00:00",
     "version": 1
   }
 }

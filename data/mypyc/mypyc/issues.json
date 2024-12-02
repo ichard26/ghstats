@@ -11934,8 +11934,8 @@
       "is_pr": false,
       "created_at": "2024-11-06T04:25:06+00:00",
       "created_by": "aatle",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-02T11:11:18+00:00",
+      "closed_by": "JukkaL"
     }
   ],
   "record": {
@@ -11943,7 +11943,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2024-12-01T15:12:19+00:00",
+    "last_updated": "2024-12-02T15:14:16+00:00",
     "version": 1
   }
 }
