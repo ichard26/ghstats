@@ -162037,6 +162037,32 @@
       "is_pr": false,
       "created_at": "2024-12-02T12:30:20+00:00",
       "created_by": "motaatmo",
+      "closed_at": "2024-12-03T00:26:44+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13099,
+      "title": "Installing from public github archive asks for username ",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-02T17:44:41+00:00",
+      "created_by": "d-huck",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13100,
+      "title": "Running pip errors with NonImplementedError",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-03T13:24:07+00:00",
+      "created_by": "clin1234",
       "closed_at": null,
       "closed_by": null
     }
@@ -162046,7 +162072,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-02T15:14:17+00:00",
+    "last_updated": "2024-12-03T15:14:07+00:00",
     "version": 1
   }
 }
