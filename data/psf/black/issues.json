@@ -23025,8 +23025,8 @@
       "is_pr": false,
       "created_at": "2021-03-05T10:29:32+00:00",
       "created_by": "WhyNotHugo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-04T04:39:48+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2021,
@@ -52850,7 +52850,7 @@
       "is_pr": true,
       "created_at": "2024-10-16T23:14:32+00:00",
       "created_by": "kastkeepitjumpinlikekangaroos",
-      "closed_at": null,
+      "closed_at": "2024-12-04T04:39:36+00:00",
       "closed_by": null
     },
     {
@@ -52951,7 +52951,7 @@
       "is_pr": true,
       "created_at": "2024-10-22T23:45:33+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
+      "closed_at": "2024-12-04T04:44:26+00:00",
       "closed_by": null
     },
     {
@@ -53226,6 +53226,29 @@
       "created_by": "mosfet80",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4522,
+      "title": "Setting the 2025 stable style",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2024-12-04T05:31:10+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4523,
+      "title": "`hex_codes_in_unicode_sequences`: restrictions around f-strings are too strict",
+      "labels": [
+        "T: style",
+        "F: strings"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-04T07:56:17+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53233,7 +53256,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-12-03T15:14:06+00:00",
+    "last_updated": "2024-12-04T15:14:26+00:00",
     "version": 1
   }
 }
