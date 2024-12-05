@@ -162050,8 +162050,8 @@
       "is_pr": false,
       "created_at": "2024-12-02T17:44:41+00:00",
       "created_by": "d-huck",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-04T21:56:52+00:00",
+      "closed_by": "d-huck"
     },
     {
       "number": 13100,
@@ -162065,6 +162065,19 @@
       "created_by": "clin1234",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13101,
+      "title": "support PEP 735 \"peerDependencies\" ",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-05T13:06:25+00:00",
+      "created_by": "Eliav2",
+      "closed_at": "2024-12-05T13:14:46+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -162072,7 +162085,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-04T15:14:30+00:00",
+    "last_updated": "2024-12-05T15:14:26+00:00",
     "version": 1
   }
 }

@@ -53249,6 +53249,16 @@
       "created_by": "MeGaGiGaGon",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4524,
+      "title": "Update index.md",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-12-04T20:22:24+00:00",
+      "created_by": "speco29",
+      "closed_at": "2024-12-04T20:28:51+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -53256,7 +53266,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-12-04T15:14:26+00:00",
+    "last_updated": "2024-12-05T15:14:24+00:00",
     "version": 1
   }
 }
