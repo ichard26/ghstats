@@ -162090,6 +162090,54 @@
       "created_by": "deadman3000",
       "closed_at": "2024-12-06T11:11:17+00:00",
       "closed_by": "pradyunsg"
+    },
+    {
+      "number": 13103,
+      "title": "Release 25.0",
+      "labels": [
+        "type: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-06T22:05:21+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13104,
+      "title": "CPython 3.13.1 is breaking Windows CI",
+      "labels": [
+        "C: tests"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-06T22:36:41+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2024-12-07T11:42:09+00:00",
+      "closed_by": "sbidoul"
+    },
+    {
+      "number": 13105,
+      "title": "Accommodate for recent pathname2url() changes upstream",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-07T01:33:10+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2024-12-07T11:42:08+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13106,
+      "title": "Remove gone_in for issue 11859 (deprecation of --build-option and --global-option)",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-07T11:36:31+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162097,7 +162145,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-06T15:13:47+00:00",
+    "last_updated": "2024-12-07T15:12:13+00:00",
     "version": 1
   }
 }
