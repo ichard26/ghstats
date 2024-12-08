@@ -53224,7 +53224,7 @@
       "is_pr": true,
       "created_at": "2024-12-01T18:17:07+00:00",
       "created_by": "mosfet80",
-      "closed_at": null,
+      "closed_at": "2024-12-08T03:53:23+00:00",
       "closed_by": null
     },
     {
@@ -53279,6 +53279,16 @@
       "created_by": "speco29",
       "closed_at": "2024-12-05T19:44:54+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4527,
+      "title": "Suggesting the tool for doctest formatting. fixes#3083  Here, I'm using isort utility for formatting doctests for better user experince in Black",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-12-07T19:00:06+00:00",
+      "created_by": "speco29",
+      "closed_at": "2024-12-08T03:57:06+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -53286,7 +53296,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-12-07T15:12:12+00:00",
+    "last_updated": "2024-12-08T15:12:34+00:00",
     "version": 1
   }
 }

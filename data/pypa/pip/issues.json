@@ -122679,14 +122679,13 @@
       "labels": [
         "type: bug",
         "C: tests",
-        "OS: windows",
-        "S: needs triage"
+        "OS: windows"
       ],
       "is_pr": false,
       "created_at": "2021-04-03T09:16:30+00:00",
       "created_by": "fohrloop",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-08T03:59:29+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9768,
@@ -135374,8 +135373,8 @@
       "is_pr": false,
       "created_at": "2022-02-04T09:53:26+00:00",
       "created_by": "jamtwister",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-07T21:20:34+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 10882,
@@ -136987,11 +136986,13 @@
     {
       "number": 11018,
       "title": "Fix install requirement mutation during dependency resolution",
-      "labels": [],
+      "labels": [
+        "auto-bitrotten"
+      ],
       "is_pr": true,
       "created_at": "2022-04-08T14:58:42+00:00",
       "created_by": "atugushev",
-      "closed_at": null,
+      "closed_at": "2024-12-07T21:03:44+00:00",
       "closed_by": null
     },
     {
@@ -146441,8 +146442,8 @@
       "is_pr": false,
       "created_at": "2023-02-26T19:55:46+00:00",
       "created_by": "graingert",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-08T11:53:30+00:00",
+      "closed_by": "pradyunsg"
     },
     {
       "number": 11821,
@@ -156594,7 +156595,7 @@
       "is_pr": true,
       "created_at": "2024-04-29T00:24:33+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2024-12-07T20:42:17+00:00",
       "closed_by": null
     },
     {
@@ -159551,7 +159552,8 @@
       "title": "pip install not working while installing packages defined in setup.py",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "project: setuptools",
+        "state: needs reproducer"
       ],
       "is_pr": false,
       "created_at": "2024-08-05T14:37:59+00:00",
@@ -159581,17 +159583,19 @@
       "is_pr": true,
       "created_at": "2024-08-05T20:20:32+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2024-12-07T20:24:08+00:00",
       "closed_by": null
     },
     {
       "number": 12899,
       "title": "Use ! instead  . to make \"--break-system-package\" clickable",
-      "labels": [],
+      "labels": [
+        "resolution: no action"
+      ],
       "is_pr": true,
       "created_at": "2024-08-06T14:39:48+00:00",
       "created_by": "elsamuko",
-      "closed_at": null,
+      "closed_at": "2024-12-07T20:55:13+00:00",
       "closed_by": null
     },
     {
@@ -160456,7 +160460,8 @@
       "title": "Misleading error message for broken setuptools",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "project: setuptools",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2024-09-19T10:12:00+00:00",
@@ -160765,7 +160770,7 @@
       "labels": [
         "type: bug",
         "S: awaiting response",
-        "S: needs triage"
+        "C: network connectivity"
       ],
       "is_pr": false,
       "created_at": "2024-10-08T19:52:29+00:00",
@@ -161173,7 +161178,7 @@
       "number": 13029,
       "title": "Pip 24.2 Download size is doubled",
       "labels": [
-        "S: needs triage",
+        "state: needs eyes",
         "type: performance"
       ],
       "is_pr": false,
@@ -161203,19 +161208,19 @@
       "is_pr": false,
       "created_at": "2024-10-18T22:29:40+00:00",
       "created_by": "JoshuaPerdue",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-07T21:32:24+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13032,
-      "title": "Update documentation",
+      "title": "Correct typos in docs and code comments",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2024-10-18T22:35:33+00:00",
       "created_by": "JoshuaPerdue",
-      "closed_at": null,
+      "closed_at": "2024-12-07T20:46:46+00:00",
       "closed_by": null
     },
     {
@@ -161246,8 +161251,10 @@
       "number": 13035,
       "title": "Adding a suggestion to update pip when Wheel Version > 1",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "type: enhancement",
+        "resolution: duplicate",
+        "PEP implementation",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2024-10-21T03:01:34+00:00",
@@ -161469,8 +161476,8 @@
       "is_pr": false,
       "created_at": "2024-10-28T04:30:31+00:00",
       "created_by": "mgorny",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-08T09:53:13+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13054,
@@ -161606,7 +161613,7 @@
       "is_pr": true,
       "created_at": "2024-11-03T19:44:15+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2024-12-08T11:53:29+00:00",
       "closed_by": null
     },
     {
@@ -161704,8 +161711,8 @@
       "is_pr": false,
       "created_at": "2024-11-09T12:16:51+00:00",
       "created_by": "mgorny",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-08T09:53:13+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13073,
@@ -161728,7 +161735,7 @@
       "is_pr": true,
       "created_at": "2024-11-10T16:35:12+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2024-12-08T09:53:12+00:00",
       "closed_by": null
     },
     {
@@ -161791,8 +161798,8 @@
       "is_pr": false,
       "created_at": "2024-11-14T01:53:21+00:00",
       "created_by": "calebbrown",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-07T19:37:08+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13080,
@@ -161860,14 +161867,14 @@
     },
     {
       "number": 13085,
-      "title": "Move self_outdated_check import to the top to stop WHL exec on install.",
+      "title": "Import self version check eagerly in install command to fix ACE",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2024-11-18T23:08:33+00:00",
       "created_by": "calebbrown",
-      "closed_at": null,
+      "closed_at": "2024-12-07T19:37:07+00:00",
       "closed_by": null
     },
     {
@@ -162136,6 +162143,19 @@
       "is_pr": true,
       "created_at": "2024-12-07T11:36:31+00:00",
       "created_by": "sbidoul",
+      "closed_at": "2024-12-08T09:53:35+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13107,
+      "title": "Remove unused news file GHA workflow and bot config",
+      "labels": [
+        "skip news",
+        "type: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-07T22:58:12+00:00",
+      "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
     }
@@ -162145,7 +162165,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-07T15:12:13+00:00",
+    "last_updated": "2024-12-08T15:12:36+00:00",
     "version": 1
   }
 }
