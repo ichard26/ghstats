@@ -53289,6 +53289,20 @@
       "created_by": "speco29",
       "closed_at": "2024-12-08T03:57:06+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4528,
+      "title": "Bump sphinxcontrib-programoutput from 0.17 to 0.18 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-09T06:54:19+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53296,7 +53310,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-12-08T15:12:34+00:00",
+    "last_updated": "2024-12-09T15:14:47+00:00",
     "version": 1
   }
 }
