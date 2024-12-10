@@ -25902,8 +25902,8 @@
       "is_pr": false,
       "created_at": "2021-05-20T00:47:50+00:00",
       "created_by": "JEphron",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-09T22:06:20+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 2249,
@@ -42564,8 +42564,8 @@
       "is_pr": false,
       "created_at": "2023-03-14T00:23:23+00:00",
       "created_by": "DavidKorczynski",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-10T01:16:42+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3606,
@@ -43986,8 +43986,8 @@
       "is_pr": false,
       "created_at": "2023-06-08T09:44:55+00:00",
       "created_by": "jackjyq",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-10T02:45:58+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3727,
@@ -44705,8 +44705,8 @@
       "is_pr": false,
       "created_at": "2023-07-13T08:57:33+00:00",
       "created_by": "piotro888",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-10T02:46:48+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3790,
@@ -53301,6 +53301,40 @@
       "is_pr": true,
       "created_at": "2024-12-09T06:54:19+00:00",
       "created_by": "dependabot[bot]",
+      "closed_at": "2024-12-09T20:44:44+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4529,
+      "title": "Add 2248 tests",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-12-09T22:07:03+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2024-12-09T22:20:00+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4530,
+      "title": "Add 1765 tests",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-09T22:16:47+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4531,
+      "title": "Add `*.py text diff=python` to `.gitattributes`",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-09T23:38:19+00:00",
+      "created_by": "MeGaGiGaGon",
       "closed_at": null,
       "closed_by": null
     }
@@ -53310,7 +53344,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-12-09T15:14:47+00:00",
+    "last_updated": "2024-12-10T15:14:29+00:00",
     "version": 1
   }
 }
