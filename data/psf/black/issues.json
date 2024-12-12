@@ -53328,14 +53328,14 @@
     },
     {
       "number": 4531,
-      "title": "Add `*.py text diff=python` to `.gitattributes`",
+      "title": "Add `*.py diff=python` to `.gitattributes`",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2024-12-09T23:38:19+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
+      "closed_at": "2024-12-11T19:35:21+00:00",
       "closed_by": null
     },
     {
@@ -53349,6 +53349,16 @@
       "created_by": "vjeux",
       "closed_at": "2024-12-11T02:32:19+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4533,
+      "title": "Add Clarification to Config File Location/Name",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-12-11T19:51:32+00:00",
+      "created_by": "Ac5000",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53356,7 +53366,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-12-11T15:14:10+00:00",
+    "last_updated": "2024-12-12T15:14:10+00:00",
     "version": 1
   }
 }

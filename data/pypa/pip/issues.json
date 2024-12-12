@@ -160030,7 +160030,10 @@
     {
       "number": 12934,
       "title": "Refactor MultiDomainBasicAuth",
-      "labels": [],
+      "labels": [
+        "type: refactor",
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2024-08-24T07:17:40+00:00",
       "created_by": "jfly",
@@ -162166,7 +162169,7 @@
     },
     {
       "number": 13108,
-      "title": "Return file size along with count on `cache purge`",
+      "title": "Return file size along with count on cache purge or removal",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -162213,6 +162216,29 @@
       "created_by": "ofek",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13112,
+      "title": "`pip show` displays `License` metadata field - switch to `License-Expression`?",
+      "labels": [
+        "C: list/show",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-11T15:37:09+00:00",
+      "created_by": "befeleme",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13113,
+      "title": "Pin build dependencies",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-12-11T19:59:22+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162220,7 +162246,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-11T15:14:11+00:00",
+    "last_updated": "2024-12-12T15:14:12+00:00",
     "version": 1
   }
 }
