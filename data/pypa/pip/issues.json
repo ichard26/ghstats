@@ -72495,7 +72495,7 @@
       "created_at": "2018-09-13T14:17:25+00:00",
       "created_by": "cam72cam",
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "no-response[bot]"
     },
     {
       "number": 5781,
@@ -150704,8 +150704,8 @@
       "is_pr": false,
       "created_at": "2023-07-22T20:15:14+00:00",
       "created_by": "janosh",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-12T21:19:01+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12177,
@@ -161442,6 +161442,7 @@
       "number": 13050,
       "title": "clarified docs for env-vars and config files",
       "labels": [
+        "type: docs",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -162176,7 +162177,7 @@
       "is_pr": true,
       "created_at": "2024-12-09T00:21:22+00:00",
       "created_by": "charwick",
-      "closed_at": null,
+      "closed_at": "2024-12-12T21:19:00+00:00",
       "closed_by": null
     },
     {
@@ -162239,6 +162240,31 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13114,
+      "title": "Can't find downloaded packages ",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-12T23:34:55+00:00",
+      "created_by": "Kiloev",
+      "closed_at": "2024-12-12T23:54:30+00:00",
+      "closed_by": "Kiloev"
+    },
+    {
+      "number": 13115,
+      "title": "psycopg binary package is available for Windows and uploaded to pypi, but pip doesn't like it",
+      "labels": [
+        "resolution: not a bug"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-13T05:57:33+00:00",
+      "created_by": "thadguidry",
+      "closed_at": "2024-12-13T07:37:00+00:00",
+      "closed_by": "thadguidry"
     }
   ],
   "record": {
@@ -162246,7 +162272,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-12T15:14:12+00:00",
+    "last_updated": "2024-12-13T15:13:47+00:00",
     "version": 1
   }
 }
