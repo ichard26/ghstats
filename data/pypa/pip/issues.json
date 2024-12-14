@@ -71904,7 +71904,7 @@
     },
     {
       "number": 5735,
-      "title": "PIP_NO_CACHE_DIR and PIP_NO_BUILD_ISOLATION behave opposite to how they read",
+      "title": "`PIP_NO_BUILD_ISOLATION` behaves opposite to how it reads",
       "labels": [
         "type: enhancement",
         "C: cli",
@@ -162272,7 +162272,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-13T15:13:47+00:00",
+    "last_updated": "2024-12-14T15:12:35+00:00",
     "version": 1
   }
 }
