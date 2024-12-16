@@ -161627,7 +161627,7 @@
     },
     {
       "number": 13065,
-      "title": "Implement a `--group` option for installing from `[dependency-groups]` found in `pyproject.toml` in the current working directory",
+      "title": "Implement a `--group` option for installing from `[dependency-groups]` found in `pyproject.toml` files",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -162265,6 +162265,28 @@
       "created_by": "thadguidry",
       "closed_at": "2024-12-13T07:37:00+00:00",
       "closed_by": "thadguidry"
+    },
+    {
+      "number": 13116,
+      "title": "Add missing space in a warning message",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-16T06:00:16+00:00",
+      "created_by": "tifv",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13117,
+      "title": "Create python-package.yml",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-12-16T07:42:08+00:00",
+      "created_by": "androide-termux",
+      "closed_at": "2024-12-16T13:35:21+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -162272,7 +162294,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-15T15:12:17+00:00",
+    "last_updated": "2024-12-16T15:14:30+00:00",
     "version": 1
   }
 }
