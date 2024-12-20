@@ -162313,6 +162313,19 @@
       "created_by": "anuk909",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13120,
+      "title": "Unexpected conflict between requirements and constraints file ",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-20T00:36:03+00:00",
+      "created_by": "eshenayo",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162320,7 +162333,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-19T15:13:33+00:00",
+    "last_updated": "2024-12-20T15:12:46+00:00",
     "version": 1
   }
 }
