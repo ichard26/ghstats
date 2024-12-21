@@ -162210,8 +162210,9 @@
       "number": 13111,
       "title": "Determining cross-platform resolution strategy",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "C: dependency resolution",
+        "state: needs discussion",
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2024-12-11T00:09:22+00:00",
@@ -162291,7 +162292,7 @@
     },
     {
       "number": 13118,
-      "title": "Use --jobs auto in docs nox sessions",
+      "title": "Speed up nox docs sessions",
       "labels": [
         "type: docs",
         "skip news"
@@ -162326,6 +162327,19 @@
       "created_by": "eshenayo",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13121,
+      "title": "Configuring pip in Anaconda (D:\\ drive) results in https; instead of https: on Windows 10",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-21T06:15:39+00:00",
+      "created_by": "Caswellwei",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162333,7 +162347,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-20T15:12:46+00:00",
+    "last_updated": "2024-12-21T15:11:24+00:00",
     "version": 1
   }
 }
