@@ -53396,6 +53396,18 @@
       "created_by": "tusharsadhwani",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4537,
+      "title": "Fix type error",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-23T03:01:21+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2024-12-23T06:19:40+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -53403,7 +53415,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-12-22T15:11:06+00:00",
+    "last_updated": "2024-12-23T15:12:46+00:00",
     "version": 1
   }
 }

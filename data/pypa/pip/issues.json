@@ -75692,6 +75692,7 @@
       "title": "pyproject.toml-based builds lose proxy config for build-dependency installation",
       "labels": [
         "type: bug",
+        "C: proxy",
         "state: awaiting PR",
         "C: PEP 517 impact"
       ],
@@ -99518,13 +99519,14 @@
       "labels": [
         "type: bug",
         "C: proxy",
+        "resolution: duplicate",
         "C: PEP 517 impact"
       ],
       "is_pr": false,
       "created_at": "2020-02-28T21:58:41+00:00",
       "created_by": "SamuraiAku",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-22T23:37:53+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 7806,
@@ -106087,13 +106089,13 @@
       "number": 8335,
       "title": "[Windows] Failure due to detached buffer when using PEP518",
       "labels": [
-        "S: needs triage"
+        "state: needs reproducer"
       ],
       "is_pr": false,
       "created_at": "2020-05-27T18:06:57+00:00",
       "created_by": "david-cortes",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-22T23:46:54+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 8336,
@@ -111160,8 +111162,8 @@
       "is_pr": false,
       "created_at": "2020-08-16T00:04:29+00:00",
       "created_by": "EdinyangaOttoho",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-22T23:48:55+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 8770,
@@ -113768,13 +113770,15 @@
       "number": 8999,
       "title": "pip install doesn't carry-on index-url certificate - failing build dependencies installation",
       "labels": [
-        "C: PEP 517 impact"
+        "resolution: duplicate",
+        "C: PEP 517 impact",
+        "C: network connectivity"
       ],
       "is_pr": false,
       "created_at": "2020-10-15T12:18:33+00:00",
       "created_by": "awaizman1",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-22T23:36:13+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9000,
@@ -160965,6 +160969,7 @@
       "number": 13010,
       "title": "Never use the pkg_resources metadata backend on python 3.13+",
       "labels": [
+        "project: <downstream>",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -162300,7 +162305,7 @@
       "is_pr": true,
       "created_at": "2024-12-16T23:28:44+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2024-12-22T21:46:36+00:00",
       "closed_by": null
     },
     {
@@ -162363,6 +162368,31 @@
       "is_pr": true,
       "created_at": "2024-12-22T01:26:07+00:00",
       "created_by": "ichard26",
+      "closed_at": "2024-12-22T21:40:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13124,
+      "title": "Pass --proxy to build subprocesses",
+      "labels": [
+        "C: proxy",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-22T23:29:02+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13125,
+      "title": "Upgrade pyproject-hooks to 1.2.0",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-23T00:25:35+00:00",
+      "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
     }
@@ -162372,7 +162402,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-22T15:11:07+00:00",
+    "last_updated": "2024-12-23T15:12:48+00:00",
     "version": 1
   }
 }
