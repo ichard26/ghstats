@@ -19902,8 +19902,8 @@
       "is_pr": false,
       "created_at": "2020-10-15T20:39:11+00:00",
       "created_by": "passichenko",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-23T18:46:26+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1766,
@@ -45480,8 +45480,8 @@
       "is_pr": false,
       "created_at": "2023-08-24T22:44:40+00:00",
       "created_by": "yilei",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-24T04:26:22+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3855,
@@ -53323,7 +53323,7 @@
       "is_pr": true,
       "created_at": "2024-12-09T22:16:47+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
+      "closed_at": "2024-12-23T18:46:25+00:00",
       "closed_by": null
     },
     {
@@ -53408,6 +53408,26 @@
       "created_by": "cobaltt7",
       "closed_at": "2024-12-23T06:19:40+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4538,
+      "title": "Fix 3678 \"problem parsing `with` statements\"",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-12-23T21:13:12+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4539,
+      "title": "Fix 4232",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2024-12-24T02:00:21+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53415,7 +53435,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2024-12-23T15:12:46+00:00",
+    "last_updated": "2024-12-24T15:12:15+00:00",
     "version": 1
   }
 }
