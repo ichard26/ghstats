@@ -59019,6 +59019,7 @@
       "title": "Speedup startup time",
       "labels": [
         "type: enhancement",
+        "help wanted",
         "type: performance"
       ],
       "is_pr": false,
@@ -154014,6 +154015,7 @@
       "number": 12455,
       "title": "Remove section about non-existing `--force-keyring` flag",
       "labels": [
+        "type: docs",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -156375,6 +156377,7 @@
       "number": 12642,
       "title": "[fix]: Move error message formatting recommendation into pip docs #12626",
       "labels": [
+        "type: docs",
         "skip news"
       ],
       "is_pr": true,
@@ -157772,6 +157775,7 @@
       "number": 12753,
       "title": "Update docs to add git+ssh install example",
       "labels": [
+        "type: docs",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -158508,7 +158512,7 @@
       "is_pr": true,
       "created_at": "2024-06-28T21:22:28+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2024-12-26T00:43:09+00:00",
       "closed_by": null
     },
     {
@@ -159611,6 +159615,7 @@
       "number": 12900,
       "title": "Add separate `conf.py` for the different docs types",
       "labels": [
+        "type: docs",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -162398,7 +162403,7 @@
     },
     {
       "number": 13126,
-      "title": "CI optimizations",
+      "title": "Faster test session reruns & microoptimize CI",
       "labels": [
         "C: tests",
         "skip news"
@@ -162428,7 +162433,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-25T15:12:11+00:00",
+    "last_updated": "2024-12-26T15:12:34+00:00",
     "version": 1
   }
 }
