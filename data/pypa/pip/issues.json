@@ -98548,13 +98548,14 @@
       "number": 7729,
       "title": "Cache parse_links() by --find-links html page url",
       "labels": [
-        "auto-locked"
+        "auto-locked",
+        "type: performance"
       ],
       "is_pr": true,
       "created_at": "2020-02-13T05:20:41+00:00",
       "created_by": "cosmicexplorer",
       "closed_at": "2020-04-08T08:33:25+00:00",
-      "closed_by": "xavfernandez"
+      "closed_by": null
     },
     {
       "number": 7730,
@@ -112788,13 +112789,14 @@
       "number": 8912,
       "title": "Cache found candidates",
       "labels": [
-        "C: finder"
+        "C: finder",
+        "type: performance"
       ],
       "is_pr": true,
       "created_at": "2020-09-24T07:53:45+00:00",
       "created_by": "uranusjr",
       "closed_at": "2020-09-27T14:09:42+00:00",
-      "closed_by": "pradyunsg"
+      "closed_by": null
     },
     {
       "number": 8913,
@@ -114784,13 +114786,15 @@
       "number": 9086,
       "title": "Use git's partial clone feature to speed up pip",
       "labels": [
-        "C: vcs"
+        "C: vcs",
+        "type: performance",
+        "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2020-11-01T23:43:09+00:00",
       "created_by": "nipunn1313",
       "closed_at": "2021-08-15T09:28:53+00:00",
-      "closed_by": "sbidoul"
+      "closed_by": null
     },
     {
       "number": 9087,
@@ -116862,12 +116866,15 @@
     {
       "number": 9265,
       "title": "Cache AlreadyInstalledCandidate",
-      "labels": [],
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2020-12-11T18:26:36+00:00",
       "created_by": "uranusjr",
       "closed_at": "2020-12-11T21:03:56+00:00",
-      "closed_by": "pradyunsg"
+      "closed_by": null
     },
     {
       "number": 9266,
@@ -117129,12 +117136,15 @@
     {
       "number": 9289,
       "title": "Lazily evaluate the candidate sequence to prevent unneeded distribution downloads",
-      "labels": [],
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2020-12-15T09:11:40+00:00",
       "created_by": "uranusjr",
       "closed_at": "2020-12-27T11:41:56+00:00",
-      "closed_by": "pradyunsg"
+      "closed_by": null
     },
     {
       "number": 9290,
@@ -122449,12 +122459,15 @@
     {
       "number": 9748,
       "title": "Improve Performance of Picking Best Candidate from Indexes",
-      "labels": [],
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2021-03-31T20:56:09+00:00",
       "created_by": "jbylund",
       "closed_at": "2021-04-03T15:25:36+00:00",
-      "closed_by": "uranusjr"
+      "closed_by": null
     },
     {
       "number": 9749,
@@ -131531,12 +131544,15 @@
     {
       "number": 10550,
       "title": "Cache Requirement Object Creation",
-      "labels": [],
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2021-10-06T16:17:54+00:00",
       "created_by": "jbylund",
       "closed_at": "2021-10-09T13:56:10+00:00",
-      "closed_by": "DiddiLeija"
+      "closed_by": null
     },
     {
       "number": 10551,
@@ -131822,12 +131838,15 @@
     {
       "number": 10574,
       "title": "Simplify graph in get_topological_weights.",
-      "labels": [],
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2021-10-12T09:17:09+00:00",
       "created_by": "mauritsvanrees",
       "closed_at": "2021-11-20T13:29:51+00:00",
-      "closed_by": "pradyunsg"
+      "closed_by": null
     },
     {
       "number": 10575,
@@ -139940,13 +139959,15 @@
       "number": 11264,
       "title": "bazaar: Use lightweight checkouts rather than a full branch clone",
       "labels": [
-        "C: vcs"
+        "C: vcs",
+        "type: performance",
+        "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2022-07-15T20:53:41+00:00",
       "created_by": "jelmer",
       "closed_at": "2022-10-07T18:16:34+00:00",
-      "closed_by": "pradyunsg"
+      "closed_by": null
     },
     {
       "number": 11265,
@@ -147035,12 +147056,15 @@
     {
       "number": 11868,
       "title": "cache normalize_path in req_uninstall and is_local",
-      "labels": [],
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2023-03-16T19:51:21+00:00",
       "created_by": "DefaultRyan",
       "closed_at": "2023-04-11T06:44:18+00:00",
-      "closed_by": "sbidoul"
+      "closed_by": null
     },
     {
       "number": 11869,
@@ -147699,13 +147723,14 @@
       "number": 11922,
       "title": "Avoid parsing dist.version twice in a row",
       "labels": [
-        "skip news"
+        "skip news",
+        "type: performance"
       ],
       "is_pr": true,
       "created_at": "2023-04-04T17:02:50+00:00",
       "created_by": "collinanderson",
       "closed_at": "2023-04-10T11:23:24+00:00",
-      "closed_by": "sbidoul"
+      "closed_by": null
     },
     {
       "number": 11923,
@@ -151024,12 +151049,15 @@
     {
       "number": 12204,
       "title": "Use a set for TargetPython.get_tags for performance",
-      "labels": [],
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2023-08-04T05:42:39+00:00",
       "created_by": "hauntsaninja",
       "closed_at": "2023-08-06T16:08:16+00:00",
-      "closed_by": "pradyunsg"
+      "closed_by": null
     },
     {
       "number": 12205,
@@ -151068,6 +151096,7 @@
       "number": 12208,
       "title": "perform 1-3 HTTP requests for each wheel using fast-deps",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -152507,13 +152536,14 @@
       "number": 12327,
       "title": "Optimize --find-links=<path-to-dir>",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2023-10-07T22:55:56+00:00",
       "created_by": "notatallshaw",
       "closed_at": "2024-01-30T07:01:43+00:00",
-      "closed_by": "uranusjr"
+      "closed_by": null
     },
     {
       "number": 12329,
@@ -153991,6 +154021,7 @@
       "number": 12453,
       "title": "Cache is_satisfied_by",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -155382,7 +155413,8 @@
       "number": 12563,
       "title": "Cache the user agent",
       "labels": [
-        "skip news"
+        "skip news",
+        "type: performance"
       ],
       "is_pr": true,
       "created_at": "2024-03-10T10:42:53+00:00",
@@ -155422,6 +155454,7 @@
       "number": 12566,
       "title": "Avoid network/index related imports for commands that won't need 'em",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -156898,6 +156931,7 @@
       "number": 12683,
       "title": "Disable self version check in PEP 517 pip subprocesses",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -158257,6 +158291,7 @@
       "title": "Optimise logic for displaying packages at the end of `pip install`",
       "labels": [
         "type: enhancement",
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -158566,7 +158601,9 @@
     {
       "number": 12816,
       "title": "PERF: proof of concept, parallel installation of wheels",
-      "labels": [],
+      "labels": [
+        "type: performance"
+      ],
       "is_pr": true,
       "created_at": "2024-07-01T14:28:47+00:00",
       "created_by": "morotti",
@@ -158686,7 +158723,9 @@
     {
       "number": 12826,
       "title": "PERF: demo, 20% faster installation, write optimized code to extract files from the zip file",
-      "labels": [],
+      "labels": [
+        "type: performance"
+      ],
       "is_pr": true,
       "created_at": "2024-07-05T16:34:48+00:00",
       "created_by": "morotti",
@@ -159099,6 +159138,7 @@
       "number": 12859,
       "title": "PERF: 7% faster pip install, remove fsync call in temporary file, not necessary",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -159273,6 +159313,7 @@
       "number": 12873,
       "title": "PERF: get_requirement() raise cache from 2048 to 8192 elements",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -160213,8 +160254,9 @@
       "number": 12948,
       "title": "Add mark requested for installing packages",
       "labels": [
+        "state: needs discussion",
         "type: feature request",
-        "S: needs triage"
+        "resolution: needs standard"
       ],
       "is_pr": false,
       "created_at": "2024-09-01T08:39:47+00:00",
@@ -162411,7 +162453,7 @@
       "is_pr": true,
       "created_at": "2024-12-24T22:06:00+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2024-12-26T18:28:33+00:00",
       "closed_by": null
     },
     {
@@ -162426,6 +162468,56 @@
       "created_by": "moh-12345",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13128,
+      "title": "Cache requires-python checks & skip debug logging",
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-26T18:18:48+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13129,
+      "title": "ci: use much faster D: drive for TEMP on Windows",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-26T18:42:07+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13130,
+      "title": "ci: run zipapp tests on M1 macOS",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-26T21:09:10+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13131,
+      "title": "pip install pgadmin4 fails on AWS Ubuntu image",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-27T12:12:29+00:00",
+      "created_by": "ShaheedHaque",
+      "closed_at": "2024-12-27T12:21:29+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -162433,7 +162525,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-26T15:12:34+00:00",
+    "last_updated": "2024-12-27T15:12:15+00:00",
     "version": 1
   }
 }
