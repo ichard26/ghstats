@@ -75109,8 +75109,8 @@
       "is_pr": false,
       "created_at": "2018-11-01T06:42:34+00:00",
       "created_by": "uranusjr",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T04:53:45+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 5975,
@@ -80123,8 +80123,8 @@
       "is_pr": false,
       "created_at": "2019-03-20T19:14:30+00:00",
       "created_by": "tusharlock10",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T03:18:59+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6355,
@@ -85784,7 +85784,8 @@
       "number": 6773,
       "title": "Document how to disable keyring for users who might want to",
       "labels": [
-        "type: docs"
+        "type: docs",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2019-07-23T08:44:39+00:00",
@@ -87198,8 +87199,8 @@
       "is_pr": false,
       "created_at": "2019-08-15T02:40:11+00:00",
       "created_by": "lamar661",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T02:23:42+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6879,
@@ -109577,7 +109578,8 @@
       "number": 8634,
       "title": "Unable to authenticate with private index when providing username and credentials in keyring with SecretService",
       "labels": [
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2020-07-27T10:42:16+00:00",
@@ -114333,13 +114335,14 @@
       "labels": [
         "type: bug",
         "C: list/show",
-        "OS: linux"
+        "OS: linux",
+        "resolution: not a bug"
       ],
       "is_pr": false,
       "created_at": "2020-10-25T09:42:38+00:00",
       "created_by": "richboss",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T04:39:29+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9048,
@@ -118746,12 +118749,14 @@
     {
       "number": 9430,
       "title": "EOF Error when Installing from Private PyPI with Basic Authentication",
-      "labels": [],
+      "labels": [
+        "resolution: duplicate"
+      ],
       "is_pr": false,
       "created_at": "2021-01-05T12:20:50+00:00",
       "created_by": "Gregor1337",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T04:33:56+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9431,
@@ -119403,12 +119408,15 @@
     {
       "number": 9489,
       "title": "Any pip install XXX failed with ReadTimeoutError/HTTPSConnectionPool errors",
-      "labels": [],
+      "labels": [
+        "type: support",
+        "C: network connectivity"
+      ],
       "is_pr": false,
       "created_at": "2021-01-23T06:14:59+00:00",
       "created_by": "liron50",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T04:27:55+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9490,
@@ -129693,7 +129701,8 @@
       "number": 10389,
       "title": "proposal: replace keyring dependency with generic pip-defined credential helper API",
       "labels": [
-        "type: feature request"
+        "type: feature request",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2021-08-22T18:21:28+00:00",
@@ -134525,7 +134534,8 @@
       "title": "Unable to prompt user for credentials for private pypi repo",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2022-01-19T09:54:24+00:00",
@@ -134650,9 +134660,9 @@
       ],
       "is_pr": false,
       "created_at": "2022-01-21T20:13:22+00:00",
-      "created_by": "tonyfm15",
-      "closed_at": null,
-      "closed_by": null
+      "created_by": "thony-murray",
+      "closed_at": "2024-12-29T03:25:58+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 10818,
@@ -138623,7 +138633,7 @@
       "labels": [
         "type: bug",
         "state: blocked",
-        "help wanted",
+        "project: vendored dependency",
         "C: network connectivity",
         "C: error messages"
       ],
@@ -141444,13 +141454,13 @@
       "title": "EOFError when prompting for index username and password",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "resolution: duplicate"
       ],
       "is_pr": false,
       "created_at": "2022-08-19T04:12:29+00:00",
       "created_by": "EpicWink",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T03:38:08+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11391,
@@ -143494,13 +143504,15 @@
       "title": "Propagate --use-pep517 to build-system requirements",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "resolution: duplicate",
+        "S: needs triage",
+        "C: PEP 517 impact"
       ],
       "is_pr": false,
       "created_at": "2022-10-31T16:49:42+00:00",
       "created_by": "fgregg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T04:51:51+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11567,
@@ -145311,7 +145323,8 @@
       "title": "Fix Keyring being only used when 401 is returned",
       "labels": [
         "type: feature request",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2023-01-11T13:45:37+00:00",
@@ -146502,6 +146515,7 @@
       "title": "keyring2.0",
       "labels": [
         "needs rebase or merge",
+        "C: keyring",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -146551,7 +146565,8 @@
       "title": "Improving integration with keyring and pip authentication.",
       "labels": [
         "type: feature request",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2023-03-02T12:06:06+00:00",
@@ -147212,8 +147227,10 @@
       "number": 11880,
       "title": "`pip config set` causes error when PIP_CONFIG_FILE=\"/dev/null\"",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: enhancement",
+        "C: configuration",
+        "state: awaiting PR",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2023-03-21T08:36:58+00:00",
@@ -148259,7 +148276,8 @@
       "title": "Clarify docs example for keyring subprocess auth with Google Artifact Registry ",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2023-04-17T07:27:25+00:00",
@@ -148356,16 +148374,16 @@
     },
     {
       "number": 11979,
-      "title": "pip==23.1 fails to install packages from Azure DevOps ",
+      "title": "Build dependencies subprocess asks for credentials despite the fact it will not work",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "resolution: duplicate"
       ],
       "is_pr": false,
       "created_at": "2023-04-18T17:42:20+00:00",
       "created_by": "imchipwood",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T04:02:55+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11980,
@@ -153647,7 +153665,8 @@
       "title": "`--keyring-provider` does not work with `build-system.requires`",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2023-12-04T23:49:08+00:00",
@@ -154052,7 +154071,7 @@
       "is_pr": true,
       "created_at": "2023-12-31T12:32:38+00:00",
       "created_by": "Darsstar",
-      "closed_at": null,
+      "closed_at": "2024-12-28T17:38:40+00:00",
       "closed_by": null
     },
     {
@@ -154275,6 +154294,7 @@
       "number": 12473,
       "title": "Implement documented --force-keyring",
       "labels": [
+        "C: keyring",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -154348,13 +154368,14 @@
       "title": "How to configure pip3 to ignore proxy settings or do not use proxy settings?",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: proxy",
+        "resolution: duplicate"
       ],
       "is_pr": false,
       "created_at": "2024-01-15T14:35:29+00:00",
       "created_by": "honey-speaks-tech",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T04:14:25+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12480,
@@ -154564,6 +154585,7 @@
       "number": 12496,
       "title": "Do not pre authenticate requests",
       "labels": [
+        "C: keyring",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -155154,7 +155176,8 @@
       "title": "Configuration of username for index without enabling index",
       "labels": [
         "type: feature request",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2024-02-27T11:26:35+00:00",
@@ -155908,7 +155931,8 @@
       "title": "impossible to install from http git with authentication on windows",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2024-03-27T19:44:15+00:00",
@@ -156153,8 +156177,8 @@
       "is_pr": false,
       "created_at": "2024-04-13T15:59:36+00:00",
       "created_by": "ofek",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T04:11:27+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12622,
@@ -156657,7 +156681,8 @@
       "title": "pip still prompts for username/password even when keyring is configured",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2024-04-29T09:57:56+00:00",
@@ -157749,6 +157774,7 @@
       "number": 12748,
       "title": "Add support for pulling username from keyring subprocess provider",
       "labels": [
+        "C: keyring",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -157772,7 +157798,8 @@
       "title": "Feature request: configurable location for keyring as a subprocess",
       "labels": [
         "type: feature request",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2024-06-06T01:06:56+00:00",
@@ -158126,7 +158153,8 @@
       "title": "User is prompted twice for credentials with private PyPI",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "S: needs triage",
+        "C: keyring"
       ],
       "is_pr": false,
       "created_at": "2024-06-20T21:18:42+00:00",
@@ -158578,11 +158606,13 @@
     {
       "number": 12814,
       "title": "Support passing multiple packages to \"--exclude\" option",
-      "labels": [],
+      "labels": [
+        "resolution: no action"
+      ],
       "is_pr": true,
       "created_at": "2024-06-30T11:14:45+00:00",
       "created_by": "alej0varas",
-      "closed_at": null,
+      "closed_at": "2024-12-28T18:02:43+00:00",
       "closed_by": null
     },
     {
@@ -160261,8 +160291,8 @@
       "is_pr": false,
       "created_at": "2024-09-01T08:39:47+00:00",
       "created_by": "eirnym",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2024-12-29T11:46:35+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12949,
@@ -160623,6 +160653,7 @@
       "title": "Allow changing build isolation settings in setup.py",
       "labels": [
         "type: feature request",
+        "C: build logic",
         "resolution: needs standard"
       ],
       "is_pr": false,
@@ -162461,8 +162492,7 @@
       "number": 13127,
       "title": "pip Error while checking for conflicts",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: support"
       ],
       "is_pr": false,
       "created_at": "2024-12-25T01:13:51+00:00",
@@ -162532,6 +162562,31 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13133,
+      "title": "Tab completion for `pip config` suggests invalid options.",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-29T06:31:51+00:00",
+      "created_by": "hongyi-zhao",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13134,
+      "title": "Support PEP639 License-Expression and License-File in json output",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2024-12-29T11:42:18+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162539,7 +162594,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-28T15:11:21+00:00",
+    "last_updated": "2024-12-29T15:11:09+00:00",
     "version": 1
   }
 }
