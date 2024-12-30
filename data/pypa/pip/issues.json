@@ -156473,8 +156473,7 @@
       "number": 12645,
       "title": "Misleading remedy for missing RECORD file with --force-reinstall",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: bug"
       ],
       "is_pr": false,
       "created_at": "2024-04-22T23:23:48+00:00",
@@ -162308,6 +162307,7 @@
       "title": "`pip show` displays `License` metadata field - switch to `License-Expression`?",
       "labels": [
         "C: list/show",
+        "resolution: deferred till PR",
         "type: feature request"
       ],
       "is_pr": false,
@@ -162522,7 +162522,7 @@
       "is_pr": true,
       "created_at": "2024-12-26T18:42:07+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2024-12-29T18:13:42+00:00",
       "closed_by": null
     },
     {
@@ -162587,6 +162587,31 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13135,
+      "title": "Implement PEP 753: \"Well-known Project URLs in Metadata\"",
+      "labels": [
+        "C: list/show",
+        "PEP implementation"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-29T20:44:31+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13136,
+      "title": "Contradiction: When running pip install some modules aren't there that are there when running python from the same venv",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2024-12-30T10:11:58+00:00",
+      "created_by": "felixniemeyer",
+      "closed_at": "2024-12-30T10:31:49+00:00",
+      "closed_by": "felixniemeyer"
     }
   ],
   "record": {
@@ -162594,7 +162619,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2024-12-29T15:11:09+00:00",
+    "last_updated": "2024-12-30T15:12:35+00:00",
     "version": 1
   }
 }
