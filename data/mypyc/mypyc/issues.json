@@ -11956,6 +11956,16 @@
       "created_by": "paulocheque",
       "closed_at": "2024-12-28T22:48:02+00:00",
       "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 1079,
+      "title": "`AttributeError` with attr.s(slots=True)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-01-02T00:35:25+00:00",
+      "created_by": "tybug",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11963,7 +11973,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-01-01T15:12:34+00:00",
+    "last_updated": "2025-01-02T15:12:41+00:00",
     "version": 1
   }
 }
