@@ -11966,6 +11966,16 @@
       "created_by": "tybug",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1080,
+      "title": "Enum inheriting from str fails to compile if instantiated",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-01-03T10:40:59+00:00",
+      "created_by": "Newbytee",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11973,7 +11983,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-01-02T15:12:41+00:00",
+    "last_updated": "2025-01-03T15:13:00+00:00",
     "version": 1
   }
 }
