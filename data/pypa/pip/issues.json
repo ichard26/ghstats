@@ -162399,8 +162399,9 @@
       "number": 13120,
       "title": "Unexpected conflict between requirements and constraints file ",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: docs",
+        "state: awaiting PR",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2024-12-20T00:36:03+00:00",
@@ -162646,6 +162647,40 @@
       "created_by": "basnijholt",
       "closed_at": "2025-01-03T02:32:53+00:00",
       "closed_by": "basnijholt"
+    },
+    {
+      "number": 13140,
+      "title": "Fix: include sub-actions in tab completion",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-03T15:54:32+00:00",
+      "created_by": "matthewhughes934",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13141,
+      "title": "chore(ci): cache pip deps in GitHub Actions cache",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-03T19:42:41+00:00",
+      "created_by": "miketheman",
+      "closed_at": "2025-01-03T20:07:52+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13142,
+      "title": "chore(ci): disable external network calls",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-03T20:50:47+00:00",
+      "created_by": "miketheman",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162653,7 +162688,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-03T15:13:01+00:00",
+    "last_updated": "2025-01-04T15:11:47+00:00",
     "version": 1
   }
 }
