@@ -11976,6 +11976,16 @@
       "created_by": "Newbytee",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1081,
+      "title": "module `enum` has no attribute `global_enum`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-01-05T08:34:09+00:00",
+      "created_by": "fenhl",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -11983,7 +11993,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-01-04T15:11:46+00:00",
+    "last_updated": "2025-01-05T15:11:16+00:00",
     "version": 1
   }
 }

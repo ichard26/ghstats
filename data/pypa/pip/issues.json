@@ -144899,7 +144899,9 @@
     {
       "number": 11685,
       "title": "Supply Distribution.locate_file, honoring the abstract method.",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2023-01-01T16:52:35+00:00",
       "created_by": "jaraco",
@@ -162420,8 +162422,8 @@
       "is_pr": false,
       "created_at": "2024-12-21T06:15:39+00:00",
       "created_by": "Caswellwei",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-04T17:38:38+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13122,
@@ -162559,7 +162561,7 @@
       "is_pr": true,
       "created_at": "2024-12-27T19:22:06+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-01-05T00:48:32+00:00",
       "closed_by": null
     },
     {
@@ -162567,7 +162569,7 @@
       "title": "Tab completion for `pip config` suggests invalid options.",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: autocomplete"
       ],
       "is_pr": false,
       "created_at": "2024-12-29T06:31:51+00:00",
@@ -162688,7 +162690,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-04T15:11:47+00:00",
+    "last_updated": "2025-01-05T15:11:17+00:00",
     "version": 1
   }
 }
