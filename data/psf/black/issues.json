@@ -53480,6 +53480,16 @@
       "is_pr": false,
       "created_at": "2025-01-05T07:46:09+00:00",
       "created_by": "tyralla",
+      "closed_at": "2025-01-05T22:42:30+00:00",
+      "closed_by": "tyralla"
+    },
+    {
+      "number": 4545,
+      "title": "2492: Adding Information about PyInstaller Binaries",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-05T16:59:38+00:00",
+      "created_by": "RohitGavale",
       "closed_at": null,
       "closed_by": null
     }
@@ -53489,7 +53499,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-05T15:11:15+00:00",
+    "last_updated": "2025-01-06T15:13:05+00:00",
     "version": 1
   }
 }
