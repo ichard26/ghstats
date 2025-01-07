@@ -146313,7 +146313,7 @@
       "is_pr": true,
       "created_at": "2023-02-15T23:40:16+00:00",
       "created_by": "SinOverCos",
-      "closed_at": null,
+      "closed_at": "2025-01-07T13:59:43+00:00",
       "closed_by": null
     },
     {
@@ -162695,6 +162695,28 @@
       "created_by": "ultradian",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13144,
+      "title": "pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-06T20:40:09+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13145,
+      "title": "Show License-Expression if present in package metadata",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-07T12:06:16+00:00",
+      "created_by": "befeleme",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162702,7 +162724,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-06T15:13:07+00:00",
+    "last_updated": "2025-01-07T15:57:24+00:00",
     "version": 1
   }
 }
