@@ -53508,10 +53508,34 @@
     {
       "number": 4547,
       "title": "[pre-commit.ci] pre-commit autoupdate",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-01-07T00:07:22+00:00",
       "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2025-01-07T19:42:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4548,
+      "title": "Remove Facebook from users",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-07T19:51:45+00:00",
+      "created_by": "cooperlees",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4549,
+      "title": "Adding Information about PyInstaller Binaries #2492",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-07T20:28:53+00:00",
+      "created_by": "Himanshu5206",
       "closed_at": null,
       "closed_by": null
     }
@@ -53521,7 +53545,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-07T15:57:22+00:00",
+    "last_updated": "2025-01-08T15:13:11+00:00",
     "version": 1
   }
 }

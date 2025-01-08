@@ -162717,6 +162717,19 @@
       "created_by": "befeleme",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13146,
+      "title": "pip verifies package dependency requirements before verifying package python requirements",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-08T10:40:10+00:00",
+      "created_by": "gdurif",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162724,7 +162737,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-07T15:57:24+00:00",
+    "last_updated": "2025-01-08T15:13:14+00:00",
     "version": 1
   }
 }
