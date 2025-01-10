@@ -53526,7 +53526,7 @@
       "is_pr": true,
       "created_at": "2025-01-07T19:51:45+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
+      "closed_at": "2025-01-10T03:22:59+00:00",
       "closed_by": null
     },
     {
@@ -53538,6 +53538,18 @@
       "created_by": "Himanshu5206",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4550,
+      "title": "--stdio causes VSCode extension to crash on start",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-10T03:49:44+00:00",
+      "created_by": "ghanta1996",
+      "closed_at": "2025-01-10T04:33:48+00:00",
+      "closed_by": "hauntsaninja"
     }
   ],
   "record": {
@@ -53545,7 +53557,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-09T15:13:13+00:00",
+    "last_updated": "2025-01-10T15:11:58+00:00",
     "version": 1
   }
 }

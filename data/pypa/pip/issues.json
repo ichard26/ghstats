@@ -162634,7 +162634,7 @@
       "is_pr": true,
       "created_at": "2025-01-02T12:20:31+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-01-10T14:25:18+00:00",
       "closed_by": null
     },
     {
@@ -162688,7 +162688,8 @@
       "number": 13143,
       "title": "pip problem with Debian 12 installation of python3-deprecation ",
       "labels": [
-        "type: support"
+        "type: support",
+        "S: awaiting response"
       ],
       "is_pr": false,
       "created_at": "2025-01-05T18:04:29+00:00",
@@ -162722,8 +162723,8 @@
       "number": 13146,
       "title": "pip verifies package dependency requirements before verifying package python requirements",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "state: awaiting PR",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2025-01-08T10:40:10+00:00",
@@ -162735,12 +162736,71 @@
       "number": 13147,
       "title": "Display path to corrupted files when pip fails to load wheel",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "state: awaiting PR",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2025-01-08T17:33:01+00:00",
       "created_by": "gaborbernat",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13148,
+      "title": "Fix mypy 1.14.1 error",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-10T01:28:50+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13149,
+      "title": "Install svn on unbutu for github workflows",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-10T01:39:22+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13150,
+      "title": "ERROR: Error while checking for conflicts. ",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-10T05:10:26+00:00",
+      "created_by": "Zelray",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13151,
+      "title": "pip doesn't resolve ENV vars in the requirements.txt file of the dependencies of a given dependency (recursive in depth)",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-10T13:18:30+00:00",
+      "created_by": "javier-wf",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13152,
+      "title": "Switch to ubuntu-22.04 for github workflow",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-10T14:30:48+00:00",
+      "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
     }
@@ -162750,7 +162810,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-09T15:13:14+00:00",
+    "last_updated": "2025-01-10T15:12:00+00:00",
     "version": 1
   }
 }
