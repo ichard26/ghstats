@@ -8573,7 +8573,7 @@
     },
     {
       "number": 785,
-      "title": "Development focus areas for 2024",
+      "title": "Development focus areas for 2025",
       "labels": [
         "meta"
       ],
@@ -11992,7 +11992,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-01-08T15:13:14+00:00",
+    "last_updated": "2025-01-13T15:13:59+00:00",
     "version": 1
   }
 }
