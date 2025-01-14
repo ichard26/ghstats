@@ -161503,7 +161503,9 @@
     {
       "number": 13048,
       "title": "Add trusted publisher release workfiow",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2024-10-27T15:14:16+00:00",
       "created_by": "sbidoul",
@@ -162323,7 +162325,7 @@
       "is_pr": true,
       "created_at": "2024-12-11T19:59:22+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-01-14T14:01:23+00:00",
       "closed_by": null
     },
     {
@@ -162848,8 +162850,7 @@
       "number": 13156,
       "title": "Command line for notice update not copy-pasteable for venv",
       "labels": [
-        "type: docs",
-        "resolution: no action"
+        "type: bug"
       ],
       "is_pr": false,
       "created_at": "2025-01-12T09:24:38+00:00",
@@ -162909,7 +162910,7 @@
     },
     {
       "number": 13161,
-      "title": "Always use the full executable name when running under virtualenv",
+      "title": "Switch to using lstat() instead of stat() to not match symlink targets",
       "labels": [],
       "is_pr": true,
       "created_at": "2025-01-12T18:28:22+00:00",
@@ -162941,6 +162942,19 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13164,
+      "title": "Misleading ResolutionImpossible error and strange backtracking behaviour for unsolveable requirements",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-13T19:06:28+00:00",
+      "created_by": "k-collie",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162948,7 +162962,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-13T15:14:00+00:00",
+    "last_updated": "2025-01-14T15:12:43+00:00",
     "version": 1
   }
 }

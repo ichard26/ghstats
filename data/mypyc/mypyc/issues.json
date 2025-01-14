@@ -2619,6 +2619,7 @@
       "number": 244,
       "title": "Optimize python global variables",
       "labels": [
+        "priority-0-high",
         "speed"
       ],
       "is_pr": false,
@@ -5098,6 +5099,7 @@
       "number": 476,
       "title": "Exception catching is slow",
       "labels": [
+        "priority-0-high",
         "speed"
       ],
       "is_pr": false,
@@ -6652,7 +6654,6 @@
       "number": 619,
       "title": "Generate better code when boxing literals",
       "labels": [
-        "priority-0-high",
         "codesize",
         "speed"
       ],
@@ -7602,7 +7603,9 @@
     {
       "number": 706,
       "title": "A better story for profiling",
-      "labels": [],
+      "labels": [
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2019-11-01T00:01:06+00:00",
       "created_by": "msullivan",
@@ -8405,7 +8408,6 @@
       "number": 772,
       "title": "Evaluate constant expressions during compilation",
       "labels": [
-        "priority-0-high",
         "codesize",
         "speed"
       ],
@@ -8993,8 +8995,8 @@
       "is_pr": false,
       "created_at": "2021-03-20T17:24:38+00:00",
       "created_by": "esoma",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-14T11:02:26+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 820,
@@ -9248,6 +9250,7 @@
       "number": 840,
       "title": "Packed arrays",
       "labels": [
+        "priority-0-high",
         "speed",
         "feature"
       ],
@@ -9530,8 +9533,8 @@
       "is_pr": false,
       "created_at": "2021-06-05T19:52:06+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-14T11:03:53+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 863,
@@ -9549,7 +9552,11 @@
     {
       "number": 864,
       "title": "A class definition nested in *anything* crashes mypyc with KeyError",
-      "labels": [],
+      "labels": [
+        "priority-0-high",
+        "python compat",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2021-06-06T17:09:51+00:00",
       "created_by": "ichard26",
@@ -9853,7 +9860,7 @@
     },
     {
       "number": 890,
-      "title": "Use magic value for None in optional type?",
+      "title": "Use magic value for None in optional type",
       "labels": [
         "speed"
       ],
@@ -10087,7 +10094,10 @@
     {
       "number": 909,
       "title": "@typing.runtime_checkable not working with Protocol classes",
-      "labels": [],
+      "labels": [
+        "priority-0-high",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2021-11-27T03:48:00+00:00",
       "created_by": "twoertwein",
@@ -10644,7 +10654,9 @@
     {
       "number": 960,
       "title": "`if TYPE_CHECKING` inside class causes \"error: Unsupported statement in class body\"",
-      "labels": [],
+      "labels": [
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2022-12-25T19:27:32+00:00",
       "created_by": "jab",
@@ -11527,7 +11539,9 @@
       "number": 1036,
       "title": "Fast str and bytes builders",
       "labels": [
-        "speed"
+        "priority-0-high",
+        "speed",
+        "feature"
       ],
       "is_pr": false,
       "created_at": "2023-11-26T13:14:14+00:00",
@@ -11566,8 +11580,8 @@
       "is_pr": false,
       "created_at": "2023-11-30T06:30:48+00:00",
       "created_by": "JotaRata",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-14T11:46:58+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1040,
@@ -11611,7 +11625,7 @@
     },
     {
       "number": 1044,
-      "title": "Optionally avoid incref/decref immortality checks on 3.12+",
+      "title": "Avoid (some) incref/decref immortality checks on 3.12+",
       "labels": [
         "speed"
       ],
@@ -11992,7 +12006,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-01-13T15:13:59+00:00",
+    "last_updated": "2025-01-14T15:12:40+00:00",
     "version": 1
   }
 }
