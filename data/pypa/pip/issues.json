@@ -162692,13 +162692,13 @@
       "title": "pip problem with Debian 12 installation of python3-deprecation ",
       "labels": [
         "type: support",
-        "S: awaiting response"
+        "resolution: wrong project"
       ],
       "is_pr": false,
       "created_at": "2025-01-05T18:04:29+00:00",
       "created_by": "ultradian",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-16T04:13:52+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13144,
@@ -162992,6 +162992,16 @@
       "created_by": "DimitriPapadopoulos",
       "closed_at": "2025-01-15T06:59:59+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13168,
+      "title": "Use tags in docs building to split up requirements",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-15T19:06:14+00:00",
+      "created_by": "matthewhughes934",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -162999,7 +163009,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-15T15:12:50+00:00",
+    "last_updated": "2025-01-16T15:12:39+00:00",
     "version": 1
   }
 }
