@@ -2623,8 +2623,8 @@
       "is_pr": false,
       "created_at": "2018-05-20T16:40:20+00:00",
       "created_by": "ambv",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-17T23:16:32+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 237,
@@ -53562,6 +53562,16 @@
       "created_by": "JelleZijlstra",
       "closed_at": "2025-01-17T05:21:08+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4552,
+      "title": "Fix bug where # fmt: skip is not being respected with one-liner functions",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-18T07:46:48+00:00",
+      "created_by": "Pedro-Muller29",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53569,7 +53579,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-17T15:12:25+00:00",
+    "last_updated": "2025-01-18T15:11:18+00:00",
     "version": 1
   }
 }
