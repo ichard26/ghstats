@@ -162940,7 +162940,7 @@
       "is_pr": true,
       "created_at": "2025-01-12T22:40:01+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-01-19T12:34:17+00:00",
       "closed_by": null
     },
     {
@@ -162960,8 +162960,8 @@
       "number": 13165,
       "title": "Speed up small CLI tools by removing `import re` from the excecutable template",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "state: needs discussion",
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2025-01-14T18:14:47+00:00",
@@ -163002,6 +163002,18 @@
       "created_by": "matthewhughes934",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13169,
+      "title": "S",
+      "labels": [
+        "resolution: invalid"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-19T09:51:33+00:00",
+      "created_by": "ehan701",
+      "closed_at": "2025-01-19T12:11:42+00:00",
+      "closed_by": "pradyunsg"
     }
   ],
   "record": {
@@ -163009,7 +163021,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-18T15:11:20+00:00",
+    "last_updated": "2025-01-19T15:11:51+00:00",
     "version": 1
   }
 }
