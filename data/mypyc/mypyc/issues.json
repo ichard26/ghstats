@@ -7038,8 +7038,8 @@
       "is_pr": false,
       "created_at": "2019-06-26T23:49:03+00:00",
       "created_by": "msullivan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-21T15:02:41+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 656,
@@ -9474,8 +9474,8 @@
       "is_pr": false,
       "created_at": "2021-05-31T03:20:52+00:00",
       "created_by": "DragonMinded",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-21T14:55:09+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 858,
@@ -9890,8 +9890,8 @@
       "is_pr": false,
       "created_at": "2021-09-24T16:55:17+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-21T14:57:43+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 893,
@@ -11103,8 +11103,8 @@
       "is_pr": false,
       "created_at": "2023-05-01T19:55:43+00:00",
       "created_by": "bsdz",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-21T14:49:54+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 997,
@@ -11812,7 +11812,10 @@
     {
       "number": 1064,
       "title": "Mypyc KeyError: mypy.nodes.MemberExpr",
-      "labels": [],
+      "labels": [
+        "priority-0-high",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2024-09-25T15:12:08+00:00",
       "created_by": "CoolCat467",
@@ -12006,7 +12009,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-01-17T15:12:26+00:00",
+    "last_updated": "2025-01-21T15:13:02+00:00",
     "version": 1
   }
 }

@@ -53572,6 +53572,28 @@
       "created_by": "Pedro-Muller29",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4553,
+      "title": "Improve function declaration wrapping when it contains generic type definitions",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-21T01:51:03+00:00",
+      "created_by": "Pedro-Muller29",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4554,
+      "title": "Inconsistencies in how line breaks are added in long \"dot-chains\", depending on brackets and function calls",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-21T11:43:39+00:00",
+      "created_by": "oyvindronningstad",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53579,7 +53601,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-20T15:13:07+00:00",
+    "last_updated": "2025-01-21T15:13:00+00:00",
     "version": 1
   }
 }
