@@ -53594,6 +53594,28 @@
       "created_by": "oyvindronningstad",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4555,
+      "title": "Fix docs CI",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-21T17:48:02+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-01-21T20:43:08+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4556,
+      "title": "Black support for Databricks notebook formatting - Ignore lines starting with ! or %",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-01-22T07:28:16+00:00",
+      "created_by": "vivek-freddy",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53601,7 +53623,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-21T15:13:00+00:00",
+    "last_updated": "2025-01-22T15:13:01+00:00",
     "version": 1
   }
 }

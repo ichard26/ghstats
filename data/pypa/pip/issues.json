@@ -143608,7 +143608,6 @@
       "title": "Documentation Update: Specify where to get a .PEM file for `--cert` option",
       "labels": [
         "type: docs",
-        "good first issue",
         "type: feature request"
       ],
       "is_pr": false,
@@ -162315,8 +162314,8 @@
       "is_pr": false,
       "created_at": "2024-12-11T15:37:09+00:00",
       "created_by": "befeleme",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-21T17:34:59+00:00",
+      "closed_by": "pfmoore"
     },
     {
       "number": 13113,
@@ -162597,6 +162596,8 @@
       "title": "Implement PEP 753: \"Well-known Project URLs in Metadata\"",
       "labels": [
         "C: list/show",
+        "good first issue",
+        "state: awaiting PR",
         "PEP implementation"
       ],
       "is_pr": false,
@@ -162719,7 +162720,7 @@
       "is_pr": true,
       "created_at": "2025-01-07T12:06:16+00:00",
       "created_by": "befeleme",
-      "closed_at": null,
+      "closed_at": "2025-01-21T17:34:57+00:00",
       "closed_by": null
     },
     {
@@ -163014,6 +163015,16 @@
       "created_by": "ehan701",
       "closed_at": "2025-01-19T12:11:42+00:00",
       "closed_by": "pradyunsg"
+    },
+    {
+      "number": 13170,
+      "title": "[PEP 771]",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-21T18:44:54+00:00",
+      "created_by": "DEKHTIARJonathan",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163021,7 +163032,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-21T15:13:03+00:00",
+    "last_updated": "2025-01-22T15:13:03+00:00",
     "version": 1
   }
 }
