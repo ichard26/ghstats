@@ -4068,7 +4068,9 @@
     {
       "number": 380,
       "title": "Revisit some hacks in CPyType_FromTemplate",
-      "labels": [],
+      "labels": [
+        "enhancement"
+      ],
       "is_pr": false,
       "created_at": "2018-08-15T00:00:52+00:00",
       "created_by": "msullivan",
@@ -4769,9 +4771,9 @@
       "labels": [],
       "is_pr": false,
       "created_at": "2018-09-18T19:55:46+00:00",
-      "created_by": "ethanhs",
-      "closed_at": null,
-      "closed_by": null
+      "created_by": "emmatyping",
+      "closed_at": "2025-01-22T17:28:29+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 446,
@@ -4816,7 +4818,9 @@
     {
       "number": 450,
       "title": "Move logic from `emit` to IR-based passes",
-      "labels": [],
+      "labels": [
+        "refactor"
+      ],
       "is_pr": false,
       "created_at": "2018-09-20T22:45:57+00:00",
       "created_by": "msullivan",
@@ -5207,7 +5211,9 @@
     {
       "number": 486,
       "title": "More sophisticated test system for testing IR generation",
-      "labels": [],
+      "labels": [
+        "contributor UX"
+      ],
       "is_pr": false,
       "created_at": "2018-10-15T22:45:59+00:00",
       "created_by": "msullivan",
@@ -7597,8 +7603,8 @@
       "is_pr": false,
       "created_at": "2019-10-24T18:06:15+00:00",
       "created_by": "mr-c",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-22T18:08:23+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 706,
@@ -7653,7 +7659,9 @@
     {
       "number": 710,
       "title": "Fail during import if binary is out of date",
-      "labels": [],
+      "labels": [
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2020-02-04T19:16:38+00:00",
       "created_by": "JukkaL",
@@ -8262,8 +8270,8 @@
       "is_pr": false,
       "created_at": "2020-09-17T14:01:59+00:00",
       "created_by": "stanislavlevin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-22T18:07:24+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 761,
@@ -9716,8 +9724,8 @@
       "is_pr": false,
       "created_at": "2021-07-13T14:52:50+00:00",
       "created_by": "97littleleaf11",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-22T18:09:30+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 878,
@@ -9726,8 +9734,8 @@
       "is_pr": false,
       "created_at": "2021-07-21T15:56:30+00:00",
       "created_by": "97littleleaf11",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-23T09:42:04+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 879,
@@ -9829,7 +9837,11 @@
     {
       "number": 887,
       "title": "__getattr__ seems to compile to a non-special method on mypy 0.910",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2021-08-18T14:16:04+00:00",
       "created_by": "RonnyPfannschmidt",
@@ -10194,7 +10206,9 @@
     {
       "number": 919,
       "title": "Add CI Job testing different runtime",
-      "labels": [],
+      "labels": [
+        "feature"
+      ],
       "is_pr": false,
       "created_at": "2022-03-17T15:24:57+00:00",
       "created_by": "jhance",
@@ -10549,7 +10563,10 @@
     {
       "number": 951,
       "title": "Incompatible return type in mypyc but not mypy",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high"
+      ],
       "is_pr": false,
       "created_at": "2022-10-21T02:26:52+00:00",
       "created_by": "Twistedsnail",
@@ -10921,7 +10938,9 @@
     {
       "number": 981,
       "title": "More benchmarks",
-      "labels": [],
+      "labels": [
+        "meta"
+      ],
       "is_pr": false,
       "created_at": "2023-03-15T07:47:11+00:00",
       "created_by": "vmstarchenko",
@@ -11259,7 +11278,10 @@
     {
       "number": 1010,
       "title": "Feature request: Option to output to a different folder",
-      "labels": [],
+      "labels": [
+        "enhancement",
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2023-07-11T01:13:20+00:00",
       "created_by": "Avasam",
@@ -11281,7 +11303,9 @@
     {
       "number": 1012,
       "title": "Faster argument type-checking",
-      "labels": [],
+      "labels": [
+        "speed"
+      ],
       "is_pr": false,
       "created_at": "2023-09-04T15:13:56+00:00",
       "created_by": "nickdrozd",
@@ -11291,7 +11315,11 @@
     {
       "number": 1013,
       "title": "Mypyc ignores custom `__new__` without warning",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2023-09-04T15:30:37+00:00",
       "created_by": "nickdrozd",
@@ -11321,7 +11349,10 @@
     {
       "number": 1016,
       "title": "Perfomance with Numpy? ",
-      "labels": [],
+      "labels": [
+        "priority-2-low",
+        "feature"
+      ],
       "is_pr": false,
       "created_at": "2023-09-09T06:34:21+00:00",
       "created_by": "JotaRata",
@@ -11528,7 +11559,11 @@
     {
       "number": 1035,
       "title": " Mypyc ignores custom `__del__` without warning",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2023-11-22T05:41:48+00:00",
       "created_by": "nickdrozd",
@@ -11586,7 +11621,10 @@
     {
       "number": 1040,
       "title": "mypyc `self` is maybe-uninitialized",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2023-12-03T22:08:33+00:00",
       "created_by": "andrew-ld",
@@ -11606,7 +11644,10 @@
     {
       "number": 1042,
       "title": "Dataclass in file named 9.py fails compilation",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2023-12-05T20:06:59+00:00",
       "created_by": "johanrex",
@@ -11620,8 +11661,8 @@
       "is_pr": false,
       "created_at": "2023-12-21T14:01:05+00:00",
       "created_by": "JotaRata",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-22T16:41:38+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1044,
@@ -11638,7 +11679,10 @@
     {
       "number": 1045,
       "title": "mypyc + bidict",
-      "labels": [],
+      "labels": [
+        "speed",
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2024-01-17T17:31:03+00:00",
       "created_by": "jab",
@@ -11716,13 +11760,16 @@
       "is_pr": false,
       "created_at": "2024-06-03T17:30:17+00:00",
       "created_by": "itamarst",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-22T16:39:51+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1055,
       "title": "__module__ considered an instance attribute",
-      "labels": [],
+      "labels": [
+        "bug",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2024-06-10T16:22:31+00:00",
       "created_by": "dvarrazzo",
@@ -11742,7 +11789,11 @@
     {
       "number": 1057,
       "title": "Defining __init__ as @abstractmethod causes compilation failure",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2024-07-15T14:28:47+00:00",
       "created_by": "vidraj",
@@ -11776,13 +11827,17 @@
       "is_pr": false,
       "created_at": "2024-08-23T11:52:46+00:00",
       "created_by": "kasium",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-22T16:26:03+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1061,
       "title": "Anything to do with dataclass and abstract / ABC classes seems broken: AttributeError: attribute '__dict__' of 'type' objects is not writable",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2024-09-02T09:19:06+00:00",
       "created_by": "JohnstonJ",
@@ -11796,8 +11851,8 @@
       "is_pr": false,
       "created_at": "2024-09-07T13:57:17+00:00",
       "created_by": "dineshbvadhia",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-22T16:21:10+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1063,
@@ -11851,8 +11906,8 @@
       "is_pr": false,
       "created_at": "2024-10-10T15:31:28+00:00",
       "created_by": "Newbytee",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-22T16:28:17+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1068,
@@ -11956,7 +12011,9 @@
     {
       "number": 1077,
       "title": "Crash when module raises exception at module level",
-      "labels": [],
+      "labels": [
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2024-12-23T02:19:48+00:00",
       "created_by": "aatle",
@@ -12002,6 +12059,19 @@
       "created_by": "fenhl",
       "closed_at": "2025-01-07T08:57:52+00:00",
       "closed_by": "fenhl"
+    },
+    {
+      "number": 1082,
+      "title": "Tool to highlight slow operations in compiled code",
+      "labels": [
+        "feature",
+        "usability"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-22T16:57:18+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12009,7 +12079,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-01-22T15:13:02+00:00",
+    "last_updated": "2025-01-23T15:13:06+00:00",
     "version": 1
   }
 }

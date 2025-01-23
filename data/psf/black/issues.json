@@ -53616,6 +53616,18 @@
       "created_by": "vivek-freddy",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4557,
+      "title": "Odd empty newline when defining classes or functions within an if-else clause",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-23T00:11:29+00:00",
+      "created_by": "tanrbobanr",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53623,7 +53635,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-22T15:13:01+00:00",
+    "last_updated": "2025-01-23T15:13:06+00:00",
     "version": 1
   }
 }
