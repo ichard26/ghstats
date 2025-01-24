@@ -157269,8 +157269,8 @@
       "is_pr": false,
       "created_at": "2024-05-17T20:23:06+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-24T07:39:01+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 12709,
@@ -161508,7 +161508,7 @@
       "is_pr": true,
       "created_at": "2024-10-27T15:14:16+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-01-24T07:38:59+00:00",
       "closed_by": null
     },
     {
@@ -163025,6 +163025,45 @@
       "created_by": "DEKHTIARJonathan",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13171,
+      "title": "Bump pypa/gh-action-pypi-publish from 1.12.3 to 1.12.4 in the github-actions group",
+      "labels": [
+        "C: dependency resolution",
+        "github_actions"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-24T07:39:50+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13172,
+      "title": "Update towncrier requirement from <24 to <25",
+      "labels": [
+        "C: dependency resolution",
+        "python"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-24T07:39:55+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13173,
+      "title": "Update sphinx requirement from ~=7.0 to ~=8.1",
+      "labels": [
+        "C: dependency resolution",
+        "python"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-24T07:40:07+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163032,7 +163071,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-23T15:13:10+00:00",
+    "last_updated": "2025-01-24T15:12:43+00:00",
     "version": 1
   }
 }

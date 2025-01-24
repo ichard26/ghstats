@@ -13123,8 +13123,8 @@
       "is_pr": false,
       "created_at": "2019-12-04T18:37:44+00:00",
       "created_by": "ntextreme3",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-24T05:20:48+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 1188,
@@ -22405,8 +22405,8 @@
       "is_pr": false,
       "created_at": "2021-02-05T09:57:34+00:00",
       "created_by": "rggjan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-24T07:33:07+00:00",
+      "closed_by": "MeGaGiGaGon"
     },
     {
       "number": 1969,
@@ -23888,8 +23888,8 @@
       "is_pr": false,
       "created_at": "2021-04-06T07:35:55+00:00",
       "created_by": "felix-hilden",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-24T07:46:52+00:00",
+      "closed_by": "MeGaGiGaGon"
     },
     {
       "number": 2088,
@@ -53628,6 +53628,28 @@
       "created_by": "tanrbobanr",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4558,
+      "title": "Prepare the 2025 stable style",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-24T03:33:52+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4559,
+      "title": "Add test for #1187",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-24T05:11:11+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-01-24T05:20:47+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -53635,7 +53657,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-23T15:13:06+00:00",
+    "last_updated": "2025-01-24T15:12:39+00:00",
     "version": 1
   }
 }
