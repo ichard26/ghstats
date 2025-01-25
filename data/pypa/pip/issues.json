@@ -158070,8 +158070,8 @@
       "is_pr": false,
       "created_at": "2024-06-18T01:46:29+00:00",
       "created_by": "danerlt",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-24T22:56:59+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12772,
@@ -158372,7 +158372,7 @@
       "is_pr": true,
       "created_at": "2024-06-25T17:14:46+00:00",
       "created_by": "matthewhughes934",
-      "closed_at": null,
+      "closed_at": "2025-01-24T22:56:57+00:00",
       "closed_by": null
     },
     {
@@ -163036,7 +163036,7 @@
       "is_pr": true,
       "created_at": "2025-01-24T07:39:50+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-01-25T13:38:08+00:00",
       "closed_by": null
     },
     {
@@ -163062,7 +163062,19 @@
       "is_pr": true,
       "created_at": "2025-01-24T07:40:07+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-01-24T22:47:40+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13174,
+      "title": "Copyedit news entries before 25.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-24T23:10:17+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-01-25T13:25:57+00:00",
       "closed_by": null
     }
   ],
@@ -163071,7 +163083,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-24T15:12:43+00:00",
+    "last_updated": "2025-01-25T15:11:12+00:00",
     "version": 1
   }
 }
