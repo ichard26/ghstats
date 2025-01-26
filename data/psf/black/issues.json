@@ -38213,8 +38213,8 @@
       "is_pr": false,
       "created_at": "2022-09-01T04:55:52+00:00",
       "created_by": "polyzen",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-25T17:28:08+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3252,
@@ -53019,8 +53019,8 @@
       "is_pr": false,
       "created_at": "2024-10-26T18:59:20+00:00",
       "created_by": "mgorny",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-25T17:28:07+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4505,
@@ -53580,7 +53580,7 @@
       "is_pr": true,
       "created_at": "2025-01-21T01:51:03+00:00",
       "created_by": "Pedro-Muller29",
-      "closed_at": null,
+      "closed_at": "2025-01-26T08:43:22+00:00",
       "closed_by": null
     },
     {
@@ -53660,6 +53660,16 @@
       "is_pr": true,
       "created_at": "2025-01-25T11:52:52+00:00",
       "created_by": "hauntsaninja",
+      "closed_at": "2025-01-25T17:28:06+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4561,
+      "title": "Move `wrap_long_dict_values_in_parens` to the preview style",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-26T04:05:26+00:00",
+      "created_by": "cobaltt7",
       "closed_at": null,
       "closed_by": null
     }
@@ -53669,7 +53679,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-25T15:11:10+00:00",
+    "last_updated": "2025-01-26T15:11:36+00:00",
     "version": 1
   }
 }
