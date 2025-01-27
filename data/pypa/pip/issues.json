@@ -161949,8 +161949,7 @@
       "number": 13084,
       "title": "Zipapp: pip outdated check compares against version installed in the environment and not the version in the zipapp",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: bug"
       ],
       "is_pr": false,
       "created_at": "2024-11-18T09:48:18+00:00",
@@ -162912,7 +162911,9 @@
     {
       "number": 13161,
       "title": "Switch to using lstat() instead of stat() to not match symlink targets",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2025-01-12T18:28:22+00:00",
       "created_by": "roubert",
@@ -163091,14 +163092,14 @@
       "number": 13176,
       "title": "Test failure when environment is EXTERNALLY-MANAGED",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "C: tests",
+        "project: <downstream>"
       ],
       "is_pr": false,
       "created_at": "2025-01-26T13:26:43+00:00",
       "created_by": "christian-heusel",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-26T15:49:22+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13177,
@@ -163109,7 +163110,7 @@
       "is_pr": true,
       "created_at": "2025-01-26T14:16:08+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-01-26T15:54:35+00:00",
       "closed_by": null
     },
     {
@@ -163121,6 +163122,106 @@
       "is_pr": true,
       "created_at": "2025-01-26T14:47:36+00:00",
       "created_by": "sbidoul",
+      "closed_at": "2025-01-26T15:53:53+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13179,
+      "title": "Patch out EXTERNALLY-MANAGED for self-check tests",
+      "labels": [
+        "C: tests",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-26T15:15:17+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-01-26T15:49:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13180,
+      "title": "Remove --no-python-version-warning as Python 2 is dead",
+      "labels": [
+        "type: deprecation",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-26T15:46:43+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13181,
+      "title": "Fix locate_file() type hints for older Pythons",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-26T16:08:43+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-01-26T17:02:40+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13182,
+      "title": "Enable linting rule FA102 (future-required-type-annotation)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-26T16:33:44+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2025-01-26T17:42:19+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13183,
+      "title": "Fix issue 12769 mimetypes windows error",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-26T17:05:15+00:00",
+      "created_by": "JoaStuart",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13184,
+      "title": "ci: Test packaging flow on Windows",
+      "labels": [
+        "skip news",
+        "type: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-26T23:49:03+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13185,
+      "title": "Release 25.1",
+      "labels": [
+        "type: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-27T00:11:17+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13186,
+      "title": "Pip 25.0 Regression, `pip install .`: SSL unable to get local issuer certificate",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-27T14:35:18+00:00",
+      "created_by": "BeefaloKing",
       "closed_at": null,
       "closed_by": null
     }
@@ -163130,7 +163231,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-26T15:11:39+00:00",
+    "last_updated": "2025-01-27T15:12:08+00:00",
     "version": 1
   }
 }
