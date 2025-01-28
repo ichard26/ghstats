@@ -163214,14 +163214,26 @@
     },
     {
       "number": 13186,
-      "title": "Pip 25.0 Regression, `pip install .`: SSL unable to get local issuer certificate",
+      "title": "Pip 25.0 regression: truststore is not used for installing build dependencies",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: network connectivity"
       ],
       "is_pr": false,
       "created_at": "2025-01-27T14:35:18+00:00",
       "created_by": "BeefaloKing",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13187,
+      "title": "metadata",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-28T04:23:18+00:00",
+      "created_by": "stephencorderinf0inf",
       "closed_at": null,
       "closed_by": null
     }
@@ -163231,7 +163243,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-27T15:12:08+00:00",
+    "last_updated": "2025-01-28T15:13:27+00:00",
     "version": 1
   }
 }
