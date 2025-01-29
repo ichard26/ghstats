@@ -53672,6 +53672,72 @@
       "created_by": "cobaltt7",
       "closed_at": "2025-01-28T01:46:13+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4562,
+      "title": "adding a change",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-28T16:52:49+00:00",
+      "created_by": "Student-ShivamChauhan",
+      "closed_at": "2025-01-28T18:43:40+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4563,
+      "title": "Prepare release 25.1.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-29T02:20:23+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2025-01-29T02:34:41+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4564,
+      "title": "docs: We're not going to use backslashes for the with statement",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-29T02:23:02+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2025-01-29T02:29:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4565,
+      "title": "Fix hatch build",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-29T04:50:17+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2025-01-29T04:52:03+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4566,
+      "title": "unhack pyproject.toml",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-29T05:39:42+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2025-01-29T05:54:46+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4567,
+      "title": "Fix mis-synced version check in black.vim",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-01-29T07:18:45+00:00",
+      "created_by": "mgorny",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53679,7 +53745,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-01-28T15:13:25+00:00",
+    "last_updated": "2025-01-29T15:12:46+00:00",
     "version": 1
   }
 }

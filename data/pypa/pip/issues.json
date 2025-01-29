@@ -163236,6 +163236,43 @@
       "created_by": "stephencorderinf0inf",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13188,
+      "title": "Mark `pip index versions` as no longer experimental",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-28T16:57:53+00:00",
+      "created_by": "krishanbhasin-px",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13189,
+      "title": "Make `pip index versions` no longer experimental",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-28T17:13:39+00:00",
+      "created_by": "krishanbhasin-px",
+      "closed_at": "2025-01-28T17:21:30+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13190,
+      "title": "Remove support for Python 3.8",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-28T20:04:20+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163243,7 +163280,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-28T15:13:27+00:00",
+    "last_updated": "2025-01-29T15:12:50+00:00",
     "version": 1
   }
 }
