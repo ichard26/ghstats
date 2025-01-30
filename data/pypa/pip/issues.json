@@ -92801,7 +92801,6 @@
       "number": 7294,
       "title": "Speed up build environment creation (re-usable, faster)",
       "labels": [
-        "type: enhancement",
         "state: needs discussion",
         "help wanted",
         "C: PEP 517 impact",
@@ -161124,7 +161123,7 @@
       "is_pr": true,
       "created_at": "2024-10-13T23:29:57+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-01-29T17:46:23+00:00",
       "closed_by": null
     },
     {
@@ -162896,7 +162895,7 @@
     },
     {
       "number": 13160,
-      "title": "Make new resolver process Requires-Python before other dependencies",
+      "title": "Resolvelib: process Requires-Python before other dependencies",
       "labels": [
         "C: dependency resolution",
         "type: performance",
@@ -162998,7 +162997,9 @@
     {
       "number": 13168,
       "title": "Use tags in docs building to split up requirements",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2025-01-15T19:06:14+00:00",
       "created_by": "matthewhughes934",
@@ -163050,7 +163051,7 @@
       "is_pr": true,
       "created_at": "2025-01-24T07:39:55+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-01-29T15:37:56+00:00",
       "closed_by": null
     },
     {
@@ -163229,7 +163230,8 @@
       "number": 13187,
       "title": "metadata",
       "labels": [
-        "type: support"
+        "type: support",
+        "S: awaiting response"
       ],
       "is_pr": false,
       "created_at": "2025-01-28T04:23:18+00:00",
@@ -163273,6 +163275,43 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13191,
+      "title": "ci: Test all Python versions on Windows on scheduled runs",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-29T17:28:26+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13192,
+      "title": "perf: pass `--no-compile` for build dependencies",
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-29T20:36:01+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13193,
+      "title": "Update Black (2025 style)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-30T13:23:24+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163280,7 +163319,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-29T15:12:50+00:00",
+    "last_updated": "2025-01-30T15:12:51+00:00",
     "version": 1
   }
 }
