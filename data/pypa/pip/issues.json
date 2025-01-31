@@ -163312,6 +163312,30 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13194,
+      "title": "Provide structured JSON output for `pip index versions`",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-30T22:13:58+00:00",
+      "created_by": "KrishanBhasin",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13195,
+      "title": "Don't pass --cert to build subprocesses unless also given on CLI",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-01-31T00:05:12+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163319,7 +163343,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-30T15:12:51+00:00",
+    "last_updated": "2025-01-31T15:12:17+00:00",
     "version": 1
   }
 }

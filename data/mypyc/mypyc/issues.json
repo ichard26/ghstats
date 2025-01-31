@@ -5361,7 +5361,10 @@
     {
       "number": 500,
       "title": "A weird traceback for final value imported from within function",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2018-12-07T20:39:51+00:00",
       "created_by": "ilevkivskyi",
@@ -6276,7 +6279,9 @@
     {
       "number": 585,
       "title": "Add a short example to the readme",
-      "labels": [],
+      "labels": [
+        "docs"
+      ],
       "is_pr": false,
       "created_at": "2019-05-05T20:04:06+00:00",
       "created_by": "JukkaL",
@@ -8028,7 +8033,11 @@
     {
       "number": 740,
       "title": "Incorrect code generated for dataclasses with ClassVar",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash",
+        "area-dataclasses"
+      ],
       "is_pr": false,
       "created_at": "2020-06-17T03:38:43+00:00",
       "created_by": "Hoboneer",
@@ -8051,7 +8060,10 @@
     {
       "number": 742,
       "title": "Don't use binary shim modules?",
-      "labels": [],
+      "labels": [
+        "speed",
+        "compile speed"
+      ],
       "is_pr": false,
       "created_at": "2020-06-26T12:06:00+00:00",
       "created_by": "JukkaL",
@@ -8353,6 +8365,7 @@
       "number": 767,
       "title": "Can't decorate an overridden method",
       "labels": [
+        "bug",
         "crash"
       ],
       "is_pr": false,
@@ -8656,7 +8669,9 @@
     {
       "number": 791,
       "title": "Daily regression tests",
-      "labels": [],
+      "labels": [
+        "contributor UX"
+      ],
       "is_pr": false,
       "created_at": "2020-12-28T21:40:29+00:00",
       "created_by": "msullivan",
@@ -8973,7 +8988,8 @@
       "number": 817,
       "title": "Fully compiled dataclasses",
       "labels": [
-        "speed"
+        "speed",
+        "area-dataclasses"
       ],
       "is_pr": false,
       "created_at": "2021-03-20T13:14:13+00:00",
@@ -9096,7 +9112,8 @@
       "title": "Dataclass + Generic fails during sleight of hand",
       "labels": [
         "bug",
-        "python compat"
+        "python compat",
+        "area-dataclasses"
       ],
       "is_pr": false,
       "created_at": "2021-04-09T07:53:46+00:00",
@@ -9514,7 +9531,9 @@
     {
       "number": 860,
       "title": "Run tests silently pass when no tests found",
-      "labels": [],
+      "labels": [
+        "contributor UX"
+      ],
       "is_pr": false,
       "created_at": "2021-06-01T23:30:55+00:00",
       "created_by": "pranavrajpal",
@@ -9855,8 +9874,8 @@
       "is_pr": false,
       "created_at": "2021-08-25T21:19:45+00:00",
       "created_by": "sbraz",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-31T12:55:55+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 889,
@@ -10100,8 +10119,8 @@
       "is_pr": false,
       "created_at": "2021-11-26T10:01:52+00:00",
       "created_by": "hiddemoll",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-31T13:03:39+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 909,
@@ -10349,7 +10368,8 @@
       "title": "Crash on accessing class attribute in class body",
       "labels": [
         "bug",
-        "crash"
+        "crash",
+        "area-dataclasses"
       ],
       "is_pr": false,
       "created_at": "2022-05-27T09:57:00+00:00",
@@ -10706,6 +10726,7 @@
       "number": 963,
       "title": "Use declarative_base retrun RuntimeError after complete compilation.",
       "labels": [
+        "bug",
         "crash"
       ],
       "is_pr": false,
@@ -10927,8 +10948,10 @@
     },
     {
       "number": 980,
-      "title": "Codegen C extensions Support PEP489 and PEP630?",
-      "labels": [],
+      "title": "Support multiple sub-interpreters and multi-phase init",
+      "labels": [
+        "feature"
+      ],
       "is_pr": false,
       "created_at": "2023-03-06T12:21:49+00:00",
       "created_by": "JunyiXie",
@@ -11066,7 +11089,8 @@
       "labels": [
         "bug",
         "priority-0-high",
-        "crash"
+        "crash",
+        "area-dataclasses"
       ],
       "is_pr": false,
       "created_at": "2023-04-17T21:41:53+00:00",
@@ -11140,7 +11164,10 @@
     {
       "number": 998,
       "title": "Question: Why does `mypyc` not remove unused symbols in certain situations?",
-      "labels": [],
+      "labels": [
+        "enhancement",
+        "status-needs-discussion"
+      ],
       "is_pr": false,
       "created_at": "2023-05-08T05:41:07+00:00",
       "created_by": "dosisod",
@@ -11185,7 +11212,9 @@
     {
       "number": 1002,
       "title": "More modern alternative to setup.py build_ext?",
-      "labels": [],
+      "labels": [
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2023-05-24T17:53:44+00:00",
       "created_by": "interrogator",
@@ -11339,7 +11368,11 @@
     {
       "number": 1015,
       "title": "More efficient lambdas",
-      "labels": [],
+      "labels": [
+        "speed",
+        "area-irbuild",
+        "area-functions"
+      ],
       "is_pr": false,
       "created_at": "2023-09-08T22:59:23+00:00",
       "created_by": "dosisod",
@@ -11388,7 +11421,9 @@
     {
       "number": 1019,
       "title": "Narrowed field types are rejected",
-      "labels": [],
+      "labels": [
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2023-09-12T16:17:59+00:00",
       "created_by": "nickdrozd",
@@ -11398,7 +11433,9 @@
     {
       "number": 1020,
       "title": "Unnecessary generator warning",
-      "labels": [],
+      "labels": [
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2023-09-20T17:32:10+00:00",
       "created_by": "nickdrozd",
@@ -11496,7 +11533,11 @@
     {
       "number": 1029,
       "title": "(\ud83d\udc1e) inconsistent behavior of initial assignment (int/float in tuple)",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2023-10-26T06:43:17+00:00",
       "created_by": "KotlinIsland",
@@ -11539,7 +11580,10 @@
     {
       "number": 1033,
       "title": "Phantom import when importing from ctypes",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2023-11-12T04:00:58+00:00",
       "created_by": "rianhunter",
@@ -11553,8 +11597,8 @@
       "is_pr": false,
       "created_at": "2023-11-21T16:55:45+00:00",
       "created_by": "flying-sheep",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-01-31T13:01:23+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1035,
@@ -11643,7 +11687,7 @@
     },
     {
       "number": 1042,
-      "title": "Dataclass in file named 9.py fails compilation",
+      "title": "Class in file named 9.py fails compilation",
       "labels": [
         "bug",
         "crash"
@@ -11836,7 +11880,8 @@
       "labels": [
         "bug",
         "priority-0-high",
-        "crash"
+        "crash",
+        "area-dataclasses"
       ],
       "is_pr": false,
       "created_at": "2024-09-02T09:19:06+00:00",
@@ -11868,6 +11913,7 @@
       "number": 1064,
       "title": "Mypyc KeyError: mypy.nodes.MemberExpr",
       "labels": [
+        "bug",
         "priority-0-high",
         "crash"
       ],
@@ -11967,6 +12013,7 @@
       "number": 1073,
       "title": "Defining non-native classes",
       "labels": [
+        "priority-0-high",
         "feature",
         "python compat"
       ],
@@ -12012,6 +12059,7 @@
       "number": 1077,
       "title": "Crash when module raises exception at module level",
       "labels": [
+        "bug",
         "crash"
       ],
       "is_pr": false,
@@ -12101,7 +12149,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-01-25T15:11:12+00:00",
+    "last_updated": "2025-01-31T15:12:14+00:00",
     "version": 1
   }
 }
