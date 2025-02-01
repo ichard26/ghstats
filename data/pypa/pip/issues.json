@@ -162948,14 +162948,13 @@
       "number": 13164,
       "title": "Misleading ResolutionImpossible error and strange backtracking behaviour for unsolveable requirements",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2025-01-13T19:06:28+00:00",
       "created_by": "k-collie",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-01T05:02:09+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13165,
@@ -163236,8 +163235,8 @@
       "is_pr": false,
       "created_at": "2025-01-28T04:23:18+00:00",
       "created_by": "stephencorderinf0inf",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-01T01:50:38+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13188,
@@ -163336,6 +163335,19 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13196,
+      "title": "[Technical Question] Weird behavior of a functional - Is it intended ?",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-01-31T17:59:07+00:00",
+      "created_by": "DEKHTIARJonathan",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163343,7 +163355,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-01-31T15:12:17+00:00",
+    "last_updated": "2025-02-01T15:12:54+00:00",
     "version": 1
   }
 }
