@@ -7594,12 +7594,14 @@
     {
       "number": 704,
       "title": "shared-lib-without-dependency-information usr/lib/python3/dist-packages/mypy/__init__.cpython-37m-x86_64-linux-gnu.so",
-      "labels": [],
+      "labels": [
+        "enhancement"
+      ],
       "is_pr": false,
       "created_at": "2019-10-23T16:46:55+00:00",
       "created_by": "mr-c",
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "JukkaL"
     },
     {
       "number": 705,
@@ -9486,8 +9488,8 @@
       "is_pr": false,
       "created_at": "2021-05-30T21:51:21+00:00",
       "created_by": "DragonMinded",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-03T17:47:43+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 857,
@@ -9616,7 +9618,11 @@
     {
       "number": 867,
       "title": "Class attributes not being set when subclassing dict",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2021-06-08T17:29:27+00:00",
       "created_by": "monoidic",
@@ -9759,7 +9765,12 @@
     {
       "number": 879,
       "title": "Internal error when accessing undefined name in untyped function",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "python compat",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2021-07-26T20:33:52+00:00",
       "created_by": "pranavrajpal",
@@ -9809,8 +9820,8 @@
       "is_pr": false,
       "created_at": "2021-08-03T09:54:19+00:00",
       "created_by": "davfsa",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-03T17:58:45+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 884,
@@ -10247,12 +10258,16 @@
     {
       "number": 921,
       "title": "mypyc compile error \"build/__native.c:346:15: error: variable 'cpy_r_r103' set but not used [-Werror,-Wunused-but-set-variable]\"",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash",
+        "status-needs-repro"
+      ],
       "is_pr": false,
       "created_at": "2022-03-31T04:34:49+00:00",
       "created_by": "KimSoungRyoul",
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 922,
@@ -10327,8 +10342,8 @@
       "is_pr": false,
       "created_at": "2022-05-17T08:56:34+00:00",
       "created_by": "chulucninh09",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-04T12:42:05+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 929,
@@ -10413,7 +10428,11 @@
     {
       "number": 936,
       "title": "Running with mypyc ends up with placeholder types where there shouldnt be",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2022-06-23T11:14:47+00:00",
       "created_by": "davfsa",
@@ -10517,9 +10536,9 @@
       "labels": [],
       "is_pr": false,
       "created_at": "2022-08-16T09:48:33+00:00",
-      "created_by": "ethanhs",
-      "closed_at": null,
-      "closed_by": null
+      "created_by": "emmatyping",
+      "closed_at": "2025-02-03T18:06:15+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 946,
@@ -10573,7 +10592,10 @@
     {
       "number": 950,
       "title": "mypycify creating multiple shared libraries from a single module",
-      "labels": [],
+      "labels": [
+        "usability",
+        "status-needs-discussion"
+      ],
       "is_pr": false,
       "created_at": "2022-10-12T17:51:07+00:00",
       "created_by": "sirwhinesalot",
@@ -10692,7 +10714,8 @@
       "number": 960,
       "title": "`if TYPE_CHECKING` inside class causes \"error: Unsupported statement in class body\"",
       "labels": [
-        "python compat"
+        "python compat",
+        "usability"
       ],
       "is_pr": false,
       "created_at": "2022-12-25T19:27:32+00:00",
@@ -11287,7 +11310,9 @@
     {
       "number": 1008,
       "title": "\"mypyc.build\": module is installed, but missing library stubs or py.typed marker",
-      "labels": [],
+      "labels": [
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2023-07-10T23:33:37+00:00",
       "created_by": "Avasam",
@@ -11297,7 +11322,10 @@
     {
       "number": 1009,
       "title": "error: could not create '__init__.cp39-win_amd64.pyd': No such file or directory",
-      "labels": [],
+      "labels": [
+        "bug",
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2023-07-11T00:24:54+00:00",
       "created_by": "Avasam",
@@ -11357,8 +11385,13 @@
     },
     {
       "number": 1014,
-      "title": "Running setup.py build_ext multiple times rebuilds unmodified files",
-      "labels": [],
+      "title": "Generated C can be different if source files are unmodified",
+      "labels": [
+        "enhancement",
+        "priority-0-high",
+        "usability",
+        "area-irbuild"
+      ],
       "is_pr": false,
       "created_at": "2023-09-05T20:11:43+00:00",
       "created_by": "eli-schwartz",
@@ -11547,7 +11580,10 @@
     {
       "number": 1030,
       "title": "Local variable \"p\" has inferred type None; add an annotation",
-      "labels": [],
+      "labels": [
+        "bug",
+        "priority-0-high"
+      ],
       "is_pr": false,
       "created_at": "2023-11-01T19:58:06+00:00",
       "created_by": "hauntsaninja",
@@ -11574,8 +11610,8 @@
       "is_pr": false,
       "created_at": "2023-11-12T03:58:50+00:00",
       "created_by": "rianhunter",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-04T12:26:40+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1033,
@@ -12004,7 +12040,9 @@
     {
       "number": 1072,
       "title": "How to make singletons for mypyc ?",
-      "labels": [],
+      "labels": [
+        "docs"
+      ],
       "is_pr": false,
       "created_at": "2024-10-21T23:40:08+00:00",
       "created_by": "Avasam",
@@ -12151,7 +12189,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-02-03T15:13:13+00:00",
+    "last_updated": "2025-02-04T15:13:07+00:00",
     "version": 1
   }
 }
