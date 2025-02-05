@@ -163433,6 +163433,31 @@
       "created_by": "pre-commit-ci[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13204,
+      "title": "Crash on missing version metadata during resolution",
+      "labels": [
+        "kind: crash",
+        "C: error messages"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-04T18:14:00+00:00",
+      "created_by": "lamdacoolest",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13205,
+      "title": "Preserve original letter-casing for displaying",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-05T08:55:20+00:00",
+      "created_by": "wdhongtw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163440,7 +163465,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-02-04T15:13:09+00:00",
+    "last_updated": "2025-02-05T15:12:55+00:00",
     "version": 1
   }
 }
