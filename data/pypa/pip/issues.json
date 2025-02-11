@@ -163592,6 +163592,44 @@
       "created_by": "notatallshaw",
       "closed_at": "2025-02-10T02:29:09+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13217,
+      "title": "pip 25 starts resolving to -rc version",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-10T16:43:34+00:00",
+      "created_by": "jku",
+      "closed_at": "2025-02-10T17:18:53+00:00",
+      "closed_by": "pfmoore"
+    },
+    {
+      "number": 13218,
+      "title": "How install pip-1.0.1 on Python 2.6.9 ?",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-10T17:45:04+00:00",
+      "created_by": "frodonico",
+      "closed_at": "2025-02-10T21:18:42+00:00",
+      "closed_by": "frodonico"
+    },
+    {
+      "number": 13219,
+      "title": "Mark `pip index versions` as not experimental",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-10T21:19:05+00:00",
+      "created_by": "KrishanBhasin",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163599,7 +163637,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-02-10T15:13:34+00:00",
+    "last_updated": "2025-02-11T15:14:16+00:00",
     "version": 1
   }
 }
