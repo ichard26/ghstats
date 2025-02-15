@@ -162794,8 +162794,8 @@
       "is_pr": false,
       "created_at": "2025-01-10T13:18:30+00:00",
       "created_by": "javier-wf",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-14T17:28:59+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13152,
@@ -163647,10 +163647,27 @@
     {
       "number": 13221,
       "title": "Proposal: New arguments to control pre-releases",
-      "labels": [],
+      "labels": [
+        "state: needs discussion",
+        "type: feature request"
+      ],
       "is_pr": false,
       "created_at": "2025-02-14T15:02:07+00:00",
       "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13222,
+      "title": "[BUG] Isolated build env breaks console scripts installed in other `venv` (e.g., `cmake`, `ninja`)",
+      "labels": [
+        "type: bug",
+        "C: PEP 517 impact",
+        "state: needs eyes"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-14T21:05:02+00:00",
+      "created_by": "XuehaiPan",
       "closed_at": null,
       "closed_by": null
     }
@@ -163660,7 +163677,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-02-14T15:13:27+00:00",
+    "last_updated": "2025-02-15T15:12:15+00:00",
     "version": 1
   }
 }
