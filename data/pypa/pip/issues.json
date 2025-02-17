@@ -157310,6 +157310,7 @@
       "number": 12712,
       "title": "Improve UX and Performance of Install step",
       "labels": [
+        "type: feature request",
         "UX",
         "type: performance"
       ],
@@ -163203,7 +163204,7 @@
     },
     {
       "number": 13185,
-      "title": "Release 25.1",
+      "title": "Release 25.1 (April)",
       "labels": [
         "type: maintenance"
       ],
@@ -163670,6 +163671,31 @@
       "created_by": "XuehaiPan",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13223,
+      "title": "Fix a typo in pip install help",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-16T16:32:53+00:00",
+      "created_by": "szepeviktor",
+      "closed_at": "2025-02-16T18:55:03+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13224,
+      "title": "pip install `--target` has inconsistent \"file merging\"",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-16T19:58:26+00:00",
+      "created_by": "asottile",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163677,7 +163703,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-02-16T15:11:35+00:00",
+    "last_updated": "2025-02-17T15:13:46+00:00",
     "version": 1
   }
 }

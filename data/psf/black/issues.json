@@ -53843,6 +53843,20 @@
       "created_by": "MeggyCal",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4578,
+      "title": "Bump myst-parser from 4.0.0 to 4.0.1 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-17T06:41:41+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53850,7 +53864,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-02-15T15:12:14+00:00",
+    "last_updated": "2025-02-17T15:13:45+00:00",
     "version": 1
   }
 }
