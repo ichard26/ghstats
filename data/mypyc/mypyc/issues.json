@@ -11025,6 +11025,7 @@
       "title": "Add primitives for additional math functions",
       "labels": [
         "help wanted",
+        "priority-0-high",
         "speed"
       ],
       "is_pr": false,
@@ -11402,6 +11403,7 @@
       "number": 1015,
       "title": "More efficient lambdas",
       "labels": [
+        "priority-0-high",
         "speed",
         "area-irbuild",
         "area-functions"
@@ -12209,6 +12211,58 @@
       "created_by": "aatle",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1087,
+      "title": "Compiled class definition involving `TypedDict` or `dataclass` causes `KeyError` for certain annotations",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-02-19T04:41:11+00:00",
+      "created_by": "aatle",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1088,
+      "title": "Add primitives for str lower() and upper()",
+      "labels": [
+        "help wanted",
+        "priority-0-high",
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-19T11:45:22+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1089,
+      "title": "Add primitive for sorted()",
+      "labels": [
+        "help wanted",
+        "priority-0-high",
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-19T14:14:34+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1090,
+      "title": "Add primitives for strip(), rstrip() and lstrip()",
+      "labels": [
+        "help wanted",
+        "priority-0-high",
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-19T14:50:20+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12216,7 +12270,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-02-18T15:14:00+00:00",
+    "last_updated": "2025-02-19T15:13:54+00:00",
     "version": 1
   }
 }

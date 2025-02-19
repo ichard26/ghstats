@@ -53841,7 +53841,7 @@
       "is_pr": true,
       "created_at": "2025-02-07T16:25:50+00:00",
       "created_by": "MeggyCal",
-      "closed_at": null,
+      "closed_at": "2025-02-18T15:30:12+00:00",
       "closed_by": null
     },
     {
@@ -53855,8 +53855,42 @@
       "is_pr": true,
       "created_at": "2025-02-17T06:41:41+00:00",
       "created_by": "dependabot[bot]",
+      "closed_at": "2025-02-19T05:16:59+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4579,
+      "title": "Updated editors integration documentation",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-02-19T06:16:03+00:00",
+      "created_by": "JSuyashRaj",
+      "closed_at": "2025-02-19T06:28:35+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4580,
+      "title": "Add regression tests for Black\u2019s previous inconsistent quote formatting with adjacent string literals",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-19T06:41:21+00:00",
+      "created_by": "rdrll",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4581,
+      "title": "Unnecessary linebreak in slice notation after a multiline string literal",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-19T12:46:56+00:00",
+      "created_by": "maple3142",
+      "closed_at": "2025-02-19T14:57:23+00:00",
+      "closed_by": "cobaltt7"
     }
   ],
   "record": {
@@ -53864,7 +53898,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-02-18T15:13:59+00:00",
+    "last_updated": "2025-02-19T15:13:52+00:00",
     "version": 1
   }
 }
