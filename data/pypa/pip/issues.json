@@ -152288,8 +152288,8 @@
       "is_pr": false,
       "created_at": "2023-10-01T11:58:23+00:00",
       "created_by": "abubelinha",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-21T14:56:31+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12306,
@@ -152432,8 +152432,8 @@
       "is_pr": false,
       "created_at": "2023-10-04T22:40:17+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-21T14:56:31+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12318,
@@ -154604,8 +154604,8 @@
       "is_pr": false,
       "created_at": "2024-01-30T02:01:07+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-21T14:56:32+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12498,
@@ -157855,7 +157855,7 @@
       "created_at": "2024-06-07T14:31:47+00:00",
       "created_by": "sreelathasankaranarayanan",
       "closed_at": null,
-      "closed_by": "ichard26"
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12755,
@@ -158029,8 +158029,8 @@
       "is_pr": false,
       "created_at": "2024-06-15T20:06:45+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-21T14:56:30+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12769,
@@ -160941,7 +160941,7 @@
       "is_pr": true,
       "created_at": "2024-10-11T22:48:21+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-02-21T14:56:29+00:00",
       "closed_by": null
     },
     {
@@ -163696,6 +163696,57 @@
       "created_by": "asottile",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13225,
+      "title": "pip install raises ValueError: Memoryview is too large",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-20T21:21:13+00:00",
+      "created_by": "visionscaper",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13226,
+      "title": "[UX] Constraint file lookup error message is misleading (a troubleshooting adventure)",
+      "labels": [
+        "type: bug",
+        "type: enhancement",
+        "C: configuration",
+        "C: dependency resolution",
+        "C: constraint",
+        "state: needs discussion",
+        "kind: crash",
+        "C: requirement file",
+        "S: needs triage",
+        "C: cli",
+        "UX",
+        "state: needs eyes",
+        "C: error messages",
+        "C: output"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-20T21:25:22+00:00",
+      "created_by": "webknjaz",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13227,
+      "title": "`pip3 list --oudated` seems to be broken with v24.3.1",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-21T06:24:26+00:00",
+      "created_by": "sshedi",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163703,7 +163754,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-02-20T15:14:09+00:00",
+    "last_updated": "2025-02-21T15:13:07+00:00",
     "version": 1
   }
 }
