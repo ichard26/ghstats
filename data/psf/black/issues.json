@@ -28917,7 +28917,6 @@
       "number": 2492,
       "title": "Document PyInstaller binaries",
       "labels": [
-        "good first issue",
         "T: documentation"
       ],
       "is_pr": false,
@@ -53923,7 +53922,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-02-22T15:11:21+00:00",
+    "last_updated": "2025-02-23T15:11:20+00:00",
     "version": 1
   }
 }
