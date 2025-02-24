@@ -53915,6 +53915,32 @@
       "created_by": "sobolevn",
       "closed_at": "2025-02-20T23:27:23+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4587,
+      "title": "Bump sphinx from 8.1.3 to 8.2.1 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-24T06:57:03+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2025-02-24T13:19:48+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4588,
+      "title": "EOF in multi-line string error for valid format string",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-24T11:46:02+00:00",
+      "created_by": "skepppy",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53922,7 +53948,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-02-23T15:11:20+00:00",
+    "last_updated": "2025-02-24T15:14:36+00:00",
     "version": 1
   }
 }

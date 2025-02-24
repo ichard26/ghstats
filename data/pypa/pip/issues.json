@@ -162814,7 +162814,8 @@
       "number": 13153,
       "title": "Intermittent CI failures due to Bazaar Launchpad upstream request timeouts",
       "labels": [
-        "type: maintenance"
+        "type: maintenance",
+        "state: needs eyes"
       ],
       "is_pr": false,
       "created_at": "2025-01-11T03:54:19+00:00",
@@ -163281,7 +163282,8 @@
       "number": 13191,
       "title": "ci: Test all Python versions on Windows on scheduled runs",
       "labels": [
-        "skip news"
+        "skip news",
+        "state: blocked"
       ],
       "is_pr": true,
       "created_at": "2025-01-29T17:28:26+00:00",
@@ -163773,7 +163775,7 @@
       "is_pr": true,
       "created_at": "2025-02-22T18:11:20+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-02-23T22:34:58+00:00",
       "closed_by": null
     },
     {
@@ -163806,14 +163808,13 @@
       "title": "No output of pip after upgrade to 25.0.1",
       "labels": [
         "type: bug",
-        "S: awaiting response",
-        "S: needs triage"
+        "S: awaiting response"
       ],
       "is_pr": false,
       "created_at": "2025-02-23T10:56:13+00:00",
       "created_by": "mathiasrabe",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-23T15:25:23+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13234,
@@ -163825,6 +163826,62 @@
       "is_pr": true,
       "created_at": "2025-02-23T11:27:20+00:00",
       "created_by": "sbidoul",
+      "closed_at": "2025-02-23T15:59:58+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13235,
+      "title": "Mark launchpad test as flaky",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-23T17:42:23+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2025-02-23T18:03:43+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13236,
+      "title": "Don't tie pyupgrade changes to dropping of support for a Python version",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-02-23T17:52:30+00:00",
+      "created_by": "pfmoore",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13237,
+      "title": "Increase wait and rerun amount for flaky network tests",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-23T18:09:19+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2025-02-23T18:30:04+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13238,
+      "title": "Drop support for Python 3.8",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-24T01:25:06+00:00",
+      "created_by": "AA-Turner",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13239,
+      "title": "Lazily prepare distribution for candidate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-02-24T03:02:50+00:00",
+      "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
     }
@@ -163834,7 +163891,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-02-23T15:11:21+00:00",
+    "last_updated": "2025-02-24T15:14:38+00:00",
     "version": 1
   }
 }

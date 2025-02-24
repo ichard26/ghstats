@@ -12273,6 +12273,71 @@
       "created_by": "cdce8p",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1092,
+      "title": "Add primitive for list.copy",
+      "labels": [
+        "speed",
+        "good first issue"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-24T12:38:07+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1093,
+      "title": "Add primitive for list.clear",
+      "labels": [
+        "speed",
+        "good first issue"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-24T12:42:49+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1094,
+      "title": "Add primitive for abs(integer)",
+      "labels": [
+        "speed",
+        "good first issue",
+        "good-second-issue"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-24T12:53:10+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1095,
+      "title": "Add primitive for time.time()",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-24T13:03:27+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1096,
+      "title": "Add primitive for str.count",
+      "labels": [
+        "speed",
+        "good-second-issue"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-24T13:24:41+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12280,7 +12345,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-02-23T15:11:20+00:00",
+    "last_updated": "2025-02-24T15:14:37+00:00",
     "version": 1
   }
 }
