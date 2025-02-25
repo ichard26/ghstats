@@ -160784,8 +160784,8 @@
       "is_pr": false,
       "created_at": "2024-10-03T02:06:42+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-25T03:08:03+00:00",
+      "closed_by": "uranusjr"
     },
     {
       "number": 12990,
@@ -163872,7 +163872,7 @@
       "is_pr": true,
       "created_at": "2025-02-24T01:25:06+00:00",
       "created_by": "AA-Turner",
-      "closed_at": null,
+      "closed_at": "2025-02-25T03:08:02+00:00",
       "closed_by": null
     },
     {
@@ -163882,7 +163882,82 @@
       "is_pr": true,
       "created_at": "2025-02-24T03:02:50+00:00",
       "created_by": "notatallshaw",
+      "closed_at": "2025-02-25T00:50:33+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13240,
+      "title": "Bump actions/upload-artifact from 4.6.0 to 4.6.1 in the github-actions group",
+      "labels": [
+        "C: dependency resolution",
+        "github_actions"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-24T17:43:02+00:00",
+      "created_by": "dependabot[bot]",
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13241,
+      "title": "Update sphinx requirement from ~=7.0 to ~=8.2",
+      "labels": [
+        "C: dependency resolution",
+        "python"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-24T18:14:16+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2025-02-24T21:43:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13242,
+      "title": "Implement PEP 753 normalization for Home-Page fallback",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-24T23:53:56+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13243,
+      "title": "Rewrite flaky test_vcs_url_urlquote_normalization to use local git repo",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-25T01:03:33+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13244,
+      "title": "Fix direct preference in `PipProvider.get_preference`",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-25T01:28:24+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13245,
+      "title": "Remove even moar legacy Python 3.8 code",
+      "labels": [
+        "type: refactor",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-02-25T03:46:39+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-02-25T08:20:07+00:00",
       "closed_by": null
     }
   ],
@@ -163891,7 +163966,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-02-24T15:14:38+00:00",
+    "last_updated": "2025-02-25T15:14:09+00:00",
     "version": 1
   }
 }

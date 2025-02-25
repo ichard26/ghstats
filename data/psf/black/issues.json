@@ -53934,11 +53934,23 @@
       "number": 4588,
       "title": "EOF in multi-line string error for valid format string",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: strings",
+        "C: parser"
       ],
       "is_pr": false,
       "created_at": "2025-02-24T11:46:02+00:00",
       "created_by": "skepppy",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4589,
+      "title": "[task] Upgrade `.github/workflows/pypi_upload.yml` to use Trusted Publishing",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-02-24T20:59:27+00:00",
+      "created_by": "webknjaz",
       "closed_at": null,
       "closed_by": null
     }
@@ -53948,7 +53960,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-02-24T15:14:36+00:00",
+    "last_updated": "2025-02-25T15:14:08+00:00",
     "version": 1
   }
 }
