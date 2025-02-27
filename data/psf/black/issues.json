@@ -53953,6 +53953,29 @@
       "created_by": "webknjaz",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4590,
+      "title": "Unable to format list comprehension expression + suggestion",
+      "labels": [
+        "T: style",
+        "F: linetoolong"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-27T05:15:32+00:00",
+      "created_by": "sataset",
+      "closed_at": "2025-02-27T06:16:07+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4591,
+      "title": "additional fix for click 8.2.0",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-02-27T14:20:45+00:00",
+      "created_by": "mr-c",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -53960,7 +53983,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-02-26T15:14:20+00:00",
+    "last_updated": "2025-02-27T15:14:37+00:00",
     "version": 1
   }
 }
