@@ -159937,7 +159937,7 @@
       "is_pr": false,
       "created_at": "2024-08-17T22:05:33+00:00",
       "created_by": "notatallshaw",
-      "closed_at": "2024-08-18T17:09:07+00:00",
+      "closed_at": null,
       "closed_by": "notatallshaw"
     },
     {
@@ -163984,6 +163984,44 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13248,
+      "title": "Pip 25 failing to link inside a Snap",
+      "labels": [
+        "type: support",
+        "S: awaiting response"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-27T16:28:38+00:00",
+      "created_by": "wills721",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13249,
+      "title": "`pip install --user` reporting error about \"externally-managed-environment\"",
+      "labels": [
+        "resolution: not a bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-27T16:56:10+00:00",
+      "created_by": "stefanseefeld",
+      "closed_at": "2025-02-27T18:56:51+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13250,
+      "title": "`index` should be able to accept multiple URLs",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-02-28T14:15:01+00:00",
+      "created_by": "grepwood",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -163991,7 +164029,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-02-27T15:14:38+00:00",
+    "last_updated": "2025-02-28T15:13:36+00:00",
     "version": 1
   }
 }
