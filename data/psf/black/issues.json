@@ -54000,7 +54000,7 @@
       "is_pr": true,
       "created_at": "2025-02-27T19:21:09+00:00",
       "created_by": "webknjaz",
-      "closed_at": null,
+      "closed_at": "2025-03-01T00:09:40+00:00",
       "closed_by": null
     },
     {
@@ -54012,8 +54012,8 @@
       "is_pr": false,
       "created_at": "2025-02-28T11:37:29+00:00",
       "created_by": "torotil",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-28T16:42:24+00:00",
+      "closed_by": "MeGaGiGaGon"
     },
     {
       "number": 4595,
@@ -54036,8 +54036,8 @@
       "is_pr": false,
       "created_at": "2025-02-28T12:40:56+00:00",
       "created_by": "rjurney",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-02-28T17:37:33+00:00",
+      "closed_by": "MeGaGiGaGon"
     }
   ],
   "record": {
@@ -54045,7 +54045,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-02-28T15:13:33+00:00",
+    "last_updated": "2025-03-01T15:12:01+00:00",
     "version": 1
   }
 }
