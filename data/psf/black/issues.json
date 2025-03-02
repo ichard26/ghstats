@@ -2365,8 +2365,8 @@
       "is_pr": false,
       "created_at": "2018-05-16T00:37:25+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T08:51:50+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 213,
@@ -4780,8 +4780,8 @@
       "is_pr": false,
       "created_at": "2018-07-31T21:06:27+00:00",
       "created_by": "nixjdm",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T08:37:37+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 430,
@@ -6866,8 +6866,8 @@
       "is_pr": false,
       "created_at": "2018-11-27T20:03:28+00:00",
       "created_by": "normoes",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T08:39:09+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 624,
@@ -13437,8 +13437,8 @@
       "is_pr": false,
       "created_at": "2019-12-27T19:56:27+00:00",
       "created_by": "wilson",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T08:46:22+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1215,
@@ -16432,8 +16432,8 @@
       "is_pr": false,
       "created_at": "2020-06-01T00:41:12+00:00",
       "created_by": "Jackenmen",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T09:00:50+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1472,
@@ -21960,8 +21960,8 @@
       "is_pr": false,
       "created_at": "2021-01-16T18:26:57+00:00",
       "created_by": "slpenn13",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T08:42:14+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 1933,
@@ -25969,8 +25969,8 @@
       "is_pr": false,
       "created_at": "2021-05-24T01:58:37+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T08:43:34+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 2254,
@@ -38666,7 +38666,7 @@
       "is_pr": true,
       "created_at": "2022-09-26T01:35:43+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-03-02T09:19:16+00:00",
       "closed_by": null
     },
     {
@@ -42015,8 +42015,8 @@
       "is_pr": false,
       "created_at": "2023-02-10T11:09:26+00:00",
       "created_by": "mwgamble",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T09:04:49+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3560,
@@ -44899,8 +44899,8 @@
       "is_pr": false,
       "created_at": "2023-07-22T14:39:26+00:00",
       "created_by": "tadeja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T09:09:58+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3806,
@@ -46871,7 +46871,8 @@
       "number": 3972,
       "title": "Request: new releases triggering `black-pre-commit-mirror`'s `mirror` action",
       "labels": [
-        "T: enhancement"
+        "T: enhancement",
+        "C: maintenance"
       ],
       "is_pr": false,
       "created_at": "2023-10-23T20:42:03+00:00",
@@ -54024,8 +54025,8 @@
       "is_pr": false,
       "created_at": "2025-02-28T12:25:43+00:00",
       "created_by": "anuj-scanova",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-02T08:34:49+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4596,
@@ -54038,6 +54039,26 @@
       "created_by": "rjurney",
       "closed_at": "2025-02-28T17:37:33+00:00",
       "closed_by": "MeGaGiGaGon"
+    },
+    {
+      "number": 4597,
+      "title": "Parsing error while black is formatting",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-03-02T08:20:55+00:00",
+      "created_by": "digiry",
+      "closed_at": "2025-03-02T08:33:56+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4598,
+      "title": "Update top-pypi-packages filename",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-03-02T13:57:02+00:00",
+      "created_by": "hugovk",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54045,7 +54066,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-03-01T15:12:01+00:00",
+    "last_updated": "2025-03-02T15:11:40+00:00",
     "version": 1
   }
 }
