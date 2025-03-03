@@ -51477,7 +51477,7 @@
       ],
       "is_pr": false,
       "created_at": "2024-05-24T13:48:33+00:00",
-      "created_by": "AMK9978",
+      "created_by": "amk9978",
       "closed_at": null,
       "closed_by": null
     },
@@ -53878,7 +53878,7 @@
       "is_pr": true,
       "created_at": "2025-02-19T06:41:21+00:00",
       "created_by": "rdrll",
-      "closed_at": null,
+      "closed_at": "2025-03-03T03:23:58+00:00",
       "closed_by": null
     },
     {
@@ -54053,10 +54053,82 @@
     {
       "number": 4598,
       "title": "Update top-pypi-packages filename",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-03-02T13:57:02+00:00",
       "created_by": "hugovk",
+      "closed_at": "2025-03-02T16:09:41+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4599,
+      "title": "Fails to parse lambda in PEP 695 TypeVar bound",
+      "labels": [
+        "T: bug",
+        "C: parser"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-02T18:56:42+00:00",
+      "created_by": "15r10nk",
+      "closed_at": "2025-03-03T08:20:24+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4600,
+      "title": "can not parse dict-comprehension with f-string in condition",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-03-02T19:37:54+00:00",
+      "created_by": "15r10nk",
+      "closed_at": "2025-03-02T21:21:37+00:00",
+      "closed_by": "MeGaGiGaGon"
+    },
+    {
+      "number": 4601,
+      "title": "Nativ thousandyear patch 2",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-03-02T21:14:46+00:00",
+      "created_by": "Nativ-Thousandyear",
+      "closed_at": "2025-03-03T01:18:39+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4602,
+      "title": "Fix parser for TypeVar bounds",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-03-03T03:15:25+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2025-03-03T08:20:23+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4603,
+      "title": "Bump sphinx from 8.2.1 to 8.2.3 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-03T06:01:55+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2025-03-03T14:24:03+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4604,
+      "title": "Bump pypa/cibuildwheel from 2.22.0 to 2.23.0",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-03T06:57:25+00:00",
+      "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
     }
@@ -54066,7 +54138,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-03-02T15:11:40+00:00",
+    "last_updated": "2025-03-03T15:14:22+00:00",
     "version": 1
   }
 }
