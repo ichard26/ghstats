@@ -43467,8 +43467,8 @@
       "is_pr": false,
       "created_at": "2023-05-07T05:25:38+00:00",
       "created_by": "metov",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-03T23:11:23+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3683,
@@ -53385,8 +53385,8 @@
       "is_pr": false,
       "created_at": "2024-12-21T01:17:28+00:00",
       "created_by": "polirritmico",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-03T23:11:23+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4536,
@@ -53571,7 +53571,7 @@
       "is_pr": true,
       "created_at": "2025-01-18T07:46:48+00:00",
       "created_by": "Pedro-Muller29",
-      "closed_at": null,
+      "closed_at": "2025-03-03T23:11:22+00:00",
       "closed_by": null
     },
     {
@@ -54131,6 +54131,18 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4605,
+      "title": "Unexpected modification of binary content",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-04T04:27:48+00:00",
+      "created_by": "ivanovmg",
+      "closed_at": "2025-03-04T04:43:17+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -54138,7 +54150,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-03-03T15:14:22+00:00",
+    "last_updated": "2025-03-04T15:14:10+00:00",
     "version": 1
   }
 }
