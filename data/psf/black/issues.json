@@ -52594,7 +52594,7 @@
       "is_pr": true,
       "created_at": "2024-09-27T22:11:19+00:00",
       "created_by": "Pedro-Muller29",
-      "closed_at": null,
+      "closed_at": "2025-03-04T20:32:20+00:00",
       "closed_by": null
     },
     {
@@ -54143,6 +54143,18 @@
       "created_by": "ivanovmg",
       "closed_at": "2025-03-04T04:43:17+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4606,
+      "title": "update github-action to look for black version in \"dependency-groups\"",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-04T23:48:03+00:00",
+      "created_by": "tsvikas",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54150,7 +54162,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-03-04T15:14:10+00:00",
+    "last_updated": "2025-03-05T15:14:56+00:00",
     "version": 1
   }
 }

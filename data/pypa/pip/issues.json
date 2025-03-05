@@ -151629,14 +151629,13 @@
       "number": 12250,
       "title": "[FR] Move to PyPA org on PyPI?",
       "labels": [
-        "type: maintenance",
-        "type: feature request"
+        "type: maintenance"
       ],
       "is_pr": false,
       "created_at": "2023-08-29T17:18:04+00:00",
       "created_by": "webknjaz",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-04T21:30:33+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12252,
@@ -161144,7 +161143,7 @@
       "title": "Quiet option removes useful output",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "state: awaiting PR"
       ],
       "is_pr": false,
       "created_at": "2024-10-14T07:06:15+00:00",
@@ -164094,7 +164093,7 @@
       "is_pr": true,
       "created_at": "2025-03-03T17:02:39+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-03-04T21:25:52+00:00",
       "closed_by": null
     },
     {
@@ -164117,7 +164116,7 @@
       "is_pr": true,
       "created_at": "2025-03-03T18:27:16+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2025-03-04T21:24:34+00:00",
       "closed_by": null
     },
     {
@@ -164136,14 +164135,36 @@
       "number": 13260,
       "title": "Packages skipped by requires-python no longer show up in error message by default",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: bug"
       ],
       "is_pr": false,
       "created_at": "2025-03-04T03:23:07+00:00",
       "created_by": "dpad",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13261,
+      "title": "This issue has been opened accidentally",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-03-04T18:10:39+00:00",
+      "created_by": "giacomobenedetti",
+      "closed_at": "2025-03-04T18:11:24+00:00",
+      "closed_by": "giacomobenedetti"
+    },
+    {
+      "number": 13262,
+      "title": "\"pip download --platform\" ignores platform dependent dependencies (environment markers)",
+      "labels": [
+        "type: bug",
+        "resolution: duplicate"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-04T20:54:05+00:00",
+      "created_by": "jmoraleda",
+      "closed_at": "2025-03-04T21:09:43+00:00",
+      "closed_by": "ichard26"
     }
   ],
   "record": {
@@ -164151,7 +164172,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-04T15:14:12+00:00",
+    "last_updated": "2025-03-05T15:14:58+00:00",
     "version": 1
   }
 }
