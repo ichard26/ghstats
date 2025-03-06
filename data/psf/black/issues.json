@@ -54147,13 +54147,23 @@
     {
       "number": 4606,
       "title": "update github-action to look for black version in \"dependency-groups\"",
-      "labels": [
-        "skip news"
-      ],
+      "labels": [],
       "is_pr": true,
       "created_at": "2025-03-04T23:48:03+00:00",
       "created_by": "tsvikas",
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4607,
+      "title": "github is deprecating the ubuntu 20.04 actions runner image",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-05T19:05:05+00:00",
+      "created_by": "glyph",
+      "closed_at": "2025-03-06T02:26:01+00:00",
       "closed_by": null
     }
   ],
@@ -54162,7 +54172,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-03-05T15:14:56+00:00",
+    "last_updated": "2025-03-06T15:13:53+00:00",
     "version": 1
   }
 }

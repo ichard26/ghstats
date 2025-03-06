@@ -99304,8 +99304,8 @@
       "is_pr": false,
       "created_at": "2020-02-26T13:50:12+00:00",
       "created_by": "xavfernandez",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-06T00:00:09+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 7789,
@@ -111597,8 +111597,8 @@
       "is_pr": false,
       "created_at": "2020-08-26T07:50:45+00:00",
       "created_by": "Kevin-McClusky",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-06T00:03:43+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 8807,
@@ -157387,8 +157387,8 @@
       "is_pr": false,
       "created_at": "2024-05-21T08:04:54+00:00",
       "created_by": "cdleonard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-05T21:58:25+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12719,
@@ -158354,13 +158354,13 @@
       "title": "Add a token issuing system to distinguish requests from anonymous users",
       "labels": [
         "type: feature request",
-        "S: needs triage"
+        "resolution: no action"
       ],
       "is_pr": false,
       "created_at": "2024-06-25T13:58:41+00:00",
       "created_by": "sedyh",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-06T02:53:51+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12795,
@@ -163750,7 +163750,7 @@
       "is_pr": true,
       "created_at": "2025-02-21T18:51:29+00:00",
       "created_by": "iTrooz",
-      "closed_at": null,
+      "closed_at": "2025-03-05T21:58:24+00:00",
       "closed_by": null
     },
     {
@@ -164165,6 +164165,32 @@
       "created_by": "jmoraleda",
       "closed_at": "2025-03-04T21:09:43+00:00",
       "closed_by": "ichard26"
+    },
+    {
+      "number": 13263,
+      "title": "Prefer user requirements when backtracking",
+      "labels": [
+        "C: dependency resolution",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-05T23:43:01+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13264,
+      "title": "pip not support command \"pip search\"\uff0cbut \"pip -h \" shows it supports \"pip search\"",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-06T12:01:07+00:00",
+      "created_by": "ArtmZhou",
+      "closed_at": "2025-03-06T13:26:20+00:00",
+      "closed_by": "ArtmZhou"
     }
   ],
   "record": {
@@ -164172,7 +164198,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-05T15:14:58+00:00",
+    "last_updated": "2025-03-06T15:13:55+00:00",
     "version": 1
   }
 }
