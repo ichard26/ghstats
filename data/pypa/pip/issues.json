@@ -162602,8 +162602,8 @@
       "is_pr": false,
       "created_at": "2024-12-29T20:44:31+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-06T21:47:47+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13136,
@@ -162906,7 +162906,7 @@
       "is_pr": true,
       "created_at": "2025-01-12T18:14:05+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-03-06T22:37:08+00:00",
       "closed_by": null
     },
     {
@@ -163762,7 +163762,7 @@
       "is_pr": true,
       "created_at": "2025-02-22T01:01:29+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-03-07T13:54:26+00:00",
       "closed_by": null
     },
     {
@@ -163919,7 +163919,7 @@
       "is_pr": true,
       "created_at": "2025-02-24T23:53:56+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-03-06T21:47:46+00:00",
       "closed_by": null
     },
     {
@@ -164055,7 +164055,7 @@
       "is_pr": true,
       "created_at": "2025-03-01T16:34:09+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-03-07T13:40:02+00:00",
       "closed_by": null
     },
     {
@@ -164106,7 +164106,7 @@
       "is_pr": true,
       "created_at": "2025-03-03T17:03:33+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-03-06T23:04:45+00:00",
       "closed_by": null
     },
     {
@@ -164191,6 +164191,67 @@
       "created_by": "ArtmZhou",
       "closed_at": "2025-03-06T13:26:20+00:00",
       "closed_by": "ArtmZhou"
+    },
+    {
+      "number": 13267,
+      "title": "Dependency Conflict (when installing Kernel)",
+      "labels": [
+        "C: error messages"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-06T16:05:59+00:00",
+      "created_by": "mridun-gupta",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13268,
+      "title": "Allow output for index to be displayed even if the -q (quiet) flag exists (works for -q, -qq, and -qqq)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-06T17:34:14+00:00",
+      "created_by": "DanielCKL",
+      "closed_at": "2025-03-06T17:46:36+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13269,
+      "title": "Bump vendored libraries for pip 25.1",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-06T22:05:29+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13270,
+      "title": "resolvelib: emit Requires-Python dependency first",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-06T22:36:01+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13271,
+      "title": "Installed dependency could not be found in when built on Alpine Linux amd64",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-07T14:43:12+00:00",
+      "created_by": "notxvilka",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -164198,7 +164259,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-06T15:13:55+00:00",
+    "last_updated": "2025-03-07T15:13:36+00:00",
     "version": 1
   }
 }
