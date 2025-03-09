@@ -152575,7 +152575,7 @@
     },
     {
       "number": 12330,
-      "title": "Remove support for installed `.egg` distributions when using the `importlib.metadata` backend",
+      "title": "Remove support for installed `.egg` packages when using the `importlib.metadata` backend",
       "labels": [
         "type: deprecation"
       ],
@@ -159930,8 +159930,9 @@
       "number": 12920,
       "title": "Switch default pip install compile option to `False`",
       "labels": [
+        "kind: backwards incompatible",
         "state: needs discussion",
-        "type: feature request"
+        "type: performance"
       ],
       "is_pr": false,
       "created_at": "2024-08-17T22:05:33+00:00",
@@ -164225,7 +164226,7 @@
       "is_pr": true,
       "created_at": "2025-03-06T22:05:29+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-03-08T15:19:08+00:00",
       "closed_by": null
     },
     {
@@ -164251,6 +164252,42 @@
       "created_by": "notxvilka",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13272,
+      "title": "tests: Use script.scratch_path over script.temp_path",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-08T16:33:25+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-03-08T18:39:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13273,
+      "title": "Prefer requirements with upper bounds",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-08T20:28:33+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13274,
+      "title": "Use inline dependency metadata for update-rtd-redirects.py",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-09T00:27:34+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-03-09T14:32:15+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -164258,7 +164295,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-08T15:10:32+00:00",
+    "last_updated": "2025-03-09T15:11:51+00:00",
     "version": 1
   }
 }
