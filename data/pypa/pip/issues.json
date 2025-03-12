@@ -53950,14 +53950,14 @@
       "title": "Add --global-option to egg_info command too",
       "labels": [
         "type: enhancement",
-        "state: awaiting PR",
+        "resolution: no action",
         "C: PEP 517 impact"
       ],
       "is_pr": false,
       "created_at": "2017-03-27T15:19:23+00:00",
       "created_by": "fabio-t",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-12T01:47:28+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 4384,
@@ -99172,7 +99172,8 @@
       "number": 7778,
       "title": "pip isolated build breaks when a pth file imports setuptools and setup_requires is defined",
       "labels": [
-        "S: needs triage"
+        "S: needs triage",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2020-02-24T12:40:47+00:00",
@@ -101894,7 +101895,8 @@
       "labels": [
         "S: needs triage",
         "PEP implementation",
-        "C: PEP 517 impact"
+        "C: PEP 517 impact",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2020-04-06T22:48:26+00:00",
@@ -107268,7 +107270,8 @@
       "number": 8439,
       "title": "Respect top-level \"constraints\" file when populating isolated build environments",
       "labels": [
-        "C: PEP 517 impact"
+        "C: PEP 517 impact",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2020-06-14T16:18:14+00:00",
@@ -114730,7 +114733,8 @@
       "labels": [
         "type: refactor",
         "state: needs discussion",
-        "C: PEP 517 impact"
+        "C: PEP 517 impact",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2020-10-31T22:35:40+00:00",
@@ -133784,7 +133788,8 @@
       "labels": [
         "type: bug",
         "S: needs triage",
-        "C: build logic"
+        "C: build logic",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2021-12-21T15:03:51+00:00",
@@ -140103,7 +140108,8 @@
       "title": "pip should ignore `[install] no-deps = true` in pip.conf when setting up isolated build environment.",
       "labels": [
         "state: needs discussion",
-        "C: build logic"
+        "C: build logic",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2022-07-19T16:45:37+00:00",
@@ -148315,7 +148321,8 @@
       "labels": [
         "type: docs",
         "state: awaiting PR",
-        "type: feature request"
+        "type: feature request",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2023-04-17T13:39:14+00:00",
@@ -148997,7 +149004,8 @@
       "title": "no-cache-dir is not respected for deps that require building",
       "labels": [
         "type: bug",
-        "C: PEP 517 impact"
+        "C: PEP 517 impact",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2023-05-15T15:38:52+00:00",
@@ -160797,8 +160805,8 @@
       "is_pr": false,
       "created_at": "2024-10-04T17:00:35+00:00",
       "created_by": "tonyhoo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-11T23:09:23+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12991,
@@ -160834,8 +160842,8 @@
       "is_pr": false,
       "created_at": "2024-10-06T18:08:52+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-11T23:09:23+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12994,
@@ -164274,7 +164282,7 @@
       "is_pr": true,
       "created_at": "2025-03-08T20:28:33+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-03-11T23:09:22+00:00",
       "closed_by": null
     },
     {
@@ -164299,7 +164307,7 @@
       "is_pr": true,
       "created_at": "2025-03-10T17:25:39+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-03-11T23:10:31+00:00",
       "closed_by": null
     }
   ],
@@ -164308,7 +164316,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-11T15:15:07+00:00",
+    "last_updated": "2025-03-12T15:15:10+00:00",
     "version": 1
   }
 }
