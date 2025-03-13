@@ -157170,7 +157170,7 @@
       "title": "installing via \"git+file\" fails under Windows when url point to different drive-letter",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "OS: windows"
       ],
       "is_pr": false,
       "created_at": "2024-05-14T16:23:15+00:00",
@@ -161686,7 +161686,7 @@
       "title": "Installing from file:// on Windows with optional dependencies via @ doesn't work",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "OS: windows"
       ],
       "is_pr": false,
       "created_at": "2024-11-01T16:37:09+00:00",
@@ -164309,6 +164309,43 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2025-03-11T23:10:31+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13276,
+      "title": "Replace custom enums with stdlib enums",
+      "labels": [
+        "type: refactor",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-12T18:36:18+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-03-12T18:55:08+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13277,
+      "title": "Misleading attribution of dependency source when `pip install` encounters multiple sources",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-12T23:09:40+00:00",
+      "created_by": "pakharev",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13278,
+      "title": "Remove invalid specifier from resolution documentation",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-13T12:31:22+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2025-03-13T13:00:23+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -164316,7 +164353,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-12T15:15:10+00:00",
+    "last_updated": "2025-03-13T15:15:20+00:00",
     "version": 1
   }
 }
