@@ -159737,8 +159737,8 @@
       "is_pr": false,
       "created_at": "2024-08-08T00:47:57+00:00",
       "created_by": "alexreg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-15T15:57:57+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12904,
@@ -164364,15 +164364,53 @@
     },
     {
       "number": 13280,
-      "title": "Handle multiple paths in `appdirs.site_config_dirs` on MacOS",
+      "title": "Support multiple global configuration paths returned by ``platformdirs`` on MacOS",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2025-03-14T21:20:43+00:00",
       "created_by": "alexreg",
+      "closed_at": "2025-03-15T15:57:56+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13281,
+      "title": "Examples of `ResolutionTooDeep` in Pip",
+      "labels": [
+        "C: dependency resolution",
+        "C: error messages"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-16T03:15:00+00:00",
+      "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13282,
+      "title": "Diagnostic Error for Resolution Too Deep",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-16T03:29:22+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13283,
+      "title": "File names with spaces cannot be provided in PIP_CONSTRAINT env variable",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-16T13:10:48+00:00",
+      "created_by": "hoodmane",
+      "closed_at": "2025-03-16T14:19:41+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -164380,7 +164418,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-15T15:12:01+00:00",
+    "last_updated": "2025-03-16T15:03:00+00:00",
     "version": 1
   }
 }
