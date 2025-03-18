@@ -164415,12 +164415,37 @@
     {
       "number": 13284,
       "title": "Apply ruff/flake8-comprehensions rule C420",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-03-17T08:38:04+00:00",
       "created_by": "DimitriPapadopoulos",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13285,
+      "title": "pip install issue",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-03-17T15:59:32+00:00",
+      "created_by": "ganand1990",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13286,
+      "title": "pip install PyQT6 ERRNo 2",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-17T16:25:18+00:00",
+      "created_by": "Harald-J",
+      "closed_at": "2025-03-17T19:48:51+00:00",
+      "closed_by": "Harald-J"
     }
   ],
   "record": {
@@ -164428,7 +164453,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-17T15:02:54+00:00",
+    "last_updated": "2025-03-18T15:03:26+00:00",
     "version": 1
   }
 }
