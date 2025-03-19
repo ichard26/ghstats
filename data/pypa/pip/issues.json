@@ -164446,6 +164446,32 @@
       "created_by": "Harald-J",
       "closed_at": "2025-03-17T19:48:51+00:00",
       "closed_by": "Harald-J"
+    },
+    {
+      "number": 13287,
+      "title": "pip show and missing/incorrect metadata with pyproject.toml",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-18T20:25:14+00:00",
+      "created_by": "sarnold",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13288,
+      "title": "pip with truststore and proxy can use incorrect ssl_context",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-19T14:24:30+00:00",
+      "created_by": "schribl",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -164453,7 +164479,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-18T15:03:26+00:00",
+    "last_updated": "2025-03-19T15:03:12+00:00",
     "version": 1
   }
 }

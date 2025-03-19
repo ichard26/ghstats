@@ -54362,6 +54362,16 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4627,
+      "title": "Long string remains unchanged",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-03-19T12:48:32+00:00",
+      "created_by": "neostimul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54369,7 +54379,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-03-17T15:02:51+00:00",
+    "last_updated": "2025-03-19T15:03:11+00:00",
     "version": 1
   }
 }
