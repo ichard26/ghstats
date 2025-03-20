@@ -164427,12 +164427,14 @@
     {
       "number": 13285,
       "title": "pip install issue",
-      "labels": [],
+      "labels": [
+        "type: support"
+      ],
       "is_pr": false,
       "created_at": "2025-03-17T15:59:32+00:00",
       "created_by": "ganand1990",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-19T21:57:46+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13286,
@@ -164451,8 +164453,7 @@
       "number": 13287,
       "title": "pip show and missing/incorrect metadata with pyproject.toml",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: support"
       ],
       "is_pr": false,
       "created_at": "2025-03-18T20:25:14+00:00",
@@ -164465,11 +164466,49 @@
       "title": "pip with truststore and proxy can use incorrect ssl_context",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: network connectivity"
       ],
       "is_pr": false,
       "created_at": "2025-03-19T14:24:30+00:00",
       "created_by": "schribl",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13289,
+      "title": "pip-25.0.1 runs setup.py with broken import behaviour",
+      "labels": [
+        "type: bug",
+        "project: vendored dependency"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-19T15:12:54+00:00",
+      "created_by": "julian-smith-artifex-com",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13290,
+      "title": "Include more details on failure to import `setuptools` in metadata resolution",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-20T11:56:10+00:00",
+      "created_by": "jakelishman",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13291,
+      "title": "Provide more information on `import setuptools` failure",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-20T11:59:30+00:00",
+      "created_by": "jakelishman",
       "closed_at": null,
       "closed_by": null
     }
@@ -164479,7 +164518,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-19T15:03:12+00:00",
+    "last_updated": "2025-03-20T15:03:26+00:00",
     "version": 1
   }
 }
