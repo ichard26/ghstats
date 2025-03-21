@@ -164421,7 +164421,7 @@
       "is_pr": true,
       "created_at": "2025-03-17T08:38:04+00:00",
       "created_by": "DimitriPapadopoulos",
-      "closed_at": null,
+      "closed_at": "2025-03-20T20:37:59+00:00",
       "closed_by": null
     },
     {
@@ -164458,8 +164458,8 @@
       "is_pr": false,
       "created_at": "2025-03-18T20:25:14+00:00",
       "created_by": "sarnold",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-20T20:32:47+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13288,
@@ -164511,6 +164511,52 @@
       "created_by": "jakelishman",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13292,
+      "title": "pip config failed to write pip.ini when using MS Store py",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-20T15:04:42+00:00",
+      "created_by": "imba-tjd",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13293,
+      "title": "Draft index_priority",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-03-20T17:48:03+00:00",
+      "created_by": "atalman",
+      "closed_at": "2025-03-20T18:05:52+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13294,
+      "title": "Revert \"Apply ruff/flake8-comprehensions rule C420 (#13284)\"",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-20T21:37:37+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13295,
+      "title": "Install Pip",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-21T01:56:34+00:00",
+      "created_by": "Hongyu60",
+      "closed_at": "2025-03-21T14:36:53+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -164518,7 +164564,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-20T15:03:26+00:00",
+    "last_updated": "2025-03-21T15:03:13+00:00",
     "version": 1
   }
 }
