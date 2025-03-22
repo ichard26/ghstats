@@ -12352,6 +12352,16 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1098,
+      "title": "msgspec.Struct support",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-03-22T06:21:33+00:00",
+      "created_by": "Chainfire",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12359,7 +12369,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-03-19T15:03:12+00:00",
+    "last_updated": "2025-03-22T15:02:45+00:00",
     "version": 1
   }
 }

@@ -164557,6 +164557,19 @@
       "created_by": "Hongyu60",
       "closed_at": "2025-03-21T14:36:53+00:00",
       "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13296,
+      "title": "`--python-version` is not properly considered when resolving dependencies",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-22T06:15:44+00:00",
+      "created_by": "zahlman",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -164564,7 +164577,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-21T15:03:13+00:00",
+    "last_updated": "2025-03-22T15:02:46+00:00",
     "version": 1
   }
 }
