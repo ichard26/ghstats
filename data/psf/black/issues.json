@@ -51478,8 +51478,8 @@
       "is_pr": false,
       "created_at": "2024-05-24T13:48:33+00:00",
       "created_by": "amk9978",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-22T21:00:10+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4371,
@@ -54416,8 +54416,8 @@
       "is_pr": false,
       "created_at": "2025-03-20T20:58:02+00:00",
       "created_by": "CodeDude56",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-23T02:30:41+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4632,
@@ -54460,7 +54460,7 @@
       "is_pr": true,
       "created_at": "2025-03-21T23:34:09+00:00",
       "created_by": "tusharsadhwani",
-      "closed_at": null,
+      "closed_at": "2025-03-23T02:30:40+00:00",
       "closed_by": null
     },
     {
@@ -54470,7 +54470,7 @@
       "is_pr": true,
       "created_at": "2025-03-22T05:43:13+00:00",
       "created_by": "dkarishma26",
-      "closed_at": null,
+      "closed_at": "2025-03-22T17:36:41+00:00",
       "closed_by": null
     },
     {
@@ -54491,7 +54491,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-03-22T15:02:43+00:00",
+    "last_updated": "2025-03-23T15:02:44+00:00",
     "version": 1
   }
 }

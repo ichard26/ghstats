@@ -164543,7 +164543,7 @@
       "is_pr": true,
       "created_at": "2025-03-20T21:37:37+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-03-23T07:15:04+00:00",
       "closed_by": null
     },
     {
@@ -164577,7 +164577,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-22T15:02:46+00:00",
+    "last_updated": "2025-03-23T15:02:46+00:00",
     "version": 1
   }
 }
