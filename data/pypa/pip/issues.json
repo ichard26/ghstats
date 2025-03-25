@@ -126655,7 +126655,7 @@
     },
     {
       "number": 10114,
-      "title": "Space in filename in PIP_CONSTRAINTS is interpreted as a new file",
+      "title": "Space in filename in PIP_CONSTRAINT is interpreted as a new file",
       "labels": [
         "type: bug",
         "S: needs triage"
@@ -164563,13 +164563,78 @@
       "title": "`--python-version` is not properly considered when resolving dependencies",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "state: awaiting PR"
       ],
       "is_pr": false,
       "created_at": "2025-03-22T06:15:44+00:00",
       "created_by": "zahlman",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13297,
+      "title": "Bump the github-actions group with 2 updates",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-24T18:21:44+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13298,
+      "title": "Bump setuptools from 76.0.0 to 78.0.1",
+      "labels": [
+        "python",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-24T18:51:54+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13299,
+      "title": "Add support for Android",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-24T20:40:36+00:00",
+      "created_by": "mhsmith",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13300,
+      "title": "Feature: Specify constraints file for the isolated build environment",
+      "labels": [
+        "state: awaiting PR",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-24T22:03:55+00:00",
+      "created_by": "andy-maier",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13301,
+      "title": "A very weired bug",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-25T08:06:19+00:00",
+      "created_by": "MonolithFoundation",
+      "closed_at": "2025-03-25T08:46:38+00:00",
+      "closed_by": "MonolithFoundation"
     }
   ],
   "record": {
@@ -164577,7 +164642,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-24T15:03:23+00:00",
+    "last_updated": "2025-03-25T15:03:09+00:00",
     "version": 1
   }
 }
