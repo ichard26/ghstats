@@ -11274,7 +11274,7 @@
       "number": 1005,
       "title": "Faster equality comparison of optional values",
       "labels": [
-        "priority-1-normal",
+        "priority-0-high",
         "speed"
       ],
       "is_pr": false,
@@ -12369,7 +12369,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-03-22T15:02:45+00:00",
+    "last_updated": "2025-03-27T15:03:11+00:00",
     "version": 1
   }
 }

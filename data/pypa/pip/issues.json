@@ -164563,13 +164563,14 @@
       "title": "`--python-version` is not properly considered when resolving dependencies",
       "labels": [
         "type: bug",
+        "resolution: duplicate",
         "state: awaiting PR"
       ],
       "is_pr": false,
       "created_at": "2025-03-22T06:15:44+00:00",
       "created_by": "zahlman",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-27T02:34:06+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13297,
@@ -164660,6 +164661,31 @@
       "created_by": "mhsmith",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13304,
+      "title": "Main",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-26T17:50:24+00:00",
+      "created_by": "advogadoia",
+      "closed_at": "2025-03-26T17:53:11+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13305,
+      "title": "Improve docs around setup_requires",
+      "labels": [
+        "type: docs",
+        "state: awaiting PR"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-27T02:40:56+00:00",
+      "created_by": "gsnedders",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -164667,7 +164693,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-26T15:03:23+00:00",
+    "last_updated": "2025-03-27T15:03:12+00:00",
     "version": 1
   }
 }
