@@ -160626,8 +160626,8 @@
       "is_pr": false,
       "created_at": "2024-09-22T21:35:12+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-27T22:12:00+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12976,
@@ -163954,7 +163954,7 @@
       "is_pr": true,
       "created_at": "2025-02-25T01:28:24+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-03-27T22:11:59+00:00",
       "closed_by": null
     },
     {
@@ -164582,7 +164582,7 @@
       "is_pr": true,
       "created_at": "2025-03-24T18:21:44+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-03-27T22:16:32+00:00",
       "closed_by": null
     },
     {
@@ -164595,7 +164595,7 @@
       "is_pr": true,
       "created_at": "2025-03-24T18:51:54+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-03-27T22:15:40+00:00",
       "closed_by": null
     },
     {
@@ -164686,6 +164686,53 @@
       "created_by": "gsnedders",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13306,
+      "title": "Remove lru cache from methods [enable ruff rule cached-instance-method (B019)]",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-03-27T23:52:10+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13307,
+      "title": "Split \"Successfully installed\" message between sdists and wheels",
+      "labels": [
+        "state: needs discussion",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2025-03-28T01:11:18+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13308,
+      "title": "Remove docs/tests for --no-python-version-warning",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-28T02:23:04+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13309,
+      "title": "Postpone removal of non-bare names in egg fragment to 25.2",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-28T02:38:07+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -164693,7 +164740,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-27T15:03:12+00:00",
+    "last_updated": "2025-03-28T15:03:13+00:00",
     "version": 1
   }
 }
