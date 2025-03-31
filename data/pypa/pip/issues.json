@@ -149054,8 +149054,8 @@
       "number": 12035,
       "title": "Idea: When backtracking prefer packages with METADATA file available",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "C: dependency resolution",
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2023-05-18T16:22:15+00:00",
@@ -152462,7 +152462,8 @@
       "number": 12319,
       "title": "truststore feature does not work when set in a requirement file",
       "labels": [
-        "type: bug"
+        "type: bug",
+        "resolution: known limitation"
       ],
       "is_pr": false,
       "created_at": "2023-10-05T13:26:27+00:00",
@@ -153685,13 +153686,13 @@
       "title": "Python packages hash not matching whilst installing using pip package fails hash check",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "S: awaiting response"
       ],
       "is_pr": false,
       "created_at": "2023-12-05T20:51:24+00:00",
       "created_by": "fti-sfuke",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-03-30T23:37:51+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12425,
@@ -164743,7 +164744,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-30T15:02:52+00:00",
+    "last_updated": "2025-03-31T15:03:11+00:00",
     "version": 1
   }
 }
