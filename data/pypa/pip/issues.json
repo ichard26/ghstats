@@ -159356,7 +159356,7 @@
       "is_pr": true,
       "created_at": "2024-07-23T11:21:52+00:00",
       "created_by": "morotti",
-      "closed_at": null,
+      "closed_at": "2025-04-01T12:36:14+00:00",
       "closed_by": null
     },
     {
@@ -163211,7 +163211,7 @@
       "is_pr": true,
       "created_at": "2025-01-26T23:49:03+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-03-31T16:19:33+00:00",
       "closed_by": null
     },
     {
@@ -163564,7 +163564,7 @@
     },
     {
       "number": 13213,
-      "title": "[PoC] PEP 751 `pip lock` command",
+      "title": "PEP 751 `pip lock` command",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -164737,6 +164737,56 @@
       "created_by": "ichard26",
       "closed_at": "2025-03-29T20:44:41+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13310,
+      "title": "Bump setuptools from 76.0.0 to 78.1.0",
+      "labels": [
+        "python",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-03-31T17:13:01+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13311,
+      "title": "repeat download",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-01T00:51:31+00:00",
+      "created_by": "bebilli",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13312,
+      "title": "\u201cBad CRC-32 for file\u201d error still in the air",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-01T04:16:03+00:00",
+      "created_by": "ziyuliu258",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13313,
+      "title": "Vendoring updates for release 25.1",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-01T11:12:25+00:00",
+      "created_by": "pfmoore",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -164744,7 +164794,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-03-31T15:03:11+00:00",
+    "last_updated": "2025-04-01T15:03:19+00:00",
     "version": 1
   }
 }
