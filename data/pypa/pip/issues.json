@@ -164716,7 +164716,7 @@
     },
     {
       "number": 13308,
-      "title": "Remove docs/tests for --no-python-version-warning",
+      "title": "Reverse deprecation of --no-python-version-warning",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -164767,8 +164767,7 @@
       "number": 13312,
       "title": "\u201cBad CRC-32 for file\u201d error still in the air",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: support"
       ],
       "is_pr": false,
       "created_at": "2025-04-01T04:16:03+00:00",
@@ -164794,7 +164793,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-01T15:03:19+00:00",
+    "last_updated": "2025-04-02T15:03:13+00:00",
     "version": 1
   }
 }
