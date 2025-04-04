@@ -161054,7 +161054,7 @@
     },
     {
       "number": 13010,
-      "title": "Never use the pkg_resources metadata backend on python 3.13+",
+      "title": "Never use pkg_resources metadata backend on python 3.14+",
       "labels": [
         "project: <downstream>",
         "bot:chronographer:provided"
@@ -163162,7 +163162,7 @@
       "is_pr": true,
       "created_at": "2025-01-26T15:46:43+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-04-03T15:06:31+00:00",
       "closed_by": null
     },
     {
@@ -164723,7 +164723,7 @@
       "is_pr": true,
       "created_at": "2025-03-28T02:23:04+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-04-03T15:06:30+00:00",
       "closed_by": null
     },
     {
@@ -164760,8 +164760,8 @@
       "is_pr": false,
       "created_at": "2025-04-01T00:51:31+00:00",
       "created_by": "bebilli",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-03T12:44:44+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13312,
@@ -164793,7 +164793,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-02T15:03:13+00:00",
+    "last_updated": "2025-04-04T15:03:04+00:00",
     "version": 1
   }
 }
