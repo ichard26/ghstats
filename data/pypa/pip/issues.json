@@ -161062,7 +161062,7 @@
       "is_pr": true,
       "created_at": "2024-10-13T10:39:54+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-04-05T11:07:15+00:00",
       "closed_by": null
     },
     {
@@ -163566,6 +163566,8 @@
       "number": 13213,
       "title": "PEP 751 `pip lock` command",
       "labels": [
+        "C: dependency resolution",
+        "PEP implementation",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -164786,6 +164788,82 @@
       "created_by": "pfmoore",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13314,
+      "title": "Deprecate and remove the `setup.py bdist_wheel` code path. Aka always use PEP 517.",
+      "labels": [
+        "type: deprecation",
+        "C: build logic"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-04T17:49:41+00:00",
+      "created_by": "sbidoul",
+      "closed_at": "2025-04-05T13:03:26+00:00",
+      "closed_by": "sbidoul"
+    },
+    {
+      "number": 13315,
+      "title": "Postpone removal of eggs support to 26.3",
+      "labels": [
+        "skip news",
+        "type: deprecation"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-05T11:12:21+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13316,
+      "title": "Postpone removal of legacy editable installs to 25.2",
+      "labels": [
+        "skip news",
+        "type: deprecation"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-05T11:23:54+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13317,
+      "title": "Remove support for the `pkg_resources` metadata backend.",
+      "labels": [
+        "type: deprecation"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-05T11:59:03+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13318,
+      "title": "Warn when the pkg_resource metadata backend is used with Python 3.11, 3.12, 3.13",
+      "labels": [
+        "type: deprecation",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-05T12:06:25+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13319,
+      "title": "Deprecate the `setup.py bdist_wheel` code path",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-05T12:57:34+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -164793,7 +164871,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-04T15:03:04+00:00",
+    "last_updated": "2025-04-05T15:02:43+00:00",
     "version": 1
   }
 }
