@@ -163507,6 +163507,7 @@
       "title": "pip install --target still complaining about \"externally managed platform\".",
       "labels": [
         "type: bug",
+        "S: awaiting response",
         "S: needs triage"
       ],
       "is_pr": false,
@@ -164751,7 +164752,7 @@
       "is_pr": true,
       "created_at": "2025-03-31T17:13:01+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-04-06T21:23:42+00:00",
       "closed_by": null
     },
     {
@@ -164813,7 +164814,7 @@
       "is_pr": true,
       "created_at": "2025-04-05T11:12:21+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-04-06T22:08:53+00:00",
       "closed_by": null
     },
     {
@@ -164877,6 +164878,43 @@
       "created_by": "fcotizelati",
       "closed_at": "2025-04-06T14:28:27+00:00",
       "closed_by": "fcotizelati"
+    },
+    {
+      "number": 13321,
+      "title": "Create a build project directory",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-06T18:18:16+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2025-04-06T21:23:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13322,
+      "title": "Bump setuptools from 76.0.0 to 78.1.0 in /build-project",
+      "labels": [
+        "python",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-06T21:24:04+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2025-04-07T03:38:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13323,
+      "title": "[DO-NOT-MERGE] populate requirement.specifier on demand",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-07T01:09:56+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-04-07T03:41:39+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -164884,7 +164922,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-06T15:02:54+00:00",
+    "last_updated": "2025-04-07T15:03:04+00:00",
     "version": 1
   }
 }
