@@ -164938,6 +164938,32 @@
       "created_by": "nraynaud",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13326,
+      "title": "Use metadata 2.2+ for sdist dependencies",
+      "labels": [
+        "type: feature request",
+        "PEP implementation"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-08T22:09:27+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13327,
+      "title": "I cannot run `pip install .`",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-09T03:04:07+00:00",
+      "created_by": "hzhangxyz",
+      "closed_at": "2025-04-09T03:06:13+00:00",
+      "closed_by": "hzhangxyz"
     }
   ],
   "record": {
@@ -164945,7 +164971,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-08T15:03:19+00:00",
+    "last_updated": "2025-04-09T15:04:43+00:00",
     "version": 1
   }
 }
