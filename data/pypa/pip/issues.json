@@ -155901,13 +155901,14 @@
       "title": "More robust shebang manipulation",
       "labels": [
         "C: scripts",
-        "type: feature request"
+        "type: feature request",
+        "resolution: wrong project"
       ],
       "is_pr": false,
       "created_at": "2024-03-26T13:19:53+00:00",
       "created_by": "jaraco",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-10T10:11:15+00:00",
+      "closed_by": "pfmoore"
     },
     {
       "number": 12600,
@@ -163647,7 +163648,7 @@
       "is_pr": true,
       "created_at": "2025-02-10T21:19:05+00:00",
       "created_by": "KrishanBhasin",
-      "closed_at": null,
+      "closed_at": "2025-04-10T12:48:08+00:00",
       "closed_by": null
     },
     {
@@ -164964,6 +164965,31 @@
       "created_by": "hzhangxyz",
       "closed_at": "2025-04-09T03:06:13+00:00",
       "closed_by": "hzhangxyz"
+    },
+    {
+      "number": 13328,
+      "title": "Broken pip3 because it `import re` from TouchDesigner",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-09T16:21:43+00:00",
+      "created_by": "staeter",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13329,
+      "title": "Pass verbosity flag to VCS (git) module",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-09T21:03:52+00:00",
+      "created_by": "ByteB4rb1e",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -164971,7 +164997,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-09T15:04:43+00:00",
+    "last_updated": "2025-04-10T15:03:21+00:00",
     "version": 1
   }
 }
