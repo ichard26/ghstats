@@ -163264,8 +163264,8 @@
       "is_pr": false,
       "created_at": "2025-01-28T16:57:53+00:00",
       "created_by": "krishanbhasin-px",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-10T15:34:58+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13189,
@@ -164931,8 +164931,7 @@
       "number": 13325,
       "title": "Make the frozen dataclasses picklable",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2025-04-08T12:18:54+00:00",
@@ -164990,6 +164989,18 @@
       "created_by": "ByteB4rb1e",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13330,
+      "title": "Remove check for wheel in --no-use-pep517",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-10T22:45:21+00:00",
+      "created_by": "stefanor",
+      "closed_at": "2025-04-11T14:13:13+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -164997,7 +165008,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-10T15:03:21+00:00",
+    "last_updated": "2025-04-11T15:03:22+00:00",
     "version": 1
   }
 }
