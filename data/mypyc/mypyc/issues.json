@@ -12364,6 +12364,16 @@
       "created_by": "Chainfire",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1099,
+      "title": "Unsupported imports for type annotations",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-04-11T19:24:43+00:00",
+      "created_by": "advait-dixit",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12371,7 +12381,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-03-29T15:02:55+00:00",
+    "last_updated": "2025-04-12T15:02:38+00:00",
     "version": 1
   }
 }
