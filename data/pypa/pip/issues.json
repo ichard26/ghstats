@@ -76778,14 +76778,14 @@
       "number": 6100,
       "title": "Installing poetry project results in get pip._vendor.pep517.wrappers.BackendUnavailable",
       "labels": [
-        "type: support",
-        "state: needs discussion"
+        "project: vendored dependency",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2018-12-28T21:33:44+00:00",
       "created_by": "cs01",
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "pradyunsg"
     },
     {
       "number": 6101,
@@ -88299,8 +88299,8 @@
       "is_pr": false,
       "created_at": "2019-09-02T11:10:38+00:00",
       "created_by": "jmons",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-12T17:41:39+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 6962,
@@ -159701,7 +159701,7 @@
       "is_pr": true,
       "created_at": "2024-08-06T19:02:42+00:00",
       "created_by": "matthewhughes934",
-      "closed_at": null,
+      "closed_at": "2025-04-13T14:55:21+00:00",
       "closed_by": null
     },
     {
@@ -164473,7 +164473,8 @@
       "title": "pip with truststore and proxy can use incorrect ssl_context",
       "labels": [
         "type: bug",
-        "C: network connectivity"
+        "C: network connectivity",
+        "state: needs eyes"
       ],
       "is_pr": false,
       "created_at": "2025-03-19T14:24:30+00:00",
@@ -165005,11 +165006,13 @@
     {
       "number": 13331,
       "title": "Fixup changelog entry for 12963",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-04-12T14:38:37+00:00",
       "created_by": "shenanigansd",
-      "closed_at": null,
+      "closed_at": "2025-04-12T15:09:46+00:00",
       "closed_by": null
     }
   ],
@@ -165018,7 +165021,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-12T15:02:39+00:00",
+    "last_updated": "2025-04-13T15:03:02+00:00",
     "version": 1
   }
 }
