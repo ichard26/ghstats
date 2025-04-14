@@ -80331,8 +80331,8 @@
       "is_pr": false,
       "created_at": "2019-03-29T19:02:32+00:00",
       "created_by": "paddymul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-14T14:43:02+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 6370,
@@ -159459,8 +159459,8 @@
       "is_pr": false,
       "created_at": "2024-07-29T22:23:04+00:00",
       "created_by": "eli-schwartz",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-13T15:03:06+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12882,
@@ -163018,7 +163018,7 @@
       "is_pr": true,
       "created_at": "2025-01-15T19:06:14+00:00",
       "created_by": "matthewhughes934",
-      "closed_at": null,
+      "closed_at": "2025-04-13T15:03:05+00:00",
       "closed_by": null
     },
     {
@@ -164043,12 +164043,13 @@
       "number": 13251,
       "title": "doc: Explain how to query values for --platform and --python-version ",
       "labels": [
+        "skip news",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2025-03-01T12:22:06+00:00",
       "created_by": "Shepard2154",
-      "closed_at": null,
+      "closed_at": "2025-04-14T14:43:01+00:00",
       "closed_by": null
     },
     {
@@ -165021,7 +165022,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-13T15:03:02+00:00",
+    "last_updated": "2025-04-14T15:03:15+00:00",
     "version": 1
   }
 }
