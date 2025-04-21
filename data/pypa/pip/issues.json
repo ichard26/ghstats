@@ -164975,8 +164975,8 @@
       "is_pr": false,
       "created_at": "2025-04-09T16:21:43+00:00",
       "created_by": "staeter",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T00:07:58+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13329,
@@ -165141,6 +165141,31 @@
       "created_by": "chowdri",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13342,
+      "title": "Trim distlib to only include scripts code",
+      "labels": [
+        "skip news",
+        "project: vendored dependency"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-20T23:17:27+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13343,
+      "title": "Inject SSL context into urllib3 ProxyManager, too",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-21T00:31:07+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -165148,7 +165173,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-20T15:02:46+00:00",
+    "last_updated": "2025-04-21T15:03:06+00:00",
     "version": 1
   }
 }
