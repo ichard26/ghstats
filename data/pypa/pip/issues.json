@@ -46817,7 +46817,7 @@
       "created_at": "2016-06-23T10:27:18+00:00",
       "created_by": "pradyunsg",
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "dholth"
     },
     {
       "number": 3810,
@@ -121644,13 +121644,14 @@
       "title": "Fish completion broken for inline env var",
       "labels": [
         "type: bug",
+        "C: autocomplete",
         "help wanted"
       ],
       "is_pr": false,
       "created_at": "2021-03-03T00:35:22+00:00",
       "created_by": "pikeas",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T17:25:56+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9680,
@@ -126003,13 +126004,14 @@
       "title": "package not importable after editable install (works without --editable)",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "S: needs triage",
+        "state: needs reproducer"
       ],
       "is_pr": false,
       "created_at": "2021-06-12T02:41:27+00:00",
       "created_by": "bentheadset",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T23:55:40+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 10058,
@@ -142319,8 +142321,8 @@
       "is_pr": false,
       "created_at": "2022-09-18T19:04:53+00:00",
       "created_by": "nanonyme",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-22T00:00:01+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11461,
@@ -147201,8 +147203,8 @@
       "is_pr": false,
       "created_at": "2023-03-19T20:11:18+00:00",
       "created_by": "RajKrishna2123",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T23:43:13+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11878,
@@ -152227,7 +152229,7 @@
     },
     {
       "number": 12300,
-      "title": "Upgrade vendored packaging lib",
+      "title": "Upgrade vendored packaging to 24.0",
       "labels": [
         "type: deprecation",
         "bot:chronographer:provided"
@@ -152331,7 +152333,7 @@
       "is_pr": true,
       "created_at": "2023-10-01T13:21:42+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-04-21T19:30:41+00:00",
       "closed_by": null
     },
     {
@@ -152593,8 +152595,8 @@
       "is_pr": false,
       "created_at": "2023-10-08T15:17:41+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T19:30:42+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 12331,
@@ -153233,14 +153235,14 @@
       "number": 12383,
       "title": "--retries has no effect during streaming downloads",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: feature request",
+        "C: network connectivity"
       ],
       "is_pr": false,
       "created_at": "2023-11-03T18:17:13+00:00",
       "created_by": "asottile-sentry",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T17:16:51+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12384,
@@ -154620,14 +154622,15 @@
       "number": 12498,
       "title": "Optimize Backtracking in Pip's Dependency Resolution By Prioritizing Direct Conflicts",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "C: dependency resolution",
+        "resolution: no action",
+        "type: performance"
       ],
       "is_pr": false,
       "created_at": "2024-01-30T02:02:00+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T19:02:32+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12499,
@@ -160134,13 +160137,14 @@
       "title": "pass rustflags to isolated environemnt",
       "labels": [
         "type: feature request",
-        "S: needs triage"
+        "resolution: no action",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2024-08-24T12:35:04+00:00",
       "created_by": "n-bes",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T23:34:54+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12936,
@@ -160985,12 +160989,14 @@
     {
       "number": 13004,
       "title": "pkg_resources metadata backend not useable with setuptools>=71 ?",
-      "labels": [],
+      "labels": [
+        "project: vendored dependency"
+      ],
       "is_pr": false,
       "created_at": "2024-10-12T18:14:00+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T19:08:03+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13005,
@@ -164616,8 +164622,8 @@
       "is_pr": false,
       "created_at": "2025-03-24T20:40:36+00:00",
       "created_by": "mhsmith",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-21T16:23:51+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13300,
@@ -164667,7 +164673,7 @@
       "is_pr": true,
       "created_at": "2025-03-26T14:23:57+00:00",
       "created_by": "mhsmith",
-      "closed_at": null,
+      "closed_at": "2025-04-21T16:23:50+00:00",
       "closed_by": null
     },
     {
@@ -164704,7 +164710,7 @@
       "is_pr": true,
       "created_at": "2025-03-27T23:52:10+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-04-21T22:12:05+00:00",
       "closed_by": null
     },
     {
@@ -165134,7 +165140,8 @@
       "title": "python3 -mpip list --format=freeze giving unclear errors.",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: list/show",
+        "kind: crash"
       ],
       "is_pr": false,
       "created_at": "2025-04-19T17:32:06+00:00",
@@ -165166,6 +165173,33 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13344,
+      "title": "Bump setuptools from 78.1.0 to 79.0.0 in /build-project",
+      "labels": [
+        "python",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-21T16:46:24+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13345,
+      "title": "Handle invalid versions gracefully for all list formats",
+      "labels": [
+        "type: bug",
+        "C: list/show",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-21T16:58:50+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -165173,7 +165207,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-21T15:03:06+00:00",
+    "last_updated": "2025-04-22T15:03:13+00:00",
     "version": 1
   }
 }

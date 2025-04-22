@@ -54648,6 +54648,16 @@
       "created_by": "pekkaklarck",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4652,
+      "title": "Fix #2097: Recognize type comments with spaces after #",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-04-22T06:22:05+00:00",
+      "created_by": "anthonychen000",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54655,7 +54665,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-04-20T15:02:45+00:00",
+    "last_updated": "2025-04-22T15:03:12+00:00",
     "version": 1
   }
 }
