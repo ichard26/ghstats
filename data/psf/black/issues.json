@@ -54658,6 +54658,38 @@
       "created_by": "anthonychen000",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4653,
+      "title": "Trailing comma in `case` pattern causes `if` guard to explode",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-04-22T19:28:00+00:00",
+      "created_by": "dosisod",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4654,
+      "title": "Nested f strings",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-22T19:49:53+00:00",
+      "created_by": "shipra0803",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4655,
+      "title": "Fixed not in separating to newline for long lines (4514)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-04-22T20:56:02+00:00",
+      "created_by": "lukeyang01",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54665,7 +54697,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-04-22T15:03:12+00:00",
+    "last_updated": "2025-04-23T15:03:23+00:00",
     "version": 1
   }
 }

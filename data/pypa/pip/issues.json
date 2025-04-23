@@ -106136,13 +106136,14 @@
       "number": 8339,
       "title": "Alpha resolver fails to install on conflict when current resolver would permit it",
       "labels": [
-        "S: needs triage"
+        "C: dependency resolution",
+        "resolution: no action"
       ],
       "is_pr": false,
       "created_at": "2020-05-27T22:00:49+00:00",
       "created_by": "timmc-edx",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-04-23T00:16:30+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 8340,
@@ -165207,7 +165208,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-22T15:03:13+00:00",
+    "last_updated": "2025-04-23T15:03:25+00:00",
     "version": 1
   }
 }
