@@ -114471,7 +114471,8 @@
       "title": "Have `pip cache purge` and `pip cache remove` handle empty directories.",
       "labels": [
         "type: enhancement",
-        "C: cache"
+        "C: cache",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2020-10-26T20:14:29+00:00",
@@ -133968,11 +133969,13 @@
     {
       "number": 10755,
       "title": "Uninstall all packages before installing updated versions of them",
-      "labels": [],
+      "labels": [
+        "state: up for grabs (PR)"
+      ],
       "is_pr": true,
       "created_at": "2022-01-01T13:34:21+00:00",
       "created_by": "tzickel",
-      "closed_at": null,
+      "closed_at": "2025-04-24T19:52:29+00:00",
       "closed_by": null
     },
     {
@@ -138503,7 +138506,7 @@
       "is_pr": true,
       "created_at": "2022-05-23T16:52:23+00:00",
       "created_by": "sandeepkiran-js",
-      "closed_at": null,
+      "closed_at": "2025-04-24T20:00:30+00:00",
       "closed_by": null
     },
     {
@@ -144257,11 +144260,13 @@
     {
       "number": 11630,
       "title": "Fixes win/git-bash `pip uninstall mypackage` crash when in virtual environment \"input(): lost sys.stderr\"",
-      "labels": [],
+      "labels": [
+        "resolution: no action"
+      ],
       "is_pr": true,
       "created_at": "2022-12-01T09:20:59+00:00",
       "created_by": "zackees",
-      "closed_at": null,
+      "closed_at": "2025-04-24T20:42:00+00:00",
       "closed_by": null
     },
     {
@@ -148065,7 +148070,8 @@
       "number": 11953,
       "title": "message_about_scripts_not_on_PATH: use pathlib for path normalization and resolve symlinks",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2023-04-12T09:57:45+00:00",
@@ -148935,7 +148941,8 @@
       "number": 12025,
       "title": "Parse out extras when selecting from constraints",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2023-05-09T10:17:14+00:00",
@@ -151043,7 +151050,8 @@
       "number": 12201,
       "title": "Correctly assign configuration to origin files with `pip config`",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2023-08-03T09:01:53+00:00",
@@ -160693,12 +160701,13 @@
       "number": 12980,
       "title": "Apply more ruff rules",
       "labels": [
+        "resolution: no action",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2024-09-28T09:20:01+00:00",
       "created_by": "DimitriPapadopoulos",
-      "closed_at": null,
+      "closed_at": "2025-04-24T20:09:22+00:00",
       "closed_by": null
     },
     {
@@ -165207,7 +165216,9 @@
       "title": "Windows: Long filename detection",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "OS: windows",
+        "good first issue",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2025-04-23T22:09:11+00:00",
@@ -165247,7 +165258,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-24T15:03:23+00:00",
+    "last_updated": "2025-04-24T20:52:58+00:00",
     "version": 1
   }
 }
