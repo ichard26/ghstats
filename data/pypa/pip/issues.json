@@ -142282,7 +142282,7 @@
     },
     {
       "number": 11457,
-      "title": "Deprecate `pip install --editable` calling `setup.py develop`",
+      "title": "Deprecate legacy `setup.py develop` mechanism for `pip install --editable` ",
       "labels": [
         "C: editable",
         "type: deprecation"
@@ -162892,7 +162892,7 @@
     },
     {
       "number": 13157,
-      "title": "Raise an error on invalid egg fragments",
+      "title": "Deprecation: non-bare project name in URL/VCS `egg=` fragments",
       "labels": [
         "type: deprecation"
       ],
@@ -165296,7 +165296,8 @@
       "title": "There was an error checking the latest version of pip",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "resolution: deferred till PR",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2025-04-26T10:38:52+00:00",
@@ -165310,7 +165311,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-26T15:03:10+00:00",
+    "last_updated": "2025-04-27T15:02:54+00:00",
     "version": 1
   }
 }
