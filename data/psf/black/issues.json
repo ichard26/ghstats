@@ -54505,7 +54505,7 @@
       "is_pr": true,
       "created_at": "2025-03-31T06:57:31+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-04-28T06:39:29+00:00",
       "closed_by": null
     },
     {
@@ -54732,6 +54732,19 @@
       "created_by": "JosephIsaacTurner",
       "closed_at": "2025-04-26T23:18:17+00:00",
       "closed_by": "JosephIsaacTurner"
+    },
+    {
+      "number": 4660,
+      "title": "Bump pypa/cibuildwheel from 2.22.0 to 2.23.3",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-28T06:39:26+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54739,7 +54752,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-04-27T15:02:53+00:00",
+    "last_updated": "2025-04-28T15:03:21+00:00",
     "version": 1
   }
 }
