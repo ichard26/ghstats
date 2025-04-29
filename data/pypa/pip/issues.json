@@ -165306,10 +165306,10 @@
     },
     {
       "number": 13353,
-      "title": "pip wheel_builder _should_build is broken",
+      "title": "[pip 25.1] `assert req.source_dir` fails with the legacy resolver enabled",
       "labels": [
         "type: bug",
-        "state: needs reproducer"
+        "kind: crash"
       ],
       "is_pr": false,
       "created_at": "2025-04-27T15:46:50+00:00",
@@ -165342,6 +165342,107 @@
       "created_by": "ion-elgreco",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13356,
+      "title": "Fix new dependency-groups feature to use the stdlib tomllib where possible",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-28T15:52:19+00:00",
+      "created_by": "eli-schwartz",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13357,
+      "title": "Workaround test failures with setuptools 80",
+      "labels": [
+        "skip news",
+        "type: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-28T16:46:02+00:00",
+      "created_by": "sbidoul",
+      "closed_at": "2025-04-29T05:45:41+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13358,
+      "title": "Automatically do --no-use-pep517 builds, even without wheel",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-28T16:57:58+00:00",
+      "created_by": "stefanor",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13359,
+      "title": "pip 25.1 crashes when installing PySide6",
+      "labels": [
+        "type: bug",
+        "kind: crash"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-28T17:13:34+00:00",
+      "created_by": "aplzr",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13360,
+      "title": "Bump actions/download-artifact from 4.2.1 to 4.3.0 in the github-actions group",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-28T17:18:38+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13361,
+      "title": "Bump setuptools from 79.0.0 to 80.0.0 in /build-project",
+      "labels": [
+        "python",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-28T17:35:19+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13362,
+      "title": "error while installing packages",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-29T00:14:15+00:00",
+      "created_by": "rafuaero",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13363,
+      "title": "Don't attempt to build requirements that don't need to be installed",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-29T06:35:45+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -165349,7 +165450,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-28T15:03:23+00:00",
+    "last_updated": "2025-04-29T15:03:12+00:00",
     "version": 1
   }
 }
