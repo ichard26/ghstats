@@ -165443,6 +165443,53 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13364,
+      "title": "Revert StreamWrapper removal to restore Python 3.9.{0,6} compat",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-29T20:13:03+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13365,
+      "title": "Consistently pass verbosity flag to VCS module",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-04-29T23:17:36+00:00",
+      "created_by": "ByteB4rb1e",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13366,
+      "title": "[Wheel Variants] Wheel Variant Support for PIP",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-04-29T23:44:45+00:00",
+      "created_by": "DEKHTIARJonathan",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13367,
+      "title": "Requires-Python error message should not sort versions numerically, not alphabetically",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-04-30T06:28:40+00:00",
+      "created_by": "thomasaarholt",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -165450,7 +165497,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-29T15:03:12+00:00",
+    "last_updated": "2025-04-30T15:03:23+00:00",
     "version": 1
   }
 }
