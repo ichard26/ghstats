@@ -165060,7 +165060,7 @@
     },
     {
       "number": 13334,
-      "title": "Implement PEP 751 aka standardized lockfiles",
+      "title": "Implement installation from PEP 751 aka standardized lockfiles",
       "labels": [
         "type: feature request",
         "PEP implementation",
@@ -165377,7 +165377,7 @@
       "is_pr": true,
       "created_at": "2025-04-28T16:57:58+00:00",
       "created_by": "stefanor",
-      "closed_at": null,
+      "closed_at": "2025-05-01T14:06:09+00:00",
       "closed_by": null
     },
     {
@@ -165423,14 +165423,13 @@
       "number": 13362,
       "title": "error while installing packages",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: support"
       ],
       "is_pr": false,
       "created_at": "2025-04-29T00:14:15+00:00",
       "created_by": "rafuaero",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-05-01T13:56:03+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13363,
@@ -165482,12 +165481,49 @@
       "number": 13367,
       "title": "Requires-Python error message should not sort versions numerically, not alphabetically",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: enhancement",
+        "state: awaiting PR"
       ],
       "is_pr": false,
       "created_at": "2025-04-30T06:28:40+00:00",
       "created_by": "thomasaarholt",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13368,
+      "title": "distlib is not copied properly while upgrading pip from miniconda in pip 25.1",
+      "labels": [
+        "resolution: wrong project"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-01T09:50:34+00:00",
+      "created_by": "sauing",
+      "closed_at": "2025-05-01T10:35:37+00:00",
+      "closed_by": "pfmoore"
+    },
+    {
+      "number": 13369,
+      "title": "Add pylock parser and validator",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-01T11:18:36+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13370,
+      "title": "DRY tomlib compatibility",
+      "labels": [
+        "skip news",
+        "type: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-01T14:01:59+00:00",
+      "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
     }
@@ -165497,7 +165533,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-04-30T15:03:23+00:00",
+    "last_updated": "2025-05-01T15:03:04+00:00",
     "version": 1
   }
 }
