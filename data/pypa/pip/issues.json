@@ -136626,8 +136626,8 @@
       "is_pr": false,
       "created_at": "2022-03-23T14:04:16+00:00",
       "created_by": "C-nit",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-05-02T12:31:37+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 10984,
@@ -152753,8 +152753,8 @@
       "is_pr": false,
       "created_at": "2023-10-12T09:18:10+00:00",
       "created_by": "sigma67",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-05-02T08:44:54+00:00",
+      "closed_by": "sigma67"
     },
     {
       "number": 12343,
@@ -165314,8 +165314,8 @@
       "is_pr": false,
       "created_at": "2025-04-27T15:46:50+00:00",
       "created_by": "ramannanda9",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-05-02T14:44:55+00:00",
+      "closed_by": "pfmoore"
     },
     {
       "number": 13354,
@@ -165352,7 +165352,7 @@
       "is_pr": true,
       "created_at": "2025-04-28T15:52:19+00:00",
       "created_by": "eli-schwartz",
-      "closed_at": null,
+      "closed_at": "2025-05-02T14:31:41+00:00",
       "closed_by": null
     },
     {
@@ -165390,8 +165390,8 @@
       "is_pr": false,
       "created_at": "2025-04-28T17:13:34+00:00",
       "created_by": "aplzr",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-05-02T14:32:54+00:00",
+      "closed_by": "pfmoore"
     },
     {
       "number": 13360,
@@ -165440,7 +165440,7 @@
       "is_pr": true,
       "created_at": "2025-04-29T06:35:45+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-05-02T14:44:54+00:00",
       "closed_by": null
     },
     {
@@ -165452,7 +165452,7 @@
       "is_pr": true,
       "created_at": "2025-04-29T20:13:03+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-05-02T14:32:53+00:00",
       "closed_by": null
     },
     {
@@ -165516,7 +165516,7 @@
     },
     {
       "number": 13370,
-      "title": "DRY tomlib compatibility",
+      "title": "DRY tomllib compatibility",
       "labels": [
         "skip news",
         "type: maintenance"
@@ -165526,6 +165526,65 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13371,
+      "title": "Enable and enforce modern type annotations across the codebase",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-01T20:25:04+00:00",
+      "created_by": "pradyunsg",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13372,
+      "title": "pip 25.1 error when including a group dependency with underscore in name",
+      "labels": [
+        "type: bug",
+        "C: dependency groups"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-01T23:07:27+00:00",
+      "created_by": "user27182",
+      "closed_at": "2025-05-02T14:21:58+00:00",
+      "closed_by": "pfmoore"
+    },
+    {
+      "number": 13373,
+      "title": "Update version of `dependency-groups` to v1.3.1",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-02T00:45:47+00:00",
+      "created_by": "sirosen",
+      "closed_at": "2025-05-02T14:21:57+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13374,
+      "title": "News file fixups",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-02T14:42:10+00:00",
+      "created_by": "pfmoore",
+      "closed_at": "2025-05-02T14:48:10+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13375,
+      "title": "Release/25.1.1",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-05-02T14:51:47+00:00",
+      "created_by": "pfmoore",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -165533,7 +165592,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-05-01T15:03:04+00:00",
+    "last_updated": "2025-05-02T15:03:08+00:00",
     "version": 1
   }
 }

@@ -54745,6 +54745,18 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4661,
+      "title": "Import line comments get moved",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-02T12:44:28+00:00",
+      "created_by": "timthedevguy-truesec",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54752,7 +54764,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-05-01T15:03:03+00:00",
+    "last_updated": "2025-05-02T15:03:08+00:00",
     "version": 1
   }
 }
