@@ -165160,8 +165160,8 @@
       "is_pr": false,
       "created_at": "2025-04-19T17:32:06+00:00",
       "created_by": "chowdri",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-05-03T15:55:18+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13342,
@@ -165212,7 +165212,7 @@
       "is_pr": true,
       "created_at": "2025-04-21T16:58:50+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-05-03T15:55:17+00:00",
       "closed_by": null
     },
     {
@@ -165404,7 +165404,7 @@
       "is_pr": true,
       "created_at": "2025-04-28T17:18:38+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-05-03T15:58:39+00:00",
       "closed_by": null
     },
     {
@@ -165417,7 +165417,7 @@
       "is_pr": true,
       "created_at": "2025-04-28T17:35:19+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-05-03T15:50:58+00:00",
       "closed_by": null
     },
     {
@@ -165618,7 +165618,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-05-03T15:02:55+00:00",
+    "last_updated": "2025-05-04T15:02:59+00:00",
     "version": 1
   }
 }
