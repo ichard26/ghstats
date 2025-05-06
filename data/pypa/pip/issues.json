@@ -133629,8 +133629,8 @@
       "is_pr": false,
       "created_at": "2021-12-12T13:29:05+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-05-05T21:36:09+00:00",
+      "closed_by": "pradyunsg"
     },
     {
       "number": 10726,
@@ -165537,7 +165537,7 @@
       "is_pr": true,
       "created_at": "2025-05-01T20:25:04+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
+      "closed_at": "2025-05-05T21:36:08+00:00",
       "closed_by": null
     },
     {
@@ -165624,6 +165624,101 @@
       "created_by": "mgorny",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13379,
+      "title": "Bump setuptools from 80.0.0 to 80.3.1 in /build-project",
+      "labels": [
+        "python",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-05T16:46:03+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13380,
+      "title": "Bump actions/download-artifact from 4.2.1 to 4.3.0 in the github-actions group",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-05T17:19:56+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13381,
+      "title": "pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-05-05T18:15:00+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2025-05-05T18:19:24+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13382,
+      "title": "Tests: Stop requiring wheel.whl in common_wheels",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-05-05T21:27:42+00:00",
+      "created_by": "hroncok",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13383,
+      "title": "Refactor HTTP download logic ",
+      "labels": [
+        "type: refactor",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-06T00:51:29+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13384,
+      "title": "`ERROR:pip.subprocessor:Getting requirements to build wheel exited with 1`",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-06T04:28:48+00:00",
+      "created_by": "khteh",
+      "closed_at": "2025-05-06T06:23:10+00:00",
+      "closed_by": "khteh"
+    },
+    {
+      "number": 13385,
+      "title": "Tests: Add various missing @pytest.mark.network markers",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-05-06T07:53:33+00:00",
+      "created_by": "hroncok",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13386,
+      "title": "Error: \"externally-managed-environment\" when installing packages in a virtual environment without execution permissions on disk or directory",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-06T12:25:51+00:00",
+      "created_by": "stemplock",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -165631,7 +165726,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-05-05T15:03:16+00:00",
+    "last_updated": "2025-05-06T15:03:42+00:00",
     "version": 1
   }
 }
