@@ -132590,8 +132590,8 @@
       "is_pr": false,
       "created_at": "2021-11-04T23:43:03+00:00",
       "created_by": "brettcannon",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-05-07T08:38:04+00:00",
+      "closed_by": "pradyunsg"
     },
     {
       "number": 10637,
@@ -165622,7 +165622,7 @@
       "is_pr": true,
       "created_at": "2025-05-05T05:44:53+00:00",
       "created_by": "mgorny",
-      "closed_at": null,
+      "closed_at": "2025-05-06T23:42:27+00:00",
       "closed_by": null
     },
     {
@@ -165704,7 +165704,7 @@
       "is_pr": true,
       "created_at": "2025-05-06T07:53:33+00:00",
       "created_by": "hroncok",
-      "closed_at": null,
+      "closed_at": "2025-05-06T23:43:19+00:00",
       "closed_by": null
     },
     {
@@ -165719,6 +165719,19 @@
       "created_by": "stemplock",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13387,
+      "title": "Windows Store pip \"site\" config defaults to an immutable location",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-07T09:04:57+00:00",
+      "created_by": "RichardTea",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -165726,7 +165739,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-05-06T15:03:42+00:00",
+    "last_updated": "2025-05-07T15:03:32+00:00",
     "version": 1
   }
 }
