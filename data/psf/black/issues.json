@@ -54768,7 +54768,7 @@
       "is_pr": true,
       "created_at": "2025-05-04T21:38:05+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2025-05-12T00:21:51+00:00",
       "closed_by": null
     },
     {
@@ -54792,6 +54792,31 @@
       "created_by": "zsol",
       "closed_at": "2025-05-07T21:08:34+00:00",
       "closed_by": "zsol"
+    },
+    {
+      "number": 4665,
+      "title": "CI: Remove now-uneeded workarounds",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-12T02:57:27+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4666,
+      "title": "Update test_code_option_safe to work with click 8.2.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-05-12T11:52:01+00:00",
+      "created_by": "danigm",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54799,7 +54824,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-05-11T15:02:50+00:00",
+    "last_updated": "2025-05-12T15:03:55+00:00",
     "version": 1
   }
 }
