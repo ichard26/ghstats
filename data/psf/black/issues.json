@@ -54743,7 +54743,7 @@
       "is_pr": true,
       "created_at": "2025-04-28T06:39:26+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-05-15T12:22:11+00:00",
       "closed_by": null
     },
     {
@@ -54815,7 +54815,7 @@
       "is_pr": true,
       "created_at": "2025-05-12T11:52:01+00:00",
       "created_by": "danigm",
-      "closed_at": null,
+      "closed_at": "2025-05-15T12:04:00+00:00",
       "closed_by": null
     }
   ],
@@ -54824,7 +54824,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-05-14T15:03:14+00:00",
+    "last_updated": "2025-05-15T15:03:23+00:00",
     "version": 1
   }
 }

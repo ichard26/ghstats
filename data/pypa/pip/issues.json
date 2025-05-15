@@ -130647,8 +130647,8 @@
       "number": 10470,
       "title": "`pip index show` command which fetches the package information via the JSON API",
       "labels": [
-        "type: feature request",
-        "resolution: needs standard"
+        "resolution: deferred till PR",
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2021-09-14T13:26:02+00:00",
@@ -162607,8 +162607,8 @@
       "is_pr": false,
       "created_at": "2024-12-29T06:31:51+00:00",
       "created_by": "hongyi-zhao",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-05-15T03:42:44+00:00",
+      "closed_by": "uranusjr"
     },
     {
       "number": 13134,
@@ -162694,7 +162694,7 @@
       "is_pr": true,
       "created_at": "2025-01-03T15:54:32+00:00",
       "created_by": "matthewhughes934",
-      "closed_at": null,
+      "closed_at": "2025-05-15T03:42:43+00:00",
       "closed_by": null
     },
     {
@@ -165649,7 +165649,7 @@
       "is_pr": true,
       "created_at": "2025-05-05T17:19:56+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-05-15T14:39:29+00:00",
       "closed_by": null
     },
     {
@@ -165781,7 +165781,7 @@
       "is_pr": true,
       "created_at": "2025-05-12T17:08:42+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-05-15T14:36:13+00:00",
       "closed_by": null
     },
     {
@@ -165812,7 +165812,7 @@
     },
     {
       "number": 13394,
-      "title": "Requires-Python error message should not sort versions numerically, not alphabetically",
+      "title": "Requires-Python error message should sort versions numerically, not alphabetically",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -165828,7 +165828,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-05-14T15:03:14+00:00",
+    "last_updated": "2025-05-15T15:03:25+00:00",
     "version": 1
   }
 }
