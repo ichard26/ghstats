@@ -165846,6 +165846,19 @@
       "created_by": "mklein0",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13397,
+      "title": "Crash when compiling kivy app into apk ModuleNotFoundError: No module named 'tomli'",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-18T12:22:25+00:00",
+      "created_by": "ianovert",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -165853,7 +165866,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-05-17T15:02:54+00:00",
+    "last_updated": "2025-05-18T15:02:51+00:00",
     "version": 1
   }
 }
