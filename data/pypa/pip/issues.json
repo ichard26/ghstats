@@ -165859,6 +165859,31 @@
       "created_by": "ianovert",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13398,
+      "title": "Make --resume-retries the default in pip install",
+      "labels": [
+        "type: feature request",
+        "C: network connectivity"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-18T17:18:17+00:00",
+      "created_by": "gmargaritis",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13399,
+      "title": "termux deface",
+      "labels": [
+        "resolution: wrong project"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-19T10:35:27+00:00",
+      "created_by": "octavo",
+      "closed_at": "2025-05-19T11:13:43+00:00",
+      "closed_by": "pfmoore"
     }
   ],
   "record": {
@@ -165866,7 +165891,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-05-18T15:02:51+00:00",
+    "last_updated": "2025-05-19T15:03:39+00:00",
     "version": 1
   }
 }
