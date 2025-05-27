@@ -54822,6 +54822,18 @@
       "created_by": "danigm",
       "closed_at": "2025-05-15T12:04:00+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4667,
+      "title": "reformatting some chained ternaries decreases their readability",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-27T14:25:32+00:00",
+      "created_by": "jap",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54829,7 +54841,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-05-26T15:03:12+00:00",
+    "last_updated": "2025-05-27T15:03:26+00:00",
     "version": 1
   }
 }
