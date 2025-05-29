@@ -165919,7 +165919,7 @@
       "is_pr": true,
       "created_at": "2025-05-20T14:51:30+00:00",
       "created_by": "eevelweezel",
-      "closed_at": null,
+      "closed_at": "2025-05-29T00:35:22+00:00",
       "closed_by": null
     },
     {
@@ -165976,12 +165976,39 @@
     {
       "number": 13407,
       "title": "Make the revision part percent-encoded in version control URLs",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2025-05-28T06:10:40+00:00",
       "created_by": "kazssym",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13408,
+      "title": "Show basic package ownership information with an --info flag",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-28T16:32:07+00:00",
+      "created_by": "alonj",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13409,
+      "title": "pip not working",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-05-28T17:36:04+00:00",
+      "created_by": "UsErNaMe-182",
+      "closed_at": "2025-05-28T21:09:05+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -165989,7 +166016,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-05-28T15:03:08+00:00",
+    "last_updated": "2025-05-29T15:03:21+00:00",
     "version": 1
   }
 }
