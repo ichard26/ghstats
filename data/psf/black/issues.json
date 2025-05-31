@@ -50010,7 +50010,7 @@
       "is_pr": true,
       "created_at": "2024-02-20T01:32:28+00:00",
       "created_by": "sbivol",
-      "closed_at": null,
+      "closed_at": "2025-05-31T01:57:39+00:00",
       "closed_by": null
     },
     {
@@ -54890,6 +54890,36 @@
       "created_by": "MeGaGiGaGon",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4673,
+      "title": "Fix backslash cr nl bug",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-05-30T18:28:11+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4674,
+      "title": "Attempt to fix carriage return issues",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-05-30T21:36:57+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4675,
+      "title": "Fix handling of mismatched Python version in virtualenv",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-05-31T01:50:57+00:00",
+      "created_by": "sbivol",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54897,7 +54927,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-05-30T15:03:08+00:00",
+    "last_updated": "2025-05-31T15:02:53+00:00",
     "version": 1
   }
 }
