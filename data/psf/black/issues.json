@@ -54920,6 +54920,16 @@
       "created_by": "sbivol",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4676,
+      "title": "Fix await ellipses and remove `async/await` soft keyword/identifier support",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-06-01T00:52:41+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54927,7 +54937,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-05-31T15:02:53+00:00",
+    "last_updated": "2025-06-01T15:02:43+00:00",
     "version": 1
   }
 }
