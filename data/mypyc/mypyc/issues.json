@@ -12442,6 +12442,19 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1106,
+      "title": "Uses colors in error output",
+      "labels": [
+        "good first issue",
+        "usability"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-04T15:55:18+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12449,7 +12462,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-06-04T15:13:49+00:00",
+    "last_updated": "2025-06-05T15:03:24+00:00",
     "version": 1
   }
 }

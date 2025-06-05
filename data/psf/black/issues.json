@@ -54986,6 +54986,29 @@
       "created_by": "emilbowry",
       "closed_at": "2025-06-04T13:32:13+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4683,
+      "title": "black hook unexpectedly removes exception alias during pre-commit",
+      "labels": [
+        "T: bug",
+        "S: needs repro"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-04T19:15:42+00:00",
+      "created_by": "bfbarry",
+      "closed_at": "2025-06-04T21:09:50+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4684,
+      "title": "Fix type params tuple error",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-06-05T00:08:16+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -54993,7 +55016,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-06-04T15:13:47+00:00",
+    "last_updated": "2025-06-05T15:03:23+00:00",
     "version": 1
   }
 }
