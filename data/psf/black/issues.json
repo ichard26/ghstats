@@ -54888,8 +54888,8 @@
       "is_pr": false,
       "created_at": "2025-05-29T21:20:57+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-06-06T01:50:43+00:00",
+      "closed_by": "MeGaGiGaGon"
     },
     {
       "number": 4673,
@@ -54898,7 +54898,7 @@
       "is_pr": true,
       "created_at": "2025-05-30T18:28:11+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
+      "closed_at": "2025-06-06T01:49:15+00:00",
       "closed_by": null
     },
     {
@@ -54928,7 +54928,7 @@
       "is_pr": true,
       "created_at": "2025-06-01T00:52:41+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
+      "closed_at": "2025-06-06T01:50:42+00:00",
       "closed_by": null
     },
     {
@@ -55009,6 +55009,19 @@
       "created_by": "MeGaGiGaGon",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4685,
+      "title": "Convert legacy string formatting to f-strings",
+      "labels": [
+        "C: cleanup",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-06T00:22:15+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-06-06T01:51:26+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -55016,7 +55029,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-06-05T15:03:23+00:00",
+    "last_updated": "2025-06-06T15:03:08+00:00",
     "version": 1
   }
 }
