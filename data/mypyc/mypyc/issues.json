@@ -12369,7 +12369,9 @@
     {
       "number": 1099,
       "title": "Unsupported imports for type annotations",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-04-11T19:24:43+00:00",
       "created_by": "advait-dixit",
@@ -12379,7 +12381,10 @@
     {
       "number": 1100,
       "title": "Issue with torch type hint in dataclass",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2025-04-14T13:40:11+00:00",
       "created_by": "Igorsmit00",
@@ -12401,7 +12406,10 @@
     {
       "number": 1102,
       "title": "Compatibility issues with weakrefs",
-      "labels": [],
+      "labels": [
+        "feature",
+        "usability"
+      ],
       "is_pr": false,
       "created_at": "2025-05-08T19:58:13+00:00",
       "created_by": "BobTheBuidler",
@@ -12411,7 +12419,9 @@
     {
       "number": 1103,
       "title": "Failure test case for mypyc dictionary subclass views (keys, values, items)",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-05-12T17:23:25+00:00",
       "created_by": "BobTheBuidler",
@@ -12462,7 +12472,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-06-06T15:03:10+00:00",
+    "last_updated": "2025-06-07T15:02:59+00:00",
     "version": 1
   }
 }
