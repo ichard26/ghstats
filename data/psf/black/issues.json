@@ -55032,6 +55032,18 @@
       "created_by": "huisman",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4687,
+      "title": "Dictionary reformatting is not applied on all objects of the list",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-09T12:40:13+00:00",
+      "created_by": "harshithjv",
+      "closed_at": "2025-06-09T13:10:17+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -55039,7 +55051,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-06-07T15:02:58+00:00",
+    "last_updated": "2025-06-09T15:03:16+00:00",
     "version": 1
   }
 }
