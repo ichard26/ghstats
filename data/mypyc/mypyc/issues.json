@@ -12465,6 +12465,16 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1107,
+      "title": "System Error: method returned NULL without setting an exception",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-06-11T02:18:01+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12472,7 +12482,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-06-07T15:02:59+00:00",
+    "last_updated": "2025-06-11T15:03:16+00:00",
     "version": 1
   }
 }

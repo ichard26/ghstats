@@ -166151,6 +166151,19 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13422,
+      "title": "Provide more context if resolution error is caused by python version constraints",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-10T16:33:53+00:00",
+      "created_by": "AyanSinhaMahapatra",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166158,7 +166171,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-10T15:03:27+00:00",
+    "last_updated": "2025-06-11T15:03:17+00:00",
     "version": 1
   }
 }
