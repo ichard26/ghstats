@@ -55047,7 +55047,7 @@
     },
     {
       "number": 4688,
-      "title": "Small cleanup and release.py improvement",
+      "title": "Release.py improvement",
       "labels": [
         "C: cleanup",
         "skip news"
@@ -55055,7 +55055,7 @@
       "is_pr": true,
       "created_at": "2025-06-10T20:04:39+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
+      "closed_at": "2025-06-12T18:23:27+00:00",
       "closed_by": null
     },
     {
@@ -55081,6 +55081,67 @@
       "created_by": "MeGaGiGaGon",
       "closed_at": "2025-06-11T19:05:27+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4691,
+      "title": "Prerelease improvements",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-12T18:28:15+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-06-12T22:22:31+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4692,
+      "title": "Small cleanup to parsing.py",
+      "labels": [
+        "C: cleanup",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-12T18:31:17+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-06-12T22:23:33+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4693,
+      "title": "Improve line ranges docs note",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-12T18:37:06+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-06-13T01:39:55+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4694,
+      "title": "Misc lints",
+      "labels": [
+        "C: cleanup",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-13T06:01:37+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4695,
+      "title": "akinblack",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-06-13T14:21:29+00:00",
+      "created_by": "AKJUS",
+      "closed_at": "2025-06-13T14:31:03+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -55088,7 +55149,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-06-12T15:03:22+00:00",
+    "last_updated": "2025-06-13T15:03:16+00:00",
     "version": 1
   }
 }

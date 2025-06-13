@@ -166164,6 +166164,28 @@
       "created_by": "AyanSinhaMahapatra",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13423,
+      "title": "Adjust path_to_url et al. to produce the same results on Python 3.14+",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-06-12T22:06:05+00:00",
+      "created_by": "hroncok",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13424,
+      "title": "Guard against pathologically connected dependency graphs",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-12T22:19:27+00:00",
+      "created_by": "iamsrp-deshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166171,7 +166193,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-12T15:03:23+00:00",
+    "last_updated": "2025-06-13T15:03:19+00:00",
     "version": 1
   }
 }
