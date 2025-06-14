@@ -166186,6 +166186,43 @@
       "created_by": "iamsrp-deshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13425,
+      "title": "Windows console executables missing ASLR",
+      "labels": [
+        "resolution: wrong project"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-13T17:02:59+00:00",
+      "created_by": "mmansano-cvlt",
+      "closed_at": "2025-06-13T18:08:02+00:00",
+      "closed_by": "mmansano-cvlt"
+    },
+    {
+      "number": 13426,
+      "title": "Add ruff rules PIE",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-14T10:21:39+00:00",
+      "created_by": "cclauss",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13427,
+      "title": "Add Update command",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-14T11:02:51+00:00",
+      "created_by": "G0rocks",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166193,7 +166230,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-13T15:03:19+00:00",
+    "last_updated": "2025-06-14T15:03:02+00:00",
     "version": 1
   }
 }
