@@ -166223,6 +166223,19 @@
       "created_by": "G0rocks",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13428,
+      "title": "Upgrade vendored typing_extensions to 4.14.0",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-15T09:13:46+00:00",
+      "created_by": "youknowone",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166230,7 +166243,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-14T15:03:02+00:00",
+    "last_updated": "2025-06-15T15:03:05+00:00",
     "version": 1
   }
 }
