@@ -166236,6 +166236,45 @@
       "created_by": "youknowone",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13429,
+      "title": "outdated upgrade recommendation syntax",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-18T01:25:11+00:00",
+      "created_by": "mcandre",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13430,
+      "title": "Feature Request: Track dependency origin (direct vs. transitive) for improved cleanup and resolution",
+      "labels": [
+        "type: feature request",
+        "resolution: needs standard"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-18T05:27:53+00:00",
+      "created_by": "mystxcal",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13431,
+      "title": "pip should rebuild the cython module when it is missing in the downloaded wheel",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-18T05:54:22+00:00",
+      "created_by": "yurivict",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166243,7 +166282,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-17T15:03:24+00:00",
+    "last_updated": "2025-06-18T15:03:18+00:00",
     "version": 1
   }
 }
