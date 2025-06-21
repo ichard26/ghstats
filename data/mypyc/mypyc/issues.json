@@ -12508,6 +12508,18 @@
       "created_by": "BobTheBuidler",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1111,
+      "title": "Native unboxed enums",
+      "labels": [
+        "speed"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-21T10:11:09+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12515,7 +12527,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-06-19T15:03:12+00:00",
+    "last_updated": "2025-06-21T15:03:07+00:00",
     "version": 1
   }
 }

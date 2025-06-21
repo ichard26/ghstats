@@ -166311,8 +166311,31 @@
       "is_pr": false,
       "created_at": "2025-06-20T01:01:06+00:00",
       "created_by": "DataJuggler",
+      "closed_at": "2025-06-20T18:11:43+00:00",
+      "closed_by": "DataJuggler"
+    },
+    {
+      "number": 13435,
+      "title": "Fix: ensure upgrade message shows actual installed version",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-06-20T18:07:55+00:00",
+      "created_by": "coder-aditi",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13436,
+      "title": "Missing Comma Should Warn/Error",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-21T07:13:14+00:00",
+      "created_by": "George-Ogden",
+      "closed_at": "2025-06-21T14:42:45+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -166320,7 +166343,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-20T15:03:14+00:00",
+    "last_updated": "2025-06-21T15:03:08+00:00",
     "version": 1
   }
 }
