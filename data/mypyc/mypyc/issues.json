@@ -12520,6 +12520,16 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1112,
+      "title": "unpacking list raises TypeError",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-06-21T19:15:55+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12527,7 +12537,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-06-21T15:03:07+00:00",
+    "last_updated": "2025-06-22T15:02:48+00:00",
     "version": 1
   }
 }

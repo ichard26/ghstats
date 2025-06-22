@@ -163000,8 +163000,8 @@
       "is_pr": false,
       "created_at": "2025-01-14T18:14:47+00:00",
       "created_by": "hukkin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-06-21T18:01:54+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13166,
@@ -163012,7 +163012,7 @@
       "is_pr": true,
       "created_at": "2025-01-14T18:22:38+00:00",
       "created_by": "hukkin",
-      "closed_at": null,
+      "closed_at": "2025-06-21T18:01:53+00:00",
       "closed_by": null
     },
     {
@@ -165173,7 +165173,7 @@
       "is_pr": true,
       "created_at": "2025-04-20T23:17:27+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-06-22T01:15:51+00:00",
       "closed_by": null
     },
     {
@@ -165475,7 +165475,7 @@
       "is_pr": true,
       "created_at": "2025-04-29T23:44:45+00:00",
       "created_by": "DEKHTIARJonathan",
-      "closed_at": null,
+      "closed_at": "2025-06-21T19:16:58+00:00",
       "closed_by": null
     },
     {
@@ -166208,7 +166208,7 @@
       "is_pr": true,
       "created_at": "2025-06-14T10:21:39+00:00",
       "created_by": "cclauss",
-      "closed_at": null,
+      "closed_at": "2025-06-21T15:41:41+00:00",
       "closed_by": null
     },
     {
@@ -166228,8 +166228,7 @@
       "number": 13428,
       "title": "Upgrade vendored typing_extensions to 4.14.0",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "project: vendored dependency"
       ],
       "is_pr": false,
       "created_at": "2025-06-15T09:13:46+00:00",
@@ -166336,6 +166335,40 @@
       "created_by": "George-Ogden",
       "closed_at": "2025-06-21T14:42:45+00:00",
       "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13437,
+      "title": "Fix some incorrect indents in the document",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-06-22T01:29:13+00:00",
+      "created_by": "koyuki7w",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13438,
+      "title": "Release 25.2 (July)",
+      "labels": [
+        "type: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-22T01:35:25+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13439,
+      "title": "Vendoring bumps for pip 25.2",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-22T02:14:59+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166343,7 +166376,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-21T15:03:08+00:00",
+    "last_updated": "2025-06-22T15:02:49+00:00",
     "version": 1
   }
 }
