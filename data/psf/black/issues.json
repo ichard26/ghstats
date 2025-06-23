@@ -54783,7 +54783,7 @@
       "is_pr": true,
       "created_at": "2025-05-06T06:12:25+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
+      "closed_at": "2025-06-22T19:14:11+00:00",
       "closed_by": null
     },
     {
@@ -55067,8 +55067,8 @@
       "is_pr": false,
       "created_at": "2025-06-11T08:22:43+00:00",
       "created_by": "Paulchen5",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-06-22T17:23:14+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4690,
@@ -55177,8 +55177,8 @@
       "is_pr": false,
       "created_at": "2025-06-18T10:53:32+00:00",
       "created_by": "mcepl",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-06-22T17:09:52+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4699,
@@ -55189,6 +55189,18 @@
       "created_by": "cobaltt7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4700,
+      "title": "Regression: Docstrings reformatted to be too long",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-23T12:30:13+00:00",
+      "created_by": "cswrd",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -55196,7 +55208,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-06-22T15:02:48+00:00",
+    "last_updated": "2025-06-23T15:03:28+00:00",
     "version": 1
   }
 }

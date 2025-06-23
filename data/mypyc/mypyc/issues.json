@@ -12530,6 +12530,16 @@
       "created_by": "BobTheBuidler",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1113,
+      "title": "still unable to define msgspec.Struct subclasses with native_class=False",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-06-22T20:17:59+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12537,7 +12547,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-06-22T15:02:48+00:00",
+    "last_updated": "2025-06-23T15:03:29+00:00",
     "version": 1
   }
 }
