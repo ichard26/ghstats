@@ -166215,8 +166215,8 @@
       "number": 13427,
       "title": "Add Update command",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "state: needs discussion",
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2025-06-14T11:02:51+00:00",
@@ -166388,10 +166388,38 @@
     {
       "number": 13441,
       "title": "Cache final file from resume retry process",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2025-06-23T23:31:16+00:00",
       "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13442,
+      "title": "Download for target environment",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-24T23:10:33+00:00",
+      "created_by": "hackowitz-af",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13443,
+      "title": "Unhandled exception if version is not determinable",
+      "labels": [
+        "state: awaiting PR",
+        "C: error messages"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-25T07:13:06+00:00",
+      "created_by": "HenningUe",
       "closed_at": null,
       "closed_by": null
     }
@@ -166401,7 +166429,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-24T15:03:30+00:00",
+    "last_updated": "2025-06-25T15:03:28+00:00",
     "version": 1
   }
 }
