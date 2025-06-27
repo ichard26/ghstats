@@ -166432,7 +166432,7 @@
       "is_pr": true,
       "created_at": "2025-06-26T01:51:13+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-06-26T16:02:08+00:00",
       "closed_by": null
     },
     {
@@ -166446,6 +166446,44 @@
       "created_by": "MengAiDev",
       "closed_at": "2025-06-26T14:40:01+00:00",
       "closed_by": "pfmoore"
+    },
+    {
+      "number": 13446,
+      "title": "venv uses invalid proxy settings on windows",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-26T20:00:01+00:00",
+      "created_by": "TomzBench",
+      "closed_at": "2025-06-26T20:52:16+00:00",
+      "closed_by": "TomzBench"
+    },
+    {
+      "number": 13447,
+      "title": "Backport patch for GHSA-48p4-8xcf-vxj5 to vendored urllib3",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-26T20:13:14+00:00",
+      "created_by": "jdstrand",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13448,
+      "title": "TypeError while checking for conflicts",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-27T05:37:39+00:00",
+      "created_by": "MatthijsBurgh",
+      "closed_at": "2025-06-27T08:24:39+00:00",
+      "closed_by": "MatthijsBurgh"
     }
   ],
   "record": {
@@ -166453,7 +166491,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-26T15:03:36+00:00",
+    "last_updated": "2025-06-27T15:03:38+00:00",
     "version": 1
   }
 }
