@@ -114735,7 +114735,7 @@
       "title": "Rethink pip's PEP-517 mechanism",
       "labels": [
         "type: refactor",
-        "state: needs discussion",
+        "state: awaiting PR",
         "C: PEP 517 impact",
         "C: build isolation"
       ],
@@ -166233,8 +166233,8 @@
       "is_pr": false,
       "created_at": "2025-06-15T09:13:46+00:00",
       "created_by": "youknowone",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-06-27T15:44:24+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13429,
@@ -166484,6 +166484,68 @@
       "created_by": "MatthijsBurgh",
       "closed_at": "2025-06-27T08:24:39+00:00",
       "closed_by": "MatthijsBurgh"
+    },
+    {
+      "number": 13449,
+      "title": "Install dependencies from pyproject.toml like from requirements.txt with -r, (again)",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-06-27T15:04:57+00:00",
+      "created_by": "tim-win",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13450,
+      "title": "Install build dependencies in-process",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-06-27T19:19:27+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13451,
+      "title": "Add rich based spinner",
+      "labels": [
+        "skip news",
+        "C: output"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-27T23:27:11+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13452,
+      "title": "refactor: Add BuildEnvironmentInstaller protocol",
+      "labels": [
+        "type: refactor",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-28T01:17:48+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13453,
+      "title": "Convert installable wheel build error to diagnostic",
+      "labels": [
+        "skip news",
+        "C: error messages"
+      ],
+      "is_pr": true,
+      "created_at": "2025-06-28T01:24:59+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166491,7 +166553,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-06-27T15:03:38+00:00",
+    "last_updated": "2025-06-28T15:02:57+00:00",
     "version": 1
   }
 }
