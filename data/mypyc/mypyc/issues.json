@@ -12298,8 +12298,8 @@
       "is_pr": false,
       "created_at": "2025-02-24T12:42:49+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-01T13:03:03+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1094,
@@ -12338,8 +12338,8 @@
       "is_pr": false,
       "created_at": "2025-02-24T13:24:41+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-01T15:03:28+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1097,
@@ -12544,7 +12544,10 @@
     {
       "number": 1114,
       "title": "await inside finally swallows exceptions",
-      "labels": [],
+      "labels": [
+        "bug",
+        "area-irbuild"
+      ],
       "is_pr": false,
       "created_at": "2025-06-28T00:49:52+00:00",
       "created_by": "Chainfire",
@@ -12567,7 +12570,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-06-30T15:03:40+00:00",
+    "last_updated": "2025-07-01T15:03:36+00:00",
     "version": 1
   }
 }
