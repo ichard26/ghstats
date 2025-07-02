@@ -12480,6 +12480,7 @@
       "number": 1108,
       "title": "Constructing instance in classmethod raises SystemError",
       "labels": [
+        "bug",
         "priority-0-high",
         "crash"
       ],
@@ -12561,8 +12562,8 @@
       "is_pr": false,
       "created_at": "2025-06-29T08:56:47+00:00",
       "created_by": "Chainfire",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-02T12:03:06+00:00",
+      "closed_by": "Chainfire"
     }
   ],
   "record": {
@@ -12570,7 +12571,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-07-01T15:03:36+00:00",
+    "last_updated": "2025-07-02T15:03:25+00:00",
     "version": 1
   }
 }
