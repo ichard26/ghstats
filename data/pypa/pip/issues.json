@@ -166654,6 +166654,19 @@
       "created_by": "Copilot",
       "closed_at": "2025-07-03T15:05:02+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13463,
+      "title": "`pip download` selects different package to `pip install`",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-05T14:45:31+00:00",
+      "created_by": "ubermidget2",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166661,7 +166674,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-04T15:03:05+00:00",
+    "last_updated": "2025-07-05T15:02:56+00:00",
     "version": 1
   }
 }
