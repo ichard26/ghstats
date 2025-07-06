@@ -166096,7 +166096,10 @@
     {
       "number": 13417,
       "title": "Should we have a policy on AI-submitted pull requests?",
-      "labels": [],
+      "labels": [
+        "state: needs discussion",
+        "type: maintenance"
+      ],
       "is_pr": false,
       "created_at": "2025-06-05T19:45:17+00:00",
       "created_by": "pfmoore",
@@ -166453,6 +166456,7 @@
       "number": 13446,
       "title": "venv uses invalid proxy settings on windows",
       "labels": [
+        "C: proxy",
         "type: support"
       ],
       "is_pr": false,
@@ -166546,7 +166550,7 @@
       "is_pr": true,
       "created_at": "2025-06-28T01:24:59+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-07-05T19:32:31+00:00",
       "closed_by": null
     },
     {
@@ -166674,7 +166678,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-05T15:02:56+00:00",
+    "last_updated": "2025-07-06T15:02:59+00:00",
     "version": 1
   }
 }
