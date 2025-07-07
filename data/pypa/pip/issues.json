@@ -161885,8 +161885,8 @@
       "is_pr": false,
       "created_at": "2024-11-11T00:47:36+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-06T19:24:58+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13077,
@@ -165926,7 +165926,8 @@
       "number": 13403,
       "title": "Compile error installing package (fabric2==2.6.0)",
       "labels": [
-        "type: bug"
+        "type: bug",
+        "state: needs reproducer"
       ],
       "is_pr": false,
       "created_at": "2025-05-21T03:11:35+00:00",
@@ -166321,11 +166322,13 @@
     {
       "number": 13435,
       "title": "Fix: ensure upgrade message shows actual installed version",
-      "labels": [],
+      "labels": [
+        "resolution: no action"
+      ],
       "is_pr": true,
       "created_at": "2025-06-20T18:07:55+00:00",
       "created_by": "coder-aditi",
-      "closed_at": null,
+      "closed_at": "2025-07-06T16:10:24+00:00",
       "closed_by": null
     },
     {
@@ -166469,8 +166472,8 @@
       "number": 13447,
       "title": "Backport patch for GHSA-48p4-8xcf-vxj5 to vendored urllib3",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: security",
+        "S: awaiting response"
       ],
       "is_pr": false,
       "created_at": "2025-06-26T20:13:14+00:00",
@@ -166646,7 +166649,7 @@
       "is_pr": true,
       "created_at": "2025-07-03T14:27:01+00:00",
       "created_by": "stephenfin",
-      "closed_at": null,
+      "closed_at": "2025-07-06T22:33:52+00:00",
       "closed_by": null
     },
     {
@@ -166671,6 +166674,18 @@
       "created_by": "ubermidget2",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13464,
+      "title": "Enable resumable downloads by default",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-06T17:13:27+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166678,7 +166693,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-06T15:02:59+00:00",
+    "last_updated": "2025-07-07T15:03:05+00:00",
     "version": 1
   }
 }
