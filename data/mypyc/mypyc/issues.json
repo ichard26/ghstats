@@ -9774,8 +9774,8 @@
       "is_pr": false,
       "created_at": "2021-07-26T20:33:52+00:00",
       "created_by": "pranavrajpal",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-08T10:05:27+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 880,
@@ -12564,6 +12564,16 @@
       "created_by": "Chainfire",
       "closed_at": "2025-07-02T12:03:06+00:00",
       "closed_by": "Chainfire"
+    },
+    {
+      "number": 1116,
+      "title": "Unknown regression on master causing test failures after merging into previously working feature branch",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-07-08T13:53:49+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12571,7 +12581,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-07-06T15:02:59+00:00",
+    "last_updated": "2025-07-08T15:03:17+00:00",
     "version": 1
   }
 }

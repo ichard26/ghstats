@@ -55215,6 +55215,16 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4702,
+      "title": "[pre-commit.ci] pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-07-07T20:40:26+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -55222,7 +55232,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-07-07T15:03:03+00:00",
+    "last_updated": "2025-07-08T15:03:15+00:00",
     "version": 1
   }
 }

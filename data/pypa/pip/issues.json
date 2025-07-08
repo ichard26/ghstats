@@ -151590,12 +151590,13 @@
       "number": 12245,
       "title": "Validate platforms",
       "labels": [
+        "resolution: no action",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2023-08-26T04:41:32+00:00",
       "created_by": "MohsenAAkeel",
-      "closed_at": null,
+      "closed_at": "2025-07-07T21:42:39+00:00",
       "closed_by": null
     },
     {
@@ -157397,7 +157398,9 @@
     {
       "number": 12717,
       "title": "Implement --upload-before",
-      "labels": [],
+      "labels": [
+        "state: up for grabs (PR)"
+      ],
       "is_pr": true,
       "created_at": "2024-05-20T19:51:41+00:00",
       "created_by": "uranusjr",
@@ -157708,7 +157711,8 @@
       "number": 12741,
       "title": "tolerate empty extras in editable requirement",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2024-06-02T03:30:39+00:00",
@@ -157860,12 +157864,13 @@
       "title": "Update docs to add git+ssh install example",
       "labels": [
         "type: docs",
+        "resolution: no action",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2024-06-06T16:52:01+00:00",
       "created_by": "waketzheng",
-      "closed_at": null,
+      "closed_at": "2025-07-07T21:29:10+00:00",
       "closed_by": null
     },
     {
@@ -160179,7 +160184,7 @@
       "is_pr": true,
       "created_at": "2024-08-24T18:53:04+00:00",
       "created_by": "DimitriPapadopoulos",
-      "closed_at": null,
+      "closed_at": "2025-07-07T21:24:42+00:00",
       "closed_by": null
     },
     {
@@ -161570,7 +161575,8 @@
       "number": 13051,
       "title": "Add --no-proxy Option",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2024-10-27T21:26:38+00:00",
@@ -166473,7 +166479,7 @@
       "title": "Backport patch for GHSA-48p4-8xcf-vxj5 to vendored urllib3",
       "labels": [
         "type: security",
-        "S: awaiting response"
+        "resolution: no action"
       ],
       "is_pr": false,
       "created_at": "2025-06-26T20:13:14+00:00",
@@ -166686,6 +166692,41 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13465,
+      "title": "pip can't install from pypi.org on Windows because of missing root certificate",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-07T16:57:57+00:00",
+      "created_by": "usiems",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13466,
+      "title": "pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-07-07T18:28:37+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2025-07-07T20:10:41+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13467,
+      "title": "Suppress the progress bar with --quiet and --log",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-07T22:38:13+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166693,7 +166734,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-07T15:03:05+00:00",
+    "last_updated": "2025-07-08T15:03:18+00:00",
     "version": 1
   }
 }
