@@ -106035,8 +106035,8 @@
       "is_pr": false,
       "created_at": "2020-05-27T07:53:24+00:00",
       "created_by": "McSinyx",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-08T22:31:55+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 8331,
@@ -125216,11 +125216,14 @@
     {
       "number": 9990,
       "title": "Fix --user --editable installs for pep-517",
-      "labels": [],
+      "labels": [
+        "resolution: no action",
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2021-05-17T16:29:45+00:00",
       "created_by": "SimonSegerblomRex",
-      "closed_at": null,
+      "closed_at": "2025-07-08T22:58:30+00:00",
       "closed_by": null
     },
     {
@@ -136392,11 +136395,13 @@
     {
       "number": 10964,
       "title": "Ability to restrict package indexes for specific packages (downstream pipenv issue 4637",
-      "labels": [],
+      "labels": [
+        "resolution: no action"
+      ],
       "is_pr": true,
       "created_at": "2022-03-15T02:22:08+00:00",
       "created_by": "matteius",
-      "closed_at": null,
+      "closed_at": "2025-07-08T23:01:35+00:00",
       "closed_by": null
     },
     {
@@ -144159,7 +144164,10 @@
     {
       "number": 11621,
       "title": "fix: Allow extra-index-url to precede index-url",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided",
+        "state: up for grabs (PR)"
+      ],
       "is_pr": true,
       "created_at": "2022-11-25T15:27:25+00:00",
       "created_by": "akkuman",
@@ -152037,7 +152045,7 @@
       "is_pr": true,
       "created_at": "2023-09-20T11:56:18+00:00",
       "created_by": "rousseldenis",
-      "closed_at": null,
+      "closed_at": "2025-07-08T16:44:43+00:00",
       "closed_by": null
     },
     {
@@ -152051,8 +152059,8 @@
       "is_pr": false,
       "created_at": "2023-09-20T12:02:46+00:00",
       "created_by": "rousseldenis",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-08T16:55:45+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12284,
@@ -156463,7 +156471,7 @@
       "is_pr": true,
       "created_at": "2024-04-20T20:33:29+00:00",
       "created_by": "deveshpandee",
-      "closed_at": null,
+      "closed_at": "2025-07-08T22:17:50+00:00",
       "closed_by": null
     },
     {
@@ -158782,12 +158790,13 @@
       "number": 12826,
       "title": "PERF: demo, 20% faster installation, write optimized code to extract files from the zip file",
       "labels": [
+        "resolution: no action",
         "type: performance"
       ],
       "is_pr": true,
       "created_at": "2024-07-05T16:34:48+00:00",
       "created_by": "morotti",
-      "closed_at": null,
+      "closed_at": "2025-07-08T21:39:00+00:00",
       "closed_by": null
     },
     {
@@ -162820,8 +162829,8 @@
       "is_pr": false,
       "created_at": "2025-01-10T05:10:26+00:00",
       "created_by": "Zelray",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-08T23:15:53+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13151,
@@ -165088,7 +165097,7 @@
       "is_pr": true,
       "created_at": "2025-04-15T19:17:32+00:00",
       "created_by": "SpecLad",
-      "closed_at": null,
+      "closed_at": "2025-07-08T22:31:54+00:00",
       "closed_by": null
     },
     {
@@ -166079,14 +166088,13 @@
       "number": 13415,
       "title": "In \"choose a new issue type\", selecting \"Blank issue\" goes back to the \"choose an issue type\" page",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: maintenance"
       ],
       "is_pr": false,
       "created_at": "2025-06-05T18:28:47+00:00",
       "created_by": "pfmoore",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-08T18:18:10+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13416,
@@ -166640,13 +166648,14 @@
       "number": 13460,
       "title": "pip upgrade fails behind a firewall",
       "labels": [
-        "type: support"
+        "type: support",
+        "C: network connectivity"
       ],
       "is_pr": false,
       "created_at": "2025-07-03T00:22:25+00:00",
       "created_by": "vmanju123",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-08T18:30:36+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13461,
@@ -166727,6 +166736,78 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13468,
+      "title": "Re-enable blank issues",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-08T18:15:07+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-07-08T18:18:09+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13469,
+      "title": "i cant run installed applications in python from pip install",
+      "labels": [
+        "type: bug",
+        "resolution: wrong project"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-08T18:15:15+00:00",
+      "created_by": "EriCashier",
+      "closed_at": "2025-07-08T18:22:36+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "number": 13470,
+      "title": "Include statement on AI generated issues/PRs in docs",
+      "labels": [
+        "type: docs",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-08T18:28:06+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13471,
+      "title": "docs nox session: delete old build beforehand",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-09T00:45:28+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13472,
+      "title": "Switch from `setuptools` to `flit-core` for pip's build backend",
+      "labels": [
+        "state: needs discussion"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-09T04:02:44+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13473,
+      "title": "[PoC] Use `flit-core` to build pip distributions",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-07-09T04:10:40+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166734,7 +166815,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-08T15:03:18+00:00",
+    "last_updated": "2025-07-09T15:03:18+00:00",
     "version": 1
   }
 }
