@@ -55220,12 +55220,14 @@
       "number": 4702,
       "title": "[pre-commit.ci] pre-commit autoupdate",
       "labels": [
-        "skip news"
+        "C: dependencies",
+        "skip news",
+        "C: maintenance"
       ],
       "is_pr": true,
       "created_at": "2025-07-07T20:40:26+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2025-07-11T02:58:54+00:00",
       "closed_by": null
     },
     {
@@ -55239,6 +55241,26 @@
       "created_by": "aaanchalsanjay",
       "closed_at": "2025-07-10T03:36:12+00:00",
       "closed_by": "MeGaGiGaGon"
+    },
+    {
+      "number": 4704,
+      "title": "prism, the compromising code formatter",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-07-11T07:34:18+00:00",
+      "created_by": "gsmethells",
+      "closed_at": "2025-07-11T07:43:59+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4705,
+      "title": "Cleanup",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-07-11T07:51:28+00:00",
+      "created_by": "gsmethells",
+      "closed_at": "2025-07-11T07:53:00+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -55246,7 +55268,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-07-10T15:03:15+00:00",
+    "last_updated": "2025-07-11T15:03:16+00:00",
     "version": 1
   }
 }

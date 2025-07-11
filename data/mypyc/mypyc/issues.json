@@ -12586,6 +12586,19 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1118,
+      "title": "Registering a nested function to `@singledispatch` crashes",
+      "labels": [
+        "bug",
+        "crash"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-10T19:20:42+00:00",
+      "created_by": "p-sawicki",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12593,7 +12606,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-07-10T15:03:16+00:00",
+    "last_updated": "2025-07-11T15:03:20+00:00",
     "version": 1
   }
 }
