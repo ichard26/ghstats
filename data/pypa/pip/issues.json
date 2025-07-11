@@ -146018,7 +146018,7 @@
       "is_pr": true,
       "created_at": "2023-02-03T19:48:21+00:00",
       "created_by": "d1saster",
-      "closed_at": null,
+      "closed_at": "2025-07-11T22:29:32+00:00",
       "closed_by": null
     },
     {
@@ -149856,8 +149856,8 @@
       "is_pr": false,
       "created_at": "2023-06-23T14:52:39+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-11T19:33:43+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12100,
@@ -151066,7 +151066,7 @@
       "is_pr": true,
       "created_at": "2023-08-03T09:01:53+00:00",
       "created_by": "chrysle",
-      "closed_at": null,
+      "closed_at": "2025-07-11T19:33:42+00:00",
       "closed_by": null
     },
     {
@@ -159297,7 +159297,7 @@
       "is_pr": true,
       "created_at": "2024-07-21T09:52:47+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
+      "closed_at": "2025-07-11T19:20:58+00:00",
       "closed_by": null
     },
     {
@@ -165885,8 +165885,8 @@
       "is_pr": false,
       "created_at": "2025-05-18T17:18:17+00:00",
       "created_by": "gmargaritis",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-11T16:51:05+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13399,
@@ -166699,7 +166699,7 @@
       "is_pr": true,
       "created_at": "2025-07-06T17:13:27+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-07-11T16:51:03+00:00",
       "closed_by": null
     },
     {
@@ -166852,7 +166852,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-11T15:03:20+00:00",
+    "last_updated": "2025-07-11T22:47:04+00:00",
     "version": 1
   }
 }
