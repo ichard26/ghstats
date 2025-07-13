@@ -166855,8 +166855,33 @@
       "is_pr": true,
       "created_at": "2025-07-12T12:15:05+00:00",
       "created_by": "SpecLad",
+      "closed_at": "2025-07-12T20:25:46+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13478,
+      "title": "`pip download` could create normalized directory structure",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-12T20:49:43+00:00",
+      "created_by": "cjcodeproj",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13479,
+      "title": "Pinokio says me upgrade pip but i doc't know where i can write the cod",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-13T10:59:25+00:00",
+      "created_by": "xxredbollxx",
+      "closed_at": "2025-07-13T13:18:38+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -166864,7 +166889,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-12T15:03:21+00:00",
+    "last_updated": "2025-07-13T15:03:07+00:00",
     "version": 1
   }
 }

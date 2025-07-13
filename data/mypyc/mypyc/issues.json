@@ -12599,6 +12599,16 @@
       "created_by": "p-sawicki",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1119,
+      "title": "argspec for mypyc compiled functions return a list type where a normal python function would return a tuple",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-07-12T16:41:16+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12606,7 +12616,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-07-11T15:03:20+00:00",
+    "last_updated": "2025-07-13T15:03:07+00:00",
     "version": 1
   }
 }
