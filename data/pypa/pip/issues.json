@@ -166892,6 +166892,45 @@
       "created_by": "IbrahimPopatiya",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13481,
+      "title": "test: Enforce network hygiene with pytest-subket",
+      "labels": [
+        "C: tests",
+        "skip news",
+        "type: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-15T03:04:51+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13482,
+      "title": "Avoid `pip install --dry-run` downloading full wheels",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-15T03:12:58+00:00",
+      "created_by": "pelson",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13483,
+      "title": "When download is finished show time taken instead of `eta 0:00:00`",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-15T09:15:42+00:00",
+      "created_by": "piotr-dobrogost",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166899,7 +166938,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-14T15:03:30+00:00",
+    "last_updated": "2025-07-15T15:03:29+00:00",
     "version": 1
   }
 }
