@@ -166063,11 +166063,13 @@
     {
       "number": 13413,
       "title": "Fix PowerShell completion for PowerShell 7.4+ using Register-ArgumentCompleter",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2025-06-03T12:39:33+00:00",
       "created_by": "tomaswoj-eth",
-      "closed_at": null,
+      "closed_at": "2025-07-17T13:27:30+00:00",
       "closed_by": null
     },
     {
@@ -166839,7 +166841,9 @@
     {
       "number": 13476,
       "title": "Fix mypy type checking via creating a nox typecheck session",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-07-11T05:35:57+00:00",
       "created_by": "notatallshaw",
@@ -166962,7 +166966,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-16T15:03:23+00:00",
+    "last_updated": "2025-07-17T15:03:21+00:00",
     "version": 1
   }
 }
