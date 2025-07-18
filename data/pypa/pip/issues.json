@@ -162731,7 +162731,7 @@
       "is_pr": true,
       "created_at": "2025-01-03T20:50:47+00:00",
       "created_by": "miketheman",
-      "closed_at": null,
+      "closed_at": "2025-07-17T18:42:32+00:00",
       "closed_by": null
     },
     {
@@ -166543,7 +166543,7 @@
       "is_pr": true,
       "created_at": "2025-06-27T23:27:11+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-07-17T17:50:01+00:00",
       "closed_by": null
     },
     {
@@ -166556,7 +166556,7 @@
       "is_pr": true,
       "created_at": "2025-06-28T01:17:48+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-07-17T17:23:11+00:00",
       "closed_by": null
     },
     {
@@ -166866,8 +166866,8 @@
       "number": 13478,
       "title": "`pip download` could create normalized directory structure",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "C: download",
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2025-07-12T20:49:43+00:00",
@@ -166908,7 +166908,7 @@
       "is_pr": true,
       "created_at": "2025-07-15T03:04:51+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-07-17T18:39:30+00:00",
       "closed_by": null
     },
     {
@@ -166927,8 +166927,9 @@
       "number": 13483,
       "title": "When download is finished show time taken instead of `eta 0:00:00`",
       "labels": [
+        "state: awaiting PR",
         "type: feature request",
-        "S: needs triage"
+        "C: output"
       ],
       "is_pr": false,
       "created_at": "2025-07-15T09:15:42+00:00",
@@ -166959,6 +166960,18 @@
       "created_by": "compwiztobe",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13486,
+      "title": "Show time taken to download instead of `eta 0:00:00` in Rich Progress",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-18T08:18:13+00:00",
+      "created_by": "qraqras",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166966,7 +166979,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-17T15:03:21+00:00",
+    "last_updated": "2025-07-18T15:03:23+00:00",
     "version": 1
   }
 }
