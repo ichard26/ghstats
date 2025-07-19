@@ -166581,7 +166581,7 @@
       "is_pr": true,
       "created_at": "2025-06-30T05:19:04+00:00",
       "created_by": "sepehr-rs",
-      "closed_at": null,
+      "closed_at": "2025-07-19T05:00:34+00:00",
       "closed_by": null
     },
     {
@@ -166939,7 +166939,7 @@
     },
     {
       "number": 13484,
-      "title": "test: Add data.find() and extend pip_install_local() helpers",
+      "title": "test: Extend pip_install_local() test helper",
       "labels": [
         "C: tests",
         "type: refactor",
@@ -166972,6 +166972,69 @@
       "created_by": "qraqras",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13487,
+      "title": "Add a --only-deps option to install dependencies from pyproject.toml without installing the project",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-18T16:41:54+00:00",
+      "created_by": "rh0dium",
+      "closed_at": "2025-07-18T16:57:51+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13489,
+      "title": "Optimize dependency iteration",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-19T06:15:13+00:00",
+      "created_by": "killerdevildog",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13490,
+      "title": "Fix: Windows long filename error",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-19T06:22:09+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13491,
+      "title": "All install_git_vcs tests are failing because of hardcoded commit SHA",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-19T07:01:54+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13492,
+      "title": "Fix: Fixes hardcoded commit SHA on test_install_vcs_git.py",
+      "labels": [
+        "skip news",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-19T07:06:05+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -166979,7 +167042,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-18T15:03:23+00:00",
+    "last_updated": "2025-07-19T15:03:03+00:00",
     "version": 1
   }
 }
