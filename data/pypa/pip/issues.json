@@ -166689,8 +166689,8 @@
       "is_pr": false,
       "created_at": "2025-07-05T14:45:31+00:00",
       "created_by": "ubermidget2",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-20T04:54:33+00:00",
+      "closed_by": "ubermidget2"
     },
     {
       "number": 13464,
@@ -167020,8 +167020,8 @@
       "is_pr": false,
       "created_at": "2025-07-19T07:01:54+00:00",
       "created_by": "sepehr-rs",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-20T04:24:18+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13492,
@@ -167033,6 +167033,26 @@
       "is_pr": true,
       "created_at": "2025-07-19T07:06:05+00:00",
       "created_by": "sepehr-rs",
+      "closed_at": "2025-07-20T04:24:17+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13493,
+      "title": "Replace hardcoded commit SHA with a flexible method in test_install_vcs_git.py",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-07-20T06:03:28+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13494,
+      "title": "Improve presentation of non-verbose downloads with non-PyPI indexes",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-07-20T10:13:46+00:00",
+      "created_by": "pradyunsg",
       "closed_at": null,
       "closed_by": null
     }
@@ -167042,7 +167062,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-19T15:03:03+00:00",
+    "last_updated": "2025-07-20T15:03:05+00:00",
     "version": 1
   }
 }
