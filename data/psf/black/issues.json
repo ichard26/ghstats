@@ -55313,6 +55313,20 @@
       "created_by": "MeGaGiGaGon",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4713,
+      "title": "Bump furo from 2024.8.6 to 2025.7.19 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-21T07:54:12+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -55320,7 +55334,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-07-20T15:03:04+00:00",
+    "last_updated": "2025-07-21T15:03:29+00:00",
     "version": 1
   }
 }
