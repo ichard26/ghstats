@@ -167067,6 +167067,42 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13496,
+      "title": "Improve `path_to_url()` tests",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-21T18:19:45+00:00",
+      "created_by": "barneygale",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13497,
+      "title": "Use `url_to_path()` from `pip._internal.index.collector`",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-21T19:03:38+00:00",
+      "created_by": "barneygale",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13498,
+      "title": "Stop working around old Git bug",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-21T19:26:00+00:00",
+      "created_by": "barneygale",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167074,7 +167110,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-21T15:03:30+00:00",
+    "last_updated": "2025-07-22T15:03:28+00:00",
     "version": 1
   }
 }
