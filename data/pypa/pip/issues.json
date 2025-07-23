@@ -167103,6 +167103,30 @@
       "created_by": "barneygale",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13499,
+      "title": "Push non bare egg fragment deprecation to 25.3",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-22T16:49:38+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-07-23T01:53:19+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13500,
+      "title": "Bump vendored packages one last time for 25.2",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-22T17:03:37+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-07-23T01:53:52+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -167110,7 +167134,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-22T15:03:28+00:00",
+    "last_updated": "2025-07-23T15:04:04+00:00",
     "version": 1
   }
 }

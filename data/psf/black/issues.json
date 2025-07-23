@@ -16370,10 +16370,11 @@
     },
     {
       "number": 1467,
-      "title": "When splitting lines, `\\n` is ignored",
+      "title": "[string_preprocessing] When splitting lines, `\\n` is ignored",
       "labels": [
         "T: style",
-        "F: strings"
+        "F: strings",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2020-05-31T22:59:21+00:00",
@@ -39124,7 +39125,8 @@
       "number": 3324,
       "title": "Consider not wrapping a single import when the line is too long",
       "labels": [
-        "T: style"
+        "T: style",
+        "S: accepted"
       ],
       "is_pr": false,
       "created_at": "2022-10-10T18:14:03+00:00",
@@ -39772,7 +39774,7 @@
       "is_pr": true,
       "created_at": "2022-11-09T07:01:00+00:00",
       "created_by": "KindaOK",
-      "closed_at": null,
+      "closed_at": "2025-07-22T23:32:49+00:00",
       "closed_by": null
     },
     {
@@ -41639,8 +41641,8 @@
       "is_pr": false,
       "created_at": "2023-01-27T23:14:03+00:00",
       "created_by": "SylvainDe",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-23T00:02:01+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3530,
@@ -51443,7 +51445,7 @@
       ],
       "is_pr": false,
       "created_at": "2024-05-18T17:15:42+00:00",
-      "created_by": "Nao-Y1996",
+      "created_by": "hachimada",
       "closed_at": null,
       "closed_by": null
     },
@@ -51701,8 +51703,8 @@
       "is_pr": false,
       "created_at": "2024-06-26T21:22:02+00:00",
       "created_by": "pushfoo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-23T00:11:16+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4390,
@@ -51946,7 +51948,8 @@
       "number": 4411,
       "title": "global config not possible if project contains a `pyproject.toml`",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "S: needs discussion"
       ],
       "is_pr": false,
       "created_at": "2024-07-24T14:31:29+00:00",
@@ -53612,7 +53615,10 @@
     {
       "number": 4556,
       "title": "Black support for Databricks notebook formatting - Ignore lines starting with ! or %",
-      "labels": [],
+      "labels": [
+        "T: enhancement",
+        "S: needs discussion"
+      ],
       "is_pr": false,
       "created_at": "2025-01-22T07:28:16+00:00",
       "created_by": "vivek-freddy",
@@ -53757,7 +53763,8 @@
       "number": 4569,
       "title": "Running black under Python versions 3.10.15 and 3.10.16 yields different results for parentheses inside case statements",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "S: needs repro"
       ],
       "is_pr": false,
       "created_at": "2025-01-30T23:36:03+00:00",
@@ -54657,7 +54664,7 @@
       "is_pr": true,
       "created_at": "2025-04-22T06:22:05+00:00",
       "created_by": "anthonychen000",
-      "closed_at": null,
+      "closed_at": "2025-07-22T18:21:31+00:00",
       "closed_by": null
     },
     {
@@ -54683,8 +54690,8 @@
       "is_pr": false,
       "created_at": "2025-04-22T19:49:53+00:00",
       "created_by": "shipra0803",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-22T23:23:02+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4655,
@@ -54827,13 +54834,13 @@
       "number": 4667,
       "title": "reformatting some chained ternaries decreases their readability",
       "labels": [
-        "T: bug"
+        "R: not a bug"
       ],
       "is_pr": false,
       "created_at": "2025-05-27T14:25:32+00:00",
       "created_by": "jap",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-22T23:21:10+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4668,
@@ -54949,7 +54956,8 @@
       "number": 4678,
       "title": "Remove braces around except (PEP 758)",
       "labels": [
-        "T: style"
+        "T: style",
+        "S: accepted"
       ],
       "is_pr": false,
       "created_at": "2025-06-03T09:13:28+00:00",
@@ -55301,8 +55309,8 @@
       "is_pr": false,
       "created_at": "2025-07-17T20:34:13+00:00",
       "created_by": "mattfabina",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-22T23:55:35+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4710,
@@ -55325,7 +55333,7 @@
       "is_pr": true,
       "created_at": "2025-07-21T07:54:12+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-07-22T18:13:31+00:00",
       "closed_by": null
     }
   ],
@@ -55334,7 +55342,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-07-22T15:03:26+00:00",
+    "last_updated": "2025-07-23T15:03:57+00:00",
     "version": 1
   }
 }
