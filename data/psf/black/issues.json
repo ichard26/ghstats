@@ -31126,9 +31126,9 @@
       ],
       "is_pr": false,
       "created_at": "2021-12-06T15:07:09+00:00",
-      "created_by": "Casey-Kiewit",
-      "closed_at": null,
-      "closed_by": null
+      "created_by": "korverdev",
+      "closed_at": "2025-07-23T20:46:04+00:00",
+      "closed_by": "MeGaGiGaGon"
     },
     {
       "number": 2676,
@@ -36736,8 +36736,8 @@
       "is_pr": false,
       "created_at": "2022-06-24T15:47:15+00:00",
       "created_by": "graingert",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-23T18:29:31+00:00",
+      "closed_by": "MeGaGiGaGon"
     },
     {
       "number": 3138,
@@ -36983,8 +36983,8 @@
       "is_pr": false,
       "created_at": "2022-07-06T01:09:37+00:00",
       "created_by": "adam-grant-hendry",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-23T22:38:49+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3157,
@@ -55335,6 +55335,16 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2025-07-22T18:13:31+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4714,
+      "title": "Add FAQ section on Windows emojis not working",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-07-23T19:44:55+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-07-23T22:38:48+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -55342,7 +55352,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-07-23T15:03:57+00:00",
+    "last_updated": "2025-07-24T15:03:26+00:00",
     "version": 1
   }
 }
