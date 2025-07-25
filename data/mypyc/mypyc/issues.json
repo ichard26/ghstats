@@ -12643,6 +12643,16 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1122,
+      "title": "Dataclasses incorrectly include ClassVar annotated attributes as fields",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-07-25T08:28:08+00:00",
+      "created_by": "sg495",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12650,7 +12660,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-07-21T15:03:29+00:00",
+    "last_updated": "2025-07-25T15:03:21+00:00",
     "version": 1
   }
 }
