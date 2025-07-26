@@ -165105,7 +165105,6 @@
       "title": "Remove vendored typing-extensions",
       "labels": [
         "type: refactor",
-        "state: blocked",
         "project: vendored dependency",
         "bot:chronographer:provided"
       ],
@@ -165242,8 +165241,8 @@
       "is_pr": false,
       "created_at": "2025-04-23T22:09:11+00:00",
       "created_by": "AA-Turner",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-25T23:46:38+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13347,
@@ -166194,7 +166193,7 @@
       "is_pr": true,
       "created_at": "2025-06-12T22:06:05+00:00",
       "created_by": "hroncok",
-      "closed_at": null,
+      "closed_at": "2025-07-25T23:24:23+00:00",
       "closed_by": null
     },
     {
@@ -166934,8 +166933,8 @@
       "is_pr": false,
       "created_at": "2025-07-15T09:15:42+00:00",
       "created_by": "piotr-dobrogost",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-26T00:02:40+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13484,
@@ -166970,7 +166969,7 @@
       "is_pr": true,
       "created_at": "2025-07-18T08:18:13+00:00",
       "created_by": "qraqras",
-      "closed_at": null,
+      "closed_at": "2025-07-26T00:02:40+00:00",
       "closed_by": null
     },
     {
@@ -167007,7 +167006,7 @@
       "is_pr": true,
       "created_at": "2025-07-19T06:22:09+00:00",
       "created_by": "sepehr-rs",
-      "closed_at": null,
+      "closed_at": "2025-07-25T23:46:38+00:00",
       "closed_by": null
     },
     {
@@ -167193,7 +167192,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-25T15:03:21+00:00",
+    "last_updated": "2025-07-26T15:03:12+00:00",
     "version": 1
   }
 }
