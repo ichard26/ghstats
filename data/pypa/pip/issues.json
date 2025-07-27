@@ -165111,7 +165111,7 @@
       "is_pr": true,
       "created_at": "2025-04-15T19:58:40+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-07-26T18:47:26+00:00",
       "closed_by": null
     },
     {
@@ -167185,6 +167185,30 @@
       "created_by": "gene1wood",
       "closed_at": "2025-07-24T23:46:32+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13506,
+      "title": "Declare Python 3.14 support",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-26T20:11:08+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13507,
+      "title": "Reword news entries for 25.2",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-26T20:19:50+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167192,7 +167216,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-26T15:03:12+00:00",
+    "last_updated": "2025-07-27T15:03:11+00:00",
     "version": 1
   }
 }
