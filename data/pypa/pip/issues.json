@@ -167195,7 +167195,7 @@
       "is_pr": true,
       "created_at": "2025-07-26T20:11:08+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-07-28T22:12:33+00:00",
       "closed_by": null
     },
     {
@@ -167256,6 +167256,30 @@
       "created_by": "tejastank",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13512,
+      "title": "DEPRECATION: Building 'flash_attn' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce",
+      "labels": [
+        "resolution: wrong project"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-28T15:26:57+00:00",
+      "created_by": "shaozheng0503",
+      "closed_at": "2025-07-28T15:48:48+00:00",
+      "closed_by": "pfmoore"
+    },
+    {
+      "number": 13513,
+      "title": "Handle malformed version metadata error and skip the package",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-29T07:09:50+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167263,7 +167287,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-28T15:03:46+00:00",
+    "last_updated": "2025-07-29T15:05:08+00:00",
     "version": 1
   }
 }

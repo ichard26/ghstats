@@ -55382,6 +55382,42 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4718,
+      "title": "Tests fail on Python 3.14 due to deprecated `asyncio.get_event_loop_policy()`",
+      "labels": [
+        "T: bug",
+        "C: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2025-07-29T08:12:05+00:00",
+      "created_by": "ranjodhsingh1729",
+      "closed_at": "2025-07-29T14:31:27+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 4719,
+      "title": "Fix test failures on Python 3.14 caused by deprecated `asyncio.get_event_loop_policy()` [skip news]",
+      "labels": [
+        "skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-29T08:27:14+00:00",
+      "created_by": "ranjodhsingh1729",
+      "closed_at": "2025-07-29T14:31:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4720,
+      "title": "Remove parentheses around multiple exception types in `except` and `except*` without `as`. ",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-07-29T14:04:23+00:00",
+      "created_by": "ranjodhsingh1729",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -55389,7 +55425,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-07-28T15:03:43+00:00",
+    "last_updated": "2025-07-29T15:05:06+00:00",
     "version": 1
   }
 }
