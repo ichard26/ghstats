@@ -167303,6 +167303,28 @@
       "created_by": "barneygale",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13516,
+      "title": "Prepare release 25.2",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-07-30T21:01:24+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-07-30T21:20:19+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13517,
+      "title": "Upgrade truststore to 0.10.3",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-07-31T11:22:39+00:00",
+      "created_by": "hroncok",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167310,7 +167332,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-07-30T15:03:28+00:00",
+    "last_updated": "2025-07-31T15:03:54+00:00",
     "version": 1
   }
 }
