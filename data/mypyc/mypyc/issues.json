@@ -12577,8 +12577,8 @@
       "is_pr": false,
       "created_at": "2025-07-08T13:53:49+00:00",
       "created_by": "BobTheBuidler",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-07-31T19:05:08+00:00",
+      "closed_by": "BobTheBuidler"
     },
     {
       "number": 1117,
@@ -12653,6 +12653,16 @@
       "created_by": "sg495",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1123,
+      "title": "How can I use field on dataclasses or pydantic.BaseModel?",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-08-01T13:23:04+00:00",
+      "created_by": "josephnowak",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12660,7 +12670,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-07-25T15:03:21+00:00",
+    "last_updated": "2025-08-01T15:03:29+00:00",
     "version": 1
   }
 }
