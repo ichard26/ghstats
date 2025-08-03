@@ -55454,6 +55454,18 @@
       "created_by": "asottile-sentry",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4724,
+      "title": "Implement function block format",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2025-08-03T13:50:31+00:00",
+      "created_by": "Tusenka",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -55461,7 +55473,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-08-02T15:03:06+00:00",
+    "last_updated": "2025-08-03T15:03:09+00:00",
     "version": 1
   }
 }

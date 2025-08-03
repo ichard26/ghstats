@@ -12663,6 +12663,16 @@
       "created_by": "josephnowak",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1124,
+      "title": "object reference is gc'ed prematurely",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-08-02T17:41:56+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": "2025-08-02T20:11:16+00:00",
+      "closed_by": "BobTheBuidler"
     }
   ],
   "record": {
@@ -12670,7 +12680,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-08-02T15:03:07+00:00",
+    "last_updated": "2025-08-03T15:03:10+00:00",
     "version": 1
   }
 }
