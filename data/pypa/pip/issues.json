@@ -159519,10 +159519,11 @@
     },
     {
       "number": 12884,
-      "title": "[24.2] `pip check` flags packages with bad WHEEL metadata",
+      "title": "[24.2] `pip check` should provide more information why a package is \"unsupported\"",
       "labels": [
         "type: enhancement",
-        "C: check"
+        "C: check",
+        "C: error messages"
       ],
       "is_pr": false,
       "created_at": "2024-07-30T15:49:59+00:00",
@@ -167386,6 +167387,41 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13523,
+      "title": "Add `rstrip` in `def _strip_extras`",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-04T16:29:47+00:00",
+      "created_by": "mtsokol",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13524,
+      "title": "pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-08-04T18:36:49+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2025-08-04T19:04:00+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13525,
+      "title": "build(deps): bump build from 1.2.2.post1 to 1.3.0 in /build-project",
+      "labels": [
+        "python",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-04T22:38:52+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167393,7 +167429,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-04T15:03:55+00:00",
+    "last_updated": "2025-08-05T15:04:40+00:00",
     "version": 1
   }
 }
