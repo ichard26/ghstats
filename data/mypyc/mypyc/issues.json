@@ -12677,7 +12677,10 @@
     {
       "number": 1125,
       "title": "Enum construction could be faster",
-      "labels": [],
+      "labels": [
+        "priority-0-high",
+        "speed"
+      ],
       "is_pr": false,
       "created_at": "2025-08-05T14:47:03+00:00",
       "created_by": "A5rocks",
@@ -12690,7 +12693,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-08-05T15:04:40+00:00",
+    "last_updated": "2025-08-06T15:04:43+00:00",
     "version": 1
   }
 }
