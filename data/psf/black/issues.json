@@ -53769,8 +53769,8 @@
       "is_pr": false,
       "created_at": "2025-01-30T23:36:03+00:00",
       "created_by": "jsolbrig",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-08-07T08:34:37+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 4570,
@@ -55536,7 +55536,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-08-05T15:04:39+00:00",
+    "last_updated": "2025-08-07T15:04:15+00:00",
     "version": 1
   }
 }
