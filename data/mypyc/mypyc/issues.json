@@ -12686,6 +12686,16 @@
       "created_by": "A5rocks",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1126,
+      "title": "Error always at the end \" Error while finding module specification for '<fname>.cp313-win_amd64.pyd'\"",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-08-08T09:18:01+00:00",
+      "created_by": "fenchu",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12693,7 +12703,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-08-07T15:04:16+00:00",
+    "last_updated": "2025-08-08T15:03:45+00:00",
     "version": 1
   }
 }

@@ -55529,6 +55529,18 @@
       "created_by": "timbrnbrr",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4730,
+      "title": "`# fmt: skip` ignored inside multi-part if-clause",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-08-07T16:50:32+00:00",
+      "created_by": "ElkMonster",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -55536,7 +55548,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-08-07T15:04:15+00:00",
+    "last_updated": "2025-08-08T15:03:45+00:00",
     "version": 1
   }
 }
