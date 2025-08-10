@@ -167515,8 +167515,8 @@
       "is_pr": false,
       "created_at": "2025-08-08T14:38:50+00:00",
       "created_by": "maxwell-k",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-08-10T12:01:19+00:00",
+      "closed_by": "maxwell-k"
     },
     {
       "number": 13534,
@@ -167536,7 +167536,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-09T15:03:09+00:00",
+    "last_updated": "2025-08-10T15:03:06+00:00",
     "version": 1
   }
 }
