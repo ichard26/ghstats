@@ -55563,6 +55563,18 @@
       "created_by": "av-runner",
       "closed_at": "2025-08-13T08:08:29+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4733,
+      "title": "Internal error: producing different code on second pass of the formatter",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-08-14T17:09:20+00:00",
+      "created_by": "jakkdl",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -55570,7 +55582,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-08-13T15:02:47+00:00",
+    "last_updated": "2025-08-15T15:03:32+00:00",
     "version": 1
   }
 }
