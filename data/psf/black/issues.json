@@ -55575,6 +55575,29 @@
       "created_by": "jakkdl",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4734,
+      "title": "Avoid using an extra process when running with only one worker",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-08-17T23:20:41+00:00",
+      "created_by": "hauntsaninja",
+      "closed_at": "2025-08-18T00:17:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4735,
+      "title": "Bump actions/checkout from 4 to 5",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-18T09:30:10+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2025-08-18T13:51:06+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -55582,7 +55605,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-08-15T15:03:32+00:00",
+    "last_updated": "2025-08-18T15:03:43+00:00",
     "version": 1
   }
 }

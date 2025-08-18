@@ -167694,6 +167694,19 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13548,
+      "title": "pip config regression in 25.2",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-08-18T12:46:09+00:00",
+      "created_by": "anlambert",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167701,7 +167714,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-16T15:03:04+00:00",
+    "last_updated": "2025-08-18T15:03:46+00:00",
     "version": 1
   }
 }
