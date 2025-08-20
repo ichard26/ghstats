@@ -167700,7 +167700,7 @@
       "title": "pip config regression in 25.2",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: configuration"
       ],
       "is_pr": false,
       "created_at": "2025-08-18T12:46:09+00:00",
@@ -167714,7 +167714,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-19T15:03:17+00:00",
+    "last_updated": "2025-08-20T15:03:26+00:00",
     "version": 1
   }
 }
