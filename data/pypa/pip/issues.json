@@ -167357,7 +167357,7 @@
     },
     {
       "number": 13520,
-      "title": "Implement --exclude-newer-than",
+      "title": "Implement `--uploaded-prior-to` to filter packages by `upload-time`",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -167707,6 +167707,18 @@
       "created_by": "anlambert",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13549,
+      "title": "Fix bad indentation level in src/pip/_internal/cli/parser.py",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-19T17:02:03+00:00",
+      "created_by": "anlambert",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167714,7 +167726,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-20T15:03:26+00:00",
+    "last_updated": "2025-08-21T15:03:50+00:00",
     "version": 1
   }
 }
