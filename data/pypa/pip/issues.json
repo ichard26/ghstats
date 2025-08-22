@@ -167719,6 +167719,18 @@
       "created_by": "anlambert",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13551,
+      "title": "Don't use PEP517 if no build system is specified",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-21T18:26:24+00:00",
+      "created_by": "Freso",
+      "closed_at": "2025-08-21T19:07:35+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -167726,7 +167738,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-21T15:03:50+00:00",
+    "last_updated": "2025-08-22T15:03:09+00:00",
     "version": 1
   }
 }
