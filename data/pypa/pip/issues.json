@@ -167731,6 +167731,42 @@
       "created_by": "Freso",
       "closed_at": "2025-08-21T19:07:35+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13552,
+      "title": "Remove MacOS x86 from CI",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-22T21:49:45+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13553,
+      "title": "Remove references to `docs/requirements.txt`",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-22T21:58:27+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2025-08-23T14:18:56+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13554,
+      "title": "Add earlier Python version syntax check for `__pip-runner__.py`",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-22T22:05:27+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2025-08-23T14:19:12+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -167738,7 +167774,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-22T15:03:09+00:00",
+    "last_updated": "2025-08-23T15:02:40+00:00",
     "version": 1
   }
 }
