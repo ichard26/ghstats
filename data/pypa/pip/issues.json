@@ -167692,8 +167692,8 @@
       "is_pr": false,
       "created_at": "2025-08-14T15:04:36+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-08-23T18:21:04+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13548,
@@ -167721,6 +167721,18 @@
       "closed_by": null
     },
     {
+      "number": 13550,
+      "title": "Add a function to check the security of symbolic links.",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-20T05:15:24+00:00",
+      "created_by": "dkjsone",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
       "number": 13551,
       "title": "Don't use PEP517 if no build system is specified",
       "labels": [
@@ -167741,7 +167753,7 @@
       "is_pr": true,
       "created_at": "2025-08-22T21:49:45+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-08-23T18:21:03+00:00",
       "closed_by": null
     },
     {
@@ -167767,6 +167779,53 @@
       "created_by": "notatallshaw",
       "closed_at": "2025-08-23T14:19:12+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13555,
+      "title": "pip bash completion when IFS doesn't have its default value",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-08-23T18:13:37+00:00",
+      "created_by": "stephane-chazelas",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13556,
+      "title": "Update CI from `ubuntu-22.04` to `ubuntu-latest`",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-08-23T18:24:46+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13557,
+      "title": "Clarify `pip freeze --all` documentation at pip.pypa.io",
+      "labels": [
+        "type: docs"
+      ],
+      "is_pr": false,
+      "created_at": "2025-08-24T01:00:29+00:00",
+      "created_by": "AnthonyHedo",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13558,
+      "title": "fix bash completion when the user has changed $IFS (#13555)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-24T09:09:05+00:00",
+      "created_by": "stephane-chazelas",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167774,7 +167833,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-23T15:02:40+00:00",
+    "last_updated": "2025-08-24T15:02:44+00:00",
     "version": 1
   }
 }
