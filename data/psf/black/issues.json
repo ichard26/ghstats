@@ -55635,7 +55635,9 @@
     {
       "number": 4739,
       "title": "Optimize Line string method",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-08-27T10:54:54+00:00",
       "created_by": "av-runner",
@@ -55648,7 +55650,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-08-27T15:03:17+00:00",
+    "last_updated": "2025-08-28T15:03:09+00:00",
     "version": 1
   }
 }
