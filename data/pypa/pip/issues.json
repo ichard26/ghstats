@@ -158634,7 +158634,8 @@
       "number": 12813,
       "title": "Implement PEP 708",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2024-06-30T10:43:07+00:00",
@@ -167807,7 +167808,8 @@
       "number": 13557,
       "title": "Clarify `pip freeze --all` documentation at pip.pypa.io",
       "labels": [
-        "type: docs"
+        "type: docs",
+        "state: awaiting PR"
       ],
       "is_pr": false,
       "created_at": "2025-08-24T01:00:29+00:00",
@@ -167836,6 +167838,18 @@
       "created_by": "abeyerpath",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13560,
+      "title": "Enable overriding undocumented telemetry identifier with PIP_TELEMETRY_USER_AGENT_ID",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-29T12:17:50+00:00",
+      "created_by": "cosmicexplorer",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167843,7 +167857,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-28T15:03:11+00:00",
+    "last_updated": "2025-08-29T15:02:54+00:00",
     "version": 1
   }
 }
