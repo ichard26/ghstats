@@ -167874,6 +167874,30 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13563,
+      "title": "docs(pip_freeze): clarify --all; add concise example",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-30T15:24:03+00:00",
+      "created_by": "CoretexShadow",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13564,
+      "title": "docs(pip_freeze): clarify --all; explain Python version differences",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-08-30T15:42:19+00:00",
+      "created_by": "meet-vasita",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -167881,7 +167905,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-08-30T15:02:48+00:00",
+    "last_updated": "2025-08-31T15:02:48+00:00",
     "version": 1
   }
 }
