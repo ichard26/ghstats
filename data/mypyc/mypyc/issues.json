@@ -12743,6 +12743,16 @@
       "created_by": "wyattscarpenter",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1131,
+      "title": "Non-deterministic compilation error",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-09-02T09:42:30+00:00",
+      "created_by": "Chainfire",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12750,7 +12760,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-08-28T15:03:11+00:00",
+    "last_updated": "2025-09-02T15:03:23+00:00",
     "version": 1
   }
 }
