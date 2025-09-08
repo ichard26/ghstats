@@ -41291,8 +41291,8 @@
       "is_pr": false,
       "created_at": "2023-01-15T11:20:03+00:00",
       "created_by": "AdeliManesh",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-09-08T13:19:34+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3499,
@@ -55200,7 +55200,7 @@
       "is_pr": true,
       "created_at": "2025-06-20T22:42:01+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2025-09-08T13:19:33+00:00",
       "closed_by": null
     },
     {
@@ -55672,7 +55672,7 @@
       "is_pr": true,
       "created_at": "2025-08-31T22:57:20+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2025-09-08T12:52:08+00:00",
       "closed_by": null
     },
     {
@@ -55698,6 +55698,19 @@
       "created_by": "nanw1103",
       "closed_at": "2025-09-02T18:58:42+00:00",
       "closed_by": "MeGaGiGaGon"
+    },
+    {
+      "number": 4744,
+      "title": "Bump actions/setup-python from 5 to 6",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-08T06:02:28+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2025-09-08T12:47:21+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -55705,7 +55718,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-09-07T15:02:56+00:00",
+    "last_updated": "2025-09-08T15:03:20+00:00",
     "version": 1
   }
 }

@@ -167970,6 +167970,16 @@
       "created_by": "ShubhamNagure",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13571,
+      "title": "pyinstaller",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-09-08T09:28:00+00:00",
+      "created_by": "westerfeld44629",
+      "closed_at": "2025-09-08T12:54:38+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -167977,7 +167987,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-07T15:02:58+00:00",
+    "last_updated": "2025-09-08T15:03:24+00:00",
     "version": 1
   }
 }
