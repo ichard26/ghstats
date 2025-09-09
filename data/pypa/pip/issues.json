@@ -167874,8 +167874,8 @@
       "is_pr": false,
       "created_at": "2025-08-29T16:00:03+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-09-08T22:16:11+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13563,
@@ -167898,7 +167898,7 @@
       "is_pr": true,
       "created_at": "2025-08-30T15:42:19+00:00",
       "created_by": "meet-vasita",
-      "closed_at": null,
+      "closed_at": "2025-09-09T12:03:12+00:00",
       "closed_by": null
     },
     {
@@ -167980,6 +167980,55 @@
       "created_by": "westerfeld44629",
       "closed_at": "2025-09-08T12:54:38+00:00",
       "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13572,
+      "title": "build(deps): bump the github-actions group with 2 updates",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-08T16:14:22+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13573,
+      "title": "--ignore-requires-python does not work with pip index versions",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-08T18:40:37+00:00",
+      "created_by": "jmcgrathTT",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13574,
+      "title": "For pyproject.toml: standardized package versions overrides and per-package indexes",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-08T18:55:45+00:00",
+      "created_by": "vadimkantorov",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13575,
+      "title": "Migrate CI to ubuntu-latest and fix test failures on Ubuntu 24.04",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-09-08T22:29:55+00:00",
+      "created_by": "Copilot",
+      "closed_at": "2025-09-09T14:19:00+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -167987,7 +168036,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-08T15:03:24+00:00",
+    "last_updated": "2025-09-09T15:03:46+00:00",
     "version": 1
   }
 }
