@@ -168042,6 +168042,31 @@
       "created_by": "yurivict",
       "closed_at": "2025-09-11T19:41:25+00:00",
       "closed_by": "pfmoore"
+    },
+    {
+      "number": 13577,
+      "title": "Fix: Fix PowerShell completion test for Register-ArgumentCompleter",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-12T16:56:16+00:00",
+      "created_by": "meet-vasita",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13578,
+      "title": "Consume correctly GitHub release pages and discover published wheels as part of `--find-links` (or maybe even `--extra-index-url`)",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-12T18:31:49+00:00",
+      "created_by": "vadimkantorov",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168049,7 +168074,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-12T15:03:23+00:00",
+    "last_updated": "2025-09-13T15:02:57+00:00",
     "version": 1
   }
 }
