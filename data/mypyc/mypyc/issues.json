@@ -12842,6 +12842,26 @@
       "created_by": "p-sawicki",
       "closed_at": "2025-09-12T11:47:06+00:00",
       "closed_by": "JukkaL"
+    },
+    {
+      "number": 1139,
+      "title": "regression on 1.18: TypeError: super(type, obj): obj must be an instance or subtype of type",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-09-13T18:07:05+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1140,
+      "title": "BUG: inappropriate `None`s in f-strings",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-09-14T04:09:33+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12849,7 +12869,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-09-12T15:03:22+00:00",
+    "last_updated": "2025-09-14T15:03:12+00:00",
     "version": 1
   }
 }

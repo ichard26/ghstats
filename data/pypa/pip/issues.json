@@ -168004,8 +168004,8 @@
       "is_pr": false,
       "created_at": "2025-09-08T18:40:37+00:00",
       "created_by": "jmcgrathTT",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-09-13T18:53:00+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13574,
@@ -168067,6 +168067,19 @@
       "created_by": "vadimkantorov",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13579,
+      "title": "Resolving with `.post` good version apparently might lead to conflict when post is used in constraints",
+      "labels": [
+        "type: support",
+        "C: error messages"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-13T17:40:56+00:00",
+      "created_by": "potiuk",
+      "closed_at": "2025-09-13T18:42:16+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -168074,7 +168087,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-13T15:02:57+00:00",
+    "last_updated": "2025-09-14T15:03:13+00:00",
     "version": 1
   }
 }
