@@ -166894,7 +166894,9 @@
     {
       "number": 13480,
       "title": "Improve BadMetadata error message when METADATA file is missing (fixe\u2026",
-      "labels": [],
+      "labels": [
+        "state: up for grabs (PR)"
+      ],
       "is_pr": true,
       "created_at": "2025-07-13T19:28:30+00:00",
       "created_by": "IbrahimPopatiya",
@@ -168065,8 +168067,8 @@
       "is_pr": false,
       "created_at": "2025-09-12T18:31:49+00:00",
       "created_by": "vadimkantorov",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-09-14T15:30:20+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13579,
@@ -168080,6 +168082,19 @@
       "created_by": "potiuk",
       "closed_at": "2025-09-13T18:42:16+00:00",
       "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13580,
+      "title": "Deprecate version in wheel filename not matching version in wheel metadata",
+      "labels": [
+        "state: needs discussion",
+        "type: deprecation"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-14T15:14:21+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168087,7 +168102,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-14T15:03:13+00:00",
+    "last_updated": "2025-09-15T15:03:48+00:00",
     "version": 1
   }
 }
