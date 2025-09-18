@@ -168107,6 +168107,18 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13582,
+      "title": "Support --use-pep517 and --no-use-pep517 inside requirements files.",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-17T15:43:23+00:00",
+      "created_by": "foundry-markf",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168114,7 +168126,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-17T15:03:57+00:00",
+    "last_updated": "2025-09-18T15:03:47+00:00",
     "version": 1
   }
 }
