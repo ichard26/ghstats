@@ -55324,7 +55324,7 @@
       "is_pr": true,
       "created_at": "2025-07-18T08:41:45+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
+      "closed_at": "2025-09-18T18:49:07+00:00",
       "closed_by": null
     },
     {
@@ -55766,6 +55766,128 @@
       "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4750,
+      "title": "Fix schema generation error caused by new click version",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-18T19:33:55+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-09-18T21:33:23+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4751,
+      "title": "Prepare docs for release 25.9.0",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-18T23:11:10+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-09-18T23:39:03+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4752,
+      "title": "Add utf-8 encoding to opens in release.py",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-18T23:30:56+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-09-19T01:50:22+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4753,
+      "title": "Fix regexes in releases.py",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-18T23:34:42+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-09-19T01:50:47+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4754,
+      "title": "Fix FAQ async version number",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-19T01:11:13+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-09-19T01:51:04+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4755,
+      "title": "Add new CHANGES.md template",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-19T01:33:55+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-09-19T01:35:14+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4756,
+      "title": "Improvements for release_process.md",
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-19T01:54:37+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-09-19T02:02:53+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4757,
+      "title": "black 25.9.0 throwing `BLK900 Failed to load file: decode_bytes() missing required argument 'mode' (pos 2)`",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-19T02:48:16+00:00",
+      "created_by": "KalebCoberly",
+      "closed_at": "2025-09-19T03:34:03+00:00",
+      "closed_by": "cobaltt7"
+    },
+    {
+      "number": 4758,
+      "title": "Improve generate_schema.py 8.3.0 code",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-19T06:48:06+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": "2025-09-19T14:34:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4759,
+      "title": "BLK900 Failed to load file: decode_bytes() missing required argument 'mode' (pos 2)",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-19T13:48:13+00:00",
+      "created_by": "docktermj",
+      "closed_at": "2025-09-19T14:26:25+00:00",
+      "closed_by": "cobaltt7"
     }
   ],
   "record": {
@@ -55773,7 +55895,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-09-17T15:03:55+00:00",
+    "last_updated": "2025-09-19T15:03:21+00:00",
     "version": 1
   }
 }
