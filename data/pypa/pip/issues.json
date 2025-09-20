@@ -168142,6 +168142,28 @@
       "created_by": "sadiqkhzn",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13585,
+      "title": "Minor: Remove unnecessary `canonicalize_name` calls and validate via `NormalizedName` type",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-20T03:36:29+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13586,
+      "title": "install pymysql",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-09-20T04:41:29+00:00",
+      "created_by": "Brahmamkolli",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168149,7 +168171,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-19T15:03:25+00:00",
+    "last_updated": "2025-09-20T15:03:18+00:00",
     "version": 1
   }
 }
