@@ -168124,6 +168124,7 @@
       "number": 13583,
       "title": "Error while checking for conflicts due to a TypeError",
       "labels": [
+        "type: support",
         "kind: crash",
         "S: awaiting response"
       ],
@@ -168158,10 +168159,50 @@
     {
       "number": 13586,
       "title": "install pymysql",
-      "labels": [],
+      "labels": [
+        "type: support",
+        "kind: crash"
+      ],
       "is_pr": false,
       "created_at": "2025-09-20T04:41:29+00:00",
       "created_by": "Brahmamkolli",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13587,
+      "title": "Add support for listing HTTP cached packages in pip cache list",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-20T19:17:21+00:00",
+      "created_by": "a-sajjad72",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13588,
+      "title": "Add hint when resolution impossible causes have no versions available",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-21T03:38:53+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13589,
+      "title": "Build error on RISC-V pyo3 Maturin: wrong Target Triple",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-21T13:11:52+00:00",
+      "created_by": "TuTiuTe",
       "closed_at": null,
       "closed_by": null
     }
@@ -168171,7 +168212,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-20T15:03:18+00:00",
+    "last_updated": "2025-09-21T15:03:24+00:00",
     "version": 1
   }
 }
