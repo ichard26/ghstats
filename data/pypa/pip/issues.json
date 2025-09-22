@@ -168141,7 +168141,7 @@
       "is_pr": true,
       "created_at": "2025-09-19T13:58:26+00:00",
       "created_by": "sadiqkhzn",
-      "closed_at": null,
+      "closed_at": "2025-09-22T00:14:26+00:00",
       "closed_by": null
     },
     {
@@ -168153,7 +168153,7 @@
       "is_pr": true,
       "created_at": "2025-09-20T03:36:29+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-09-21T21:26:45+00:00",
       "closed_by": null
     },
     {
@@ -168197,12 +168197,36 @@
       "number": 13589,
       "title": "Build error on RISC-V pyo3 Maturin: wrong Target Triple",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "resolution: wrong project"
       ],
       "is_pr": false,
       "created_at": "2025-09-21T13:11:52+00:00",
       "created_by": "TuTiuTe",
+      "closed_at": "2025-09-21T19:57:35+00:00",
+      "closed_by": "pradyunsg"
+    },
+    {
+      "number": 13590,
+      "title": "Improve presentation of build-time errors",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-21T19:53:41+00:00",
+      "created_by": "pradyunsg",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13591,
+      "title": "missing modules when upgrading a namespace package where modules have been rearranged",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-22T15:02:41+00:00",
+      "created_by": "saucoide",
       "closed_at": null,
       "closed_by": null
     }
@@ -168212,7 +168236,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-21T15:03:24+00:00",
+    "last_updated": "2025-09-22T15:03:44+00:00",
     "version": 1
   }
 }
