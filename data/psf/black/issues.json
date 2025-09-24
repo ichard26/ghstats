@@ -55948,6 +55948,16 @@
       "created_by": "MeGaGiGaGon",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4765,
+      "title": "Implement PEP639",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-09-24T15:01:12+00:00",
+      "created_by": "matren33",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -55955,7 +55965,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-09-23T15:03:53+00:00",
+    "last_updated": "2025-09-24T15:03:44+00:00",
     "version": 1
   }
 }

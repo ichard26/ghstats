@@ -167569,8 +167569,8 @@
       "is_pr": false,
       "created_at": "2025-08-11T19:07:09+00:00",
       "created_by": "sethmlarson",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-09-24T03:26:52+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13538,
@@ -167732,7 +167732,7 @@
       "is_pr": true,
       "created_at": "2025-08-20T05:15:24+00:00",
       "created_by": "dkjsone",
-      "closed_at": null,
+      "closed_at": "2025-09-24T03:26:51+00:00",
       "closed_by": null
     },
     {
@@ -168244,8 +168244,7 @@
       "number": 13593,
       "title": "Completions registered with `pip completion` don't work when pip is invoked differently",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: bug"
       ],
       "is_pr": false,
       "created_at": "2025-09-23T09:37:32+00:00",
@@ -168256,10 +168255,49 @@
     {
       "number": 13594,
       "title": "Error on installing libraries with 'pip' in Anaconda",
-      "labels": [],
+      "labels": [
+        "type: support",
+        "kind: crash"
+      ],
       "is_pr": false,
       "created_at": "2025-09-23T13:44:29+00:00",
       "created_by": "vianarifkhan",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13595,
+      "title": "Remove `--no-wheel` from virtualenv call in test setup",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-24T00:14:34+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2025-09-24T12:49:25+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13596,
+      "title": "Vendoring updates",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-24T03:33:42+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13597,
+      "title": "Pip CI tests fail on GitHub windows-2025 runber",
+      "labels": [
+        "C: tests"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-24T14:58:30+00:00",
+      "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
     }
@@ -168269,7 +168307,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-23T15:03:55+00:00",
+    "last_updated": "2025-09-24T15:03:45+00:00",
     "version": 1
   }
 }
