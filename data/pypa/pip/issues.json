@@ -145384,7 +145384,7 @@
       "is_pr": true,
       "created_at": "2023-01-12T18:43:53+00:00",
       "created_by": "stephenfin",
-      "closed_at": null,
+      "closed_at": "2025-09-26T11:30:08+00:00",
       "closed_by": null
     },
     {
@@ -168314,6 +168314,29 @@
       "created_by": "notatallshaw",
       "closed_at": "2025-09-25T12:56:00+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13599,
+      "title": "Add a command for running complete type checking with `nox -s typecheck` (including vendored dependencies)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-09-26T05:59:20+00:00",
+      "created_by": "pelson",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13600,
+      "title": "tensorflow: installed version is not respected despite being a compatible version?",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-26T06:50:24+00:00",
+      "created_by": "mtbrobotanist",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168321,7 +168344,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-25T15:03:49+00:00",
+    "last_updated": "2025-09-26T15:03:51+00:00",
     "version": 1
   }
 }

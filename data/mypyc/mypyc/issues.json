@@ -9875,8 +9875,8 @@
       "is_pr": false,
       "created_at": "2021-08-18T14:16:04+00:00",
       "created_by": "RonnyPfannschmidt",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-09-25T16:55:27+00:00",
+      "closed_by": "p-sawicki"
     },
     {
       "number": 888,
@@ -12893,6 +12893,16 @@
       "is_pr": false,
       "created_at": "2025-09-21T04:21:58+00:00",
       "created_by": "Liam-DeVoe",
+      "closed_at": "2025-09-26T14:39:58+00:00",
+      "closed_by": "JukkaL"
+    },
+    {
+      "number": 1144,
+      "title": "[notes] Places where non-dict exact rprimitive would improve performance",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-09-25T21:35:26+00:00",
+      "created_by": "BobTheBuidler",
       "closed_at": null,
       "closed_by": null
     }
@@ -12902,7 +12912,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-09-21T15:03:23+00:00",
+    "last_updated": "2025-09-26T15:03:51+00:00",
     "version": 1
   }
 }

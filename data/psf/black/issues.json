@@ -55970,6 +55970,18 @@
       "is_pr": true,
       "created_at": "2025-09-25T04:01:26+00:00",
       "created_by": "cobaltt7",
+      "closed_at": "2025-09-25T23:04:30+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4767,
+      "title": "ci: try running diff-shades runs concurrently",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-26T02:46:50+00:00",
+      "created_by": "cobaltt7",
       "closed_at": null,
       "closed_by": null
     }
@@ -55979,7 +55991,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-09-25T15:03:46+00:00",
+    "last_updated": "2025-09-26T15:03:48+00:00",
     "version": 1
   }
 }
