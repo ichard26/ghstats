@@ -168330,6 +168330,7 @@
       "title": "tensorflow: installed version is not respected despite being a compatible version?",
       "labels": [
         "type: bug",
+        "S: awaiting response",
         "S: needs triage"
       ],
       "is_pr": false,
@@ -168344,7 +168345,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-26T15:03:51+00:00",
+    "last_updated": "2025-09-27T15:03:14+00:00",
     "version": 1
   }
 }
