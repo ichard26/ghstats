@@ -81259,8 +81259,8 @@
       "is_pr": false,
       "created_at": "2019-04-24T13:43:50+00:00",
       "created_by": "con-f-use",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-09-28T10:06:32+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 6439,
@@ -123171,8 +123171,8 @@
       "is_pr": false,
       "created_at": "2021-04-15T06:51:52+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-09-28T10:04:25+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 9808,
@@ -168119,7 +168119,7 @@
       "is_pr": true,
       "created_at": "2025-09-17T15:43:23+00:00",
       "created_by": "foundry-markf",
-      "closed_at": null,
+      "closed_at": "2025-09-28T10:08:00+00:00",
       "closed_by": null
     },
     {
@@ -168338,6 +168338,30 @@
       "created_by": "mtbrobotanist",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13601,
+      "title": "Remove setup.py develop code path",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-27T18:23:58+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13602,
+      "title": "PEP 517 only",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-28T10:15:15+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168345,7 +168369,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-09-27T15:03:14+00:00",
+    "last_updated": "2025-09-28T15:03:29+00:00",
     "version": 1
   }
 }
