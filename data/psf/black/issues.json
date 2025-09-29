@@ -55626,7 +55626,7 @@
       "is_pr": true,
       "created_at": "2025-08-25T10:19:02+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-09-29T06:50:31+00:00",
       "closed_by": null
     },
     {
@@ -55984,6 +55984,33 @@
       "created_by": "cobaltt7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4768,
+      "title": "Bump pypa/cibuildwheel from 2.23.3 to 3.2.0",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-29T06:50:28+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4769,
+      "title": "Bump furo from 2025.7.19 to 2025.9.25 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-09-29T07:12:46+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -55991,7 +56018,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-09-26T15:03:48+00:00",
+    "last_updated": "2025-09-29T15:03:34+00:00",
     "version": 1
   }
 }

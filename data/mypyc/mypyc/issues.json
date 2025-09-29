@@ -12503,7 +12503,10 @@
     {
       "number": 1110,
       "title": "`inspect.iscoroutinefunction` always returns False for compiled functions, even those defined with `async def`",
-      "labels": [],
+      "labels": [
+        "feature",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2025-06-17T22:00:29+00:00",
       "created_by": "BobTheBuidler",
@@ -12905,6 +12908,18 @@
       "created_by": "BobTheBuidler",
       "closed_at": "2025-09-26T21:32:31+00:00",
       "closed_by": "BobTheBuidler"
+    },
+    {
+      "number": 1145,
+      "title": "Provide a replacement for inspect.iscoroutinefunction in librt",
+      "labels": [
+        "feature"
+      ],
+      "is_pr": false,
+      "created_at": "2025-09-29T13:33:22+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12912,7 +12927,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-09-27T15:03:14+00:00",
+    "last_updated": "2025-09-29T15:03:36+00:00",
     "version": 1
   }
 }
