@@ -168418,6 +168418,53 @@
       "created_by": "jenstroeger",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13608,
+      "title": "Resolving rejects all wheels for a given version causing otherwise valid wheels to be missed.",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-10-02T17:33:55+00:00",
+      "created_by": "dstufft",
+      "closed_at": "2025-10-02T20:53:46+00:00",
+      "closed_by": "dstufft"
+    },
+    {
+      "number": 13609,
+      "title": "Improve warning in pip install documentation",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-10-02T22:11:05+00:00",
+      "created_by": "ddeepwell",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13610,
+      "title": "Could not find a version that satisfies the requirement setuptools - local installs",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2025-10-02T22:13:39+00:00",
+      "created_by": "readmodifywrite",
+      "closed_at": "2025-10-02T22:54:31+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13611,
+      "title": "docs: clarify dependency-confusion warning refers to --extra-index-url",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-03T03:34:07+00:00",
+      "created_by": "isaacaman",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168425,7 +168472,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-02T15:03:43+00:00",
+    "last_updated": "2025-10-03T15:03:38+00:00",
     "version": 1
   }
 }
