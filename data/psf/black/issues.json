@@ -56019,7 +56019,7 @@
       "is_pr": true,
       "created_at": "2025-09-29T16:36:55+00:00",
       "created_by": "ericsampson",
-      "closed_at": null,
+      "closed_at": "2025-10-04T01:14:18+00:00",
       "closed_by": null
     },
     {
@@ -56038,7 +56038,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-03T15:03:37+00:00",
+    "last_updated": "2025-10-04T15:03:14+00:00",
     "version": 1
   }
 }
