@@ -52272,8 +52272,8 @@
       "is_pr": false,
       "created_at": "2024-08-15T17:43:14+00:00",
       "created_by": "nirs",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-05T21:05:29+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4438,
@@ -52316,7 +52316,7 @@
       "is_pr": true,
       "created_at": "2024-08-22T17:24:09+00:00",
       "created_by": "Typocalypse",
-      "closed_at": null,
+      "closed_at": "2025-10-05T21:05:29+00:00",
       "closed_by": null
     },
     {
@@ -56039,7 +56039,7 @@
       "is_pr": true,
       "created_at": "2025-10-04T17:46:57+00:00",
       "created_by": "sgaist",
-      "closed_at": null,
+      "closed_at": "2025-10-05T21:05:28+00:00",
       "closed_by": null
     },
     {
@@ -56071,6 +56071,62 @@
       "created_by": "sgaist",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4776,
+      "title": "Preview: symmetric formatting for multi-line list concatenations (fixes #260)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-05T18:47:15+00:00",
+      "created_by": "harshgupta2125",
+      "closed_at": "2025-10-05T21:04:44+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4777,
+      "title": "fix(3.12_generics_syntax): Fixed formatting of 3.12 generics syntax",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-05T19:03:03+00:00",
+      "created_by": "Exgene",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4778,
+      "title": "Bump peter-evans/create-or-update-comment from 4.0.0 to 5.0.0",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-06T06:01:52+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4779,
+      "title": "Bump peter-evans/find-comment from 3.1.0 to 4.0.0",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-06T06:01:55+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4780,
+      "title": "Updating the README.md",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-06T06:18:02+00:00",
+      "created_by": "Sai-Sravya-Thumati",
+      "closed_at": "2025-10-06T06:20:19+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -56078,7 +56134,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-05T15:03:24+00:00",
+    "last_updated": "2025-10-06T15:03:44+00:00",
     "version": 1
   }
 }
