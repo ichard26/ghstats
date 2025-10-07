@@ -55661,8 +55661,8 @@
       "is_pr": false,
       "created_at": "2025-08-30T10:15:09+00:00",
       "created_by": "dominiquegarmier",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-06T19:30:22+00:00",
+      "closed_by": "MeGaGiGaGon"
     },
     {
       "number": 4741,
@@ -56089,7 +56089,7 @@
       "is_pr": true,
       "created_at": "2025-10-05T19:03:03+00:00",
       "created_by": "Exgene",
-      "closed_at": null,
+      "closed_at": "2025-10-06T19:30:21+00:00",
       "closed_by": null
     },
     {
@@ -56127,6 +56127,80 @@
       "created_by": "Sai-Sravya-Thumati",
       "closed_at": "2025-10-06T06:20:19+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4781,
+      "title": "Crash with preview style `fix_fmt_skip_in_one_liners` for function with annotated parameter and `# fmt: skip` on one line",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-10-06T19:07:33+00:00",
+      "created_by": "dylwil3",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4782,
+      "title": "Crash with preview style `fix_fmt_skip_in_one_liners` for certain compound statements",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-10-06T19:26:28+00:00",
+      "created_by": "dylwil3",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4783,
+      "title": "Preview style `fix_fmt_skip_in_one_liners` does not work for semi-colon separated statements in body of compound statement",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-10-06T20:20:11+00:00",
+      "created_by": "dylwil3",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4784,
+      "title": "Try multiprocessing parallelism improvement",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-06T20:40:38+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4785,
+      "title": "Pin to ubuntu-22.04 (stable runner)",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-06T21:25:16+00:00",
+      "created_by": "MeGaGiGaGon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4786,
+      "title": "[pre-commit.ci] pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-06T21:50:26+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4787,
+      "title": "Fix imports from conv.py",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-07T07:16:07+00:00",
+      "created_by": "gordonmessmer",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -56134,7 +56208,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-06T15:03:44+00:00",
+    "last_updated": "2025-10-07T15:03:44+00:00",
     "version": 1
   }
 }

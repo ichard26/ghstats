@@ -148602,8 +148602,8 @@
       "is_pr": false,
       "created_at": "2023-04-22T23:50:13+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-06T23:13:52+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 11995,
@@ -166188,8 +166188,8 @@
       "is_pr": false,
       "created_at": "2025-06-10T16:33:53+00:00",
       "created_by": "AyanSinhaMahapatra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-06T23:13:23+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13423,
@@ -168475,6 +168475,28 @@
       "created_by": "Jancs-E",
       "closed_at": "2025-10-05T11:52:13+00:00",
       "closed_by": "Jancs-E"
+    },
+    {
+      "number": 13613,
+      "title": "pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-06T19:05:10+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2025-10-06T19:27:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13614,
+      "title": "Fix duplicate \"the\" in pip lock example",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-06T23:02:52+00:00",
+      "created_by": "MajorTanya",
+      "closed_at": "2025-10-06T23:19:46+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -168482,7 +168504,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-06T15:03:51+00:00",
+    "last_updated": "2025-10-07T15:03:49+00:00",
     "version": 1
   }
 }
