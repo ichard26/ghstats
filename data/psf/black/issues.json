@@ -55756,7 +55756,7 @@
       "is_pr": true,
       "created_at": "2025-09-15T14:18:04+00:00",
       "created_by": "hey-granth",
-      "closed_at": null,
+      "closed_at": "2025-10-09T00:59:26+00:00",
       "closed_by": null
     },
     {
@@ -56201,6 +56201,28 @@
       "created_by": "gordonmessmer",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4788,
+      "title": "Unreadable code block styles in dark mode documentation",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2025-10-08T18:35:38+00:00",
+      "created_by": "Andrej730",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4789,
+      "title": "Fix unreadable code block styles in dark mode documentation",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-09T13:27:54+00:00",
+      "created_by": "R055A",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -56208,7 +56230,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-07T15:03:44+00:00",
+    "last_updated": "2025-10-09T15:26:16+00:00",
     "version": 1
   }
 }
