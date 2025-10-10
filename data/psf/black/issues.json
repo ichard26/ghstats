@@ -52042,8 +52042,8 @@
       "is_pr": false,
       "created_at": "2024-07-29T20:21:49+00:00",
       "created_by": "autarch",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-10T14:19:24+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4419,
@@ -56009,7 +56009,7 @@
       "is_pr": true,
       "created_at": "2025-09-29T07:12:46+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-10-09T16:11:42+00:00",
       "closed_by": null
     },
     {
@@ -56049,7 +56049,7 @@
       "is_pr": true,
       "created_at": "2025-10-04T18:01:43+00:00",
       "created_by": "sgaist",
-      "closed_at": null,
+      "closed_at": "2025-10-10T14:19:23+00:00",
       "closed_by": null
     },
     {
@@ -56131,7 +56131,9 @@
     {
       "number": 4781,
       "title": "Crash with preview style `fix_fmt_skip_in_one_liners` for function with annotated parameter and `# fmt: skip` on one line",
-      "labels": [],
+      "labels": [
+        "C: crash"
+      ],
       "is_pr": false,
       "created_at": "2025-10-06T19:07:33+00:00",
       "created_by": "dylwil3",
@@ -56141,7 +56143,9 @@
     {
       "number": 4782,
       "title": "Crash with preview style `fix_fmt_skip_in_one_liners` for certain compound statements",
-      "labels": [],
+      "labels": [
+        "C: crash"
+      ],
       "is_pr": false,
       "created_at": "2025-10-06T19:26:28+00:00",
       "created_by": "dylwil3",
@@ -56211,17 +56215,20 @@
       "is_pr": false,
       "created_at": "2025-10-08T18:35:38+00:00",
       "created_by": "Andrej730",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-09T16:05:17+00:00",
+      "closed_by": "MeGaGiGaGon"
     },
     {
       "number": 4789,
       "title": "Fix unreadable code block styles in dark mode documentation",
-      "labels": [],
+      "labels": [
+        "T: documentation",
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-10-09T13:27:54+00:00",
       "created_by": "R055A",
-      "closed_at": null,
+      "closed_at": "2025-10-09T16:05:16+00:00",
       "closed_by": null
     }
   ],
@@ -56230,7 +56237,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-09T15:26:16+00:00",
+    "last_updated": "2025-10-10T15:03:33+00:00",
     "version": 1
   }
 }
