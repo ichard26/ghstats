@@ -56230,6 +56230,28 @@
       "created_by": "R055A",
       "closed_at": "2025-10-09T16:05:16+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4790,
+      "title": "Added supported python versions badge on readme",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-11T17:18:03+00:00",
+      "created_by": "Nirzak",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4791,
+      "title": "Eliminar maestro",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-10-11T21:15:47+00:00",
+      "created_by": "coronelnestorgaston05-ai",
+      "closed_at": "2025-10-11T21:29:16+00:00",
+      "closed_by": "hauntsaninja"
     }
   ],
   "record": {
@@ -56237,7 +56259,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-10T15:03:33+00:00",
+    "last_updated": "2025-10-12T15:03:06+00:00",
     "version": 1
   }
 }
