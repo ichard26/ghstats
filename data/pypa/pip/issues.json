@@ -153913,8 +153913,8 @@
       "is_pr": false,
       "created_at": "2023-12-18T09:47:24+00:00",
       "created_by": "BinToss",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-14T06:06:24+00:00",
+      "closed_by": "BinToss"
     },
     {
       "number": 12441,
@@ -155731,8 +155731,8 @@
       "is_pr": false,
       "created_at": "2024-03-21T00:00:20+00:00",
       "created_by": "Stamp9",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-13T20:27:50+00:00",
+      "closed_by": "Stamp9"
     },
     {
       "number": 12584,
@@ -165986,7 +165986,8 @@
       "title": "pip has the wrong exitcode when package-update is not possible",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: upgrade",
+        "C: cli"
       ],
       "is_pr": false,
       "created_at": "2025-05-27T19:54:26+00:00",
@@ -167818,8 +167819,8 @@
       "is_pr": false,
       "created_at": "2025-08-24T01:00:29+00:00",
       "created_by": "AnthonyHedo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-13T17:52:18+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13558,
@@ -167885,12 +167886,13 @@
       "number": 13563,
       "title": "docs(pip_freeze): clarify --all; add concise example",
       "labels": [
+        "skip news",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2025-08-30T15:24:03+00:00",
       "created_by": "CortexShadow",
-      "closed_at": null,
+      "closed_at": "2025-10-13T17:52:17+00:00",
       "closed_by": null
     },
     {
@@ -168564,7 +168566,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-13T15:03:41+00:00",
+    "last_updated": "2025-10-14T15:03:50+00:00",
     "version": 1
   }
 }
