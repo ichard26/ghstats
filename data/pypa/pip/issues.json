@@ -168559,6 +168559,53 @@
       "created_by": "JTP-123",
       "closed_at": "2025-10-13T09:34:34+00:00",
       "closed_by": "pfmoore"
+    },
+    {
+      "number": 13620,
+      "title": "Add RFC9457 support problem details handling",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-14T20:32:30+00:00",
+      "created_by": "luisgcoding",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13621,
+      "title": "[typing] Improve the typing of the with_cleanup decorator",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-15T03:09:50+00:00",
+      "created_by": "pelson",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13622,
+      "title": "[typing] Fix minor typing of pip._internal sub packages utils, exceptions, locations, self_outdated_check",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-15T04:53:39+00:00",
+      "created_by": "pelson",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13623,
+      "title": "Resolution Too Deep Error",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-10-15T09:59:15+00:00",
+      "created_by": "VaradharajSudhakar",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168566,7 +168613,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-14T15:03:50+00:00",
+    "last_updated": "2025-10-15T15:03:45+00:00",
     "version": 1
   }
 }

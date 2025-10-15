@@ -12970,6 +12970,46 @@
       "created_by": "mr-c",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1151,
+      "title": "UnboundLocalError in async context incorrectly raises AttributeError",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-10-15T06:03:51+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1152,
+      "title": "Final usage leading to gcc errror: use of a variable before declaration",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-10-15T09:14:05+00:00",
+      "created_by": "mr-c",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1153,
+      "title": "AssertionError: not sure what to do with an incref of a spill...",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-10-15T12:03:51+00:00",
+      "created_by": "Chainfire",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1154,
+      "title": "Accessing self in super().method() call returns wrong data (zerod memory?) or segfaults",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-10-15T14:04:25+00:00",
+      "created_by": "Chainfire",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -12977,7 +13017,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-10-14T15:03:49+00:00",
+    "last_updated": "2025-10-15T15:03:43+00:00",
     "version": 1
   }
 }
