@@ -168638,7 +168638,10 @@
     {
       "number": 13626,
       "title": "Issue when installing deepface.",
-      "labels": [],
+      "labels": [
+        "S: awaiting response",
+        "C: error messages"
+      ],
       "is_pr": false,
       "created_at": "2025-10-19T11:59:52+00:00",
       "created_by": "JackZhhhh",
@@ -168651,7 +168654,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-19T15:03:12+00:00",
+    "last_updated": "2025-10-20T15:03:42+00:00",
     "version": 1
   }
 }

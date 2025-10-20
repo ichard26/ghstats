@@ -35219,8 +35219,8 @@
       "is_pr": false,
       "created_at": "2022-04-11T21:17:07+00:00",
       "created_by": "goodside",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-19T15:25:09+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3010,
@@ -43927,8 +43927,8 @@
       "is_pr": false,
       "created_at": "2023-06-07T00:17:15+00:00",
       "created_by": "maludwig",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-19T19:41:26+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "number": 3722,
@@ -48540,7 +48540,7 @@
       "is_pr": true,
       "created_at": "2023-12-18T06:42:08+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-10-19T21:32:50+00:00",
       "closed_by": null
     },
     {
@@ -53135,7 +53135,8 @@
       "title": "`# fmt: skip` doesn't work with multiline strings",
       "labels": [
         "T: bug",
-        "F: strings"
+        "F: strings",
+        "F: fmtskip"
       ],
       "is_pr": false,
       "created_at": "2024-11-15T01:35:38+00:00",
@@ -55541,7 +55542,8 @@
       "number": 4730,
       "title": "`# fmt: skip` ignored inside multi-part if-clause",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: fmtskip"
       ],
       "is_pr": false,
       "created_at": "2025-08-07T16:50:32+00:00",
@@ -55553,7 +55555,8 @@
       "number": 4731,
       "title": "Black crashes when multiple `# fmt: skip` are added in a multi-part if-clause.",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: fmtskip"
       ],
       "is_pr": false,
       "created_at": "2025-08-11T19:44:03+00:00",
@@ -56059,7 +56062,7 @@
       "is_pr": true,
       "created_at": "2025-10-04T20:51:24+00:00",
       "created_by": "sgaist",
-      "closed_at": null,
+      "closed_at": "2025-10-19T19:41:25+00:00",
       "closed_by": null
     },
     {
@@ -56134,7 +56137,8 @@
       "number": 4781,
       "title": "Crash with preview style `fix_fmt_skip_in_one_liners` for function with annotated parameter and `# fmt: skip` on one line",
       "labels": [
-        "C: crash"
+        "C: crash",
+        "F: fmtskip"
       ],
       "is_pr": false,
       "created_at": "2025-10-06T19:07:33+00:00",
@@ -56146,7 +56150,8 @@
       "number": 4782,
       "title": "Crash with preview style `fix_fmt_skip_in_one_liners` for certain compound statements",
       "labels": [
-        "C: crash"
+        "C: crash",
+        "F: fmtskip"
       ],
       "is_pr": false,
       "created_at": "2025-10-06T19:26:28+00:00",
@@ -56157,7 +56162,10 @@
     {
       "number": 4783,
       "title": "Preview style `fix_fmt_skip_in_one_liners` does not work for semi-colon separated statements in body of compound statement",
-      "labels": [],
+      "labels": [
+        "T: bug",
+        "F: fmtskip"
+      ],
       "is_pr": false,
       "created_at": "2025-10-06T20:20:11+00:00",
       "created_by": "dylwil3",
@@ -56313,7 +56321,7 @@
       "is_pr": true,
       "created_at": "2025-10-18T14:26:18+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2025-10-19T21:47:48+00:00",
       "closed_by": null
     },
     {
@@ -56347,6 +56355,18 @@
       "is_pr": true,
       "created_at": "2025-10-19T14:46:31+00:00",
       "created_by": "cobaltt7",
+      "closed_at": "2025-10-19T21:50:48+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4802,
+      "title": "Add a `--no-cache` argument",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2025-10-19T17:16:45+00:00",
+      "created_by": "cobaltt7",
       "closed_at": null,
       "closed_by": null
     }
@@ -56356,7 +56376,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-19T15:03:08+00:00",
+    "last_updated": "2025-10-20T15:03:35+00:00",
     "version": 1
   }
 }
