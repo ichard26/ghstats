@@ -54201,8 +54201,8 @@
       "is_pr": false,
       "created_at": "2025-03-11T11:14:22+00:00",
       "created_by": "sacereda",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-20T16:09:01+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4610,
@@ -54211,7 +54211,7 @@
       "is_pr": true,
       "created_at": "2025-03-11T11:29:18+00:00",
       "created_by": "sacereda",
-      "closed_at": null,
+      "closed_at": "2025-10-20T16:09:00+00:00",
       "closed_by": null
     },
     {
@@ -56369,6 +56369,16 @@
       "created_by": "cobaltt7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4803,
+      "title": "feat: add --no-cache option to prevent cache during formatting",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-20T21:18:07+00:00",
+      "created_by": "Pranay-Pandey",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -56376,7 +56386,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-20T15:03:35+00:00",
+    "last_updated": "2025-10-21T15:03:59+00:00",
     "version": 1
   }
 }

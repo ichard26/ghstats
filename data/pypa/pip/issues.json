@@ -167618,7 +167618,7 @@
     },
     {
       "number": 13541,
-      "title": "Fix wheel cache concurrency when temp and cache are not on the same filesystem",
+      "title": "Address wheel cache concurrency and performance when temp and cache are not on the same filesystem",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -168654,7 +168654,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-20T15:03:42+00:00",
+    "last_updated": "2025-10-21T15:04:02+00:00",
     "version": 1
   }
 }
