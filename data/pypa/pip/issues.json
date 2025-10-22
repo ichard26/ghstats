@@ -79864,8 +79864,8 @@
       "is_pr": false,
       "created_at": "2019-03-14T13:34:32+00:00",
       "created_by": "pfmoore",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-21T21:11:50+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 6335,
@@ -142303,8 +142303,8 @@
       "is_pr": false,
       "created_at": "2022-09-17T13:52:48+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": "pradyunsg"
+      "closed_at": "2025-10-21T21:11:51+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 11458,
@@ -146997,8 +146997,8 @@
       "is_pr": false,
       "created_at": "2023-03-12T13:19:16+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-21T21:11:51+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 11860,
@@ -167613,8 +167613,8 @@
       "is_pr": false,
       "created_at": "2025-08-12T13:34:08+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-21T16:19:23+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13541,
@@ -167625,7 +167625,7 @@
       "is_pr": true,
       "created_at": "2025-08-12T15:02:47+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-10-21T16:19:22+00:00",
       "closed_by": null
     },
     {
@@ -168365,7 +168365,7 @@
       "is_pr": true,
       "created_at": "2025-09-28T10:15:15+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-10-21T21:11:49+00:00",
       "closed_by": null
     },
     {
@@ -168647,6 +168647,20 @@
       "created_by": "JackZhhhh",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13627,
+      "title": "pip install -e fails to isolate build environment during metadata generation - namespace collision causes import error.",
+      "labels": [
+        "type: bug",
+        "C: editable",
+        "C: build logic"
+      ],
+      "is_pr": false,
+      "created_at": "2025-10-21T22:26:04+00:00",
+      "created_by": "f3flight",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168654,7 +168668,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-21T15:04:02+00:00",
+    "last_updated": "2025-10-22T15:03:47+00:00",
     "version": 1
   }
 }

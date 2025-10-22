@@ -13020,6 +13020,16 @@
       "created_by": "BobTheBuidler",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1156,
+      "title": "Memory Error in `mypycify` call on 32-bit Windows",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-10-21T15:59:03+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13027,7 +13037,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-10-19T15:03:12+00:00",
+    "last_updated": "2025-10-22T15:03:46+00:00",
     "version": 1
   }
 }

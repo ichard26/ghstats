@@ -56304,7 +56304,8 @@
       "number": 4797,
       "title": "t-strings (Python 3.14) support for black",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "3.14"
       ],
       "is_pr": false,
       "created_at": "2025-10-15T20:29:16+00:00",
@@ -56379,6 +56380,18 @@
       "created_by": "Pranay-Pandey",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4804,
+      "title": "Add inital CI for 3.14",
+      "labels": [
+        "3.14"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-22T02:18:54+00:00",
+      "created_by": "cooperlees",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -56386,7 +56399,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-21T15:03:59+00:00",
+    "last_updated": "2025-10-22T15:03:43+00:00",
     "version": 1
   }
 }
