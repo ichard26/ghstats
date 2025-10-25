@@ -168421,8 +168421,8 @@
       "is_pr": false,
       "created_at": "2025-10-01T00:36:22+00:00",
       "created_by": "jenstroeger",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-25T01:21:17+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13608,
@@ -168602,7 +168602,8 @@
       "title": "Resolution Too Deep Error",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "type: support",
+        "S: awaiting response"
       ],
       "is_pr": false,
       "created_at": "2025-10-15T09:59:15+00:00",
@@ -168703,7 +168704,17 @@
       "is_pr": true,
       "created_at": "2025-10-24T13:46:48+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-10-24T23:25:59+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13632,
+      "title": "Fix release 25.3 commit order",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-25T00:09:47+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2025-10-25T00:33:18+00:00",
       "closed_by": null
     }
   ],
@@ -168712,7 +168723,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-24T15:03:54+00:00",
+    "last_updated": "2025-10-25T15:03:23+00:00",
     "version": 1
   }
 }
