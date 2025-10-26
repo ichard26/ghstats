@@ -168716,6 +168716,30 @@
       "created_by": "notatallshaw",
       "closed_at": "2025-10-25T00:33:18+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13633,
+      "title": "fix typo in release notes",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-25T20:48:40+00:00",
+      "created_by": "JostMigenda",
+      "closed_at": "2025-10-25T21:08:03+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13634,
+      "title": "Fix: Patch scheme to posix_prefix if posix_local and --prefix is specified",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-26T13:13:43+00:00",
+      "created_by": "cielavenir",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168723,7 +168747,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-25T15:03:23+00:00",
+    "last_updated": "2025-10-26T15:03:35+00:00",
     "version": 1
   }
 }

@@ -56399,7 +56399,7 @@
     },
     {
       "number": 4805,
-      "title": "[WIP] t-string support",
+      "title": "t-string support",
       "labels": [],
       "is_pr": true,
       "created_at": "2025-10-22T18:28:14+00:00",
@@ -56450,7 +56450,7 @@
       "is_pr": true,
       "created_at": "2025-10-24T22:29:46+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
+      "closed_at": "2025-10-26T14:31:36+00:00",
       "closed_by": null
     },
     {
@@ -56464,6 +56464,26 @@
       "created_by": "Ayisha-Mohammed",
       "closed_at": "2025-10-25T13:45:16+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4811,
+      "title": "Fix #1245: Preserve comment formatting in fmt:off/on blocks",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-26T07:27:19+00:00",
+      "created_by": "elijahr",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4812,
+      "title": "Clarify GitLab support for blame ignore",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-26T11:46:30+00:00",
+      "created_by": "SaarYogev",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -56471,7 +56491,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-25T15:03:21+00:00",
+    "last_updated": "2025-10-26T15:03:32+00:00",
     "version": 1
   }
 }
