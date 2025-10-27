@@ -7020,7 +7020,6 @@
       "title": "Bug: linebreak in comparison in parens with comments in conditional is not stable",
       "labels": [
         "T: bug",
-        "C: invalid code",
         "F: comments"
       ],
       "is_pr": false,
@@ -13243,8 +13242,8 @@
       "is_pr": false,
       "created_at": "2019-12-09T07:00:57+00:00",
       "created_by": "uranusjr",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T20:15:24+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 1198,
@@ -13807,8 +13806,8 @@
       "is_pr": false,
       "created_at": "2020-01-23T13:47:16+00:00",
       "created_by": "marcelm",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T22:00:44+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 1246,
@@ -28775,8 +28774,8 @@
       "is_pr": false,
       "created_at": "2021-09-06T18:26:21+00:00",
       "created_by": "danjujan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T20:38:24+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2481,
@@ -31223,9 +31222,9 @@
       ],
       "is_pr": false,
       "created_at": "2021-12-10T15:40:53+00:00",
-      "created_by": "MarcinKonowalczyk",
-      "closed_at": null,
-      "closed_by": null
+      "created_by": "lczyk",
+      "closed_at": "2025-10-26T23:26:09+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2684,
@@ -38361,8 +38360,8 @@
       "is_pr": false,
       "created_at": "2022-09-07T19:45:31+00:00",
       "created_by": "LouisJustinTALLOT",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-27T06:52:59+00:00",
+      "closed_by": "hauntsaninja"
     },
     {
       "number": 3264,
@@ -39007,8 +39006,8 @@
       "is_pr": false,
       "created_at": "2022-10-07T11:43:15+00:00",
       "created_by": "kloczek",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T20:08:58+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3315,
@@ -39342,8 +39341,8 @@
       "is_pr": false,
       "created_at": "2022-10-18T09:35:10+00:00",
       "created_by": "randolf-scholz",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T20:14:30+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3343,
@@ -40404,8 +40403,8 @@
       "is_pr": false,
       "created_at": "2022-12-10T19:29:42+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T23:16:08+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3429,
@@ -41731,13 +41730,14 @@
       "number": 3537,
       "title": "Black is not honoring fmt: off for comment changes",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: fmtoff"
       ],
       "is_pr": false,
       "created_at": "2023-02-01T09:26:45+00:00",
       "created_by": "nijel",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T22:00:44+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3538,
@@ -42354,13 +42354,14 @@
       "number": 3588,
       "title": "fmt:off not respected for last line of block for comments",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "F: fmtoff"
       ],
       "is_pr": false,
       "created_at": "2023-02-27T15:43:14+00:00",
       "created_by": "alexandrenorman",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T21:39:54+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3589,
@@ -54528,7 +54529,8 @@
       "number": 4640,
       "title": "Standalone comment within parentheses in lambda default arguments crashes black",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: crash"
       ],
       "is_pr": false,
       "created_at": "2025-03-31T19:56:19+00:00",
@@ -55555,7 +55557,7 @@
       "number": 4731,
       "title": "Black crashes when multiple `# fmt: skip` are added in a multi-part if-clause.",
       "labels": [
-        "T: bug",
+        "C: crash",
         "F: fmtskip"
       ],
       "is_pr": false,
@@ -56173,8 +56175,8 @@
       "is_pr": false,
       "created_at": "2025-10-06T20:20:11+00:00",
       "created_by": "dylwil3",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T19:37:07+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4784,
@@ -56348,7 +56350,7 @@
       "is_pr": true,
       "created_at": "2025-10-18T17:31:27+00:00",
       "created_by": "sonianuj287",
-      "closed_at": null,
+      "closed_at": "2025-10-26T19:37:06+00:00",
       "closed_by": null
     },
     {
@@ -56372,8 +56374,8 @@
       "is_pr": false,
       "created_at": "2025-10-19T17:16:45+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-26T15:14:49+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4803,
@@ -56382,7 +56384,7 @@
       "is_pr": true,
       "created_at": "2025-10-20T21:18:07+00:00",
       "created_by": "Pranay-Pandey",
-      "closed_at": null,
+      "closed_at": "2025-10-26T15:14:49+00:00",
       "closed_by": null
     },
     {
@@ -56472,17 +56474,67 @@
       "is_pr": true,
       "created_at": "2025-10-26T07:27:19+00:00",
       "created_by": "elijahr",
-      "closed_at": null,
+      "closed_at": "2025-10-26T22:00:43+00:00",
       "closed_by": null
     },
     {
       "number": 4812,
       "title": "Clarify GitLab support for blame ignore",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-10-26T11:46:30+00:00",
       "created_by": "SaarYogev",
+      "closed_at": "2025-10-26T15:15:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4813,
+      "title": "Add support for arm64 windows",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2025-10-26T23:48:49+00:00",
+      "created_by": "finnagin",
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4814,
+      "title": "Add arm64 windows builds and tests",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-10-26T23:52:59+00:00",
+      "created_by": "finnagin",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4815,
+      "title": "Bump actions/upload-artifact from 4 to 5",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-27T06:15:55+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2025-10-27T11:51:44+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4816,
+      "title": "Bump actions/download-artifact from 5 to 6",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-10-27T06:16:25+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2025-10-27T11:51:24+00:00",
       "closed_by": null
     }
   ],
@@ -56491,7 +56543,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-26T15:03:32+00:00",
+    "last_updated": "2025-10-27T15:03:52+00:00",
     "version": 1
   }
 }

@@ -84219,7 +84219,7 @@
       "labels": [
         "type: bug",
         "project: vendored dependency",
-        "state: needs discussion"
+        "resolution: no action"
       ],
       "is_pr": false,
       "created_at": "2019-06-28T18:09:15+00:00",
@@ -111464,8 +111464,8 @@
       "is_pr": false,
       "created_at": "2020-08-24T08:42:06+00:00",
       "created_by": "pelson",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-27T05:10:27+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 8795,
@@ -168747,7 +168747,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-26T15:03:35+00:00",
+    "last_updated": "2025-10-27T15:04:01+00:00",
     "version": 1
   }
 }
