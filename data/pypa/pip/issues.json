@@ -168764,8 +168764,8 @@
       "is_pr": false,
       "created_at": "2025-10-29T10:01:10+00:00",
       "created_by": "rajeshkumarabes",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-29T19:51:48+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13637,
@@ -168787,7 +168787,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-10-29T15:03:56+00:00",
+    "last_updated": "2025-10-30T15:03:46+00:00",
     "version": 1
   }
 }
