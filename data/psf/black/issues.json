@@ -56540,7 +56540,9 @@
     {
       "number": 4817,
       "title": "Fix: wrap GitHub install command in code block in README.md",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-10-29T12:15:14+00:00",
       "created_by": "HarshaSai1234",
@@ -56565,7 +56567,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-10-30T15:03:42+00:00",
+    "last_updated": "2025-10-31T15:03:36+00:00",
     "version": 1
   }
 }
