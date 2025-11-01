@@ -13048,8 +13048,8 @@
       "is_pr": false,
       "created_at": "2025-10-29T13:07:24+00:00",
       "created_by": "mr-c",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-10-31T16:09:26+00:00",
+      "closed_by": "mr-c"
     },
     {
       "number": 1159,
@@ -13067,7 +13067,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-10-31T15:03:37+00:00",
+    "last_updated": "2025-11-01T15:03:12+00:00",
     "version": 1
   }
 }
