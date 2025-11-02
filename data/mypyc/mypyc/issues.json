@@ -13054,7 +13054,10 @@
     {
       "number": 1159,
       "title": "TYPE_CHECKING block leads to \"Reached allegedly unreachable code!\"",
-      "labels": [],
+      "labels": [
+        "priority-0-high",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2025-10-31T14:25:48+00:00",
       "created_by": "kasium",
@@ -13067,7 +13070,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-11-01T15:03:12+00:00",
+    "last_updated": "2025-11-02T15:03:06+00:00",
     "version": 1
   }
 }
