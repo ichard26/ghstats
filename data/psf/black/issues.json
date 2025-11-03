@@ -56546,7 +56546,7 @@
       "is_pr": true,
       "created_at": "2025-10-29T12:15:14+00:00",
       "created_by": "HarshaSai1234",
-      "closed_at": null,
+      "closed_at": "2025-11-03T04:39:54+00:00",
       "closed_by": null
     },
     {
@@ -56560,6 +56560,18 @@
       "created_by": "jericjan",
       "closed_at": "2025-10-30T06:02:36+00:00",
       "closed_by": "cobaltt7"
+    },
+    {
+      "number": 4819,
+      "title": "docs: label rst block with rst in README.md",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-11-03T03:37:28+00:00",
+      "created_by": "onerandomusername",
+      "closed_at": "2025-11-03T04:22:40+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -56567,7 +56579,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-11-01T15:03:12+00:00",
+    "last_updated": "2025-11-03T15:03:45+00:00",
     "version": 1
   }
 }

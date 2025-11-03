@@ -162556,8 +162556,8 @@
       "is_pr": false,
       "created_at": "2024-12-25T01:13:51+00:00",
       "created_by": "moh-12345",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-02T15:33:52+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13128,
@@ -163505,8 +163505,8 @@
       "is_pr": false,
       "created_at": "2025-02-04T18:14:00+00:00",
       "created_by": "lamdacoolest",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-02T15:31:51+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13205,
@@ -166640,8 +166640,8 @@
       "is_pr": false,
       "created_at": "2025-07-01T23:30:55+00:00",
       "created_by": "ekkizogloy",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-02T15:33:05+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13459,
@@ -168138,8 +168138,8 @@
       "is_pr": false,
       "created_at": "2025-09-19T01:54:15+00:00",
       "created_by": "Mr-Nobody148",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-02T15:31:37+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13584,
@@ -168173,8 +168173,8 @@
       "is_pr": false,
       "created_at": "2025-09-20T04:41:29+00:00",
       "created_by": "Brahmamkolli",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-02T15:31:19+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13587,
@@ -168646,8 +168646,8 @@
       "is_pr": false,
       "created_at": "2025-10-19T11:59:52+00:00",
       "created_by": "JackZhhhh",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-02T15:31:12+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13627,
@@ -168780,6 +168780,28 @@
       "created_by": "loscrossos",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13638,
+      "title": "Improve warnings when invalid/broken installed packages are detected",
+      "labels": [
+        "C: error messages"
+      ],
+      "is_pr": false,
+      "created_at": "2025-11-02T16:25:16+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13639,
+      "title": "Fix minor grammatical issues in README",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-03T02:46:22+00:00",
+      "created_by": "HarshaSai1234",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168787,7 +168809,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-02T15:03:06+00:00",
+    "last_updated": "2025-11-03T15:03:48+00:00",
     "version": 1
   }
 }
