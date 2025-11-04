@@ -13083,6 +13083,26 @@
       "created_by": "kasium",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1162,
+      "title": "`<...>` object expected, got dict (when forwarding with `**kwarg`)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-11-03T19:27:52+00:00",
+      "created_by": "romintomasetti",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1163,
+      "title": "Compile failure when importing `StrEnum` from `backports.strenum` but works when importing from `backports.strenum.strenum`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-11-04T09:30:02+00:00",
+      "created_by": "romintomasetti",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13090,7 +13110,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-11-03T15:03:47+00:00",
+    "last_updated": "2025-11-04T15:04:02+00:00",
     "version": 1
   }
 }

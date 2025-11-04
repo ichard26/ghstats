@@ -32978,8 +32978,8 @@
       "is_pr": false,
       "created_at": "2015-04-13T14:27:41+00:00",
       "created_by": "dstufft",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-04T14:01:48+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 2678,
@@ -70928,8 +70928,8 @@
       "is_pr": false,
       "created_at": "2018-07-27T11:10:30+00:00",
       "created_by": "mhsmith",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-04T13:55:47+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 5662,
@@ -79552,8 +79552,8 @@
       "is_pr": false,
       "created_at": "2019-03-01T14:18:41+00:00",
       "created_by": "danpawlik",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-04T11:44:50+00:00",
+      "closed_by": "danpawlik"
     },
     {
       "number": 6311,
@@ -94896,8 +94896,8 @@
       "is_pr": false,
       "created_at": "2019-12-07T18:22:27+00:00",
       "created_by": "chrahunt",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-04T13:51:18+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 7451,
@@ -115842,8 +115842,8 @@
       "is_pr": false,
       "created_at": "2020-11-30T03:29:56+00:00",
       "created_by": "llamafilm",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-04T13:49:45+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9177,
@@ -152277,7 +152277,7 @@
       "is_pr": true,
       "created_at": "2023-09-30T21:29:36+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2025-11-04T14:31:30+00:00",
       "closed_by": null
     },
     {
@@ -167395,8 +167395,8 @@
       "is_pr": false,
       "created_at": "2025-08-04T01:38:25+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-03T21:46:52+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13523,
@@ -168269,8 +168269,8 @@
       "is_pr": false,
       "created_at": "2025-09-23T13:44:29+00:00",
       "created_by": "vianarifkhan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-03T21:58:17+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13595,
@@ -168594,7 +168594,7 @@
       "is_pr": true,
       "created_at": "2025-10-15T04:53:39+00:00",
       "created_by": "pelson",
-      "closed_at": null,
+      "closed_at": "2025-11-04T06:21:02+00:00",
       "closed_by": null
     },
     {
@@ -168796,10 +168796,32 @@
     {
       "number": 13639,
       "title": "Fix minor grammatical issues in README",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-11-03T02:46:22+00:00",
       "created_by": "HarshaSai1234",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13640,
+      "title": "pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-03T18:39:23+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2025-11-03T19:11:40+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13641,
+      "title": "Release 26.0 (January)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-11-04T06:17:44+00:00",
+      "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
     }
@@ -168809,7 +168831,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-03T15:03:48+00:00",
+    "last_updated": "2025-11-04T15:04:03+00:00",
     "version": 1
   }
 }
