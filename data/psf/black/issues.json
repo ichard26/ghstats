@@ -28539,7 +28539,7 @@
       "created_at": "2021-08-29T21:48:00+00:00",
       "created_by": "onerandomusername",
       "closed_at": "2021-08-30T17:26:21+00:00",
-      "closed_by": "ichard26"
+      "closed_by": null
     },
     {
       "number": 2462,
@@ -56591,7 +56591,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-11-04T15:04:01+00:00",
+    "last_updated": "2025-11-05T15:03:55+00:00",
     "version": 1
   }
 }
