@@ -56316,8 +56316,8 @@
       "is_pr": false,
       "created_at": "2025-10-15T20:29:16+00:00",
       "created_by": "bowiechen",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-05T18:14:19+00:00",
+      "closed_by": "tusharsadhwani"
     },
     {
       "number": 4798,
@@ -56406,7 +56406,7 @@
       "is_pr": true,
       "created_at": "2025-10-22T18:28:14+00:00",
       "created_by": "tusharsadhwani",
-      "closed_at": null,
+      "closed_at": "2025-11-05T18:14:18+00:00",
       "closed_by": null
     },
     {
@@ -56584,6 +56584,16 @@
       "created_by": "samriddhitiwary",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4822,
+      "title": "Fix `fmt:skip` issues including some crashes",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-06T00:05:12+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -56591,7 +56601,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-11-05T15:03:55+00:00",
+    "last_updated": "2025-11-06T15:03:44+00:00",
     "version": 1
   }
 }

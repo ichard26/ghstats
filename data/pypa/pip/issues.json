@@ -140501,12 +140501,14 @@
       "number": 11306,
       "title": "Format project_url in pip inspect as dict",
       "labels": [
-        "C: inspect"
+        "resolution: no action",
+        "C: inspect",
+        "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2022-07-25T13:12:15+00:00",
       "created_by": "JakobDev",
-      "closed_at": null,
+      "closed_at": "2025-11-06T05:27:37+00:00",
       "closed_by": null
     },
     {
@@ -145705,7 +145707,7 @@
       "is_pr": true,
       "created_at": "2023-01-26T06:14:03+00:00",
       "created_by": "rabelux",
-      "closed_at": null,
+      "closed_at": "2025-11-06T05:33:04+00:00",
       "closed_by": null
     },
     {
@@ -149753,7 +149755,7 @@
       "is_pr": true,
       "created_at": "2023-06-19T20:03:35+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
+      "closed_at": "2025-11-06T04:56:54+00:00",
       "closed_by": null
     },
     {
@@ -151869,7 +151871,7 @@
       "is_pr": true,
       "created_at": "2023-09-07T08:55:53+00:00",
       "created_by": "uranusjr",
-      "closed_at": null,
+      "closed_at": "2025-11-06T05:07:26+00:00",
       "closed_by": null
     },
     {
@@ -157420,7 +157422,7 @@
       "is_pr": true,
       "created_at": "2024-05-20T19:51:41+00:00",
       "created_by": "uranusjr",
-      "closed_at": null,
+      "closed_at": "2025-11-06T05:09:13+00:00",
       "closed_by": null
     },
     {
@@ -157793,7 +157795,8 @@
       "title": "Adding Dev Container config for easier developer workflows",
       "labels": [
         "skip news",
-        "type: maintenance"
+        "type: maintenance",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2024-06-04T21:29:00+00:00",
@@ -159689,8 +159692,8 @@
       "is_pr": false,
       "created_at": "2024-08-05T14:37:59+00:00",
       "created_by": "Niladri24dutta",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-06T05:51:07+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12897,
@@ -160807,12 +160810,13 @@
       "number": 12987,
       "title": "7122: error on encountering invalid extras",
       "labels": [
+        "resolution: no action",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2024-10-02T21:40:49+00:00",
       "created_by": "meejah",
-      "closed_at": null,
+      "closed_at": "2025-11-06T04:49:58+00:00",
       "closed_by": null
     },
     {
@@ -164041,7 +164045,7 @@
       "is_pr": true,
       "created_at": "2025-02-27T00:10:38+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2025-11-06T05:12:10+00:00",
       "closed_by": null
     },
     {
@@ -165850,12 +165854,13 @@
       "number": 13395,
       "title": "add size to pylock.toml",
       "labels": [
+        "resolution: no action",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2025-05-15T19:55:21+00:00",
       "created_by": "stonebig",
-      "closed_at": null,
+      "closed_at": "2025-11-06T04:52:09+00:00",
       "closed_by": null
     },
     {
@@ -166162,13 +166167,13 @@
       "title": "\"Wheel has unexpected file name\" with timestamp in dynamic version",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "resolution: wrong project"
       ],
       "is_pr": false,
       "created_at": "2025-06-08T20:32:17+00:00",
       "created_by": "dseomn",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-06T05:47:54+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13421,
@@ -167103,7 +167108,7 @@
       "is_pr": true,
       "created_at": "2025-07-21T19:03:38+00:00",
       "created_by": "barneygale",
-      "closed_at": null,
+      "closed_at": "2025-11-06T05:40:00+00:00",
       "closed_by": null
     },
     {
@@ -168802,7 +168807,7 @@
       "is_pr": true,
       "created_at": "2025-11-03T02:46:22+00:00",
       "created_by": "HarshaSai1234",
-      "closed_at": null,
+      "closed_at": "2025-11-06T04:27:53+00:00",
       "closed_by": null
     },
     {
@@ -168843,7 +168848,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-05T15:03:58+00:00",
+    "last_updated": "2025-11-06T15:03:46+00:00",
     "version": 1
   }
 }
