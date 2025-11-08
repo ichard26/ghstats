@@ -160430,7 +160430,7 @@
       "is_pr": true,
       "created_at": "2024-09-04T20:28:54+00:00",
       "created_by": "hellozee",
-      "closed_at": null,
+      "closed_at": "2025-11-08T04:50:15+00:00",
       "closed_by": null
     },
     {
@@ -168848,7 +168848,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-07T15:03:32+00:00",
+    "last_updated": "2025-11-08T15:03:16+00:00",
     "version": 1
   }
 }

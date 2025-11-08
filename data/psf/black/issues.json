@@ -56594,6 +56594,28 @@
       "created_by": "cobaltt7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4823,
+      "title": "`PyInstaller` related issue when using the prebuilt Black binary on Mac OSX",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-11-07T22:39:24+00:00",
+      "created_by": "FrankPortman",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4824,
+      "title": "feat: add output-file input for clean Black logging",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-08T14:29:02+00:00",
+      "created_by": "jmchilton",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -56601,7 +56623,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-11-06T15:03:44+00:00",
+    "last_updated": "2025-11-08T15:03:15+00:00",
     "version": 1
   }
 }
