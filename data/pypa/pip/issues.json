@@ -115829,8 +115829,8 @@
       "is_pr": false,
       "created_at": "2020-11-29T22:53:13+00:00",
       "created_by": "dstufft",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-09T13:24:38+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 9176,
@@ -168848,7 +168848,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-08T15:03:16+00:00",
+    "last_updated": "2025-11-09T15:03:12+00:00",
     "version": 1
   }
 }
