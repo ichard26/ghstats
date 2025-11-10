@@ -86448,8 +86448,8 @@
       "is_pr": false,
       "created_at": "2019-08-01T15:11:52+00:00",
       "created_by": "anntzer",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-09T20:07:45+00:00",
+      "closed_by": "pfmoore"
     },
     {
       "number": 6824,
@@ -163521,7 +163521,7 @@
       "is_pr": true,
       "created_at": "2025-02-05T08:55:20+00:00",
       "created_by": "wdhongtw",
-      "closed_at": null,
+      "closed_at": "2025-11-09T20:07:44+00:00",
       "closed_by": null
     },
     {
@@ -167561,7 +167561,6 @@
       "title": "pip completion undocumented at pip.pypa.io",
       "labels": [
         "type: docs",
-        "good first issue",
         "resolution: deferred till PR"
       ],
       "is_pr": false,
@@ -167804,8 +167803,8 @@
       "is_pr": false,
       "created_at": "2025-08-23T18:13:37+00:00",
       "created_by": "stephane-chazelas",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-09T17:45:02+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13556,
@@ -167839,7 +167838,7 @@
       "is_pr": true,
       "created_at": "2025-08-24T09:09:05+00:00",
       "created_by": "stephane-chazelas",
-      "closed_at": null,
+      "closed_at": "2025-11-09T17:45:01+00:00",
       "closed_by": null
     },
     {
@@ -168841,6 +168840,45 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13643,
+      "title": "Consider removing our zsh completion script or redirecting users to use zsh's built-in completion",
+      "labels": [
+        "state: needs discussion",
+        "C: autocomplete"
+      ],
+      "is_pr": false,
+      "created_at": "2025-11-09T17:47:59+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13644,
+      "title": "svn is failing to install via Chocolately in Windows CI",
+      "labels": [
+        "C: tests",
+        "OS: windows",
+        "type: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2025-11-09T20:26:50+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13645,
+      "title": "Switch SVN Windows CI installation to winget / Slik.Subversion",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-11-09T20:51:57+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168848,7 +168886,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-09T15:03:12+00:00",
+    "last_updated": "2025-11-10T15:03:57+00:00",
     "version": 1
   }
 }
