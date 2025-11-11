@@ -127941,8 +127941,8 @@
       "is_pr": false,
       "created_at": "2021-07-28T15:32:02+00:00",
       "created_by": "phdru",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-10T18:52:10+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 10227,
@@ -140751,7 +140751,7 @@
       "is_pr": true,
       "created_at": "2022-07-30T14:55:25+00:00",
       "created_by": "pfmoore",
-      "closed_at": null,
+      "closed_at": "2025-11-10T21:29:54+00:00",
       "closed_by": null
     },
     {
@@ -149076,7 +149076,7 @@
       "is_pr": true,
       "created_at": "2023-05-17T11:24:08+00:00",
       "created_by": "pfmoore",
-      "closed_at": null,
+      "closed_at": "2025-11-11T08:06:20+00:00",
       "closed_by": null
     },
     {
@@ -161392,7 +161392,7 @@
       "is_pr": true,
       "created_at": "2024-10-21T02:53:40+00:00",
       "created_by": "jamestwebber",
-      "closed_at": null,
+      "closed_at": "2025-11-11T01:20:45+00:00",
       "closed_by": null
     },
     {
@@ -161591,7 +161591,7 @@
       "is_pr": true,
       "created_at": "2024-10-27T19:21:23+00:00",
       "created_by": "zerothi",
-      "closed_at": null,
+      "closed_at": "2025-11-11T01:02:16+00:00",
       "closed_by": null
     },
     {
@@ -166012,7 +166012,7 @@
       "is_pr": true,
       "created_at": "2025-05-28T06:10:40+00:00",
       "created_by": "kazssym",
-      "closed_at": null,
+      "closed_at": "2025-11-10T18:52:09+00:00",
       "closed_by": null
     },
     {
@@ -167940,12 +167940,13 @@
       "number": 13567,
       "title": "do not break apart when no common appdata location is set in registry",
       "labels": [
+        "resolution: wrong project",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2025-09-02T08:14:13+00:00",
       "created_by": "DenKoren",
-      "closed_at": null,
+      "closed_at": "2025-11-11T01:09:35+00:00",
       "closed_by": null
     },
     {
@@ -168879,6 +168880,19 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13646,
+      "title": "pip installs pre-release without `--pre` given if version constraint contains a pre release",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-11-10T21:26:12+00:00",
+      "created_by": "maxnoe",
+      "closed_at": "2025-11-11T00:23:32+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -168886,7 +168900,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-10T15:03:57+00:00",
+    "last_updated": "2025-11-11T15:03:47+00:00",
     "version": 1
   }
 }
