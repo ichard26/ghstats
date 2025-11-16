@@ -57542,8 +57542,8 @@
       "is_pr": false,
       "created_at": "2017-08-09T14:09:16+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-16T05:05:24+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 4660,
@@ -85791,8 +85791,8 @@
       "is_pr": false,
       "created_at": "2019-07-23T08:44:39+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-15T17:29:07+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6774,
@@ -159619,7 +159619,7 @@
     },
     {
       "number": 12891,
-      "title": "PEP 723 support",
+      "title": "Inline script metadata (PEP 723) support",
       "labels": [
         "state: needs discussion",
         "type: feature request"
@@ -168905,6 +168905,40 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13648,
+      "title": "Remove PERF ruff lint rules",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-11-15T16:04:19+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-11-15T16:30:56+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13649,
+      "title": "Colourful pip help",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-11-15T19:24:09+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13650,
+      "title": "typo: space required after the URL in root user warning",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-16T11:34:46+00:00",
+      "created_by": "vishalnandagopal",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -168912,7 +168946,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-15T15:03:15+00:00",
+    "last_updated": "2025-11-16T15:03:09+00:00",
     "version": 1
   }
 }
