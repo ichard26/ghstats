@@ -12876,7 +12876,7 @@
       "is_pr": false,
       "created_at": "2025-09-17T11:11:58+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
+      "closed_at": "2025-11-18T10:47:35+00:00",
       "closed_by": "JukkaL"
     },
     {
@@ -13008,8 +13008,8 @@
       "is_pr": false,
       "created_at": "2025-10-15T14:04:25+00:00",
       "created_by": "Chainfire",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-18T13:55:23+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1155,
@@ -13120,7 +13120,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-11-17T15:04:15+00:00",
+    "last_updated": "2025-11-18T15:03:48+00:00",
     "version": 1
   }
 }

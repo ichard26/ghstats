@@ -168986,8 +168986,21 @@
       "is_pr": false,
       "created_at": "2025-11-17T05:19:30+00:00",
       "created_by": "HungDSabc",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-17T17:44:11+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13655,
+      "title": "[BUG] pip install --upgrade pip | ERROR: Error while checking for conflicts.",
+      "labels": [
+        "type: support",
+        "C: error messages"
+      ],
+      "is_pr": false,
+      "created_at": "2025-11-17T17:44:03+00:00",
+      "created_by": "Zburgers",
+      "closed_at": "2025-11-17T23:52:38+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -168995,7 +169008,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-17T15:04:15+00:00",
+    "last_updated": "2025-11-18T15:03:49+00:00",
     "version": 1
   }
 }
