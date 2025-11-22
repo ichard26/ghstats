@@ -55767,7 +55767,9 @@
     {
       "number": 4749,
       "title": "Upgrade mypy",
-      "labels": [],
+      "labels": [
+        "ci: build all wheels"
+      ],
       "is_pr": true,
       "created_at": "2025-09-15T21:32:20+00:00",
       "created_by": "hauntsaninja",
@@ -56149,8 +56151,8 @@
       "is_pr": false,
       "created_at": "2025-10-06T19:07:33+00:00",
       "created_by": "dylwil3",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-21T23:24:40+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4782,
@@ -56162,8 +56164,8 @@
       "is_pr": false,
       "created_at": "2025-10-06T19:26:28+00:00",
       "created_by": "dylwil3",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-21T23:49:06+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4783,
@@ -56594,7 +56596,7 @@
       "is_pr": true,
       "created_at": "2025-11-06T00:05:12+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2025-11-21T23:24:41+00:00",
       "closed_by": null
     },
     {
@@ -56616,7 +56618,7 @@
       "is_pr": true,
       "created_at": "2025-11-08T14:29:02+00:00",
       "created_by": "jmchilton",
-      "closed_at": null,
+      "closed_at": "2025-11-21T22:38:53+00:00",
       "closed_by": null
     },
     {
@@ -56847,8 +56849,8 @@
       "is_pr": false,
       "created_at": "2025-11-15T21:12:40+00:00",
       "created_by": "jamesbraza",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-21T22:39:41+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4844,
@@ -56869,7 +56871,7 @@
       "is_pr": true,
       "created_at": "2025-11-16T22:30:24+00:00",
       "created_by": "HWKDS",
-      "closed_at": null,
+      "closed_at": "2025-11-21T22:39:40+00:00",
       "closed_by": null
     },
     {
@@ -56923,6 +56925,58 @@
       "created_by": "motalib-code",
       "closed_at": "2025-11-21T02:48:19+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4853,
+      "title": "Fix `fix_fmt_skip_in_one_liners` crashing on `with` statements",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-21T23:07:54+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2025-11-21T23:49:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4854,
+      "title": "Fix `fix_fmt_skip_in_one_liners` crashing on annotated parameters",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-21T23:08:44+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2025-11-21T23:24:39+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4855,
+      "title": "Fix `fmt: skip` skipping the line after instead of the line it's on",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-21T23:09:59+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4856,
+      "title": "Fix crashes when fmt directives are indented",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-22T03:58:27+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4857,
+      "title": "Add CI-related label documentation to issue triage guide",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-11-22T14:08:29+00:00",
+      "created_by": "amritamishra01",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -56930,7 +56984,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-11-21T15:03:34+00:00",
+    "last_updated": "2025-11-22T15:03:14+00:00",
     "version": 1
   }
 }
