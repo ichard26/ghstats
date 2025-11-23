@@ -169102,7 +169102,10 @@
     {
       "number": 13664,
       "title": "docs: Audit HTTPS documentation links",
-      "labels": [],
+      "labels": [
+        "type: docs",
+        "help wanted"
+      ],
       "is_pr": false,
       "created_at": "2025-11-22T14:14:37+00:00",
       "created_by": "Hasan-8326",
@@ -169115,7 +169118,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-22T15:03:20+00:00",
+    "last_updated": "2025-11-23T15:03:17+00:00",
     "version": 1
   }
 }
