@@ -169111,6 +169111,36 @@
       "created_by": "Hasan-8326",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13665,
+      "title": "Add WARP.md for Warp AI configuration",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-23T17:09:19+00:00",
+      "created_by": "Hasan-8326",
+      "closed_at": "2025-11-23T17:14:39+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13666,
+      "title": "Proposal: add WARP.md for Warp AI guidance",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-11-23T17:09:30+00:00",
+      "created_by": "Hasan-8326",
+      "closed_at": "2025-11-23T17:14:24+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "number": 13667,
+      "title": "Add new entry to .mailmap",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-23T23:33:00+00:00",
+      "created_by": "JaclynCodes",
+      "closed_at": "2025-11-23T23:42:39+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -169118,7 +169148,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-23T15:03:17+00:00",
+    "last_updated": "2025-11-24T15:03:54+00:00",
     "version": 1
   }
 }
