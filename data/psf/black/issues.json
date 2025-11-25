@@ -56988,7 +56988,7 @@
       "is_pr": true,
       "created_at": "2025-11-24T06:02:31+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-11-24T15:27:41+00:00",
       "closed_by": null
     },
     {
@@ -57011,7 +57011,7 @@
       "is_pr": true,
       "created_at": "2025-11-24T11:09:03+00:00",
       "created_by": "motalib-code",
-      "closed_at": null,
+      "closed_at": "2025-11-24T15:17:33+00:00",
       "closed_by": null
     },
     {
@@ -57021,7 +57021,27 @@
       "is_pr": true,
       "created_at": "2025-11-24T14:44:42+00:00",
       "created_by": "motalib-code",
+      "closed_at": "2025-11-24T15:17:48+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4865,
+      "title": "Remove unnecessary parentheses from L.H.S of assignment statements",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-24T22:12:47+00:00",
+      "created_by": "Nikhil172913832",
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4866,
+      "title": "Try narrowing down mypyc issues",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-11-25T00:34:25+00:00",
+      "created_by": "ilevkivskyi",
+      "closed_at": "2025-11-25T00:56:11+00:00",
       "closed_by": null
     }
   ],
@@ -57030,7 +57050,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-11-24T15:03:50+00:00",
+    "last_updated": "2025-11-25T15:03:51+00:00",
     "version": 1
   }
 }
