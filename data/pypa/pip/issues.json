@@ -143643,8 +143643,8 @@
       "is_pr": false,
       "created_at": "2022-11-04T01:19:56+00:00",
       "created_by": "hardingprofessional",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-26T20:17:22+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11575,
@@ -156281,8 +156281,8 @@
       "is_pr": false,
       "created_at": "2024-04-16T00:21:52+00:00",
       "created_by": "brainwane",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-26T20:25:01+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12627,
@@ -168699,7 +168699,7 @@
       "is_pr": true,
       "created_at": "2025-10-24T10:05:25+00:00",
       "created_by": "Hasan-8326",
-      "closed_at": null,
+      "closed_at": "2025-11-26T20:44:35+00:00",
       "closed_by": null
     },
     {
@@ -169089,14 +169089,14 @@
     },
     {
       "number": 13663,
-      "title": "docs: Clarify where to obtain .pem files for --cert",
+      "title": "docs: Link to curl's redistribution of Mozilla's CA bundle",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2025-11-22T14:14:28+00:00",
       "created_by": "Hasan-8326",
-      "closed_at": null,
+      "closed_at": "2025-11-26T20:17:21+00:00",
       "closed_by": null
     },
     {
@@ -169154,6 +169154,31 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2025-11-24T17:11:26+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13669,
+      "title": "TST: UnicodeDecodeError in local_repos.py when opening binary SVN dump",
+      "labels": [
+        "type: bug",
+        "C: tests"
+      ],
+      "is_pr": false,
+      "created_at": "2025-11-27T06:57:28+00:00",
+      "created_by": "pareshjoshij",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13670,
+      "title": "Tests: Open SVN dump file in binary mode to prevent UnicodeDecodeError",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-11-27T07:00:01+00:00",
+      "created_by": "pareshjoshij",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169161,7 +169186,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-11-26T15:03:34+00:00",
+    "last_updated": "2025-11-27T15:03:39+00:00",
     "version": 1
   }
 }
