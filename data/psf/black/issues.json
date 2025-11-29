@@ -8701,8 +8701,8 @@
       "is_pr": false,
       "created_at": "2019-03-28T21:15:28+00:00",
       "created_by": "hugovk",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-28T23:12:19+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 790,
@@ -25145,8 +25145,8 @@
       "is_pr": false,
       "created_at": "2021-05-03T22:42:13+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-29T00:43:21+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2189,
@@ -46667,10 +46667,8 @@
     },
     {
       "number": 3954,
-      "title": "Preview style wraps long unbreakable strings differently based on whether the LHS has an annotation",
-      "labels": [
-        "C: preview style"
-      ],
+      "title": "Wraps long unbreakable strings differently based on whether the LHS has an annotation",
+      "labels": [],
       "is_pr": false,
       "created_at": "2023-10-18T21:12:35+00:00",
       "created_by": "yilei",
@@ -53094,7 +53092,7 @@
     },
     {
       "number": 4510,
-      "title": "Multi-line strings with type ignore pragma get merged into a single line",
+      "title": "string_processing: Multi-line strings with type ignore pragma get merged into a single line",
       "labels": [
         "T: bug",
         "F: strings",
@@ -55774,7 +55772,7 @@
       "is_pr": true,
       "created_at": "2025-09-15T21:32:20+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2025-11-29T09:13:20+00:00",
       "closed_by": null
     },
     {
@@ -56206,21 +56204,25 @@
     {
       "number": 4786,
       "title": "[pre-commit.ci] pre-commit autoupdate",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-10-06T21:50:26+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2025-11-28T16:15:17+00:00",
       "closed_by": null
     },
     {
       "number": 4787,
       "title": "Fix imports from conv.py",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-10-07T07:16:07+00:00",
       "created_by": "gordonmessmer",
-      "closed_at": null,
+      "closed_at": "2025-11-28T17:40:52+00:00",
       "closed_by": null
     },
     {
@@ -57131,7 +57133,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-11-28T15:03:21+00:00",
+    "last_updated": "2025-11-29T15:03:11+00:00",
     "version": 1
   }
 }
