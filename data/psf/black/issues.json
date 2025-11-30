@@ -28164,7 +28164,7 @@
       "created_at": "2021-08-17T00:02:30+00:00",
       "created_by": "ichard26",
       "closed_at": "2021-11-16T04:24:17+00:00",
-      "closed_by": "JelleZijlstra"
+      "closed_by": null
     },
     {
       "number": 2432,
@@ -32588,7 +32588,7 @@
       "created_at": "2022-01-21T22:50:40+00:00",
       "created_by": "ichard26",
       "closed_at": "2022-01-21T23:00:13+00:00",
-      "closed_by": "JelleZijlstra"
+      "closed_by": null
     },
     {
       "number": 2794,
@@ -33377,7 +33377,7 @@
       "created_at": "2022-02-02T01:37:16+00:00",
       "created_by": "ichard26",
       "closed_at": "2022-08-03T16:20:15+00:00",
-      "closed_by": "ichard26"
+      "closed_by": null
     },
     {
       "number": 2858,
@@ -39615,8 +39615,8 @@
       "is_pr": false,
       "created_at": "2022-10-30T22:19:36+00:00",
       "created_by": "metov",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-29T15:19:01+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3365,
@@ -51439,8 +51439,8 @@
       "is_pr": false,
       "created_at": "2024-05-17T15:32:45+00:00",
       "created_by": "mgoral",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-29T15:19:01+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4367,
@@ -51598,7 +51598,7 @@
       "is_pr": true,
       "created_at": "2024-06-15T06:45:46+00:00",
       "created_by": "devshah9",
-      "closed_at": null,
+      "closed_at": "2025-11-29T15:19:02+00:00",
       "closed_by": null
     },
     {
@@ -54455,8 +54455,8 @@
       "is_pr": false,
       "created_at": "2025-03-21T08:26:45+00:00",
       "created_by": "15r10nk",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-30T00:37:47+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4634,
@@ -56830,8 +56830,8 @@
       "is_pr": false,
       "created_at": "2025-11-11T05:20:43+00:00",
       "created_by": "alexhernandezgarcia",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-11-29T15:19:16+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4842,
@@ -56956,7 +56956,7 @@
       "is_pr": true,
       "created_at": "2025-11-21T23:09:59+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2025-11-29T15:19:00+00:00",
       "closed_by": null
     },
     {
@@ -56966,7 +56966,7 @@
       "is_pr": true,
       "created_at": "2025-11-22T03:58:27+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2025-11-29T15:19:16+00:00",
       "closed_by": null
     },
     {
@@ -57126,6 +57126,32 @@
       "created_by": "cobaltt7",
       "closed_at": "2025-11-28T14:03:43+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4875,
+      "title": "Setting the 2026 stable style",
+      "labels": [
+        "T: enhancement",
+        "T: style",
+        "C: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2025-11-29T15:45:43+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4876,
+      "title": "Attempt to fix Docker build failures",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-11-29T18:15:04+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2025-11-29T18:22:33+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -57133,7 +57159,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-11-29T15:03:11+00:00",
+    "last_updated": "2025-11-30T15:03:16+00:00",
     "version": 1
   }
 }
