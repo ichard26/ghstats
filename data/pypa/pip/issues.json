@@ -169285,6 +169285,21 @@
       "created_by": "yahya-mhf",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13680,
+      "title": "Respect the max age cache control for simple API responses, with option to modify",
+      "labels": [
+        "state: awaiting PR",
+        "type: feature request",
+        "C: network connectivity",
+        "type: performance"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-02T16:14:17+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169292,7 +169307,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-02T15:03:52+00:00",
+    "last_updated": "2025-12-03T15:04:13+00:00",
     "version": 1
   }
 }
