@@ -169312,6 +169312,31 @@
       "created_by": "SnoopJ",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13682,
+      "title": "\"pip index version\"  does not honor only-binary/no-binary options",
+      "labels": [
+        "type: bug",
+        "C: index"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-05T10:43:29+00:00",
+      "created_by": "justeph",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13683,
+      "title": "pip index versions: honor only-binary/no-binary options",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-05T10:53:45+00:00",
+      "created_by": "justeph",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169319,7 +169344,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-04T15:04:21+00:00",
+    "last_updated": "2025-12-05T15:03:46+00:00",
     "version": 1
   }
 }
