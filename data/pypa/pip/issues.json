@@ -169257,8 +169257,7 @@
       "number": 13677,
       "title": "Deprecate non-PEP 625 sdist support?",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2025-12-01T17:59:32+00:00",
@@ -169337,6 +169336,29 @@
       "created_by": "justeph",
       "closed_at": "2025-12-06T01:28:39+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13684,
+      "title": "Add warning when index or extra index returns HTTP 404 (e.g., due to invalid token)",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-06T15:25:33+00:00",
+      "created_by": "PierrickKoch",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13685,
+      "title": "Remove pip-index-options from pip_list.rst",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-07T13:53:04+00:00",
+      "created_by": "patrickjburke245",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169344,7 +169366,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-06T15:03:16+00:00",
+    "last_updated": "2025-12-07T15:03:18+00:00",
     "version": 1
   }
 }
