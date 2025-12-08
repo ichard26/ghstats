@@ -13153,6 +13153,28 @@
       "created_by": "BobTheBuidler",
       "closed_at": "2025-12-06T20:04:37+00:00",
       "closed_by": "ilevkivskyi"
+    },
+    {
+      "number": 1169,
+      "title": "I have a lot of open PRs which makes review difficult. This is a short guide to help make it easier on maintainers.",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-12-08T01:23:58+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1170,
+      "title": "TypeError: __aenter__() takes at most 0 arguments",
+      "labels": [
+        "crash"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-08T14:54:14+00:00",
+      "created_by": "p-sawicki",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13160,7 +13182,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-12-07T15:03:17+00:00",
+    "last_updated": "2025-12-08T15:03:54+00:00",
     "version": 1
   }
 }

@@ -50106,12 +50106,12 @@
     },
     {
       "number": 4253,
-      "title": "Added test for the Khmer language",
+      "title": "Regenerate `_width_table.py` &  add tests for the Khmer language",
       "labels": [],
       "is_pr": true,
       "created_at": "2024-02-26T23:07:44+00:00",
       "created_by": "KaiSforza",
-      "closed_at": null,
+      "closed_at": "2025-12-07T23:22:33+00:00",
       "closed_by": null
     },
     {
@@ -55548,7 +55548,7 @@
       "is_pr": false,
       "created_at": "2025-08-07T16:50:32+00:00",
       "created_by": "ElkMonster",
-      "closed_at": "2025-12-07T01:46:22+00:00",
+      "closed_at": null,
       "closed_by": "cobaltt7"
     },
     {
@@ -55612,7 +55612,9 @@
     {
       "number": 4736,
       "title": "695d76d2c668fca4ce46f8a3d5d21c26ebcb66ab",
-      "labels": [],
+      "labels": [
+        "spam"
+      ],
       "is_pr": false,
       "created_at": "2025-08-21T02:48:26+00:00",
       "created_by": "Mazhar413",
@@ -55635,7 +55637,9 @@
     {
       "number": 4738,
       "title": "H",
-      "labels": [],
+      "labels": [
+        "spam"
+      ],
       "is_pr": false,
       "created_at": "2025-08-27T06:17:43+00:00",
       "created_by": "Mazhar413",
@@ -55733,7 +55737,9 @@
     {
       "number": 4746,
       "title": "not working just refreshing",
-      "labels": [],
+      "labels": [
+        "spam"
+      ],
       "is_pr": false,
       "created_at": "2025-09-14T20:34:45+00:00",
       "created_by": "silasswanson",
@@ -55911,7 +55917,7 @@
       "number": 4761,
       "title": "Java (ab) /2",
       "labels": [
-        "T: documentation"
+        "spam"
       ],
       "is_pr": false,
       "created_at": "2025-09-21T12:28:29+00:00",
@@ -56266,7 +56272,7 @@
       "number": 4791,
       "title": "Eliminar maestro",
       "labels": [
-        "T: bug"
+        "spam"
       ],
       "is_pr": false,
       "created_at": "2025-10-11T21:15:47+00:00",
@@ -56463,9 +56469,7 @@
     {
       "number": 4810,
       "title": "Add async edge case: default parameters and tuple unpacking",
-      "labels": [
-        "spam"
-      ],
+      "labels": [],
       "is_pr": true,
       "created_at": "2025-10-25T04:39:56+00:00",
       "created_by": "Ayisha-Mohammed",
@@ -56859,7 +56863,7 @@
       "number": 4844,
       "title": "Needs torch 2.9.1 but installs 2.8.0 then...",
       "labels": [
-        "T: bug"
+        "spam"
       ],
       "is_pr": false,
       "created_at": "2025-11-16T07:16:09+00:00",
@@ -56902,7 +56906,9 @@
     {
       "number": 4849,
       "title": "Fix crash and instability with nested fmt directives in comment ",
-      "labels": [],
+      "labels": [
+        "spam"
+      ],
       "is_pr": true,
       "created_at": "2025-11-20T07:30:39+00:00",
       "created_by": "motalib-code",
@@ -56912,7 +56918,9 @@
     {
       "number": 4851,
       "title": "Fix: Preserve # %% [markdown] comments before # fmt: off (issue #4843)",
-      "labels": [],
+      "labels": [
+        "spam"
+      ],
       "is_pr": true,
       "created_at": "2025-11-21T02:31:30+00:00",
       "created_by": "motalib-code",
@@ -56922,7 +56930,9 @@
     {
       "number": 4852,
       "title": "Fix markdown comments 4843",
-      "labels": [],
+      "labels": [
+        "spam"
+      ],
       "is_pr": true,
       "created_at": "2025-11-21T02:41:28+00:00",
       "created_by": "motalib-code",
@@ -57010,7 +57020,9 @@
     {
       "number": 4863,
       "title": "Improve syntax error reporting for a better user experience #4820",
-      "labels": [],
+      "labels": [
+        "spam"
+      ],
       "is_pr": true,
       "created_at": "2025-11-24T11:09:03+00:00",
       "created_by": "motalib-code",
@@ -57020,7 +57032,9 @@
     {
       "number": 4864,
       "title": "Fix #4839: Implement atomic PyPI releases to prevent incomplete uploads",
-      "labels": [],
+      "labels": [
+        "spam"
+      ],
       "is_pr": true,
       "created_at": "2025-11-24T14:44:42+00:00",
       "created_by": "motalib-code",
@@ -57187,7 +57201,7 @@
       "is_pr": true,
       "created_at": "2025-12-01T06:25:04+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-12-08T06:01:29+00:00",
       "closed_by": null
     },
     {
@@ -57234,7 +57248,7 @@
     },
     {
       "number": 4884,
-      "title": "Rxjacob patch 1 bug 4653",
+      "title": "Fix #4653 If guard explosion in case statement",
       "labels": [],
       "is_pr": true,
       "created_at": "2025-12-05T23:08:57+00:00",
@@ -57261,6 +57275,104 @@
       "created_by": "Nikhil172913832",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4889,
+      "title": "Create Telegram bot for Free Fire store link",
+      "labels": [
+        "spam"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-07T17:05:31+00:00",
+      "created_by": "idrishimukhtar484-rgb",
+      "closed_at": "2025-12-07T17:10:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4891,
+      "title": "Prepare 25.12.0 release",
+      "labels": [
+        "skip news",
+        "ci: build all wheels"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-07T21:26:30+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2025-12-07T21:44:42+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4892,
+      "title": "Prepare 2026.1.0 release",
+      "labels": [
+        "ci: build all wheels"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-07T22:57:08+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4893,
+      "title": "Revert \"Fix `# fmt: skip` ignored in deeply nested expressions\"",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-08T00:19:26+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2025-12-08T00:22:31+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4894,
+      "title": "Fix new lines being added after imports with `# fmt: skip` on them",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-08T00:22:23+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2025-12-08T00:43:08+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4895,
+      "title": "Pin actions/checkout@v5.0.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-08T01:33:37+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2025-12-08T01:39:14+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4896,
+      "title": "Bump sphinx from 8.2.3 to 9.0.4 in /docs",
+      "labels": [
+        "T: documentation",
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-08T06:01:27+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4897,
+      "title": "Bump actions/checkout from 5.0.0 to 6.0.1",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-08T06:02:02+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -57268,7 +57380,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-12-07T15:03:15+00:00",
+    "last_updated": "2025-12-08T15:03:45+00:00",
     "version": 1
   }
 }
