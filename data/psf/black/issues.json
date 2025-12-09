@@ -57371,6 +57371,28 @@
       "is_pr": true,
       "created_at": "2025-12-08T06:02:02+00:00",
       "created_by": "dependabot[bot]",
+      "closed_at": "2025-12-09T00:32:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4898,
+      "title": "docs: update pre-commit exclude and force-exclude explanation",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-09T07:00:01+00:00",
+      "created_by": "Nidhijha-10",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4899,
+      "title": "Fix #3955: Add parentheses around adjacent string literals (preview style)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-09T12:28:46+00:00",
+      "created_by": "Nidhijha-10",
       "closed_at": null,
       "closed_by": null
     }
@@ -57380,7 +57402,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-12-08T15:03:45+00:00",
+    "last_updated": "2025-12-09T15:04:02+00:00",
     "version": 1
   }
 }
