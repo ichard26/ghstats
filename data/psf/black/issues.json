@@ -57395,6 +57395,38 @@
       "created_by": "Nidhijha-10",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4900,
+      "title": "[WIP] Upgrade pypi_upload.yml to use Trusted Publishing",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-09T21:26:03+00:00",
+      "created_by": "Copilot",
+      "closed_at": "2025-12-09T21:26:48+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4901,
+      "title": "Pin all GitHub Actions references",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-09T22:02:58+00:00",
+      "created_by": "woodruffw",
+      "closed_at": "2025-12-09T23:19:47+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4902,
+      "title": "Add provenance scaffolding",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-10T02:32:33+00:00",
+      "created_by": "hollowsunhc",
+      "closed_at": "2025-12-10T02:36:43+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -57402,7 +57434,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-12-09T15:04:02+00:00",
+    "last_updated": "2025-12-10T15:04:42+00:00",
     "version": 1
   }
 }
