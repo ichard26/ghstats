@@ -169408,6 +169408,74 @@
       "created_by": "G0rocks",
       "closed_at": "2025-12-09T17:14:43+00:00",
       "closed_by": "ichard26"
+    },
+    {
+      "number": 13690,
+      "title": "Add beginner example in Running pip section",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-11T09:40:34+00:00",
+      "created_by": "Mennaalazaz",
+      "closed_at": "2025-12-11T10:22:10+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13691,
+      "title": "Add changelog entry",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-11T09:57:57+00:00",
+      "created_by": "Mennaalazaz",
+      "closed_at": "2025-12-11T10:36:44+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13692,
+      "title": "Improve user guide example",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-11T10:23:36+00:00",
+      "created_by": "Mennaalazaz",
+      "closed_at": "2025-12-11T10:37:22+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13693,
+      "title": "Improve user guide example",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-11T10:51:04+00:00",
+      "created_by": "Mennaalazaz",
+      "closed_at": "2025-12-11T10:53:16+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13694,
+      "title": "Improve user guide example",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-11T11:31:30+00:00",
+      "created_by": "Mennaalazaz",
+      "closed_at": "2025-12-11T11:45:56+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13695,
+      "title": "Improve user guide example",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-11T11:47:34+00:00",
+      "created_by": "Mennaalazaz",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169415,7 +169483,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-10T15:04:47+00:00",
+    "last_updated": "2025-12-11T15:04:04+00:00",
     "version": 1
   }
 }

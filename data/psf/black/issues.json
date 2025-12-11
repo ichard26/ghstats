@@ -53967,8 +53967,8 @@
       "is_pr": false,
       "created_at": "2025-02-24T20:59:27+00:00",
       "created_by": "webknjaz",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-12-11T14:45:38+00:00",
+      "closed_by": "cooperlees"
     },
     {
       "number": 4590,
@@ -54220,7 +54220,7 @@
       "is_pr": true,
       "created_at": "2025-03-12T10:31:10+00:00",
       "created_by": "ahmed5145",
-      "closed_at": null,
+      "closed_at": "2025-12-11T14:45:37+00:00",
       "closed_by": null
     },
     {
@@ -57427,6 +57427,40 @@
       "created_by": "hollowsunhc",
       "closed_at": "2025-12-10T02:36:43+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4903,
+      "title": "Improve fmt:skip handling in nested expressions with checks",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-10T16:16:31+00:00",
+      "created_by": "Nikhil172913832",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4904,
+      "title": "Add CHANGES template post 25.12.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-11T02:57:05+00:00",
+      "created_by": "cooperlees",
+      "closed_at": "2025-12-11T12:55:31+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4905,
+      "title": "Drop CI permissions, eliminate persisted credentials",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-11T05:47:50+00:00",
+      "created_by": "woodruffw",
+      "closed_at": "2025-12-11T07:54:07+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -57434,7 +57468,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-12-10T15:04:42+00:00",
+    "last_updated": "2025-12-11T15:04:01+00:00",
     "version": 1
   }
 }
