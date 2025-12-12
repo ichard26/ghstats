@@ -57461,6 +57461,61 @@
       "created_by": "woodruffw",
       "closed_at": "2025-12-11T07:54:07+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4906,
+      "title": "Lingering CI/CD pins, add cooldowns, remove template injections",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-11T17:26:14+00:00",
+      "created_by": "woodruffw",
+      "closed_at": "2025-12-11T20:10:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4907,
+      "title": "Bump actions/checkout from 5.0.0 to 6.0.0",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-11T20:11:30+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4908,
+      "title": "Docs: Mentioned doctest formatting (Closes #3083)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-12T14:02:55+00:00",
+      "created_by": "SnippyCodes",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4909,
+      "title": "Docs: Document --force-exclude with pre-commit (Closes #3015)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-12T14:35:44+00:00",
+      "created_by": "SnippyCodes",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4910,
+      "title": "Fix inline # fmt: skip handling to prevent unwanted line splitting.",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-12T14:48:23+00:00",
+      "created_by": "deveshbervar",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -57468,7 +57523,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-12-11T15:04:01+00:00",
+    "last_updated": "2025-12-12T15:03:55+00:00",
     "version": 1
   }
 }
