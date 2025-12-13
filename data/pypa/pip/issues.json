@@ -169036,7 +169036,7 @@
       "is_pr": true,
       "created_at": "2025-11-20T00:36:22+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2025-12-12T19:51:37+00:00",
       "closed_by": null
     },
     {
@@ -169278,7 +169278,9 @@
     {
       "number": 13679,
       "title": "Add documentation for self-referential extras (#11296)",
-      "labels": [],
+      "labels": [
+        "S: awaiting response"
+      ],
       "is_pr": true,
       "created_at": "2025-12-02T10:14:55+00:00",
       "created_by": "yahya-mhf",
@@ -169304,6 +169306,7 @@
       "number": 13681,
       "title": "Preserve mtime of files installed from wheels",
       "labels": [
+        "S: awaiting response",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -169357,7 +169360,7 @@
       "is_pr": true,
       "created_at": "2025-12-07T13:53:04+00:00",
       "created_by": "patrickjburke245",
-      "closed_at": null,
+      "closed_at": "2025-12-12T18:47:18+00:00",
       "closed_by": null
     },
     {
@@ -169393,7 +169396,7 @@
       "is_pr": true,
       "created_at": "2025-12-08T16:06:56+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2025-12-12T19:40:42+00:00",
       "closed_by": null
     },
     {
@@ -169469,6 +169472,7 @@
       "number": 13695,
       "title": "Improve user guide example",
       "labels": [
+        "S: awaiting response",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -169508,7 +169512,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-12T15:03:59+00:00",
+    "last_updated": "2025-12-13T15:03:17+00:00",
     "version": 1
   }
 }

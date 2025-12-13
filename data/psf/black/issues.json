@@ -57516,6 +57516,30 @@
       "created_by": "deveshbervar",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4911,
+      "title": "CI: add a zizmor workflow",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-12T20:31:12+00:00",
+      "created_by": "woodruffw",
+      "closed_at": "2025-12-12T22:22:42+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4912,
+      "title": "string_processing: error with unassigned long string literal with trailing comma",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-12T23:50:19+00:00",
+      "created_by": "pmolodo",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -57523,7 +57547,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-12-12T15:03:55+00:00",
+    "last_updated": "2025-12-13T15:03:15+00:00",
     "version": 1
   }
 }
