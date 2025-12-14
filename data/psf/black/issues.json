@@ -57533,11 +57533,24 @@
       "number": 4912,
       "title": "string_processing: error with unassigned long string literal with trailing comma",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "C: crash",
+        "F: strings",
+        "C: preview style"
       ],
       "is_pr": false,
       "created_at": "2025-12-12T23:50:19+00:00",
       "created_by": "pmolodo",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4913,
+      "title": "Create Robot",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-14T14:32:58+00:00",
+      "created_by": "glkarhydr-crypto",
       "closed_at": null,
       "closed_by": null
     }
@@ -57547,7 +57560,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2025-12-13T15:03:15+00:00",
+    "last_updated": "2025-12-14T15:03:20+00:00",
     "version": 1
   }
 }
