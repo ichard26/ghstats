@@ -169515,6 +169515,54 @@
       "created_by": "Zburgers",
       "closed_at": "2025-12-14T01:02:45+00:00",
       "closed_by": "Zburgers"
+    },
+    {
+      "number": 13699,
+      "title": "Unpin versions of dependencies as a consnumer",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-14T18:18:32+00:00",
+      "created_by": "thorsten-klein",
+      "closed_at": "2025-12-14T18:37:40+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13700,
+      "title": "Dependancy simulation",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-15T07:10:46+00:00",
+      "created_by": "simonaubertbd",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13701,
+      "title": "Improve SSL/TLS error message when ssl module is unavailable (add offline install guidance)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-12-15T10:48:22+00:00",
+      "created_by": "Kaladn",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13702,
+      "title": "Improve ResolutionImpossible error message clarity",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-15T14:24:08+00:00",
+      "created_by": "nishtha-agarwal-211",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169522,7 +169570,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-14T15:03:24+00:00",
+    "last_updated": "2025-12-15T15:05:31+00:00",
     "version": 1
   }
 }
