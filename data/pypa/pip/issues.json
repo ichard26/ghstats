@@ -166541,7 +166541,9 @@
     {
       "number": 13450,
       "title": "Install build dependencies in-process",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2025-06-27T19:19:27+00:00",
       "created_by": "ichard26",
@@ -169533,8 +169535,8 @@
       "number": 13700,
       "title": "Dependancy simulation",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "type: support",
+        "S: awaiting response"
       ],
       "is_pr": false,
       "created_at": "2025-12-15T07:10:46+00:00",
@@ -169549,8 +169551,8 @@
       "is_pr": false,
       "created_at": "2025-12-15T10:48:22+00:00",
       "created_by": "Kaladn",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-12-15T21:55:06+00:00",
+      "closed_by": "Kaladn"
     },
     {
       "number": 13702,
@@ -169563,6 +169565,56 @@
       "created_by": "nishtha-agarwal-211",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13703,
+      "title": "Implement fallthrough logic for options",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-15T15:06:36+00:00",
+      "created_by": "gdiepen",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13704,
+      "title": "Bump the github-actions group with 3 updates",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-15T16:06:58+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2025-12-15T22:16:10+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13705,
+      "title": "refactor: Store resume retries value on PipSession",
+      "labels": [
+        "type: refactor",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-15T23:15:13+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2025-12-16T02:44:14+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13706,
+      "title": "Docs: fix broken and outdated documentation links",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-16T10:39:54+00:00",
+      "created_by": "Muthusrihemadharshini",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169570,7 +169622,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-15T15:05:31+00:00",
+    "last_updated": "2025-12-16T15:04:30+00:00",
     "version": 1
   }
 }
