@@ -13175,6 +13175,16 @@
       "created_by": "p-sawicki",
       "closed_at": "2025-12-11T10:41:05+00:00",
       "closed_by": "JukkaL"
+    },
+    {
+      "number": 1171,
+      "title": "`mypyc` crashes with union type containing base class and its descendants in list iteration",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2025-12-21T17:02:03+00:00",
+      "created_by": "romintomasetti",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13182,7 +13192,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2025-12-14T15:03:23+00:00",
+    "last_updated": "2025-12-22T15:03:37+00:00",
     "version": 1
   }
 }
