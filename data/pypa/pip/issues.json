@@ -63124,13 +63124,15 @@
       "title": "incorrect exit status when package cannot be uninstalled",
       "labels": [
         "type: bug",
-        "good first issue"
+        "kind: backwards incompatible",
+        "C: uninstall",
+        "resolution: no action"
       ],
       "is_pr": false,
       "created_at": "2018-03-17T09:57:17+00:00",
       "created_by": "benoit-pierre",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-12-22T22:30:54+00:00",
+      "closed_by": "pfmoore"
     },
     {
       "number": 5074,
@@ -169748,6 +169750,16 @@
       "created_by": "ichard26",
       "closed_at": "2025-12-21T21:31:35+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13717,
+      "title": "Add github codespace support",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-23T05:17:23+00:00",
+      "created_by": "oxygen-dioxide",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169755,7 +169767,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-22T15:03:37+00:00",
+    "last_updated": "2025-12-23T15:03:39+00:00",
     "version": 1
   }
 }
