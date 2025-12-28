@@ -168873,8 +168873,8 @@
       "is_pr": false,
       "created_at": "2025-11-09T20:26:50+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2025-12-27T18:49:23+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13645,
@@ -168885,7 +168885,7 @@
       "is_pr": true,
       "created_at": "2025-11-09T20:51:57+00:00",
       "created_by": "notatallshaw",
-      "closed_at": "2025-12-21T14:24:38+00:00",
+      "closed_at": "2025-12-27T18:49:22+00:00",
       "closed_by": null
     },
     {
@@ -169772,7 +169772,7 @@
       "is_pr": true,
       "created_at": "2025-12-26T01:53:31+00:00",
       "created_by": "danielhollas",
-      "closed_at": null,
+      "closed_at": "2025-12-27T17:59:15+00:00",
       "closed_by": null
     },
     {
@@ -169785,6 +169785,43 @@
       "is_pr": false,
       "created_at": "2025-12-27T02:20:17+00:00",
       "created_by": "danielhollas",
+      "closed_at": "2025-12-28T12:33:14+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13720,
+      "title": "Fix circular import",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-27T18:22:43+00:00",
+      "created_by": "danielhollas",
+      "closed_at": "2025-12-28T12:33:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13721,
+      "title": "Add parallel downloads support for improved installation performance",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-28T08:39:11+00:00",
+      "created_by": "rahuldevikar",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13722,
+      "title": "Add parallel downloads support for improved installation performance",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-28T09:14:38+00:00",
+      "created_by": "rahuldevikar",
       "closed_at": null,
       "closed_by": null
     }
@@ -169794,7 +169831,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-27T15:03:16+00:00",
+    "last_updated": "2025-12-28T15:03:24+00:00",
     "version": 1
   }
 }
