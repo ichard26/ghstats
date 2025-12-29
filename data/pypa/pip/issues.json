@@ -169824,6 +169824,32 @@
       "created_by": "rahuldevikar",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13723,
+      "title": "pip crashes on Windows with Python 3.14.2 when resolving site_config_dir (WinError 2)",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-28T22:10:07+00:00",
+      "created_by": "leanhdung1994",
+      "closed_at": "2025-12-29T00:18:05+00:00",
+      "closed_by": "pfmoore"
+    },
+    {
+      "number": 13724,
+      "title": "Add --exclude <package name> argument support to pip install.",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2025-12-29T05:48:20+00:00",
+      "created_by": "AraHaan",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169831,7 +169857,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-28T15:03:24+00:00",
+    "last_updated": "2025-12-29T15:03:44+00:00",
     "version": 1
   }
 }
