@@ -169853,11 +169853,23 @@
     },
     {
       "number": 13725,
-      "title": "Remove pyc files from all optimization levels",
-      "labels": [],
+      "title": "Remove pyc files for all optimization levels",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2025-12-29T20:15:50+00:00",
       "created_by": "vfazio",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13726,
+      "title": "Add missing import in `pip._internal.models.link` module",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-30T22:50:52+00:00",
+      "created_by": "danielhollas",
       "closed_at": null,
       "closed_by": null
     }
@@ -169867,7 +169879,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-30T15:03:52+00:00",
+    "last_updated": "2025-12-31T15:03:39+00:00",
     "version": 1
   }
 }
