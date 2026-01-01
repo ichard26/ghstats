@@ -109264,7 +109264,7 @@
       ],
       "is_pr": false,
       "created_at": "2020-07-21T07:31:15+00:00",
-      "created_by": "njourdane",
+      "created_by": "lypwig",
       "closed_at": null,
       "closed_by": null
     },
@@ -169866,10 +169866,46 @@
     {
       "number": 13726,
       "title": "Add missing import in `pip._internal.models.link` module",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-12-30T22:50:52+00:00",
       "created_by": "danielhollas",
+      "closed_at": "2025-12-31T18:51:46+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13727,
+      "title": "Fix tests on systems where platlib and purelib are different",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2025-12-31T15:25:19+00:00",
+      "created_by": "SpecLad",
+      "closed_at": "2025-12-31T18:46:49+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13728,
+      "title": "fix: improve error message for missing METADATA file",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2025-12-31T16:23:19+00:00",
+      "created_by": "Ahmed-AdelB",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13729,
+      "title": "docs: fix broken SmartBear code review link",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-01T04:19:43+00:00",
+      "created_by": "nothing-991",
       "closed_at": null,
       "closed_by": null
     }
@@ -169879,7 +169915,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2025-12-31T15:03:39+00:00",
+    "last_updated": "2026-01-01T15:03:40+00:00",
     "version": 1
   }
 }
