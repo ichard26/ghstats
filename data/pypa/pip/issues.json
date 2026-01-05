@@ -169959,6 +169959,31 @@
       "created_by": "ichard26",
       "closed_at": "2026-01-04T00:32:50+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13734,
+      "title": "Add --metadata-only flag to pip download for extracting packages metadata",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-01-05T07:10:37+00:00",
+      "created_by": "rahuldevikar",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13735,
+      "title": "Avoid importing `buildenv` and `metadata` modules during autocompletion",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-05T11:06:23+00:00",
+      "created_by": "danielhollas",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169966,7 +169991,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-04T15:03:16+00:00",
+    "last_updated": "2026-01-05T15:04:31+00:00",
     "version": 1
   }
 }

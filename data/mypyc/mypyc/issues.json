@@ -13225,6 +13225,16 @@
       "created_by": "ilevkivskyi",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1176,
+      "title": "`functools.total_ordering` with `dataclasses.dataclass` raises (starting from Python 3.14)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-01-04T19:23:41+00:00",
+      "created_by": "romintomasetti",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13232,7 +13242,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-01-03T15:03:23+00:00",
+    "last_updated": "2026-01-05T15:04:30+00:00",
     "version": 1
   }
 }
