@@ -157838,8 +157838,8 @@
       "is_pr": false,
       "created_at": "2024-06-05T18:45:23+00:00",
       "created_by": "schivmeister",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-06T11:18:59+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12750,
@@ -169984,6 +169984,28 @@
       "created_by": "danielhollas",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13736,
+      "title": "pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-01-05T18:37:49+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2026-01-05T19:31:59+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13737,
+      "title": "First party `pip sync` command",
+      "labels": [
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2026-01-06T13:34:26+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -169991,7 +170013,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-05T15:04:31+00:00",
+    "last_updated": "2026-01-06T15:03:54+00:00",
     "version": 1
   }
 }
