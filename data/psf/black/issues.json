@@ -57782,6 +57782,18 @@
       "created_by": "pre-commit-ci[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4944,
+      "title": "pathspec v1 changes",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2026-01-07T00:16:54+00:00",
+      "created_by": "cpburnz",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -57789,7 +57801,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-01-06T15:03:51+00:00",
+    "last_updated": "2026-01-07T15:04:33+00:00",
     "version": 1
   }
 }
