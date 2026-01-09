@@ -168332,7 +168332,9 @@
     {
       "number": 13599,
       "title": "Add a command for running complete type checking with `nox -s typecheck` (including vendored dependencies)",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-09-26T05:59:20+00:00",
       "created_by": "pelson",
@@ -169907,7 +169909,7 @@
       "is_pr": true,
       "created_at": "2026-01-01T04:19:43+00:00",
       "created_by": "nothing-991",
-      "closed_at": null,
+      "closed_at": "2026-01-08T23:22:37+00:00",
       "closed_by": null
     },
     {
@@ -170030,6 +170032,29 @@
       "created_by": "SpecLad",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13742,
+      "title": "test: Patch `socket.getfqdn()` during Werkzeug server startup",
+      "labels": [
+        "C: tests",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-08T21:24:59+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13743,
+      "title": "Fix typing issues identified in pip._internal.network",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-01-09T09:50:40+00:00",
+      "created_by": "pelson",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -170037,7 +170062,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-08T15:05:13+00:00",
+    "last_updated": "2026-01-09T15:03:53+00:00",
     "version": 1
   }
 }
