@@ -57746,7 +57746,7 @@
       "is_pr": true,
       "created_at": "2026-01-02T06:01:10+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-01-10T16:14:33+00:00",
       "closed_by": null
     },
     {
@@ -57854,6 +57854,26 @@
       "created_by": "Ashinee-work",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4952,
+      "title": "Fix Shutdown multiprocessing Manager in schedule_formatting",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-01-10T22:44:10+00:00",
+      "created_by": "nileshsingal",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4953,
+      "title": "Fix multiprocessing.Manager resource leak in concurrent diff processing",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-01-11T04:01:05+00:00",
+      "created_by": "Bitshifter-9",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -57861,7 +57881,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-01-10T15:03:29+00:00",
+    "last_updated": "2026-01-11T15:03:23+00:00",
     "version": 1
   }
 }

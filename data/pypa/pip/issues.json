@@ -124036,12 +124036,14 @@
     {
       "number": 9884,
       "title": "Only install pre-release rc versions and ignore other(including development and stable) versions when with option --rc",
-      "labels": [],
+      "labels": [
+        "resolution: no action"
+      ],
       "is_pr": false,
       "created_at": "2021-04-27T07:55:13+00:00",
       "created_by": "zengqingfu1442",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-10T21:35:23+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 9885,
@@ -149258,7 +149260,7 @@
       "is_pr": false,
       "created_at": "2023-05-23T09:56:21+00:00",
       "created_by": "cbrnr",
-      "closed_at": "2023-05-23T10:04:22+00:00",
+      "closed_at": null,
       "closed_by": "uranusjr"
     },
     {
@@ -164576,8 +164578,8 @@
       "is_pr": false,
       "created_at": "2025-03-20T15:04:42+00:00",
       "created_by": "imba-tjd",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-11T13:05:59+00:00",
+      "closed_by": "imba-tjd"
     },
     {
       "number": 13293,
@@ -165540,7 +165542,7 @@
       "is_pr": true,
       "created_at": "2025-05-01T11:18:36+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-01-11T14:27:47+00:00",
       "closed_by": null
     },
     {
@@ -169545,8 +169547,8 @@
       "is_pr": false,
       "created_at": "2025-12-15T07:10:46+00:00",
       "created_by": "simonaubertbd",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-10T19:33:01+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13701,
@@ -170064,7 +170066,7 @@
       "is_pr": true,
       "created_at": "2026-01-09T22:25:06+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-01-10T19:25:16+00:00",
       "closed_by": null
     },
     {
@@ -170101,6 +170103,42 @@
       "created_by": "DimitriPapadopoulos",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13748,
+      "title": "Add the full action versions in release workflow comments",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-11T12:46:22+00:00",
+      "created_by": "sbidoul",
+      "closed_at": "2026-01-11T13:34:18+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13749,
+      "title": "Use packaging 26.0 pylock",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-11T14:27:00+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13750,
+      "title": "Vendor tomli 2.4.0 (TOML 1.1)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-11T15:01:30+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -170108,7 +170146,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-10T15:03:37+00:00",
+    "last_updated": "2026-01-11T15:03:26+00:00",
     "version": 1
   }
 }
