@@ -169511,7 +169511,7 @@
       "is_pr": true,
       "created_at": "2025-12-12T09:18:13+00:00",
       "created_by": "akx",
-      "closed_at": null,
+      "closed_at": "2026-01-11T19:45:27+00:00",
       "closed_by": null
     },
     {
@@ -170120,6 +170120,8 @@
       "number": 13749,
       "title": "Use packaging 26.0 pylock",
       "labels": [
+        "skip news",
+        "type: maintenance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -170139,6 +170141,19 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13751,
+      "title": "one possible solution to \"An existing connection was forcibly closed by the remote host\" when the issue comes from kaspersky",
+      "labels": [
+        "type: support",
+        "C: network connectivity"
+      ],
+      "is_pr": false,
+      "created_at": "2026-01-11T16:25:02+00:00",
+      "created_by": "Apfelkuchenbemme",
+      "closed_at": "2026-01-11T16:38:26+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -170146,7 +170161,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-11T15:03:26+00:00",
+    "last_updated": "2026-01-12T15:05:37+00:00",
     "version": 1
   }
 }
