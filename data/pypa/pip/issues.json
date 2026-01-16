@@ -142564,7 +142564,7 @@
       "is_pr": true,
       "created_at": "2022-09-30T18:00:01+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
+      "closed_at": "2026-01-15T20:04:12+00:00",
       "closed_by": null
     },
     {
@@ -169855,7 +169855,7 @@
     },
     {
       "number": 13725,
-      "title": "Remove pyc files for all optimization levels",
+      "title": "Remove __pycache__ when package is removed",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -170226,6 +170226,40 @@
       "is_pr": false,
       "created_at": "2026-01-15T12:38:42+00:00",
       "created_by": "mbyrnepr2",
+      "closed_at": "2026-01-15T20:22:01+00:00",
+      "closed_by": "mbyrnepr2"
+    },
+    {
+      "number": 13758,
+      "title": "Chore: add module docstring to misc utilities",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-01-15T18:29:12+00:00",
+      "created_by": "iamdevdhanush",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13759,
+      "title": "Making vendored libraries optional and bootstrapping pip?",
+      "labels": [
+        "state: needs discussion"
+      ],
+      "is_pr": false,
+      "created_at": "2026-01-15T19:48:57+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13760,
+      "title": "ResolutionImpossible yield no information describing any conflict",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2026-01-15T23:57:10+00:00",
+      "created_by": "WhyNotHugo",
       "closed_at": null,
       "closed_by": null
     }
@@ -170235,7 +170269,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-15T15:05:12+00:00",
+    "last_updated": "2026-01-16T15:04:55+00:00",
     "version": 1
   }
 }
