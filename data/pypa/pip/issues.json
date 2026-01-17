@@ -167071,7 +167071,9 @@
     {
       "number": 13494,
       "title": "Improve presentation of non-verbose downloads with non-PyPI indexes",
-      "labels": [],
+      "labels": [
+        "state: up for grabs (PR)"
+      ],
       "is_pr": true,
       "created_at": "2025-07-20T10:13:46+00:00",
       "created_by": "pradyunsg",
@@ -170248,14 +170250,15 @@
       "is_pr": false,
       "created_at": "2026-01-15T19:48:57+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-17T01:36:58+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13760,
       "title": "ResolutionImpossible yield no information describing any conflict",
       "labels": [
-        "type: support"
+        "type: support",
+        "S: awaiting response"
       ],
       "is_pr": false,
       "created_at": "2026-01-15T23:57:10+00:00",
@@ -170269,7 +170272,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-16T15:04:55+00:00",
+    "last_updated": "2026-01-17T15:03:30+00:00",
     "version": 1
   }
 }
