@@ -13269,6 +13269,16 @@
       "created_by": "hamdanal",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1180,
+      "title": "crash (KeyError: NameExpr) when Final constant returned under if x is None for non\u2011Optional param",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-01-18T13:45:21+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13276,7 +13286,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-01-17T15:03:29+00:00",
+    "last_updated": "2026-01-18T15:03:12+00:00",
     "version": 1
   }
 }

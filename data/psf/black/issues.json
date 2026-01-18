@@ -57152,8 +57152,8 @@
       "is_pr": false,
       "created_at": "2025-11-29T15:45:43+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-18T04:30:37+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4876,
@@ -57311,7 +57311,7 @@
       "is_pr": true,
       "created_at": "2025-12-07T22:57:08+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2026-01-18T04:30:36+00:00",
       "closed_by": null
     },
     {
@@ -57940,6 +57940,18 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2026-01-16T16:10:45+00:00",
       "closed_by": null
+    },
+    {
+      "number": 4962,
+      "title": "Add new changelog",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-18T05:03:31+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-01-18T05:04:48+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -57947,7 +57959,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-01-17T15:03:27+00:00",
+    "last_updated": "2026-01-18T15:03:07+00:00",
     "version": 1
   }
 }

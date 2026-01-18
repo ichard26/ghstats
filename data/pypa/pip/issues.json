@@ -170245,7 +170245,8 @@
       "number": 13759,
       "title": "Making vendored libraries optional and bootstrapping pip?",
       "labels": [
-        "state: needs discussion"
+        "state: needs discussion",
+        "resolution: no action"
       ],
       "is_pr": false,
       "created_at": "2026-01-15T19:48:57+00:00",
@@ -170272,7 +170273,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-17T15:03:30+00:00",
+    "last_updated": "2026-01-18T15:03:12+00:00",
     "version": 1
   }
 }
