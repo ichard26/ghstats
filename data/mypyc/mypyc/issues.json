@@ -10087,7 +10087,7 @@
       "number": 905,
       "title": "Specialize contextlib.contextmanager",
       "labels": [
-        "priority-1-normal",
+        "priority-0-high",
         "speed",
         "area-specialized-ops"
       ],
@@ -13286,7 +13286,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-01-21T15:07:44+00:00",
+    "last_updated": "2026-01-22T15:07:25+00:00",
     "version": 1
   }
 }
