@@ -57214,8 +57214,8 @@
       "is_pr": false,
       "created_at": "2025-12-03T13:57:57+00:00",
       "created_by": "cmp0xff",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-23T00:35:06+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4881,
@@ -57274,7 +57274,7 @@
       "is_pr": true,
       "created_at": "2025-12-07T05:49:02+00:00",
       "created_by": "Nikhil172913832",
-      "closed_at": null,
+      "closed_at": "2026-01-23T00:35:05+00:00",
       "closed_by": null
     },
     {
@@ -57548,8 +57548,8 @@
       "is_pr": false,
       "created_at": "2025-12-12T23:50:19+00:00",
       "created_by": "pmolodo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-23T00:52:39+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4913,
@@ -57580,7 +57580,7 @@
       "is_pr": true,
       "created_at": "2025-12-24T20:29:27+00:00",
       "created_by": "Harish-Nesrekar",
-      "closed_at": null,
+      "closed_at": "2026-01-23T00:52:39+00:00",
       "closed_by": null
     },
     {
@@ -57590,7 +57590,7 @@
       "is_pr": true,
       "created_at": "2025-12-25T11:46:51+00:00",
       "created_by": "adamsol",
-      "closed_at": null,
+      "closed_at": "2026-01-23T00:35:19+00:00",
       "closed_by": null
     },
     {
@@ -57712,7 +57712,7 @@
       "is_pr": true,
       "created_at": "2025-12-30T01:47:23+00:00",
       "created_by": "Ankitsinghsisodya",
-      "closed_at": null,
+      "closed_at": "2026-01-23T00:52:37+00:00",
       "closed_by": null
     },
     {
@@ -58012,11 +58012,38 @@
     {
       "number": 4968,
       "title": "Add Jupyter integration page and installation instructions",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-01-21T14:52:53+00:00",
       "created_by": "Shubhamyadav93",
-      "closed_at": null,
+      "closed_at": "2026-01-23T00:27:20+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4969,
+      "title": "Bump actions/checkout from 5.0.0 to 6.0.2",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-23T06:33:41+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-01-23T07:00:02+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4970,
+      "title": "Partially revert actions/checkout bump",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-23T13:05:40+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-01-23T13:18:17+00:00",
       "closed_by": null
     }
   ],
@@ -58025,7 +58052,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-01-22T15:07:24+00:00",
+    "last_updated": "2026-01-23T15:05:24+00:00",
     "version": 1
   }
 }

@@ -96611,8 +96611,8 @@
       "is_pr": false,
       "created_at": "2020-01-10T15:56:40+00:00",
       "created_by": "flying-sheep",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-23T03:02:44+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 7580,
@@ -115205,8 +115205,8 @@
       "is_pr": false,
       "created_at": "2020-11-11T08:48:02+00:00",
       "created_by": "bersbersbers",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-23T03:02:44+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 9122,
@@ -149260,8 +149260,8 @@
       "is_pr": false,
       "created_at": "2023-05-23T09:56:21+00:00",
       "created_by": "cbrnr",
-      "closed_at": null,
-      "closed_by": "uranusjr"
+      "closed_at": "2026-01-23T03:02:45+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12050,
@@ -154288,8 +154288,8 @@
       "is_pr": false,
       "created_at": "2024-01-10T11:37:45+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": "webknjaz"
+      "closed_at": "2026-01-23T03:02:45+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12470,
@@ -154314,8 +154314,8 @@
       "is_pr": false,
       "created_at": "2024-01-11T13:21:27+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-23T03:02:45+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12472,
@@ -170093,13 +170093,15 @@
       "is_pr": true,
       "created_at": "2026-01-09T23:54:32+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-01-23T03:02:43+00:00",
       "closed_by": null
     },
     {
       "number": 13747,
       "title": "Licensing of vendored files in source code",
-      "labels": [],
+      "labels": [
+        "project: vendored dependency"
+      ],
       "is_pr": false,
       "created_at": "2026-01-10T14:00:14+00:00",
       "created_by": "DimitriPapadopoulos",
@@ -170129,7 +170131,7 @@
       "is_pr": true,
       "created_at": "2026-01-11T14:27:00+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-01-23T14:52:39+00:00",
       "closed_by": null
     },
     {
@@ -170264,13 +170266,15 @@
       "is_pr": false,
       "created_at": "2026-01-15T23:57:10+00:00",
       "created_by": "WhyNotHugo",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-23T00:03:00+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13761,
       "title": "Pip cache purge doesn't delete cached files from http-v2",
-      "labels": [],
+      "labels": [
+        "type: support"
+      ],
       "is_pr": false,
       "created_at": "2026-01-20T13:19:06+00:00",
       "created_by": "GrunyD",
@@ -170299,6 +170303,30 @@
       "created_by": "SupulHeshan",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13764,
+      "title": "Add `packaging` to test environment to fix CI failures from new wheel",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-23T00:25:14+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-01-23T02:25:23+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13765,
+      "title": "test: Remove explicit dependency on wheel",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-23T01:20:03+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-01-23T02:24:07+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -170306,7 +170334,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-22T15:07:26+00:00",
+    "last_updated": "2026-01-23T15:05:31+00:00",
     "version": 1
   }
 }
