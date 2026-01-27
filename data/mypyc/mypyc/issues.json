@@ -13279,6 +13279,16 @@
       "created_by": "BobTheBuidler",
       "closed_at": "2026-01-22T17:42:15+00:00",
       "closed_by": "JukkaL"
+    },
+    {
+      "number": 1181,
+      "title": "mypy-compiled classes omit qualname in metaclass new namespace",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-01-27T05:37:46+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13286,7 +13296,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-01-23T15:05:30+00:00",
+    "last_updated": "2026-01-27T15:08:27+00:00",
     "version": 1
   }
 }

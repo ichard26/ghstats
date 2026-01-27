@@ -58067,6 +58067,28 @@
       "created_by": "pelamlio",
       "closed_at": "2026-01-24T21:31:44+00:00",
       "closed_by": "cobaltt7"
+    },
+    {
+      "number": 4973,
+      "title": "Fix #4945: parse multiline backslash correctly",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-01-26T16:16:17+00:00",
+      "created_by": "nileshsingal",
+      "closed_at": "2026-01-26T16:23:06+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 4974,
+      "title": "[pre-commit.ci] pre-commit autoupdate",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-26T21:07:00+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58074,7 +58096,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-01-25T15:03:33+00:00",
+    "last_updated": "2026-01-27T15:08:26+00:00",
     "version": 1
   }
 }
