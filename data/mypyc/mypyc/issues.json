@@ -13289,6 +13289,19 @@
       "created_by": "BobTheBuidler",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1182,
+      "title": "Multiple nested async functions with same name generate invalid C",
+      "labels": [
+        "bug",
+        "crash"
+      ],
+      "is_pr": false,
+      "created_at": "2026-01-29T11:14:00+00:00",
+      "created_by": "p-sawicki",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13296,7 +13309,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-01-27T15:08:27+00:00",
+    "last_updated": "2026-01-29T15:11:14+00:00",
     "version": 1
   }
 }
