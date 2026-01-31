@@ -150286,8 +150286,8 @@
       "is_pr": false,
       "created_at": "2023-07-08T15:41:24+00:00",
       "created_by": "hamdanal",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-01-30T15:38:17+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12135,
@@ -150390,7 +150390,7 @@
       "is_pr": true,
       "created_at": "2023-07-14T15:20:33+00:00",
       "created_by": "hamdanal",
-      "closed_at": null,
+      "closed_at": "2026-01-30T15:37:52+00:00",
       "closed_by": null
     },
     {
@@ -170444,7 +170444,65 @@
       "is_pr": true,
       "created_at": "2026-01-30T15:05:50+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-01-31T00:34:20+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13776,
+      "title": "doc: Add version added to recent new features in user guide",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-30T15:50:46+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-01-30T21:27:43+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13777,
+      "title": "Use os.path.commonpath() instead of commonprefix()",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-30T16:20:11+00:00",
+      "created_by": "sethmlarson",
+      "closed_at": "2026-01-30T21:27:57+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13778,
+      "title": "Re-expose package selection group options",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-30T21:49:21+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-01-30T22:19:45+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13779,
+      "title": "fix 26.0 news",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-01-31T00:57:53+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-01-31T01:15:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13780,
+      "title": "Bump for development",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-01-31T01:44:51+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-01-31T01:45:22+00:00",
       "closed_by": null
     }
   ],
@@ -170453,7 +170511,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-30T15:09:41+00:00",
+    "last_updated": "2026-01-31T15:03:53+00:00",
     "version": 1
   }
 }
