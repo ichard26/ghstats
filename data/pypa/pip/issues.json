@@ -170415,7 +170415,7 @@
     },
     {
       "number": 13773,
-      "title": "Implement --index-strategy and --index-mapping to mitigate dependency confusion (#8606)",
+      "title": "Implement --index-strategy to mitigate dependency confusion (#8606)",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -170504,6 +170504,52 @@
       "created_by": "notatallshaw",
       "closed_at": "2026-01-31T01:45:22+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13781,
+      "title": "[Feature] Implement --index-mapping for strict namespace isolation",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-01-31T16:27:57+00:00",
+      "created_by": "Ashutosh0x",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13782,
+      "title": "docs: Improve --user/--no-user documentation",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-01T06:32:47+00:00",
+      "created_by": "Ashutosh0x",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13783,
+      "title": "feat: Distinguish file-level vs release-level yanking (PEP 592)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-01T07:26:01+00:00",
+      "created_by": "Ashutosh0x",
+      "closed_at": "2026-02-01T07:59:39+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13784,
+      "title": "feat: Distinguish file-level vs release-level yanking (PEP 592)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-01T08:20:58+00:00",
+      "created_by": "Ashutosh0x",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -170511,7 +170557,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-01-31T15:03:53+00:00",
+    "last_updated": "2026-02-01T15:05:12+00:00",
     "version": 1
   }
 }
