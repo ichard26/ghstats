@@ -58140,6 +58140,30 @@
       "created_by": "cobaltt7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4979,
+      "title": "INTERNAL ERROR code that is not equivalent to the source (non-UTF8, iso-8859-1)",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-02T17:04:28+00:00",
+      "created_by": "peterjc",
+      "closed_at": "2026-02-02T17:18:08+00:00",
+      "closed_by": "cobaltt7"
+    },
+    {
+      "number": 4980,
+      "title": "Internal error when targeting Python 3.14 but running with 3.12",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-02T20:22:32+00:00",
+      "created_by": "godlygeek",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58147,7 +58171,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-02-01T15:05:10+00:00",
+    "last_updated": "2026-02-03T15:15:33+00:00",
     "version": 1
   }
 }
