@@ -77882,8 +77882,8 @@
       "is_pr": false,
       "created_at": "2019-01-23T13:43:25+00:00",
       "created_by": "weddige",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-02-03T19:54:09+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6184,
@@ -131483,8 +131483,8 @@
       "is_pr": false,
       "created_at": "2021-10-04T09:31:14+00:00",
       "created_by": "kmaehashi",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-02-03T21:18:17+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 10543,
@@ -146020,8 +146020,8 @@
       "is_pr": false,
       "created_at": "2023-02-03T18:04:30+00:00",
       "created_by": "thekickartist",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-02-03T21:01:48+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11778,
@@ -170574,6 +170574,31 @@
       "created_by": "rinzool",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13787,
+      "title": "Deprecation: subprocess based build dependency installation & `PIP_CONSTRAINT` for build dependencies",
+      "labels": [
+        "type: deprecation",
+        "C: build isolation"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-03T21:34:52+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13788,
+      "title": "Match release control behavior to the same as format control behavior",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-04T02:27:44+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -170581,7 +170606,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-03T15:15:36+00:00",
+    "last_updated": "2026-02-04T15:14:39+00:00",
     "version": 1
   }
 }
