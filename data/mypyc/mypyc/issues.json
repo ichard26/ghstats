@@ -13314,6 +13314,19 @@
       "created_by": "dhdaines",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1184,
+      "title": "Exception variable used in nested function crashes mypyc",
+      "labels": [
+        "bug",
+        "crash"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-06T18:26:16+00:00",
+      "created_by": "p-sawicki",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13321,7 +13334,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-02-06T15:14:11+00:00",
+    "last_updated": "2026-02-07T15:05:14+00:00",
     "version": 1
   }
 }

@@ -168837,8 +168837,8 @@
       "is_pr": false,
       "created_at": "2025-11-04T06:17:44+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-02-07T14:13:45+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13642,
@@ -169922,7 +169922,7 @@
       "is_pr": true,
       "created_at": "2026-01-03T09:31:33+00:00",
       "created_by": "rahuldevikar",
-      "closed_at": null,
+      "closed_at": "2026-02-06T17:33:02+00:00",
       "closed_by": null
     },
     {
@@ -170611,6 +170611,67 @@
       "created_by": "notatallshaw",
       "closed_at": "2026-02-05T01:44:31+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13790,
+      "title": "Improve pip config set error when PIP_CONFIG_FILE is non-regular",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-07T01:18:54+00:00",
+      "created_by": "gcomneno",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13791,
+      "title": "Run `python -m pip install .` before install CI dependencies",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-07T05:28:56+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13792,
+      "title": "Show helpful hint when installing a stdlib module",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-07T08:26:56+00:00",
+      "created_by": "eureka928",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13793,
+      "title": "Include exception reason in pip version check warning",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-07T09:44:04+00:00",
+      "created_by": "gcomneno",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13794,
+      "title": "WARNING : Value for bin_prefix does not match (21.2.4)",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-07T15:02:51+00:00",
+      "created_by": "osde8info",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -170618,7 +170679,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-06T15:14:12+00:00",
+    "last_updated": "2026-02-07T15:05:15+00:00",
     "version": 1
   }
 }
