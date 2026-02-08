@@ -58200,6 +58200,46 @@
       "created_by": "regiscamimura",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4984,
+      "title": "Install all sistema all install permanente \"",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-02-07T22:43:11+00:00",
+      "created_by": "rafaelplacido86882-art",
+      "closed_at": "2026-02-07T22:44:43+00:00",
+      "closed_by": "hauntsaninja"
+    },
+    {
+      "number": 4985,
+      "title": "Docs: Add comprehensive Jupyter Notebooks documentation page",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-02-08T07:08:55+00:00",
+      "created_by": "veeceey",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4986,
+      "title": "Docs: Add documentation for doctest formatting tools",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-02-08T07:09:53+00:00",
+      "created_by": "veeceey",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4987,
+      "title": "Docs: Expand preview style features documentation with examples",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-02-08T07:10:46+00:00",
+      "created_by": "veeceey",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58207,7 +58247,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-02-07T15:05:12+00:00",
+    "last_updated": "2026-02-08T15:05:48+00:00",
     "version": 1
   }
 }

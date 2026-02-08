@@ -170385,7 +170385,7 @@
       "is_pr": true,
       "created_at": "2026-01-25T23:29:49+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-02-07T17:19:27+00:00",
       "closed_by": null
     },
     {
@@ -170664,12 +170664,23 @@
       "number": 13794,
       "title": "WARNING : Value for bin_prefix does not match (21.2.4)",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: support"
       ],
       "is_pr": false,
       "created_at": "2026-02-07T15:02:51+00:00",
       "created_by": "osde8info",
+      "closed_at": "2026-02-07T15:21:26+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13795,
+      "title": "Release 26.1 (April)",
+      "labels": [
+        "type: maintenance"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-07T16:58:41+00:00",
+      "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
     }
@@ -170679,7 +170690,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-07T15:05:15+00:00",
+    "last_updated": "2026-02-08T15:05:51+00:00",
     "version": 1
   }
 }

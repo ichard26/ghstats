@@ -13327,6 +13327,16 @@
       "created_by": "p-sawicki",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1185,
+      "title": "[proposal] Opt\u2011in compile\u2011time folding for os.getenv/os.environ via mypycify mapping",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-02-08T02:39:05+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13334,7 +13344,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-02-07T15:05:14+00:00",
+    "last_updated": "2026-02-08T15:05:50+00:00",
     "version": 1
   }
 }
