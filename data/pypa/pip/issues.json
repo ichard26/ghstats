@@ -170683,6 +170683,18 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13796,
+      "title": "Strip extra marker from installation error messages",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-08T20:46:31+00:00",
+      "created_by": "veeceey",
+      "closed_at": "2026-02-08T21:29:39+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -170690,7 +170702,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-08T15:05:51+00:00",
+    "last_updated": "2026-02-09T15:19:35+00:00",
     "version": 1
   }
 }
