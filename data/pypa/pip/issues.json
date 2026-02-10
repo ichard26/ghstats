@@ -163790,8 +163790,8 @@
       "is_pr": false,
       "created_at": "2025-02-20T21:25:22+00:00",
       "created_by": "webknjaz",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-02-10T12:21:18+00:00",
+      "closed_by": "pfmoore"
     },
     {
       "number": 13227,
@@ -170695,6 +170695,18 @@
       "created_by": "veeceey",
       "closed_at": "2026-02-08T21:29:39+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13797,
+      "title": "Fix constraint file open error message",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-10T10:48:41+00:00",
+      "created_by": "gcomneno",
+      "closed_at": "2026-02-10T12:21:17+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -170702,7 +170714,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-09T15:19:35+00:00",
+    "last_updated": "2026-02-10T15:25:15+00:00",
     "version": 1
   }
 }
