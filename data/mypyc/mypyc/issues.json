@@ -13038,7 +13038,7 @@
       "is_pr": false,
       "created_at": "2025-10-22T18:50:54+00:00",
       "created_by": "Chainfire",
-      "closed_at": "2026-02-09T11:02:11+00:00",
+      "closed_at": null,
       "closed_by": "Chainfire"
     },
     {
@@ -13337,6 +13337,19 @@
       "created_by": "BobTheBuidler",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1186,
+      "title": "[bug] Segfault when mypyc-compiled class subclasses collections.defaultdict (tp_basicsize too small)",
+      "labels": [
+        "bug",
+        "crash"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-10T16:01:57+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13344,7 +13357,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-02-09T15:19:34+00:00",
+    "last_updated": "2026-02-11T15:20:46+00:00",
     "version": 1
   }
 }
