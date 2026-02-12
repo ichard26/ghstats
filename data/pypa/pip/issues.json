@@ -170732,6 +170732,30 @@
       "created_by": "dantee-e",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13800,
+      "title": "typing python on mac does not do the job",
+      "labels": [
+        "type: docs"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-11T18:36:29+00:00",
+      "created_by": "bagelgoldfish",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13801,
+      "title": "Fix documentation typos and grammar errors",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-11T21:09:46+00:00",
+      "created_by": "DimitriPapadopoulos",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -170739,7 +170763,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-11T15:20:48+00:00",
+    "last_updated": "2026-02-12T15:17:28+00:00",
     "version": 1
   }
 }
