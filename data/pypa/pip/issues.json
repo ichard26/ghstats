@@ -170756,6 +170756,67 @@
       "created_by": "DimitriPapadopoulos",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13802,
+      "title": "Change exit code for an unsatisfied dry-run install",
+      "labels": [
+        "state: awaiting PR",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-12T21:12:54+00:00",
+      "created_by": "flying-sausages",
+      "closed_at": "2026-02-13T11:06:56+00:00",
+      "closed_by": "flying-sausages"
+    },
+    {
+      "number": 13803,
+      "title": "Add `--exit-code` to make `install --dry-run` return non-zero when packages would be installed",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-12T21:36:52+00:00",
+      "created_by": "flying-sausages",
+      "closed_at": "2026-02-13T10:52:37+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13804,
+      "title": "devcontainer improvements",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-13T02:26:15+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-02-13T13:05:53+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13805,
+      "title": "Fix zsh completion when compdef is unavailable",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-13T07:57:26+00:00",
+      "created_by": "LouisLau-art",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13806,
+      "title": "tests: add coverage for --require-virtualenv",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-13T08:34:46+00:00",
+      "created_by": "LouisLau-art",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -170763,7 +170824,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-12T15:17:28+00:00",
+    "last_updated": "2026-02-13T15:14:31+00:00",
     "version": 1
   }
 }
