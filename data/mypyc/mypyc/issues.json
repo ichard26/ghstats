@@ -13352,6 +13352,18 @@
       "created_by": "BobTheBuidler",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1187,
+      "title": "mypyc should avoid emitting MSVC reserved keywords",
+      "labels": [
+        "bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-13T16:06:07+00:00",
+      "created_by": "dhdaines",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13359,7 +13371,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-02-13T15:14:30+00:00",
+    "last_updated": "2026-02-14T15:05:22+00:00",
     "version": 1
   }
 }
