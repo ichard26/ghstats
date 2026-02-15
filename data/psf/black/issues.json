@@ -58248,7 +58248,7 @@
       "is_pr": true,
       "created_at": "2026-02-08T18:30:25+00:00",
       "created_by": "Yusufiibe",
-      "closed_at": null,
+      "closed_at": "2026-02-15T09:49:50+00:00",
       "closed_by": null
     },
     {
@@ -58273,6 +58273,26 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4991,
+      "title": "update docs:formattign notebooks via nbqa",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-02-14T17:29:18+00:00",
+      "created_by": "MohamedSharfan",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4992,
+      "title": "enhance: enhancement of the syntex error reporting",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-02-15T09:48:47+00:00",
+      "created_by": "MohamedSharfan",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58280,7 +58300,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-02-13T15:14:29+00:00",
+    "last_updated": "2026-02-15T15:05:51+00:00",
     "version": 1
   }
 }
