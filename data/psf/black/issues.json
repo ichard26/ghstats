@@ -57993,8 +57993,8 @@
       "is_pr": false,
       "created_at": "2026-01-20T10:39:02+00:00",
       "created_by": "SunsetWolf",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-02-16T03:54:31+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4967,
@@ -58204,7 +58204,9 @@
     {
       "number": 4984,
       "title": "Install all sistema all install permanente \"",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": false,
       "created_at": "2026-02-07T22:43:11+00:00",
       "created_by": "rafaelplacido86882-art",
@@ -58228,13 +58230,15 @@
       "is_pr": true,
       "created_at": "2026-02-08T07:09:53+00:00",
       "created_by": "veeceey",
-      "closed_at": null,
+      "closed_at": "2026-02-15T21:05:07+00:00",
       "closed_by": null
     },
     {
       "number": 4987,
       "title": "Docs: Expand preview style features documentation with examples",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-02-08T07:10:46+00:00",
       "created_by": "veeceey",
@@ -58254,7 +58258,9 @@
     {
       "number": 4989,
       "title": "python",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": false,
       "created_at": "2026-02-10T17:22:06+00:00",
       "created_by": "vanthullrocky0-source",
@@ -58271,7 +58277,7 @@
       "is_pr": true,
       "created_at": "2026-02-13T06:33:00+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-02-15T21:08:13+00:00",
       "closed_by": null
     },
     {
@@ -58281,7 +58287,7 @@
       "is_pr": true,
       "created_at": "2026-02-14T17:29:18+00:00",
       "created_by": "MohamedSharfan",
-      "closed_at": null,
+      "closed_at": "2026-02-15T21:09:00+00:00",
       "closed_by": null
     },
     {
@@ -58300,7 +58306,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-02-15T15:05:51+00:00",
+    "last_updated": "2026-02-16T15:14:14+00:00",
     "version": 1
   }
 }
