@@ -170817,6 +170817,18 @@
       "created_by": "LouisLau-art",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13807,
+      "title": "Clarify --target behavior with --upgrade",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-17T10:47:40+00:00",
+      "created_by": "gcomneno",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -170824,7 +170836,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-16T15:14:19+00:00",
+    "last_updated": "2026-02-17T15:16:45+00:00",
     "version": 1
   }
 }
