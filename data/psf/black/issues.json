@@ -58331,6 +58331,41 @@
       "created_by": "Vizonex",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 4997,
+      "title": "Mark first block before matching content as changed in line ranges mapping",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-02-20T02:57:03+00:00",
+      "created_by": "bysiber",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4998,
+      "title": "Aggregate escape counts across all f-string segments in normalize_fstring_quotes",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-20T02:57:38+00:00",
+      "created_by": "bysiber",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 4999,
+      "title": "Bump docker/build-push-action from 6.18.0 to 6.19.2",
+      "labels": [
+        "C: dependencies",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-20T06:33:13+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58338,7 +58373,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-02-19T15:15:56+00:00",
+    "last_updated": "2026-02-20T15:14:14+00:00",
     "version": 1
   }
 }
