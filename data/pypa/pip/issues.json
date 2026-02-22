@@ -170935,6 +170935,16 @@
       "created_by": "Ashutosh0x",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13817,
+      "title": "Use packaging's direct_url model",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-02-22T13:16:47+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -170942,7 +170952,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-21T15:04:57+00:00",
+    "last_updated": "2026-02-22T15:05:04+00:00",
     "version": 1
   }
 }

@@ -58380,6 +58380,16 @@
       "created_by": "cobaltt7",
       "closed_at": "2026-02-21T03:08:45+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5001,
+      "title": "Consecutive @overload definitions have two distinct stable formatting states for the same AST",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-02-22T10:31:44+00:00",
+      "created_by": "louisabraham",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58387,7 +58397,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-02-21T15:04:51+00:00",
+    "last_updated": "2026-02-22T15:05:03+00:00",
     "version": 1
   }
 }
