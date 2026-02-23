@@ -164116,6 +164116,7 @@
       "number": 13253,
       "title": "Use new `narrow requirement selection` resolvelib api to reduce cost of resolution",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -166217,6 +166218,7 @@
       "number": 13424,
       "title": "Guard against pathologically connected dependency graphs",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -166935,6 +166937,7 @@
       "number": 13482,
       "title": "Avoid `pip install --dry-run` downloading full wheels",
       "labels": [
+        "type: performance",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -169065,7 +169068,8 @@
       "number": 13660,
       "title": "Don't convert versions to strings when using importlib.metadata backend",
       "labels": [
-        "skip news"
+        "skip news",
+        "type: performance"
       ],
       "is_pr": true,
       "created_at": "2025-11-21T03:26:18+00:00",
@@ -170952,7 +170956,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-22T15:05:04+00:00",
+    "last_updated": "2026-02-23T15:17:18+00:00",
     "version": 1
   }
 }

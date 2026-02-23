@@ -58390,6 +58390,30 @@
       "created_by": "louisabraham",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5002,
+      "title": "Editor integration page links to stale Atom/Nuclide tooling",
+      "labels": [
+        "T: documentation"
+      ],
+      "is_pr": false,
+      "created_at": "2026-02-23T01:43:27+00:00",
+      "created_by": "TommyR2",
+      "closed_at": "2026-02-23T02:44:38+00:00",
+      "closed_by": "cobaltt7"
+    },
+    {
+      "number": 5003,
+      "title": "Remove Atom/Nuclide editor integration section (Closes #5002)",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-23T02:20:17+00:00",
+      "created_by": "TommyR2",
+      "closed_at": "2026-02-23T02:44:37+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -58397,7 +58421,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-02-22T15:05:03+00:00",
+    "last_updated": "2026-02-23T15:17:16+00:00",
     "version": 1
   }
 }
