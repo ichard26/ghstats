@@ -157284,12 +157284,11 @@
       "title": "ERROR: Fatal Internal error [id=1]",
       "labels": [
         "type: bug",
-        "C: configuration",
-        "S: awaiting response"
+        "C: configuration"
       ],
       "is_pr": false,
       "created_at": "2024-05-15T22:16:23+00:00",
-      "created_by": "oldmanjk",
+      "created_by": "oldgithubman",
       "closed_at": null,
       "closed_by": null
     },
@@ -170956,7 +170955,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-23T15:17:18+00:00",
+    "last_updated": "2026-02-24T15:19:20+00:00",
     "version": 1
   }
 }
