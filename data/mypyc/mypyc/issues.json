@@ -13364,6 +13364,16 @@
       "created_by": "dhdaines",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1188,
+      "title": "Build fails with 'cpy_r_r17' may be used uninitialized",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-02-25T11:58:47+00:00",
+      "created_by": "Newbytee",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13371,7 +13381,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-02-14T15:05:22+00:00",
+    "last_updated": "2026-02-25T15:19:39+00:00",
     "version": 1
   }
 }

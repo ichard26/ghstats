@@ -170948,6 +170948,40 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13818,
+      "title": "Fix TestUnpackArchives for ACL used in codespaces",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-25T01:18:17+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13819,
+      "title": "Prevent uninstall path traversal via RECORD entries",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-25T12:10:00+00:00",
+      "created_by": "CodeByMoriarty",
+      "closed_at": "2026-02-25T14:28:16+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13820,
+      "title": "Consider speciesist language in documentation",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-02-25T14:24:09+00:00",
+      "created_by": "stuckvgn",
+      "closed_at": "2026-02-25T14:50:42+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -170955,7 +170989,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-24T15:19:20+00:00",
+    "last_updated": "2026-02-25T15:19:40+00:00",
     "version": 1
   }
 }
