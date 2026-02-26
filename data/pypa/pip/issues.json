@@ -170982,6 +170982,30 @@
       "created_by": "stuckvgn",
       "closed_at": "2026-02-25T14:50:42+00:00",
       "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13821,
+      "title": "Fix broken and outdated documentation links",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-25T18:29:14+00:00",
+      "created_by": "dhruvildarji",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13822,
+      "title": "fix: replace 3 bare except clauses with except Exception",
+      "labels": [
+        "resolution: no action"
+      ],
+      "is_pr": true,
+      "created_at": "2026-02-26T01:49:13+00:00",
+      "created_by": "haosenwang1018",
+      "closed_at": "2026-02-26T01:52:14+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -170989,7 +171013,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-25T15:19:40+00:00",
+    "last_updated": "2026-02-26T15:16:46+00:00",
     "version": 1
   }
 }
