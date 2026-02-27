@@ -171006,6 +171006,26 @@
       "created_by": "haosenwang1018",
       "closed_at": "2026-02-26T01:52:14+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13823,
+      "title": "`__package__` \u2192 `__spec__.parent`",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-02-27T00:22:02+00:00",
+      "created_by": "DimitriPapadopoulos",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13824,
+      "title": "fix: replace 3 bare except clauses with except Exception",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-02-27T01:32:54+00:00",
+      "created_by": "haosenwang1018",
+      "closed_at": "2026-02-27T01:53:29+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -171013,7 +171033,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-02-26T15:16:46+00:00",
+    "last_updated": "2026-02-27T15:13:58+00:00",
     "version": 1
   }
 }
