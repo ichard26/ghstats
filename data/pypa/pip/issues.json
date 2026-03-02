@@ -170958,7 +170958,7 @@
       "is_pr": true,
       "created_at": "2026-02-25T01:18:17+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-03-01T16:26:44+00:00",
       "closed_by": null
     },
     {
@@ -170992,7 +170992,7 @@
       "is_pr": true,
       "created_at": "2026-02-25T18:29:14+00:00",
       "created_by": "dhruvildarji",
-      "closed_at": null,
+      "closed_at": "2026-03-02T08:31:01+00:00",
       "closed_by": null
     },
     {
@@ -171145,7 +171145,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-01T15:03:57+00:00",
+    "last_updated": "2026-03-02T15:14:25+00:00",
     "version": 1
   }
 }

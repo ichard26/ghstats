@@ -54533,8 +54533,8 @@
       "is_pr": false,
       "created_at": "2025-03-31T19:56:19+00:00",
       "created_by": "tjstum",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-02T00:40:56+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4641,
@@ -54685,8 +54685,8 @@
       "is_pr": false,
       "created_at": "2025-04-22T19:28:00+00:00",
       "created_by": "dosisod",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-02T00:41:00+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4654,
@@ -54740,7 +54740,7 @@
       "is_pr": true,
       "created_at": "2025-04-26T03:12:33+00:00",
       "created_by": "siavasha",
-      "closed_at": null,
+      "closed_at": "2026-03-02T00:40:56+00:00",
       "closed_by": null
     },
     {
@@ -57254,7 +57254,7 @@
       "is_pr": true,
       "created_at": "2025-12-05T23:08:57+00:00",
       "created_by": "rxjacob",
-      "closed_at": null,
+      "closed_at": "2026-03-02T00:40:59+00:00",
       "closed_by": null
     },
     {
@@ -57917,10 +57917,10 @@
     },
     {
       "number": 4960,
-      "title": "Bump docutils from 0.21.2 to 0.22.4",
+      "title": "Bump docutils, sphinx, myst-parser",
       "labels": [
         "C: dependencies",
-        "skip news"
+        "ci: skip news"
       ],
       "is_pr": true,
       "created_at": "2026-01-16T04:06:16+00:00",
@@ -58006,8 +58006,8 @@
       "is_pr": false,
       "created_at": "2026-01-20T14:32:54+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-02T03:56:30+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4968,
@@ -58038,7 +58038,7 @@
       "number": 4970,
       "title": "Partially revert actions/checkout bump",
       "labels": [
-        "skip news"
+        "ci: skip news"
       ],
       "is_pr": true,
       "created_at": "2026-01-23T13:05:40+00:00",
@@ -58053,7 +58053,7 @@
       "is_pr": true,
       "created_at": "2026-01-23T18:11:32+00:00",
       "created_by": "int-arsh",
-      "closed_at": null,
+      "closed_at": "2026-03-02T03:56:30+00:00",
       "closed_by": null
     },
     {
@@ -58095,7 +58095,7 @@
       "title": "Bump hatch from 1.15.1 to 1.16.3",
       "labels": [
         "C: dependencies",
-        "skip news"
+        "ci: skip news"
       ],
       "is_pr": true,
       "created_at": "2026-01-30T06:32:52+00:00",
@@ -58133,12 +58133,12 @@
       "number": 4978,
       "title": "A few more small CI tweaks",
       "labels": [
-        "skip news"
+        "ci: skip news"
       ],
       "is_pr": true,
       "created_at": "2026-02-01T04:37:20+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2026-03-02T01:44:28+00:00",
       "closed_by": null
     },
     {
@@ -58162,8 +58162,8 @@
       "is_pr": false,
       "created_at": "2026-02-02T20:22:32+00:00",
       "created_by": "godlygeek",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-02T02:34:59+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4981,
@@ -58198,7 +58198,7 @@
       "is_pr": true,
       "created_at": "2026-02-07T00:46:16+00:00",
       "created_by": "regiscamimura",
-      "closed_at": null,
+      "closed_at": "2026-03-02T02:34:58+00:00",
       "closed_by": null
     },
     {
@@ -58220,7 +58220,7 @@
       "is_pr": true,
       "created_at": "2026-02-08T07:08:55+00:00",
       "created_by": "veeceey",
-      "closed_at": null,
+      "closed_at": "2026-03-02T03:56:31+00:00",
       "closed_by": null
     },
     {
@@ -58306,8 +58306,8 @@
       "labels": [],
       "is_pr": true,
       "created_at": "2026-02-17T13:57:58+00:00",
-      "created_by": "Fridayai700",
-      "closed_at": null,
+      "created_by": "worksbyfriday",
+      "closed_at": "2026-03-02T00:40:55+00:00",
       "closed_by": null
     },
     {
@@ -58442,11 +58442,13 @@
     {
       "number": 5006,
       "title": "Clarify error message when no target Python version is specified",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-02-24T11:18:29+00:00",
       "created_by": "srinithivijayakumars139-wq",
-      "closed_at": null,
+      "closed_at": "2026-03-02T00:41:14+00:00",
       "closed_by": null
     },
     {
@@ -58462,7 +58464,9 @@
     {
       "number": 5008,
       "title": "fix: replace 15 bare except clauses with except Exception",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-02-27T01:32:49+00:00",
       "created_by": "haosenwang1018",
@@ -58476,7 +58480,7 @@
       "is_pr": true,
       "created_at": "2026-02-27T02:13:18+00:00",
       "created_by": "toroleapinc",
-      "closed_at": null,
+      "closed_at": "2026-03-02T03:56:29+00:00",
       "closed_by": null
     },
     {
@@ -58488,6 +58492,70 @@
       "created_by": "thakoreh",
       "closed_at": "2026-02-27T16:55:36+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5011,
+      "title": "Add an upper bound to `virtualenv` in the build deps",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-01T19:25:44+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-03-01T20:23:08+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5012,
+      "title": "Fix Dependabot config",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-02T01:50:19+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-03-02T01:53:52+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5013,
+      "title": "Bump sphinxcontrib-programoutput from 0.18 to 0.19",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-02T01:54:42+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-03-02T02:10:02+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5014,
+      "title": "Bump actions/setup-python from 6.1.0 to 6.2.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-02T01:54:59+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-03-02T02:01:58+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5015,
+      "title": "Bump wcwidth from 0.2.14 to 0.6.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-02T01:55:09+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58495,7 +58563,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-02-28T15:03:39+00:00",
+    "last_updated": "2026-03-02T15:14:13+00:00",
     "version": 1
   }
 }
