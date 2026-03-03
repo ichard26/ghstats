@@ -170624,7 +170624,7 @@
       "is_pr": true,
       "created_at": "2026-02-07T01:18:54+00:00",
       "created_by": "gcomneno",
-      "closed_at": null,
+      "closed_at": "2026-03-03T10:30:45+00:00",
       "closed_by": null
     },
     {
@@ -170660,7 +170660,7 @@
       "is_pr": true,
       "created_at": "2026-02-07T09:44:04+00:00",
       "created_by": "gcomneno",
-      "closed_at": null,
+      "closed_at": "2026-03-03T10:30:43+00:00",
       "closed_by": null
     },
     {
@@ -170830,7 +170830,7 @@
       "is_pr": true,
       "created_at": "2026-02-17T10:47:40+00:00",
       "created_by": "gcomneno",
-      "closed_at": null,
+      "closed_at": "2026-03-03T10:30:41+00:00",
       "closed_by": null
     },
     {
@@ -170876,7 +170876,7 @@
       "is_pr": true,
       "created_at": "2026-02-18T09:20:06+00:00",
       "created_by": "gcomneno",
-      "closed_at": null,
+      "closed_at": "2026-03-03T10:30:38+00:00",
       "closed_by": null
     },
     {
@@ -170888,7 +170888,7 @@
       "is_pr": true,
       "created_at": "2026-02-18T09:40:37+00:00",
       "created_by": "gcomneno",
-      "closed_at": null,
+      "closed_at": "2026-03-03T10:30:36+00:00",
       "closed_by": null
     },
     {
@@ -170900,7 +170900,7 @@
       "is_pr": true,
       "created_at": "2026-02-18T11:48:20+00:00",
       "created_by": "gcomneno",
-      "closed_at": null,
+      "closed_at": "2026-03-03T10:30:34+00:00",
       "closed_by": null
     },
     {
@@ -170912,7 +170912,7 @@
       "is_pr": true,
       "created_at": "2026-02-18T13:00:24+00:00",
       "created_by": "gcomneno",
-      "closed_at": null,
+      "closed_at": "2026-03-03T10:30:32+00:00",
       "closed_by": null
     },
     {
@@ -171138,6 +171138,29 @@
       "created_by": "Minoresa",
       "closed_at": "2026-03-01T00:48:38+00:00",
       "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13835,
+      "title": "build(deps): bump the github-actions group with 2 updates",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-02T18:44:09+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13836,
+      "title": "pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-02T18:55:18+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2026-03-02T19:05:45+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -171145,7 +171168,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-02T15:14:25+00:00",
+    "last_updated": "2026-03-03T15:16:30+00:00",
     "version": 1
   }
 }

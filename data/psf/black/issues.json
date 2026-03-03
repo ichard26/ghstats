@@ -58100,7 +58100,7 @@
       "is_pr": true,
       "created_at": "2026-01-30T06:32:52+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-03-03T06:32:52+00:00",
       "closed_by": null
     },
     {
@@ -58556,6 +58556,77 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5016,
+      "title": "Do not encourage the use of an obsolete GitHub Actions",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-02T16:54:14+00:00",
+      "created_by": "cclauss",
+      "closed_at": "2026-03-02T17:01:38+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5017,
+      "title": "Add FAQ entry about doctest formatting",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-02T17:47:35+00:00",
+      "created_by": "infektyd",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5018,
+      "title": "[pre-commit.ci] pre-commit autoupdate",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-02T21:38:40+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2026-03-02T21:48:08+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5019,
+      "title": "Bump actions/download-artifact from 7.0.0 to 8.0.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-03T06:32:49+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5020,
+      "title": "Bump hatch from 1.15.1 to 1.16.4",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-03T06:32:50+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5021,
+      "title": "Improve formatting of `@overload`-decorated function groups in stub files, especially those with docstrings",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-03T13:17:40+00:00",
+      "created_by": "AlexWaygood",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58563,7 +58634,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-02T15:14:13+00:00",
+    "last_updated": "2026-03-03T15:16:24+00:00",
     "version": 1
   }
 }
