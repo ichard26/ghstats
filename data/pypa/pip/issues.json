@@ -88236,7 +88236,7 @@
       "created_at": "2019-08-31T16:39:48+00:00",
       "created_by": "pfmoore",
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "pfmoore"
     },
     {
       "number": 6957,
@@ -171149,7 +171149,7 @@
       "is_pr": true,
       "created_at": "2026-03-02T18:44:09+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-03-04T15:17:03+00:00",
       "closed_by": null
     },
     {
@@ -171173,6 +171173,45 @@
       "created_by": "nmanthey",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13838,
+      "title": "Python 3.15",
+      "labels": [
+        "C: tests",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-04T15:20:24+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13839,
+      "title": "Pip warns about a new release 25.0.1 even when a newer version is installed.",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-04T18:05:04+00:00",
+      "created_by": "julie777",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13840,
+      "title": "Test `pip` against Python Free Threaded builds",
+      "labels": [
+        "C: tests",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-04T22:52:59+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171180,7 +171219,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-04T15:12:22+00:00",
+    "last_updated": "2026-03-05T15:16:58+00:00",
     "version": 1
   }
 }
