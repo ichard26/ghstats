@@ -58572,7 +58572,9 @@
     {
       "number": 5017,
       "title": "Add FAQ entry about doctest formatting",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-03-02T17:47:35+00:00",
       "created_by": "infektyd",
@@ -58615,7 +58617,7 @@
       "is_pr": true,
       "created_at": "2026-03-03T06:32:50+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-03-05T23:21:48+00:00",
       "closed_by": null
     },
     {
@@ -58662,6 +58664,65 @@
       "is_pr": true,
       "created_at": "2026-03-05T06:33:18+00:00",
       "created_by": "dependabot[bot]",
+      "closed_at": "2026-03-05T19:46:31+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5025,
+      "title": "docs: clarify relationship between Black style and PEP 8",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-05T18:57:28+00:00",
+      "created_by": "mitre88",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5026,
+      "title": "docs: add clearer pyproject configuration guidance",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-05T18:59:36+00:00",
+      "created_by": "mitre88",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5027,
+      "title": "Bump the \"cibuildwheel\" group with 1 updates across multiple ecosystems",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-06T06:35:57+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5028,
+      "title": "Revert \"Bump hatch from 1.15.1 to 1.16.4\"",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-06T12:41:13+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-03-06T13:02:52+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5029,
+      "title": "Security: Zip Slip / Tar Slip path traversal in gallery/gallery.py archive extraction",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-03-06T15:08:42+00:00",
+      "created_by": "Vext-Labs",
       "closed_at": null,
       "closed_by": null
     }
@@ -58671,7 +58732,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-05T15:16:43+00:00",
+    "last_updated": "2026-03-06T15:11:40+00:00",
     "version": 1
   }
 }
