@@ -58578,7 +58578,7 @@
       "is_pr": true,
       "created_at": "2026-03-02T17:47:35+00:00",
       "created_by": "infektyd",
-      "closed_at": null,
+      "closed_at": "2026-03-07T01:44:16+00:00",
       "closed_by": null
     },
     {
@@ -58723,7 +58723,39 @@
       "is_pr": false,
       "created_at": "2026-03-06T15:08:42+00:00",
       "created_by": "Vext-Labs",
-      "closed_at": null,
+      "closed_at": "2026-03-06T16:31:44+00:00",
+      "closed_by": "Vext-Labs"
+    },
+    {
+      "number": 5030,
+      "title": "Remove gallery/",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-06T16:45:44+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2026-03-06T17:18:53+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5031,
+      "title": "Harden Black action version parsing",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-06T17:07:14+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2026-03-06T17:18:07+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5032,
+      "title": "Prepare release 26.3.0",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-06T17:23:21+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2026-03-06T17:30:53+00:00",
       "closed_by": null
     }
   ],
@@ -58732,7 +58764,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-06T15:11:40+00:00",
+    "last_updated": "2026-03-07T15:04:11+00:00",
     "version": 1
   }
 }
