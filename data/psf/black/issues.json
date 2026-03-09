@@ -14124,8 +14124,8 @@
       "is_pr": false,
       "created_at": "2020-02-12T00:34:37+00:00",
       "created_by": "p0llard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-08T22:22:50+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 1273,
@@ -28862,8 +28862,8 @@
       "is_pr": false,
       "created_at": "2021-09-09T09:50:15+00:00",
       "created_by": "antoniouaa",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-08T22:22:45+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2488,
@@ -58676,7 +58676,7 @@
       "is_pr": true,
       "created_at": "2026-03-05T18:57:28+00:00",
       "created_by": "mitre88",
-      "closed_at": null,
+      "closed_at": "2026-03-08T22:22:49+00:00",
       "closed_by": null
     },
     {
@@ -58688,7 +58688,7 @@
       "is_pr": true,
       "created_at": "2026-03-05T18:59:36+00:00",
       "created_by": "mitre88",
-      "closed_at": null,
+      "closed_at": "2026-03-08T22:22:44+00:00",
       "closed_by": null
     },
     {
@@ -58757,6 +58757,44 @@
       "created_by": "JelleZijlstra",
       "closed_at": "2026-03-06T17:30:53+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5035,
+      "title": "Minor release patches",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-08T22:48:13+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-03-08T22:51:35+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5036,
+      "title": "Add new changelog",
+      "labels": [
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-08T22:54:28+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-03-08T22:58:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5037,
+      "title": "Bump hatch from 1.15.1 to 1.16.5",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-09T06:32:07+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58764,7 +58802,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-08T15:04:36+00:00",
+    "last_updated": "2026-03-09T15:19:32+00:00",
     "version": 1
   }
 }
