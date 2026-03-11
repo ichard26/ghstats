@@ -58795,6 +58795,64 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5038,
+      "title": "Fix some shenanigans with the cache file and IPython",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-11T03:23:27+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5039,
+      "title": "Harden blackd browser-facing request handling",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-11T04:27:48+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5040,
+      "title": "Bump docker/login-action from 3.7.0 to 4.0.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-11T06:32:57+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5041,
+      "title": "Remove unused internal code",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-11T08:07:25+00:00",
+      "created_by": "duriantaco",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5042,
+      "title": "Support `lazy` imports",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-11T09:06:08+00:00",
+      "created_by": "hugovk",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -58802,7 +58860,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-10T15:18:09+00:00",
+    "last_updated": "2026-03-11T15:15:54+00:00",
     "version": 1
   }
 }
