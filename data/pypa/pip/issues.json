@@ -171050,7 +171050,7 @@
       "is_pr": true,
       "created_at": "2026-02-28T15:36:44+00:00",
       "created_by": "pfmoore",
-      "closed_at": null,
+      "closed_at": "2026-03-15T01:32:56+00:00",
       "closed_by": null
     },
     {
@@ -171060,8 +171060,8 @@
       "is_pr": false,
       "created_at": "2026-02-28T15:37:50+00:00",
       "created_by": "pfmoore",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-15T01:32:58+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13828,
@@ -171186,8 +171186,8 @@
       "is_pr": false,
       "created_at": "2026-03-04T15:20:24+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-14T23:40:27+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13839,
@@ -171273,7 +171273,7 @@
       "is_pr": true,
       "created_at": "2026-03-13T22:52:48+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-03-14T23:40:26+00:00",
       "closed_by": null
     },
     {
@@ -171299,6 +171299,41 @@
       "created_by": "hugovk",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13848,
+      "title": "cannot avoid redownload from git repo with auto scm when package is already installed",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-15T02:48:13+00:00",
+      "created_by": "DougLeonard",
+      "closed_at": "2026-03-15T03:23:01+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 13849,
+      "title": "Fix typos",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-15T09:28:51+00:00",
+      "created_by": "DimitriPapadopoulos",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13850,
+      "title": "Replace private `Specifier_operators` with explicit version specifier operators",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-15T14:03:40+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171306,7 +171341,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-14T15:06:40+00:00",
+    "last_updated": "2026-03-15T15:07:15+00:00",
     "version": 1
   }
 }
