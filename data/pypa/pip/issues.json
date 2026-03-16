@@ -171304,13 +171304,13 @@
       "number": 13848,
       "title": "cannot avoid redownload from git repo with auto scm when package is already installed",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "C: vcs",
+        "state: needs discussion"
       ],
       "is_pr": false,
       "created_at": "2026-03-15T02:48:13+00:00",
       "created_by": "DougLeonard",
-      "closed_at": "2026-03-15T03:23:01+00:00",
+      "closed_at": null,
       "closed_by": "notatallshaw"
     },
     {
@@ -171332,6 +171332,53 @@
       "is_pr": true,
       "created_at": "2026-03-15T14:03:40+00:00",
       "created_by": "notatallshaw",
+      "closed_at": "2026-03-15T16:40:06+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13851,
+      "title": "Fix package update exitcode",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-15T19:34:07+00:00",
+      "created_by": "lklivingstone",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13852,
+      "title": "Debug PEP 668 sitecustomize on Ubuntu 24.04",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-15T23:37:00+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-03-16T01:09:20+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13853,
+      "title": "Run CI on Ubuntu latest",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-16T01:08:10+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13854,
+      "title": "Add package sizes to data obtained in --dry-run",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-16T04:31:44+00:00",
+      "created_by": "alex-ie",
       "closed_at": null,
       "closed_by": null
     }
@@ -171341,7 +171388,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-15T15:07:15+00:00",
+    "last_updated": "2026-03-16T15:23:52+00:00",
     "version": 1
   }
 }

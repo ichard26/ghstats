@@ -36057,7 +36057,6 @@
       "number": 3083,
       "title": "Documentation: mention tools that can do doctests formatting",
       "labels": [
-        "good first issue",
         "T: documentation",
         "F: docstrings"
       ],
@@ -58978,6 +58977,42 @@
       "created_by": "duriantaco",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5053,
+      "title": "Bump zizmorcore/zizmor-action from 0.5.0 to 0.5.2",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-16T06:32:35+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5054,
+      "title": "docs: mention blacken-docs for doctest formatting",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-16T07:15:20+00:00",
+      "created_by": "SadManFahIm",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5055,
+      "title": "Remove lines with a single (or very few) characters",
+      "labels": [
+        "T: style"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-16T10:11:59+00:00",
+      "created_by": "SebastienEske",
+      "closed_at": "2026-03-16T14:25:01+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -58985,7 +59020,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-15T15:07:14+00:00",
+    "last_updated": "2026-03-16T15:23:48+00:00",
     "version": 1
   }
 }
