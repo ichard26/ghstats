@@ -171316,11 +171316,13 @@
     {
       "number": 13849,
       "title": "Fix typos",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-03-15T09:28:51+00:00",
       "created_by": "DimitriPapadopoulos",
-      "closed_at": null,
+      "closed_at": "2026-03-16T22:54:39+00:00",
       "closed_by": null
     },
     {
@@ -171381,6 +171383,19 @@
       "created_by": "alex-ie",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13855,
+      "title": "build(deps): bump the github-actions group with 2 updates",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-16T17:39:05+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171388,7 +171403,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-16T15:23:52+00:00",
+    "last_updated": "2026-03-17T15:23:42+00:00",
     "version": 1
   }
 }
