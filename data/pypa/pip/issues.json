@@ -171194,7 +171194,8 @@
       "title": "Pip warns about a new release 25.0.1 even when a newer version is installed.",
       "labels": [
         "type: support",
-        "state: awaiting PR"
+        "S: awaiting response",
+        "state: needs reproducer"
       ],
       "is_pr": false,
       "created_at": "2026-03-04T18:05:04+00:00",
@@ -171396,6 +171397,38 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13856,
+      "title": "TypeError in parse_version when package has None version metadata",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-03-19T11:50:24+00:00",
+      "created_by": "themavik",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13857,
+      "title": "fix: handle None version in package metadata during conflict check",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-19T11:52:45+00:00",
+      "created_by": "themavik",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13858,
+      "title": "fix: invalidate self-check cache when local pip version changes",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-19T12:08:45+00:00",
+      "created_by": "AlphaRex-pixel",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171403,7 +171436,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-18T15:27:03+00:00",
+    "last_updated": "2026-03-19T15:16:22+00:00",
     "version": 1
   }
 }

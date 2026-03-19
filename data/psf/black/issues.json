@@ -59023,6 +59023,30 @@
       "created_by": "Env2202",
       "closed_at": "2026-03-16T21:16:08+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5057,
+      "title": "Bump actions/download-artifact from 8.0.0 to 8.0.1",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-19T06:33:06+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5058,
+      "title": "Internal error: producing different code on second pass with long type annotations",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-03-19T11:55:39+00:00",
+      "created_by": "themavik",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -59030,7 +59054,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-18T15:27:01+00:00",
+    "last_updated": "2026-03-19T15:16:20+00:00",
     "version": 1
   }
 }
