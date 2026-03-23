@@ -167965,8 +167965,8 @@
       "is_pr": false,
       "created_at": "2025-09-04T14:46:31+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-22T16:52:13+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13569,
@@ -171279,7 +171279,7 @@
     },
     {
       "number": 13846,
-      "title": "Test Python 3.x.0 on CI",
+      "title": "Test oldest available Python per minor version on CI",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -171298,7 +171298,7 @@
       "is_pr": true,
       "created_at": "2026-03-14T11:40:21+00:00",
       "created_by": "hugovk",
-      "closed_at": null,
+      "closed_at": "2026-03-22T16:39:46+00:00",
       "closed_by": null
     },
     {
@@ -171369,7 +171369,7 @@
       "is_pr": true,
       "created_at": "2026-03-16T01:08:10+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-03-22T16:52:11+00:00",
       "closed_by": null
     },
     {
@@ -171439,7 +171439,7 @@
       "is_pr": true,
       "created_at": "2026-03-21T03:40:38+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-03-22T23:49:21+00:00",
       "closed_by": null
     },
     {
@@ -171453,6 +171453,29 @@
       "created_by": "abhiyadav2345",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13861,
+      "title": "PEP723 metadata reader uses default encoding",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-23T14:46:38+00:00",
+      "created_by": "gertjanvanzwieten",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13862,
+      "title": "Force UTF-8 encoding for PEP723 metadata",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-23T14:50:06+00:00",
+      "created_by": "gertjanvanzwieten",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171460,7 +171483,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-22T15:05:40+00:00",
+    "last_updated": "2026-03-23T15:21:59+00:00",
     "version": 1
   }
 }
