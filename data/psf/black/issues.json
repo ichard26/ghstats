@@ -59083,6 +59083,16 @@
       "created_by": "sedat4ras",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5063,
+      "title": "Use \"Version X.Y.Z\" headings in changelog for stable permalink anchors",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-25T02:30:32+00:00",
+      "created_by": "Krishnachaitanyakc",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -59090,7 +59100,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-24T15:24:41+00:00",
+    "last_updated": "2026-03-25T15:25:50+00:00",
     "version": 1
   }
 }
