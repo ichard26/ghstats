@@ -171009,14 +171009,14 @@
     },
     {
       "number": 13823,
-      "title": "`__package__` \u2192 `__spec__.parent`",
+      "title": "mnt: `__package__` \u2192 `__spec__.parent`",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2026-02-27T00:22:02+00:00",
       "created_by": "DimitriPapadopoulos",
-      "closed_at": null,
+      "closed_at": "2026-03-25T18:55:20+00:00",
       "closed_by": null
     },
     {
@@ -171502,8 +171502,8 @@
       "is_pr": false,
       "created_at": "2026-03-24T15:43:44+00:00",
       "created_by": "Mayank447",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-26T09:43:35+00:00",
+      "closed_by": "Mayank447"
     },
     {
       "number": 13865,
@@ -171514,7 +171514,7 @@
       "is_pr": true,
       "created_at": "2026-03-25T00:05:36+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-03-25T18:51:23+00:00",
       "closed_by": null
     },
     {
@@ -171528,6 +171528,41 @@
       "created_by": "notatallshaw",
       "closed_at": "2026-03-25T03:36:02+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13867,
+      "title": "Bizzare bug with wheel build from tar.gz - tar.gz identified as zip file",
+      "labels": [
+        "type: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-26T01:40:52+00:00",
+      "created_by": "f3flight",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13868,
+      "title": "sample Apparmor profile (pip ELF wrapper)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-26T06:17:42+00:00",
+      "created_by": "drzraf",
+      "closed_at": "2026-03-26T12:15:07+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13869,
+      "title": "provide an apparmor profile (and a pip ELF wrapper)",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-26T14:30:16+00:00",
+      "created_by": "drzraf",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171535,7 +171570,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-25T15:25:52+00:00",
+    "last_updated": "2026-03-26T15:28:03+00:00",
     "version": 1
   }
 }

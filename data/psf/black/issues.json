@@ -59093,6 +59093,30 @@
       "created_by": "Krishnachaitanyakc",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5064,
+      "title": "docs: add Neovim configuration guide",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-25T22:00:10+00:00",
+      "created_by": "nuglifeleoji",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5065,
+      "title": "Bump actions/cache from 5.0.3 to 5.0.4",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-26T06:33:18+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -59100,7 +59124,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-25T15:25:50+00:00",
+    "last_updated": "2026-03-26T15:27:59+00:00",
     "version": 1
   }
 }
