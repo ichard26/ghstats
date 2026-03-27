@@ -137706,7 +137706,7 @@
       "is_pr": true,
       "created_at": "2022-04-29T01:22:11+00:00",
       "created_by": "f3flight",
-      "closed_at": null,
+      "closed_at": "2026-03-26T18:48:08+00:00",
       "closed_by": null
     },
     {
@@ -171166,7 +171166,7 @@
     },
     {
       "number": 13837,
-      "title": "cli: add --min-release-age for relative update delay",
+      "title": "Support relative values/durations in `--uploaded-prior-to`",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -171563,6 +171563,30 @@
       "created_by": "drzraf",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13870,
+      "title": "Refactor unpacking logic for archive files",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-26T16:39:44+00:00",
+      "created_by": "f3flight",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13871,
+      "title": "Reject RECORD entries with path traversal outside installation root",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-27T01:16:23+00:00",
+      "created_by": "CodeByMoriarty",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171570,7 +171594,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-26T15:28:03+00:00",
+    "last_updated": "2026-03-27T15:17:23+00:00",
     "version": 1
   }
 }
