@@ -171459,13 +171459,13 @@
       "title": "PEP723 metadata reader uses default encoding",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "PEP implementation"
       ],
       "is_pr": false,
       "created_at": "2026-03-23T14:46:38+00:00",
       "created_by": "gertjanvanzwieten",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-28T19:31:23+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13862,
@@ -171622,6 +171622,28 @@
       "created_by": "gpshead",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13875,
+      "title": "fix: always record skipped links before debug-log guard in _log_skipped_link",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-03-28T17:30:11+00:00",
+      "created_by": "bibekmhj",
+      "closed_at": "2026-03-28T17:33:34+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13876,
+      "title": "Add support for -r pylock.toml",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-28T17:59:26+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171629,7 +171651,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-28T15:08:06+00:00",
+    "last_updated": "2026-03-29T15:08:01+00:00",
     "version": 1
   }
 }
