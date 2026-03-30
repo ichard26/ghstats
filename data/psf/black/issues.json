@@ -51175,8 +51175,8 @@
       "is_pr": false,
       "created_at": "2024-05-02T08:59:23+00:00",
       "created_by": "slafs",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-03-30T02:10:10+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4345,
@@ -58975,7 +58975,7 @@
       "is_pr": true,
       "created_at": "2026-03-15T01:25:27+00:00",
       "created_by": "duriantaco",
-      "closed_at": null,
+      "closed_at": "2026-03-29T17:28:01+00:00",
       "closed_by": null
     },
     {
@@ -59091,7 +59091,7 @@
       "is_pr": true,
       "created_at": "2026-03-25T02:30:32+00:00",
       "created_by": "Krishnachaitanyakc",
-      "closed_at": null,
+      "closed_at": "2026-03-30T02:10:08+00:00",
       "closed_by": null
     },
     {
@@ -59115,7 +59115,7 @@
       "is_pr": true,
       "created_at": "2026-03-26T06:33:18+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-03-29T17:10:42+00:00",
       "closed_by": null
     },
     {
@@ -59139,6 +59139,16 @@
       "is_pr": true,
       "created_at": "2026-03-29T02:52:48+00:00",
       "created_by": "afsuyadi",
+      "closed_at": "2026-03-29T17:14:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5068,
+      "title": "Improve parse error readability",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-29T15:53:47+00:00",
+      "created_by": "Chandana098-learn",
       "closed_at": null,
       "closed_by": null
     }
@@ -59148,7 +59158,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-03-29T15:08:00+00:00",
+    "last_updated": "2026-03-30T15:27:35+00:00",
     "version": 1
   }
 }

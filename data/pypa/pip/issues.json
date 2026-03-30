@@ -171644,6 +171644,29 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13877,
+      "title": "Pip crashes when broken pipe triggered when pip's output is piped to a process that exits early.",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-30T05:50:09+00:00",
+      "created_by": "sshnaidm",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13878,
+      "title": "fix: handle BrokenPipeError in _run_wrapper to prevent crash when output is piped",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-03-30T07:45:58+00:00",
+      "created_by": "NIK-TIGER-BILL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171651,7 +171674,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-29T15:08:01+00:00",
+    "last_updated": "2026-03-30T15:27:40+00:00",
     "version": 1
   }
 }
