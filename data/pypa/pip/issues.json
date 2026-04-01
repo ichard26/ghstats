@@ -171667,6 +171667,19 @@
       "created_by": "NIK-TIGER-BILL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13879,
+      "title": "Add PEP 803 support",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-03-31T17:21:59+00:00",
+      "created_by": "ngoldbaum",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171674,7 +171687,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-03-31T15:26:17+00:00",
+    "last_updated": "2026-04-01T15:28:34+00:00",
     "version": 1
   }
 }
