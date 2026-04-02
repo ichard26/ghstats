@@ -171661,7 +171661,9 @@
     {
       "number": 13878,
       "title": "fix: handle BrokenPipeError in _run_wrapper to prevent crash when output is piped",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2026-03-30T07:45:58+00:00",
       "created_by": "NIK-TIGER-BILL",
@@ -171687,7 +171689,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-01T15:28:34+00:00",
+    "last_updated": "2026-04-02T15:21:50+00:00",
     "version": 1
   }
 }
