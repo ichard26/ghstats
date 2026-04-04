@@ -110020,7 +110020,8 @@
       "labels": [
         "type: bug",
         "type: enhancement",
-        "C: configuration"
+        "C: configuration",
+        "state: awaiting PR"
       ],
       "is_pr": false,
       "created_at": "2020-07-31T11:02:44+00:00",
@@ -169238,8 +169239,8 @@
       "is_pr": false,
       "created_at": "2025-11-30T11:43:49+00:00",
       "created_by": "potiuk",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-03T17:04:32+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13675,
@@ -171173,7 +171174,7 @@
       "is_pr": true,
       "created_at": "2026-03-04T08:57:28+00:00",
       "created_by": "nmanthey",
-      "closed_at": null,
+      "closed_at": "2026-04-03T17:04:31+00:00",
       "closed_by": null
     },
     {
@@ -171597,7 +171598,7 @@
       "is_pr": true,
       "created_at": "2026-03-27T16:21:42+00:00",
       "created_by": "jayaddison",
-      "closed_at": null,
+      "closed_at": "2026-04-04T10:26:32+00:00",
       "closed_by": null
     },
     {
@@ -171682,6 +171683,40 @@
       "created_by": "ngoldbaum",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13881,
+      "title": "Fix BrokenPipeError crash when pip output is piped",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-04T09:44:14+00:00",
+      "created_by": "Bahtya",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13882,
+      "title": "Update vendored depdendencies",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-04T10:13:44+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13883,
+      "title": "Upgrade platformdirs to 4.9.4",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-04T10:19:10+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171689,7 +171724,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-03T15:15:10+00:00",
+    "last_updated": "2026-04-04T15:07:54+00:00",
     "version": 1
   }
 }

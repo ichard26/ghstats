@@ -59175,6 +59175,16 @@
       "created_by": "hauntsaninja",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5072,
+      "title": "docs: fix macOS spelling in config path docs",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-04T02:22:42+00:00",
+      "created_by": "Rohan5commit",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -59182,7 +59192,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-04-03T15:15:07+00:00",
+    "last_updated": "2026-04-04T15:07:53+00:00",
     "version": 1
   }
 }
