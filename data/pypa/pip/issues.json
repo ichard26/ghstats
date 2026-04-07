@@ -171192,7 +171192,7 @@
     },
     {
       "number": 13839,
-      "title": "Pip warns about a new release 25.0.1 even when a newer version is installed.",
+      "title": "Pip warns about a new release 25.0.1 even when a newer version is installed",
       "labels": [
         "type: support",
         "S: awaiting response",
@@ -171377,8 +171377,9 @@
       "number": 13854,
       "title": "Add package sizes to data obtained in --dry-run",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "type: enhancement",
+        "C: install report",
+        "C: lockfile"
       ],
       "is_pr": false,
       "created_at": "2026-03-16T04:31:44+00:00",
@@ -171746,7 +171747,9 @@
     {
       "number": 13887,
       "title": "Allow unpinned requirements to use hashes from constraints",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2026-04-05T23:23:05+00:00",
       "created_by": "pradyunsg",
@@ -171764,6 +171767,42 @@
       "created_by": "pradyunsg",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13891,
+      "title": "pre-commit autoupdate",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-06T18:51:43+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13892,
+      "title": "Extend `pip debug` to perform more automated checks related to the runtime environment",
+      "labels": [
+        "type: feature request",
+        "C: debug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-06T20:44:23+00:00",
+      "created_by": "pradyunsg",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13894,
+      "title": "Follow PEP 770 for vendored dependencies",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-07T12:37:52+00:00",
+      "created_by": "stefan6419846",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -171771,7 +171810,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-06T15:15:57+00:00",
+    "last_updated": "2026-04-07T15:28:48+00:00",
     "version": 1
   }
 }
