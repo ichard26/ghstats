@@ -59271,6 +59271,20 @@
       "created_by": "pre-commit-ci[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5087,
+      "title": "Bump pypa/gh-action-pypi-publish from 1.13.0 to 1.14.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-08T06:32:52+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -59278,7 +59292,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-04-07T15:28:44+00:00",
+    "last_updated": "2026-04-08T15:29:35+00:00",
     "version": 1
   }
 }

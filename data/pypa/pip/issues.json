@@ -142090,8 +142090,8 @@
       "number": 11440,
       "title": "Add `--only-deps` (and `--only-build-deps`) option(s)",
       "labels": [
-        "state: awaiting PR",
-        "type: feature request"
+        "type: feature request",
+        "state: needs eyes"
       ],
       "is_pr": false,
       "created_at": "2022-09-08T14:18:35+00:00",
@@ -158906,8 +158906,8 @@
       "is_pr": false,
       "created_at": "2024-07-07T19:54:15+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-07T18:19:19+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12835,
@@ -170751,14 +170751,14 @@
     },
     {
       "number": 13801,
-      "title": "Fix documentation typos and grammar errors",
+      "title": "doc: Fix documentation typos and grammar errors",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2026-02-11T21:09:46+00:00",
       "created_by": "DimitriPapadopoulos",
-      "closed_at": null,
+      "closed_at": "2026-04-07T16:52:13+00:00",
       "closed_by": null
     },
     {
@@ -171127,7 +171127,7 @@
       "is_pr": true,
       "created_at": "2026-02-28T20:11:50+00:00",
       "created_by": "shauryanegi099",
-      "closed_at": null,
+      "closed_at": "2026-04-07T16:55:07+00:00",
       "closed_by": null
     },
     {
@@ -171251,7 +171251,7 @@
       "is_pr": true,
       "created_at": "2026-03-07T05:56:45+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-04-07T18:19:17+00:00",
       "closed_by": null
     },
     {
@@ -171795,12 +171795,49 @@
       "number": 13894,
       "title": "Follow PEP 770 for vendored dependencies",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "state: blocked",
+        "project: vendored dependency",
+        "type: maintenance"
       ],
       "is_pr": false,
       "created_at": "2026-04-07T12:37:52+00:00",
       "created_by": "stefan6419846",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13895,
+      "title": "Add support for pip install --only-deps.",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-07T19:19:58+00:00",
+      "created_by": "shoeffner",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13896,
+      "title": "Fix link to AI policy in contributing guidelines",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-07T21:44:14+00:00",
+      "created_by": "zware",
+      "closed_at": "2026-04-08T02:55:43+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13897,
+      "title": "Docs: Fix the Markdown-formatted AI policy link to use RST",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-08T14:05:09+00:00",
+      "created_by": "kurtmckee",
       "closed_at": null,
       "closed_by": null
     }
@@ -171810,7 +171847,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-07T15:28:48+00:00",
+    "last_updated": "2026-04-08T15:29:37+00:00",
     "version": 1
   }
 }
