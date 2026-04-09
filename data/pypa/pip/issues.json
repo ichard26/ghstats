@@ -171838,6 +171838,60 @@
       "is_pr": true,
       "created_at": "2026-04-08T14:05:09+00:00",
       "created_by": "kurtmckee",
+      "closed_at": "2026-04-08T17:57:49+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13898,
+      "title": "`pip install --report -` outputs invalid JSON when not combined with `--quiet`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-04-08T22:30:09+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13899,
+      "title": "test",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-08T23:18:21+00:00",
+      "created_by": "NIK-TIGER-BILL",
+      "closed_at": "2026-04-08T23:18:22+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13900,
+      "title": "Fix `--report -` to use stdlib `json` instead of Rich for stdout output",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-09T00:49:45+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13901,
+      "title": "`test_trailing_slash_directory_metadata` fails on Python 3.15.0a8",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-04-09T01:05:40+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13902,
+      "title": "Fix `test_trailing_slash_directory_metadata` for Python 3.15",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-09T01:23:58+00:00",
+      "created_by": "KRRT7",
       "closed_at": null,
       "closed_by": null
     }
@@ -171847,7 +171901,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-08T15:29:37+00:00",
+    "last_updated": "2026-04-09T15:31:19+00:00",
     "version": 1
   }
 }
