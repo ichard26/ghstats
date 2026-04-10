@@ -59293,6 +59293,40 @@
       "is_pr": true,
       "created_at": "2026-04-09T02:19:06+00:00",
       "created_by": "Rohan5commit",
+      "closed_at": "2026-04-10T02:51:37+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5089,
+      "title": "docs: fix article in EPUB identifier comment",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-10T02:12:16+00:00",
+      "created_by": "Rohan5commit",
+      "closed_at": "2026-04-10T02:51:52+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5090,
+      "title": "Bump docker/login-action from 4.0.0 to 4.1.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-10T06:33:04+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5091,
+      "title": "Fix #5083: Silent failure with too many files on Python 3.14",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-10T13:51:11+00:00",
+      "created_by": "MuraveyApp",
       "closed_at": null,
       "closed_by": null
     }
@@ -59302,7 +59336,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-04-09T15:31:17+00:00",
+    "last_updated": "2026-04-10T15:17:05+00:00",
     "version": 1
   }
 }
