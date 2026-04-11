@@ -59329,6 +59329,16 @@
       "created_by": "MuraveyApp",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5092,
+      "title": "In stub files, enforce a blank line between a function and a decorated class definition",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-11T13:25:59+00:00",
+      "created_by": "AlexWaygood",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -59336,7 +59346,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-04-10T15:17:05+00:00",
+    "last_updated": "2026-04-11T15:10:08+00:00",
     "version": 1
   }
 }
