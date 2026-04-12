@@ -116644,7 +116644,7 @@
       "created_at": "2020-12-07T17:45:44+00:00",
       "created_by": "webknjaz",
       "closed_at": null,
-      "closed_by": null
+      "closed_by": "pradyunsg"
     },
     {
       "number": 9244,
@@ -121852,7 +121852,7 @@
       "created_at": "2021-03-06T21:40:02+00:00",
       "created_by": "MrMino",
       "closed_at": "2022-02-25T12:12:08+00:00",
-      "closed_by": "pradyunsg"
+      "closed_by": null
     },
     {
       "number": 9696,
@@ -169575,7 +169575,7 @@
       "is_pr": true,
       "created_at": "2025-12-15T14:24:08+00:00",
       "created_by": "nishtha-agarwal-211",
-      "closed_at": null,
+      "closed_at": "2026-04-12T07:18:18+00:00",
       "closed_by": null
     },
     {
@@ -171736,6 +171736,7 @@
       "number": 13886,
       "title": "Allow URL constraints to apply to requirements with extras",
       "labels": [
+        "C: constraint",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -171748,6 +171749,7 @@
       "number": 13887,
       "title": "Allow unpinned requirements to use hashes from constraints",
       "labels": [
+        "C: constraint",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -171880,8 +171882,8 @@
       "is_pr": false,
       "created_at": "2026-04-09T01:05:40+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-12T08:12:54+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13902,
@@ -171892,6 +171894,43 @@
       "is_pr": true,
       "created_at": "2026-04-09T01:23:58+00:00",
       "created_by": "KRRT7",
+      "closed_at": "2026-04-12T08:12:52+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13903,
+      "title": "Update pre-commit hooks, except black",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-11T17:49:03+00:00",
+      "created_by": "sbidoul",
+      "closed_at": "2026-04-12T08:30:09+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13904,
+      "title": "New resolver support for editable constraints",
+      "labels": [
+        "C: constraint",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-12T11:59:44+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13905,
+      "title": "Drop support for EOL Python 3.9",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-12T12:52:15+00:00",
+      "created_by": "hugovk",
       "closed_at": null,
       "closed_by": null
     }
@@ -171901,7 +171940,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-11T15:10:10+00:00",
+    "last_updated": "2026-04-12T15:13:01+00:00",
     "version": 1
   }
 }
