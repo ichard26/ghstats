@@ -50145,8 +50145,8 @@
       "is_pr": false,
       "created_at": "2024-02-28T11:39:15+00:00",
       "created_by": "AlexWaygood",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-14T04:55:17+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 4257,
@@ -56593,8 +56593,8 @@
       "is_pr": false,
       "created_at": "2025-11-04T14:07:38+00:00",
       "created_by": "samriddhitiwary",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-14T14:44:46+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4822,
@@ -58297,7 +58297,7 @@
       "is_pr": true,
       "created_at": "2026-02-15T09:48:47+00:00",
       "created_by": "MohamedSharfan",
-      "closed_at": null,
+      "closed_at": "2026-04-14T14:44:47+00:00",
       "closed_by": null
     },
     {
@@ -59149,7 +59149,7 @@
       "is_pr": true,
       "created_at": "2026-03-29T15:53:47+00:00",
       "created_by": "Chandana098-learn",
-      "closed_at": null,
+      "closed_at": "2026-04-14T14:44:45+00:00",
       "closed_by": null
     },
     {
@@ -59245,7 +59245,7 @@
       "is_pr": true,
       "created_at": "2026-04-06T08:46:24+00:00",
       "created_by": "Chessing234",
-      "closed_at": null,
+      "closed_at": "2026-04-14T12:49:26+00:00",
       "closed_by": null
     },
     {
@@ -59270,7 +59270,7 @@
       "is_pr": true,
       "created_at": "2026-04-06T21:33:56+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2026-04-13T21:28:45+00:00",
       "closed_by": null
     },
     {
@@ -59342,7 +59342,7 @@
       "is_pr": true,
       "created_at": "2026-04-11T13:25:59+00:00",
       "created_by": "AlexWaygood",
-      "closed_at": null,
+      "closed_at": "2026-04-14T04:55:15+00:00",
       "closed_by": null
     },
     {
@@ -59396,6 +59396,31 @@
       "created_by": "ParamChordiya",
       "closed_at": "2026-04-13T11:09:18+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5098,
+      "title": "Revert \"[pre-commit.ci] pre-commit autoupdate\"",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-13T22:35:16+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-04-13T22:46:02+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5099,
+      "title": "Bug runnig at Python 3.13 - INTERNAL ERROR: Black 26.1a1 on Python (CPython) 3.13.12 produced invalid code: multiple exception types must be parenthesized",
+      "labels": [
+        "T: bug",
+        "C: crash"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-14T12:31:59+00:00",
+      "created_by": "felipementel",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -59403,7 +59428,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-04-13T15:29:23+00:00",
+    "last_updated": "2026-04-14T15:26:26+00:00",
     "version": 1
   }
 }

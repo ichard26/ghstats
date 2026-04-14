@@ -171933,6 +171933,28 @@
       "created_by": "hugovk",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13906,
+      "title": "docs: fix broken HTTPS documentation links (#13664)",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-13T22:12:38+00:00",
+      "created_by": "kovadev17",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13907,
+      "title": "Update index.md",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-14T14:55:47+00:00",
+      "created_by": "tabrizia",
+      "closed_at": "2026-04-14T15:06:21+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -171940,7 +171962,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-13T15:29:37+00:00",
+    "last_updated": "2026-04-14T15:26:32+00:00",
     "version": 1
   }
 }
