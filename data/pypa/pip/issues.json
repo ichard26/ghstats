@@ -159198,8 +159198,8 @@
       "is_pr": false,
       "created_at": "2024-07-17T22:54:33+00:00",
       "created_by": "di",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-17T12:47:15+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 12858,
@@ -171684,8 +171684,8 @@
       "is_pr": false,
       "created_at": "2026-03-31T17:21:59+00:00",
       "created_by": "ngoldbaum",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-16T16:53:04+00:00",
+      "closed_by": "ngoldbaum"
     },
     {
       "number": 13881,
@@ -172048,7 +172048,7 @@
       "is_pr": true,
       "created_at": "2026-04-15T12:48:26+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-04-17T12:47:13+00:00",
       "closed_by": null
     },
     {
@@ -172060,7 +172060,7 @@
       "is_pr": true,
       "created_at": "2026-04-15T13:42:09+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-04-17T12:24:55+00:00",
       "closed_by": null
     },
     {
@@ -172135,6 +172135,18 @@
       "created_by": "djhenderson",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13923,
+      "title": "Split the pip self-version check to get info before run",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-17T13:53:12+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172142,7 +172154,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-16T15:32:23+00:00",
+    "last_updated": "2026-04-17T15:22:43+00:00",
     "version": 1
   }
 }
