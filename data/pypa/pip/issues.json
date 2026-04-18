@@ -116643,7 +116643,7 @@
       "is_pr": false,
       "created_at": "2020-12-07T17:45:44+00:00",
       "created_by": "webknjaz",
-      "closed_at": null,
+      "closed_at": "2026-04-17T20:41:07+00:00",
       "closed_by": "pradyunsg"
     },
     {
@@ -148881,8 +148881,8 @@
       "is_pr": false,
       "created_at": "2023-05-08T04:56:44+00:00",
       "created_by": "harupy",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-17T20:49:33+00:00",
+      "closed_by": "pradyunsg"
     },
     {
       "number": 12019,
@@ -148969,7 +148969,7 @@
       "is_pr": true,
       "created_at": "2023-05-09T10:17:14+00:00",
       "created_by": "uranusjr",
-      "closed_at": null,
+      "closed_at": "2026-04-17T20:49:33+00:00",
       "closed_by": null
     },
     {
@@ -171744,7 +171744,7 @@
       "is_pr": true,
       "created_at": "2026-04-05T21:20:37+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
+      "closed_at": "2026-04-17T20:49:31+00:00",
       "closed_by": null
     },
     {
@@ -171757,7 +171757,7 @@
       "is_pr": true,
       "created_at": "2026-04-05T23:23:05+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
+      "closed_at": "2026-04-17T20:41:05+00:00",
       "closed_by": null
     },
     {
@@ -172147,6 +172147,64 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13924,
+      "title": "Test run: test_broken_stdout.py on Windows",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-17T15:34:09+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-04-17T15:42:32+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13925,
+      "title": "Test run: test_broken_stdout.py on Windows (serial vs xdist)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-17T16:11:33+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-04-18T03:03:51+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13926,
+      "title": "Rename 12018.bugfix.rst to 9243.bugfix.rst",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-17T20:45:14+00:00",
+      "created_by": "pradyunsg",
+      "closed_at": "2026-04-17T20:48:15+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13927,
+      "title": "Fix hang in broken-stdout handler when stderr pipe is full",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-18T03:01:28+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13928,
+      "title": "Test on Python 3.14 free-threaded",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-18T13:08:53+00:00",
+      "created_by": "hugovk",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172154,7 +172212,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-17T15:22:43+00:00",
+    "last_updated": "2026-04-18T15:13:32+00:00",
     "version": 1
   }
 }

@@ -59493,6 +59493,16 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5106,
+      "title": "docs: fix line-splitting comment wording",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-18T02:12:40+00:00",
+      "created_by": "Rohan5commit",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -59500,7 +59510,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-04-17T15:22:41+00:00",
+    "last_updated": "2026-04-18T15:13:31+00:00",
     "version": 1
   }
 }
