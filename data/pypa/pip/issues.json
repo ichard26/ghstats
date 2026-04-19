@@ -121096,7 +121096,7 @@
       "is_pr": true,
       "created_at": "2021-02-20T00:46:02+00:00",
       "created_by": "MrMino",
-      "closed_at": null,
+      "closed_at": "2026-04-18T19:10:02+00:00",
       "closed_by": null
     },
     {
@@ -154929,8 +154929,8 @@
       "is_pr": false,
       "created_at": "2024-02-12T13:07:50+00:00",
       "created_by": "galCohen88",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-18T15:50:20+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 12521,
@@ -171654,7 +171654,8 @@
       "title": "Pip crashes when broken pipe triggered when pip's output is piped to a process that exits early.",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: list/show",
+        "kind: crash"
       ],
       "is_pr": false,
       "created_at": "2026-03-30T05:50:09+00:00",
@@ -171779,7 +171780,7 @@
       "is_pr": true,
       "created_at": "2026-04-06T18:51:43+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2026-04-18T19:23:23+00:00",
       "closed_by": null
     },
     {
@@ -172108,7 +172109,7 @@
       "is_pr": true,
       "created_at": "2026-04-15T17:05:00+00:00",
       "created_by": "AKIB473",
-      "closed_at": null,
+      "closed_at": "2026-04-19T06:10:43+00:00",
       "closed_by": null
     },
     {
@@ -172205,6 +172206,44 @@
       "created_by": "hugovk",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13929,
+      "title": "build(deps): bump build from 1.4.2 to 1.4.3 in /build-project",
+      "labels": [
+        "python",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-18T16:52:29+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-04-18T18:13:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13930,
+      "title": "build(deps): bump the github-actions group with 2 updates",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-18T16:52:44+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-04-18T18:13:47+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13931,
+      "title": "mnt: Bump black to 26.3.1",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-18T19:22:40+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172212,7 +172251,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-18T15:13:32+00:00",
+    "last_updated": "2026-04-19T15:13:39+00:00",
     "version": 1
   }
 }
