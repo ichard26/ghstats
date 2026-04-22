@@ -59173,7 +59173,7 @@
       "is_pr": true,
       "created_at": "2026-04-03T03:57:45+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
+      "closed_at": "2026-04-22T09:21:45+00:00",
       "closed_by": null
     },
     {
@@ -59565,6 +59565,38 @@
       "created_by": "pre-commit-ci[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5112,
+      "title": "`# fmt: skip` regression",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-21T21:51:28+00:00",
+      "created_by": "pekkaklarck",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5113,
+      "title": "Fix standalone comment before binary op causing unnecessary split",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-21T22:17:45+00:00",
+      "created_by": "HoraDomu",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5114,
+      "title": "fix(fmt: skip): respect skip directive on multi-line compound statements",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-22T04:42:31+00:00",
+      "created_by": "armorbreak001",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -59572,7 +59604,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-04-21T15:28:37+00:00",
+    "last_updated": "2026-04-22T15:28:09+00:00",
     "version": 1
   }
 }
