@@ -57925,7 +57925,7 @@
       "is_pr": true,
       "created_at": "2026-01-16T04:06:16+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-04-24T20:25:31+00:00",
       "closed_by": null
     },
     {
@@ -59527,7 +59527,7 @@
       "is_pr": true,
       "created_at": "2026-04-20T06:49:28+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-04-24T17:35:16+00:00",
       "closed_by": null
     },
     {
@@ -59541,7 +59541,7 @@
       "is_pr": true,
       "created_at": "2026-04-20T06:49:59+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-04-24T17:36:59+00:00",
       "closed_by": null
     },
     {
@@ -59559,11 +59559,13 @@
     {
       "number": 5111,
       "title": "[pre-commit.ci] pre-commit autoupdate",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-04-20T20:43:49+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2026-04-24T18:18:24+00:00",
       "closed_by": null
     },
     {
@@ -59597,6 +59599,18 @@
       "created_by": "armorbreak001",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5115,
+      "title": "docs: update deprecated PEP URLs to peps.python.org",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-24T18:20:43+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-04-24T18:46:15+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -59604,7 +59618,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-04-24T15:26:56+00:00",
+    "last_updated": "2026-04-25T15:14:38+00:00",
     "version": 1
   }
 }

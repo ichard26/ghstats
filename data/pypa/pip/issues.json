@@ -171644,7 +171644,8 @@
       "number": 13876,
       "title": "Add initial support for -r pylock.toml (experimental)",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "C: lockfile"
       ],
       "is_pr": true,
       "created_at": "2026-03-28T17:59:26+00:00",
@@ -171723,7 +171724,7 @@
       "is_pr": true,
       "created_at": "2026-04-04T10:19:10+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-04-24T15:29:35+00:00",
       "closed_by": null
     },
     {
@@ -172019,7 +172020,7 @@
       "is_pr": true,
       "created_at": "2026-04-15T03:34:01+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-04-25T03:48:23+00:00",
       "closed_by": null
     },
     {
@@ -172153,7 +172154,7 @@
       "is_pr": true,
       "created_at": "2026-04-17T13:53:12+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-04-25T02:36:40+00:00",
       "closed_by": null
     },
     {
@@ -172367,7 +172368,7 @@
       "is_pr": true,
       "created_at": "2026-04-24T03:50:50+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-04-25T07:50:12+00:00",
       "closed_by": null
     },
     {
@@ -172382,6 +172383,44 @@
       "created_by": "SupulHeshan",
       "closed_at": "2026-04-24T12:24:44+00:00",
       "closed_by": "SupulHeshan"
+    },
+    {
+      "number": 13943,
+      "title": "Support directory entries from a pylock.toml which also has other entries with hashes",
+      "labels": [
+        "type: feature request",
+        "C: lockfile"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-24T17:05:28+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13944,
+      "title": "Support VCSirectory entries from a pylock.toml which also has other entries with hashes",
+      "labels": [
+        "type: feature request",
+        "C: lockfile"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-24T17:07:23+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13945,
+      "title": "Upgrade packaging to 26.2",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-24T21:20:30+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-04-25T07:49:52+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -172389,7 +172428,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-24T15:26:57+00:00",
+    "last_updated": "2026-04-25T15:14:43+00:00",
     "version": 1
   }
 }
