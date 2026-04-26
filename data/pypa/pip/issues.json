@@ -117371,7 +117371,10 @@
     {
       "number": 9309,
       "title": "pip does not reset terminal in its original settings on error",
-      "labels": [],
+      "labels": [
+        "state: needs reproducer",
+        "C: cli"
+      ],
       "is_pr": false,
       "created_at": "2020-12-17T13:42:22+00:00",
       "created_by": "liar666",
@@ -119061,7 +119064,9 @@
     {
       "number": 9456,
       "title": "`pip wheel . --version` doesn't exit",
-      "labels": [],
+      "labels": [
+        "C: wheel"
+      ],
       "is_pr": false,
       "created_at": "2021-01-14T19:46:59+00:00",
       "created_by": "abitrolly",
@@ -166512,8 +166517,8 @@
       "is_pr": false,
       "created_at": "2025-06-26T20:13:14+00:00",
       "created_by": "jdstrand",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-25T21:56:46+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13448,
@@ -170085,8 +170090,8 @@
       "is_pr": false,
       "created_at": "2026-01-09T23:50:45+00:00",
       "created_by": "ktnvda",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-04-25T21:56:33+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13746,
@@ -172421,6 +172426,54 @@
       "created_by": "notatallshaw",
       "closed_at": "2026-04-25T07:49:52+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13946,
+      "title": "Fix broken pipe",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-25T15:48:02+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13947,
+      "title": "Turn PipDeprecationWarning into errors when running tests",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-25T19:16:21+00:00",
+      "created_by": "danielhollas",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13948,
+      "title": "doc: Reword news entries for pip 26.1",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-25T21:04:35+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-04-26T12:00:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13949,
+      "title": "Revert \"Allow editable installs to satisfy direct-URL dependencies\"",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-04-26T13:05:35+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172428,7 +172481,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-25T15:14:43+00:00",
+    "last_updated": "2026-04-26T15:15:06+00:00",
     "version": 1
   }
 }
