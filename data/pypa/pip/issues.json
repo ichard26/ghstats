@@ -172528,11 +172528,14 @@
     {
       "number": 13954,
       "title": "fix: handle --version flag in subcommand parser",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI slop"
+      ],
       "is_pr": true,
       "created_at": "2026-04-26T23:12:47+00:00",
       "created_by": "NIK-TIGER-BILL",
-      "closed_at": null,
+      "closed_at": "2026-04-28T03:34:31+00:00",
       "closed_by": null
     },
     {
@@ -172558,6 +172561,44 @@
       "created_by": "sepehr-rs",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13957,
+      "title": "Cannot install pylock.toml from CPython dev version",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-27T17:23:04+00:00",
+      "created_by": "hugovk",
+      "closed_at": "2026-04-27T17:25:09+00:00",
+      "closed_by": "hugovk"
+    },
+    {
+      "number": 13958,
+      "title": "Let `-r pylock.toml` imply `--require-hashes`",
+      "labels": [
+        "C: lockfile"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-27T20:41:09+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13959,
+      "title": "hi",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-28T13:09:49+00:00",
+      "created_by": "palliratna0815-cloud",
+      "closed_at": "2026-04-28T13:13:06+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -172565,7 +172606,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-27T15:33:51+00:00",
+    "last_updated": "2026-04-28T15:47:39+00:00",
     "version": 1
   }
 }
