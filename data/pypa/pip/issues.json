@@ -172625,6 +172625,42 @@
       "created_by": "paveldikov",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13962,
+      "title": "Selecting extras and dependency groups from `pylock.toml`",
+      "labels": [
+        "state: needs discussion",
+        "C: lockfile"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-29T17:31:09+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13963,
+      "title": "Improve the conflict report when a package from pylock.toml conflicts with other requirements",
+      "labels": [
+        "type: enhancement",
+        "C: lockfile"
+      ],
+      "is_pr": false,
+      "created_at": "2026-04-29T17:36:27+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13964,
+      "title": "Fix removing files from during package uninstall",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-04-30T01:17:03+00:00",
+      "created_by": "vfazio",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172632,7 +172668,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-04-29T15:38:45+00:00",
+    "last_updated": "2026-04-30T15:34:41+00:00",
     "version": 1
   }
 }
