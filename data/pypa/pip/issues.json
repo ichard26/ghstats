@@ -172654,7 +172654,7 @@
     },
     {
       "number": 13964,
-      "title": "Fix removing files from during package uninstall",
+      "title": "Fix directory/file removal during package uninstall",
       "labels": [],
       "is_pr": true,
       "created_at": "2026-04-30T01:17:03+00:00",
@@ -172673,6 +172673,41 @@
       "created_by": "harveyormston",
       "closed_at": "2026-05-01T14:16:37+00:00",
       "closed_by": "harveyormston"
+    },
+    {
+      "number": 13966,
+      "title": "Inline typing for Requests",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-05-01T21:27:47+00:00",
+      "created_by": "nateprewitt",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13967,
+      "title": "Fix description of --no-binary to reflect current behavior",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-02T05:20:15+00:00",
+      "created_by": "rio767",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13968,
+      "title": "Handle --only-final with -r pylock.toml",
+      "labels": [
+        "bot:chronographer:provided",
+        "C: lockfile"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-02T11:30:35+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172680,7 +172715,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-01T15:21:16+00:00",
+    "last_updated": "2026-05-02T15:15:38+00:00",
     "version": 1
   }
 }
