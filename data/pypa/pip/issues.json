@@ -170692,8 +170692,8 @@
       "is_pr": false,
       "created_at": "2026-02-07T16:58:41+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-03T13:36:07+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13796,
@@ -172655,7 +172655,9 @@
     {
       "number": 13964,
       "title": "Fix directory/file removal during package uninstall",
-      "labels": [],
+      "labels": [
+        "bot:chronographer:provided"
+      ],
       "is_pr": true,
       "created_at": "2026-04-30T01:17:03+00:00",
       "created_by": "vfazio",
@@ -172708,6 +172710,43 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13969,
+      "title": "build(deps): bump build from 1.4.3 to 1.4.4 in /build-project",
+      "labels": [
+        "python",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-02T16:52:36+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13970,
+      "title": "Proceed with upgrade if RECORD file was missing when destination directory is different",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-02T19:10:51+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13971,
+      "title": "Show an error message when pip install --upgrade fails with network issues",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-03T14:46:19+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172715,7 +172754,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-02T15:15:38+00:00",
+    "last_updated": "2026-05-03T15:15:10+00:00",
     "version": 1
   }
 }
