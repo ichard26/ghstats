@@ -146713,7 +146713,7 @@
       "is_pr": false,
       "created_at": "2023-03-04T10:31:41+00:00",
       "created_by": "ssbarnea",
-      "closed_at": "2026-04-21T00:50:57+00:00",
+      "closed_at": null,
       "closed_by": "ichard26"
     },
     {
@@ -170692,7 +170692,7 @@
       "is_pr": false,
       "created_at": "2026-02-07T16:58:41+00:00",
       "created_by": "ichard26",
-      "closed_at": "2026-05-03T13:36:07+00:00",
+      "closed_at": null,
       "closed_by": "sbidoul"
     },
     {
@@ -172661,7 +172661,7 @@
       "is_pr": true,
       "created_at": "2026-04-30T01:17:03+00:00",
       "created_by": "vfazio",
-      "closed_at": null,
+      "closed_at": "2026-05-03T22:43:27+00:00",
       "closed_by": null
     },
     {
@@ -172747,6 +172747,50 @@
       "created_by": "sepehr-rs",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13972,
+      "title": "pip sync",
+      "labels": [
+        "C: lockfile"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-03T17:01:31+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13973,
+      "title": "Revert \"Remove __pycache__ when package is removed\"",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-03T20:35:16+00:00",
+      "created_by": "sbidoul",
+      "closed_at": "2026-05-04T06:26:53+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 13974,
+      "title": "Release/26.1.1",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-05-04T06:33:04+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13975,
+      "title": "docs: Audit HTTPS documentation links (#13664)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-05-04T14:43:38+00:00",
+      "created_by": "64johnlee",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172754,7 +172798,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-03T15:15:10+00:00",
+    "last_updated": "2026-05-04T15:39:16+00:00",
     "version": 1
   }
 }
