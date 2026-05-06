@@ -172860,6 +172860,36 @@
       "created_by": "codegnan-dm",
       "closed_at": "2026-05-05T05:40:16+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13982,
+      "title": "Update vendored Requests to 2.34.0",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-05-05T20:21:40+00:00",
+      "created_by": "nateprewitt",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13983,
+      "title": "pip does not reconcile PEP 658 sidecar .metadata against wheel METADATA after download",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-05-06T08:53:35+00:00",
+      "created_by": "dewankpant",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13984,
+      "title": "--require-hashes does not apply to build-system dependencies, undocumented bypass",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-05-06T09:59:16+00:00",
+      "created_by": "dewankpant",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172867,7 +172897,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-05T15:34:23+00:00",
+    "last_updated": "2026-05-06T15:45:48+00:00",
     "version": 1
   }
 }
