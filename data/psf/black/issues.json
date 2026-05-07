@@ -59722,12 +59722,12 @@
     },
     {
       "number": 5126,
-      "title": "fix: sanitize subprocess call in black.vim",
+      "title": "fix: harden black.vim path handling for configured Python and virtualenv paths",
       "labels": [],
       "is_pr": true,
       "created_at": "2026-05-06T10:33:56+00:00",
       "created_by": "orbisai0security",
-      "closed_at": null,
+      "closed_at": "2026-05-07T02:44:44+00:00",
       "closed_by": null
     }
   ],
@@ -59736,7 +59736,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-05-06T15:45:45+00:00",
+    "last_updated": "2026-05-07T15:46:07+00:00",
     "version": 1
   }
 }
