@@ -172928,6 +172928,18 @@
       "created_by": "gaborbernat",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13988,
+      "title": "Add more detail on platform mismatch errors",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-08T08:38:28+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172935,7 +172947,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-07T15:46:09+00:00",
+    "last_updated": "2026-05-08T15:32:20+00:00",
     "version": 1
   }
 }
