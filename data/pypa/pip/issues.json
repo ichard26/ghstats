@@ -170306,7 +170306,8 @@
       "title": "pip install --target --upgrade does not replace existing package versions",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: upgrade",
+        "C: target"
       ],
       "is_pr": false,
       "created_at": "2026-01-22T10:18:25+00:00",
@@ -171566,8 +171567,8 @@
       "number": 13869,
       "title": "provide an apparmor profile (and a pip ELF wrapper)",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "state: needs discussion",
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2026-03-26T14:30:16+00:00",
@@ -172301,7 +172302,7 @@
       "title": "pip cannot install from git repository with no branches",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: vcs"
       ],
       "is_pr": false,
       "created_at": "2026-04-21T09:56:15+00:00",
@@ -172738,7 +172739,7 @@
     },
     {
       "number": 13971,
-      "title": "Show an error message when pip install --upgrade fails with network issues",
+      "title": "Show an error message when pip install fails with network issues",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -172833,7 +172834,8 @@
       "title": "\"Cache entry deserialization failed\" warning when installing packages",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: cache",
+        "C: cli"
       ],
       "is_pr": false,
       "created_at": "2026-05-04T21:11:46+00:00",
@@ -172940,6 +172942,18 @@
       "created_by": "sepehr-rs",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13989,
+      "title": "\u2728 feat(resolver): expose candidate caches as constructor parameters",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-08T20:58:31+00:00",
+      "created_by": "gaborbernat",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172947,7 +172961,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-08T15:32:20+00:00",
+    "last_updated": "2026-05-09T15:19:24+00:00",
     "version": 1
   }
 }
