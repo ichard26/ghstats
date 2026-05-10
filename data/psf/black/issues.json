@@ -59258,8 +59258,8 @@
       "is_pr": false,
       "created_at": "2026-04-06T18:53:39+00:00",
       "created_by": "emperorcezar",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-10T00:01:33+00:00",
+      "closed_by": "emperorcezar"
     },
     {
       "number": 5084,
@@ -59736,7 +59736,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-05-07T15:46:07+00:00",
+    "last_updated": "2026-05-10T15:20:38+00:00",
     "version": 1
   }
 }
