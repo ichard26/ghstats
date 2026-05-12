@@ -55548,7 +55548,7 @@
       "is_pr": false,
       "created_at": "2025-08-07T16:50:32+00:00",
       "created_by": "ElkMonster",
-      "closed_at": null,
+      "closed_at": "2026-05-11T22:27:31+00:00",
       "closed_by": "cobaltt7"
     },
     {
@@ -57436,7 +57436,7 @@
       "is_pr": true,
       "created_at": "2025-12-10T16:16:31+00:00",
       "created_by": "Nikhil172913832",
-      "closed_at": null,
+      "closed_at": "2026-05-11T22:27:30+00:00",
       "closed_by": null
     },
     {
@@ -59577,8 +59577,8 @@
       "is_pr": false,
       "created_at": "2026-04-21T21:51:28+00:00",
       "created_by": "pekkaklarck",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-12T14:43:16+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5113,
@@ -59597,7 +59597,7 @@
       "is_pr": true,
       "created_at": "2026-04-22T04:42:31+00:00",
       "created_by": "armorbreak001",
-      "closed_at": null,
+      "closed_at": "2026-05-12T14:43:17+00:00",
       "closed_by": null
     },
     {
@@ -59629,7 +59629,7 @@
       "is_pr": true,
       "created_at": "2026-04-27T15:15:02+00:00",
       "created_by": "17X61",
-      "closed_at": null,
+      "closed_at": "2026-05-12T14:43:14+00:00",
       "closed_by": null
     },
     {
@@ -59669,7 +59669,9 @@
     {
       "number": 5121,
       "title": "Update README.md",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-05-04T10:42:16+00:00",
       "created_by": "vaishalijain7",
@@ -59685,8 +59687,8 @@
       "is_pr": false,
       "created_at": "2026-05-04T19:27:22+00:00",
       "created_by": "DrGFreeman",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-12T14:43:17+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5123,
@@ -59695,7 +59697,7 @@
       "is_pr": true,
       "created_at": "2026-05-05T23:21:54+00:00",
       "created_by": "ParamChordiya",
-      "closed_at": null,
+      "closed_at": "2026-05-12T14:43:18+00:00",
       "closed_by": null
     },
     {
@@ -59712,7 +59714,8 @@
       "number": 5125,
       "title": "black fails to handle f-string that uses values of dictionary with single quote around key",
       "labels": [
-        "T: bug"
+        "T: bug",
+        "S: needs repro"
       ],
       "is_pr": false,
       "created_at": "2026-05-06T09:37:19+00:00",
@@ -59759,7 +59762,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-05-11T15:59:58+00:00",
+    "last_updated": "2026-05-12T15:50:05+00:00",
     "version": 1
   }
 }
