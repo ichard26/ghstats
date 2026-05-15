@@ -172865,7 +172865,7 @@
     },
     {
       "number": 13982,
-      "title": "Update vendored Requests to 2.34.1",
+      "title": "Update vendored Requests to 2.34.2",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -172967,6 +172967,31 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13991,
+      "title": "Reconcile PEP 658 sidecar metadata with the downloaded wheel",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-14T18:49:31+00:00",
+      "created_by": "dewankpant",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 13992,
+      "title": "Cannot install any package via pip on Conda",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-05-15T04:05:39+00:00",
+      "created_by": "kwon0408",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -172974,7 +172999,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-14T15:46:51+00:00",
+    "last_updated": "2026-05-15T15:41:50+00:00",
     "version": 1
   }
 }
