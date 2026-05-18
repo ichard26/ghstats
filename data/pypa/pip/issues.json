@@ -172990,8 +172990,8 @@
       "is_pr": false,
       "created_at": "2026-05-15T04:05:39+00:00",
       "created_by": "kwon0408",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-17T17:42:09+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13993,
@@ -173022,24 +173022,26 @@
       "number": 13995,
       "title": "Fix symlink traversal error message during tar extraction",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "resolution: AI slop"
       ],
       "is_pr": true,
       "created_at": "2026-05-17T09:12:52+00:00",
       "created_by": "uwezkhan",
-      "closed_at": null,
+      "closed_at": "2026-05-17T15:27:57+00:00",
       "closed_by": null
     },
     {
       "number": 13996,
       "title": "Handle file access errors in PEP 723 metadata parsing",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "resolution: AI slop"
       ],
       "is_pr": true,
       "created_at": "2026-05-17T09:39:38+00:00",
       "created_by": "uwezkhan",
-      "closed_at": null,
+      "closed_at": "2026-05-17T15:27:42+00:00",
       "closed_by": null
     },
     {
@@ -173053,6 +173055,18 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 13998,
+      "title": "add a failsafe for cases where a file is detected but not found",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-18T01:45:55+00:00",
+      "created_by": "kwon0408",
+      "closed_at": "2026-05-18T03:15:40+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -173060,7 +173074,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-17T15:22:48+00:00",
+    "last_updated": "2026-05-18T16:08:29+00:00",
     "version": 1
   }
 }
