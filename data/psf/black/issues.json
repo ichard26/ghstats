@@ -35943,8 +35943,8 @@
       "is_pr": false,
       "created_at": "2022-05-16T13:25:50+00:00",
       "created_by": "starblue",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-19T15:36:17+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3075,
@@ -59765,7 +59765,7 @@
       "is_pr": true,
       "created_at": "2026-05-13T02:52:43+00:00",
       "created_by": "kkkkwe4324",
-      "closed_at": null,
+      "closed_at": "2026-05-19T15:36:15+00:00",
       "closed_by": null
     },
     {
@@ -59860,8 +59860,8 @@
       "is_pr": false,
       "created_at": "2026-05-18T07:57:45+00:00",
       "created_by": "skrueger8",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-18T16:51:41+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5138,
@@ -59872,8 +59872,8 @@
       "is_pr": false,
       "created_at": "2026-05-18T11:04:52+00:00",
       "created_by": "AlexeyDmitriev",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-18T16:23:44+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5139,
@@ -59882,7 +59882,32 @@
       "is_pr": true,
       "created_at": "2026-05-18T15:41:51+00:00",
       "created_by": "cyphercodes",
-      "closed_at": null,
+      "closed_at": "2026-05-18T16:23:42+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5140,
+      "title": "Prepare release 26.5.1",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-18T16:35:14+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-05-18T16:51:40+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5141,
+      "title": "Add new changelog",
+      "labels": [
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-18T16:53:07+00:00",
+      "created_by": "github-actions[bot]",
+      "closed_at": "2026-05-18T16:54:58+00:00",
       "closed_by": null
     }
   ],
@@ -59891,7 +59916,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-05-18T16:08:24+00:00",
+    "last_updated": "2026-05-19T16:06:16+00:00",
     "version": 1
   }
 }

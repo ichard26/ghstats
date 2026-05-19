@@ -130562,8 +130562,8 @@
       "is_pr": false,
       "created_at": "2021-09-11T23:45:35+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-19T15:16:07+00:00",
+      "closed_by": "pradyunsg"
     },
     {
       "number": 10462,
@@ -173067,6 +173067,42 @@
       "created_by": "kwon0408",
       "closed_at": "2026-05-18T03:15:40+00:00",
       "closed_by": null
+    },
+    {
+      "number": 13999,
+      "title": "Remove `.dist-info` folders from vendored directories",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-19T01:36:05+00:00",
+      "created_by": "pradyunsg",
+      "closed_at": "2026-05-19T01:37:42+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14000,
+      "title": "Reject entry point names that escape scripts dir",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-19T03:03:10+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14001,
+      "title": "Fix is_within_directory for doubled-slash roots",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-19T03:23:57+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -173074,7 +173110,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-18T16:08:29+00:00",
+    "last_updated": "2026-05-19T16:06:22+00:00",
     "version": 1
   }
 }
