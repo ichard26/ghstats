@@ -43286,8 +43286,8 @@
       "is_pr": false,
       "created_at": "2023-04-28T11:41:21+00:00",
       "created_by": "wardioai",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-22T15:13:48+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3668,
@@ -50420,8 +50420,8 @@
       "is_pr": false,
       "created_at": "2024-03-15T22:49:03+00:00",
       "created_by": "rdrll",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-22T14:33:12+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4281,
@@ -58388,8 +58388,8 @@
       "is_pr": false,
       "created_at": "2026-02-22T10:31:44+00:00",
       "created_by": "louisabraham",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-22T03:57:27+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 5002,
@@ -59967,6 +59967,26 @@
       "created_by": "JelleZijlstra",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5147,
+      "title": "Fix case guard splitting at small line lengths",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-05-21T21:00:56+00:00",
+      "created_by": "puneetdixit200",
+      "closed_at": "2026-05-22T14:33:11+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5148,
+      "title": "Fix docstring indentation with leading tabs",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-05-22T01:37:47+00:00",
+      "created_by": "puneetdixit200",
+      "closed_at": "2026-05-22T15:13:47+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -59974,7 +59994,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-05-21T16:05:16+00:00",
+    "last_updated": "2026-05-22T15:53:16+00:00",
     "version": 1
   }
 }
