@@ -173144,15 +173144,79 @@
     },
     {
       "number": 14005,
-      "title": "PYTHON",
+      "title": "No `python` or `pip` available",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "resolution: no action",
+        "resolution: not a bug"
       ],
       "is_pr": false,
       "created_at": "2026-05-22T05:09:04+00:00",
       "created_by": "bhavanivyshnavi23-hub",
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14006,
+      "title": "Fix typo in requirements_from_scripts option help",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-22T15:55:12+00:00",
+      "created_by": "laymonage",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14007,
+      "title": "Document build temp directory environment variables",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI slop"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-23T07:15:37+00:00",
+      "created_by": "Herrtian",
+      "closed_at": "2026-05-23T08:57:37+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14008,
+      "title": "Document NETRC environment variable support",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI slop"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-23T08:41:09+00:00",
+      "created_by": "Herrtian",
+      "closed_at": "2026-05-23T08:59:54+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14009,
+      "title": "Clarify hash-checking build dependency scope",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI slop"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-23T08:44:00+00:00",
+      "created_by": "Herrtian",
+      "closed_at": "2026-05-23T08:59:04+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14010,
+      "title": "Avoid cache warning on vary mismatch",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI slop"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-23T09:39:34+00:00",
+      "created_by": "puneetdixit200",
+      "closed_at": "2026-05-23T09:47:18+00:00",
       "closed_by": null
     }
   ],
@@ -173161,7 +173225,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-22T15:53:18+00:00",
+    "last_updated": "2026-05-23T15:24:13+00:00",
     "version": 1
   }
 }
