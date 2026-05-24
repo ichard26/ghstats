@@ -59045,8 +59045,8 @@
       "is_pr": false,
       "created_at": "2026-03-19T11:55:39+00:00",
       "created_by": "themavik",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-24T14:16:55+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 5059,
@@ -59987,6 +59987,30 @@
       "created_by": "puneetdixit200",
       "closed_at": "2026-05-22T15:13:47+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5149,
+      "title": "Allow multiple cases per fixture file",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-23T21:06:08+00:00",
+      "created_by": "Pedro-Muller29",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5150,
+      "title": "Block codi .. code-block:: python     print(\"Hello world!\")",
+      "labels": [
+        "spam / ai"
+      ],
+      "is_pr": false,
+      "created_at": "2026-05-24T09:45:12+00:00",
+      "created_by": "gt6284829-dotcom",
+      "closed_at": "2026-05-24T14:16:16+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -59994,7 +60018,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-05-23T15:24:11+00:00",
+    "last_updated": "2026-05-24T15:24:37+00:00",
     "version": 1
   }
 }
