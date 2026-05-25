@@ -171887,7 +171887,7 @@
       "is_pr": true,
       "created_at": "2026-04-09T00:49:45+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
+      "closed_at": "2026-05-25T12:03:17+00:00",
       "closed_by": null
     },
     {
@@ -173230,6 +173230,18 @@
       "created_by": "sepehr-rs",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14012,
+      "title": "Fix Accept-Encoding to gzip, deflate",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-24T17:23:02+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -173237,7 +173249,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-24T15:24:39+00:00",
+    "last_updated": "2026-05-25T15:57:13+00:00",
     "version": 1
   }
 }
