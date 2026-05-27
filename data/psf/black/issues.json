@@ -60031,6 +60031,16 @@
       "created_by": "anisia19",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5153,
+      "title": "fix: empty lines at end of file trimmed even with fmt: off",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-05-27T01:46:59+00:00",
+      "created_by": "YousafZahid1",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60038,7 +60048,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-05-26T16:17:30+00:00",
+    "last_updated": "2026-05-27T16:17:44+00:00",
     "version": 1
   }
 }
