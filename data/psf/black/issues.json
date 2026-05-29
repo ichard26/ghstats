@@ -50606,8 +50606,8 @@
       "is_pr": false,
       "created_at": "2024-03-31T23:41:54+00:00",
       "created_by": "sumezulike",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-28T19:18:53+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4297,
@@ -59941,7 +59941,7 @@
       "is_pr": true,
       "created_at": "2026-05-20T23:24:42+00:00",
       "created_by": "Pedro-Muller29",
-      "closed_at": null,
+      "closed_at": "2026-05-28T19:18:52+00:00",
       "closed_by": null
     },
     {
@@ -60015,11 +60015,13 @@
     {
       "number": 5151,
       "title": "fix: additional newline added to docstring when the previous line length is l",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-05-25T20:00:30+00:00",
       "created_by": "YousafZahid1",
-      "closed_at": null,
+      "closed_at": "2026-05-28T19:24:43+00:00",
       "closed_by": null
     },
     {
@@ -60035,11 +60037,13 @@
     {
       "number": 5153,
       "title": "fix: empty lines at end of file trimmed even with fmt: off",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-05-27T01:46:59+00:00",
       "created_by": "YousafZahid1",
-      "closed_at": null,
+      "closed_at": "2026-05-28T19:24:41+00:00",
       "closed_by": null
     },
     {
@@ -60053,7 +60057,35 @@
       "is_pr": true,
       "created_at": "2026-05-28T06:35:27+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-05-28T19:19:41+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5155,
+      "title": "Bump docker/setup-buildx-action from 4.0.0 to 4.1.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-29T06:34:12+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-05-29T12:02:19+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5156,
+      "title": "Bump docker/login-action from 4.1.0 to 4.2.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-29T06:34:22+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-05-29T12:00:49+00:00",
       "closed_by": null
     }
   ],
@@ -60062,7 +60094,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-05-28T16:25:49+00:00",
+    "last_updated": "2026-05-29T16:17:42+00:00",
     "version": 1
   }
 }
