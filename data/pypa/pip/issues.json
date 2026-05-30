@@ -172840,8 +172840,8 @@
       "is_pr": false,
       "created_at": "2026-05-04T21:11:46+00:00",
       "created_by": "cgoldberg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-29T16:47:08+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13980,
@@ -173146,14 +173146,14 @@
       "number": 14005,
       "title": "No `python` or `pip` available",
       "labels": [
-        "resolution: no action",
+        "type: support",
         "resolution: not a bug"
       ],
       "is_pr": false,
       "created_at": "2026-05-22T05:09:04+00:00",
       "created_by": "bhavanivyshnavi23-hub",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-05-30T01:52:56+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14006,
@@ -173164,7 +173164,7 @@
       "is_pr": true,
       "created_at": "2026-05-22T15:55:12+00:00",
       "created_by": "laymonage",
-      "closed_at": null,
+      "closed_at": "2026-05-29T16:49:25+00:00",
       "closed_by": null
     },
     {
@@ -173240,7 +173240,7 @@
       "is_pr": true,
       "created_at": "2026-05-24T17:23:02+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-05-29T16:47:06+00:00",
       "closed_by": null
     },
     {
@@ -173255,6 +173255,40 @@
       "created_by": "cs-1",
       "closed_at": "2026-05-29T09:47:55+00:00",
       "closed_by": "cs-1"
+    },
+    {
+      "number": 14015,
+      "title": "requests/urllib3 vendored in pip 25.1.1 truncates HTTP responses on Python 3.14.4",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-05-29T18:12:10+00:00",
+      "created_by": "jotap1101",
+      "closed_at": "2026-05-29T19:36:08+00:00",
+      "closed_by": "jotap1101"
+    },
+    {
+      "number": 14016,
+      "title": "mnt: Use vendoring 1.4.x",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-30T04:01:21+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14017,
+      "title": "docs: upgrade HTTP links to HTTPS",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-30T12:02:36+00:00",
+      "created_by": "sridhar-3009",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -173262,7 +173296,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-29T16:17:47+00:00",
+    "last_updated": "2026-05-30T15:26:31+00:00",
     "version": 1
   }
 }

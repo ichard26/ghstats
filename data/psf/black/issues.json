@@ -57679,7 +57679,7 @@
       "is_pr": true,
       "created_at": "2025-12-26T15:44:06+00:00",
       "created_by": "adamsol",
-      "closed_at": null,
+      "closed_at": "2026-05-30T11:46:34+00:00",
       "closed_by": null
     },
     {
@@ -60094,7 +60094,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-05-29T16:17:42+00:00",
+    "last_updated": "2026-05-30T15:26:29+00:00",
     "version": 1
   }
 }
