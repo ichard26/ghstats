@@ -172383,7 +172383,7 @@
       "title": "Would pip consider a plugin hook for custom project config file discovery?",
       "labels": [
         "type: feature request",
-        "S: needs triage"
+        "resolution: out of scope"
       ],
       "is_pr": false,
       "created_at": "2026-04-24T10:46:12+00:00",
@@ -172888,7 +172888,10 @@
     {
       "number": 13984,
       "title": "--require-hashes does not apply to build-system dependencies, undocumented bypass",
-      "labels": [],
+      "labels": [
+        "type: security",
+        "kind: backwards incompatible"
+      ],
       "is_pr": false,
       "created_at": "2026-05-06T09:59:16+00:00",
       "created_by": "dewankpant",
@@ -173289,6 +173292,56 @@
       "created_by": "sridhar-3009",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14018,
+      "title": "build(deps): bump dessant/lock-threads from 6.0.0 to 6.0.2 in the github-actions group",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-30T16:52:35+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14019,
+      "title": "perf: reduce repeated metadata parsing during dependency resolution",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-31T00:27:34+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14020,
+      "title": "raise_for_status relies on HTTP reason phrase, which is unreliable in practice",
+      "labels": [
+        "type: bug",
+        "C: error messages"
+      ],
+      "is_pr": false,
+      "created_at": "2026-05-31T06:36:06+00:00",
+      "created_by": "gineshkumar",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14021,
+      "title": "Surface X-Error-Message response header in HTTP error details",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-05-31T06:38:11+00:00",
+      "created_by": "gineshkumar",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -173296,7 +173349,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-30T15:26:31+00:00",
+    "last_updated": "2026-05-31T15:28:11+00:00",
     "version": 1
   }
 }
