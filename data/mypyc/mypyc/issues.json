@@ -13476,6 +13476,16 @@
       "created_by": "BobTheBuidler",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1199,
+      "title": "`CPyFunction` async method wrappers are missing `__qualname__`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-05-31T20:05:50+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13483,7 +13493,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-05-29T16:17:47+00:00",
+    "last_updated": "2026-06-01T16:51:11+00:00",
     "version": 1
   }
 }

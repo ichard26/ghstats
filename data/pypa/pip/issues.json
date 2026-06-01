@@ -170348,7 +170348,7 @@
       "is_pr": true,
       "created_at": "2026-01-24T16:01:47+00:00",
       "created_by": "neevets",
-      "closed_at": null,
+      "closed_at": "2026-06-01T11:04:09+00:00",
       "closed_by": null
     },
     {
@@ -170693,7 +170693,7 @@
       "is_pr": false,
       "created_at": "2026-02-07T16:58:41+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-06-01T15:12:25+00:00",
       "closed_by": "sbidoul"
     },
     {
@@ -173104,7 +173104,7 @@
       "is_pr": true,
       "created_at": "2026-05-19T03:23:57+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-05-31T17:12:43+00:00",
       "closed_by": null
     },
     {
@@ -173315,7 +173315,7 @@
       "is_pr": true,
       "created_at": "2026-05-31T00:27:34+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
+      "closed_at": "2026-06-01T07:45:39+00:00",
       "closed_by": null
     },
     {
@@ -173342,6 +173342,41 @@
       "created_by": "gineshkumar",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14022,
+      "title": "Release/26.1.2",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-05-31T17:16:56+00:00",
+      "created_by": "sbidoul",
+      "closed_at": "2026-05-31T17:31:14+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14023,
+      "title": "docs: clarify that `pip search` uses the XML-RPC search API (removed by PyPI)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-01T11:49:34+00:00",
+      "created_by": "RoySerbi",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14024,
+      "title": "incorrect python dependency in anaconda package",
+      "labels": [
+        "project: <downstream>",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-01T12:19:19+00:00",
+      "created_by": "aszekMosek",
+      "closed_at": "2026-06-01T13:01:19+00:00",
+      "closed_by": "aszekMosek"
     }
   ],
   "record": {
@@ -173349,7 +173384,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-05-31T15:28:11+00:00",
+    "last_updated": "2026-06-01T16:51:12+00:00",
     "version": 1
   }
 }
