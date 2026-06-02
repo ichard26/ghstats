@@ -60120,6 +60120,38 @@
       "is_pr": false,
       "created_at": "2026-05-31T10:31:54+00:00",
       "created_by": "htanwar922",
+      "closed_at": "2026-06-02T14:55:46+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 5161,
+      "title": "Fix crash on `# fmt: skip` after an opening bracket with a standalone comment",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-02T00:23:37+00:00",
+      "created_by": "sarathfrancis90",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5162,
+      "title": "Document standalone release executables",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-02T02:36:49+00:00",
+      "created_by": "bubaizhanshen",
+      "closed_at": "2026-06-02T13:40:09+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5163,
+      "title": "fix quadratic backtracking in unicode escape normalization",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-02T06:36:05+00:00",
+      "created_by": "sahvx655-wq",
       "closed_at": null,
       "closed_by": null
     }
@@ -60129,7 +60161,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-01T16:51:09+00:00",
+    "last_updated": "2026-06-02T16:30:51+00:00",
     "version": 1
   }
 }

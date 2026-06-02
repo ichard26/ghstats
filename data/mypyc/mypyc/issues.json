@@ -13486,6 +13486,16 @@
       "created_by": "BobTheBuidler",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1200,
+      "title": "mypyc emits unsafe native layout for subclass of unresolved external base",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-02T04:18:19+00:00",
+      "created_by": "BobTheBuidler",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13493,7 +13503,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-06-01T16:51:11+00:00",
+    "last_updated": "2026-06-02T16:30:55+00:00",
     "version": 1
   }
 }
