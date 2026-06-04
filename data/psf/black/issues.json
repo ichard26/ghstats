@@ -59434,7 +59434,7 @@
     },
     {
       "number": 5101,
-      "title": "Test on Python 3.15",
+      "title": "Run all CI on 3.15",
       "labels": [
         "ci: build all wheels"
       ],
@@ -60152,7 +60152,7 @@
       "is_pr": true,
       "created_at": "2026-06-02T06:36:05+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-03T17:05:54+00:00",
       "closed_by": null
     },
     {
@@ -60166,6 +60166,49 @@
       "created_by": "oyvindronningstad",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5165,
+      "title": "fix quadratic backtracking in debug f-string quote detection",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-03T17:31:27+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": "2026-06-03T20:18:14+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5166,
+      "title": "Bump docutils from 0.22.4 to 0.23",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-03T22:42:59+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5167,
+      "title": "fix: no spurious target-version warning when runtime version is included",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-03T23:42:45+00:00",
+      "created_by": "wahajahmed010",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5168,
+      "title": "Fix false positive target version warning when current Python is included",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-04T01:16:50+00:00",
+      "created_by": "cmw-creator",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60173,7 +60216,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-03T16:32:43+00:00",
+    "last_updated": "2026-06-04T16:07:55+00:00",
     "version": 1
   }
 }
