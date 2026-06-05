@@ -60209,6 +60209,16 @@
       "created_by": "cmw-creator",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5169,
+      "title": "fix quadratic fmt: skip/off handling in normalize_fmt_off",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-05T15:19:29+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60216,7 +60226,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-04T16:07:55+00:00",
+    "last_updated": "2026-06-05T15:59:26+00:00",
     "version": 1
   }
 }
