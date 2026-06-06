@@ -169210,8 +169210,8 @@
       "is_pr": false,
       "created_at": "2025-11-27T18:13:02+00:00",
       "created_by": "turbotimon",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-05T20:13:38+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13672,
@@ -173278,7 +173278,7 @@
       "is_pr": true,
       "created_at": "2026-05-30T04:01:21+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-06-05T16:28:12+00:00",
       "closed_by": null
     },
     {
@@ -173303,7 +173303,7 @@
       "is_pr": true,
       "created_at": "2026-05-30T16:52:35+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-06-05T19:47:04+00:00",
       "closed_by": null
     },
     {
@@ -173355,14 +173355,15 @@
     },
     {
       "number": 14023,
-      "title": "docs: clarify that `pip search` uses the XML-RPC search API (removed by PyPI)",
+      "title": "docs: clarify that pip search uses XML-RPC search API",
       "labels": [
+        "skip news",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-06-01T11:49:34+00:00",
       "created_by": "RoySerbi",
-      "closed_at": null,
+      "closed_at": "2026-06-05T20:13:36+00:00",
       "closed_by": null
     },
     {
@@ -173380,7 +173381,7 @@
     },
     {
       "number": 14025,
-      "title": "[reserved]",
+      "title": "Updates for part-time 2026 development",
       "labels": [
         "type: maintenance"
       ],
@@ -173461,6 +173462,57 @@
       "created_by": "Ganeshkumhar1",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14032,
+      "title": "Bump vendored libraries - June 2026",
+      "labels": [
+        "type: maintenance",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-05T16:22:46+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14033,
+      "title": "Fix `sitecustomize.py` used for build isolation on Python 3.15+",
+      "labels": [
+        "type: bug",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-05T19:17:26+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14034,
+      "title": "mnt: Bump lock threads action to 6.0.2",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-05T19:31:40+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-06-05T19:44:57+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14035,
+      "title": "Show OS error reason for pip self-version check failures",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI slop"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-06T08:39:49+00:00",
+      "created_by": "marko1olo",
+      "closed_at": "2026-06-06T08:48:17+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -173468,7 +173520,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-05T15:59:27+00:00",
+    "last_updated": "2026-06-06T15:27:26+00:00",
     "version": 1
   }
 }
