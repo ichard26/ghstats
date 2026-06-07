@@ -162061,8 +162061,8 @@
       "is_pr": false,
       "created_at": "2024-11-19T15:50:16+00:00",
       "created_by": "paugier",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-06T19:15:28+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13088,
@@ -169128,8 +169128,8 @@
       "is_pr": false,
       "created_at": "2025-11-22T14:14:37+00:00",
       "created_by": "Hasan-8326",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-06T19:32:57+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13665,
@@ -172691,12 +172691,13 @@
       "number": 13967,
       "title": "Fix description of --no-binary to reflect current behavior",
       "labels": [
+        "skip news",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-05-02T05:20:15+00:00",
       "created_by": "rio767",
-      "closed_at": null,
+      "closed_at": "2026-06-06T19:15:27+00:00",
       "closed_by": null
     },
     {
@@ -173290,7 +173291,7 @@
       "is_pr": true,
       "created_at": "2026-05-30T12:02:36+00:00",
       "created_by": "sridhar-3009",
-      "closed_at": null,
+      "closed_at": "2026-06-06T19:18:13+00:00",
       "closed_by": null
     },
     {
@@ -173335,6 +173336,7 @@
       "number": 14021,
       "title": "Surface X-Error-Message response header in HTTP error details",
       "labels": [
+        "state: blocked",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
@@ -173513,6 +173515,32 @@
       "created_by": "marko1olo",
       "closed_at": "2026-06-06T08:48:17+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14036,
+      "title": "docs: fix broken links in development docs",
+      "labels": [
+        "type: docs",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-06T19:25:53+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-06-06T19:32:57+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14037,
+      "title": "pip number update",
+      "labels": [
+        "type: feature request",
+        "resolution: out of scope"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-07T05:01:53+00:00",
+      "created_by": "hemdevbodduluri-ui",
+      "closed_at": "2026-06-07T05:33:59+00:00",
+      "closed_by": "sepehr-rs"
     }
   ],
   "record": {
@@ -173520,7 +173548,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-06T15:27:26+00:00",
+    "last_updated": "2026-06-07T15:30:29+00:00",
     "version": 1
   }
 }
