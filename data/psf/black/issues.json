@@ -59515,7 +59515,7 @@
       "is_pr": true,
       "created_at": "2026-04-19T17:17:37+00:00",
       "created_by": "avasis-ai",
-      "closed_at": null,
+      "closed_at": "2026-06-08T02:15:00+00:00",
       "closed_by": null
     },
     {
@@ -60095,7 +60095,7 @@
       "is_pr": true,
       "created_at": "2026-05-30T15:39:33+00:00",
       "created_by": "AlexWaygood",
-      "closed_at": null,
+      "closed_at": "2026-06-08T01:35:51+00:00",
       "closed_by": null
     },
     {
@@ -60130,7 +60130,7 @@
       "is_pr": true,
       "created_at": "2026-06-02T00:23:37+00:00",
       "created_by": "sarathfrancis90",
-      "closed_at": null,
+      "closed_at": "2026-06-08T15:38:13+00:00",
       "closed_by": null
     },
     {
@@ -60164,8 +60164,8 @@
       "is_pr": false,
       "created_at": "2026-06-03T12:55:04+00:00",
       "created_by": "oyvindronningstad",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-08T01:35:20+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5165,
@@ -60197,7 +60197,7 @@
       "is_pr": true,
       "created_at": "2026-06-03T23:42:45+00:00",
       "created_by": "wahajahmed010",
-      "closed_at": null,
+      "closed_at": "2026-06-08T01:35:19+00:00",
       "closed_by": null
     },
     {
@@ -60207,7 +60207,7 @@
       "is_pr": true,
       "created_at": "2026-06-04T01:16:50+00:00",
       "created_by": "cmw-creator",
-      "closed_at": null,
+      "closed_at": "2026-06-08T01:35:21+00:00",
       "closed_by": null
     },
     {
@@ -60217,7 +60217,7 @@
       "is_pr": true,
       "created_at": "2026-06-05T15:19:29+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-07T22:52:00+00:00",
       "closed_by": null
     },
     {
@@ -60229,6 +60229,16 @@
       "created_by": "wayyoungboy",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5171,
+      "title": "avoid re-walking nested brackets in max_delimiter_priority_in_atom",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-08T15:51:52+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": "2026-06-08T16:15:55+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -60236,7 +60246,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-07T15:30:27+00:00",
+    "last_updated": "2026-06-08T16:22:57+00:00",
     "version": 1
   }
 }

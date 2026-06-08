@@ -173541,6 +173541,40 @@
       "created_by": "hemdevbodduluri-ui",
       "closed_at": "2026-06-07T05:33:59+00:00",
       "closed_by": "sepehr-rs"
+    },
+    {
+      "number": 14038,
+      "title": "Add Python version header to pip freeze",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-07T18:17:17+00:00",
+      "created_by": "Rajpatel-005",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14039,
+      "title": "Directly parse .pth files for build isolation",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-08T05:02:23+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-06-08T13:43:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14040,
+      "title": "Docs: remove .html from Warehouse docs link",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-08T12:44:44+00:00",
+      "created_by": "shenanigansd",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -173548,7 +173582,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-07T15:30:29+00:00",
+    "last_updated": "2026-06-08T16:23:02+00:00",
     "version": 1
   }
 }
