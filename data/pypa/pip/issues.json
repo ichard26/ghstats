@@ -144050,8 +144050,8 @@
       "is_pr": false,
       "created_at": "2022-11-18T21:38:58+00:00",
       "created_by": "wimglenn",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-08T21:08:51+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 11609,
@@ -171671,8 +171671,8 @@
       "is_pr": false,
       "created_at": "2026-03-30T05:50:09+00:00",
       "created_by": "sshnaidm",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-08T21:19:22+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13878,
@@ -172136,7 +172136,7 @@
       "is_pr": true,
       "created_at": "2026-04-15T18:09:11+00:00",
       "created_by": "henryiii",
-      "closed_at": null,
+      "closed_at": "2026-06-09T01:08:53+00:00",
       "closed_by": null
     },
     {
@@ -172250,14 +172250,14 @@
     },
     {
       "number": 13931,
-      "title": "mnt: Bump black to 26.3.1",
+      "title": "mnt: Bump black to 26.5.1",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2026-04-18T19:22:40+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-06-08T21:53:02+00:00",
       "closed_by": null
     },
     {
@@ -172438,7 +172438,7 @@
       "is_pr": true,
       "created_at": "2026-04-25T15:48:02+00:00",
       "created_by": "sepehr-rs",
-      "closed_at": null,
+      "closed_at": "2026-06-08T21:08:49+00:00",
       "closed_by": null
     },
     {
@@ -172827,7 +172827,7 @@
       "is_pr": true,
       "created_at": "2026-05-04T18:35:53+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2026-06-08T22:17:16+00:00",
       "closed_by": null
     },
     {
@@ -172961,15 +172961,16 @@
     },
     {
       "number": 13990,
-      "title": "build(deps): bump build from 1.4.3 to 1.5.0 in /build-project",
+      "title": "Bump build from 1.4.3 to 1.5.0 in /build-project",
       "labels": [
+        "skip news",
         "python",
         "dependencies"
       ],
       "is_pr": true,
       "created_at": "2026-05-09T16:52:34+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-06-09T00:02:53+00:00",
       "closed_by": null
     },
     {
@@ -173462,8 +173463,8 @@
       "is_pr": false,
       "created_at": "2026-06-03T04:40:28+00:00",
       "created_by": "Ganeshkumhar1",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-08T22:17:03+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14032,
@@ -173475,7 +173476,7 @@
       "is_pr": true,
       "created_at": "2026-06-05T16:22:46+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-06-08T22:17:02+00:00",
       "closed_by": null
     },
     {
@@ -173488,7 +173489,7 @@
       "is_pr": true,
       "created_at": "2026-06-05T19:17:26+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-06-08T17:34:42+00:00",
       "closed_by": null
     },
     {
@@ -173566,15 +173567,49 @@
     },
     {
       "number": 14040,
-      "title": "Docs: remove .html from Warehouse docs link",
+      "title": "docs: remove .html from Warehouse docs link",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2026-06-08T12:44:44+00:00",
       "created_by": "shenanigansd",
-      "closed_at": null,
+      "closed_at": "2026-06-08T17:54:22+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14041,
+      "title": "mnt: Bump riff, zizmor, and mypy pre-commit hooks",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-08T22:11:02+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-06-08T22:17:15+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14042,
+      "title": "mnt: Bump build and packaging used for distribution",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-08T22:23:50+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-06-08T22:31:54+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14043,
+      "title": "bitcon 22",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-09T11:02:29+00:00",
+      "created_by": "waliahd",
+      "closed_at": "2026-06-09T11:27:19+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -173582,7 +173617,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-08T16:23:02+00:00",
+    "last_updated": "2026-06-09T16:00:02+00:00",
     "version": 1
   }
 }

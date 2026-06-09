@@ -60239,6 +60239,30 @@
       "created_by": "sahvx655-wq",
       "closed_at": "2026-06-08T16:15:55+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5172,
+      "title": "Bump actions/checkout from 6.0.2 to 6.0.3",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-09T06:32:42+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5173,
+      "title": "avoid re-naking the whole merged string in _merge_one_string_group",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-09T11:55:29+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60246,7 +60270,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-08T16:22:57+00:00",
+    "last_updated": "2026-06-09T15:59:59+00:00",
     "version": 1
   }
 }
