@@ -172920,7 +172920,7 @@
       "is_pr": true,
       "created_at": "2026-05-06T18:57:09+00:00",
       "created_by": "gaborbernat",
-      "closed_at": null,
+      "closed_at": "2026-06-10T14:17:25+00:00",
       "closed_by": null
     },
     {
@@ -173610,6 +173610,32 @@
       "created_by": "waliahd",
       "closed_at": "2026-06-09T11:27:19+00:00",
       "closed_by": "notatallshaw"
+    },
+    {
+      "number": 14044,
+      "title": "pip install sometimes uses the cache when using `pkg @ file:///path` syntax",
+      "labels": [
+        "type: bug",
+        "C: cache"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-09T19:27:52+00:00",
+      "created_by": "Jackenmen",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14045,
+      "title": "perf: skip URL round-trip when path is already safe",
+      "labels": [
+        "type: performance",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-10T00:07:43+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -173617,7 +173643,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-09T16:00:02+00:00",
+    "last_updated": "2026-06-10T16:16:27+00:00",
     "version": 1
   }
 }

@@ -60263,6 +60263,18 @@
       "created_by": "sahvx655-wq",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5174,
+      "title": "Allow cache dir configuration via command-line argument",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-10T14:40:26+00:00",
+      "created_by": "MatheusCylo",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60270,7 +60282,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-09T15:59:59+00:00",
+    "last_updated": "2026-06-10T16:16:25+00:00",
     "version": 1
   }
 }
