@@ -173636,6 +173636,18 @@
       "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14046,
+      "title": "Add support for PEP 792 project status markers",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-10T20:27:34+00:00",
+      "created_by": "miketheman",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -173643,7 +173655,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-10T16:16:27+00:00",
+    "last_updated": "2026-06-11T16:22:23+00:00",
     "version": 1
   }
 }
