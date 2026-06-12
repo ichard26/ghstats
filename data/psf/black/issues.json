@@ -28923,8 +28923,8 @@
       "is_pr": false,
       "created_at": "2021-09-11T14:35:59+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-11T16:35:03+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2493,
@@ -60142,7 +60142,7 @@
       "is_pr": true,
       "created_at": "2026-06-02T02:36:49+00:00",
       "created_by": "bubaizhanshen",
-      "closed_at": null,
+      "closed_at": "2026-06-11T16:35:02+00:00",
       "closed_by": null
     },
     {
@@ -60275,6 +60275,26 @@
       "created_by": "MatheusCylo",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5175,
+      "title": "Preserve prefixes outside --line-ranges",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-12T03:49:32+00:00",
+      "created_by": "cyphercodes",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5176,
+      "title": "Keep parens around lambda iterables in comprehensions (preview)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-12T08:00:36+00:00",
+      "created_by": "sarathfrancis90",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60282,7 +60302,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-11T16:22:19+00:00",
+    "last_updated": "2026-06-12T16:03:24+00:00",
     "version": 1
   }
 }
