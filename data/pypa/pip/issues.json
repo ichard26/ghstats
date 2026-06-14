@@ -78712,8 +78712,8 @@
       "is_pr": false,
       "created_at": "2019-02-08T08:23:16+00:00",
       "created_by": "maxandersen",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-13T20:48:14+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6247,
@@ -148095,7 +148095,7 @@
     },
     {
       "number": 11953,
-      "title": "message_about_scripts_not_on_PATH: use pathlib for path normalization and resolve symlinks",
+      "title": "Use pathlib and follow symlinks for script on PATH check",
       "labels": [
         "bot:chronographer:provided",
         "state: up for grabs (PR)"
@@ -148103,7 +148103,7 @@
       "is_pr": true,
       "created_at": "2023-04-12T09:57:45+00:00",
       "created_by": "lorddavidiii",
-      "closed_at": null,
+      "closed_at": "2026-06-13T22:12:26+00:00",
       "closed_by": null
     },
     {
@@ -157703,8 +157703,8 @@
       "is_pr": false,
       "created_at": "2024-05-30T17:13:47+00:00",
       "created_by": "git-kundan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-13T22:05:44+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12739,
@@ -159027,8 +159027,8 @@
       "is_pr": false,
       "created_at": "2024-07-11T21:16:55+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-13T20:52:29+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12844,
@@ -169389,7 +169389,7 @@
       "is_pr": true,
       "created_at": "2025-12-08T07:35:22+00:00",
       "created_by": "youknowone",
-      "closed_at": null,
+      "closed_at": "2026-06-13T21:06:27+00:00",
       "closed_by": null
     },
     {
@@ -169987,14 +169987,14 @@
     },
     {
       "number": 13735,
-      "title": "Avoid importing `buildenv` and `metadata` modules during autocompletion",
+      "title": "perf: Avoid importing build_env and`metadata modules during autocompletion",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-01-05T11:06:23+00:00",
       "created_by": "danielhollas",
-      "closed_at": null,
+      "closed_at": "2026-06-13T21:11:58+00:00",
       "closed_by": null
     },
     {
@@ -170645,7 +170645,7 @@
       "is_pr": true,
       "created_at": "2026-02-07T05:28:56+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-06-13T22:10:34+00:00",
       "closed_by": null
     },
     {
@@ -170656,7 +170656,7 @@
       ],
       "is_pr": true,
       "created_at": "2026-02-07T08:26:56+00:00",
-      "created_by": "eureka928",
+      "created_by": "eureka0928",
       "closed_at": null,
       "closed_by": null
     },
@@ -170815,19 +170815,19 @@
       "is_pr": true,
       "created_at": "2026-02-13T07:57:26+00:00",
       "created_by": "LouisLau-art",
-      "closed_at": null,
+      "closed_at": "2026-06-13T22:05:43+00:00",
       "closed_by": null
     },
     {
       "number": 13806,
-      "title": "tests: add coverage for --require-virtualenv",
+      "title": "test: add coverage for --require-virtualenv",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-02-13T08:34:46+00:00",
       "created_by": "LouisLau-art",
-      "closed_at": null,
+      "closed_at": "2026-06-13T20:52:28+00:00",
       "closed_by": null
     },
     {
@@ -172450,7 +172450,7 @@
       "is_pr": true,
       "created_at": "2026-04-25T19:16:21+00:00",
       "created_by": "danielhollas",
-      "closed_at": null,
+      "closed_at": "2026-06-13T21:28:35+00:00",
       "closed_by": null
     },
     {
@@ -172684,8 +172684,8 @@
       "is_pr": false,
       "created_at": "2026-05-01T21:27:47+00:00",
       "created_by": "nateprewitt",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-13T20:31:03+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13967,
@@ -172873,7 +172873,7 @@
       "is_pr": true,
       "created_at": "2026-05-05T20:21:40+00:00",
       "created_by": "nateprewitt",
-      "closed_at": null,
+      "closed_at": "2026-06-13T20:30:30+00:00",
       "closed_by": null
     },
     {
@@ -172932,7 +172932,7 @@
       "is_pr": true,
       "created_at": "2026-05-06T20:00:36+00:00",
       "created_by": "gaborbernat",
-      "closed_at": null,
+      "closed_at": "2026-06-13T18:45:59+00:00",
       "closed_by": null
     },
     {
@@ -173552,7 +173552,7 @@
       "is_pr": true,
       "created_at": "2026-06-07T18:17:17+00:00",
       "created_by": "Rajpatel-005",
-      "closed_at": null,
+      "closed_at": "2026-06-13T18:55:42+00:00",
       "closed_by": null
     },
     {
@@ -173670,7 +173670,7 @@
       "is_pr": true,
       "created_at": "2026-06-12T13:35:46+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
+      "closed_at": "2026-06-13T23:53:09+00:00",
       "closed_by": null
     },
     {
@@ -173695,8 +173695,8 @@
       "is_pr": false,
       "created_at": "2026-06-13T11:36:18+00:00",
       "created_by": "saddamr3e",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-13T17:51:17+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 14051,
@@ -173705,6 +173705,43 @@
       "is_pr": true,
       "created_at": "2026-06-13T12:26:54+00:00",
       "created_by": "inerttila",
+      "closed_at": "2026-06-14T11:07:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14052,
+      "title": "Bump actions/checkout from 6.0.2 to 6.0.3",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-13T16:52:37+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-06-13T17:04:07+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14053,
+      "title": "doc: Provide advice if ZSH completion is uninitialized",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-13T22:04:09+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-06-13T22:05:42+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14054,
+      "title": "Lazy import utils.pylock in cli.cmdoptions",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-14T11:08:34+00:00",
+      "created_by": "danielhollas",
       "closed_at": null,
       "closed_by": null
     }
@@ -173714,7 +173751,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-13T15:32:52+00:00",
+    "last_updated": "2026-06-14T15:33:34+00:00",
     "version": 1
   }
 }
