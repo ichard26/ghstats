@@ -137219,8 +137219,7 @@
       "title": "Document shared cache dir",
       "labels": [
         "type: docs",
-        "type: feature request",
-        "help wanted"
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2022-04-13T05:05:08+00:00",
@@ -173744,6 +173743,126 @@
       "created_by": "danielhollas",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14055,
+      "title": "Fix `Git.has_commit` to detect locally-present commits",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-14T15:56:08+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14056,
+      "title": "Fix `pip debug` cert configuration level detection",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-14T15:58:07+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14057,
+      "title": "Fix `pip show` crash on missing Metadata-Version",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-14T15:58:19+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-06-15T15:46:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14058,
+      "title": "Remove empty `http-v2` directories on `pip cache purge`",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-14T15:58:41+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-06-15T16:11:51+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14059,
+      "title": "Report `pip wheel` copy failures as copy failures",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-14T15:58:53+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-06-15T16:09:30+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14060,
+      "title": "Fix \"Platform\" typo in pylock constraint error",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-14T15:59:09+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-06-14T16:12:40+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14061,
+      "title": "Remove legacy virtualenv<20 test support",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-14T22:36:26+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-06-15T16:30:40+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14062,
+      "title": "Remove legacy virtualenv<20 runtime support",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-14T22:36:32+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14063,
+      "title": "ci: fix PYTHON_GIL gate for free-threaded runs",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-15T05:14:23+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-06-15T15:37:46+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14064,
+      "title": "Improve error messages for invalid wheel script entry points",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-15T09:25:02+00:00",
+      "created_by": "inerttila",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -173751,7 +173870,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-14T15:33:34+00:00",
+    "last_updated": "2026-06-15T16:36:08+00:00",
     "version": 1
   }
 }

@@ -59589,7 +59589,7 @@
       "is_pr": true,
       "created_at": "2026-04-21T22:17:45+00:00",
       "created_by": "HoraDomu",
-      "closed_at": null,
+      "closed_at": "2026-06-15T03:14:24+00:00",
       "closed_by": null
     },
     {
@@ -59755,7 +59755,7 @@
       "is_pr": true,
       "created_at": "2026-05-11T07:55:16+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-06-15T06:33:09+00:00",
       "closed_by": null
     },
     {
@@ -60325,6 +60325,19 @@
       "created_by": "hwhsu1231",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5180,
+      "title": "Bump wcwidth from 0.2.14 to 0.8.1",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-15T06:33:06+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60332,7 +60345,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-14T15:33:32+00:00",
+    "last_updated": "2026-06-15T16:36:06+00:00",
     "version": 1
   }
 }
