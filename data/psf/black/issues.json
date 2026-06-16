@@ -45447,8 +45447,8 @@
       "is_pr": false,
       "created_at": "2023-08-22T08:38:38+00:00",
       "created_by": "konstin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-15T18:40:37+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3852,
@@ -60227,7 +60227,7 @@
       "is_pr": true,
       "created_at": "2026-06-06T22:03:05+00:00",
       "created_by": "wayyoungboy",
-      "closed_at": null,
+      "closed_at": "2026-06-15T18:40:27+00:00",
       "closed_by": null
     },
     {
@@ -60293,7 +60293,7 @@
       "is_pr": true,
       "created_at": "2026-06-12T08:00:36+00:00",
       "created_by": "sarathfrancis90",
-      "closed_at": null,
+      "closed_at": "2026-06-15T18:43:00+00:00",
       "closed_by": null
     },
     {
@@ -60303,7 +60303,7 @@
       "is_pr": true,
       "created_at": "2026-06-13T06:47:43+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-15T18:28:36+00:00",
       "closed_by": null
     },
     {
@@ -60313,7 +60313,7 @@
       "is_pr": true,
       "created_at": "2026-06-13T17:16:08+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-15T18:43:13+00:00",
       "closed_by": null
     },
     {
@@ -60338,6 +60338,36 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5181,
+      "title": "docs: add test comment for PR analysis",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-15T23:17:05+00:00",
+      "created_by": "loadingerror",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5182,
+      "title": "fix: Please consider making releases immutable",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-16T06:39:27+00:00",
+      "created_by": "manupareekk",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5183,
+      "title": "avoid quadratic named-escape scan when splitting long strings",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-16T11:39:32+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60345,7 +60375,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-15T16:36:06+00:00",
+    "last_updated": "2026-06-16T16:31:38+00:00",
     "version": 1
   }
 }
