@@ -58173,7 +58173,7 @@
       "labels": [
         "type: bug",
         "type: security",
-        "state: awaiting PR"
+        "state: needs discussion"
       ],
       "is_pr": false,
       "created_at": "2017-09-01T21:48:34+00:00",
@@ -158690,7 +158690,7 @@
       "is_pr": true,
       "created_at": "2024-07-01T14:28:47+00:00",
       "created_by": "morotti",
-      "closed_at": null,
+      "closed_at": "2026-06-17T15:27:57+00:00",
       "closed_by": null
     },
     {
@@ -170946,7 +170946,7 @@
       "is_pr": true,
       "created_at": "2026-02-20T14:03:24+00:00",
       "created_by": "Ashutosh0x",
-      "closed_at": null,
+      "closed_at": "2026-06-17T15:31:53+00:00",
       "closed_by": null
     },
     {
@@ -173736,14 +173736,14 @@
     },
     {
       "number": 14054,
-      "title": "Lazy import utils.pylock in cli.cmdoptions",
+      "title": "perf: Lazy import utils.pylock in cli.cmdoptions",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2026-06-14T11:08:34+00:00",
       "created_by": "danielhollas",
-      "closed_at": null,
+      "closed_at": "2026-06-16T20:14:53+00:00",
       "closed_by": null
     },
     {
@@ -173907,7 +173907,9 @@
     {
       "number": 14068,
       "title": "Import `urllib.request` lazily in all non-network commands",
-      "labels": [],
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-06-16T08:47:30+00:00",
       "created_by": "danielhollas",
@@ -173925,6 +173927,31 @@
       "created_by": "sepehr-rs",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14070,
+      "title": "feat: Add a venv-based build environment provider",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-17T00:46:35+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14071,
+      "title": "Prevent path traversal via subdirectory URL fragments (CWE-22)",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-17T06:05:31+00:00",
+      "created_by": "SABITHSAHEB",
+      "closed_at": "2026-06-17T07:46:15+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -173932,7 +173959,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-16T16:31:49+00:00",
+    "last_updated": "2026-06-17T16:15:56+00:00",
     "version": 1
   }
 }
