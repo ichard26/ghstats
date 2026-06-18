@@ -60693,8 +60693,8 @@
       "is_pr": false,
       "created_at": "2017-11-25T20:20:20+00:00",
       "created_by": "blueyed",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-18T14:03:53+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 4891,
@@ -73071,7 +73071,7 @@
       "created_at": "2018-09-27T19:45:34+00:00",
       "created_by": "DarkSuniuM",
       "closed_at": null,
-      "closed_by": "DarkSuniuM"
+      "closed_by": null
     },
     {
       "number": 5824,
@@ -108942,6 +108942,7 @@
       "title": "pip check should be able to detect broken packages (missing files)",
       "labels": [
         "type: enhancement",
+        "state: needs discussion",
         "C: check"
       ],
       "is_pr": false,
@@ -109573,12 +109574,13 @@
       "number": 8633,
       "title": "Add a testing case for a future check integrity flag",
       "labels": [
-        "needs rebase or merge"
+        "needs rebase or merge",
+        "resolution: no action"
       ],
       "is_pr": true,
       "created_at": "2020-07-26T22:12:15+00:00",
       "created_by": "fbidu",
-      "closed_at": null,
+      "closed_at": "2026-06-17T17:10:41+00:00",
       "closed_by": null
     },
     {
@@ -133982,7 +133984,7 @@
       "is_pr": true,
       "created_at": "2021-12-30T10:07:52+00:00",
       "created_by": "yohanboniface",
-      "closed_at": null,
+      "closed_at": "2026-06-17T17:05:52+00:00",
       "closed_by": null
     },
     {
@@ -138204,8 +138206,8 @@
       "is_pr": false,
       "created_at": "2022-05-12T09:25:50+00:00",
       "created_by": "mgorny",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-17T17:20:27+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11115,
@@ -138459,7 +138461,7 @@
       "is_pr": true,
       "created_at": "2022-05-22T07:08:19+00:00",
       "created_by": "mgorny",
-      "closed_at": null,
+      "closed_at": "2026-06-17T17:21:22+00:00",
       "closed_by": null
     },
     {
@@ -138909,7 +138911,7 @@
       "is_pr": true,
       "created_at": "2022-06-07T21:00:18+00:00",
       "created_by": "joeyballentine",
-      "closed_at": null,
+      "closed_at": "2026-06-17T16:21:35+00:00",
       "closed_by": null
     },
     {
@@ -144164,7 +144166,7 @@
       "is_pr": true,
       "created_at": "2022-11-23T21:59:05+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
+      "closed_at": "2026-06-17T18:21:29+00:00",
       "closed_by": null
     },
     {
@@ -146393,7 +146395,8 @@
       "number": 11810,
       "title": "Describe how to avoid dependency confusion in \"secure installs\" topic",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2023-02-20T23:55:22+00:00",
@@ -147076,12 +147079,14 @@
       "number": 11865,
       "title": "PEP-710: implement provenance_url.json file ",
       "labels": [
+        "state: blocked",
+        "resolution: needs standard",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2023-03-14T19:40:02+00:00",
       "created_by": "fridex",
-      "closed_at": null,
+      "closed_at": "2026-06-17T17:27:01+00:00",
       "closed_by": null
     },
     {
@@ -147797,7 +147802,7 @@
       "is_pr": true,
       "created_at": "2023-04-04T22:09:58+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-06-17T18:19:36+00:00",
       "closed_by": null
     },
     {
@@ -154782,7 +154787,7 @@
       "is_pr": true,
       "created_at": "2024-02-02T23:28:57+00:00",
       "created_by": "dereksz",
-      "closed_at": null,
+      "closed_at": "2026-06-17T19:14:48+00:00",
       "closed_by": null
     },
     {
@@ -159145,12 +159150,13 @@
       "number": 12853,
       "title": "\ud83d\udcdd\ud83d\udc84 Split the \"process\" change log entry to 3",
       "labels": [
+        "resolution: no action",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2024-07-15T11:40:29+00:00",
       "created_by": "webknjaz",
-      "closed_at": null,
+      "closed_at": "2026-06-17T16:38:22+00:00",
       "closed_by": null
     },
     {
@@ -167465,12 +167471,14 @@
     },
     {
       "number": 13527,
-      "title": "Add more detail about site-level config file paths",
-      "labels": [],
+      "title": "doc: Describe site configuration outside of a virtual environment",
+      "labels": [
+        "skip news"
+      ],
       "is_pr": true,
       "created_at": "2025-08-06T08:29:34+00:00",
       "created_by": "compwiztobe",
-      "closed_at": null,
+      "closed_at": "2026-06-17T16:55:40+00:00",
       "closed_by": null
     },
     {
@@ -173412,7 +173420,7 @@
       "title": "Add command tests for --require-virtualenv",
       "labels": [
         "bot:chronographer:provided",
-        "resolution: AI slop"
+        "resolution: AI policy"
       ],
       "is_pr": true,
       "created_at": "2026-06-02T10:21:31+00:00",
@@ -173952,6 +173960,65 @@
       "created_by": "SABITHSAHEB",
       "closed_at": "2026-06-17T07:46:15+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14072,
+      "title": "doc for metadata in pip install still mentions setup.py egg_info",
+      "labels": [
+        "type: docs"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-17T19:03:14+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14073,
+      "title": "SPAM",
+      "labels": [
+        "resolution: invalid"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-18T00:43:18+00:00",
+      "created_by": "leecassandra713-hash",
+      "closed_at": "2026-06-18T00:45:15+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "number": 14074,
+      "title": "Conflict checks can miss transitive dependents depending on installed package order",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-18T03:39:01+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14075,
+      "title": "Reverse deps whitelist",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-18T03:41:15+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14076,
+      "title": "pip install package encounter SSLCertVerificationError",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-18T09:32:17+00:00",
+      "created_by": "yishenmao",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -173959,7 +174026,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-17T16:15:56+00:00",
+    "last_updated": "2026-06-18T16:09:41+00:00",
     "version": 1
   }
 }
