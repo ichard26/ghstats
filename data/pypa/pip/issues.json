@@ -148953,8 +148953,8 @@
       "is_pr": false,
       "created_at": "2023-05-09T06:45:31+00:00",
       "created_by": "uranusjr",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-19T23:00:24+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12024,
@@ -173987,24 +173987,24 @@
     },
     {
       "number": 14074,
-      "title": "Conflict checks can miss transitive dependents depending on installed package order",
+      "title": "(correctness): conflict checks are order-dependent when building the affected package whitelist",
       "labels": [],
       "is_pr": false,
       "created_at": "2026-06-18T03:39:01+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-20T02:25:43+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14075,
-      "title": "Reverse deps whitelist",
+      "title": "(correctness): fix conflict check whitelist ordering",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-06-18T03:41:15+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
+      "closed_at": "2026-06-20T02:25:42+00:00",
       "closed_by": null
     },
     {
@@ -174106,13 +174106,92 @@
     },
     {
       "number": 14085,
-      "title": "Fix extras disappearing from candidate-discard log messages",
+      "title": "Fix extras being dropped from the 'Discarding' log message",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-06-19T15:58:07+00:00",
       "created_by": "2ykwang",
+      "closed_at": "2026-06-19T23:00:23+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14086,
+      "title": "Unreadable error messages",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-19T17:59:33+00:00",
+      "created_by": "archer-cmd",
+      "closed_at": "2026-06-20T14:24:46+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "number": 14087,
+      "title": "(performance): speed up conflict checking by caching canonical names and tightening whitelist construction",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-19T19:51:34+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14088,
+      "title": "perf: cache dependency names in conflict checks",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-19T20:00:29+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14089,
+      "title": "`pip list` can parse METADATA twice per row with the importlib backend",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-20T03:08:44+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14090,
+      "title": "importlib reuse cached metadata for raw_version",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-20T03:25:26+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14091,
+      "title": "(maintainability): refactor package details construction",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-20T04:13:49+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14092,
+      "title": "(maintainability): centralize conflict-check package detail construction",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-20T04:14:02+00:00",
+      "created_by": "KRRT7",
       "closed_at": null,
       "closed_by": null
     }
@@ -174122,7 +174201,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-19T16:00:24+00:00",
+    "last_updated": "2026-06-20T15:33:23+00:00",
     "version": 1
   }
 }
