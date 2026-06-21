@@ -173921,7 +173921,7 @@
       "is_pr": true,
       "created_at": "2026-06-16T08:47:30+00:00",
       "created_by": "danielhollas",
-      "closed_at": null,
+      "closed_at": "2026-06-20T20:27:19+00:00",
       "closed_by": null
     },
     {
@@ -173970,8 +173970,8 @@
       "is_pr": false,
       "created_at": "2026-06-17T19:03:14+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-20T19:47:14+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14073,
@@ -174040,8 +174040,8 @@
       "is_pr": false,
       "created_at": "2026-06-18T16:45:21+00:00",
       "created_by": "HNIdesu",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-20T20:19:23+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14080,
@@ -174070,14 +174070,15 @@
     },
     {
       "number": 14082,
-      "title": "Fix outdated egg_info metadata",
+      "title": "Remove outdated egg_info reference in pip install docs",
       "labels": [
+        "skip news",
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-06-18T21:17:18+00:00",
       "created_by": "Omarabdalgwad",
-      "closed_at": null,
+      "closed_at": "2026-06-20T19:47:13+00:00",
       "closed_by": null
     },
     {
@@ -174101,7 +174102,7 @@
       "is_pr": true,
       "created_at": "2026-06-19T10:22:40+00:00",
       "created_by": "lets-build-an-ocean",
-      "closed_at": null,
+      "closed_at": "2026-06-20T20:19:22+00:00",
       "closed_by": null
     },
     {
@@ -174158,19 +174159,19 @@
       "is_pr": false,
       "created_at": "2026-06-20T03:08:44+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-20T19:13:30+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14090,
-      "title": "importlib reuse cached metadata for raw_version",
+      "title": "perf: importlib reuse cached metadata for raw_version",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-06-20T03:25:26+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
+      "closed_at": "2026-06-20T19:13:29+00:00",
       "closed_by": null
     },
     {
@@ -174194,6 +174195,19 @@
       "created_by": "KRRT7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14093,
+      "title": "Bump actions/checkout from 6.0.2 to 6.0.3 in the github-actions group",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-20T16:52:42+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -174201,7 +174215,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-20T15:33:23+00:00",
+    "last_updated": "2026-06-21T15:34:16+00:00",
     "version": 1
   }
 }
