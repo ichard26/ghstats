@@ -61713,8 +61713,8 @@
       "is_pr": false,
       "created_at": "2018-01-15T00:04:54+00:00",
       "created_by": "ghost",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-22T15:46:26+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 4966,
@@ -87162,8 +87162,8 @@
       "is_pr": false,
       "created_at": "2019-08-14T14:53:19+00:00",
       "created_by": "neilvana",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-21T16:04:05+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 6876,
@@ -173518,7 +173518,7 @@
       "title": "Show OS error reason for pip self-version check failures",
       "labels": [
         "bot:chronographer:provided",
-        "resolution: AI slop"
+        "resolution: AI policy"
       ],
       "is_pr": true,
       "created_at": "2026-06-06T08:39:49+00:00",
@@ -174016,8 +174016,8 @@
       "is_pr": false,
       "created_at": "2026-06-18T09:32:17+00:00",
       "created_by": "yishenmao",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-22T09:30:30+00:00",
+      "closed_by": "yishenmao"
     },
     {
       "number": 14078,
@@ -174206,6 +174206,79 @@
       "is_pr": true,
       "created_at": "2026-06-20T16:52:42+00:00",
       "created_by": "dependabot[bot]",
+      "closed_at": "2026-06-21T16:50:30+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14094,
+      "title": "Complete PIP_CONSTRAINT build-environment deprecation",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-21T16:46:53+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14095,
+      "title": "pip unable to install platform wheel on mips64(le) or other actually unhandled CPUs ?",
+      "labels": [
+        "resolution: needs standard"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-21T17:28:45+00:00",
+      "created_by": "mara004",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14096,
+      "title": "Improve CI sharding and apply to zipapp",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-21T23:30:04+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14097,
+      "title": "RFC: Add a new class to deal with some uninstallation issues",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-22T01:35:27+00:00",
+      "created_by": "vfazio",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14098,
+      "title": "test: Compile Python modules in zipapp",
+      "labels": [
+        "C: tests",
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-22T03:32:31+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14099,
+      "title": "Replace deprecated `@abc.abstractproperty` with `@property`",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-22T11:11:55+00:00",
+      "created_by": "hugovk",
       "closed_at": null,
       "closed_by": null
     }
@@ -174215,7 +174288,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-21T15:34:16+00:00",
+    "last_updated": "2026-06-22T16:33:15+00:00",
     "version": 1
   }
 }

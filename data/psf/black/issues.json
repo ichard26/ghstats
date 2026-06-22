@@ -60482,6 +60482,16 @@
       "created_by": "sahvx655-wq",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5195,
+      "title": "Code quality observations (1 high priority)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-22T15:34:43+00:00",
+      "created_by": "shunfeng8421",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60489,7 +60499,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-21T15:34:14+00:00",
+    "last_updated": "2026-06-22T16:33:13+00:00",
     "version": 1
   }
 }
