@@ -149848,7 +149848,7 @@
       ],
       "is_pr": false,
       "created_at": "2023-06-22T19:37:48+00:00",
-      "created_by": "Keyacom",
+      "created_by": "C-Ezra-M",
       "closed_at": null,
       "closed_by": null
     },
@@ -174267,7 +174267,7 @@
       "is_pr": true,
       "created_at": "2026-06-22T03:32:31+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-06-24T03:33:11+00:00",
       "closed_by": null
     },
     {
@@ -174286,12 +174286,13 @@
       "number": 14100,
       "title": "docs: add topic guide for 'pip install --target' (#12667)",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "resolution: AI policy"
       ],
       "is_pr": true,
       "created_at": "2026-06-23T13:43:29+00:00",
       "created_by": "Dodothereal",
-      "closed_at": null,
+      "closed_at": "2026-06-23T17:36:19+00:00",
       "closed_by": null
     }
   ],
@@ -174300,7 +174301,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-23T15:58:39+00:00",
+    "last_updated": "2026-06-24T15:45:42+00:00",
     "version": 1
   }
 }
