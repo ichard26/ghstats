@@ -57264,7 +57264,7 @@
       "is_pr": true,
       "created_at": "2025-12-06T22:55:40+00:00",
       "created_by": "sudhanvapulv",
-      "closed_at": null,
+      "closed_at": "2026-06-24T18:13:46+00:00",
       "closed_by": null
     },
     {
@@ -58340,7 +58340,7 @@
       "is_pr": true,
       "created_at": "2026-02-20T02:57:03+00:00",
       "created_by": "bysiber",
-      "closed_at": null,
+      "closed_at": "2026-06-24T18:13:29+00:00",
       "closed_by": null
     },
     {
@@ -60323,8 +60323,8 @@
       "is_pr": false,
       "created_at": "2026-06-14T12:24:54+00:00",
       "created_by": "hwhsu1231",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-24T17:28:11+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5180,
@@ -60368,7 +60368,7 @@
       "is_pr": true,
       "created_at": "2026-06-16T11:39:32+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-24T17:55:16+00:00",
       "closed_by": null
     },
     {
@@ -60378,7 +60378,7 @@
       "is_pr": true,
       "created_at": "2026-06-17T08:03:57+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-24T17:34:58+00:00",
       "closed_by": null
     },
     {
@@ -60398,7 +60398,7 @@
       "is_pr": true,
       "created_at": "2026-06-17T14:15:01+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-24T19:19:57+00:00",
       "closed_by": null
     },
     {
@@ -60410,8 +60410,8 @@
       "is_pr": false,
       "created_at": "2026-06-18T20:40:15+00:00",
       "created_by": "LukeShu",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-24T18:14:10+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5188,
@@ -60420,7 +60420,7 @@
       "is_pr": true,
       "created_at": "2026-06-19T12:43:23+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-24T19:40:37+00:00",
       "closed_by": null
     },
     {
@@ -60430,7 +60430,7 @@
       "is_pr": true,
       "created_at": "2026-06-20T04:18:46+00:00",
       "created_by": "sjh9714",
-      "closed_at": null,
+      "closed_at": "2026-06-24T18:14:09+00:00",
       "closed_by": null
     },
     {
@@ -60440,17 +60440,19 @@
       "is_pr": true,
       "created_at": "2026-06-20T10:05:26+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-24T20:33:22+00:00",
       "closed_by": null
     },
     {
       "number": 5191,
       "title": "fix: remove unsafe eval() in conv.py...",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-06-20T12:30:53+00:00",
       "created_by": "orbisai0security",
-      "closed_at": null,
+      "closed_at": "2026-06-24T17:54:26+00:00",
       "closed_by": null
     },
     {
@@ -60480,13 +60482,15 @@
       "is_pr": true,
       "created_at": "2026-06-21T13:07:05+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-24T19:59:38+00:00",
       "closed_by": null
     },
     {
       "number": 5195,
       "title": "Code quality observations (1 high priority)",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": false,
       "created_at": "2026-06-22T15:34:43+00:00",
       "created_by": "shunfeng8421",
@@ -60514,7 +60518,7 @@
       "is_pr": true,
       "created_at": "2026-06-24T06:32:49+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-06-24T18:08:09+00:00",
       "closed_by": null
     },
     {
@@ -60527,7 +60531,7 @@
       "is_pr": true,
       "created_at": "2026-06-24T06:33:12+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-06-24T18:04:41+00:00",
       "closed_by": null
     }
   ],
@@ -60536,7 +60540,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-24T15:45:39+00:00",
+    "last_updated": "2026-06-25T15:51:05+00:00",
     "version": 1
   }
 }
