@@ -60533,6 +60533,26 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2026-06-24T18:04:41+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5199,
+      "title": "avoid quadratic child rescan in append_leaves",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-25T21:04:40+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5200,
+      "title": "Keep nested parens around lambda/ternary comprehension iterables (preview)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-26T07:03:02+00:00",
+      "created_by": "sarathfrancis90",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60540,7 +60560,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-25T15:51:05+00:00",
+    "last_updated": "2026-06-26T15:45:47+00:00",
     "version": 1
   }
 }

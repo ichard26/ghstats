@@ -174328,6 +174328,62 @@
       "created_by": "KRRT7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14104,
+      "title": "fix: use locale.getencoding() on Python 3.11+ to avoid DeprecationWarning",
+      "labels": [
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-25T18:56:10+00:00",
+      "created_by": "driphtyio",
+      "closed_at": "2026-06-26T03:05:55+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14105,
+      "title": "(Perf): Optimize resolver hash-option intersection",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-26T11:30:17+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14106,
+      "title": "perf: Optimize resolver hash option intersection",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-26T11:35:20+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14107,
+      "title": "Optimize uninstall path compaction",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-26T11:51:15+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14108,
+      "title": "perf: Optimize uninstall path compaction",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-26T11:52:06+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -174335,7 +174391,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-25T15:51:18+00:00",
+    "last_updated": "2026-06-26T15:45:51+00:00",
     "version": 1
   }
 }
