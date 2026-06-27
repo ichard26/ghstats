@@ -79194,8 +79194,8 @@
       "is_pr": false,
       "created_at": "2019-02-21T15:03:33+00:00",
       "created_by": "nbecker",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-26T20:19:05+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6284,
@@ -91887,8 +91887,8 @@
       "is_pr": false,
       "created_at": "2019-10-16T11:54:44+00:00",
       "created_by": "gaborbernat",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-26T20:23:55+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 7227,
@@ -172158,8 +172158,8 @@
       "is_pr": false,
       "created_at": "2026-04-15T19:40:34+00:00",
       "created_by": "djhenderson",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-26T21:19:15+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13923,
@@ -172620,7 +172620,7 @@
       "is_pr": true,
       "created_at": "2026-04-29T03:20:04+00:00",
       "created_by": "blackwell-systems",
-      "closed_at": null,
+      "closed_at": "2026-06-26T21:19:14+00:00",
       "closed_by": null
     },
     {
@@ -174384,6 +174384,56 @@
       "created_by": "KRRT7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14109,
+      "title": "strip path separators revealed by unquoting in Link.filename",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-26T15:45:52+00:00",
+      "created_by": "Arawoof06",
+      "closed_at": "2026-06-26T18:29:39+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14110,
+      "title": "Fix Link.filename decoding URL path twice",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-26T17:56:18+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14111,
+      "title": "Use Path.as_uri() over PurePath.as_uri()",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-26T22:16:22+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-06-26T22:26:17+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14112,
+      "title": "Feedback / Suggestion: trust_env should not default to True unconditionally, or allow a way to configure it to False to prevent forced SOCKS dependencies.",
+      "labels": [
+        "C: proxy",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-26T22:32:37+00:00",
+      "created_by": "swoiow",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -174391,7 +174441,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-26T15:45:51+00:00",
+    "last_updated": "2026-06-27T15:27:17+00:00",
     "version": 1
   }
 }
