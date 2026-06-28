@@ -174434,6 +174434,73 @@
       "created_by": "swoiow",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14113,
+      "title": "Should pip use PEP 691 JSON filename when the URL basename is not a filename?",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-27T16:36:08+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14114,
+      "title": "Bump actions/checkout from 6.0.3 to 7.0.0 in the github-actions group",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-27T16:52:37+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-06-27T17:47:45+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14115,
+      "title": "Add five diagnostic connection errors",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-27T19:59:01+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14116,
+      "title": "optimize pip show `--files` handling",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-28T04:35:33+00:00",
+      "created_by": "2ykwang",
+      "closed_at": "2026-06-28T04:35:44+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14117,
+      "title": "pip show command builds the installed-files list even without --files",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-28T05:31:03+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14118,
+      "title": "Skip pip show installed-files list unless --files",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-28T05:39:58+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -174441,7 +174508,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-27T15:27:17+00:00",
+    "last_updated": "2026-06-28T15:28:08+00:00",
     "version": 1
   }
 }
