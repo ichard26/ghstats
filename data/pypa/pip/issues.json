@@ -122028,8 +122028,8 @@
       "is_pr": false,
       "created_at": "2021-03-16T11:03:16+00:00",
       "created_by": "tmr232",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-29T03:30:45+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 9710,
@@ -122472,8 +122472,8 @@
       "is_pr": false,
       "created_at": "2021-03-30T23:32:38+00:00",
       "created_by": "daniel-smith",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-29T03:30:52+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 9747,
@@ -153662,7 +153662,7 @@
       "title": "PEP517 build adds include directory from the original not-isolated environment",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2023-11-29T21:15:16+00:00",
@@ -169914,8 +169914,8 @@
       "labels": [],
       "is_pr": true,
       "created_at": "2025-12-31T16:23:19+00:00",
-      "created_by": "Ahmed-AdelB",
-      "closed_at": null,
+      "created_by": "aadelb",
+      "closed_at": "2026-06-29T01:53:36+00:00",
       "closed_by": null
     },
     {
@@ -174501,6 +174501,42 @@
       "created_by": "2ykwang",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14119,
+      "title": "reject negative Content-Length in _get_http_response_size",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-29T06:25:30+00:00",
+      "created_by": "Arawoof06",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14120,
+      "title": "[codex] Preserve blank link values in equivalence checks",
+      "labels": [
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-29T10:42:31+00:00",
+      "created_by": "kmg0308",
+      "closed_at": "2026-06-29T14:19:52+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14121,
+      "title": "Fix issue #14086",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-29T16:08:41+00:00",
+      "created_by": "archer-cmd",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -174508,7 +174544,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-28T15:28:08+00:00",
+    "last_updated": "2026-06-29T16:17:40+00:00",
     "version": 1
   }
 }

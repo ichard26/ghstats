@@ -60563,6 +60563,30 @@
       "created_by": "valter-silva-au",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5202,
+      "title": "Bump zizmorcore/zizmor-action from 0.5.6 to 0.5.7",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-29T06:32:58+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5203,
+      "title": "[codex] Stream cache file hashing",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-06-29T10:42:28+00:00",
+      "created_by": "kmg0308",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60570,7 +60594,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-27T15:27:15+00:00",
+    "last_updated": "2026-06-29T16:17:37+00:00",
     "version": 1
   }
 }
