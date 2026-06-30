@@ -60541,7 +60541,7 @@
       "is_pr": true,
       "created_at": "2026-06-25T21:04:40+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-06-29T17:59:19+00:00",
       "closed_by": null
     },
     {
@@ -60587,6 +60587,34 @@
       "created_by": "kmg0308",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5205,
+      "title": "Bump actions/cache from 5.0.5 to 6.1.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-30T06:32:15+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5206,
+      "title": "Bump actions/setup-python from 6.2.0 to 6.3.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-30T06:32:51+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60594,7 +60622,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-06-29T16:17:37+00:00",
+    "last_updated": "2026-06-30T15:50:23+00:00",
     "version": 1
   }
 }

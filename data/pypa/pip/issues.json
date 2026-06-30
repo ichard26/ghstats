@@ -82818,8 +82818,8 @@
       "is_pr": false,
       "created_at": "2019-05-29T03:34:03+00:00",
       "created_by": "blueyed",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-30T15:44:55+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 6556,
@@ -174535,6 +174535,53 @@
       "is_pr": true,
       "created_at": "2026-06-29T16:08:41+00:00",
       "created_by": "archer-cmd",
+      "closed_at": "2026-06-29T17:27:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14122,
+      "title": "perf(cache): reuse supported tag set for wheel cache",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-29T18:03:45+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14123,
+      "title": "perf(index): filter find-links entries before url conversion",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-29T18:19:19+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14124,
+      "title": "I'd like to do something that could make things more difficult for typosquatters, what's the best way to commit the code?",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-06-29T19:22:08+00:00",
+      "created_by": "andrew-shvets",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14125,
+      "title": "pip show should give the last installation date",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-06-30T10:19:05+00:00",
+      "created_by": "simonaubertbd",
       "closed_at": null,
       "closed_by": null
     }
@@ -174544,7 +174591,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-29T16:17:40+00:00",
+    "last_updated": "2026-06-30T15:50:28+00:00",
     "version": 1
   }
 }
