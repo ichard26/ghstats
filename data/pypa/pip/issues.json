@@ -35906,8 +35906,7 @@
       "title": "pip will hang asking for the password of an index server even if the output is redirected",
       "labels": [
         "type: bug",
-        "state: awaiting PR",
-        "help wanted"
+        "state: awaiting PR"
       ],
       "is_pr": false,
       "created_at": "2015-06-21T22:02:15+00:00",
@@ -59019,7 +59018,6 @@
       "title": "Speedup startup time",
       "labels": [
         "type: enhancement",
-        "help wanted",
         "type: performance"
       ],
       "is_pr": false,
@@ -85584,8 +85582,7 @@
       "title": "Log debug and informational messages to stderr only",
       "labels": [
         "type: enhancement",
-        "state: awaiting PR",
-        "help wanted"
+        "state: awaiting PR"
       ],
       "is_pr": false,
       "created_at": "2019-07-21T17:33:41+00:00",
@@ -92805,7 +92802,6 @@
       "title": "Speed up build environment creation (re-usable, faster)",
       "labels": [
         "state: needs discussion",
-        "help wanted",
         "C: PEP 517 impact",
         "type: performance"
       ],
@@ -92813,7 +92809,7 @@
       "created_at": "2019-11-04T10:39:19+00:00",
       "created_by": "gaborbernat",
       "closed_at": null,
-      "closed_by": "no-response[bot]"
+      "closed_by": null
     },
     {
       "number": 7295,
@@ -102622,8 +102618,7 @@
       "title": "Add check for `vendored()` calls in `pip/_vendor/__init__.py`",
       "labels": [
         "type: enhancement",
-        "C: automation",
-        "help wanted"
+        "C: automation"
       ],
       "is_pr": false,
       "created_at": "2020-04-14T11:36:41+00:00",
@@ -102807,8 +102802,7 @@
       "labels": [
         "type: bug",
         "C: target",
-        "S: needs triage",
-        "help wanted"
+        "S: needs triage"
       ],
       "is_pr": false,
       "created_at": "2020-04-16T13:29:30+00:00",
@@ -132134,8 +132128,7 @@
       "title": "Error when %TEMP% is a junction to a dir on a letter-less drive",
       "labels": [
         "type: bug",
-        "OS: windows",
-        "help wanted"
+        "OS: windows"
       ],
       "is_pr": false,
       "created_at": "2021-10-18T11:59:18+00:00",
@@ -133262,8 +133255,7 @@
       "title": "Cache responses on the \"other side\" of redirects with status code 303",
       "labels": [
         "type: enhancement",
-        "C: cache",
-        "help wanted"
+        "C: cache"
       ],
       "is_pr": false,
       "created_at": "2021-11-30T18:40:06+00:00",
@@ -140636,7 +140628,6 @@
       "labels": [
         "state: needs discussion",
         "type: feature request",
-        "help wanted",
         "C: error messages",
         "C: install report"
       ],
@@ -150715,8 +150706,7 @@
       "number": 12169,
       "title": "Use GitHub Releases",
       "labels": [
-        "type: feature request",
-        "help wanted"
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2023-07-20T05:11:43+00:00",
@@ -155817,7 +155807,6 @@
       "number": 12589,
       "title": "Performance Issue: Too many hashes in RequirementPreparer",
       "labels": [
-        "help wanted",
         "type: performance"
       ],
       "is_pr": false,
@@ -156810,8 +156799,7 @@
       "title": "there is very little documetation for the --target flag",
       "labels": [
         "type: docs",
-        "C: target",
-        "help wanted"
+        "C: target"
       ],
       "is_pr": false,
       "created_at": "2024-05-01T01:19:33+00:00",
@@ -159825,7 +159813,6 @@
       "title": "Using a private package index with pip 24.2 results in `ValueError: check_hostname requires server_hostname`",
       "labels": [
         "type: bug",
-        "help wanted",
         "C: network connectivity"
       ],
       "is_pr": false,
@@ -161725,14 +161712,13 @@
       "labels": [
         "type: enhancement",
         "C: vcs",
-        "help wanted",
         "type: performance"
       ],
       "is_pr": false,
       "created_at": "2024-10-30T23:22:45+00:00",
       "created_by": "fandreuz",
       "closed_at": null,
-      "closed_by": "notatallshaw"
+      "closed_by": null
     },
     {
       "number": 13061,
@@ -174045,7 +174031,7 @@
     },
     {
       "number": 14080,
-      "title": "fix: skip wheel cache for local directory links",
+      "title": "fix: skip wheel cache for local directory requirements",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -174218,7 +174204,7 @@
       "is_pr": true,
       "created_at": "2026-06-21T16:46:53+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-07-01T01:41:55+00:00",
       "closed_by": null
     },
     {
@@ -174235,14 +174221,14 @@
     },
     {
       "number": 14096,
-      "title": "Improve CI sharding and apply to zipapp",
+      "title": "Improve Windows CI sharding",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2026-06-21T23:30:04+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-07-01T01:42:48+00:00",
       "closed_by": null
     },
     {
@@ -174407,7 +174393,7 @@
       "is_pr": true,
       "created_at": "2026-06-26T17:56:18+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-07-01T01:52:40+00:00",
       "closed_by": null
     },
     {
@@ -174487,8 +174473,8 @@
       "is_pr": false,
       "created_at": "2026-06-28T05:31:03+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-06-30T20:52:21+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14118,
@@ -174499,19 +174485,19 @@
       "is_pr": true,
       "created_at": "2026-06-28T05:39:58+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
+      "closed_at": "2026-06-30T20:52:20+00:00",
       "closed_by": null
     },
     {
       "number": 14119,
-      "title": "reject negative Content-Length in _get_http_response_size",
+      "title": "Ignore negative Content-Length in file downloader",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-06-29T06:25:30+00:00",
       "created_by": "Arawoof06",
-      "closed_at": null,
+      "closed_at": "2026-06-30T20:35:44+00:00",
       "closed_by": null
     },
     {
@@ -174540,14 +174526,14 @@
     },
     {
       "number": 14122,
-      "title": "perf(cache): reuse supported tag set for wheel cache",
+      "title": "perf(cache): use a set of tags for wheel cache lookup",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-06-29T18:03:45+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
+      "closed_at": "2026-06-30T22:58:23+00:00",
       "closed_by": null
     },
     {
@@ -174565,7 +174551,11 @@
     {
       "number": 14124,
       "title": "I'd like to do something that could make things more difficult for typosquatters, what's the best way to commit the code?",
-      "labels": [],
+      "labels": [
+        "type: security",
+        "state: needs discussion",
+        "resolution: needs standard"
+      ],
       "is_pr": false,
       "created_at": "2026-06-29T19:22:08+00:00",
       "created_by": "andrew-shvets",
@@ -174576,12 +174566,77 @@
       "number": 14125,
       "title": "pip show should give the last installation date",
       "labels": [
+        "C: list/show",
+        "state: blocked",
         "type: feature request",
-        "S: needs triage"
+        "resolution: needs standard"
       ],
       "is_pr": false,
       "created_at": "2026-06-30T10:19:05+00:00",
       "created_by": "simonaubertbd",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14126,
+      "title": "docs: document the --target option for pip install",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-30T23:19:51+00:00",
+      "created_by": "NIK-TIGER-BILL",
+      "closed_at": "2026-06-30T23:30:06+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14127,
+      "title": "Fix symlink path traversal in untar fallback",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-01T04:03:16+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14128,
+      "title": "Add update cooldown option to PIP",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-01T10:18:38+00:00",
+      "created_by": "zykogithub",
+      "closed_at": "2026-07-01T10:27:38+00:00",
+      "closed_by": "pfmoore"
+    },
+    {
+      "number": 14129,
+      "title": "`pip list --exclude` can make `--not-required` list dependencies",
+      "labels": [
+        "type: bug",
+        "C: list/show"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-01T10:43:55+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14130,
+      "title": "Fix `pip list --exclude` making `--not-required` list dependencies",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-01T13:35:55+00:00",
+      "created_by": "2ykwang",
       "closed_at": null,
       "closed_by": null
     }
@@ -174591,7 +174646,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-06-30T15:50:28+00:00",
+    "last_updated": "2026-07-01T15:52:02+00:00",
     "version": 1
   }
 }
