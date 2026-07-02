@@ -60711,6 +60711,26 @@
       "created_by": "michaelsam94",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5216,
+      "title": "Potential memory optimizations",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-07-01T18:12:15+00:00",
+      "created_by": "rsb-23",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5217,
+      "title": "Fix typo and macOS capitalization in the basics documentation",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-02T09:11:17+00:00",
+      "created_by": "Divija2612",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60718,7 +60738,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-01T15:51:55+00:00",
+    "last_updated": "2026-07-02T15:45:41+00:00",
     "version": 1
   }
 }
