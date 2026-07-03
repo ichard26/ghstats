@@ -80555,8 +80555,8 @@
       "is_pr": false,
       "created_at": "2019-04-05T06:33:51+00:00",
       "created_by": "andy-maier",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-03T01:26:36+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6386,
@@ -142044,8 +142044,8 @@
       "is_pr": false,
       "created_at": "2022-09-06T17:09:05+00:00",
       "created_by": "uranusjr",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-02T22:43:22+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11437,
@@ -157824,7 +157824,7 @@
       "is_pr": true,
       "created_at": "2024-06-05T17:14:42+00:00",
       "created_by": "jfly",
-      "closed_at": null,
+      "closed_at": "2026-07-03T14:46:14+00:00",
       "closed_by": null
     },
     {
@@ -160166,7 +160166,7 @@
       "is_pr": true,
       "created_at": "2024-08-24T07:17:40+00:00",
       "created_by": "jfly",
-      "closed_at": null,
+      "closed_at": "2026-07-03T14:47:40+00:00",
       "closed_by": null
     },
     {
@@ -173616,8 +173616,8 @@
       "is_pr": false,
       "created_at": "2026-06-09T19:27:52+00:00",
       "created_by": "Jackenmen",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-03T14:46:05+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 14045,
@@ -174038,7 +174038,7 @@
       "is_pr": true,
       "created_at": "2026-06-18T17:40:09+00:00",
       "created_by": "shivamshrey",
-      "closed_at": null,
+      "closed_at": "2026-07-03T14:46:05+00:00",
       "closed_by": null
     },
     {
@@ -174300,8 +174300,8 @@
       "is_pr": false,
       "created_at": "2026-06-25T00:48:31+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-03T00:07:50+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14103,
@@ -174312,7 +174312,7 @@
       "is_pr": true,
       "created_at": "2026-06-25T01:07:55+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
+      "closed_at": "2026-07-02T16:11:09+00:00",
       "closed_by": null
     },
     {
@@ -174624,8 +174624,8 @@
       "is_pr": false,
       "created_at": "2026-07-01T10:43:55+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-02T22:54:03+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14130,
@@ -174636,7 +174636,7 @@
       "is_pr": true,
       "created_at": "2026-07-01T13:35:55+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
+      "closed_at": "2026-07-02T22:54:02+00:00",
       "closed_by": null
     },
     {
@@ -174665,14 +174665,77 @@
     },
     {
       "number": 14133,
-      "title": "Move stdlib_pkgs from utils.compat to metadata.base",
+      "title": "refactor: Move stdlib_pkgs from utils.compat to metadata.base",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2026-07-02T11:23:10+00:00",
       "created_by": "lets-build-an-ocean",
+      "closed_at": "2026-07-02T18:59:11+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14134,
+      "title": "Only warn once per bad-metadata location per pip run",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-02T17:00:06+00:00",
+      "created_by": "lets-build-an-ocean",
+      "closed_at": "2026-07-02T22:43:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14135,
+      "title": "Don't crash on an invalid requirement marker",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-03T00:05:05+00:00",
+      "created_by": "2ykwang",
+      "closed_at": "2026-07-03T01:26:35+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14136,
+      "title": "Option errors print usage with Rich markup unrendered",
+      "labels": [
+        "type: bug",
+        "C: cli"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-03T08:14:01+00:00",
+      "created_by": "2ykwang",
       "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14137,
+      "title": "Remove old versions when upgrading with --target",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-03T08:45:09+00:00",
+      "created_by": "apoorvdarshan",
+      "closed_at": "2026-07-03T15:52:51+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14138,
+      "title": "Fix print_usage() emitting raw Rich markup in option-error output",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-03T14:28:22+00:00",
+      "created_by": "amitmishra11",
+      "closed_at": "2026-07-03T14:33:09+00:00",
       "closed_by": null
     }
   ],
@@ -174681,7 +174744,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-02T15:45:43+00:00",
+    "last_updated": "2026-07-03T16:21:15+00:00",
     "version": 1
   }
 }
