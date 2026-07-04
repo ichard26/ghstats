@@ -146392,7 +146392,7 @@
       "is_pr": true,
       "created_at": "2023-02-20T23:55:22+00:00",
       "created_by": "fabiobarkoski",
-      "closed_at": null,
+      "closed_at": "2026-07-04T01:54:37+00:00",
       "closed_by": null
     },
     {
@@ -162130,8 +162130,8 @@
       "is_pr": false,
       "created_at": "2024-11-27T12:59:28+00:00",
       "created_by": "Luthaf",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-04T13:20:47+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 13094,
@@ -168341,7 +168341,7 @@
       "is_pr": true,
       "created_at": "2025-09-26T05:59:20+00:00",
       "created_by": "pelson",
-      "closed_at": null,
+      "closed_at": "2026-07-04T02:48:36+00:00",
       "closed_by": null
     },
     {
@@ -169325,7 +169325,7 @@
       "is_pr": true,
       "created_at": "2025-12-04T05:41:51+00:00",
       "created_by": "SnoopJ",
-      "closed_at": null,
+      "closed_at": "2026-07-04T01:57:33+00:00",
       "closed_by": null
     },
     {
@@ -171434,7 +171434,7 @@
       "is_pr": true,
       "created_at": "2026-03-19T12:08:45+00:00",
       "created_by": "AlphaRex-pixel",
-      "closed_at": null,
+      "closed_at": "2026-07-04T01:59:35+00:00",
       "closed_by": null
     },
     {
@@ -173053,7 +173053,7 @@
       "is_pr": true,
       "created_at": "2026-05-17T12:40:08+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-07-04T02:25:28+00:00",
       "closed_by": null
     },
     {
@@ -174641,14 +174641,14 @@
     },
     {
       "number": 14131,
-      "title": "verify resume offset against Content-Range before appending",
+      "title": "Verify content-range offset before resuming download",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-07-02T04:11:37+00:00",
       "created_by": "Arawoof06",
-      "closed_at": null,
+      "closed_at": "2026-07-03T20:33:51+00:00",
       "closed_by": null
     },
     {
@@ -174737,6 +174737,99 @@
       "created_by": "amitmishra11",
       "closed_at": "2026-07-03T14:33:09+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14139,
+      "title": "extra != '...' environment markers always evaluate to true",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-07-04T01:45:10+00:00",
+      "created_by": "geofft",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14140,
+      "title": "build(deps): bump the github-actions group with 2 updates",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-04T02:26:35+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-07-04T02:53:47+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14141,
+      "title": "Fix extra marker evaluation for requested extras",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-04T03:35:23+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14142,
+      "title": "Upgrade platformdirs to 4.10.0 ",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-04T05:12:33+00:00",
+      "created_by": "edgarrmondragon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14143,
+      "title": "Render usage through Rich on option errors",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-04T05:23:50+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14144,
+      "title": "Refactor: Memoize editable_project_location",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-04T11:33:18+00:00",
+      "created_by": "lets-build-an-ocean",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14145,
+      "title": "Fix line continuations in requirements files with trailing whitespace after backslash",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-04T11:54:09+00:00",
+      "created_by": "lets-build-an-ocean",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14146,
+      "title": "fix: render Rich markup in option error output",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-04T12:18:11+00:00",
+      "created_by": "mayank-dev-15",
+      "closed_at": "2026-07-04T12:23:34+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -174744,7 +174837,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-03T16:21:15+00:00",
+    "last_updated": "2026-07-04T15:56:44+00:00",
     "version": 1
   }
 }
