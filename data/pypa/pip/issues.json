@@ -76085,8 +76085,8 @@
       "is_pr": false,
       "created_at": "2018-11-29T03:54:46+00:00",
       "created_by": "sakurai-youhei",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-04T18:36:55+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 6048,
@@ -118928,8 +118928,8 @@
       "is_pr": false,
       "created_at": "2021-01-11T20:19:58+00:00",
       "created_by": "karlkaebnick",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-05T02:49:18+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 9445,
@@ -174830,6 +174830,30 @@
       "created_by": "mayank-dev-15",
       "closed_at": "2026-07-04T12:23:34+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14147,
+      "title": "Model extras as a single resolver node",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-04T21:31:41+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14148,
+      "title": "Use --only-binary when locking build dependencies",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-05T08:55:37+00:00",
+      "created_by": "sbidoul",
+      "closed_at": "2026-07-05T14:45:18+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -174837,7 +174861,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-04T15:56:44+00:00",
+    "last_updated": "2026-07-05T16:01:53+00:00",
     "version": 1
   }
 }
