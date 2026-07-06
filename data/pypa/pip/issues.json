@@ -149519,8 +149519,8 @@
       "is_pr": false,
       "created_at": "2023-06-02T15:10:18+00:00",
       "created_by": "jaraco",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-06T16:16:10+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12071,
@@ -149529,7 +149529,7 @@
       "is_pr": true,
       "created_at": "2023-06-02T15:46:46+00:00",
       "created_by": "jaraco",
-      "closed_at": null,
+      "closed_at": "2026-07-06T16:16:10+00:00",
       "closed_by": null
     },
     {
@@ -173912,21 +173912,22 @@
     },
     {
       "number": 14069,
-      "title": "Update PR template",
+      "title": "Update PR template and verify its completion in CI",
       "labels": [
         "skip news"
       ],
       "is_pr": true,
       "created_at": "2026-06-16T11:26:40+00:00",
       "created_by": "sepehr-rs",
-      "closed_at": null,
+      "closed_at": "2026-07-05T20:46:17+00:00",
       "closed_by": null
     },
     {
       "number": 14070,
       "title": "feat: Add a venv-based build environment provider",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-06-17T00:46:35+00:00",
@@ -174071,7 +174072,8 @@
       "number": 14083,
       "title": "Report install errors and failures in JSON format",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-06-19T09:19:46+00:00",
@@ -174130,7 +174132,8 @@
       "number": 14088,
       "title": "perf: cache dependency names in conflict checks",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-06-19T20:00:29+00:00",
@@ -174164,7 +174167,8 @@
       "number": 14091,
       "title": "(maintainability): refactor package details construction",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-06-20T04:13:49+00:00",
@@ -174235,7 +174239,8 @@
       "number": 14097,
       "title": "RFC: Add a new class to deal with some uninstallation issues",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-06-22T01:35:27+00:00",
@@ -174285,7 +174290,8 @@
       "number": 14101,
       "title": "Prioritize editables over matching direct URL requirements",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-06-24T23:02:02+00:00",
@@ -174341,7 +174347,8 @@
       "number": 14106,
       "title": "perf: Optimize resolver hash option intersection",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-06-26T11:35:20+00:00",
@@ -174448,7 +174455,8 @@
       "number": 14115,
       "title": "Add five diagnostic connection errors",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-06-27T19:59:01+00:00",
@@ -174540,7 +174548,8 @@
       "number": 14123,
       "title": "perf(index): filter find-links entries before url conversion",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-06-29T18:19:19+00:00",
@@ -174709,8 +174718,8 @@
       "is_pr": false,
       "created_at": "2026-07-03T08:14:01+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-05T19:06:59+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14137,
@@ -174765,7 +174774,8 @@
       "number": 14141,
       "title": "Fix extra marker evaluation for requested extras",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-07-04T03:35:23+00:00",
@@ -174777,7 +174787,8 @@
       "number": 14142,
       "title": "Upgrade platformdirs to 4.10.0 ",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-07-04T05:12:33+00:00",
@@ -174794,14 +174805,15 @@
       "is_pr": true,
       "created_at": "2026-07-04T05:23:50+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
+      "closed_at": "2026-07-05T19:06:58+00:00",
       "closed_by": null
     },
     {
       "number": 14144,
       "title": "Refactor: Memoize editable_project_location",
       "labels": [
-        "skip news"
+        "skip news",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-07-04T11:33:18+00:00",
@@ -174813,7 +174825,8 @@
       "number": 14145,
       "title": "Fix line continuations in requirements files with trailing whitespace after backslash",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-07-04T11:54:09+00:00",
@@ -174835,12 +174848,14 @@
       "number": 14147,
       "title": "Model extras as a single resolver node",
       "labels": [
-        "bot:chronographer:provided"
+        "project: vendored dependency",
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-07-04T21:31:41+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-07-05T21:01:34+00:00",
       "closed_by": null
     },
     {
@@ -174854,6 +174869,30 @@
       "created_by": "sbidoul",
       "closed_at": "2026-07-05T14:45:18+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14149,
+      "title": "Use locale encoding explicitly for subprocesses",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-06T04:10:10+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-07-06T16:16:09+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14150,
+      "title": "Add support for pulling username from keyring subprocess provider - rebased",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-06T09:39:08+00:00",
+      "created_by": "YakBizzarro",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -174861,7 +174900,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-05T16:01:53+00:00",
+    "last_updated": "2026-07-06T17:38:09+00:00",
     "version": 1
   }
 }
