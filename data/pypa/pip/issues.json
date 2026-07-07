@@ -67126,8 +67126,8 @@
       "is_pr": false,
       "created_at": "2018-05-07T09:54:27+00:00",
       "created_by": "lordyavin",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-07T03:53:38+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 5379,
@@ -101901,8 +101901,8 @@
       "is_pr": false,
       "created_at": "2020-04-06T22:48:26+00:00",
       "created_by": "stefansjs",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-06T22:22:31+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 7992,
@@ -160677,7 +160677,7 @@
       "title": "`sysconfig.get_path` points to venv path when in build-isolation",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2024-09-24T13:51:34+00:00",
@@ -161594,7 +161594,7 @@
     },
     {
       "number": 13051,
-      "title": "Add --no-proxy Option",
+      "title": "feat: Add --no-proxy-env and support --proxy=\"\"",
       "labels": [
         "bot:chronographer:provided",
         "state: up for grabs (PR)"
@@ -161602,7 +161602,7 @@
       "is_pr": true,
       "created_at": "2024-10-27T21:26:38+00:00",
       "created_by": "martinezlc99",
-      "closed_at": null,
+      "closed_at": "2026-07-07T03:53:37+00:00",
       "closed_by": null
     },
     {
@@ -163726,7 +163726,8 @@
       "labels": [
         "type: bug",
         "C: PEP 517 impact",
-        "state: needs eyes"
+        "state: needs eyes",
+        "C: build isolation"
       ],
       "is_pr": false,
       "created_at": "2025-02-14T21:05:02+00:00",
@@ -169121,7 +169122,7 @@
       ],
       "is_pr": false,
       "created_at": "2025-11-22T14:14:37+00:00",
-      "created_by": "Hasan-8326",
+      "created_by": "kari-chiru-naga-hasan22",
       "closed_at": "2026-06-06T19:32:57+00:00",
       "closed_by": "ichard26"
     },
@@ -174810,7 +174811,7 @@
     },
     {
       "number": 14144,
-      "title": "Refactor: Memoize editable_project_location",
+      "title": "perf: Memoize BaseDistribution.editable_project_location",
       "labels": [
         "skip news",
         "skip PR template check"
@@ -174818,7 +174819,7 @@
       "is_pr": true,
       "created_at": "2026-07-04T11:33:18+00:00",
       "created_by": "lets-build-an-ocean",
-      "closed_at": null,
+      "closed_at": "2026-07-06T18:15:01+00:00",
       "closed_by": null
     },
     {
@@ -174831,7 +174832,7 @@
       "is_pr": true,
       "created_at": "2026-07-04T11:54:09+00:00",
       "created_by": "lets-build-an-ocean",
-      "closed_at": null,
+      "closed_at": "2026-07-06T18:37:06+00:00",
       "closed_by": null
     },
     {
@@ -174893,6 +174894,54 @@
       "created_by": "YakBizzarro",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14151,
+      "title": "chore: Remove req_file.py unneeded TODO",
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-06T18:29:43+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-07-06T18:41:08+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14152,
+      "title": "pre-commit autoupdate",
+      "labels": [
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-06T18:51:50+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2026-07-06T19:50:35+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14153,
+      "title": "test: Spawn subprocess directly for git commits",
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-06T21:12:18+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14154,
+      "title": "Refactor: Extract shared URL fetch logic into fetch_url_content",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-07T08:49:02+00:00",
+      "created_by": "lets-build-an-ocean",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -174900,7 +174949,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-06T17:38:09+00:00",
+    "last_updated": "2026-07-07T17:07:56+00:00",
     "version": 1
   }
 }

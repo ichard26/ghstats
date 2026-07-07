@@ -60336,7 +60336,7 @@
       "is_pr": true,
       "created_at": "2026-06-15T06:33:06+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-07-07T06:32:46+00:00",
       "closed_by": null
     },
     {
@@ -60824,6 +60824,29 @@
       "created_by": "ivanpu",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5226,
+      "title": "Bump wcwidth from 0.2.14 to 0.8.2",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-07T06:32:43+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5227,
+      "title": "fix: initialize Leaf.bracket_depth in __init__",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-07T09:29:03+00:00",
+      "created_by": "muhamedfazalps",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60831,7 +60854,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-06T17:38:03+00:00",
+    "last_updated": "2026-07-07T17:07:52+00:00",
     "version": 1
   }
 }
