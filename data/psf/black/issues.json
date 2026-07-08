@@ -60847,6 +60847,20 @@
       "created_by": "muhamedfazalps",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5228,
+      "title": "Bump docker/build-push-action from 7.2.0 to 7.3.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-08T06:32:57+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60854,7 +60868,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-07T17:07:52+00:00",
+    "last_updated": "2026-07-08T16:26:10+00:00",
     "version": 1
   }
 }

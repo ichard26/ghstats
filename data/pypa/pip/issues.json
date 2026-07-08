@@ -132128,7 +132128,8 @@
       "title": "Error when %TEMP% is a junction to a dir on a letter-less drive",
       "labels": [
         "type: bug",
-        "OS: windows"
+        "OS: windows",
+        "resolution: wrong project"
       ],
       "is_pr": false,
       "created_at": "2021-10-18T11:59:18+00:00",
@@ -132590,8 +132591,8 @@
       "is_pr": false,
       "created_at": "2021-11-04T20:24:07+00:00",
       "created_by": "paugier",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-07T23:56:14+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 10636,
@@ -146417,8 +146418,8 @@
       "is_pr": false,
       "created_at": "2023-02-22T11:35:46+00:00",
       "created_by": "abravalheri",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-07T23:56:14+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11813,
@@ -153657,8 +153658,8 @@
       "is_pr": false,
       "created_at": "2023-11-29T21:15:16+00:00",
       "created_by": "dimbleby",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-07T23:56:13+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12420,
@@ -160682,8 +160683,8 @@
       "is_pr": false,
       "created_at": "2024-09-24T13:51:34+00:00",
       "created_by": "LecrisUT",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-07T23:56:13+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12977,
@@ -163732,8 +163733,8 @@
       "is_pr": false,
       "created_at": "2025-02-14T21:05:02+00:00",
       "created_by": "XuehaiPan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-07T23:56:13+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13223,
@@ -173933,7 +173934,7 @@
       "is_pr": true,
       "created_at": "2026-06-17T00:46:35+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-07-07T23:56:12+00:00",
       "closed_by": null
     },
     {
@@ -174006,6 +174007,18 @@
       "created_by": "yishenmao",
       "closed_at": "2026-06-22T09:30:30+00:00",
       "closed_by": "yishenmao"
+    },
+    {
+      "number": 14077,
+      "title": "docs: update install metadata description",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-06-18T10:23:15+00:00",
+      "created_by": "zaidazmi",
+      "closed_at": "2026-06-22T08:23:34+00:00",
+      "closed_by": null
     },
     {
       "number": 14078,
@@ -174794,7 +174807,7 @@
       "is_pr": true,
       "created_at": "2026-07-04T05:12:33+00:00",
       "created_by": "edgarrmondragon",
-      "closed_at": null,
+      "closed_at": "2026-07-08T00:38:55+00:00",
       "closed_by": null
     },
     {
@@ -174940,6 +174953,18 @@
       "is_pr": true,
       "created_at": "2026-07-07T08:49:02+00:00",
       "created_by": "lets-build-an-ocean",
+      "closed_at": "2026-07-07T19:18:37+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14155,
+      "title": "fix(cli): preserve display output with --quiet",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-08T01:17:46+00:00",
+      "created_by": "ychampion",
       "closed_at": null,
       "closed_by": null
     }
@@ -174949,7 +174974,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-07T17:07:56+00:00",
+    "last_updated": "2026-07-08T16:26:12+00:00",
     "version": 1
   }
 }
