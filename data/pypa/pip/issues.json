@@ -140394,8 +140394,8 @@
       "is_pr": false,
       "created_at": "2022-07-24T00:31:15+00:00",
       "created_by": "ofek",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-10T04:20:50+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11297,
@@ -174973,6 +174973,77 @@
       "created_by": "ychampion",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14156,
+      "title": "Validate tar link targets after filter fallback",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-09T19:53:50+00:00",
+      "created_by": "M0nd0R",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14157,
+      "title": "docs: document self-referential extras & add relevant test case",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-09T23:42:27+00:00",
+      "created_by": "Trenza1ore",
+      "closed_at": "2026-07-10T04:20:49+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14158,
+      "title": "Prefer X-Error-Message header over HTTP reason phrase in raise_for_status",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-10T05:18:17+00:00",
+      "created_by": "bunbun79",
+      "closed_at": "2026-07-10T05:22:08+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14159,
+      "title": "reject cross-location paths in pylock files fetched from a URL",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-10T07:36:33+00:00",
+      "created_by": "Arawoof06",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14160,
+      "title": "Extend regression test on self-referential extras",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-07-10T16:12:46+00:00",
+      "created_by": "Trenza1ore",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14161,
+      "title": "test: extend regression test on self-referential extras",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-10T16:25:21+00:00",
+      "created_by": "Trenza1ore",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -174980,7 +175051,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-09T17:16:12+00:00",
+    "last_updated": "2026-07-10T16:50:56+00:00",
     "version": 1
   }
 }

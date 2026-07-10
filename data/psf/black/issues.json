@@ -60873,7 +60873,7 @@
       "is_pr": true,
       "created_at": "2026-07-09T06:33:45+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-07-10T06:32:43+00:00",
       "closed_by": null
     },
     {
@@ -60889,6 +60889,20 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5231,
+      "title": "Bump docker/login-action from 4.2.0 to 4.4.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-10T06:32:40+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -60896,7 +60910,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-09T17:16:08+00:00",
+    "last_updated": "2026-07-10T16:50:52+00:00",
     "version": 1
   }
 }
