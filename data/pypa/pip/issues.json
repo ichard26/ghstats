@@ -120122,8 +120122,8 @@
       "is_pr": false,
       "created_at": "2021-02-02T19:23:34+00:00",
       "created_by": "MiningMarsh",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-10T19:04:51+00:00",
+      "closed_by": "pradyunsg"
     },
     {
       "number": 9550,
@@ -158797,8 +158797,8 @@
       "is_pr": false,
       "created_at": "2024-07-05T07:36:59+00:00",
       "created_by": "MAKOMO",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-11T04:13:45+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12826,
@@ -175015,7 +175015,9 @@
       "number": 14159,
       "title": "reject cross-location paths in pylock files fetched from a URL",
       "labels": [
-        "bot:chronographer:provided"
+        "type: bug",
+        "bot:chronographer:provided",
+        "C: lockfile"
       ],
       "is_pr": true,
       "created_at": "2026-07-10T07:36:33+00:00",
@@ -175044,6 +175046,54 @@
       "created_by": "Trenza1ore",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14162,
+      "title": "restrict AdjacentTempDirectory to owner-only permissions",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-11T06:38:34+00:00",
+      "created_by": "Arawoof06",
+      "closed_at": "2026-07-11T09:15:38+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14163,
+      "title": "Allow opting out of Git partial clones",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-11T06:45:23+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14164,
+      "title": "Update security policy",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-11T13:33:58+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14165,
+      "title": "Refactor -r pylock.toml, support release control and dependency cooldown",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-11T14:04:40+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175051,7 +175101,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-10T16:50:56+00:00",
+    "last_updated": "2026-07-11T15:49:18+00:00",
     "version": 1
   }
 }
