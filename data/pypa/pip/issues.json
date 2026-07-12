@@ -172883,8 +172883,8 @@
       "is_pr": false,
       "created_at": "2026-05-06T08:53:35+00:00",
       "created_by": "dewankpant",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-11T19:02:36+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13984,
@@ -172982,7 +172982,7 @@
       "is_pr": true,
       "created_at": "2026-05-14T18:49:31+00:00",
       "created_by": "dewankpant",
-      "closed_at": null,
+      "closed_at": "2026-07-11T19:02:05+00:00",
       "closed_by": null
     },
     {
@@ -175080,7 +175080,7 @@
       "is_pr": true,
       "created_at": "2026-07-11T13:33:58+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-07-11T19:42:36+00:00",
       "closed_by": null
     },
     {
@@ -175094,6 +175094,54 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14166,
+      "title": "build(deps): bump the github-actions group with 2 updates",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-11T16:52:45+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-07-11T17:30:45+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14167,
+      "title": "Correct capitalisation of the pip project name",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-11T20:22:55+00:00",
+      "created_by": "pfmoore",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14168,
+      "title": "Support pylock upload_time field with --uploaded-prior-to",
+      "labels": [
+        "type: enhancement",
+        "C: lockfile"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-12T11:02:35+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14169,
+      "title": "Add a `--no-require-hashes` option",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-07-12T13:52:29+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175101,7 +175149,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-11T15:49:18+00:00",
+    "last_updated": "2026-07-12T15:53:48+00:00",
     "version": 1
   }
 }
