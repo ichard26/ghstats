@@ -26415,8 +26415,8 @@
       "is_pr": false,
       "created_at": "2021-05-31T14:39:35+00:00",
       "created_by": "cooperlees",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-13T00:57:55+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2292,
@@ -60795,7 +60795,7 @@
       "is_pr": true,
       "created_at": "2026-07-05T08:03:26+00:00",
       "created_by": "vaibhavxlr",
-      "closed_at": null,
+      "closed_at": "2026-07-13T00:57:54+00:00",
       "closed_by": null
     },
     {
@@ -60809,7 +60809,7 @@
       "is_pr": true,
       "created_at": "2026-07-06T06:32:25+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-07-13T00:37:34+00:00",
       "closed_by": null
     },
     {
@@ -60859,7 +60859,7 @@
       "is_pr": true,
       "created_at": "2026-07-08T06:32:57+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-07-13T00:40:28+00:00",
       "closed_by": null
     },
     {
@@ -60887,7 +60887,7 @@
       "is_pr": true,
       "created_at": "2026-07-09T06:34:07+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-07-13T00:40:36+00:00",
       "closed_by": null
     },
     {
@@ -60901,7 +60901,7 @@
       "is_pr": true,
       "created_at": "2026-07-10T06:32:40+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-07-13T00:40:52+00:00",
       "closed_by": null
     },
     {
@@ -60910,6 +60910,36 @@
       "labels": [],
       "is_pr": true,
       "created_at": "2026-07-12T15:45:07+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": "2026-07-13T00:45:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5233,
+      "title": "Add clarifying comment near bracket depth logic",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-13T08:23:41+00:00",
+      "created_by": "Faraax66",
+      "closed_at": "2026-07-13T08:27:24+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5234,
+      "title": "Add clarifying comment near bracket depth logic",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-13T08:32:53+00:00",
+      "created_by": "Faraax66",
+      "closed_at": "2026-07-13T08:34:03+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5235,
+      "title": "avoid quadratic tree traversal in pre_order/post_order/leaves",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-13T16:34:29+00:00",
       "created_by": "sahvx655-wq",
       "closed_at": null,
       "closed_by": null
@@ -60920,7 +60950,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-12T15:53:46+00:00",
+    "last_updated": "2026-07-13T17:09:23+00:00",
     "version": 1
   }
 }
