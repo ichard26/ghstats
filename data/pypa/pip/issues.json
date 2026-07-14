@@ -80259,8 +80259,8 @@
       "is_pr": false,
       "created_at": "2019-03-28T19:54:39+00:00",
       "created_by": "vikingsloth",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-14T01:44:03+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6365,
@@ -174478,7 +174478,7 @@
       "is_pr": true,
       "created_at": "2026-06-27T19:59:01+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-07-14T01:18:07+00:00",
       "closed_by": null
     },
     {
@@ -175166,6 +175166,44 @@
       "created_by": "Arawoof06",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14172,
+      "title": "Add test for preserving legacy script executable bit on Unix",
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-14T01:43:28+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14173,
+      "title": "chore: Use list for pytest parametrize values",
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-14T02:00:34+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14174,
+      "title": "reject file:// urls in pylock packages fetched from a URL",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-14T11:49:45+00:00",
+      "created_by": "Arawoof06",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175173,7 +175211,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-13T17:09:32+00:00",
+    "last_updated": "2026-07-14T16:09:28+00:00",
     "version": 1
   }
 }
