@@ -175117,7 +175117,7 @@
       "is_pr": true,
       "created_at": "2026-07-11T20:22:55+00:00",
       "created_by": "pfmoore",
-      "closed_at": null,
+      "closed_at": "2026-07-14T17:18:38+00:00",
       "closed_by": null
     },
     {
@@ -175177,7 +175177,7 @@
       "is_pr": true,
       "created_at": "2026-07-14T01:43:28+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-07-14T22:16:00+00:00",
       "closed_by": null
     },
     {
@@ -175190,7 +175190,7 @@
       "is_pr": true,
       "created_at": "2026-07-14T02:00:34+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-07-14T22:15:12+00:00",
       "closed_by": null
     },
     {
@@ -175204,6 +175204,58 @@
       "created_by": "Arawoof06",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14175,
+      "title": "Running pip directly failed after installing legacy versions of `setuptools`",
+      "labels": [
+        "type: bug",
+        "project: setuptools",
+        "resolution: wrong project"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-14T17:08:57+00:00",
+      "created_by": "Chao-Freeman",
+      "closed_at": "2026-07-14T22:36:30+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "number": 14176,
+      "title": "refactor: Split exceptions into a package",
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-15T03:25:38+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14177,
+      "title": "'pip index versions' never prints the `(latest)` marker",
+      "labels": [
+        "type: bug",
+        "C: index"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-15T08:40:05+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14178,
+      "title": "Fix 'pip index versions' never printing the (latest) marker",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-15T12:28:58+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175211,7 +175263,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-14T16:09:28+00:00",
+    "last_updated": "2026-07-15T16:15:33+00:00",
     "version": 1
   }
 }
