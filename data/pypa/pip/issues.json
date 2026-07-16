@@ -175256,6 +175256,30 @@
       "created_by": "2ykwang",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14179,
+      "title": "Propagate SSL context to HTTPS proxy connections too",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-16T12:14:08+00:00",
+      "created_by": "pctablet505",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14180,
+      "title": "config: fix potential shell injection in editor invocation",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-16T14:01:45+00:00",
+      "created_by": "Karticoder",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175263,7 +175287,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-15T16:15:33+00:00",
+    "last_updated": "2026-07-16T16:12:56+00:00",
     "version": 1
   }
 }
