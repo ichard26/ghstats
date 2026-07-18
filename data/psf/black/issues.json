@@ -60987,7 +60987,9 @@
     {
       "number": 5240,
       "title": "docs: clarify GitHub Action pyproject.toml version lookup for Poetry users",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-07-15T18:02:35+00:00",
       "created_by": "pctablet505",
@@ -61003,6 +61005,46 @@
       "created_by": "l46983284-cpu",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5242,
+      "title": "avoid quadratic leaf re-adding in get_leaves_inside_matching_brackets",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-17T18:31:59+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5243,
+      "title": "Magic trailing comma does not explode a type-parameter list containing *TypeVarTuple / **ParamSpec",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-07-18T05:59:27+00:00",
+      "created_by": "Emilianocarfu88",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5244,
+      "title": "Respect the magic trailing comma in starred type parameter lists",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-18T07:24:05+00:00",
+      "created_by": "dchaudhari7177",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5245,
+      "title": "Add test coverage for Python 3.12+ type params and PEP 701 f-strings",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-18T08:57:54+00:00",
+      "created_by": "Emilianocarfu88",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61010,7 +61052,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-17T16:09:32+00:00",
+    "last_updated": "2026-07-18T15:50:24+00:00",
     "version": 1
   }
 }
