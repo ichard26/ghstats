@@ -166736,8 +166736,8 @@
       "is_pr": false,
       "created_at": "2025-07-07T16:57:57+00:00",
       "created_by": "usiems",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-19T02:25:48+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13466,
@@ -171819,8 +171819,8 @@
       "is_pr": false,
       "created_at": "2026-04-07T12:37:52+00:00",
       "created_by": "stefan6419846",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-19T02:33:01+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13895,
@@ -175266,7 +175266,7 @@
       "is_pr": true,
       "created_at": "2026-07-16T12:14:08+00:00",
       "created_by": "pctablet505",
-      "closed_at": null,
+      "closed_at": "2026-07-19T02:34:31+00:00",
       "closed_by": null
     },
     {
@@ -175341,7 +175341,7 @@
       "is_pr": true,
       "created_at": "2026-07-18T06:54:09+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
+      "closed_at": "2026-07-19T02:14:18+00:00",
       "closed_by": null
     },
     {
@@ -175368,6 +175368,28 @@
       "created_by": "sbidoul",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14188,
+      "title": "Error while checking for conflicts",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-18T16:39:12+00:00",
+      "created_by": "LilithHafner",
+      "closed_at": "2026-07-18T17:22:31+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 14189,
+      "title": "pip list outdated does not respect --uploaded-prior-to option",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-07-19T15:50:49+00:00",
+      "created_by": "AndiEcker",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175375,7 +175397,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-18T15:50:27+00:00",
+    "last_updated": "2026-07-19T15:51:50+00:00",
     "version": 1
   }
 }
