@@ -37051,8 +37051,8 @@
       "is_pr": false,
       "created_at": "2015-08-05T22:10:15+00:00",
       "created_by": "aburgm",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-20T05:28:56+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 3014,
@@ -175384,10 +175384,62 @@
     {
       "number": 14189,
       "title": "pip list outdated does not respect --uploaded-prior-to option",
-      "labels": [],
+      "labels": [
+        "type: bug",
+        "C: list/show"
+      ],
       "is_pr": false,
       "created_at": "2026-07-19T15:50:49+00:00",
       "created_by": "AndiEcker",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14190,
+      "title": "Respect --uploaded-prior-to in pip list",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-19T17:50:55+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14191,
+      "title": "Can't install PyQt6 on ARM Alpine-Linux system",
+      "labels": [
+        "resolution: not a bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-20T07:00:34+00:00",
+      "created_by": "oleksiidn",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14192,
+      "title": "Ensure get_prog falls back to \"pip\" when sys.argv[0] is empty",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-20T08:41:06+00:00",
+      "created_by": "Karticoder",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14193,
+      "title": "The \"no matching distributions\" hint is shown for packages that are installable",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-20T14:50:57+00:00",
+      "created_by": "2ykwang",
       "closed_at": null,
       "closed_by": null
     }
@@ -175397,7 +175449,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-19T15:51:50+00:00",
+    "last_updated": "2026-07-20T16:20:29+00:00",
     "version": 1
   }
 }
