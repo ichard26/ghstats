@@ -175427,7 +175427,7 @@
       "is_pr": true,
       "created_at": "2026-07-20T08:41:06+00:00",
       "created_by": "Karticoder",
-      "closed_at": null,
+      "closed_at": "2026-07-21T06:32:01+00:00",
       "closed_by": null
     },
     {
@@ -175442,6 +175442,44 @@
       "created_by": "2ykwang",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14194,
+      "title": "Fix the no-matching-distributions message being shown for installable packages",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-21T01:06:18+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14195,
+      "title": "Prioritize editables over matching direct URL requirements + support editable constraints",
+      "labels": [
+        "bot:chronographer:provided",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-21T03:03:00+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14196,
+      "title": "Package Metadata Corruption",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-21T15:42:28+00:00",
+      "created_by": "sambo22",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175449,7 +175487,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-20T16:20:29+00:00",
+    "last_updated": "2026-07-21T16:18:49+00:00",
     "version": 1
   }
 }

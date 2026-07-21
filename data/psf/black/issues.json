@@ -43688,8 +43688,8 @@
       "is_pr": false,
       "created_at": "2023-05-24T19:36:43+00:00",
       "created_by": "Zac-HD",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-21T00:54:33+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3702,
@@ -51451,8 +51451,8 @@
       "is_pr": false,
       "created_at": "2024-05-18T17:15:42+00:00",
       "created_by": "hachimada",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-21T00:04:33+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4368,
@@ -60551,7 +60551,7 @@
       "is_pr": true,
       "created_at": "2026-06-26T07:03:02+00:00",
       "created_by": "sarathfrancis90",
-      "closed_at": null,
+      "closed_at": "2026-07-21T00:51:09+00:00",
       "closed_by": null
     },
     {
@@ -60941,7 +60941,7 @@
       "is_pr": true,
       "created_at": "2026-07-13T16:34:29+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-07-20T23:43:55+00:00",
       "closed_by": null
     },
     {
@@ -60981,7 +60981,7 @@
       "is_pr": true,
       "created_at": "2026-07-15T12:21:31+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-07-21T00:04:43+00:00",
       "closed_by": null
     },
     {
@@ -60993,7 +60993,7 @@
       "is_pr": true,
       "created_at": "2026-07-15T18:02:35+00:00",
       "created_by": "pctablet505",
-      "closed_at": null,
+      "closed_at": "2026-07-21T00:04:32+00:00",
       "closed_by": null
     },
     {
@@ -61003,7 +61003,7 @@
       "is_pr": true,
       "created_at": "2026-07-17T11:33:46+00:00",
       "created_by": "l46983284-cpu",
-      "closed_at": null,
+      "closed_at": "2026-07-21T00:54:32+00:00",
       "closed_by": null
     },
     {
@@ -61013,7 +61013,7 @@
       "is_pr": true,
       "created_at": "2026-07-17T18:31:59+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-07-21T00:25:58+00:00",
       "closed_by": null
     },
     {
@@ -61023,8 +61023,8 @@
       "is_pr": false,
       "created_at": "2026-07-18T05:59:27+00:00",
       "created_by": "Emilianocarfu88",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-21T00:51:55+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5244,
@@ -61033,16 +61033,28 @@
       "is_pr": true,
       "created_at": "2026-07-18T07:24:05+00:00",
       "created_by": "dchaudhari7177",
-      "closed_at": null,
+      "closed_at": "2026-07-21T00:51:54+00:00",
       "closed_by": null
     },
     {
       "number": 5245,
       "title": "Add test coverage for Python 3.12+ type params and PEP 701 f-strings",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-07-18T08:57:54+00:00",
       "created_by": "Emilianocarfu88",
+      "closed_at": "2026-07-21T00:36:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5246,
+      "title": "Preserve single-element tuple comma under --skip-magic-trailing-comma",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-21T07:57:10+00:00",
+      "created_by": "sarathfrancis90",
       "closed_at": null,
       "closed_by": null
     }
@@ -61052,7 +61064,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-18T15:50:24+00:00",
+    "last_updated": "2026-07-21T16:18:37+00:00",
     "version": 1
   }
 }
