@@ -175445,7 +175445,7 @@
     },
     {
       "number": 14194,
-      "title": "Fix the no-matching-distributions message being shown for installable packages",
+      "title": "Fix the 'no matching distributions' message being shown for installable packages",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -175487,7 +175487,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-21T16:18:49+00:00",
+    "last_updated": "2026-07-22T16:16:16+00:00",
     "version": 1
   }
 }

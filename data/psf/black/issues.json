@@ -60822,8 +60822,8 @@
       "is_pr": false,
       "created_at": "2026-07-06T12:15:39+00:00",
       "created_by": "ivanpu",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-21T22:22:55+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5226,
@@ -60971,7 +60971,7 @@
       "is_pr": true,
       "created_at": "2026-07-15T01:30:15+00:00",
       "created_by": "sjh9714",
-      "closed_at": null,
+      "closed_at": "2026-07-21T22:22:54+00:00",
       "closed_by": null
     },
     {
@@ -61055,6 +61055,74 @@
       "is_pr": true,
       "created_at": "2026-07-21T07:57:10+00:00",
       "created_by": "sarathfrancis90",
+      "closed_at": "2026-07-21T21:43:21+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5247,
+      "title": "Bump mypy to 2.3.0",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-21T21:48:47+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5248,
+      "title": "Bump prettier to 3.9.6",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-21T22:16:38+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-07-21T22:23:58+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5249,
+      "title": "With --target-version py314, Black strips parentheses from `except (A, B):` producing invalid Python 3",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-07-22T03:11:12+00:00",
+      "created_by": "ericz7900",
+      "closed_at": "2026-07-22T03:55:50+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 5250,
+      "title": "Bump zizmorcore/zizmor-action from 0.5.7 to 0.6.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-22T06:33:05+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5251,
+      "title": "Fix NoReturn import compatibility",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-22T09:02:51+00:00",
+      "created_by": "vtino17",
+      "closed_at": "2026-07-22T12:54:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5252,
+      "title": "Prefer splitting whole boolean conditions",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-22T15:22:46+00:00",
+      "created_by": "zhangli091011",
       "closed_at": null,
       "closed_by": null
     }
@@ -61064,7 +61132,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-21T16:18:37+00:00",
+    "last_updated": "2026-07-22T16:16:09+00:00",
     "version": 1
   }
 }
