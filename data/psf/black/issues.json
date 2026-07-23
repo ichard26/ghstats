@@ -61125,6 +61125,55 @@
       "created_by": "zhangli091011",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5253,
+      "title": "docs: fix grammar typo '.pyi file that are' -> '.pyi files that are' \u2026",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-22T17:03:19+00:00",
+      "created_by": "LaRoyBot",
+      "closed_at": "2026-07-22T17:33:45+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5254,
+      "title": "Bump cibuildwheel to 4.1.0",
+      "labels": [
+        "ci: skip news",
+        "ci: build all wheels"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-22T20:30:45+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5255,
+      "title": "Bump myst-parser to 5.1.0",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-22T20:43:56+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5256,
+      "title": "Spectre ghost Reconciliation animation",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-23T03:42:01+00:00",
+      "created_by": "Tsims61",
+      "closed_at": "2026-07-23T04:00:53+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -61132,7 +61181,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-22T16:16:09+00:00",
+    "last_updated": "2026-07-23T16:22:04+00:00",
     "version": 1
   }
 }
