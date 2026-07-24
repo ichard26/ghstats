@@ -143622,8 +143622,8 @@
       "is_pr": false,
       "created_at": "2022-11-03T11:44:28+00:00",
       "created_by": "vanschelven",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-24T15:22:04+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 11573,
@@ -148281,7 +148281,8 @@
       "title": "Validate VCS urls in hash-checking mode using their commit hashes",
       "labels": [
         "C: vcs",
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "state: up for grabs (PR)"
       ],
       "is_pr": true,
       "created_at": "2023-04-16T14:13:20+00:00",
@@ -175480,6 +175481,31 @@
       "created_by": "sambo22",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14197,
+      "title": "Fix a typo in the email address in SECURITY.md ",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-23T17:20:06+00:00",
+      "created_by": "archer-cmd",
+      "closed_at": "2026-07-23T17:22:12+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14198,
+      "title": "ci: Attempt to reduce winget flakiness",
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-23T20:12:36+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-07-23T20:25:03+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -175487,7 +175513,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-23T16:22:09+00:00",
+    "last_updated": "2026-07-24T16:35:14+00:00",
     "version": 1
   }
 }
