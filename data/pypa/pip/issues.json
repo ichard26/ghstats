@@ -62113,8 +62113,8 @@
       "is_pr": false,
       "created_at": "2018-01-25T08:55:48+00:00",
       "created_by": "jedie",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-24T18:54:17+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 4996,
@@ -114751,7 +114751,8 @@
       "number": 9082,
       "title": "--find-link urls are not cached",
       "labels": [
-        "C: finder"
+        "C: finder",
+        "type: performance"
       ],
       "is_pr": false,
       "created_at": "2020-11-01T12:06:27+00:00",
@@ -115020,8 +115021,8 @@
       "is_pr": false,
       "created_at": "2020-11-05T11:22:22+00:00",
       "created_by": "wingsoflight",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-25T04:04:50+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9106,
@@ -133814,8 +133815,8 @@
       "is_pr": false,
       "created_at": "2021-12-21T15:03:51+00:00",
       "created_by": "jaraco",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-25T03:39:38+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 10740,
@@ -140500,8 +140501,8 @@
       "is_pr": false,
       "created_at": "2022-07-25T13:00:16+00:00",
       "created_by": "JakobDev",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-25T09:20:50+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 11306,
@@ -148287,7 +148288,7 @@
       "is_pr": true,
       "created_at": "2023-04-16T14:13:20+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-07-24T18:54:18+00:00",
       "closed_by": null
     },
     {
@@ -165166,8 +165167,8 @@
       "is_pr": false,
       "created_at": "2025-04-18T17:12:10+00:00",
       "created_by": "Redict",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-25T04:18:53+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13340,
@@ -169397,7 +169398,7 @@
       "title": "ctypes is a hard dependency on windows",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "project: vendored dependency"
       ],
       "is_pr": false,
       "created_at": "2025-12-08T12:15:04+00:00",
@@ -169656,8 +169657,8 @@
       "is_pr": false,
       "created_at": "2025-12-20T06:04:15+00:00",
       "created_by": "howardhey",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-25T03:43:08+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13709,
@@ -171832,7 +171833,7 @@
       "is_pr": true,
       "created_at": "2026-04-07T19:19:58+00:00",
       "created_by": "shoeffner",
-      "closed_at": null,
+      "closed_at": "2026-07-24T19:59:02+00:00",
       "closed_by": null
     },
     {
@@ -172402,8 +172403,8 @@
       "is_pr": false,
       "created_at": "2026-04-24T17:05:28+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-24T18:54:17+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13944,
@@ -172415,8 +172416,8 @@
       "is_pr": false,
       "created_at": "2026-04-24T17:07:23+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-24T18:54:17+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13945,
@@ -172542,7 +172543,7 @@
     },
     {
       "number": 13955,
-      "title": "Add --force-metadata-refresh and respect max age cache control",
+      "title": "Respect cache-control header for simple responses + add --refresh-package",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -172711,7 +172712,7 @@
       "is_pr": true,
       "created_at": "2026-05-02T11:30:35+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-07-25T09:12:22+00:00",
       "closed_by": null
     },
     {
@@ -174443,8 +174444,8 @@
       "is_pr": false,
       "created_at": "2026-06-26T22:32:37+00:00",
       "created_by": "swoiow",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-25T03:33:27+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14113,
@@ -175088,7 +175089,8 @@
       "number": 14165,
       "title": "Refactor -r pylock.toml, support release control and dependency cooldown",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "C: lockfile"
       ],
       "is_pr": true,
       "created_at": "2026-07-11T14:04:40+00:00",
@@ -175141,8 +175143,8 @@
       "is_pr": false,
       "created_at": "2026-07-12T13:52:29+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-24T18:54:16+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14170,
@@ -175355,14 +175357,15 @@
       "is_pr": true,
       "created_at": "2026-07-18T10:46:56+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-07-24T18:54:15+00:00",
       "closed_by": null
     },
     {
       "number": 14187,
       "title": "Finalize support for `--no-binary` with `-r pylock.toml`",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "C: lockfile"
       ],
       "is_pr": true,
       "created_at": "2026-07-18T12:41:26+00:00",
@@ -175392,8 +175395,8 @@
       "is_pr": false,
       "created_at": "2026-07-19T15:50:49+00:00",
       "created_by": "AndiEcker",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-25T03:17:00+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14190,
@@ -175404,7 +175407,7 @@
       "is_pr": true,
       "created_at": "2026-07-19T17:50:55+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-07-25T03:16:59+00:00",
       "closed_by": null
     },
     {
@@ -175506,6 +175509,57 @@
       "created_by": "ichard26",
       "closed_at": "2026-07-23T20:25:03+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14199,
+      "title": "fix: Respect --(only|prefer|no)-binary in pip list",
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-25T03:19:53+00:00",
+      "created_by": "ichard26",
+      "closed_at": "2026-07-25T03:31:35+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14200,
+      "title": "Documented XDG variables don't work on macOS",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-25T07:50:23+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14201,
+      "title": "Fix typo in docs",
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-25T09:29:31+00:00",
+      "created_by": "sbidoul",
+      "closed_at": "2026-07-25T11:49:18+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14202,
+      "title": "Refactor _strip_extras()",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-25T13:30:30+00:00",
+      "created_by": "sbidoul",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175513,7 +175567,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-24T16:35:14+00:00",
+    "last_updated": "2026-07-25T15:59:23+00:00",
     "version": 1
   }
 }

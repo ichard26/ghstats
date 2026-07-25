@@ -61188,6 +61188,28 @@
       "created_by": "dependabot[bot]",
       "closed_at": "2026-07-24T14:28:01+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5258,
+      "title": "Ignore permission errors when reading cache",
+      "labels": [
+        "ci: build all wheels"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-24T20:33:38+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-07-24T21:51:22+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5259,
+      "title": "Format symmetric list concatenations in preview",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-25T03:32:21+00:00",
+      "created_by": "ColumbusLabs",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61195,7 +61217,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-24T16:35:09+00:00",
+    "last_updated": "2026-07-25T15:59:19+00:00",
     "version": 1
   }
 }
