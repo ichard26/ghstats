@@ -13542,6 +13542,16 @@
       "created_by": "DanielNoord",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1205,
+      "title": "Internal error compiling a non-native class whose method returns a `self`-capturing closure",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-07-27T15:57:11+00:00",
+      "created_by": "nstarman",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13549,7 +13559,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-07-24T16:35:13+00:00",
+    "last_updated": "2026-07-27T16:53:25+00:00",
     "version": 1
   }
 }
