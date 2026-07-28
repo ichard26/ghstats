@@ -172489,8 +172489,8 @@
       "is_pr": false,
       "created_at": "2026-04-26T16:53:18+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-28T12:18:44+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13951,
@@ -172652,8 +172652,8 @@
       "is_pr": false,
       "created_at": "2026-04-29T17:36:27+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-28T12:18:44+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 13964,
@@ -175095,7 +175095,7 @@
       "is_pr": true,
       "created_at": "2026-07-11T14:04:40+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-07-28T12:18:43+00:00",
       "closed_by": null
     },
     {
@@ -175133,8 +175133,8 @@
       "is_pr": false,
       "created_at": "2026-07-12T11:02:35+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-28T12:18:45+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 14169,
@@ -175636,7 +175636,43 @@
       "is_pr": true,
       "created_at": "2026-07-27T16:33:06+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-07-27T21:20:36+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14209,
+      "title": "fix(search): compare string representation of dist.version with latest in print_dist_installation_info",
+      "labels": [
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-28T08:23:39+00:00",
+      "created_by": "amir-rezaei",
+      "closed_at": "2026-07-28T09:03:51+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14210,
+      "title": "fix(resolvelib): check finder.find_all_candidates in _has_any_candidates",
+      "labels": [
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-28T08:24:06+00:00",
+      "created_by": "amir-rezaei",
+      "closed_at": "2026-07-28T09:03:39+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14211,
+      "title": "test(install): add regression test for nested self-referential extras",
+      "labels": [
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-28T08:24:20+00:00",
+      "created_by": "amir-rezaei",
+      "closed_at": "2026-07-28T09:03:27+00:00",
       "closed_by": null
     }
   ],
@@ -175645,7 +175681,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-27T16:53:25+00:00",
+    "last_updated": "2026-07-28T16:29:04+00:00",
     "version": 1
   }
 }
