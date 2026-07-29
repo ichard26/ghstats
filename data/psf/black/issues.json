@@ -61320,6 +61320,36 @@
       "created_by": "harisawan-bit",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5270,
+      "title": "Quadratic formatting time for chains of subscripts (7s for one 160-subscript line; attribute/call chains stay linear)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-07-29T06:05:49+00:00",
+      "created_by": "LuShadowX",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5271,
+      "title": "Don't hug brackets when it would merge two `type: ignore` comments",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-29T06:35:45+00:00",
+      "created_by": "LuShadowX",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5272,
+      "title": "Keep the required trailing comma of a one-element subscript under --skip-magic-trailing-comma",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-29T09:07:07+00:00",
+      "created_by": "LuShadowX",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61327,7 +61357,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-28T16:28:53+00:00",
+    "last_updated": "2026-07-29T16:16:31+00:00",
     "version": 1
   }
 }

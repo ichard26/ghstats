@@ -113218,8 +113218,8 @@
       "is_pr": false,
       "created_at": "2020-10-02T17:22:04+00:00",
       "created_by": "buddly27",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-29T15:20:58+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 8950,
@@ -173228,7 +173228,7 @@
     },
     {
       "number": 14011,
-      "title": "Fix invalid config values soft-locking pip",
+      "title": "Fail on invalid configuration values with a better error message",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -175681,7 +175681,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-28T16:29:04+00:00",
+    "last_updated": "2026-07-29T16:16:38+00:00",
     "version": 1
   }
 }
