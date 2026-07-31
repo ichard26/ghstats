@@ -76982,8 +76982,8 @@
       "is_pr": false,
       "created_at": "2019-01-05T15:06:59+00:00",
       "created_by": "KOLANICH",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-31T02:52:15+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6116,
@@ -114757,8 +114757,8 @@
       "is_pr": false,
       "created_at": "2020-11-01T12:06:27+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-31T09:21:13+00:00",
+      "closed_by": "sbidoul"
     },
     {
       "number": 9083,
@@ -166536,14 +166536,13 @@
       "number": 13449,
       "title": "Install dependencies from pyproject.toml like from requirements.txt with -r, (again)",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2025-06-27T15:04:57+00:00",
       "created_by": "tim-win",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-31T03:05:00+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13450,
@@ -175726,6 +175725,31 @@
       "created_by": "Whning0513",
       "closed_at": "2026-07-30T12:41:41+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14216,
+      "title": "Deletes a package without verifying if it is a dependency for another package",
+      "labels": [
+        "type: bug",
+        "resolution: duplicate"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-30T18:41:59+00:00",
+      "created_by": "archer-cmd",
+      "closed_at": "2026-07-31T03:08:55+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "number": 14217,
+      "title": "Fix self version check when run as a zipapp",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-31T14:49:57+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175733,7 +175757,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-30T16:22:17+00:00",
+    "last_updated": "2026-07-31T16:42:11+00:00",
     "version": 1
   }
 }

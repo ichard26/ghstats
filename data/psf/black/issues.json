@@ -59434,9 +59434,9 @@
     },
     {
       "number": 5101,
-      "title": "Run all CI on 3.15",
+      "title": "Run most CI on 3.15",
       "labels": [
-        "ci: build all wheels"
+        "ci: skip news"
       ],
       "is_pr": true,
       "created_at": "2026-04-15T02:19:43+00:00",
@@ -61362,7 +61362,7 @@
       "is_pr": true,
       "created_at": "2026-07-30T06:33:02+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-07-31T06:32:22+00:00",
       "closed_by": null
     },
     {
@@ -61378,6 +61378,110 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5275,
+      "title": "Improve formatting performance for subscript chains",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T00:09:03+00:00",
+      "created_by": "happykawayigt",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5276,
+      "title": "Preserve ruff ignore pragmas when splitting lines",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T02:13:18+00:00",
+      "created_by": "happykawayigt",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5277,
+      "title": "remove unused RARROW constant",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T04:08:38+00:00",
+      "created_by": "TheGreatApollyon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5278,
+      "title": "remove duplicate syms.for_stmt entry",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T04:09:14+00:00",
+      "created_by": "TheGreatApollyon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5279,
+      "title": "docs: correct normalize_numeric_literal docstring",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T04:09:45+00:00",
+      "created_by": "TheGreatApollyon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5280,
+      "title": "docs: fix typo in visit_stmt docstring",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T04:10:05+00:00",
+      "created_by": "TheGreatApollyon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5281,
+      "title": "docs: fix typo in prev_siblings_are docstring",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T04:10:26+00:00",
+      "created_by": "TheGreatApollyon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5282,
+      "title": "docs: fix typo in StringParenWrapper docstring",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T04:10:46+00:00",
+      "created_by": "TheGreatApollyon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5283,
+      "title": "docs: fix typo in StringParser comment",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T04:11:05+00:00",
+      "created_by": "TheGreatApollyon",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5284,
+      "title": "Bump docker/login-action from 4.4.0 to 4.5.1",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-07-31T06:32:19+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61385,7 +61489,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-30T16:22:11+00:00",
+    "last_updated": "2026-07-31T16:41:59+00:00",
     "version": 1
   }
 }
