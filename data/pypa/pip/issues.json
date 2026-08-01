@@ -57942,13 +57942,14 @@
       "title": "`pip install -e` does not treat a conda environment like a proper virtualenv.",
       "labels": [
         "type: bug",
-        "state: needs discussion"
+        "resolution: no action",
+        "resolution: wrong project"
       ],
       "is_pr": false,
       "created_at": "2017-08-21T16:16:50+00:00",
       "created_by": "ksze",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-01T01:22:19+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 4689,
@@ -76454,8 +76455,8 @@
       "is_pr": false,
       "created_at": "2018-12-09T17:40:57+00:00",
       "created_by": "KOLANICH",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-01T03:41:22+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 6076,
@@ -79025,8 +79026,8 @@
       "is_pr": false,
       "created_at": "2019-02-16T01:42:08+00:00",
       "created_by": "1fish2",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-01T01:19:54+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 6271,
@@ -93651,8 +93652,8 @@
       "is_pr": false,
       "created_at": "2019-11-15T14:31:40+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-01T01:25:05+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 7357,
@@ -116634,8 +116635,7 @@
       "labels": [
         "type: enhancement",
         "C: dependency resolution",
-        "C: constraint",
-        "state: awaiting PR"
+        "C: constraint"
       ],
       "is_pr": false,
       "created_at": "2020-12-07T17:45:44+00:00",
@@ -117580,8 +117580,8 @@
       "is_pr": false,
       "created_at": "2020-12-21T06:20:55+00:00",
       "created_by": "liuyangc3",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-01T01:30:53+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9329,
@@ -121705,6 +121705,7 @@
       "labels": [
         "type: enhancement",
         "C: dependency resolution",
+        "C: extras",
         "C: error messages"
       ],
       "is_pr": false,
@@ -151653,7 +151654,7 @@
       "title": "Tracaback when build error happens, without pip messages",
       "labels": [
         "type: bug",
-        "S: needs triage",
+        "kind: crash",
         "C: error messages"
       ],
       "is_pr": false,
@@ -156042,13 +156043,14 @@
       "title": "Pip doesn't raise on package conflict in extras_require",
       "labels": [
         "type: bug",
+        "C: extras",
         "C: check"
       ],
       "is_pr": false,
       "created_at": "2024-04-02T09:20:28+00:00",
       "created_by": "slanton-a",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-01T02:05:08+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12608,
@@ -159824,8 +159826,8 @@
       "is_pr": false,
       "created_at": "2024-08-09T06:56:07+00:00",
       "created_by": "hoel-bagard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-01T01:03:00+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12907,
@@ -160923,8 +160925,8 @@
       "is_pr": false,
       "created_at": "2024-10-08T19:52:29+00:00",
       "created_by": "apogrebnyak",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-01T01:12:42+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12996,
@@ -175029,7 +175031,9 @@
     {
       "number": 14160,
       "title": "Extend regression test on self-referential extras",
-      "labels": [],
+      "labels": [
+        "C: extras"
+      ],
       "is_pr": false,
       "created_at": "2026-07-10T16:12:46+00:00",
       "created_by": "Trenza1ore",
@@ -175481,8 +175485,8 @@
       "is_pr": false,
       "created_at": "2026-07-21T15:42:28+00:00",
       "created_by": "sambo22",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-07-31T19:18:31+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14197,
@@ -175750,6 +175754,43 @@
       "created_by": "2ykwang",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14218,
+      "title": "Add diagnostic error for when the backend is unavailable",
+      "labels": [
+        "C: error messages",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-01T00:35:03+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14219,
+      "title": "Improve metadata validation and handling of invalid distributions",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-01T12:21:51+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14220,
+      "title": "Fix crash on invalid entry points",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-01T12:34:57+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175757,7 +175798,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-07-31T16:42:11+00:00",
+    "last_updated": "2026-08-01T15:56:38+00:00",
     "version": 1
   }
 }

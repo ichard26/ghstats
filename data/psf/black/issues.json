@@ -61482,6 +61482,38 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5285,
+      "title": "Empty new line added after docstring when using `--line-ranges`",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-07-31T18:02:47+00:00",
+      "created_by": "ddeepwell",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5286,
+      "title": "Preserve function docstring spacing with line ranges",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-07-31T22:24:51+00:00",
+      "created_by": "happykawayigt",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5287,
+      "title": "don't treat a t-string in docstring position as a docstring",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-01T03:11:22+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61489,7 +61521,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-07-31T16:41:59+00:00",
+    "last_updated": "2026-08-01T15:56:36+00:00",
     "version": 1
   }
 }
