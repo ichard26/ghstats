@@ -155099,14 +155099,16 @@
       "number": 12533,
       "title": "`pip` reports conflict between identical versions of the same package when installed both as editable package and and dependency of an editable package",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "C: dependency resolution",
+        "state: needs discussion",
+        "type: feature request",
+        "C: editable"
       ],
       "is_pr": false,
       "created_at": "2024-02-21T09:36:33+00:00",
       "created_by": "bersbersbers",
       "closed_at": null,
-      "closed_by": "pradyunsg"
+      "closed_by": null
     },
     {
       "number": 12534,
@@ -175574,7 +175576,7 @@
       "is_pr": true,
       "created_at": "2026-07-25T16:52:35+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-08-01T16:52:59+00:00",
       "closed_by": null
     },
     {
@@ -175791,6 +175793,31 @@
       "created_by": "2ykwang",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14221,
+      "title": "build(deps): bump the github-actions group across 1 directory with 3 updates",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-01T16:53:02+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14222,
+      "title": "Strip authentication from editable VCS URLs in pip freeze",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-01T23:37:43+00:00",
+      "created_by": "moodyastra",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175798,7 +175825,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-01T15:56:38+00:00",
+    "last_updated": "2026-08-02T15:55:59+00:00",
     "version": 1
   }
 }
