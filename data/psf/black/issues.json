@@ -61480,7 +61480,7 @@
       "is_pr": true,
       "created_at": "2026-07-31T06:32:19+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-08-03T06:32:43+00:00",
       "closed_by": null
     },
     {
@@ -61514,6 +61514,30 @@
       "created_by": "sahvx655-wq",
       "closed_at": "2026-08-02T15:29:27+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5288,
+      "title": "docs: mention Vim PEP 8 indentation plugin",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-02T16:40:43+00:00",
+      "created_by": "tomatotomata",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5289,
+      "title": "Bump docker/login-action from 4.4.0 to 4.5.2",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-03T06:32:40+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61521,7 +61545,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-02T15:55:56+00:00",
+    "last_updated": "2026-08-03T17:05:40+00:00",
     "version": 1
   }
 }

@@ -130541,6 +130541,7 @@
       "number": 10460,
       "title": "List HTTP caches as well in `pip cache list`",
       "labels": [
+        "C: cache",
         "type: feature request"
       ],
       "is_pr": false,
@@ -134046,7 +134047,7 @@
       "title": "pip doesn't handle PEP600 compatible manylinux wheels when --platform is specified.",
       "labels": [
         "type: bug",
-        "state: awaiting PR"
+        "state: needs discussion"
       ],
       "is_pr": false,
       "created_at": "2022-01-04T01:39:37+00:00",
@@ -145364,8 +145365,8 @@
       "number": 11721,
       "title": "Fix Keyring being only used when 401 is returned",
       "labels": [
+        "state: needs discussion",
         "type: feature request",
-        "S: needs triage",
         "C: keyring"
       ],
       "is_pr": false,
@@ -149415,8 +149416,8 @@
       "is_pr": false,
       "created_at": "2023-05-30T09:02:34+00:00",
       "created_by": "mborus",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-02T22:00:47+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12062,
@@ -154638,7 +154639,7 @@
       "is_pr": true,
       "created_at": "2024-01-29T11:35:07+00:00",
       "created_by": "odormond",
-      "closed_at": null,
+      "closed_at": "2026-08-02T21:16:13+00:00",
       "closed_by": null
     },
     {
@@ -159166,7 +159167,7 @@
       "is_pr": true,
       "created_at": "2024-07-15T22:00:00+00:00",
       "created_by": "webknjaz",
-      "closed_at": null,
+      "closed_at": "2026-08-02T21:06:43+00:00",
       "closed_by": null
     },
     {
@@ -162807,7 +162808,7 @@
       "number": 13147,
       "title": "Display path to corrupted files when pip fails to load wheel",
       "labels": [
-        "state: awaiting PR",
+        "state: needs reproducer",
         "C: error messages"
       ],
       "is_pr": false,
@@ -163355,7 +163356,7 @@
       "is_pr": true,
       "created_at": "2025-01-29T17:28:26+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-08-02T21:00:36+00:00",
       "closed_by": null
     },
     {
@@ -168207,7 +168208,7 @@
       "is_pr": true,
       "created_at": "2025-09-20T19:17:21+00:00",
       "created_by": "a-sajjad72",
-      "closed_at": null,
+      "closed_at": "2026-08-02T20:42:57+00:00",
       "closed_by": null
     },
     {
@@ -171216,8 +171217,8 @@
       "is_pr": false,
       "created_at": "2026-03-04T18:05:04+00:00",
       "created_by": "julie777",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-02T21:47:56+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13840,
@@ -175818,6 +175819,29 @@
       "created_by": "moodyastra",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14223,
+      "title": "fix: report available candidates in resolver conflicts",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-02T18:37:38+00:00",
+      "created_by": "tomatotomata",
+      "closed_at": "2026-08-02T18:52:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14224,
+      "title": "Need to update a vendor package versions",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-03T07:55:48+00:00",
+      "created_by": "Ekkertan",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -175825,7 +175849,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-02T15:55:59+00:00",
+    "last_updated": "2026-08-03T17:05:49+00:00",
     "version": 1
   }
 }
