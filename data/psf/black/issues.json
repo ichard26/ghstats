@@ -59441,7 +59441,7 @@
       "is_pr": true,
       "created_at": "2026-04-15T02:19:43+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2026-08-03T17:41:43+00:00",
       "closed_by": null
     },
     {
@@ -59965,7 +59965,7 @@
       "is_pr": true,
       "created_at": "2026-05-21T01:58:20+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
+      "closed_at": "2026-08-04T00:00:07+00:00",
       "closed_by": null
     },
     {
@@ -60765,7 +60765,7 @@
       "is_pr": true,
       "created_at": "2026-07-04T06:18:11+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-08-03T17:33:44+00:00",
       "closed_by": null
     },
     {
@@ -61268,7 +61268,7 @@
       "is_pr": true,
       "created_at": "2026-07-27T06:33:05+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-08-04T00:53:26+00:00",
       "closed_by": null
     },
     {
@@ -61348,7 +61348,7 @@
       "is_pr": true,
       "created_at": "2026-07-29T09:07:07+00:00",
       "created_by": "LuShadowX",
-      "closed_at": null,
+      "closed_at": "2026-08-04T02:59:40+00:00",
       "closed_by": null
     },
     {
@@ -61376,7 +61376,7 @@
       "is_pr": true,
       "created_at": "2026-07-30T06:33:09+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-08-04T00:01:07+00:00",
       "closed_by": null
     },
     {
@@ -61406,7 +61406,7 @@
       "is_pr": true,
       "created_at": "2026-07-31T04:08:38+00:00",
       "created_by": "TheGreatApollyon",
-      "closed_at": null,
+      "closed_at": "2026-08-04T03:39:24+00:00",
       "closed_by": null
     },
     {
@@ -61416,57 +61416,67 @@
       "is_pr": true,
       "created_at": "2026-07-31T04:09:14+00:00",
       "created_by": "TheGreatApollyon",
-      "closed_at": null,
+      "closed_at": "2026-08-04T03:39:20+00:00",
       "closed_by": null
     },
     {
       "number": 5279,
       "title": "docs: correct normalize_numeric_literal docstring",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-07-31T04:09:45+00:00",
       "created_by": "TheGreatApollyon",
-      "closed_at": null,
+      "closed_at": "2026-08-04T03:27:23+00:00",
       "closed_by": null
     },
     {
       "number": 5280,
       "title": "docs: fix typo in visit_stmt docstring",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-07-31T04:10:05+00:00",
       "created_by": "TheGreatApollyon",
-      "closed_at": null,
+      "closed_at": "2026-08-04T03:27:17+00:00",
       "closed_by": null
     },
     {
       "number": 5281,
       "title": "docs: fix typo in prev_siblings_are docstring",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-07-31T04:10:26+00:00",
       "created_by": "TheGreatApollyon",
-      "closed_at": null,
+      "closed_at": "2026-08-04T03:27:08+00:00",
       "closed_by": null
     },
     {
       "number": 5282,
       "title": "docs: fix typo in StringParenWrapper docstring",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-07-31T04:10:46+00:00",
       "created_by": "TheGreatApollyon",
-      "closed_at": null,
+      "closed_at": "2026-08-04T03:27:07+00:00",
       "closed_by": null
     },
     {
       "number": 5283,
       "title": "docs: fix typo in StringParser comment",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-07-31T04:11:05+00:00",
       "created_by": "TheGreatApollyon",
-      "closed_at": null,
+      "closed_at": "2026-08-04T03:27:28+00:00",
       "closed_by": null
     },
     {
@@ -61536,6 +61546,82 @@
       "is_pr": true,
       "created_at": "2026-08-03T06:32:40+00:00",
       "created_by": "dependabot[bot]",
+      "closed_at": "2026-08-04T00:01:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5290,
+      "title": "Bump zizmorcore/zizmor-action from 0.5.7 to 0.6.2",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-04T00:01:04+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-08-04T00:38:30+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5291,
+      "title": "Bump pypa/gh-action-pypi-publish from 1.14.1 to 1.14.2",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-04T00:01:15+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-08-04T00:29:33+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5292,
+      "title": "Bump docker/login-action from 4.4.0 to 4.6.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-04T00:01:25+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-08-04T00:27:41+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5293,
+      "title": "fix PIP_UPLOADED_PRIOR_TO in Dockerfile",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-04T00:14:06+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-08-04T00:19:00+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5294,
+      "title": "docs: fix typos in docstrings, and remove some unused code",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-04T03:30:31+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-08-04T03:58:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5295,
+      "title": "Fix typos in changelog",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-04T12:34:52+00:00",
+      "created_by": "dhruvatr",
       "closed_at": null,
       "closed_by": null
     }
@@ -61545,7 +61631,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-03T17:05:40+00:00",
+    "last_updated": "2026-08-04T16:47:34+00:00",
     "version": 1
   }
 }
