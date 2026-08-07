@@ -36915,8 +36915,8 @@
       "is_pr": false,
       "created_at": "2022-07-01T16:04:56+00:00",
       "created_by": "kalekundert",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-06T04:12:24+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3152,
@@ -36995,8 +36995,8 @@
       "is_pr": false,
       "created_at": "2022-07-06T09:47:19+00:00",
       "created_by": "ptsl",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-06T05:00:04+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3158,
@@ -47609,8 +47609,8 @@
       "is_pr": false,
       "created_at": "2023-11-09T11:47:12+00:00",
       "created_by": "DetachHead",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-05T21:33:59+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4037,
@@ -60961,7 +60961,7 @@
       "is_pr": true,
       "created_at": "2026-07-14T17:09:54+00:00",
       "created_by": "wanxiankai",
-      "closed_at": null,
+      "closed_at": "2026-08-06T05:00:03+00:00",
       "closed_by": null
     },
     {
@@ -61338,7 +61338,7 @@
       "is_pr": true,
       "created_at": "2026-07-29T06:35:45+00:00",
       "created_by": "LuShadowX",
-      "closed_at": null,
+      "closed_at": "2026-08-05T21:33:58+00:00",
       "closed_by": null
     },
     {
@@ -61532,7 +61532,7 @@
       "is_pr": true,
       "created_at": "2026-08-02T16:40:43+00:00",
       "created_by": "tomatotomata",
-      "closed_at": null,
+      "closed_at": "2026-08-06T04:12:23+00:00",
       "closed_by": null
     },
     {
@@ -61618,10 +61618,25 @@
     {
       "number": 5295,
       "title": "Fix typos in changelog",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-08-04T12:34:52+00:00",
       "created_by": "dhruvatr",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5296,
+      "title": "Refactor release process to be more automated and use immutable releases",
+      "labels": [
+        "C: packaging",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-06T22:23:23+00:00",
+      "created_by": "cobaltt7",
       "closed_at": null,
       "closed_by": null
     }
@@ -61631,7 +61646,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-05T16:27:25+00:00",
+    "last_updated": "2026-08-07T15:50:08+00:00",
     "version": 1
   }
 }

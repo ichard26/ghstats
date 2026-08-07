@@ -174806,7 +174806,7 @@
       "is_pr": true,
       "created_at": "2026-07-04T03:35:23+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
+      "closed_at": "2026-08-06T01:55:28+00:00",
       "closed_by": null
     },
     {
@@ -175040,19 +175040,19 @@
       "is_pr": false,
       "created_at": "2026-07-10T16:12:46+00:00",
       "created_by": "Trenza1ore",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-06T01:47:25+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14161,
-      "title": "test: extend regression test on self-referential extras",
+      "title": "test: add more regression tests for self-referential extras",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-07-10T16:25:21+00:00",
       "created_by": "Trenza1ore",
-      "closed_at": null,
+      "closed_at": "2026-08-06T01:47:24+00:00",
       "closed_by": null
     },
     {
@@ -175168,12 +175168,13 @@
       "number": 14171,
       "title": "reject redirects to non-http(s) schemes in PipSession",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "skip PR template check"
       ],
       "is_pr": true,
       "created_at": "2026-07-13T08:13:41+00:00",
       "created_by": "Arawoof06",
-      "closed_at": null,
+      "closed_at": "2026-08-06T01:59:53+00:00",
       "closed_by": null
     },
     {
@@ -175861,11 +175862,14 @@
     {
       "number": 14226,
       "title": "pre-commit autoupdate",
-      "labels": [],
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
       "is_pr": true,
       "created_at": "2026-08-03T18:55:25+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2026-08-06T02:00:11+00:00",
       "closed_by": null
     },
     {
@@ -175932,6 +175936,41 @@
       "created_by": "7576457",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14232,
+      "title": "Wheel cache origin mismatch warning exposes URL credentials",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-05T21:54:59+00:00",
+      "created_by": "carrerasdarren-cell",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14233,
+      "title": "Redact auth in wheel cache origin warnings",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-05T21:56:15+00:00",
+      "created_by": "carrerasdarren-cell",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14234,
+      "title": "cannot import name 'get_runnable_pip' when upgrading pip",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-08-06T13:54:53+00:00",
+      "created_by": "peterjc",
+      "closed_at": "2026-08-06T14:14:23+00:00",
+      "closed_by": "peterjc"
     }
   ],
   "record": {
@@ -175939,7 +175978,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-05T16:27:28+00:00",
+    "last_updated": "2026-08-07T15:50:17+00:00",
     "version": 1
   }
 }
