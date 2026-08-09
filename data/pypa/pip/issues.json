@@ -98903,8 +98903,8 @@
       "is_pr": false,
       "created_at": "2020-02-18T11:39:13+00:00",
       "created_by": "qualiaa",
-      "closed_at": "2026-08-08T06:41:27+00:00",
-      "closed_by": "sepehr-rs"
+      "closed_at": null,
+      "closed_by": null
     },
     {
       "number": 7757,
@@ -119067,8 +119067,8 @@
       "is_pr": false,
       "created_at": "2021-01-14T19:46:59+00:00",
       "created_by": "abitrolly",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-08T21:26:01+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 9457,
@@ -130744,8 +130744,8 @@
       "is_pr": false,
       "created_at": "2021-09-15T12:40:37+00:00",
       "created_by": "pdegroote",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-08T20:08:10+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 10477,
@@ -175264,7 +175264,7 @@
       "is_pr": true,
       "created_at": "2026-07-15T12:28:58+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
+      "closed_at": "2026-08-08T21:20:01+00:00",
       "closed_by": null
     },
     {
@@ -175927,14 +175927,14 @@
     },
     {
       "number": 14231,
-      "title": "Fix subcommands accepting --version",
+      "title": "Prevent sub-commands from accepting --version",
       "labels": [
         "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2026-08-05T14:19:35+00:00",
       "created_by": "7576457",
-      "closed_at": null,
+      "closed_at": "2026-08-08T21:26:00+00:00",
       "closed_by": null
     },
     {
@@ -175981,6 +175981,44 @@
       "is_pr": true,
       "created_at": "2026-08-08T14:54:21+00:00",
       "created_by": "notatallshaw",
+      "closed_at": "2026-08-08T20:04:35+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14236,
+      "title": "chore: Bump pypa/gh-action-pypi-publish from 1.14.1 to 1.14.2 in the github-actions group",
+      "labels": [
+        "github_actions",
+        "dependencies"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-08T16:52:49+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-08-08T17:39:34+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14237,
+      "title": "Close incomplete downloads before removing them",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-08T17:19:16+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-08-08T19:56:40+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14238,
+      "title": "Switch to auto-updating spinners wholesale ",
+      "labels": [
+        "bot:chronographer:provided",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-08T23:26:24+00:00",
+      "created_by": "ichard26",
       "closed_at": null,
       "closed_by": null
     }
@@ -175990,7 +176028,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-08T15:22:39+00:00",
+    "last_updated": "2026-08-09T15:24:08+00:00",
     "version": 1
   }
 }
