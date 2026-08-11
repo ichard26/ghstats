@@ -176026,12 +176026,35 @@
       "number": 14239,
       "title": "Ability to exclude package indexes from `--uploaded-prior-to`",
       "labels": [
+        "state: blocked",
         "type: feature request",
-        "S: needs triage"
+        "C: finder"
       ],
       "is_pr": false,
       "created_at": "2026-08-10T15:22:33+00:00",
       "created_by": "nikwen",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14240,
+      "title": "pip should understand forward and/or double backslashes in the paths inside OpenSSL config files on MS-Windows",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2026-08-11T02:11:15+00:00",
+      "created_by": "lkintact",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14241,
+      "title": "`_untar_without_filter` can be removed",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-11T06:17:12+00:00",
+      "created_by": "frenzymadness",
       "closed_at": null,
       "closed_by": null
     }
@@ -176041,7 +176064,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-10T15:54:05+00:00",
+    "last_updated": "2026-08-11T15:54:47+00:00",
     "version": 1
   }
 }
