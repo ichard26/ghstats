@@ -98898,7 +98898,7 @@
       "labels": [
         "type: enhancement",
         "C: vcs",
-        "state: needs discussion"
+        "state: awaiting PR"
       ],
       "is_pr": false,
       "created_at": "2020-02-18T11:39:13+00:00",
@@ -144183,8 +144183,7 @@
       "number": 11621,
       "title": "fix: Allow extra-index-url to precede index-url",
       "labels": [
-        "bot:chronographer:provided",
-        "state: up for grabs (PR)"
+        "bot:chronographer:provided"
       ],
       "is_pr": true,
       "created_at": "2022-11-25T15:27:25+00:00",
@@ -172962,7 +172961,7 @@
       "is_pr": true,
       "created_at": "2026-05-08T20:58:31+00:00",
       "created_by": "gaborbernat",
-      "closed_at": null,
+      "closed_at": "2026-08-12T02:01:46+00:00",
       "closed_by": null
     },
     {
@@ -173906,8 +173905,8 @@
       "is_pr": false,
       "created_at": "2026-06-16T02:26:59+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-12T00:48:08+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14068,
@@ -176045,8 +176044,8 @@
       "is_pr": false,
       "created_at": "2026-08-11T02:11:15+00:00",
       "created_by": "lkintact",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-11T21:13:59+00:00",
+      "closed_by": "lkintact"
     },
     {
       "number": 14241,
@@ -176057,6 +176056,55 @@
       "created_by": "frenzymadness",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14242,
+      "title": "Rewrite urllib3 retry warnings to be understandable",
+      "labels": [
+        "C: error messages",
+        "bot:chronographer:provided",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-12T01:23:23+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14243,
+      "title": "Improve error hint for excluded distributions",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-12T08:26:52+00:00",
+      "created_by": "Boulea7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14244,
+      "title": "Warn/default-abort when installing conflicting packages",
+      "labels": [
+        "resolution: duplicate",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2026-08-12T12:33:10+00:00",
+      "created_by": "hseg",
+      "closed_at": "2026-08-12T14:16:15+00:00",
+      "closed_by": "sepehr-rs"
+    },
+    {
+      "number": 14245,
+      "title": "Issue running manim",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-12T12:48:27+00:00",
+      "created_by": "ogranas",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176064,7 +176112,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-11T15:54:47+00:00",
+    "last_updated": "2026-08-12T15:54:03+00:00",
     "version": 1
   }
 }

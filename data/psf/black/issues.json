@@ -61679,6 +61679,56 @@
       "created_by": "alliasgher",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5301,
+      "title": "#4855 \u2014 # fmt: skip applied to the line after the comment instead of the line it's on.",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-12T05:43:34+00:00",
+      "created_by": "redpebble-troupe-dev[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5302,
+      "title": "#4853 \u2014 fix_fmt_skip_in_one_liners crashes on with statements.",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-12T05:43:53+00:00",
+      "created_by": "redpebble-troupe-dev[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5303,
+      "title": "Fix fix_fmt_skip_in_one_liners on with and async with statements (#4853)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-12T09:16:37+00:00",
+      "created_by": "Dharshika-11",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5304,
+      "title": "Remove redundant generator parentheses",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-12T10:05:04+00:00",
+      "created_by": "Boulea7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5305,
+      "title": "Avoid repeated RHS splits for flat subscript chains",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-12T10:22:54+00:00",
+      "created_by": "aryansk",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61686,7 +61736,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-11T15:54:46+00:00",
+    "last_updated": "2026-08-12T15:53:59+00:00",
     "version": 1
   }
 }
