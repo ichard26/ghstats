@@ -148359,7 +148359,6 @@
       "number": 11974,
       "title": "Clarify which dependencies the hash-checking mode applies to",
       "labels": [
-        "type: docs",
         "state: awaiting PR",
         "type: feature request",
         "C: build isolation"
@@ -168635,8 +168634,8 @@
       "is_pr": false,
       "created_at": "2025-10-15T09:59:15+00:00",
       "created_by": "VaradharajSudhakar",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-13T04:13:37+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13624,
@@ -170537,12 +170536,13 @@
       "number": 13782,
       "title": "docs: Improve --user/--no-user documentation",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "resolution: AI policy"
       ],
       "is_pr": true,
       "created_at": "2026-02-01T06:32:47+00:00",
       "created_by": "Ashutosh0x",
-      "closed_at": null,
+      "closed_at": "2026-08-12T20:19:04+00:00",
       "closed_by": null
     },
     {
@@ -172901,8 +172901,8 @@
       "is_pr": false,
       "created_at": "2026-05-06T09:59:16+00:00",
       "created_by": "dewankpant",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-12T23:30:16+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13985,
@@ -175251,8 +175251,8 @@
       "is_pr": false,
       "created_at": "2026-07-15T08:40:05+00:00",
       "created_by": "2ykwang",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-13T04:08:39+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14178,
@@ -175817,7 +175817,7 @@
       "is_pr": true,
       "created_at": "2026-08-01T23:37:43+00:00",
       "created_by": "moodyastra",
-      "closed_at": null,
+      "closed_at": "2026-08-12T22:20:38+00:00",
       "closed_by": null
     },
     {
@@ -176075,12 +176075,13 @@
       "number": 14243,
       "title": "Improve error hint for excluded distributions",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "resolution: AI policy"
       ],
       "is_pr": true,
       "created_at": "2026-08-12T08:26:52+00:00",
       "created_by": "Boulea7",
-      "closed_at": null,
+      "closed_at": "2026-08-12T20:13:45+00:00",
       "closed_by": null
     },
     {
@@ -176099,10 +176100,62 @@
     {
       "number": 14245,
       "title": "Issue running manim",
-      "labels": [],
+      "labels": [
+        "type: support"
+      ],
       "is_pr": false,
       "created_at": "2026-08-12T12:48:27+00:00",
       "created_by": "ogranas",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14246,
+      "title": "Apply require-hashes to isolated build dependencies",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-12T23:08:06+00:00",
+      "created_by": "HarshDevelops",
+      "closed_at": "2026-08-12T23:15:17+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14247,
+      "title": "Block unexpected imports after install starts",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-13T04:37:37+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14248,
+      "title": "Make install --report, direct_url.json and inspect agree on origin/editable state",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-13T07:45:10+00:00",
+      "created_by": "payalagyom63-blip",
+      "closed_at": "2026-08-13T08:29:48+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14249,
+      "title": "Warn on file conflicts when installing packages",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-13T13:47:18+00:00",
+      "created_by": "sepehr-rs",
       "closed_at": null,
       "closed_by": null
     }
@@ -176112,7 +176165,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-12T15:54:03+00:00",
+    "last_updated": "2026-08-13T15:53:13+00:00",
     "version": 1
   }
 }
