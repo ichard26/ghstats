@@ -138392,8 +138392,8 @@
       "is_pr": false,
       "created_at": "2022-05-19T02:38:44+00:00",
       "created_by": "malikmajai",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-13T18:43:55+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11130,
@@ -144502,7 +144502,6 @@
       "number": 11648,
       "title": "Stop relying on `__file__`",
       "labels": [
-        "S: awaiting response",
         "state: awaiting PR",
         "type: feature request"
       ],
@@ -146846,8 +146845,8 @@
       "is_pr": false,
       "created_at": "2023-03-07T14:02:40+00:00",
       "created_by": "thatandromeda",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-13T19:00:56+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11847,
@@ -148931,12 +148930,13 @@
       "number": 12022,
       "title": "Zip files containing wheel files in --find-links",
       "labels": [
-        "S: awaiting response",
-        "type: feature request"
+        "state: needs discussion",
+        "type: feature request",
+        "C: find-links"
       ],
       "is_pr": false,
       "created_at": "2023-05-08T19:33:46+00:00",
-      "created_by": "lg8080",
+      "created_by": "ghost",
       "closed_at": null,
       "closed_by": null
     },
@@ -153770,8 +153770,8 @@
       "is_pr": false,
       "created_at": "2023-12-06T19:00:17+00:00",
       "created_by": "ManPython",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-13T19:08:09+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12428,
@@ -154186,7 +154186,7 @@
       "title": "On install, add a pep517 backend agnostic and documented option to set a build directory",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "resolution: needs standard"
       ],
       "is_pr": false,
       "created_at": "2024-01-04T16:55:38+00:00",
@@ -162121,13 +162121,13 @@
       "title": "Pip try to install twice the same package at different versions, leading to conflicts",
       "labels": [
         "type: bug",
-        "S: needs triage"
+        "C: dependency resolution"
       ],
       "is_pr": false,
       "created_at": "2024-11-27T11:04:51+00:00",
       "created_by": "Conchylicultor",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-13T20:15:48+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13093,
@@ -163567,8 +163567,8 @@
       "is_pr": false,
       "created_at": "2025-02-06T18:49:09+00:00",
       "created_by": "stefanseefeld",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-13T19:43:08+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13209,
@@ -164323,8 +164323,8 @@
       "is_pr": false,
       "created_at": "2025-03-07T14:43:12+00:00",
       "created_by": "notxvilka",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-13T18:49:24+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 13272,
@@ -176165,7 +176165,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-13T15:53:13+00:00",
+    "last_updated": "2026-08-14T15:43:51+00:00",
     "version": 1
   }
 }
