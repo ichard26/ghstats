@@ -75416,8 +75416,8 @@
       "is_pr": false,
       "created_at": "2018-11-08T16:00:48+00:00",
       "created_by": "bjmuld",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-14T16:26:11+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 5998,
@@ -107926,8 +107926,8 @@
       "is_pr": false,
       "created_at": "2020-06-24T15:25:48+00:00",
       "created_by": "skokado",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-14T16:25:40+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 8495,
@@ -176158,6 +176158,18 @@
       "created_by": "sepehr-rs",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14250,
+      "title": "connection errors only when using pip - [Errno 11001] getaddrinfo failed",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2026-08-14T21:12:47+00:00",
+      "created_by": "6Morpheus6",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176165,7 +176177,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-14T15:43:51+00:00",
+    "last_updated": "2026-08-15T15:14:14+00:00",
     "version": 1
   }
 }
