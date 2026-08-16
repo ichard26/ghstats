@@ -61775,6 +61775,16 @@
       "created_by": "sahvx655-wq",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5312,
+      "title": "Fix --line-ranges inserting a blank line after a docstring",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-16T04:51:16+00:00",
+      "created_by": "aryansk",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61782,7 +61792,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-15T15:14:12+00:00",
+    "last_updated": "2026-08-16T15:15:17+00:00",
     "version": 1
   }
 }
