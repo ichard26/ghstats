@@ -136581,8 +136581,8 @@
       "is_pr": false,
       "created_at": "2022-03-22T01:20:12+00:00",
       "created_by": "frostming",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-16T21:22:26+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 10979,
@@ -168764,7 +168764,7 @@
       "is_pr": true,
       "created_at": "2025-10-26T13:13:43+00:00",
       "created_by": "cielavenir",
-      "closed_at": null,
+      "closed_at": "2026-08-16T21:22:25+00:00",
       "closed_by": null
     },
     {
@@ -176217,7 +176217,7 @@
       "is_pr": true,
       "created_at": "2026-08-15T19:26:53+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-08-16T20:38:30+00:00",
       "closed_by": null
     },
     {
@@ -176229,6 +176229,30 @@
       "is_pr": true,
       "created_at": "2026-08-15T19:40:40+00:00",
       "created_by": "ketozhang",
+      "closed_at": "2026-08-16T20:37:48+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14256,
+      "title": "Reject unsafe wheel RECORD paths",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-16T23:54:31+00:00",
+      "created_by": "truemagic-coder",
+      "closed_at": "2026-08-17T00:01:36+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14257,
+      "title": "Reject malformed wheel record paths",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-17T01:57:59+00:00",
+      "created_by": "truemagic-coder",
       "closed_at": null,
       "closed_by": null
     }
@@ -176238,7 +176262,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-16T15:15:19+00:00",
+    "last_updated": "2026-08-17T15:19:26+00:00",
     "version": 1
   }
 }
