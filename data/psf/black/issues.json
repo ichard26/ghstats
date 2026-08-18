@@ -34414,8 +34414,8 @@
       "is_pr": false,
       "created_at": "2022-03-19T21:55:15+00:00",
       "created_by": "sterliakov",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-17T19:51:26+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2944,
@@ -61721,7 +61721,7 @@
       "is_pr": true,
       "created_at": "2026-08-12T10:05:04+00:00",
       "created_by": "Boulea7",
-      "closed_at": null,
+      "closed_at": "2026-08-17T19:51:25+00:00",
       "closed_by": null
     },
     {
@@ -61789,11 +61789,13 @@
     {
       "number": 5313,
       "title": "DOC: fix typo in docs/faq.md",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-08-16T17:13:20+00:00",
       "created_by": "adivx",
-      "closed_at": null,
+      "closed_at": "2026-08-17T23:54:10+00:00",
       "closed_by": null
     },
     {
@@ -61819,20 +61821,34 @@
     {
       "number": 5316,
       "title": "docs: fix PyCharm File Watchers help link",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-08-17T09:12:24+00:00",
       "created_by": "FirmaSpring",
-      "closed_at": null,
+      "closed_at": "2026-08-17T23:54:18+00:00",
       "closed_by": null
     },
     {
       "number": 5317,
       "title": "docs: fix magic trailing comma documentation link",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-08-17T09:12:32+00:00",
       "created_by": "FirmaSpring",
+      "closed_at": "2026-08-17T23:55:15+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5318,
+      "title": "harden: sanitize subprocess call in migrate-black.py...",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-18T02:13:03+00:00",
+      "created_by": "anupamme",
       "closed_at": null,
       "closed_by": null
     }
@@ -61842,7 +61858,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-17T15:19:13+00:00",
+    "last_updated": "2026-08-18T15:24:48+00:00",
     "version": 1
   }
 }

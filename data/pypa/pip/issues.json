@@ -151659,8 +151659,8 @@
       "is_pr": false,
       "created_at": "2023-08-29T09:56:38+00:00",
       "created_by": "hroncok",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-17T18:21:02+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12249,
@@ -175238,7 +175238,7 @@
       "is_pr": true,
       "created_at": "2026-07-15T03:25:38+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-08-17T22:47:34+00:00",
       "closed_by": null
     },
     {
@@ -175768,7 +175768,7 @@
       "is_pr": true,
       "created_at": "2026-08-01T00:35:03+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-08-17T18:21:01+00:00",
       "closed_by": null
     },
     {
@@ -176255,6 +176255,42 @@
       "created_by": "truemagic-coder",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14258,
+      "title": "Prevent failed copies and moves from leaving partial outputs",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-17T16:17:25+00:00",
+      "created_by": "2ykwang",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14259,
+      "title": "Block HTTPS-to-HTTP redirects to untrusted origins",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-17T23:35:18+00:00",
+      "created_by": "jacobbabula",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14260,
+      "title": "Report the wheel path when a wheel cannot be read",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-18T09:17:18+00:00",
+      "created_by": "Nishuuzz",
+      "closed_at": "2026-08-18T10:26:14+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -176262,7 +176298,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-17T15:19:26+00:00",
+    "last_updated": "2026-08-18T15:24:57+00:00",
     "version": 1
   }
 }
