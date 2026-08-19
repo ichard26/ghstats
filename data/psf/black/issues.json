@@ -61502,8 +61502,8 @@
       "is_pr": false,
       "created_at": "2026-07-31T18:02:47+00:00",
       "created_by": "ddeepwell",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-19T00:56:55+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5286,
@@ -61512,7 +61512,7 @@
       "is_pr": true,
       "created_at": "2026-07-31T22:24:51+00:00",
       "created_by": "happykawayigt",
-      "closed_at": null,
+      "closed_at": "2026-08-19T00:56:55+00:00",
       "closed_by": null
     },
     {
@@ -61677,7 +61677,7 @@
       "is_pr": true,
       "created_at": "2026-08-08T21:16:58+00:00",
       "created_by": "alliasgher",
-      "closed_at": null,
+      "closed_at": "2026-08-19T13:57:55+00:00",
       "closed_by": null
     },
     {
@@ -61753,8 +61753,8 @@
       "is_pr": false,
       "created_at": "2026-08-12T23:44:15+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-19T13:00:20+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5308,
@@ -61763,7 +61763,7 @@
       "is_pr": true,
       "created_at": "2026-08-13T09:09:35+00:00",
       "created_by": "Dharshika-11",
-      "closed_at": null,
+      "closed_at": "2026-08-19T13:00:20+00:00",
       "closed_by": null
     },
     {
@@ -61773,7 +61773,7 @@
       "is_pr": true,
       "created_at": "2026-08-15T12:12:51+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-08-19T13:00:19+00:00",
       "closed_by": null
     },
     {
@@ -61783,7 +61783,7 @@
       "is_pr": true,
       "created_at": "2026-08-16T04:51:16+00:00",
       "created_by": "aryansk",
-      "closed_at": null,
+      "closed_at": "2026-08-19T00:56:53+00:00",
       "closed_by": null
     },
     {
@@ -61805,7 +61805,7 @@
       "is_pr": true,
       "created_at": "2026-08-17T00:13:05+00:00",
       "created_by": "HosnainRafi",
-      "closed_at": null,
+      "closed_at": "2026-08-19T13:00:21+00:00",
       "closed_by": null
     },
     {
@@ -61851,6 +61851,38 @@
       "created_by": "anupamme",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5319,
+      "title": "Delete scripts/migrate-black.py",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-19T00:45:30+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-08-19T00:56:44+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5321,
+      "title": "Keep parentheses around the target of an annotated assignment",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-19T09:35:20+00:00",
+      "created_by": "luantaraschi",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5322,
+      "title": "avoid quadratic child rescan in normalize_invisible_parens",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-19T12:05:44+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": "2026-08-19T13:39:08+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -61858,7 +61890,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-18T15:24:48+00:00",
+    "last_updated": "2026-08-19T15:24:23+00:00",
     "version": 1
   }
 }

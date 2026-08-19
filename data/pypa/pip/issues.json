@@ -160451,8 +160451,8 @@
       "is_pr": false,
       "created_at": "2024-09-05T20:37:31+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-18T18:31:40+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 12957,
@@ -176291,6 +176291,57 @@
       "created_by": "Nishuuzz",
       "closed_at": "2026-08-18T10:26:14+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14261,
+      "title": "Gettext internationalization broken for requirements-file options list",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-08-18T17:27:03+00:00",
+      "created_by": "hwhsu1231",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14262,
+      "title": "docs: fix malformed gettext source locations for requirements-file op\u2026",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-18T22:03:54+00:00",
+      "created_by": "itsvedantkumar",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14263,
+      "title": "test: Pin default git branch to master",
+      "labels": [
+        "C: tests",
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-19T01:47:13+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14264,
+      "title": "docs: clarify python3 command usage",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-19T09:04:33+00:00",
+      "created_by": "Himanshuagrawal4",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176298,7 +176349,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-18T15:24:57+00:00",
+    "last_updated": "2026-08-19T15:24:32+00:00",
     "version": 1
   }
 }

@@ -13615,6 +13615,26 @@
       "created_by": "mr-c",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1212,
+      "title": "`TypeError` when calling property that returns `Callable` that can be assigned as instance variable",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-18T20:10:09+00:00",
+      "created_by": "DanielNoord",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1213,
+      "title": "`dataclasses.FrozenInstanceError` raised with a `multiprocessing.Pool.map` and a frozen dataclass as argument",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-18T20:33:46+00:00",
+      "created_by": "DanielNoord",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13622,7 +13642,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-08-17T15:19:24+00:00",
+    "last_updated": "2026-08-19T15:24:31+00:00",
     "version": 1
   }
 }
