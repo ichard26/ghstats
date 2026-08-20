@@ -61849,7 +61849,7 @@
       "is_pr": true,
       "created_at": "2026-08-18T02:13:03+00:00",
       "created_by": "anupamme",
-      "closed_at": null,
+      "closed_at": "2026-08-19T23:45:56+00:00",
       "closed_by": null
     },
     {
@@ -61871,7 +61871,7 @@
       "is_pr": true,
       "created_at": "2026-08-19T09:35:20+00:00",
       "created_by": "luantaraschi",
-      "closed_at": null,
+      "closed_at": "2026-08-19T18:33:37+00:00",
       "closed_by": null
     },
     {
@@ -61883,6 +61883,62 @@
       "created_by": "sahvx655-wq",
       "closed_at": "2026-08-19T13:39:08+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5323,
+      "title": "prueba",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-19T19:44:44+00:00",
+      "created_by": "Melania-Git",
+      "closed_at": "2026-08-19T19:46:46+00:00",
+      "closed_by": "Melania-Git"
+    },
+    {
+      "number": 5325,
+      "title": "Bump docker/setup-buildx-action from 4.2.0 to 4.3.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-20T06:33:14+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": "2026-08-20T13:01:14+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5328,
+      "title": "Formatting a dictionary with a long string and type ignore fails on --unstable",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-08-20T11:21:51+00:00",
+      "created_by": "AleksMat",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5329,
+      "title": "Fix a crash when `# type: ignore` is lost during formatting",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-20T12:01:39+00:00",
+      "created_by": "AleksMat",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5330,
+      "title": "keep inline comments in _force_standalone_comment_split",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-20T13:38:52+00:00",
+      "created_by": "sahvx655-wq",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61890,7 +61946,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-19T15:24:23+00:00",
+    "last_updated": "2026-08-20T15:27:01+00:00",
     "version": 1
   }
 }
