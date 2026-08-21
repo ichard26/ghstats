@@ -103941,8 +103941,8 @@
       "is_pr": false,
       "created_at": "2020-04-28T11:53:12+00:00",
       "created_by": "hroncok",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-20T19:53:33+00:00",
+      "closed_by": "hroncok"
     },
     {
       "number": 8157,
@@ -137536,8 +137536,8 @@
       "is_pr": false,
       "created_at": "2022-04-21T17:29:13+00:00",
       "created_by": "pfmoore",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-20T19:22:29+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 11059,
@@ -175940,7 +175940,10 @@
     {
       "number": 14232,
       "title": "Wheel cache origin mismatch warning exposes URL credentials",
-      "labels": [],
+      "labels": [
+        "type: bug",
+        "C: cache"
+      ],
       "is_pr": false,
       "created_at": "2026-08-05T21:54:59+00:00",
       "created_by": "carrerasdarren-cell",
@@ -176329,7 +176332,7 @@
       "is_pr": true,
       "created_at": "2026-08-19T01:47:13+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-08-20T19:22:28+00:00",
       "closed_by": null
     },
     {
@@ -176357,6 +176360,62 @@
       "created_by": "polisettyvarma",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14266,
+      "title": "Compare cache origin URL without credentials",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-20T17:05:14+00:00",
+      "created_by": "SirHegel",
+      "closed_at": "2026-08-20T19:21:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14267,
+      "title": "py",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-20T17:50:47+00:00",
+      "created_by": "alrestam",
+      "closed_at": "2026-08-20T18:59:25+00:00",
+      "closed_by": "ichard26"
+    },
+    {
+      "number": 14268,
+      "title": "Merge overlapping --target install directories",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-21T02:20:28+00:00",
+      "created_by": "sronix",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14269,
+      "title": "pip keyring entries should be pip-specific",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-21T10:48:37+00:00",
+      "created_by": "siddhpant",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14270,
+      "title": "Skip phantom rows when rewriting installed RECORD",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-21T12:45:18+00:00",
+      "created_by": "Alb3e3",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176364,7 +176423,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-20T15:27:05+00:00",
+    "last_updated": "2026-08-21T15:26:18+00:00",
     "version": 1
   }
 }
