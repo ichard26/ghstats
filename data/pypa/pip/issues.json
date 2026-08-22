@@ -176414,6 +176414,110 @@
       "is_pr": true,
       "created_at": "2026-08-21T12:45:18+00:00",
       "created_by": "Alb3e3",
+      "closed_at": "2026-08-22T04:14:42+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14271,
+      "title": "Name the wheel file when installation fails on a corrupt wheel",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-22T01:12:05+00:00",
+      "created_by": "HarperZ9",
+      "closed_at": "2026-08-22T07:04:30+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14272,
+      "title": "Documentation: Chocolatey Instructions",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-08-22T05:53:33+00:00",
+      "created_by": "darkn3rd",
+      "closed_at": "2026-08-22T06:20:08+00:00",
+      "closed_by": "darkn3rd"
+    },
+    {
+      "number": 14273,
+      "title": "Make `pip config get` read the active configuration",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-22T06:41:17+00:00",
+      "created_by": "devtejasx",
+      "closed_at": "2026-08-22T07:14:08+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14274,
+      "title": "Always show LATEST in `pip index versions` output",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-22T06:41:48+00:00",
+      "created_by": "devtejasx",
+      "closed_at": "2026-08-22T07:16:12+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14275,
+      "title": "Honour the cache options in isolated build environments",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-22T06:41:50+00:00",
+      "created_by": "devtejasx",
+      "closed_at": "2026-08-22T07:17:00+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14276,
+      "title": "Record real file paths for --target installations",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-22T06:42:29+00:00",
+      "created_by": "devtejasx",
+      "closed_at": "2026-08-22T07:17:19+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14277,
+      "title": "Stop --target losing the shared __pycache__ and data files under lib",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-22T06:42:31+00:00",
+      "created_by": "devtejasx",
+      "closed_at": "2026-08-22T07:17:35+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14278,
+      "title": "pip 26.2.1 wheel corrupts subprocess environment",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-08-22T10:53:12+00:00",
+      "created_by": "replabrobin",
       "closed_at": null,
       "closed_by": null
     }
@@ -176423,7 +176527,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-21T15:26:18+00:00",
+    "last_updated": "2026-08-22T15:14:15+00:00",
     "version": 1
   }
 }
