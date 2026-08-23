@@ -61969,6 +61969,16 @@
       "created_by": "tagadearpit",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5338,
+      "title": "fix(comments): treat # pyright:, # ruff:, and # cython: as pragmas in contains_pragma_comment",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-23T00:41:19+00:00",
+      "created_by": "loulanyue",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -61976,7 +61986,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-22T15:14:13+00:00",
+    "last_updated": "2026-08-23T15:15:32+00:00",
     "version": 1
   }
 }
