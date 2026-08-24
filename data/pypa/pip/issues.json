@@ -176531,7 +176531,7 @@
       "is_pr": true,
       "created_at": "2026-08-23T04:04:59+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
+      "closed_at": "2026-08-23T18:57:52+00:00",
       "closed_by": null
     },
     {
@@ -176543,6 +176543,32 @@
       "created_by": "aryansk",
       "closed_at": "2026-08-23T14:54:26+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14281,
+      "title": "feat: Attempt to explain why a given wheel is incompatible",
+      "labels": [
+        "C: error messages",
+        "bot:chronographer:provided",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-23T18:57:26+00:00",
+      "created_by": "ichard26",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14282,
+      "title": "Proposal: Pip documentation internationalization",
+      "labels": [
+        "type: docs"
+      ],
+      "is_pr": false,
+      "created_at": "2026-08-24T07:01:34+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176550,7 +176576,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-23T15:15:35+00:00",
+    "last_updated": "2026-08-24T15:32:38+00:00",
     "version": 1
   }
 }
