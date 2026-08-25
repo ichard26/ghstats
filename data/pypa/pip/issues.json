@@ -102543,8 +102543,8 @@
       "is_pr": false,
       "created_at": "2020-04-13T16:27:17+00:00",
       "created_by": "amancevice",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-24T17:03:45+00:00",
+      "closed_by": "amancevice"
     },
     {
       "number": 8043,
@@ -176569,6 +176569,40 @@
       "created_by": "sepehr-rs",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14283,
+      "title": "Constraint hash ignored for a transitively-needed package given in URL form",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-08-25T06:41:49+00:00",
+      "created_by": "manfred-kaiser",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14284,
+      "title": "Fix constraint hash lost for a transitively-needed package given in URL form",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-25T06:42:12+00:00",
+      "created_by": "manfred-kaiser",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14285,
+      "title": "Support pylock.toml as a constraints source (-c, --build-constraint, PIP_CONSTRAINT)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-08-25T06:53:15+00:00",
+      "created_by": "manfred-kaiser",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176576,7 +176610,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-24T15:32:38+00:00",
+    "last_updated": "2026-08-25T15:36:02+00:00",
     "version": 1
   }
 }
