@@ -147371,14 +147371,13 @@
       "number": 11888,
       "title": "Erroneously accepts a .dev wheel with no version specifier",
       "labels": [
-        "type: bug",
-        "S: needs triage"
+        "type: bug"
       ],
       "is_pr": false,
       "created_at": "2023-03-22T11:34:37+00:00",
       "created_by": "gst",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-26T10:17:57+00:00",
+      "closed_by": "2ykwang"
     },
     {
       "number": 11889,
@@ -176577,8 +176576,8 @@
       "is_pr": false,
       "created_at": "2026-08-25T06:41:49+00:00",
       "created_by": "manfred-kaiser",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-08-26T05:58:53+00:00",
+      "closed_by": "manfred-kaiser"
     },
     {
       "number": 14284,
@@ -176610,7 +176609,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-08-25T15:36:02+00:00",
+    "last_updated": "2026-08-26T16:12:30+00:00",
     "version": 1
   }
 }
