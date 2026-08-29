@@ -61999,6 +61999,36 @@
       "created_by": "airbate",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5350,
+      "title": "command injection",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T02:07:01+00:00",
+      "created_by": "01097962319",
+      "closed_at": "2026-08-29T02:20:34+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5351,
+      "title": "your_command_injection",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T02:12:50+00:00",
+      "created_by": "01097962319",
+      "closed_at": "2026-08-29T02:20:42+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5352,
+      "title": "Keep inline comments with the string when wrapping it in parentheses (#3802)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T06:47:17+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62006,7 +62036,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-28T23:48:54+00:00",
+    "last_updated": "2026-08-29T18:07:26+00:00",
     "version": 1
   }
 }
