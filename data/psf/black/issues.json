@@ -62029,6 +62029,146 @@
       "created_by": "Mtok2002",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5356,
+      "title": "Failure to consistently format inline type comments on a multi-line attribute access (#3869)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:02:09+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:22:17+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5357,
+      "title": "Long string in return annotation does not get split if there's parameters (#3926)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:05:06+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:22:33+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5358,
+      "title": "Black puts \"pyright: ignore\" comments on the wrong line (#3946)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:05:55+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:22:38+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5359,
+      "title": "Avoid parentheszing non-fluent attribute chain exceeding the line-length (#4001)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:06:26+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:22:44+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5360,
+      "title": "Addition of type ignore causes undesirable splitting on another line (#3681)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:36:43+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:22:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5361,
+      "title": "gitignore patterns with trailing slashes are incorrectly handled (#3694)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:37:16+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:21:38+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5362,
+      "title": "A comment before a multiplication line inside a func call makes the line unnecessarily explode (#3713)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:37:46+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:22:55+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5363,
+      "title": "Improve `adjusted_lines`'s diff algorithm used in `--line-ranges`. (#4052)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:38:23+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:23:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5364,
+      "title": "Future of `string_processing` (#4208)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:38:57+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:23:11+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5365,
+      "title": "global config not possible if project contains a `pyproject.toml` (#4411)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-29T23:39:27+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:23:17+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5366,
+      "title": "Formatting a dictionary with a long string and type ignore fails on --unstable (#5328)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-30T00:54:14+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:23:23+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5367,
+      "title": "`--line-ranges` formats lines outside of range (#4430)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-30T00:55:33+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:23:29+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5368,
+      "title": "`ruff:ignore` should be processed as a pragma in `contains_pragma_comment` (#5260)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-30T00:56:25+00:00",
+      "created_by": "Mtok2002",
+      "closed_at": "2026-08-30T05:23:34+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5369,
+      "title": "Format a call whose sole argument is a parenthesized generator under --preview",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-08-30T18:02:08+00:00",
+      "created_by": "Kayvan-Zahiri",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62036,7 +62176,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-08-29T18:07:26+00:00",
+    "last_updated": "2026-08-30T18:21:56+00:00",
     "version": 1
   }
 }
