@@ -62297,6 +62297,16 @@
       "created_by": "RRXXZZYY",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5383,
+      "title": "Report Black's own parse failure as an internal error",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-02T02:58:19+00:00",
+      "created_by": "ArockiaRajamanickam",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62304,7 +62314,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-01T18:05:47+00:00",
+    "last_updated": "2026-09-02T18:20:17+00:00",
     "version": 1
   }
 }
