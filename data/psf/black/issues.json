@@ -59643,7 +59643,7 @@
       "is_pr": true,
       "created_at": "2026-04-27T21:29:43+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2026-09-03T16:31:41+00:00",
       "closed_by": null
     },
     {
@@ -60561,7 +60561,7 @@
       "is_pr": true,
       "created_at": "2026-06-27T08:02:00+00:00",
       "created_by": "valter-silva-au",
-      "closed_at": null,
+      "closed_at": "2026-09-03T00:01:08+00:00",
       "closed_by": null
     },
     {
@@ -60711,7 +60711,7 @@
       "is_pr": true,
       "created_at": "2026-07-01T11:44:00+00:00",
       "created_by": "michaelsam94",
-      "closed_at": null,
+      "closed_at": "2026-09-02T23:58:44+00:00",
       "closed_by": null
     },
     {
@@ -60775,7 +60775,7 @@
       "is_pr": true,
       "created_at": "2026-07-04T11:54:25+00:00",
       "created_by": "mayank-dev-15",
-      "closed_at": null,
+      "closed_at": "2026-09-02T23:58:16+00:00",
       "closed_by": null
     },
     {
@@ -61937,7 +61937,7 @@
       "is_pr": true,
       "created_at": "2026-08-20T13:38:52+00:00",
       "created_by": "sahvx655-wq",
-      "closed_at": null,
+      "closed_at": "2026-09-03T16:30:13+00:00",
       "closed_by": null
     },
     {
@@ -62003,7 +62003,9 @@
     {
       "number": 5350,
       "title": "command injection",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-08-29T02:07:01+00:00",
       "created_by": "01097962319",
@@ -62013,7 +62015,9 @@
     {
       "number": 5351,
       "title": "your_command_injection",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-08-29T02:12:50+00:00",
       "created_by": "01097962319",
@@ -62177,7 +62181,7 @@
       "is_pr": true,
       "created_at": "2026-08-30T22:32:23+00:00",
       "created_by": "arunsoman",
-      "closed_at": null,
+      "closed_at": "2026-09-02T23:56:52+00:00",
       "closed_by": null
     },
     {
@@ -62197,17 +62201,19 @@
       "is_pr": true,
       "created_at": "2026-08-30T22:48:36+00:00",
       "created_by": "arunsoman",
-      "closed_at": null,
+      "closed_at": "2026-09-03T14:36:50+00:00",
       "closed_by": null
     },
     {
       "number": 5374,
       "title": "Fix incorrect or redundant conditions",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-08-31T03:32:29+00:00",
       "created_by": "jelle-openai",
-      "closed_at": null,
+      "closed_at": "2026-09-03T16:21:30+00:00",
       "closed_by": null
     },
     {
@@ -62241,7 +62247,7 @@
       "is_pr": true,
       "created_at": "2026-09-01T06:33:32+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-09-02T23:05:22+00:00",
       "closed_by": null
     },
     {
@@ -62253,8 +62259,8 @@
       "is_pr": false,
       "created_at": "2026-09-01T07:11:38+00:00",
       "created_by": "yayong3",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-03T16:31:00+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5379,
@@ -62285,7 +62291,7 @@
       "is_pr": true,
       "created_at": "2026-09-01T14:06:18+00:00",
       "created_by": "HyunsikParker",
-      "closed_at": null,
+      "closed_at": "2026-09-03T16:30:59+00:00",
       "closed_by": null
     },
     {
@@ -62307,6 +62313,38 @@
       "created_by": "ArockiaRajamanickam",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5384,
+      "title": "Bump mypy from 2.3.0 to 2.3.1",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-02T23:50:00+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-09-03T16:31:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5385,
+      "title": "Raise UsageError when sources share no common project root",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-03T01:22:54+00:00",
+      "created_by": "Dmao233",
+      "closed_at": "2026-09-03T07:18:07+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5386,
+      "title": "Fall back to the default configuration when sources share no project root",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-03T05:40:02+00:00",
+      "created_by": "shashb27",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62314,7 +62352,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-02T18:20:17+00:00",
+    "last_updated": "2026-09-03T18:17:07+00:00",
     "version": 1
   }
 }
