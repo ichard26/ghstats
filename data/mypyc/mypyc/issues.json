@@ -13667,8 +13667,8 @@
       "is_pr": false,
       "created_at": "2026-08-28T02:58:10+00:00",
       "created_by": "Dreamsorcerer",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-04T12:25:26+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1217,
@@ -13686,7 +13686,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-09-02T18:20:21+00:00",
+    "last_updated": "2026-09-04T17:59:18+00:00",
     "version": 1
   }
 }

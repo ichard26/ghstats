@@ -176109,8 +176109,8 @@
       "is_pr": false,
       "created_at": "2026-08-12T12:48:27+00:00",
       "created_by": "ogranas",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-04T01:53:46+00:00",
+      "closed_by": "ichard26"
     },
     {
       "number": 14246,
@@ -176677,11 +176677,14 @@
     {
       "number": 14292,
       "title": "Update build-project/pylock.toml",
-      "labels": [],
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
       "is_pr": true,
       "created_at": "2026-08-31T05:08:19+00:00",
       "created_by": "github-actions[bot]",
-      "closed_at": null,
+      "closed_at": "2026-09-04T01:48:56+00:00",
       "closed_by": null
     },
     {
@@ -176695,6 +176698,31 @@
       "created_by": "MaxxxDong",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14294,
+      "title": "shutil.which() lookups execute a rustc or keyring planted in the current directory on Windows",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-09-04T03:01:09+00:00",
+      "created_by": "stratakis",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14295,
+      "title": "Do not run rustc or keyring from the current directory",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-04T12:54:47+00:00",
+      "created_by": "stratakis",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176702,7 +176730,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-03T18:17:23+00:00",
+    "last_updated": "2026-09-04T17:59:19+00:00",
     "version": 1
   }
 }
