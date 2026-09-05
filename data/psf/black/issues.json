@@ -62360,6 +62360,16 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5388,
+      "title": "Embed Agent-Friendly Score badge in README",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-05T15:07:13+00:00",
+      "created_by": "hsnice16",
+      "closed_at": "2026-09-05T15:20:34+00:00",
+      "closed_by": "JelleZijlstra"
     }
   ],
   "record": {
@@ -62367,7 +62377,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-04T17:59:13+00:00",
+    "last_updated": "2026-09-05T17:03:43+00:00",
     "version": 1
   }
 }

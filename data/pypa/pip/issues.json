@@ -176352,13 +176352,13 @@
       "title": "pip should take custom toml file instead of default pyproject.toml from the directory provided with some argument",
       "labels": [
         "type: feature request",
-        "S: needs triage"
+        "resolution: out of scope"
       ],
       "is_pr": false,
       "created_at": "2026-08-20T05:01:54+00:00",
       "created_by": "polisettyvarma",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-05T16:04:24+00:00",
+      "closed_by": "2ykwang"
     },
     {
       "number": 14266,
@@ -176723,6 +176723,46 @@
       "created_by": "stratakis",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14296,
+      "title": "Refuse wheel installs through directory symlinks and replace file symlinks",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-05T02:32:33+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14297,
+      "title": "Use a steady clock for retry test failures",
+      "labels": [
+        "skip news",
+        "bot:chronographer:provided",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-05T02:49:56+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-09-05T03:03:51+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14298,
+      "title": "Restore command log level in tests",
+      "labels": [
+        "skip news",
+        "bot:chronographer:provided",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-05T04:13:35+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-09-05T04:51:05+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -176730,7 +176770,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-04T17:59:19+00:00",
+    "last_updated": "2026-09-05T17:03:45+00:00",
     "version": 1
   }
 }
