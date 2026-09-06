@@ -62370,6 +62370,38 @@
       "created_by": "hsnice16",
       "closed_at": "2026-09-05T15:20:34+00:00",
       "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 5389,
+      "title": "Three symlink tests fail on Windows without symlink privilege (regression of #287)",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-09-06T00:25:01+00:00",
+      "created_by": "iam-kira",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5390,
+      "title": "Skip symlink tests when the platform forbids creating one",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-06T09:00:05+00:00",
+      "created_by": "istoolsfox",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5391,
+      "title": "tests: skip symlink tests when platform forbids symlink creation (#5389)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-06T16:26:50+00:00",
+      "created_by": "Vansh-Sharmaa",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62377,7 +62409,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-05T17:03:43+00:00",
+    "last_updated": "2026-09-06T17:27:01+00:00",
     "version": 1
   }
 }
