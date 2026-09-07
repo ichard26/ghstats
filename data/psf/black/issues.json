@@ -62402,6 +62402,16 @@
       "created_by": "Vansh-Sharmaa",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5392,
+      "title": "docs: fix grammar in double-quote rationale (a one -> a single)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-07T01:23:45+00:00",
+      "created_by": "MadhavSekhri",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62409,7 +62419,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-06T17:27:01+00:00",
+    "last_updated": "2026-09-07T18:57:10+00:00",
     "version": 1
   }
 }

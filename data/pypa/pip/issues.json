@@ -176787,6 +176787,18 @@
       "created_by": "JiarongGuo",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14301,
+      "title": "Explicitly set the level of captured logging in test_keyring_cli_outdated_version",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-07T10:26:57+00:00",
+      "created_by": "hroncok",
+      "closed_at": "2026-09-07T11:54:47+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -176794,7 +176806,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-06T17:27:03+00:00",
+    "last_updated": "2026-09-07T18:57:12+00:00",
     "version": 1
   }
 }
