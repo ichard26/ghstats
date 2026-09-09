@@ -176809,6 +176809,18 @@
       "is_pr": true,
       "created_at": "2026-09-07T19:04:19+00:00",
       "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2026-09-08T23:38:57+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14303,
+      "title": "Upgrade platformdirs to 4.11.8",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-09T17:02:17+00:00",
+      "created_by": "edgarrmondragon",
       "closed_at": null,
       "closed_by": null
     }
@@ -176818,7 +176830,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-08T18:14:37+00:00",
+    "last_updated": "2026-09-09T18:14:29+00:00",
     "version": 1
   }
 }
