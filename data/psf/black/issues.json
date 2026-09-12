@@ -62436,6 +62436,26 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5395,
+      "title": "Keep a trailing comment on optional parentheses that contain own-line comments",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-11T20:36:42+00:00",
+      "created_by": "ekanshul",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5396,
+      "title": "Avoid looking at __class__.__name__ in run_transformer (#2432)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-12T10:58:09+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62443,7 +62463,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-11T18:05:45+00:00",
+    "last_updated": "2026-09-12T17:37:48+00:00",
     "version": 1
   }
 }

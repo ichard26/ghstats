@@ -176845,7 +176845,7 @@
       "is_pr": true,
       "created_at": "2026-09-10T20:03:31+00:00",
       "created_by": "LouisDeconinck",
-      "closed_at": null,
+      "closed_at": "2026-09-11T19:40:08+00:00",
       "closed_by": null
     },
     {
@@ -176874,6 +176874,28 @@
       "created_by": "stefan6419846",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14308,
+      "title": "Document how to avoid dependency confusion in the secure installs topic",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-11T20:51:38+00:00",
+      "created_by": "artur282",
+      "closed_at": "2026-09-11T21:35:33+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14309,
+      "title": "https://github.com/pypa/pip/issues/new/choose",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-12T14:09:24+00:00",
+      "created_by": "rickymatoiky3620-tech",
+      "closed_at": "2026-09-12T14:15:31+00:00",
+      "closed_by": "notatallshaw"
     }
   ],
   "record": {
@@ -176881,7 +176903,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-11T18:05:47+00:00",
+    "last_updated": "2026-09-12T17:37:50+00:00",
     "version": 1
   }
 }
