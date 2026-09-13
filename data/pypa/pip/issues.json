@@ -107174,8 +107174,7 @@
       "number": 8431,
       "title": "Option to force the progress bar",
       "labels": [
-        "type: feature request",
-        "S: needs triage"
+        "type: feature request"
       ],
       "is_pr": false,
       "created_at": "2020-06-11T13:47:07+00:00",
@@ -176896,6 +176895,18 @@
       "created_by": "rickymatoiky3620-tech",
       "closed_at": "2026-09-12T14:15:31+00:00",
       "closed_by": "notatallshaw"
+    },
+    {
+      "number": 14310,
+      "title": "Fix uninstall rollback lowercasing filenames on Windows",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-13T02:53:52+00:00",
+      "created_by": "theofficialtruck",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176903,7 +176914,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-12T17:37:50+00:00",
+    "last_updated": "2026-09-13T17:50:42+00:00",
     "version": 1
   }
 }
