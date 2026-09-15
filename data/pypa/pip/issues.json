@@ -176931,6 +176931,28 @@
       "created_by": "GruffElixir",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14315,
+      "title": "Link hashes are parsed from the query string, not only the URL fragment",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-15T13:48:26+00:00",
+      "created_by": "yonnnxr",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14316,
+      "title": "Read link hashes only from the URL fragment",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-15T13:52:52+00:00",
+      "created_by": "yonnnxr",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176938,7 +176960,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-14T19:42:34+00:00",
+    "last_updated": "2026-09-15T18:39:49+00:00",
     "version": 1
   }
 }
