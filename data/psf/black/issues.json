@@ -9901,7 +9901,7 @@
       ],
       "is_pr": false,
       "created_at": "2019-06-20T18:39:45+00:00",
-      "created_by": "GianniGi",
+      "created_by": "gmantova",
       "closed_at": "2021-05-29T03:59:24+00:00",
       "closed_by": "JelleZijlstra"
     },
@@ -33628,8 +33628,8 @@
       "is_pr": false,
       "created_at": "2022-02-10T21:58:03+00:00",
       "created_by": "amyreese",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-15T21:30:44+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2878,
@@ -42553,8 +42553,8 @@
       "is_pr": false,
       "created_at": "2023-03-13T13:43:10+00:00",
       "created_by": "rafrafek",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-15T21:53:30+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3605,
@@ -45327,8 +45327,8 @@
       "is_pr": false,
       "created_at": "2023-08-18T16:18:30+00:00",
       "created_by": "karthiknadig",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-15T21:59:00+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3842,
@@ -56192,7 +56192,7 @@
       "is_pr": true,
       "created_at": "2025-10-06T20:40:38+00:00",
       "created_by": "MeGaGiGaGon",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:04:30+00:00",
       "closed_by": null
     },
     {
@@ -61167,7 +61167,7 @@
       "number": 5256,
       "title": "Spectre ghost Reconciliation animation",
       "labels": [
-        "T: enhancement"
+        "spam / ai"
       ],
       "is_pr": false,
       "created_at": "2026-07-23T03:42:01+00:00",
@@ -61230,7 +61230,7 @@
       "is_pr": true,
       "created_at": "2026-07-26T05:59:15+00:00",
       "created_by": "Baltsat",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:07:34+00:00",
       "closed_by": null
     },
     {
@@ -61288,7 +61288,7 @@
       "is_pr": true,
       "created_at": "2026-07-28T08:21:32+00:00",
       "created_by": "amir-rezaei",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:07:42+00:00",
       "closed_by": null
     },
     {
@@ -61298,7 +61298,7 @@
       "is_pr": true,
       "created_at": "2026-07-28T08:21:48+00:00",
       "created_by": "amir-rezaei",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:07:53+00:00",
       "closed_by": null
     },
     {
@@ -61308,7 +61308,7 @@
       "is_pr": true,
       "created_at": "2026-07-28T08:22:08+00:00",
       "created_by": "amir-rezaei",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:09:23+00:00",
       "closed_by": null
     },
     {
@@ -61396,7 +61396,7 @@
       "is_pr": true,
       "created_at": "2026-07-31T02:13:18+00:00",
       "created_by": "happykawayigt",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:08:18+00:00",
       "closed_by": null
     },
     {
@@ -61653,7 +61653,9 @@
     {
       "number": 5298,
       "title": "Add pre-commit hook configuration for monorepo with multiple Python versions",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": false,
       "created_at": "2026-08-08T14:42:58+00:00",
       "created_by": "rexblade58",
@@ -61815,7 +61817,7 @@
       "is_pr": true,
       "created_at": "2026-08-17T06:32:59+00:00",
       "created_by": "harriiinnii",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:08:34+00:00",
       "closed_by": null
     },
     {
@@ -61887,7 +61889,9 @@
     {
       "number": 5323,
       "title": "prueba",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": false,
       "created_at": "2026-08-19T19:44:44+00:00",
       "created_by": "Melania-Git",
@@ -62033,7 +62037,7 @@
       "is_pr": true,
       "created_at": "2026-08-29T06:47:17+00:00",
       "created_by": "Mtok2002",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:14:04+00:00",
       "closed_by": null
     },
     {
@@ -62179,7 +62183,9 @@
     {
       "number": 5370,
       "title": "fix(issue #5214): Leaf.bracket_depth not initialized",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-08-30T22:32:23+00:00",
       "created_by": "arunsoman",
@@ -62193,13 +62199,15 @@
       "is_pr": true,
       "created_at": "2026-08-30T22:37:09+00:00",
       "created_by": "arunsoman",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:08:59+00:00",
       "closed_by": null
     },
     {
       "number": 5372,
       "title": "fix(issue #5328): Formatting a dictionary with a long string and type ignore fails on --unstable",
-      "labels": [],
+      "labels": [
+        "spam / ai"
+      ],
       "is_pr": true,
       "created_at": "2026-08-30T22:48:36+00:00",
       "created_by": "arunsoman",
@@ -62380,17 +62388,19 @@
       "is_pr": false,
       "created_at": "2026-09-06T00:25:01+00:00",
       "created_by": "iam-kira",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-16T00:17:46+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5390,
       "title": "Skip symlink tests when the platform forbids creating one",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-09-06T09:00:05+00:00",
       "created_by": "istoolsfox",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:17:44+00:00",
       "closed_by": null
     },
     {
@@ -62400,13 +62410,15 @@
       "is_pr": true,
       "created_at": "2026-09-06T16:26:50+00:00",
       "created_by": "Vansh-Sharmaa",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:19:39+00:00",
       "closed_by": null
     },
     {
       "number": 5392,
       "title": "docs: fix grammar in double-quote rationale (a one -> a single)",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-09-07T01:23:45+00:00",
       "created_by": "MadhavSekhri",
@@ -62420,7 +62432,7 @@
       "is_pr": true,
       "created_at": "2026-09-09T20:53:51+00:00",
       "created_by": "jabrailkhalil",
-      "closed_at": null,
+      "closed_at": "2026-09-16T00:25:32+00:00",
       "closed_by": null
     },
     {
@@ -62434,7 +62446,7 @@
       "is_pr": true,
       "created_at": "2026-09-11T06:32:31+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-09-15T23:39:53+00:00",
       "closed_by": null
     },
     {
@@ -62450,7 +62462,9 @@
     {
       "number": 5396,
       "title": "Avoid looking at __class__.__name__ in run_transformer (#2432)",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-09-12T10:58:09+00:00",
       "created_by": "Prateek99-s",
@@ -62556,6 +62570,16 @@
       "created_by": "GruffElixir",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5408,
+      "title": "Add is_formatted output to GitHub Action (#3526)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-16T14:02:41+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62563,7 +62587,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-15T18:39:46+00:00",
+    "last_updated": "2026-09-16T18:36:20+00:00",
     "version": 1
   }
 }
