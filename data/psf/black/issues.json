@@ -62580,6 +62580,54 @@
       "created_by": "Prateek99-s",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5411,
+      "title": "Don't require sys.stdout.buffer when writing formatted output or diffs",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-17T02:10:18+00:00",
+      "created_by": "ethanstoner",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5412,
+      "title": "Bump docker/setup-buildx-action from 4.3.0 to 4.4.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-17T06:32:41+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5413,
+      "title": "Bump docker/build-push-action from 7.3.0 to 7.4.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-17T06:33:00+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5414,
+      "title": "Initialize bracket_depth in Leaf and preserve it in clone (#5214)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-17T10:38:56+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62587,7 +62635,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-16T18:36:20+00:00",
+    "last_updated": "2026-09-17T18:44:42+00:00",
     "version": 1
   }
 }
