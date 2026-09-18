@@ -176966,6 +176966,30 @@
       "created_by": "VReichelt",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14319,
+      "title": "Hide download speed after completion",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-18T15:11:38+00:00",
+      "created_by": "nikolas-sapa",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14320,
+      "title": "Fix TypeError when using SOCKS proxies with proxy_ssl_context",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-18T17:08:41+00:00",
+      "created_by": "malhusse",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -176973,7 +176997,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-17T18:44:51+00:00",
+    "last_updated": "2026-09-18T18:00:44+00:00",
     "version": 1
   }
 }
