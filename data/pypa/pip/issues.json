@@ -176772,7 +176772,7 @@
       "is_pr": true,
       "created_at": "2026-09-06T00:13:02+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
+      "closed_at": "2026-09-20T22:11:55+00:00",
       "closed_by": null
     },
     {
@@ -176917,7 +176917,7 @@
       "is_pr": true,
       "created_at": "2026-09-14T05:08:24+00:00",
       "created_by": "github-actions[bot]",
-      "closed_at": null,
+      "closed_at": "2026-09-21T05:54:55+00:00",
       "closed_by": null
     },
     {
@@ -176966,8 +176966,8 @@
       "is_pr": false,
       "created_at": "2026-09-17T12:53:17+00:00",
       "created_by": "VReichelt",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-20T22:43:16+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 14319,
@@ -177014,6 +177014,52 @@
       "created_by": "LalitaSuthimoon9",
       "closed_at": "2026-09-20T10:16:51+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14323,
+      "title": "Emit audit hook events before preparing distributions",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-20T19:44:56+00:00",
+      "created_by": "Uchio7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14324,
+      "title": "Avoid importing the rich logging stack before a command runs",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-20T22:03:11+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14325,
+      "title": "genesis edge ",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-20T22:13:26+00:00",
+      "created_by": "eduardomoralesmartines618-pixel",
+      "closed_at": "2026-09-20T22:32:26+00:00",
+      "closed_by": "notatallshaw"
+    },
+    {
+      "number": 14326,
+      "title": "Skip re-quoting index URLs that are already fully quoted",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-20T22:38:57+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177021,7 +177067,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-20T17:52:06+00:00",
+    "last_updated": "2026-09-21T19:50:17+00:00",
     "version": 1
   }
 }

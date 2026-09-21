@@ -28176,8 +28176,8 @@
       "is_pr": false,
       "created_at": "2021-08-18T19:41:44+00:00",
       "created_by": "ichard26",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-21T18:44:54+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2433,
@@ -52185,8 +52185,8 @@
       "is_pr": false,
       "created_at": "2024-08-06T18:08:55+00:00",
       "created_by": "rhencke",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-21T16:53:09+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4431,
@@ -60283,7 +60283,7 @@
       "is_pr": true,
       "created_at": "2026-06-12T03:49:32+00:00",
       "created_by": "cyphercodes",
-      "closed_at": null,
+      "closed_at": "2026-09-21T16:53:07+00:00",
       "closed_by": null
     },
     {
@@ -60701,8 +60701,8 @@
       "is_pr": false,
       "created_at": "2026-07-01T10:50:06+00:00",
       "created_by": "msftcangoblowm",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-21T18:46:31+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5215,
@@ -62366,7 +62366,7 @@
       "is_pr": true,
       "created_at": "2026-09-04T06:32:55+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-09-21T06:32:55+00:00",
       "closed_by": null
     },
     {
@@ -62422,7 +62422,7 @@
       "is_pr": true,
       "created_at": "2026-09-07T01:23:45+00:00",
       "created_by": "MadhavSekhri",
-      "closed_at": null,
+      "closed_at": "2026-09-21T17:47:53+00:00",
       "closed_by": null
     },
     {
@@ -62468,7 +62468,7 @@
       "is_pr": true,
       "created_at": "2026-09-12T10:58:09+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-09-21T18:44:53+00:00",
       "closed_by": null
     },
     {
@@ -62616,7 +62616,7 @@
       "is_pr": true,
       "created_at": "2026-09-17T06:33:00+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-09-21T17:19:57+00:00",
       "closed_by": null
     },
     {
@@ -62626,7 +62626,7 @@
       "is_pr": true,
       "created_at": "2026-09-17T10:38:56+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-09-21T18:46:30+00:00",
       "closed_by": null
     },
     {
@@ -62640,7 +62640,7 @@
       "is_pr": true,
       "created_at": "2026-09-18T06:33:02+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-09-21T17:23:56+00:00",
       "closed_by": null
     },
     {
@@ -62652,6 +62652,29 @@
       "created_by": "Prateek99-s",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5421,
+      "title": "Bump wcwidth from 0.2.14 to 0.8.4",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-21T06:32:52+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5422,
+      "title": "Fix ValueError in find_project_root for files on multiple Windows drives (#5379)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-21T13:45:17+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62659,7 +62682,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-19T17:41:02+00:00",
+    "last_updated": "2026-09-21T19:50:08+00:00",
     "version": 1
   }
 }
