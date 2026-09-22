@@ -176813,7 +176813,7 @@
     },
     {
       "number": 14303,
-      "title": "Upgrade platformdirs to 4.11.8",
+      "title": "Upgrade platformdirs to 4.11.12",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -177067,7 +177067,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-21T19:50:17+00:00",
+    "last_updated": "2026-09-22T18:27:30+00:00",
     "version": 1
   }
 }

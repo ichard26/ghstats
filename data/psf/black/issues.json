@@ -29221,8 +29221,8 @@
       "is_pr": false,
       "created_at": "2021-09-30T05:58:37+00:00",
       "created_by": "jfthuong",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-21T22:41:01+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2517,
@@ -51896,8 +51896,8 @@
       "is_pr": false,
       "created_at": "2024-07-19T22:07:52+00:00",
       "created_by": "nattiechan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-22T14:12:15+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4407,
@@ -60388,7 +60388,7 @@
       "is_pr": true,
       "created_at": "2026-06-17T08:08:22+00:00",
       "created_by": "JSap0914",
-      "closed_at": null,
+      "closed_at": "2026-09-22T00:03:52+00:00",
       "closed_by": null
     },
     {
@@ -62498,7 +62498,7 @@
       "is_pr": true,
       "created_at": "2026-09-13T11:25:40+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-09-22T14:12:14+00:00",
       "closed_by": null
     },
     {
@@ -62518,8 +62518,8 @@
       "is_pr": false,
       "created_at": "2026-09-13T20:27:12+00:00",
       "created_by": "torjan0",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-22T03:14:42+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5403,
@@ -62528,7 +62528,7 @@
       "is_pr": true,
       "created_at": "2026-09-14T10:40:09+00:00",
       "created_by": "itzzdev09",
-      "closed_at": null,
+      "closed_at": "2026-09-22T03:14:42+00:00",
       "closed_by": null
     },
     {
@@ -62548,7 +62548,7 @@
       "is_pr": true,
       "created_at": "2026-09-14T11:24:03+00:00",
       "created_by": "katariyaVivek",
-      "closed_at": null,
+      "closed_at": "2026-09-22T03:14:41+00:00",
       "closed_by": null
     },
     {
@@ -62558,7 +62558,7 @@
       "is_pr": true,
       "created_at": "2026-09-14T11:29:33+00:00",
       "created_by": "anandghegde",
-      "closed_at": null,
+      "closed_at": "2026-09-22T03:14:43+00:00",
       "closed_by": null
     },
     {
@@ -62588,7 +62588,7 @@
       "is_pr": true,
       "created_at": "2026-09-17T02:10:18+00:00",
       "created_by": "ethanstoner",
-      "closed_at": null,
+      "closed_at": "2026-09-21T22:40:59+00:00",
       "closed_by": null
     },
     {
@@ -62675,6 +62675,60 @@
       "created_by": "Prateek99-s",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5423,
+      "title": "[pre-commit.ci] pre-commit autoupdate",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-21T21:20:22+00:00",
+      "created_by": "pre-commit-ci[bot]",
+      "closed_at": "2026-09-21T23:14:55+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5424,
+      "title": "Fix normalize_string_prefix not lowercasing uppercase T t-string prefix",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-22T00:04:41+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": "2026-09-22T04:55:30+00:00",
+      "closed_by": "cobaltt7"
+    },
+    {
+      "number": 5425,
+      "title": "Normalize uppercase t-string prefixes in preview mode",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-22T01:02:10+00:00",
+      "created_by": "saitakarcesme",
+      "closed_at": "2026-09-22T04:55:29+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5426,
+      "title": "docs(contributing): fix two grammar typos in issue_triage.md",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-22T03:32:15+00:00",
+      "created_by": "haimingZZ",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5427,
+      "title": "Fix splitting stringified return annotations with parameters",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-22T11:04:35+00:00",
+      "created_by": "Mohamedajab",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62682,7 +62736,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-21T19:50:08+00:00",
+    "last_updated": "2026-09-22T18:27:17+00:00",
     "version": 1
   }
 }
