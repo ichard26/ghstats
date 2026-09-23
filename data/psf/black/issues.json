@@ -44174,8 +44174,8 @@
       "is_pr": false,
       "created_at": "2023-06-21T12:37:36+00:00",
       "created_by": "cnpryer",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-22T23:50:18+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3742,
@@ -62177,7 +62177,7 @@
       "is_pr": true,
       "created_at": "2026-08-30T18:02:08+00:00",
       "created_by": "Kayvan-Zahiri",
-      "closed_at": null,
+      "closed_at": "2026-09-22T21:08:39+00:00",
       "closed_by": null
     },
     {
@@ -62456,7 +62456,7 @@
       "is_pr": true,
       "created_at": "2026-09-11T20:36:42+00:00",
       "created_by": "ekanshul",
-      "closed_at": null,
+      "closed_at": "2026-09-22T23:50:17+00:00",
       "closed_by": null
     },
     {
@@ -62729,6 +62729,26 @@
       "created_by": "Mohamedajab",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5428,
+      "title": "Return HTTP 400 for an empty `X-Python-Variant` entry in blackd",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-23T09:46:37+00:00",
+      "created_by": "SulimanAbdulrazzaq",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5429,
+      "title": "Fix crash on `# fmt: skip` one-line definitions with type parameters",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-23T14:26:14+00:00",
+      "created_by": "wfatih",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62736,7 +62756,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-22T18:27:17+00:00",
+    "last_updated": "2026-09-23T18:46:24+00:00",
     "version": 1
   }
 }

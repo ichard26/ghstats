@@ -13699,6 +13699,16 @@
       "created_by": "mr-c",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1224,
+      "title": "raise X from Y loses __cause__ and __suppress_context__ in compiled code",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-23T01:19:04+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13706,7 +13716,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-09-22T18:27:29+00:00",
+    "last_updated": "2026-09-23T18:46:32+00:00",
     "version": 1
   }
 }
