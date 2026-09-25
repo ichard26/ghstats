@@ -177084,6 +177084,31 @@
       "created_by": "farismuhammad17",
       "closed_at": "2026-09-24T06:44:51+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14329,
+      "title": "WONT INSTALL CERTAIN PACKAGES EVEN THOGH IT oops, caps lock on. says installed.",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-09-24T22:02:48+00:00",
+      "created_by": "fatdogvitamins-rgb",
+      "closed_at": "2026-09-24T22:03:09+00:00",
+      "closed_by": "fatdogvitamins-rgb"
+    },
+    {
+      "number": 14330,
+      "title": "Preserve file and directory mtimes when installing wheels",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-25T18:44:37+00:00",
+      "created_by": "shashb27",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177091,7 +177116,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-24T18:47:07+00:00",
+    "last_updated": "2026-09-25T19:05:07+00:00",
     "version": 1
   }
 }

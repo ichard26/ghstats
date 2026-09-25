@@ -32445,8 +32445,8 @@
       "is_pr": false,
       "created_at": "2022-01-18T14:22:45+00:00",
       "created_by": "Potemkinkuliss",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-24T22:26:38+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 2782,
@@ -45664,8 +45664,8 @@
       "is_pr": false,
       "created_at": "2023-09-09T22:34:56+00:00",
       "created_by": "pradyunsg",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-24T22:15:46+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3870,
@@ -46353,8 +46353,8 @@
       "is_pr": false,
       "created_at": "2023-10-06T13:56:38+00:00",
       "created_by": "jakkdl",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-24T21:52:39+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3927,
@@ -58645,7 +58645,8 @@
       "title": "Update virtualenv requirement from <21.0.0 to <22.0.0",
       "labels": [
         "C: dependencies",
-        "ci: skip news"
+        "ci: skip news",
+        "S: blocked"
       ],
       "is_pr": true,
       "created_at": "2026-03-05T06:32:38+00:00",
@@ -58788,7 +58789,8 @@
       "title": "Bump hatch from 1.15.1 to 1.17.0",
       "labels": [
         "C: dependencies",
-        "ci: skip news"
+        "ci: skip news",
+        "S: blocked"
       ],
       "is_pr": true,
       "created_at": "2026-03-09T06:32:07+00:00",
@@ -59992,7 +59994,8 @@
       "number": 5149,
       "title": "Allow multiple cases per fixture file",
       "labels": [
-        "ci: skip news"
+        "ci: skip news",
+        "S: needs discussion"
       ],
       "is_pr": true,
       "created_at": "2026-05-23T21:06:08+00:00",
@@ -60182,7 +60185,8 @@
       "title": "Bump docutils from 0.22.4 to 0.23",
       "labels": [
         "C: dependencies",
-        "ci: skip news"
+        "ci: skip news",
+        "S: blocked"
       ],
       "is_pr": true,
       "created_at": "2026-06-03T22:42:59+00:00",
@@ -60619,7 +60623,9 @@
     {
       "number": 5207,
       "title": "Write formatted files atomically to avoid corruption on write failure",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-07-01T03:02:05+00:00",
       "created_by": "ParamChordiya",
@@ -60743,7 +60749,7 @@
       "is_pr": true,
       "created_at": "2026-07-02T19:23:28+00:00",
       "created_by": "ishaanlabs-gg",
-      "closed_at": null,
+      "closed_at": "2026-09-24T22:24:05+00:00",
       "closed_by": null
     },
     {
@@ -60781,7 +60787,9 @@
     {
       "number": 5222,
       "title": "Memory Optimizations",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-07-04T23:05:12+00:00",
       "created_by": "rsb-23",
@@ -61119,7 +61127,9 @@
     {
       "number": 5252,
       "title": "Prefer splitting whole boolean conditions",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-07-22T15:22:46+00:00",
       "created_by": "zhangli091011",
@@ -61204,7 +61214,9 @@
     {
       "number": 5259,
       "title": "Format symmetric list concatenations in preview",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-07-25T03:32:21+00:00",
       "created_by": "ColumbusLabs",
@@ -61314,7 +61326,9 @@
     {
       "number": 5269,
       "title": "Fix target version inference for strict-greater requires-python specifiers",
-      "labels": [],
+      "labels": [
+        "S: blocked"
+      ],
       "is_pr": true,
       "created_at": "2026-07-28T16:12:45+00:00",
       "created_by": "harisawan-bit",
@@ -61632,7 +61646,9 @@
       "title": "Refactor release process to be more automated and use immutable releases",
       "labels": [
         "C: packaging",
-        "C: maintenance"
+        "C: maintenance",
+        "S: needs discussion",
+        "S: blocked"
       ],
       "is_pr": true,
       "created_at": "2026-08-06T22:23:23+00:00",
@@ -61647,7 +61663,7 @@
       "is_pr": true,
       "created_at": "2026-08-07T18:18:28+00:00",
       "created_by": "aHappend",
-      "closed_at": null,
+      "closed_at": "2026-09-24T22:15:45+00:00",
       "closed_by": null
     },
     {
@@ -61921,8 +61937,8 @@
       "is_pr": false,
       "created_at": "2026-08-20T11:21:51+00:00",
       "created_by": "AleksMat",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-24T21:21:22+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5329,
@@ -61931,7 +61947,7 @@
       "is_pr": true,
       "created_at": "2026-08-20T12:01:39+00:00",
       "created_by": "AleksMat",
-      "closed_at": null,
+      "closed_at": "2026-09-24T21:21:21+00:00",
       "closed_by": null
     },
     {
@@ -62281,8 +62297,8 @@
       "is_pr": false,
       "created_at": "2026-09-01T07:57:38+00:00",
       "created_by": "yayong3",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-24T22:51:00+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5380,
@@ -62353,7 +62369,7 @@
       "is_pr": true,
       "created_at": "2026-09-03T05:40:02+00:00",
       "created_by": "shashb27",
-      "closed_at": null,
+      "closed_at": "2026-09-24T22:50:59+00:00",
       "closed_by": null
     },
     {
@@ -62478,8 +62494,8 @@
       "is_pr": false,
       "created_at": "2026-09-13T08:30:06+00:00",
       "created_by": "torjan0",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-09-24T22:28:21+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5398,
@@ -62488,7 +62504,7 @@
       "is_pr": true,
       "created_at": "2026-09-13T10:59:09+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-09-24T22:26:37+00:00",
       "closed_by": null
     },
     {
@@ -62508,7 +62524,7 @@
       "is_pr": true,
       "created_at": "2026-09-13T14:48:53+00:00",
       "created_by": "GruffElixir",
-      "closed_at": null,
+      "closed_at": "2026-09-24T22:28:20+00:00",
       "closed_by": null
     },
     {
@@ -62538,7 +62554,7 @@
       "is_pr": true,
       "created_at": "2026-09-14T11:06:53+00:00",
       "created_by": "fire-mirror",
-      "closed_at": null,
+      "closed_at": "2026-09-24T21:52:40+00:00",
       "closed_by": null
     },
     {
@@ -62658,7 +62674,8 @@
       "title": "Bump wcwidth from 0.2.14 to 0.8.4",
       "labels": [
         "C: dependencies",
-        "ci: skip news"
+        "ci: skip news",
+        "S: blocked"
       ],
       "is_pr": true,
       "created_at": "2026-09-21T06:32:52+00:00",
@@ -62673,7 +62690,7 @@
       "is_pr": true,
       "created_at": "2026-09-21T13:45:17+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-09-24T22:51:01+00:00",
       "closed_by": null
     },
     {
@@ -62727,7 +62744,7 @@
       "is_pr": true,
       "created_at": "2026-09-22T11:04:35+00:00",
       "created_by": "Mohamedajab",
-      "closed_at": null,
+      "closed_at": "2026-09-24T21:52:38+00:00",
       "closed_by": null
     },
     {
@@ -62757,13 +62774,15 @@
       "is_pr": true,
       "created_at": "2026-09-23T22:09:15+00:00",
       "created_by": "wfatih",
-      "closed_at": null,
+      "closed_at": "2026-09-24T21:36:43+00:00",
       "closed_by": null
     },
     {
       "number": 5431,
       "title": "Remove redundant parentheses around lists (#608)",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-09-24T08:24:36+00:00",
       "created_by": "Prateek99-s",
@@ -62773,11 +62792,13 @@
     {
       "number": 5432,
       "title": "Fix unclosed file handles in Converter.parse_graminit_h/_c",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-09-24T08:28:19+00:00",
       "created_by": "kratos0718",
-      "closed_at": null,
+      "closed_at": "2026-09-24T21:35:30+00:00",
       "closed_by": null
     },
     {
@@ -62799,6 +62820,16 @@
       "created_by": "ethanstoner",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5435,
+      "title": "Keep dictionary keys with operators together in preview (#3442)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-25T17:55:38+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -62806,7 +62837,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-24T18:46:58+00:00",
+    "last_updated": "2026-09-25T19:04:50+00:00",
     "version": 1
   }
 }
