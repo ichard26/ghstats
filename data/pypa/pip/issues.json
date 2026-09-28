@@ -177109,6 +177109,28 @@
       "created_by": "shashb27",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14331,
+      "title": "fix: honor PIP_NO_BINARY exceptions with PIP_ONLY_BINARY=:all:",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-09-27T23:44:28+00:00",
+      "created_by": "r3wretrhy",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14332,
+      "title": "Fix misleading local-archive hint in pip freeze",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-28T18:55:56+00:00",
+      "created_by": "silasthegoldenwizard",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177116,7 +177138,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-27T18:50:36+00:00",
+    "last_updated": "2026-09-28T21:00:43+00:00",
     "version": 1
   }
 }
