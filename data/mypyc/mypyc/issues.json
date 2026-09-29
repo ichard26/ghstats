@@ -13709,6 +13709,16 @@
       "created_by": "KRRT7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1225,
+      "title": "internal mypyc error: irbuild.context `assert self._curr_env_reg is not None`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-29T07:48:54+00:00",
+      "created_by": "mr-c",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13716,7 +13726,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-09-24T18:47:06+00:00",
+    "last_updated": "2026-09-29T19:44:25+00:00",
     "version": 1
   }
 }
