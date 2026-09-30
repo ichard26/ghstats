@@ -13719,6 +13719,20 @@
       "created_by": "mr-c",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1226,
+      "title": "Support unsigned native integers like u64",
+      "labels": [
+        "speed",
+        "feature",
+        "area-native-types"
+      ],
+      "is_pr": false,
+      "created_at": "2026-09-30T15:03:17+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13726,7 +13740,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-09-29T19:44:25+00:00",
+    "last_updated": "2026-09-30T19:46:05+00:00",
     "version": 1
   }
 }

@@ -62764,7 +62764,7 @@
       "is_pr": true,
       "created_at": "2026-09-23T14:26:14+00:00",
       "created_by": "wfatih",
-      "closed_at": null,
+      "closed_at": "2026-09-29T21:52:36+00:00",
       "closed_by": null
     },
     {
@@ -62858,7 +62858,7 @@
       "is_pr": true,
       "created_at": "2026-09-26T09:25:13+00:00",
       "created_by": "SulimanAbdulrazzaq",
-      "closed_at": null,
+      "closed_at": "2026-09-29T21:57:10+00:00",
       "closed_by": null
     },
     {
@@ -62888,7 +62888,7 @@
       "is_pr": true,
       "created_at": "2026-09-27T05:08:24+00:00",
       "created_by": "SoulSniper-V2",
-      "closed_at": null,
+      "closed_at": "2026-09-30T03:05:45+00:00",
       "closed_by": null
     },
     {
@@ -62908,7 +62908,7 @@
       "is_pr": true,
       "created_at": "2026-09-27T14:55:24+00:00",
       "created_by": "00200200",
-      "closed_at": null,
+      "closed_at": "2026-09-29T22:01:03+00:00",
       "closed_by": null
     },
     {
@@ -62916,7 +62916,8 @@
       "title": "Bump wcwidth from 0.2.14 to 0.9.1",
       "labels": [
         "C: dependencies",
-        "ci: skip news"
+        "ci: skip news",
+        "S: blocked"
       ],
       "is_pr": true,
       "created_at": "2026-09-28T06:32:42+00:00",
@@ -62957,7 +62958,10 @@
     {
       "number": 5451,
       "title": "[pre-commit.ci] pre-commit autoupdate",
-      "labels": [],
+      "labels": [
+        "ci: skip news",
+        "S: blocked"
+      ],
       "is_pr": true,
       "created_at": "2026-09-28T22:07:14+00:00",
       "created_by": "pre-commit-ci[bot]",
@@ -62993,6 +62997,26 @@
       "created_by": "Prateek99-s",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5456,
+      "title": "Add regression test for #3685 (#5456)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-09-30T09:05:31+00:00",
+      "created_by": "nedelcu-ioan",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5457,
+      "title": "\u9080\u8bf7 black \u52a0\u5165 GithubStarMate\uff0c\u8ba9\u66f4\u591a\u4eba\u53d1\u73b0\u4f60\u7684\u4f5c\u54c1",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-30T19:01:30+00:00",
+      "created_by": "owl1539",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63000,7 +63024,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-09-29T19:44:16+00:00",
+    "last_updated": "2026-09-30T19:45:55+00:00",
     "version": 1
   }
 }
