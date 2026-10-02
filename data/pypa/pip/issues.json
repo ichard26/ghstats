@@ -177131,6 +177131,31 @@
       "created_by": "silasthegoldenwizard",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14333,
+      "title": "Redact credentials in VCS and editable URL errors",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-02T11:53:54+00:00",
+      "created_by": "AsifMahsud",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14334,
+      "title": "Please uses something else instead of sha224",
+      "labels": [
+        "type: feature request",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-02T17:28:06+00:00",
+      "created_by": "xnox",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177138,7 +177163,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-09-30T19:46:05+00:00",
+    "last_updated": "2026-10-02T19:42:52+00:00",
     "version": 1
   }
 }
