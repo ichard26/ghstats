@@ -45498,8 +45498,8 @@
       "is_pr": false,
       "created_at": "2023-08-27T10:33:08+00:00",
       "created_by": "Feuermurmel",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-03T18:29:30+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3856,
@@ -62818,7 +62818,7 @@
       "is_pr": true,
       "created_at": "2026-09-24T16:23:52+00:00",
       "created_by": "ethanstoner",
-      "closed_at": null,
+      "closed_at": "2026-10-03T18:29:29+00:00",
       "closed_by": null
     },
     {
@@ -62985,7 +62985,7 @@
       "is_pr": true,
       "created_at": "2026-09-29T12:19:50+00:00",
       "created_by": "pasmud",
-      "closed_at": null,
+      "closed_at": "2026-10-03T17:48:04+00:00",
       "closed_by": null
     },
     {
@@ -63097,11 +63097,13 @@
     {
       "number": 5465,
       "title": "docs: include .py in the default --include list",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-10-01T18:07:27+00:00",
       "created_by": "ZainnQureshii",
-      "closed_at": null,
+      "closed_at": "2026-10-03T18:26:56+00:00",
       "closed_by": null
     },
     {
@@ -63163,6 +63165,68 @@
       "created_by": "jiteshgulati",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5472,
+      "title": "Expand guidance for adopting Black in existing projects",
+      "labels": [
+        "S: needs discussion"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-02T21:49:07+00:00",
+      "created_by": "Mohamedajab",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5473,
+      "title": "Avoid unnecessary parens for unbreakable RHS in assignments (#3954)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-03T04:44:16+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5474,
+      "title": "Check passes on unformatted file after running with line ranges",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-03T07:28:28+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5475,
+      "title": "Avoid quadratic runtime in right_hand_split_with_omits on long lines (#5270) ",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-03T07:31:25+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5476,
+      "title": "Fix check passing after a line ranges run",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-03T07:37:37+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5477,
+      "title": "Fix `--line-ranges` crash on `# fmt: skip` before a closing bracket",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-03T11:18:01+00:00",
+      "created_by": "SulimanAbdulrazzaq",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63170,7 +63234,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-02T19:42:45+00:00",
+    "last_updated": "2026-10-03T18:29:44+00:00",
     "version": 1
   }
 }
