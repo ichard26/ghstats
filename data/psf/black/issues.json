@@ -22207,8 +22207,8 @@
       "is_pr": false,
       "created_at": "2021-02-01T16:19:43+00:00",
       "created_by": "asottile",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-04T00:00:28+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 1952,
@@ -36024,8 +36024,8 @@
       "is_pr": false,
       "created_at": "2022-05-20T19:19:49+00:00",
       "created_by": "Akuli",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-04T01:00:32+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3081,
@@ -40583,8 +40583,8 @@
       "is_pr": false,
       "created_at": "2022-12-15T06:10:01+00:00",
       "created_by": "yilei",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-04T00:59:43+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3443,
@@ -41605,8 +41605,8 @@
       "is_pr": false,
       "created_at": "2023-01-26T13:07:49+00:00",
       "created_by": "rjalexa",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-03T23:08:27+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3527,
@@ -43262,8 +43262,8 @@
       "is_pr": false,
       "created_at": "2023-04-27T21:42:41+00:00",
       "created_by": "yilei",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-03T20:36:16+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3666,
@@ -52065,8 +52065,8 @@
       "is_pr": false,
       "created_at": "2024-07-31T08:24:27+00:00",
       "created_by": "blankRiot96",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-03T18:51:21+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4421,
@@ -59667,8 +59667,8 @@
       "is_pr": false,
       "created_at": "2026-05-01T14:01:35+00:00",
       "created_by": "sjpb",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-03T23:45:19+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5121,
@@ -61638,7 +61638,7 @@
       "is_pr": true,
       "created_at": "2026-08-04T12:34:52+00:00",
       "created_by": "dhruvatr",
-      "closed_at": null,
+      "closed_at": "2026-10-04T03:51:56+00:00",
       "closed_by": null
     },
     {
@@ -61646,14 +61646,12 @@
       "title": "Refactor release process to be more automated and use immutable releases",
       "labels": [
         "C: packaging",
-        "C: maintenance",
-        "S: needs discussion",
-        "S: blocked"
+        "C: maintenance"
       ],
       "is_pr": true,
       "created_at": "2026-08-06T22:23:23+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2026-10-03T23:45:18+00:00",
       "closed_by": null
     },
     {
@@ -62584,7 +62582,7 @@
       "is_pr": true,
       "created_at": "2026-09-15T15:17:55+00:00",
       "created_by": "GruffElixir",
-      "closed_at": null,
+      "closed_at": "2026-10-03T19:02:20+00:00",
       "closed_by": null
     },
     {
@@ -62594,7 +62592,7 @@
       "is_pr": true,
       "created_at": "2026-09-16T14:02:41+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-10-03T23:08:26+00:00",
       "closed_by": null
     },
     {
@@ -62734,7 +62732,7 @@
       "is_pr": true,
       "created_at": "2026-09-22T03:32:15+00:00",
       "created_by": "haimingZZ",
-      "closed_at": null,
+      "closed_at": "2026-10-03T21:44:47+00:00",
       "closed_by": null
     },
     {
@@ -62868,7 +62866,7 @@
       "is_pr": true,
       "created_at": "2026-09-26T22:52:16+00:00",
       "created_by": "jakezwang",
-      "closed_at": null,
+      "closed_at": "2026-10-03T18:51:19+00:00",
       "closed_by": null
     },
     {
@@ -62942,7 +62940,7 @@
       "is_pr": true,
       "created_at": "2026-09-28T06:51:14+00:00",
       "created_by": "jayzhou2309",
-      "closed_at": null,
+      "closed_at": "2026-10-03T20:36:15+00:00",
       "closed_by": null
     },
     {
@@ -62952,7 +62950,7 @@
       "is_pr": true,
       "created_at": "2026-09-28T19:48:47+00:00",
       "created_by": "shashb27",
-      "closed_at": null,
+      "closed_at": "2026-10-04T00:00:26+00:00",
       "closed_by": null
     },
     {
@@ -63051,8 +63049,8 @@
       "is_pr": false,
       "created_at": "2026-09-30T22:35:38+00:00",
       "created_by": "feiiiiii5",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-04T01:03:45+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5461,
@@ -63061,7 +63059,7 @@
       "is_pr": true,
       "created_at": "2026-09-30T22:39:08+00:00",
       "created_by": "feiiiiii5",
-      "closed_at": null,
+      "closed_at": "2026-10-04T01:03:44+00:00",
       "closed_by": null
     },
     {
@@ -63113,7 +63111,7 @@
       "is_pr": true,
       "created_at": "2026-10-01T23:42:37+00:00",
       "created_by": "msuozzo",
-      "closed_at": null,
+      "closed_at": "2026-10-03T23:12:11+00:00",
       "closed_by": null
     },
     {
@@ -63153,8 +63151,8 @@
       "is_pr": false,
       "created_at": "2026-10-02T11:19:41+00:00",
       "created_by": "jiteshgulati",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-03T21:30:53+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5471,
@@ -63163,7 +63161,7 @@
       "is_pr": true,
       "created_at": "2026-10-02T11:22:06+00:00",
       "created_by": "jiteshgulati",
-      "closed_at": null,
+      "closed_at": "2026-10-03T21:30:52+00:00",
       "closed_by": null
     },
     {
@@ -63227,6 +63225,52 @@
       "created_by": "SulimanAbdulrazzaq",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5478,
+      "title": "Prepare release 26.10.0",
+      "labels": [
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-03T23:49:42+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2026-10-04T16:46:36+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5479,
+      "title": "Fix GitHub Action crash on dependency-group includes",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-04T03:11:10+00:00",
+      "created_by": "kokotatan",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5480,
+      "title": "Add new changelog",
+      "labels": [
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-04T16:47:22+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2026-10-04T17:02:38+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5481,
+      "title": "Fix long notebook magic assignments being wrapped in parentheses",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-04T18:11:02+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63234,7 +63278,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-03T18:29:44+00:00",
+    "last_updated": "2026-10-04T18:30:04+00:00",
     "version": 1
   }
 }
