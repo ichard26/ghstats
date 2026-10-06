@@ -177201,6 +177201,18 @@
       "created_by": "pre-commit-ci[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14339,
+      "title": "Consider safeguards for oversized wheel METADATA during installation",
+      "labels": [
+        "type: performance"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-05T22:25:48+00:00",
+      "created_by": "tp-li-dev",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177208,7 +177220,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-05T21:46:11+00:00",
+    "last_updated": "2026-10-06T19:56:37+00:00",
     "version": 1
   }
 }

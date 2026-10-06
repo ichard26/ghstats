@@ -61342,8 +61342,8 @@
       "is_pr": false,
       "created_at": "2026-07-29T06:05:49+00:00",
       "created_by": "LuShadowX",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-06T18:04:34+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5271,
@@ -61400,7 +61400,7 @@
       "is_pr": true,
       "created_at": "2026-07-31T00:09:03+00:00",
       "created_by": "happykawayigt",
-      "closed_at": null,
+      "closed_at": "2026-10-06T18:04:35+00:00",
       "closed_by": null
     },
     {
@@ -61747,7 +61747,7 @@
       "is_pr": true,
       "created_at": "2026-08-12T10:22:54+00:00",
       "created_by": "aryansk",
-      "closed_at": null,
+      "closed_at": "2026-10-06T18:04:36+00:00",
       "closed_by": null
     },
     {
@@ -63203,7 +63203,7 @@
       "is_pr": true,
       "created_at": "2026-10-03T07:31:25+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-10-06T18:04:33+00:00",
       "closed_by": null
     },
     {
@@ -63325,17 +63325,17 @@
       "is_pr": false,
       "created_at": "2026-10-05T09:33:40+00:00",
       "created_by": "jiteshgulati",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-06T17:02:11+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5487,
-      "title": "Refuse to format when it changes how Python decodes the file",
+      "title": "Keep an ignored encoding declaration off the first two lines",
       "labels": [],
       "is_pr": true,
       "created_at": "2026-10-05T09:36:07+00:00",
       "created_by": "jiteshgulati",
-      "closed_at": null,
+      "closed_at": "2026-10-06T17:02:09+00:00",
       "closed_by": null
     },
     {
@@ -63347,7 +63347,27 @@
       "is_pr": false,
       "created_at": "2026-10-05T19:52:11+00:00",
       "created_by": "MajorTanya",
-      "closed_at": null,
+      "closed_at": "2026-10-06T18:07:19+00:00",
+      "closed_by": "cobaltt7"
+    },
+    {
+      "number": 5491,
+      "title": "Parenthesize logical expressions with function calls in preview (#3629)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-06T13:29:14+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": "2026-10-06T16:39:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5492,
+      "title": "Keep the parentheses around a right-hand side when a dict value's parentheses are made invisible",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-06T13:46:39+00:00",
+      "created_by": "jayzhou2309",
+      "closed_at": "2026-10-06T18:07:18+00:00",
       "closed_by": null
     }
   ],
@@ -63356,7 +63376,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-05T21:46:01+00:00",
+    "last_updated": "2026-10-06T19:56:29+00:00",
     "version": 1
   }
 }
