@@ -13434,8 +13434,8 @@
       "is_pr": false,
       "created_at": "2026-05-20T00:52:55+00:00",
       "created_by": "SamWilsn",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-07T09:15:05+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1195,
@@ -13593,8 +13593,8 @@
       "is_pr": false,
       "created_at": "2026-08-09T10:40:02+00:00",
       "created_by": "BobTheBuidler",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-07T14:17:50+00:00",
+      "closed_by": "p-sawicki"
     },
     {
       "number": 1210,
@@ -13633,8 +13633,8 @@
       "is_pr": false,
       "created_at": "2026-08-18T20:33:46+00:00",
       "created_by": "DanielNoord",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-07T11:35:49+00:00",
+      "closed_by": "p-sawicki"
     },
     {
       "number": 1214,
@@ -13753,6 +13753,36 @@
       "created_by": "rheard",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1229,
+      "title": "Class decorated with `functools.cache` fails with \"X object expected; got X\"",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-07T02:39:58+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1230,
+      "title": "`for` loop over an empty `range()` assigns the start value to the loop variable",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-07T17:14:38+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1231,
+      "title": "Assignment expression in a call argument affects earlier arguments",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-07T17:48:49+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13760,7 +13790,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-10-04T18:30:17+00:00",
+    "last_updated": "2026-10-07T20:22:52+00:00",
     "version": 1
   }
 }

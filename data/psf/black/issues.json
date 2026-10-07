@@ -36422,8 +36422,8 @@
       "is_pr": false,
       "created_at": "2022-06-08T03:59:30+00:00",
       "created_by": "liam-mipac",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-07T17:22:16+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3114,
@@ -62896,7 +62896,7 @@
       "is_pr": true,
       "created_at": "2026-09-27T13:52:56+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-10-07T17:22:14+00:00",
       "closed_by": null
     },
     {
@@ -62920,7 +62920,7 @@
       "is_pr": true,
       "created_at": "2026-09-28T06:32:42+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-10-07T06:32:59+00:00",
       "closed_by": null
     },
     {
@@ -63369,6 +63369,40 @@
       "created_by": "jayzhou2309",
       "closed_at": "2026-10-06T18:07:18+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5493,
+      "title": "Preserve blank lines after imports with --line-ranges",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-07T00:25:32+00:00",
+      "created_by": "msuozzo",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5494,
+      "title": "Fix module docstring last_line_length when docstring ends with newline",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-07T00:25:35+00:00",
+      "created_by": "msuozzo",
+      "closed_at": "2026-10-07T18:52:43+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5495,
+      "title": "Bump wcwidth from 0.2.14 to 0.9.2",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "S: blocked"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-07T06:32:51+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63376,7 +63410,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-06T19:56:29+00:00",
+    "last_updated": "2026-10-07T20:22:48+00:00",
     "version": 1
   }
 }
