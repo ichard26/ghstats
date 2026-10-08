@@ -63403,6 +63403,36 @@
       "created_by": "dependabot[bot]",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5496,
+      "title": "Fix #3679: Remove redundant parentheses in getitem/indexing operators",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-08T07:53:00+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5497,
+      "title": "Skip UTF-8 BOM when reading .gitignore",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-08T11:24:10+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5498,
+      "title": "Avoid splitting trailers when earlier bracket split exceeds length due to comments (#3681)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-08T11:57:37+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63410,7 +63440,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-07T20:22:48+00:00",
+    "last_updated": "2026-10-08T20:26:48+00:00",
     "version": 1
   }
 }

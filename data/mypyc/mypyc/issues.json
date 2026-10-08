@@ -5368,8 +5368,8 @@
       "is_pr": false,
       "created_at": "2018-12-07T20:39:51+00:00",
       "created_by": "ilevkivskyi",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:16:58+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 501,
@@ -5688,8 +5688,8 @@
       "is_pr": false,
       "created_at": "2019-02-15T22:47:15+00:00",
       "created_by": "msullivan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:07:08+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 532,
@@ -7425,8 +7425,8 @@
       "is_pr": false,
       "created_at": "2019-08-19T23:17:52+00:00",
       "created_by": "msullivan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:21:51+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 691,
@@ -7536,8 +7536,8 @@
       "is_pr": false,
       "created_at": "2019-09-07T01:14:18+00:00",
       "created_by": "msullivan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:09:58+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 700,
@@ -8598,7 +8598,7 @@
     },
     {
       "number": 785,
-      "title": "Development focus areas for 2025",
+      "title": "Development focus areas for 2026-2027",
       "labels": [
         "meta"
       ],
@@ -8925,8 +8925,7 @@
       "number": 812,
       "title": "Check return value of _CPyObject_HasAttrId",
       "labels": [
-        "bug",
-        "good first issue"
+        "bug"
       ],
       "is_pr": false,
       "created_at": "2021-03-16T11:56:51+00:00",
@@ -10389,8 +10388,8 @@
       "is_pr": false,
       "created_at": "2022-05-27T09:57:00+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:11:09+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 933,
@@ -11299,14 +11298,14 @@
       "number": 1007,
       "title": "Inheriting NamedTuple",
       "labels": [
-        "bug",
+        "feature",
         "python compat"
       ],
       "is_pr": false,
       "created_at": "2023-07-09T21:16:50+00:00",
       "created_by": "Zerophase",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T14:34:43+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1008,
@@ -11711,8 +11710,8 @@
       "is_pr": false,
       "created_at": "2023-12-03T22:08:33+00:00",
       "created_by": "andrew-ld",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:12:35+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1041,
@@ -12618,8 +12617,8 @@
       "is_pr": false,
       "created_at": "2025-07-12T16:41:16+00:00",
       "created_by": "BobTheBuidler",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:03:03+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1120,
@@ -12853,8 +12852,8 @@
       "is_pr": false,
       "created_at": "2025-09-13T18:07:05+00:00",
       "created_by": "BobTheBuidler",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:06:46+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1140,
@@ -12882,7 +12881,9 @@
     {
       "number": 1142,
       "title": "Mypyc, but not mypy, will fail to deduce the type of certain variables unless you import a class a specific way",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-09-18T19:00:20+00:00",
       "created_by": "wyattscarpenter",
@@ -13038,8 +13039,8 @@
       "is_pr": false,
       "created_at": "2025-10-22T18:50:54+00:00",
       "created_by": "Chainfire",
-      "closed_at": null,
-      "closed_by": "Chainfire"
+      "closed_at": "2026-10-08T12:05:59+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1158,
@@ -13368,12 +13369,14 @@
     {
       "number": 1188,
       "title": "Build fails with 'cpy_r_r17' may be used uninitialized",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-02-25T11:58:47+00:00",
       "created_by": "Newbytee",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:15:01+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1189,
@@ -13560,8 +13563,8 @@
       "is_pr": false,
       "created_at": "2026-07-28T15:30:58+00:00",
       "created_by": "paulocheque",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T12:07:40+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1207,
@@ -13761,8 +13764,8 @@
       "is_pr": false,
       "created_at": "2026-10-07T02:39:58+00:00",
       "created_by": "rheard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-08T08:43:03+00:00",
+      "closed_by": "p-sawicki"
     },
     {
       "number": 1230,
@@ -13781,6 +13784,46 @@
       "is_pr": false,
       "created_at": "2026-10-07T17:48:49+00:00",
       "created_by": "rheard",
+      "closed_at": "2026-10-08T10:01:15+00:00",
+      "closed_by": "p-sawicki"
+    },
+    {
+      "number": 1232,
+      "title": "Separate compilation doesn't recompile modules that use a class when `@mypyc_attr(native_class=False)` or `@trait` is added",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-07T21:43:44+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1233,
+      "title": "Reassigning the iterated variable inside a for loop changes the iteration (segfault for tuples)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-07T21:57:02+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1234,
+      "title": "`for` loop over `zip()` segfaults when another argument runs out before a compiled generator",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-08T18:43:19+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1235,
+      "title": "`next()` and `for` loops segfault on a native class whose `__next__` returns `int`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-08T18:44:00+00:00",
+      "created_by": "rheard",
       "closed_at": null,
       "closed_by": null
     }
@@ -13790,7 +13833,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-10-07T20:22:52+00:00",
+    "last_updated": "2026-10-08T20:26:51+00:00",
     "version": 1
   }
 }
