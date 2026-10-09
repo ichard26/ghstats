@@ -63411,7 +63411,7 @@
       "is_pr": true,
       "created_at": "2026-10-08T07:53:00+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-10-09T05:14:31+00:00",
       "closed_by": null
     },
     {
@@ -63433,6 +63433,74 @@
       "created_by": "Prateek99-s",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5499,
+      "title": "Enable cache when running with --diff (#1145)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-09T05:49:50+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5500,
+      "title": "Bump actions/upload-artifact from 7.0.1 to 7.0.2",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-09T06:32:35+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5501,
+      "title": "Bump actions/download-artifact from 8.0.1 to 8.0.2",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-09T06:32:43+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5502,
+      "title": "Keep walrus parentheses in set literals for Python 3.8 targets",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-09T07:45:09+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5503,
+      "title": "Let the deepest gitignore decide, so a nested negation re-includes",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-09T15:32:14+00:00",
+      "created_by": "tsuyukidev",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5504,
+      "title": "Handle PEP 695 type parameter whitespace in whitespace()",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-09T17:07:54+00:00",
+      "created_by": "msuozzo",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63440,7 +63508,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-08T20:26:48+00:00",
+    "last_updated": "2026-10-09T19:57:58+00:00",
     "version": 1
   }
 }
