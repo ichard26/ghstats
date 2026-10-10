@@ -2903,8 +2903,8 @@
       "is_pr": false,
       "created_at": "2018-05-26T07:40:36+00:00",
       "created_by": "sebdiem",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-10T18:13:14+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 261,
@@ -12622,8 +12622,8 @@
       "is_pr": false,
       "created_at": "2019-11-07T09:57:37+00:00",
       "created_by": "tyll",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-10T18:26:28+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 1146,
@@ -43459,8 +43459,8 @@
       "is_pr": false,
       "created_at": "2023-05-06T04:17:36+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-10T03:46:31+00:00",
+      "closed_by": "JelleZijlstra"
     },
     {
       "number": 3682,
@@ -61215,12 +61215,12 @@
       "number": 5259,
       "title": "Format symmetric list concatenations in preview",
       "labels": [
-        "S: needs discussion"
+        "S: accepted"
       ],
       "is_pr": true,
       "created_at": "2026-07-25T03:32:21+00:00",
       "created_by": "ColumbusLabs",
-      "closed_at": null,
+      "closed_at": "2026-10-10T18:13:13+00:00",
       "closed_by": null
     },
     {
@@ -62017,7 +62017,7 @@
       "is_pr": true,
       "created_at": "2026-08-27T12:18:49+00:00",
       "created_by": "airbate",
-      "closed_at": null,
+      "closed_at": "2026-10-10T17:53:52+00:00",
       "closed_by": null
     },
     {
@@ -62779,7 +62779,7 @@
       "number": 5431,
       "title": "Remove redundant parentheses around lists (#608)",
       "labels": [
-        "S: needs discussion"
+        "S: accepted"
       ],
       "is_pr": true,
       "created_at": "2026-09-24T08:24:36+00:00",
@@ -63421,7 +63421,7 @@
       "is_pr": true,
       "created_at": "2026-10-08T11:24:10+00:00",
       "created_by": "jiteshgulati",
-      "closed_at": null,
+      "closed_at": "2026-10-10T03:15:14+00:00",
       "closed_by": null
     },
     {
@@ -63431,7 +63431,7 @@
       "is_pr": true,
       "created_at": "2026-10-08T11:57:37+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-10-10T03:46:30+00:00",
       "closed_by": null
     },
     {
@@ -63441,7 +63441,7 @@
       "is_pr": true,
       "created_at": "2026-10-09T05:49:50+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-10-10T18:26:26+00:00",
       "closed_by": null
     },
     {
@@ -63455,7 +63455,7 @@
       "is_pr": true,
       "created_at": "2026-10-09T06:32:35+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-10-10T03:22:13+00:00",
       "closed_by": null
     },
     {
@@ -63469,7 +63469,7 @@
       "is_pr": true,
       "created_at": "2026-10-09T06:32:43+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-10-10T03:21:52+00:00",
       "closed_by": null
     },
     {
@@ -63499,6 +63499,108 @@
       "is_pr": true,
       "created_at": "2026-10-09T17:07:54+00:00",
       "created_by": "msuozzo",
+      "closed_at": "2026-10-10T03:18:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5507,
+      "title": "+2=",
+      "labels": [
+        "spam / ai"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-10T00:19:15+00:00",
+      "created_by": "smithdrjeffrey643-sudo",
+      "closed_at": "2026-10-10T01:39:02+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 5508,
+      "title": "888",
+      "labels": [
+        "spam / ai"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-10T00:19:23+00:00",
+      "created_by": "smithdrjeffrey643-sudo",
+      "closed_at": "2026-10-10T01:38:53+00:00",
+      "closed_by": "JelleZijlstra"
+    },
+    {
+      "number": 5510,
+      "title": "Action: validate required-version better",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-10T03:36:56+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2026-10-10T03:46:50+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5511,
+      "title": "Prepare release 26.10.1",
+      "labels": [
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-10T03:47:46+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2026-10-10T04:08:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5512,
+      "title": "Add new changelog",
+      "labels": [
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-10T04:09:00+00:00",
+      "created_by": "JelleZijlstra",
+      "closed_at": "2026-10-10T04:14:03+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5513,
+      "title": "Avoid OSError: AF_UNIX path too long for multiprocessing manager when running --diff (#2105)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-10T04:49:32+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5514,
+      "title": "Fix version placeholder typo in release process docs",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-10T08:06:14+00:00",
+      "created_by": "ump45nose",
+      "closed_at": "2026-10-10T18:15:38+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5515,
+      "title": "Merge short raw strings in unstable string processing",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-10T10:55:39+00:00",
+      "created_by": "sergioperezcheco",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5516,
+      "title": "Remove parentheses around simple top-level expressions (#4231)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-10T18:18:16+00:00",
+      "created_by": "Prateek99-s",
       "closed_at": null,
       "closed_by": null
     }
@@ -63508,7 +63610,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-09T19:57:58+00:00",
+    "last_updated": "2026-10-10T19:05:19+00:00",
     "version": 1
   }
 }

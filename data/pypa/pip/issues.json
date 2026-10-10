@@ -177225,6 +177225,18 @@
       "created_by": "DeRuina",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14341,
+      "title": "Reject PyPI direct URL dependencies during metadata preparation",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-10T01:49:06+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177232,7 +177244,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-09T19:58:07+00:00",
+    "last_updated": "2026-10-10T19:05:32+00:00",
     "version": 1
   }
 }

@@ -13849,6 +13849,106 @@
       "created_by": "JukkaL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1238,
+      "title": "Compiler crash on a property that has another decorator below `@property`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T01:29:09+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1239,
+      "title": "Attribute assignments that come before the definition of `__setattr__` don't call it",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T01:46:40+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1240,
+      "title": "cls.method(*fixed_tuple) in a classmethod passes the whole tuple as every argument",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T11:36:57+00:00",
+      "created_by": "thomas-mangin",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1241,
+      "title": "`__delattr__` isn't called in a class that inherits `__setattr__` from a native class",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T13:14:38+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1242,
+      "title": "Attribute assignments through a base class don't call `__setattr__` defined in a subclass",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T13:37:32+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1243,
+      "title": "`@deprecated` (PEP 702) on a compiled function or method makes the module fail at import",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T14:38:03+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1244,
+      "title": "Compiler crash when a method overrides a decorated method with a different signature",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T15:17:41+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1245,
+      "title": "`@deprecated` on a class makes it a non-native class",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T16:48:29+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1246,
+      "title": "Decorated `__init__` of a native class runs outside its decorator, and `super().__init__()` skips it",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T17:00:30+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1247,
+      "title": "`super().method()` in a class method calls a native base class method with the metaclass as `cls`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-10T17:46:41+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -13856,7 +13956,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-10-09T19:58:04+00:00",
+    "last_updated": "2026-10-10T19:05:29+00:00",
     "version": 1
   }
 }
