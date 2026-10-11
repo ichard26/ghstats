@@ -6700,8 +6700,8 @@
       "is_pr": false,
       "created_at": "2018-11-14T15:20:25+00:00",
       "created_by": "cypreess",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-10T19:47:36+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 609,
@@ -51283,8 +51283,8 @@
       "is_pr": false,
       "created_at": "2024-05-08T14:36:58+00:00",
       "created_by": "tomkcook",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-10T20:43:29+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4354,
@@ -61332,7 +61332,7 @@
       "is_pr": true,
       "created_at": "2026-07-28T16:12:45+00:00",
       "created_by": "harisawan-bit",
-      "closed_at": null,
+      "closed_at": "2026-10-11T13:43:54+00:00",
       "closed_by": null
     },
     {
@@ -62784,7 +62784,7 @@
       "is_pr": true,
       "created_at": "2026-09-24T08:24:36+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-10-10T19:47:35+00:00",
       "closed_by": null
     },
     {
@@ -63411,7 +63411,7 @@
       "is_pr": true,
       "created_at": "2026-10-08T07:53:00+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": "2026-10-09T05:14:31+00:00",
+      "closed_at": null,
       "closed_by": null
     },
     {
@@ -63474,8 +63474,10 @@
     },
     {
       "number": 5502,
-      "title": "Keep walrus parentheses in set literals for Python 3.8 targets",
-      "labels": [],
+      "title": "Keep walrus parentheses in set literals for Python 3.9 and older targets",
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-10-09T07:45:09+00:00",
       "created_by": "jiteshgulati",
@@ -63603,6 +63605,46 @@
       "created_by": "Prateek99-s",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5517,
+      "title": "feat(preview): split binary operations before operator",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-10T22:09:28+00:00",
+      "created_by": "Prateekshit73",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5518,
+      "title": "Fix preview splitting of commented method chains",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-11T07:21:28+00:00",
+      "created_by": "TusharND12",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5519,
+      "title": "Return bad request for undecodable blackd input",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-11T14:26:46+00:00",
+      "created_by": "muneikh",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5521,
+      "title": "Fix string_processing crash on strings in collections at small line lengths",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-11T16:49:41+00:00",
+      "created_by": "awss1i",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63610,7 +63652,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-10T19:05:19+00:00",
+    "last_updated": "2026-10-11T19:18:00+00:00",
     "version": 1
   }
 }

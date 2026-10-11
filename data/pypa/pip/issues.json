@@ -177237,6 +177237,31 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14342,
+      "title": "Exact URL candidates bypass package selection filters",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-11T18:25:38+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14343,
+      "title": "Apply selection filters to direct URL candidates",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-11T18:28:14+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177244,7 +177269,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-10T19:05:32+00:00",
+    "last_updated": "2026-10-11T19:18:06+00:00",
     "version": 1
   }
 }
