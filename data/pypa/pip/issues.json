@@ -177195,11 +177195,13 @@
     {
       "number": 14338,
       "title": "pre-commit autoupdate",
-      "labels": [],
+      "labels": [
+        "skip PR template check"
+      ],
       "is_pr": true,
       "created_at": "2026-10-05T20:05:09+00:00",
       "created_by": "pre-commit-ci[bot]",
-      "closed_at": null,
+      "closed_at": "2026-10-12T01:27:40+00:00",
       "closed_by": null
     },
     {
@@ -177262,6 +177264,66 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14344,
+      "title": "Upgrade pyproject-hooks to 1.3.3",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-12T01:03:22+00:00",
+      "created_by": "PhilipAstera",
+      "closed_at": "2026-10-12T01:21:07+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14345,
+      "title": "Fix LinkHash matching hash params in the URL query string",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-12T04:15:44+00:00",
+      "created_by": "intertermux-code",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14346,
+      "title": "Type Checking Part 1: For tests use concrete working sets and simplify helpers",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-12T05:09:30+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-12T05:23:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14347,
+      "title": "Type Checking Part 2: Validate configuration arguments before invoking actions",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-12T05:31:22+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14348,
+      "title": "Type Checking Part 3: Replace hand rolled enum factory with real enums",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-12T21:08:10+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-12T21:29:00+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -177269,7 +177331,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-11T19:18:06+00:00",
+    "last_updated": "2026-10-12T22:21:14+00:00",
     "version": 1
   }
 }
