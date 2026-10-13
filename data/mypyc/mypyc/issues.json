@@ -8373,8 +8373,8 @@
       "is_pr": false,
       "created_at": "2020-10-20T21:07:33+00:00",
       "created_by": "msullivan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-13T10:12:33+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 768,
@@ -13870,8 +13870,8 @@
       "is_pr": false,
       "created_at": "2026-10-10T01:46:40+00:00",
       "created_by": "rheard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-13T11:43:00+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1240,
@@ -13950,6 +13950,50 @@
       "is_pr": false,
       "created_at": "2026-10-10T17:46:41+00:00",
       "created_by": "rheard",
+      "closed_at": "2026-10-13T10:42:05+00:00",
+      "closed_by": "p-sawicki"
+    },
+    {
+      "number": 1248,
+      "title": "`super().__init__(*args, **kwargs)` passes the tuple and the dict themselves to a native base class method",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-13T01:27:58+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1249,
+      "title": "Decorated `__new__` of a native class is called without its decorator, or raises `TypeError`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-13T01:34:58+00:00",
+      "created_by": "rheard",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1250,
+      "title": "Remaining unsupported kinds of decorated overrides of native methods",
+      "labels": [
+        "bug",
+        "python compat",
+        "crash"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-13T10:24:52+00:00",
+      "created_by": "JukkaL",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1251,
+      "title": "Calls to the type object of a native class use the slow tuple and dict calling convention",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-13T16:40:18+00:00",
+      "created_by": "rheard",
       "closed_at": null,
       "closed_by": null
     }
@@ -13959,7 +14003,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-10-12T22:21:12+00:00",
+    "last_updated": "2026-10-13T20:27:59+00:00",
     "version": 1
   }
 }
