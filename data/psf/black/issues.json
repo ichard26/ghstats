@@ -63708,7 +63708,7 @@
     },
     {
       "number": 5528,
-      "title": "Treat # ruff:ignore as a pragma like type: ignore",
+      "title": "Treat # ruff: ignore as a pragma under preview",
       "labels": [],
       "is_pr": true,
       "created_at": "2026-10-12T23:34:39+00:00",
@@ -63735,6 +63735,96 @@
       "created_by": "jiteshgulati",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5533,
+      "title": "Fix lambda turned into a tuple by a comment in its default",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-13T23:16:07+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5534,
+      "title": "Treat ruff directives as pragma comments (#5260)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-13T23:18:49+00:00",
+      "created_by": "rajat397",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5535,
+      "title": "Honor nested .gitignore negations (deepest match wins)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-13T23:20:03+00:00",
+      "created_by": "Kayvan-Zahiri",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5536,
+      "title": "Lambda becomes a tuple when its default has a standalone comment",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-13T23:27:38+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5537,
+      "title": "Walk gitignored directories when negation patterns exist",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-14T01:04:33+00:00",
+      "created_by": "Kayvan-Zahiri",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5538,
+      "title": "Fix crash on `# fmt: skip` after an opening bracket followed by more code",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-14T03:07:33+00:00",
+      "created_by": "novain-shibu",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5539,
+      "title": "Remove redundant parentheses around operands in comparison expressions (#2581)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-14T07:54:19+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5541,
+      "title": "black --check exits 0 and prints All done when a multi file run is interrupted",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-14T10:38:21+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5542,
+      "title": "Don't report success when a multi-file run is interrupted",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-14T10:39:57+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63742,7 +63832,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-13T20:27:56+00:00",
+    "last_updated": "2026-10-14T19:06:49+00:00",
     "version": 1
   }
 }

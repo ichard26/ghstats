@@ -177356,8 +177356,8 @@
       "is_pr": false,
       "created_at": "2026-10-13T11:33:21+00:00",
       "created_by": "skupr-anaconda",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-13T20:30:13+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 14352,
@@ -177395,6 +177395,86 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14355,
+      "title": "`--no-require-hashes` can accept a download that does not match the supplied `--hash`",
+      "labels": [
+        "type: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-13T20:42:51+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14356,
+      "title": "Honor supplied hashes with --no-require-hashes",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-13T20:46:42+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14357,
+      "title": "PEP 658 metadata URL appends `.metadata` to the query string instead of the path",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-14T07:08:30+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14358,
+      "title": "Installing a wheel with data files to the filesystem root fails: \"trying to install outside the target directory '/'\"",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-14T07:08:43+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14359,
+      "title": "Fix PEP 658 metadata URL path construction (#14357)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-14T07:37:29+00:00",
+      "created_by": "Fire162",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14360,
+      "title": "Decode RFC 2231 extended values in parsed response headers",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-14T13:31:09+00:00",
+      "created_by": "Arawoof06",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14361,
+      "title": "Fix wheel data installation to filesystem roots",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-14T15:20:04+00:00",
+      "created_by": "yw-7777",
+      "closed_at": "2026-10-14T17:05:00+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -177402,7 +177482,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-13T20:28:02+00:00",
+    "last_updated": "2026-10-14T19:06:59+00:00",
     "version": 1
   }
 }
