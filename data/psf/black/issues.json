@@ -63825,6 +63825,36 @@
       "created_by": "jiteshgulati",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5544,
+      "title": "Avoid adding redundant parentheses around unsplittable strings (#3466)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-15T05:42:23+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5545,
+      "title": "fix(lines): do not add blank lines before # endregion comments",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-15T10:10:32+00:00",
+      "created_by": "saadkhantareen",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5546,
+      "title": "Project-relative cache-dir allows unrestricted pickle.load of attacker-controlled data",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-15T15:50:26+00:00",
+      "created_by": "aaka3h",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63832,7 +63862,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-14T19:06:49+00:00",
+    "last_updated": "2026-10-15T18:49:46+00:00",
     "version": 1
   }
 }

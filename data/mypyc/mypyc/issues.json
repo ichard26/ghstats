@@ -10965,8 +10965,8 @@
       "is_pr": false,
       "created_at": "2023-03-02T08:27:13+00:00",
       "created_by": "mr-c",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-15T12:48:30+00:00",
+      "closed_by": "mr-c"
     },
     {
       "number": 980,
@@ -13480,8 +13480,8 @@
       "is_pr": false,
       "created_at": "2026-05-28T18:21:43+00:00",
       "created_by": "BobTheBuidler",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-15T08:44:57+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1199,
@@ -13617,7 +13617,7 @@
     },
     {
       "number": 1211,
-      "title": "pickle-able classes with `Final` class attributes",
+      "title": "[2.3.0 regression] pickle-able classes with `Final` class attributes",
       "labels": [],
       "is_pr": false,
       "created_at": "2026-08-17T13:06:58+00:00",
@@ -13893,8 +13893,8 @@
       "is_pr": false,
       "created_at": "2026-10-10T13:14:38+00:00",
       "created_by": "rheard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-15T09:38:39+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1242,
@@ -13923,8 +13923,8 @@
       "is_pr": false,
       "created_at": "2026-10-10T15:17:41+00:00",
       "created_by": "rheard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-15T09:37:57+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1245,
@@ -13997,8 +13997,8 @@
       "is_pr": false,
       "created_at": "2026-10-13T16:40:18+00:00",
       "created_by": "rheard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-15T12:10:44+00:00",
+      "closed_by": "p-sawicki"
     }
   ],
   "record": {
@@ -14006,7 +14006,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-10-14T19:06:57+00:00",
+    "last_updated": "2026-10-15T18:49:49+00:00",
     "version": 1
   }
 }
