@@ -63855,6 +63855,56 @@
       "created_by": "aaka3h",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5547,
+      "title": "Ignore project-configured cache directories",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-15T19:03:01+00:00",
+      "created_by": "dannyward630",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5548,
+      "title": "Report a clear error for non-table Black configuration",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-16T09:27:51+00:00",
+      "created_by": "Jo2234",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5549,
+      "title": "Fix headers swallowed by comment-only fmt: off blocks",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-16T11:17:58+00:00",
+      "created_by": "jiteshgulati",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5550,
+      "title": "concurrency: count cancelled tasks as failures (fixes #5541)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-16T12:26:15+00:00",
+      "created_by": "piyush295",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5551,
+      "title": "Correct the PyPy version floor in the FAQ",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-16T18:28:47+00:00",
+      "created_by": "ump45nose",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -63862,7 +63912,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-15T18:49:46+00:00",
+    "last_updated": "2026-10-16T18:33:55+00:00",
     "version": 1
   }
 }
