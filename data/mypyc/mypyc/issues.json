@@ -10731,8 +10731,8 @@
       "is_pr": false,
       "created_at": "2022-12-25T19:41:52+00:00",
       "created_by": "jab",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-19T13:55:05+00:00",
+      "closed_by": "p-sawicki"
     },
     {
       "number": 962,
@@ -11879,8 +11879,8 @@
       "is_pr": false,
       "created_at": "2024-07-15T14:28:47+00:00",
       "created_by": "vidraj",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-19T13:55:04+00:00",
+      "closed_by": "p-sawicki"
     },
     {
       "number": 1058,
@@ -13427,8 +13427,8 @@
       "is_pr": false,
       "created_at": "2026-05-19T17:56:31+00:00",
       "created_by": "SamWilsn",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-19T12:09:00+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1194,
@@ -13943,8 +13943,8 @@
       "is_pr": false,
       "created_at": "2026-10-10T17:00:30+00:00",
       "created_by": "rheard",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-19T13:55:04+00:00",
+      "closed_by": "p-sawicki"
     },
     {
       "number": 1247,
@@ -14006,7 +14006,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-10-16T18:33:59+00:00",
+    "last_updated": "2026-10-19T20:18:53+00:00",
     "version": 1
   }
 }

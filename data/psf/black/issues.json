@@ -63893,27 +63893,31 @@
       "is_pr": true,
       "created_at": "2026-10-16T12:26:15+00:00",
       "created_by": "piyush295",
-      "closed_at": null,
+      "closed_at": "2026-10-19T03:16:37+00:00",
       "closed_by": null
     },
     {
       "number": 5551,
       "title": "Correct the PyPy version floor in the FAQ",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-10-16T18:28:47+00:00",
       "created_by": "ump45nose",
-      "closed_at": null,
+      "closed_at": "2026-10-18T21:54:56+00:00",
       "closed_by": null
     },
     {
       "number": 5552,
       "title": "docs: render the no-cache example as a command",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-10-16T19:28:13+00:00",
       "created_by": "Mohamedajab",
-      "closed_at": null,
+      "closed_at": "2026-10-18T22:03:44+00:00",
       "closed_by": null
     },
     {
@@ -63923,7 +63927,7 @@
       "is_pr": true,
       "created_at": "2026-10-16T22:51:09+00:00",
       "created_by": "travisfortney",
-      "closed_at": null,
+      "closed_at": "2026-10-18T22:01:10+00:00",
       "closed_by": null
     },
     {
@@ -63939,11 +63943,13 @@
     {
       "number": 5555,
       "title": "Show the full two-line output of `black --version` in the docs",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-10-17T03:01:51+00:00",
       "created_by": "ump45nose",
-      "closed_at": null,
+      "closed_at": "2026-10-18T21:59:00+00:00",
       "closed_by": null
     },
     {
@@ -63963,7 +63969,7 @@
       "is_pr": true,
       "created_at": "2026-10-17T08:20:12+00:00",
       "created_by": "kooler",
-      "closed_at": null,
+      "closed_at": "2026-10-18T22:00:18+00:00",
       "closed_by": null
     },
     {
@@ -63989,11 +63995,13 @@
     {
       "number": 5560,
       "title": "Make the documented -v example match what black actually prints",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-10-17T16:43:20+00:00",
       "created_by": "ump45nose",
-      "closed_at": null,
+      "closed_at": "2026-10-18T21:59:28+00:00",
       "closed_by": null
     },
     {
@@ -64017,6 +64025,80 @@
       "created_by": "ZXLyyds100",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5563,
+      "title": "Fix preview unpacking-parens crash on multiline targets",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-19T01:18:03+00:00",
+      "created_by": "ag3ntsc4rn",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5564,
+      "title": "Fix preview generator-parens crash with --skip-magic-trailing-comma",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-19T01:18:05+00:00",
+      "created_by": "ag3ntsc4rn",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5565,
+      "title": "Format expressions inside f-strings (#567)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-19T05:56:45+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5566,
+      "title": "Bump zizmorcore/zizmor-action from 0.6.4 to 0.7.1",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-19T06:38:35+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5567,
+      "title": "Cannot parse `f(*x for x in y)` (PEP 798 unpacking in a generator passed as the only call argument)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-19T09:19:47+00:00",
+      "created_by": "auraseb",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5568,
+      "title": "Parse unpacking in a generator passed as the only call argument (PEP 798)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-19T09:19:49+00:00",
+      "created_by": "auraseb",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5569,
+      "title": "Add preview support for formatting Cython files",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-19T14:48:18+00:00",
+      "created_by": "0x000NULL",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -64024,7 +64106,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-18T17:43:31+00:00",
+    "last_updated": "2026-10-19T20:18:42+00:00",
     "version": 1
   }
 }
