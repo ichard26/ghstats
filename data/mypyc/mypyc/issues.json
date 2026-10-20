@@ -12468,7 +12468,9 @@
     {
       "number": 1107,
       "title": "System Error: method returned NULL without setting an exception",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-06-11T02:18:01+00:00",
       "created_by": "BobTheBuidler",
@@ -12649,7 +12651,9 @@
     {
       "number": 1122,
       "title": "Dataclasses incorrectly include ClassVar annotated attributes as fields",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-07-25T08:28:08+00:00",
       "created_by": "sg495",
@@ -12766,8 +12770,8 @@
       "is_pr": false,
       "created_at": "2025-09-03T14:02:07+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T16:49:52+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1133,
@@ -12779,8 +12783,8 @@
       "is_pr": false,
       "created_at": "2025-09-03T14:13:56+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T16:54:57+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1134,
@@ -12792,8 +12796,8 @@
       "is_pr": false,
       "created_at": "2025-09-03T14:21:41+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T16:51:05+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1135,
@@ -12805,8 +12809,8 @@
       "is_pr": false,
       "created_at": "2025-09-03T14:31:22+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T16:56:26+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1136,
@@ -12935,7 +12939,9 @@
     {
       "number": 1147,
       "title": "TypeError from over-aggressive optimization when type checking classes that support interpreted subclasses",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-10-01T03:33:44+00:00",
       "created_by": "BobTheBuidler",
@@ -12965,7 +12971,10 @@
     {
       "number": 1150,
       "title": "nondeterministic code generation",
-      "labels": [],
+      "labels": [
+        "usability",
+        "area-codegen"
+      ],
       "is_pr": false,
       "created_at": "2025-10-13T16:16:10+00:00",
       "created_by": "mr-c",
@@ -12975,7 +12984,10 @@
     {
       "number": 1151,
       "title": "UnboundLocalError in async context incorrectly raises AttributeError",
-      "labels": [],
+      "labels": [
+        "bug",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2025-10-15T06:03:51+00:00",
       "created_by": "BobTheBuidler",
@@ -12985,7 +12997,9 @@
     {
       "number": 1152,
       "title": "Final usage leading to gcc errror: use of a variable before declaration",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-10-15T09:14:05+00:00",
       "created_by": "mr-c",
@@ -12995,7 +13009,10 @@
     {
       "number": 1153,
       "title": "AssertionError: not sure what to do with an incref of a spill...",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2025-10-15T12:03:51+00:00",
       "created_by": "Chainfire",
@@ -13015,7 +13032,9 @@
     {
       "number": 1155,
       "title": "Broken C code generated when subclassing an aliased name",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-10-15T19:46:36+00:00",
       "created_by": "BobTheBuidler",
@@ -13025,7 +13044,9 @@
     {
       "number": 1156,
       "title": "Memory Error in `mypycify` call on 32-bit Windows",
-      "labels": [],
+      "labels": [
+        "status-needs-repro"
+      ],
       "is_pr": false,
       "created_at": "2025-10-21T15:59:03+00:00",
       "created_by": "BobTheBuidler",
@@ -13068,7 +13089,9 @@
     {
       "number": 1160,
       "title": "Extending ast.AST fails with \"has the Py_TPFLAGS_MANAGED_DICT flag but tp_dictoffset is set\"",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-11-03T13:58:28+00:00",
       "created_by": "kasium",
@@ -13078,7 +13101,9 @@
     {
       "number": 1161,
       "title": "mypyc compiled projects cannot be used for (flake8) plugins",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-11-03T14:35:38+00:00",
       "created_by": "kasium",
@@ -13098,7 +13123,9 @@
     {
       "number": 1163,
       "title": "Compile failure when importing `StrEnum` from `backports.strenum` but works when importing from `backports.strenum.strenum`",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-11-04T09:30:02+00:00",
       "created_by": "romintomasetti",
@@ -13180,7 +13207,10 @@
     {
       "number": 1171,
       "title": "`mypyc` crashes with union type containing base class and its descendants in list iteration",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2025-12-21T17:02:03+00:00",
       "created_by": "romintomasetti",
@@ -13190,7 +13220,9 @@
     {
       "number": 1172,
       "title": "Attributes on serializable classes are invisible outside compilation unit",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2025-12-22T19:23:44+00:00",
       "created_by": "dhdaines",
@@ -13200,7 +13232,10 @@
     {
       "number": 1173,
       "title": "Compiled native classes become unhashable if ordered comparison methods are defined",
-      "labels": [],
+      "labels": [
+        "bug",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2025-12-22T19:45:22+00:00",
       "created_by": "dhdaines",
@@ -13234,7 +13269,9 @@
     {
       "number": 1176,
       "title": "`functools.total_ordering` with `dataclasses.dataclass` raises (starting from Python 3.14)",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-01-04T19:23:41+00:00",
       "created_by": "romintomasetti",
@@ -13286,7 +13323,10 @@
     {
       "number": 1181,
       "title": "mypy-compiled classes omit qualname in metaclass new namespace",
-      "labels": [],
+      "labels": [
+        "bug",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2026-01-27T05:37:46+00:00",
       "created_by": "BobTheBuidler",
@@ -13443,7 +13483,10 @@
     {
       "number": 1195,
       "title": "Inconsistent behaviour between mypy and mypyc with operator dunder methods",
-      "labels": [],
+      "labels": [
+        "bug",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2026-05-20T01:06:58+00:00",
       "created_by": "SamWilsn",
@@ -13463,7 +13506,10 @@
     {
       "number": 1197,
       "title": "mypyc emits bare NotRequired in TypedDict runtime annotations",
-      "labels": [],
+      "labels": [
+        "bug",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2026-05-27T03:58:31+00:00",
       "created_by": "BobTheBuidler",
@@ -13486,7 +13532,9 @@
     {
       "number": 1199,
       "title": "`CPyFunction` async method wrappers are missing `__qualname__`",
-      "labels": [],
+      "labels": [
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2026-05-31T20:05:50+00:00",
       "created_by": "BobTheBuidler",
@@ -13539,8 +13587,8 @@
       "is_pr": false,
       "created_at": "2026-07-07T10:41:36+00:00",
       "created_by": "JukkaL",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T16:52:21+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1204,
@@ -13555,12 +13603,15 @@
     {
       "number": 1205,
       "title": "Internal error compiling a non-native class whose method returns a `self`-capturing closure",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2026-07-27T15:57:11+00:00",
       "created_by": "nstarman",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T16:10:32+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1206,
@@ -13575,7 +13626,10 @@
     {
       "number": 1207,
       "title": "issue: dataclass (frozen=True) and ClassVar attributes",
-      "labels": [],
+      "labels": [
+        "bug",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2026-08-02T01:15:00+00:00",
       "created_by": "paulocheque",
@@ -13648,7 +13702,9 @@
     {
       "number": 1214,
       "title": "DeprecationWarning: the (type, exc, tb) signature of throw() is deprecated, use the single-arg signature instead.",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-08-27T21:11:45+00:00",
       "created_by": "Dreamsorcerer",
@@ -13682,7 +13738,9 @@
     {
       "number": 1217,
       "title": "Name mangling collides with compiler keywords (`__restrict`, `__single`)",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-09-02T17:50:03+00:00",
       "created_by": "toby-bro",
@@ -13690,9 +13748,51 @@
       "closed_by": null
     },
     {
+      "number": 1218,
+      "title": "doc/dev-intro.md",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-05T09:34:48+00:00",
+      "created_by": "deepdiver22",
+      "closed_at": "2026-10-20T17:16:06+00:00",
+      "closed_by": "ilevkivskyi"
+    },
+    {
+      "number": 1219,
+      "title": "Fuck \u00d9",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-05T09:40:04+00:00",
+      "created_by": "deepdiver22",
+      "closed_at": "2026-10-20T17:15:13+00:00",
+      "closed_by": "ilevkivskyi"
+    },
+    {
+      "number": 1220,
+      "title": "GitHub corruption",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-05T09:40:52+00:00",
+      "created_by": "deepdiver22",
+      "closed_at": "2026-10-20T17:15:29+00:00",
+      "closed_by": "ilevkivskyi"
+    },
+    {
+      "number": 1221,
+      "title": "https://github.com/mypyc/mypyc/issues/1220",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-09-05T09:44:01+00:00",
+      "created_by": "deepdiver22",
+      "closed_at": "2026-10-20T17:15:46+00:00",
+      "closed_by": "ilevkivskyi"
+    },
+    {
       "number": 1222,
       "title": "Native classes ignore a data descriptor's __set__; assignment raises \"is read-only\"",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-09-07T23:59:40+00:00",
       "created_by": "nstarman",
@@ -13722,12 +13822,15 @@
     {
       "number": 1225,
       "title": "internal mypyc error: irbuild.context `assert self._curr_env_reg is not None`",
-      "labels": [],
+      "labels": [
+        "bug",
+        "crash"
+      ],
       "is_pr": false,
       "created_at": "2026-09-29T07:48:54+00:00",
       "created_by": "mr-c",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T16:10:32+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1226,
@@ -14006,7 +14109,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-10-19T20:18:53+00:00",
+    "last_updated": "2026-10-20T18:51:38+00:00",
     "version": 1
   }
 }

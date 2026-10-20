@@ -41276,8 +41276,8 @@
       "is_pr": false,
       "created_at": "2023-01-13T20:13:11+00:00",
       "created_by": "felix-hilden",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T17:47:15+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3498,
@@ -63633,7 +63633,7 @@
       "is_pr": true,
       "created_at": "2026-10-11T14:26:46+00:00",
       "created_by": "muneikh",
-      "closed_at": null,
+      "closed_at": "2026-10-20T15:57:08+00:00",
       "closed_by": null
     },
     {
@@ -63699,11 +63699,13 @@
     {
       "number": 5527,
       "title": "Document stdin filename file-type inference",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-10-12T21:25:34+00:00",
       "created_by": "Mohamedajab",
-      "closed_at": null,
+      "closed_at": "2026-10-20T16:25:01+00:00",
       "closed_by": null
     },
     {
@@ -63723,8 +63725,8 @@
       "is_pr": false,
       "created_at": "2026-10-13T10:48:45+00:00",
       "created_by": "jiteshgulati",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T17:46:55+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5530,
@@ -63733,7 +63735,7 @@
       "is_pr": true,
       "created_at": "2026-10-13T10:49:12+00:00",
       "created_by": "jiteshgulati",
-      "closed_at": null,
+      "closed_at": "2026-10-20T17:46:54+00:00",
       "closed_by": null
     },
     {
@@ -63869,11 +63871,13 @@
     {
       "number": 5548,
       "title": "Report a clear error for non-table Black configuration",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-10-16T09:27:51+00:00",
       "created_by": "Jo2234",
-      "closed_at": null,
+      "closed_at": "2026-10-20T17:48:28+00:00",
       "closed_by": null
     },
     {
@@ -63955,11 +63959,13 @@
     {
       "number": 5556,
       "title": "Include version info in the documented INTERNAL ERROR output",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-10-17T03:13:59+00:00",
       "created_by": "ump45nose",
-      "closed_at": null,
+      "closed_at": "2026-10-20T16:32:20+00:00",
       "closed_by": null
     },
     {
@@ -63979,7 +63985,7 @@
       "is_pr": true,
       "created_at": "2026-10-17T10:18:36+00:00",
       "created_by": "VedantBhayani",
-      "closed_at": null,
+      "closed_at": "2026-10-20T17:47:14+00:00",
       "closed_by": null
     },
     {
@@ -64067,7 +64073,7 @@
       "is_pr": true,
       "created_at": "2026-10-19T06:38:35+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-10-20T14:32:28+00:00",
       "closed_by": null
     },
     {
@@ -64077,8 +64083,8 @@
       "is_pr": false,
       "created_at": "2026-10-19T09:19:47+00:00",
       "created_by": "auraseb",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T16:32:51+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5568,
@@ -64087,7 +64093,7 @@
       "is_pr": true,
       "created_at": "2026-10-19T09:19:49+00:00",
       "created_by": "auraseb",
-      "closed_at": null,
+      "closed_at": "2026-10-20T16:32:49+00:00",
       "closed_by": null
     },
     {
@@ -64099,6 +64105,18 @@
       "created_by": "0x000NULL",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5570,
+      "title": "Document the summary and output-file inputs of the GitHub Action",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-20T08:11:03+00:00",
+      "created_by": "qodelicious",
+      "closed_at": "2026-10-20T15:59:12+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -64106,7 +64124,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-19T20:18:42+00:00",
+    "last_updated": "2026-10-20T18:51:31+00:00",
     "version": 1
   }
 }

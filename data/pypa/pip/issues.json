@@ -177620,6 +177620,42 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14373,
+      "title": "Upgrade certifi to 2026.10.19",
+      "labels": [
+        "skip news",
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-20T14:37:01+00:00",
+      "created_by": "sethmlarson",
+      "closed_at": "2026-10-20T14:52:43+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14374,
+      "title": "Switch to using truststore only by default (currently mixed certifi + truststore)",
+      "labels": [
+        "type: security",
+        "type: feature request"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-20T15:38:31+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14375,
+      "title": "Release/26.2.2",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-20T16:17:05+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-20T16:31:31+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -177627,7 +177663,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-19T20:18:54+00:00",
+    "last_updated": "2026-10-20T18:51:47+00:00",
     "version": 1
   }
 }
