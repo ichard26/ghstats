@@ -177293,12 +177293,13 @@
       "number": 14345,
       "title": "Fix LinkHash matching hash params in the URL query string",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "resolution: AI policy"
       ],
       "is_pr": true,
       "created_at": "2026-10-12T04:15:44+00:00",
       "created_by": "intertermux-code",
-      "closed_at": null,
+      "closed_at": "2026-10-21T12:25:56+00:00",
       "closed_by": null
     },
     {
@@ -177656,6 +177657,67 @@
       "created_by": "notatallshaw",
       "closed_at": "2026-10-20T16:31:31+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14376,
+      "title": "DEPRECATION: pytorch-lightning 1.8.3.post2 has a non-standard dependency specifier torch>=1.9.*.",
+      "labels": [
+        "type: support"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-21T04:34:36+00:00",
+      "created_by": "drmobasher",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14377,
+      "title": "Fix UTF-8 configuration reading on Windows in Python UTF-8 Mode",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-21T07:02:16+00:00",
+      "created_by": "webdevsamran",
+      "closed_at": "2026-10-21T07:07:35+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14378,
+      "title": "Read pip INI files as UTF-8 regardless of locale",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-21T08:14:16+00:00",
+      "created_by": "David-goldenman",
+      "closed_at": "2026-10-21T08:36:42+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14379,
+      "title": "Switch to using truststore by default",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-21T10:34:37+00:00",
+      "created_by": "sepehr-rs",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14380,
+      "title": "Improve pip version-check error diagnostics",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-21T18:55:53+00:00",
+      "created_by": "Samuel-Hills",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177663,7 +177725,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-20T18:51:47+00:00",
+    "last_updated": "2026-10-21T19:04:09+00:00",
     "version": 1
   }
 }

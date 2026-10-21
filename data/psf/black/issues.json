@@ -63141,7 +63141,7 @@
       "is_pr": true,
       "created_at": "2026-10-02T11:13:14+00:00",
       "created_by": "maple-pwn",
-      "closed_at": null,
+      "closed_at": "2026-10-21T15:29:45+00:00",
       "closed_by": null
     },
     {
@@ -63815,8 +63815,8 @@
       "is_pr": false,
       "created_at": "2026-10-14T10:38:21+00:00",
       "created_by": "jiteshgulati",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-20T23:15:07+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5542,
@@ -63825,7 +63825,7 @@
       "is_pr": true,
       "created_at": "2026-10-14T10:39:57+00:00",
       "created_by": "jiteshgulati",
-      "closed_at": null,
+      "closed_at": "2026-10-20T23:15:06+00:00",
       "closed_by": null
     },
     {
@@ -63995,7 +63995,7 @@
       "is_pr": true,
       "created_at": "2026-10-17T16:36:09+00:00",
       "created_by": "PerryLink",
-      "closed_at": null,
+      "closed_at": "2026-10-20T23:06:23+00:00",
       "closed_by": null
     },
     {
@@ -64117,6 +64117,46 @@
       "created_by": "qodelicious",
       "closed_at": "2026-10-20T15:59:12+00:00",
       "closed_by": null
+    },
+    {
+      "number": 5571,
+      "title": "docs: the major version example for `--required-version` no longer matches",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-21T03:17:15+00:00",
+      "created_by": "ump45nose",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5572,
+      "title": "docs: the documented cache file name no longer matches Mode.get_cache_key",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-21T03:19:08+00:00",
+      "created_by": "ump45nose",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5573,
+      "title": "blackd: keep the skipped first line inside the returned diff",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-21T03:29:55+00:00",
+      "created_by": "ump45nose",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5574,
+      "title": "Apply recursive exclusions to symlink destinations",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-21T11:38:45+00:00",
+      "created_by": "polootyyyyy",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -64124,7 +64164,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-20T18:51:31+00:00",
+    "last_updated": "2026-10-21T19:03:59+00:00",
     "version": 1
   }
 }
