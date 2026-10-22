@@ -173334,8 +173334,8 @@
       "is_pr": false,
       "created_at": "2026-05-31T06:36:06+00:00",
       "created_by": "gineshkumar",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-22T17:09:46+00:00",
+      "closed_by": "pradyunsg"
     },
     {
       "number": 14021,
@@ -173347,7 +173347,7 @@
       "is_pr": true,
       "created_at": "2026-05-31T06:38:11+00:00",
       "created_by": "gineshkumar",
-      "closed_at": null,
+      "closed_at": "2026-10-22T17:10:19+00:00",
       "closed_by": null
     },
     {
@@ -177619,7 +177619,7 @@
       "is_pr": true,
       "created_at": "2026-10-18T17:52:28+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-10-22T14:37:59+00:00",
       "closed_by": null
     },
     {
@@ -177718,6 +177718,67 @@
       "created_by": "Samuel-Hills",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14381,
+      "title": "Document yanked releases and PyPI guidance",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-21T21:54:22+00:00",
+      "created_by": "aryanbarde80",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14382,
+      "title": "#14374",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-21T22:11:53+00:00",
+      "created_by": "saadalkhalaf20235-glitch",
+      "closed_at": "2026-10-21T22:16:22+00:00",
+      "closed_by": "pradyunsg"
+    },
+    {
+      "number": 14383,
+      "title": "Append `.metadata` to the URL path instead of the query string for PEP 658 metadata links",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-22T03:14:24+00:00",
+      "created_by": "tony1233200",
+      "closed_at": "2026-10-22T03:33:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14384,
+      "title": "pip debug ignores unexpected positional arguments",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-10-22T17:56:40+00:00",
+      "created_by": "TanvirTian",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14385,
+      "title": "Pin oldest Python jobs to Ubuntu 24.04",
+      "labels": [
+        "skip news",
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-22T18:56:47+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177725,7 +177786,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-21T19:04:09+00:00",
+    "last_updated": "2026-10-22T19:00:55+00:00",
     "version": 1
   }
 }
