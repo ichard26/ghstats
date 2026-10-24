@@ -177783,12 +177783,13 @@
       "number": 14386,
       "title": "Fix PEP 658 metadata URL construction when package URL contains query string",
       "labels": [
-        "bot:chronographer:provided"
+        "bot:chronographer:provided",
+        "resolution: AI policy"
       ],
       "is_pr": true,
       "created_at": "2026-10-22T19:52:27+00:00",
       "created_by": "ANO3457",
-      "closed_at": null,
+      "closed_at": "2026-10-24T15:44:59+00:00",
       "closed_by": null
     },
     {
@@ -177798,8 +177799,8 @@
       "is_pr": false,
       "created_at": "2026-10-23T15:38:00+00:00",
       "created_by": "sotomayorlucas",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-24T12:02:35+00:00",
+      "closed_by": "sotomayorlucas"
     },
     {
       "number": 14388,
@@ -177810,12 +177811,12 @@
       "is_pr": true,
       "created_at": "2026-10-23T15:38:32+00:00",
       "created_by": "sotomayorlucas",
-      "closed_at": null,
+      "closed_at": "2026-10-24T12:01:30+00:00",
       "closed_by": null
     },
     {
       "number": 14389,
-      "title": "Reject unexpected positional arguments in pip debug",
+      "title": "Reject extra positional arguments in pip commands",
       "labels": [
         "bot:chronographer:provided"
       ],
@@ -177855,7 +177856,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-23T18:49:50+00:00",
+    "last_updated": "2026-10-24T17:45:35+00:00",
     "version": 1
   }
 }
