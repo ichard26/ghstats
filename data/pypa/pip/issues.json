@@ -177869,6 +177869,150 @@
       "created_by": "matthewyang204",
       "closed_at": "2026-10-25T06:04:14+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14394,
+      "title": "Upgrade vendored certifi to 2026.10.23",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T02:33:39+00:00",
+      "created_by": "w4ffl35",
+      "closed_at": "2026-10-26T04:23:24+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14395,
+      "title": "Refresh outdated protected pip caches in nox environment",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T03:58:06+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-26T04:04:53+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14396,
+      "title": "Refresh the Black, Ruff, and zizmor development hooks",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T03:58:55+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-26T04:05:41+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14397,
+      "title": "Update setup-python to 7.1.0 across workflows",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T03:59:48+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-26T04:21:30+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14398,
+      "title": "Repair the coverage Nox session",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T04:00:19+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-26T04:22:43+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14399,
+      "title": "Update PyPI publishing action to 1.14.3",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T04:00:51+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-26T04:05:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14400,
+      "title": "Allow current build releases in the test environment",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T04:02:13+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-26T04:22:06+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14401,
+      "title": "Vendor certifi 2026.10.23 & force it's usage across test and dev environment",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T04:04:01+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-26T04:22:55+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14402,
+      "title": "Fix requests pyopenssl platform check",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T04:20:43+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14403,
+      "title": "Fix remote build constraints to use network options ",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T04:45:27+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14404,
+      "title": "Document build-code execution during pip download",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T07:40:16+00:00",
+      "created_by": "Skytuhua",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14405,
+      "title": "Fix PEP 658 metadata URL for distribution URLs with a query string",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-26T19:08:03+00:00",
+      "created_by": "PRINCE2-AI",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -177876,7 +178020,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-25T18:01:32+00:00",
+    "last_updated": "2026-10-26T20:15:52+00:00",
     "version": 1
   }
 }
