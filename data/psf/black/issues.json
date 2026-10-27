@@ -57219,7 +57219,7 @@
     },
     {
       "number": 4881,
-      "title": "wrap_comprehension_in: Always wrap if there's delimiters",
+      "title": "wrap_comprehension_in: Retain user's choice if there's delimiters",
       "labels": [],
       "is_pr": true,
       "created_at": "2025-12-04T05:02:53+00:00",
@@ -64363,7 +64363,7 @@
       "is_pr": true,
       "created_at": "2026-10-23T06:36:04+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-10-27T06:33:17+00:00",
       "closed_by": null
     },
     {
@@ -64601,6 +64601,59 @@
       "created_by": "LuisFigueroaG",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5627,
+      "title": "wrap_long_dict_values_in_parens: Respect user choice if no delimiters",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-27T00:21:55+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5628,
+      "title": "Keep IPython magics in annotated assignments in notebooks",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-27T00:39:39+00:00",
+      "created_by": "Anandb71",
+      "closed_at": "2026-10-27T02:31:14+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5629,
+      "title": "Bump wcwidth from 0.2.14 to 0.9.4",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-27T06:33:07+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5630,
+      "title": "Don't rewrite IPython help syntax and prompts in notebooks",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-27T06:39:36+00:00",
+      "created_by": "Anandb71",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5631,
+      "title": "Fix unstable formatting of multi-line comparison operand parentheses",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-27T10:27:41+00:00",
+      "created_by": "vidigoat",
+      "closed_at": "2026-10-27T17:13:02+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -64608,7 +64661,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-26T20:15:45+00:00",
+    "last_updated": "2026-10-27T19:46:12+00:00",
     "version": 1
   }
 }

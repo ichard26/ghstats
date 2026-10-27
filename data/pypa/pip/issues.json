@@ -177975,7 +177975,7 @@
       "is_pr": true,
       "created_at": "2026-10-26T04:20:43+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-10-27T04:34:04+00:00",
       "closed_by": null
     },
     {
@@ -178013,6 +178013,77 @@
       "created_by": "PRINCE2-AI",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14406,
+      "title": "Vendor version update for urllib3",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-10-27T00:35:54+00:00",
+      "created_by": "jmajoor",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14407,
+      "title": "Downgrade vendored tomli to 2.3.2",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-27T01:14:56+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14408,
+      "title": "Vendor latest distlib, msgpack, platformdirs, idna and Pygments",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-27T01:17:33+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-27T04:33:06+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14409,
+      "title": "Improve the requires-python mismatch error message",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-27T05:38:50+00:00",
+      "created_by": "PRINCE2-AI",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14410,
+      "title": "Fold multiline metadata in pip show output",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-27T17:56:11+00:00",
+      "created_by": "faresrafat3",
+      "closed_at": "2026-10-27T18:46:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14411,
+      "title": "Vendor rich 15.0.0",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-27T19:04:01+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -178020,7 +178091,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-26T20:15:52+00:00",
+    "last_updated": "2026-10-27T19:46:17+00:00",
     "version": 1
   }
 }
