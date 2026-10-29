@@ -175603,7 +175603,7 @@
       "is_pr": true,
       "created_at": "2026-07-25T20:31:38+00:00",
       "created_by": "sbidoul",
-      "closed_at": null,
+      "closed_at": "2026-10-29T18:48:05+00:00",
       "closed_by": null
     },
     {
@@ -178108,6 +178108,18 @@
       "created_by": "mardgez",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14414,
+      "title": "Run zipapp tests on Linux and bump to Python 3.11",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-29T19:25:46+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-10-29T19:46:43+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -178115,7 +178127,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-10-28T20:01:18+00:00",
+    "last_updated": "2026-10-29T20:00:52+00:00",
     "version": 1
   }
 }
