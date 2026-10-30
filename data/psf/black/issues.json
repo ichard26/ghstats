@@ -46341,8 +46341,8 @@
       "is_pr": false,
       "created_at": "2023-10-06T10:30:43+00:00",
       "created_by": "LLyaudet",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-29T21:44:43+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3926,
@@ -64485,7 +64485,7 @@
     },
     {
       "number": 5616,
-      "title": "Drop 3.10",
+      "title": "Drop 3.10 & update dependencies",
       "labels": [],
       "is_pr": true,
       "created_at": "2026-10-25T04:25:46+00:00",
@@ -64604,7 +64604,7 @@
       "is_pr": true,
       "created_at": "2026-10-26T19:55:25+00:00",
       "created_by": "LuisFigueroaG",
-      "closed_at": null,
+      "closed_at": "2026-10-30T00:09:37+00:00",
       "closed_by": null
     },
     {
@@ -64649,7 +64649,7 @@
       "is_pr": true,
       "created_at": "2026-10-27T06:39:36+00:00",
       "created_by": "Anandb71",
-      "closed_at": null,
+      "closed_at": "2026-10-29T21:54:21+00:00",
       "closed_by": null
     },
     {
@@ -64721,7 +64721,7 @@
       "is_pr": true,
       "created_at": "2026-10-29T16:52:11+00:00",
       "created_by": "PerryLink",
-      "closed_at": null,
+      "closed_at": "2026-10-29T21:44:42+00:00",
       "closed_by": null
     },
     {
@@ -64733,7 +64733,7 @@
       "is_pr": true,
       "created_at": "2026-10-29T18:07:22+00:00",
       "created_by": "PerryLink",
-      "closed_at": null,
+      "closed_at": "2026-10-29T21:52:45+00:00",
       "closed_by": null
     },
     {
@@ -64745,6 +64745,38 @@
       "created_by": "voidstackloop",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5641,
+      "title": "cache: treat an unreadable cache file as a miss",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-30T04:55:48+00:00",
+      "created_by": "PerryLink",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5642,
+      "title": "Fix \"depug\" typo in contributing docs",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-10-30T13:39:51+00:00",
+      "created_by": "moshe99",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5643,
+      "title": "Fix crashes on a `# fmt: off` region that ends at a closing bracket",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-30T14:15:36+00:00",
+      "created_by": "LuisFigueroaG",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -64752,7 +64784,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-29T20:00:44+00:00",
+    "last_updated": "2026-10-30T19:48:25+00:00",
     "version": 1
   }
 }
