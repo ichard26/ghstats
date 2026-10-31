@@ -64753,7 +64753,7 @@
       "is_pr": true,
       "created_at": "2026-10-30T04:55:48+00:00",
       "created_by": "PerryLink",
-      "closed_at": null,
+      "closed_at": "2026-10-30T22:58:18+00:00",
       "closed_by": null
     },
     {
@@ -64765,7 +64765,7 @@
       "is_pr": true,
       "created_at": "2026-10-30T13:39:51+00:00",
       "created_by": "moshe99",
-      "closed_at": null,
+      "closed_at": "2026-10-30T23:05:45+00:00",
       "closed_by": null
     },
     {
@@ -64777,6 +64777,26 @@
       "created_by": "LuisFigueroaG",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5644,
+      "title": "Do not let standalone comments break fluent method chaining",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-31T06:40:26+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5645,
+      "title": "Fix blackd client encoding for custom Content-Type charsets",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-10-31T12:10:20+00:00",
+      "created_by": "student-shivamm",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -64784,7 +64804,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-30T19:48:25+00:00",
+    "last_updated": "2026-10-31T18:59:36+00:00",
     "version": 1
   }
 }
