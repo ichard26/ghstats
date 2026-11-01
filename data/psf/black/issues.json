@@ -17379,8 +17379,8 @@
       "is_pr": false,
       "created_at": "2020-07-16T00:54:45+00:00",
       "created_by": "JelleZijlstra",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-01T16:56:21+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 1554,
@@ -47187,8 +47187,8 @@
       "is_pr": false,
       "created_at": "2023-10-30T02:59:16+00:00",
       "created_by": "robmoss",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-10-31T23:37:27+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3999,
@@ -57177,8 +57177,8 @@
       "is_pr": false,
       "created_at": "2025-11-30T21:58:28+00:00",
       "created_by": "hauntsaninja",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-01T00:21:13+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 4878,
@@ -57229,7 +57229,7 @@
       "is_pr": true,
       "created_at": "2025-12-04T05:02:53+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2026-11-01T00:21:12+00:00",
       "closed_by": null
     },
     {
@@ -58658,7 +58658,7 @@
       "is_pr": true,
       "created_at": "2026-03-05T06:32:38+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-11-01T01:54:42+00:00",
       "closed_by": null
     },
     {
@@ -58802,7 +58802,7 @@
       "is_pr": true,
       "created_at": "2026-03-09T06:32:07+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-11-01T03:06:03+00:00",
       "closed_by": null
     },
     {
@@ -60198,7 +60198,7 @@
       "is_pr": true,
       "created_at": "2026-06-03T22:42:59+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-11-01T01:54:58+00:00",
       "closed_by": null
     },
     {
@@ -63382,7 +63382,7 @@
       "is_pr": true,
       "created_at": "2026-10-07T00:25:32+00:00",
       "created_by": "msuozzo",
-      "closed_at": null,
+      "closed_at": "2026-11-01T17:05:44+00:00",
       "closed_by": null
     },
     {
@@ -64490,7 +64490,7 @@
       "is_pr": true,
       "created_at": "2026-10-25T04:25:46+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2026-11-01T01:46:35+00:00",
       "closed_by": null
     },
     {
@@ -64775,7 +64775,7 @@
       "is_pr": true,
       "created_at": "2026-10-30T14:15:36+00:00",
       "created_by": "LuisFigueroaG",
-      "closed_at": null,
+      "closed_at": "2026-11-01T03:49:21+00:00",
       "closed_by": null
     },
     {
@@ -64795,6 +64795,36 @@
       "is_pr": true,
       "created_at": "2026-10-31T12:10:20+00:00",
       "created_by": "student-shivamm",
+      "closed_at": "2026-11-01T03:52:32+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5646,
+      "title": "Remove redundant parentheses around yields of tuples",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-01T09:46:20+00:00",
+      "created_by": "LiShuochen",
+      "closed_at": "2026-11-01T16:56:20+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5647,
+      "title": "Fix `# fmt: skip` on the last line of a multi-line conditional expression in brackets",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-01T10:05:45+00:00",
+      "created_by": "b84330808",
+      "closed_at": "2026-11-01T17:10:03+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5648,
+      "title": "Restrict unpickling of cache and grammar files",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-01T18:27:10+00:00",
+      "created_by": "rinopatrick",
       "closed_at": null,
       "closed_by": null
     }
@@ -64804,7 +64834,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-10-31T18:59:36+00:00",
+    "last_updated": "2026-11-01T19:18:47+00:00",
     "version": 1
   }
 }
