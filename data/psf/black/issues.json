@@ -64827,6 +64827,56 @@
       "created_by": "rinopatrick",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5649,
+      "title": "Keep the blank line after a nested import that is followed by a comment",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-01T21:40:52+00:00",
+      "created_by": "nk-batman21",
+      "closed_at": "2026-11-02T01:30:18+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5650,
+      "title": "Fix line numbers in parse errors and --line-ranges when the file starts with blank lines",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-02T01:21:27+00:00",
+      "created_by": "simpleqt",
+      "closed_at": "2026-11-02T19:00:05+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5651,
+      "title": "Fix crash on `# fmt: off` before the trailing comma in brackets",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-02T03:05:14+00:00",
+      "created_by": "LuisFigueroaG",
+      "closed_at": "2026-11-02T18:54:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5652,
+      "title": "Skip notebook cells that can't be tokenized instead of failing the whole notebook",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-02T19:00:44+00:00",
+      "created_by": "nk-batman21",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5653,
+      "title": "Fix crash on `# fmt: off` in an f-string with `=` or a t-string",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-02T20:58:36+00:00",
+      "created_by": "LuisFigueroaG",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -64834,7 +64884,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-01T19:18:47+00:00",
+    "last_updated": "2026-11-02T22:57:41+00:00",
     "version": 1
   }
 }

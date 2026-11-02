@@ -145122,8 +145122,8 @@
       "is_pr": false,
       "created_at": "2023-01-05T14:17:17+00:00",
       "created_by": "AtomBaf",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-02T03:39:00+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 11701,
@@ -147278,8 +147278,8 @@
       "is_pr": false,
       "created_at": "2023-03-21T08:36:58+00:00",
       "created_by": "Toldry",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-02T03:37:56+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 11881,
@@ -154446,8 +154446,8 @@
       "is_pr": false,
       "created_at": "2024-01-19T19:27:55+00:00",
       "created_by": "Kache",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-02T03:38:14+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 12482,
@@ -157295,8 +157295,8 @@
       "is_pr": false,
       "created_at": "2024-05-15T22:16:23+00:00",
       "created_by": "oldgithubman",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-02T03:37:10+00:00",
+      "closed_by": "sepehr-rs"
     },
     {
       "number": 12707,
@@ -160097,9 +160097,9 @@
       ],
       "is_pr": false,
       "created_at": "2024-08-21T09:17:23+00:00",
-      "created_by": "lg8080",
-      "closed_at": null,
-      "closed_by": null
+      "created_by": "ghost",
+      "closed_at": "2026-11-02T16:15:25+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 12929,
@@ -164421,8 +164421,8 @@
       "is_pr": false,
       "created_at": "2025-03-14T03:27:05+00:00",
       "created_by": "tenpura-shrimp",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-01T19:30:23+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13280,
@@ -167568,7 +167568,7 @@
       "is_pr": true,
       "created_at": "2025-08-11T08:05:27+00:00",
       "created_by": "sepehr-rs",
-      "closed_at": null,
+      "closed_at": "2026-11-01T19:30:22+00:00",
       "closed_by": null
     },
     {
@@ -168570,8 +168570,8 @@
       "is_pr": false,
       "created_at": "2025-10-12T17:00:04+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-01T19:30:45+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13619,
@@ -169068,7 +169068,7 @@
       "is_pr": true,
       "created_at": "2025-11-20T09:09:24+00:00",
       "created_by": "sepehr-rs",
-      "closed_at": null,
+      "closed_at": "2026-11-01T19:30:44+00:00",
       "closed_by": null
     },
     {
@@ -171253,8 +171253,8 @@
       "is_pr": false,
       "created_at": "2026-03-06T01:50:50+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-02T16:45:55+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 13843,
@@ -175945,8 +175945,8 @@
       "is_pr": false,
       "created_at": "2026-08-05T21:54:59+00:00",
       "created_by": "carrerasdarren-cell",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-02T17:47:03+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 14233,
@@ -175957,7 +175957,7 @@
       "is_pr": true,
       "created_at": "2026-08-05T21:56:15+00:00",
       "created_by": "carrerasdarren-cell",
-      "closed_at": null,
+      "closed_at": "2026-11-02T17:47:01+00:00",
       "closed_by": null
     },
     {
@@ -176133,7 +176133,7 @@
       "is_pr": true,
       "created_at": "2026-08-13T04:37:37+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-11-02T16:45:53+00:00",
       "closed_by": null
     },
     {
@@ -176695,7 +176695,7 @@
       "is_pr": true,
       "created_at": "2026-08-31T16:35:41+00:00",
       "created_by": "MaxxxDong",
-      "closed_at": null,
+      "closed_at": "2026-11-02T16:15:24+00:00",
       "closed_by": null
     },
     {
@@ -177141,7 +177141,7 @@
       "is_pr": true,
       "created_at": "2026-09-28T18:55:56+00:00",
       "created_by": "silasthegoldenwizard",
-      "closed_at": null,
+      "closed_at": "2026-11-01T23:31:02+00:00",
       "closed_by": null
     },
     {
@@ -177418,8 +177418,8 @@
       "is_pr": false,
       "created_at": "2026-10-13T20:42:51+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-02T15:51:18+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 14356,
@@ -177430,7 +177430,7 @@
       "is_pr": true,
       "created_at": "2026-10-13T20:46:42+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-11-02T15:51:17+00:00",
       "closed_by": null
     },
     {
@@ -177450,8 +177450,8 @@
       "is_pr": false,
       "created_at": "2026-10-14T07:08:43+00:00",
       "created_by": "KRRT7",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-02T15:24:01+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 14359,
@@ -177557,8 +177557,8 @@
       "is_pr": false,
       "created_at": "2026-10-16T06:01:43+00:00",
       "created_by": "sqchenxiyuan",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-02T15:23:28+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 14368,
@@ -177835,7 +177835,7 @@
       "is_pr": true,
       "created_at": "2026-10-23T16:12:31+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-11-02T15:25:03+00:00",
       "closed_by": null
     },
     {
@@ -178021,8 +178021,8 @@
       "is_pr": false,
       "created_at": "2026-10-27T00:35:54+00:00",
       "created_by": "jmajoor",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-01T19:26:19+00:00",
+      "closed_by": "notatallshaw"
     },
     {
       "number": 14407,
@@ -178033,7 +178033,7 @@
       "is_pr": true,
       "created_at": "2026-10-27T01:14:56+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-11-01T19:27:06+00:00",
       "closed_by": null
     },
     {
@@ -178082,7 +178082,7 @@
       "is_pr": true,
       "created_at": "2026-10-27T19:04:01+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-11-01T20:17:59+00:00",
       "closed_by": null
     },
     {
@@ -178094,7 +178094,7 @@
       "is_pr": true,
       "created_at": "2026-10-28T03:10:18+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-11-01T19:28:17+00:00",
       "closed_by": null
     },
     {
@@ -178131,7 +178131,7 @@
       "is_pr": true,
       "created_at": "2026-10-29T20:08:00+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-11-01T19:26:17+00:00",
       "closed_by": null
     },
     {
@@ -178157,7 +178157,7 @@
       "is_pr": true,
       "created_at": "2026-11-01T18:07:03+00:00",
       "created_by": "notatallshaw",
-      "closed_at": null,
+      "closed_at": "2026-11-02T15:23:59+00:00",
       "closed_by": null
     },
     {
@@ -178169,6 +178169,103 @@
       "is_pr": true,
       "created_at": "2026-11-01T19:02:28+00:00",
       "created_by": "notatallshaw",
+      "closed_at": "2026-11-02T15:23:26+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14419,
+      "title": "Resolve relative HTML base URLs against the page URL",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-01T19:23:05+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14420,
+      "title": "Fix crash on invalid PEP-263 encoding declarations in requirements files",
+      "labels": [
+        "bot:chronographer:provided",
+        "resolution: AI policy"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-02T04:10:08+00:00",
+      "created_by": "simpleqt",
+      "closed_at": "2026-11-02T04:52:07+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14421,
+      "title": "Update build-project/pylock.toml",
+      "labels": [
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-02T05:05:45+00:00",
+      "created_by": "github-actions[bot]",
+      "closed_at": "2026-11-02T14:48:28+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14422,
+      "title": "Restore root logging state between tests",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-02T15:59:39+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-11-02T16:21:14+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14423,
+      "title": "Defer pkg_resources metadata errors until pip 27.0",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-02T16:26:11+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-11-02T16:53:13+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14424,
+      "title": "Upgrade msgpack to 1.2.4",
+      "labels": [
+        "skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-02T16:33:01+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-11-02T16:52:22+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14425,
+      "title": "Release 26.3",
+      "labels": [
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-02T19:18:07+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": "2026-11-02T20:08:27+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 14426,
+      "title": "pre-commit autoupdate",
+      "labels": [
+        "skip PR template check"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-02T19:43:29+00:00",
+      "created_by": "pre-commit-ci[bot]",
       "closed_at": null,
       "closed_by": null
     }
@@ -178178,7 +178275,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-01T19:18:55+00:00",
+    "last_updated": "2026-11-02T22:57:48+00:00",
     "version": 1
   }
 }
