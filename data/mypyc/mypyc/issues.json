@@ -12424,8 +12424,8 @@
       "is_pr": false,
       "created_at": "2025-05-12T17:23:25+00:00",
       "created_by": "BobTheBuidler",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-05T18:10:50+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1104,
@@ -13391,8 +13391,8 @@
       "is_pr": false,
       "created_at": "2026-02-10T16:01:57+00:00",
       "created_by": "BobTheBuidler",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-05T18:10:50+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1187,
@@ -14102,6 +14102,16 @@
       "created_by": "rheard",
       "closed_at": "2026-10-15T12:10:44+00:00",
       "closed_by": "p-sawicki"
+    },
+    {
+      "number": 1252,
+      "title": "`error: incompatible types when assigning to type \u2018tuple_T2OO\u2019 from type int` & more",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-11-05T17:17:32+00:00",
+      "created_by": "mr-c",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -14109,7 +14119,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-11-04T21:00:47+00:00",
+    "last_updated": "2026-11-05T21:17:49+00:00",
     "version": 1
   }
 }
