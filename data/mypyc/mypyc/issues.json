@@ -13672,7 +13672,10 @@
     {
       "number": 1211,
       "title": "[2.3.0 regression] pickle-able classes with `Final` class attributes",
-      "labels": [],
+      "labels": [
+        "enhancement",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2026-08-17T13:06:58+00:00",
       "created_by": "mr-c",
@@ -14106,7 +14109,9 @@
     {
       "number": 1252,
       "title": "`error: incompatible types when assigning to type \u2018tuple_T2OO\u2019 from type int` & more",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-11-05T17:17:32+00:00",
       "created_by": "mr-c",
@@ -14119,7 +14124,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-11-05T21:17:49+00:00",
+    "last_updated": "2026-11-06T20:40:11+00:00",
     "version": 1
   }
 }
