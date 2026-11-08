@@ -65046,6 +65046,66 @@
       "created_by": "alloutflo",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5670,
+      "title": "docs: fix typos in FAQ",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-08T02:30:00+00:00",
+      "created_by": "ninglinLiu",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5671,
+      "title": "Fix crash on a skipped async def header with a `...` body",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-08T03:12:24+00:00",
+      "created_by": "Sonica-B",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5672,
+      "title": "Fix --line-ranges producing invalid code for stacked decorators in 2-space or tab-indented code",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-08T06:50:49+00:00",
+      "created_by": "jayhemnani9910",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5673,
+      "title": "Parenthesize one-item sequence patterns in case statements",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-08T09:36:37+00:00",
+      "created_by": "adityajai119",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5674,
+      "title": "Fix `# fmt: skip` on a semicolon-separated body on its own line",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-08T15:04:10+00:00",
+      "created_by": "vidigoat",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5675,
+      "title": "Fix crash on `# fmt: skip` on several one-line clauses of a statement",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-08T16:29:59+00:00",
+      "created_by": "vidigoat",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65053,7 +65113,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-07T19:13:51+00:00",
+    "last_updated": "2026-11-08T19:16:28+00:00",
     "version": 1
   }
 }

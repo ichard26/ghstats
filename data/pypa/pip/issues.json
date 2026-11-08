@@ -178293,6 +178293,68 @@
       "created_by": "notatallshaw",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14429,
+      "title": "Redact credentials in pip config list and debug output",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-07T20:55:26+00:00",
+      "created_by": "DipanshuAmbilkar03",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14430,
+      "title": "Use standard `pylock.toml` for development and CI, generated with nab",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-08T06:17:54+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14431,
+      "title": "SafeFileCache::get_body returns an open file that is never closed",
+      "labels": [
+        "type: bug",
+        "project: vendored dependency"
+      ],
+      "is_pr": false,
+      "created_at": "2026-11-08T07:53:55+00:00",
+      "created_by": "mattip",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14432,
+      "title": "pip config edit expands $(...) and backticks in the config file path",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-11-08T14:45:53+00:00",
+      "created_by": "sucloudflare",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14433,
+      "title": "Avoid shell expansion in pip config edit (fixes #14432)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-08T15:39:11+00:00",
+      "created_by": "yashpatadiya1724-cmyk",
+      "closed_at": "2026-11-08T17:17:24+00:00",
+      "closed_by": null
     }
   ],
   "record": {
@@ -178300,7 +178362,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-07T19:13:54+00:00",
+    "last_updated": "2026-11-08T19:16:33+00:00",
     "version": 1
   }
 }
