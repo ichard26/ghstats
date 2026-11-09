@@ -6678,7 +6678,8 @@
       "number": 620,
       "title": "Spurious TypeErrors when an exception is bound with different types",
       "labels": [
-        "bug"
+        "bug",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2019-05-16T20:30:38+00:00",
@@ -9114,6 +9115,7 @@
       "labels": [
         "bug",
         "python compat",
+        "runtime crash",
         "area-dataclasses"
       ],
       "is_pr": false,
@@ -10259,14 +10261,14 @@
       "title": "mypyc compile error \"build/__native.c:346:15: error: variable 'cpy_r_r103' set but not used [-Werror,-Wunused-but-set-variable]\"",
       "labels": [
         "bug",
-        "crash",
-        "status-needs-repro"
+        "status-needs-repro",
+        "invalid C"
       ],
       "is_pr": false,
       "created_at": "2022-03-31T04:34:49+00:00",
       "created_by": "KimSoungRyoul",
       "closed_at": null,
-      "closed_by": "JelleZijlstra"
+      "closed_by": null
     },
     {
       "number": 922,
@@ -10349,7 +10351,7 @@
       "title": "Empty AssertionError when setting to uninitialized global variable",
       "labels": [
         "bug",
-        "crash"
+        "compiler crash"
       ],
       "is_pr": false,
       "created_at": "2022-05-17T13:09:43+00:00",
@@ -11728,7 +11730,7 @@
       "title": "Class in file named 9.py fails compilation",
       "labels": [
         "bug",
-        "crash"
+        "invalid C"
       ],
       "is_pr": false,
       "created_at": "2023-12-05T20:06:59+00:00",
@@ -12102,7 +12104,7 @@
       "title": "Crash when module raises exception at module level",
       "labels": [
         "bug",
-        "crash"
+        "compiler crash"
       ],
       "is_pr": false,
       "created_at": "2024-12-23T02:19:48+00:00",
@@ -12190,7 +12192,7 @@
       "title": "Detect configuration options that are incompatible with mypyc",
       "labels": [
         "bug",
-        "crash"
+        "usability"
       ],
       "is_pr": false,
       "created_at": "2025-02-08T15:31:39+00:00",
@@ -12412,8 +12414,8 @@
       "is_pr": false,
       "created_at": "2025-05-08T19:58:13+00:00",
       "created_by": "BobTheBuidler",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-09T12:43:14+00:00",
+      "closed_by": "JukkaL"
     },
     {
       "number": 1103,
@@ -12469,7 +12471,8 @@
       "number": 1107,
       "title": "System Error: method returned NULL without setting an exception",
       "labels": [
-        "bug"
+        "bug",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2025-06-11T02:18:01+00:00",
@@ -12652,7 +12655,8 @@
       "number": 1122,
       "title": "Dataclasses incorrectly include ClassVar annotated attributes as fields",
       "labels": [
-        "bug"
+        "bug",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2025-07-25T08:28:08+00:00",
@@ -12732,7 +12736,7 @@
       "labels": [
         "bug",
         "priority-0-high",
-        "crash"
+        "memory safety"
       ],
       "is_pr": false,
       "created_at": "2025-08-14T13:35:47+00:00",
@@ -13011,7 +13015,7 @@
       "title": "AssertionError: not sure what to do with an incref of a spill...",
       "labels": [
         "bug",
-        "crash"
+        "compiler crash"
       ],
       "is_pr": false,
       "created_at": "2025-10-15T12:03:51+00:00",
@@ -13090,7 +13094,8 @@
       "number": 1160,
       "title": "Extending ast.AST fails with \"has the Py_TPFLAGS_MANAGED_DICT flag but tp_dictoffset is set\"",
       "labels": [
-        "bug"
+        "bug",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2025-11-03T13:58:28+00:00",
@@ -13102,7 +13107,8 @@
       "number": 1161,
       "title": "mypyc compiled projects cannot be used for (flake8) plugins",
       "labels": [
-        "bug"
+        "bug",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2025-11-03T14:35:38+00:00",
@@ -13221,7 +13227,8 @@
       "number": 1172,
       "title": "Attributes on serializable classes are invisible outside compilation unit",
       "labels": [
-        "bug"
+        "bug",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2025-12-22T19:23:44+00:00",
@@ -13270,7 +13277,8 @@
       "number": 1176,
       "title": "`functools.total_ordering` with `dataclasses.dataclass` raises (starting from Python 3.14)",
       "labels": [
-        "bug"
+        "bug",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2026-01-04T19:23:41+00:00",
@@ -13350,7 +13358,8 @@
       "number": 1183,
       "title": "Can't access imported `Final` tuples of `float` from compiled modules",
       "labels": [
-        "bug"
+        "bug",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2026-02-06T14:02:49+00:00",
@@ -13398,7 +13407,8 @@
       "number": 1187,
       "title": "mypyc should avoid emitting MSVC reserved keywords",
       "labels": [
-        "bug"
+        "bug",
+        "invalid C"
       ],
       "is_pr": false,
       "created_at": "2026-02-13T16:06:07+00:00",
@@ -13485,7 +13495,8 @@
       "title": "Inconsistent behaviour between mypy and mypyc with operator dunder methods",
       "labels": [
         "bug",
-        "python compat"
+        "python compat",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2026-05-20T01:06:58+00:00",
@@ -13508,7 +13519,8 @@
       "title": "mypyc emits bare NotRequired in TypedDict runtime annotations",
       "labels": [
         "bug",
-        "python compat"
+        "python compat",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2026-05-27T03:58:31+00:00",
@@ -13628,7 +13640,8 @@
       "title": "issue: dataclass (frozen=True) and ClassVar attributes",
       "labels": [
         "bug",
-        "python compat"
+        "python compat",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2026-08-02T01:15:00+00:00",
@@ -13742,7 +13755,8 @@
       "number": 1217,
       "title": "Name mangling collides with compiler keywords (`__restrict`, `__single`)",
       "labels": [
-        "bug"
+        "bug",
+        "invalid C"
       ],
       "is_pr": false,
       "created_at": "2026-09-02T17:50:03+00:00",
@@ -13794,7 +13808,8 @@
       "number": 1222,
       "title": "Native classes ignore a data descriptor's __set__; assignment raises \"is read-only\"",
       "labels": [
-        "bug"
+        "bug",
+        "runtime crash"
       ],
       "is_pr": false,
       "created_at": "2026-09-07T23:59:40+00:00",
@@ -14088,7 +14103,7 @@
       "labels": [
         "bug",
         "python compat",
-        "crash"
+        "compiler crash"
       ],
       "is_pr": false,
       "created_at": "2026-10-13T10:24:52+00:00",
@@ -14110,7 +14125,8 @@
       "number": 1252,
       "title": "`error: incompatible types when assigning to type \u2018tuple_T2OO\u2019 from type int` & more",
       "labels": [
-        "bug"
+        "bug",
+        "invalid C"
       ],
       "is_pr": false,
       "created_at": "2026-11-05T17:17:32+00:00",
@@ -14124,7 +14140,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-11-06T20:40:11+00:00",
+    "last_updated": "2026-11-09T23:39:49+00:00",
     "version": 1
   }
 }
