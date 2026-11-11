@@ -138285,13 +138285,13 @@
     },
     {
       "number": 11121,
-      "title": "\"pip install\" does not operate if \"pip uninstall\" has been invoked previously.",
+      "title": "[Bug] With \u22db `22.0.4`, `pip install` does not operate if `pip uninstall` has been previously invoked.",
       "labels": [
         "resolution: invalid"
       ],
       "is_pr": false,
       "created_at": "2022-05-14T18:49:54+00:00",
-      "created_by": "RokeJulianLockhart",
+      "created_by": "beedell-roke",
       "closed_at": "2022-05-23T02:05:48+00:00",
       "closed_by": "uranusjr"
     },
@@ -178374,7 +178374,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-10T21:09:00+00:00",
+    "last_updated": "2026-11-11T21:41:25+00:00",
     "version": 1
   }
 }
