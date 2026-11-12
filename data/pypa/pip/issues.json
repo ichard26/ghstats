@@ -178367,6 +178367,18 @@
       "created_by": "ninglinLiu",
       "closed_at": "2026-11-10T03:26:00+00:00",
       "closed_by": null
+    },
+    {
+      "number": 14435,
+      "title": "Simplify SpecifierWithoutExtrasRequirement",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-12T04:44:44+00:00",
+      "created_by": "KRRT7",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -178374,7 +178386,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-11T21:41:25+00:00",
+    "last_updated": "2026-11-12T21:41:19+00:00",
     "version": 1
   }
 }
