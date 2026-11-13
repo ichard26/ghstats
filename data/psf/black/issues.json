@@ -62881,7 +62881,7 @@
       "is_pr": true,
       "created_at": "2026-09-27T02:12:21+00:00",
       "created_by": "januththedev",
-      "closed_at": null,
+      "closed_at": "2026-11-12T22:54:26+00:00",
       "closed_by": null
     },
     {
@@ -63864,7 +63864,9 @@
     {
       "number": 5546,
       "title": "Project-relative cache-dir allows unrestricted pickle.load of attacker-controlled data",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": false,
       "created_at": "2026-10-15T15:50:26+00:00",
       "created_by": "aaka3h",
@@ -64232,7 +64234,9 @@
     {
       "number": 5579,
       "title": "cache: reject unsafe globals when loading pickles",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-10-22T13:14:13+00:00",
       "created_by": "Faustus-Faber",
@@ -64378,7 +64382,7 @@
       "is_pr": true,
       "created_at": "2026-10-23T11:59:34+00:00",
       "created_by": "ShahabAhmed01",
-      "closed_at": null,
+      "closed_at": "2026-11-13T20:51:45+00:00",
       "closed_by": null
     },
     {
@@ -64821,7 +64825,9 @@
     {
       "number": 5648,
       "title": "Restrict unpickling of cache and grammar files",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-11-01T18:27:10+00:00",
       "created_by": "rinopatrick",
@@ -64875,7 +64881,7 @@
       "is_pr": true,
       "created_at": "2026-11-02T20:58:36+00:00",
       "created_by": "LuisFigueroaG",
-      "closed_at": null,
+      "closed_at": "2026-11-12T22:40:19+00:00",
       "closed_by": null
     },
     {
@@ -64972,7 +64978,7 @@
       "is_pr": true,
       "created_at": "2026-11-05T07:04:06+00:00",
       "created_by": "faresrafat3",
-      "closed_at": null,
+      "closed_at": "2026-11-12T23:32:32+00:00",
       "closed_by": null
     },
     {
@@ -65040,7 +65046,9 @@
     {
       "number": 5669,
       "title": "Keep long single-name from imports on one line in preview",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-11-07T17:38:35+00:00",
       "created_by": "alloutflo",
@@ -65110,11 +65118,13 @@
     {
       "number": 5676,
       "title": "Document configuration lookup with --stdin-filename",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-11-08T22:28:56+00:00",
       "created_by": "liorma6",
-      "closed_at": null,
+      "closed_at": "2026-11-12T22:40:05+00:00",
       "closed_by": null
     },
     {
@@ -65188,7 +65198,7 @@
       "is_pr": true,
       "created_at": "2026-11-10T03:50:19+00:00",
       "created_by": "deadstrobe5",
-      "closed_at": null,
+      "closed_at": "2026-11-12T23:32:52+00:00",
       "closed_by": null
     },
     {
@@ -65198,8 +65208,8 @@
       "is_pr": false,
       "created_at": "2026-11-11T22:41:38+00:00",
       "created_by": "chaitanyachaudhary30",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-12T23:01:17+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5685,
@@ -65208,7 +65218,7 @@
       "is_pr": true,
       "created_at": "2026-11-11T22:55:34+00:00",
       "created_by": "officialpm",
-      "closed_at": null,
+      "closed_at": "2026-11-12T23:01:19+00:00",
       "closed_by": null
     },
     {
@@ -65218,12 +65228,12 @@
       "is_pr": true,
       "created_at": "2026-11-11T23:04:41+00:00",
       "created_by": "hector2394",
-      "closed_at": null,
+      "closed_at": "2026-11-12T23:01:16+00:00",
       "closed_by": null
     },
     {
       "number": 5687,
-      "title": "Preserve significant whitespace in doctest output",
+      "title": "Preserve trailing whitespace in doctest docstrings",
       "labels": [],
       "is_pr": true,
       "created_at": "2026-11-12T06:01:21+00:00",
@@ -65238,6 +65248,63 @@
       "is_pr": true,
       "created_at": "2026-11-12T13:28:36+00:00",
       "created_by": "Duo-ee",
+      "closed_at": "2026-11-12T23:01:22+00:00",
+      "closed_by": null
+    },
+    {
+      "number": 5689,
+      "title": "Bump myst-parser from 5.1.0 to 5.2.0",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-13T06:32:58+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5690,
+      "title": "Add blackd-client, a standard-library command-line client for blackd",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-13T13:40:54+00:00",
+      "created_by": "IslamElsayed",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5691,
+      "title": "--line-ranges selects the wrong source line with --skip-source-first-line",
+      "labels": [
+        "T: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-11-13T14:09:14+00:00",
+      "created_by": "hakarrr",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5692,
+      "title": "Fix --line-ranges offset when --skip-source-first-line is enabled (#5691)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-13T19:16:45+00:00",
+      "created_by": "SaifAli-S",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5693,
+      "title": "Explicitly parenthesize multi-exception catches",
+      "labels": [
+        "T: enhancement"
+      ],
+      "is_pr": false,
+      "created_at": "2026-11-13T21:00:13+00:00",
+      "created_by": "rmgoetz",
       "closed_at": null,
       "closed_by": null
     }
@@ -65247,7 +65314,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-12T21:40:55+00:00",
+    "last_updated": "2026-11-13T21:07:36+00:00",
     "version": 1
   }
 }

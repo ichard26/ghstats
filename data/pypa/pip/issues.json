@@ -178379,6 +178379,18 @@
       "created_by": "KRRT7",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14436,
+      "title": "install seti]uptools and wexpect via requirements.txt does not work.",
+      "labels": [
+        "resolution: not a bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-11-13T03:05:50+00:00",
+      "created_by": "duaneellissd",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -178386,7 +178398,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-12T21:41:19+00:00",
+    "last_updated": "2026-11-13T21:07:50+00:00",
     "version": 1
   }
 }
