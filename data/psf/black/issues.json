@@ -65317,6 +65317,36 @@
       "created_by": "bigwalkdoe",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5696,
+      "title": "`copy.deepcopy()` on a blib2to3 node raises TypeError on main",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-11-15T03:58:44+00:00",
+      "created_by": "AnshulPatil2005",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5697,
+      "title": "Fix copy.deepcopy() on blib2to3 nodes",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-15T07:12:39+00:00",
+      "created_by": "xh123637",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5698,
+      "title": "Fix --line-ranges selecting the wrong lines with --skip-source-first-line (#5691)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-15T08:40:24+00:00",
+      "created_by": "Kasa-Harendra",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65324,7 +65354,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-14T19:39:19+00:00",
+    "last_updated": "2026-11-15T20:04:45+00:00",
     "version": 1
   }
 }
