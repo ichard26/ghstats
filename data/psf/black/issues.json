@@ -18556,8 +18556,8 @@
       "is_pr": false,
       "created_at": "2020-08-29T12:25:59+00:00",
       "created_by": "henrifroese",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-16T18:51:42+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 1655,
@@ -65238,7 +65238,7 @@
       "is_pr": true,
       "created_at": "2026-11-12T06:01:21+00:00",
       "created_by": "ViktorBystrov72",
-      "closed_at": null,
+      "closed_at": "2026-11-16T18:51:40+00:00",
       "closed_by": null
     },
     {
@@ -65315,7 +65315,7 @@
       "is_pr": true,
       "created_at": "2026-11-14T09:35:32+00:00",
       "created_by": "bigwalkdoe",
-      "closed_at": null,
+      "closed_at": "2026-11-16T00:09:29+00:00",
       "closed_by": null
     },
     {
@@ -65325,17 +65325,19 @@
       "is_pr": false,
       "created_at": "2026-11-15T03:58:44+00:00",
       "created_by": "AnshulPatil2005",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-16T00:02:15+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5697,
       "title": "Fix copy.deepcopy() on blib2to3 nodes",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-11-15T07:12:39+00:00",
       "created_by": "xh123637",
-      "closed_at": null,
+      "closed_at": "2026-11-16T00:02:13+00:00",
       "closed_by": null
     },
     {
@@ -65347,6 +65349,26 @@
       "created_by": "Kasa-Harendra",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5699,
+      "title": "Add a --respect-gitignore option",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-15T20:58:40+00:00",
+      "created_by": "DeviousCardi",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5700,
+      "title": "feat(blackd): read options from a [tool.blackd] table",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-16T11:17:19+00:00",
+      "created_by": "Prateekshit73",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65354,7 +65376,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-15T20:04:45+00:00",
+    "last_updated": "2026-11-16T23:36:40+00:00",
     "version": 1
   }
 }
