@@ -178429,6 +178429,42 @@
       "created_by": "imryanthedev",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14440,
+      "title": "Vendor updates (CacheControl and platformdirs)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-17T04:30:20+00:00",
+      "created_by": "notatallshaw",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14441,
+      "title": "Add stable anchors to changelog subsections",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-17T08:18:02+00:00",
+      "created_by": "hnwg",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14442,
+      "title": "Keep scp-style stub URL paths out of the port in Git URL parsing",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-17T22:34:47+00:00",
+      "created_by": "kushaldave002",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -178436,7 +178472,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-16T23:36:47+00:00",
+    "last_updated": "2026-11-17T22:44:41+00:00",
     "version": 1
   }
 }
