@@ -65266,7 +65266,7 @@
     },
     {
       "number": 5690,
-      "title": "Add blackd-client, a standard-library command-line client for blackd",
+      "title": "Add blackd-format, a standard-library command-line client for blackd",
       "labels": [],
       "is_pr": true,
       "created_at": "2026-11-13T13:40:54+00:00",
@@ -65421,6 +65421,68 @@
       "created_by": "cleoanka",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5706,
+      "title": "Cleanup integrations docs",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-18T00:23:38+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5707,
+      "title": "Stop including pip & build dependencies in Docker build",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-18T00:54:57+00:00",
+      "created_by": "cobaltt7",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5708,
+      "title": "# fmt: skip inside f-string and t-string replacement fields drops the following newline and produces invalid code",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-11-18T06:34:54+00:00",
+      "created_by": "Cyber-Marty",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5709,
+      "title": "Fix # fmt: skip inside f-string and t-string replacement fields",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-18T06:35:25+00:00",
+      "created_by": "Cyber-Marty",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5710,
+      "title": "Fix crash on dict values that need parens when the key has an operator (preview)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-18T09:21:02+00:00",
+      "created_by": "divya0795",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5711,
+      "title": "Reject --line-ranges for notebooks detected by their .ipynb extension",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-18T10:10:27+00:00",
+      "created_by": "divya0795",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65428,7 +65490,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-17T22:44:36+00:00",
+    "last_updated": "2026-11-18T22:26:56+00:00",
     "version": 1
   }
 }
