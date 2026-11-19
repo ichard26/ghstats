@@ -7025,8 +7025,8 @@
       "is_pr": false,
       "created_at": "2018-12-12T12:08:17+00:00",
       "created_by": "Zac-HD",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-19T22:15:42+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 639,
@@ -39131,8 +39131,8 @@
       "is_pr": false,
       "created_at": "2022-10-10T18:14:03+00:00",
       "created_by": "yilei",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-19T22:14:25+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 3325,
@@ -64958,7 +64958,7 @@
       "is_pr": true,
       "created_at": "2026-11-04T13:00:48+00:00",
       "created_by": "DresdenGman",
-      "closed_at": null,
+      "closed_at": "2026-11-19T22:15:41+00:00",
       "closed_by": null
     },
     {
@@ -65052,7 +65052,7 @@
       "is_pr": true,
       "created_at": "2026-11-07T17:38:35+00:00",
       "created_by": "alloutflo",
-      "closed_at": null,
+      "closed_at": "2026-11-19T22:14:23+00:00",
       "closed_by": null
     },
     {
@@ -65431,7 +65431,7 @@
       "is_pr": true,
       "created_at": "2026-11-18T00:23:38+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2026-11-19T21:34:55+00:00",
       "closed_by": null
     },
     {
@@ -65441,7 +65441,7 @@
       "is_pr": true,
       "created_at": "2026-11-18T00:54:57+00:00",
       "created_by": "cobaltt7",
-      "closed_at": null,
+      "closed_at": "2026-11-19T21:35:07+00:00",
       "closed_by": null
     },
     {
@@ -65483,6 +65483,58 @@
       "created_by": "divya0795",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5712,
+      "title": "Fix --line-ranges producing invalid code for match statements in 2-space or tab-indented code",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-18T23:01:04+00:00",
+      "created_by": "anwang132",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5713,
+      "title": "Support scoped configuration variables in the Vim plugin",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-19T05:07:07+00:00",
+      "created_by": "CharoenwitKunna",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5714,
+      "title": "Add --show-files to list the files Black would format",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-19T10:33:43+00:00",
+      "created_by": "SnakeO",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5715,
+      "title": "Optimize memory usage with __slots__ on blib2to3 pytree Base, Node, and Leaf (#5216)",
+      "labels": [
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-19T10:49:35+00:00",
+      "created_by": "YK-03",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5716,
+      "title": "Fix --line-ranges over-indenting comments outside the selected ranges",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-19T17:46:21+00:00",
+      "created_by": "BlueX888",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65490,7 +65542,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-18T22:26:56+00:00",
+    "last_updated": "2026-11-19T22:31:44+00:00",
     "version": 1
   }
 }
