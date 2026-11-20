@@ -178502,6 +178502,31 @@
       "created_by": "Tirth00000",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14446,
+      "title": "Redact URL usernames when the password is explicitly empty",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-20T05:24:33+00:00",
+      "created_by": "brabema",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14447,
+      "title": "Skills installation with package installation",
+      "labels": [
+        "type: feature request",
+        "resolution: needs standard"
+      ],
+      "is_pr": false,
+      "created_at": "2026-11-20T18:11:12+00:00",
+      "created_by": "petrasvestartas",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -178509,7 +178534,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-19T22:31:50+00:00",
+    "last_updated": "2026-11-20T22:04:39+00:00",
     "version": 1
   }
 }

@@ -5094,8 +5094,8 @@
       "is_pr": false,
       "created_at": "2018-08-17T17:36:57+00:00",
       "created_by": "max-sixty",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-20T05:41:01+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 459,
@@ -60734,8 +60734,8 @@
       "is_pr": false,
       "created_at": "2026-07-01T18:12:15+00:00",
       "created_by": "rsb-23",
-      "closed_at": null,
-      "closed_by": null
+      "closed_at": "2026-11-20T05:55:05+00:00",
+      "closed_by": "cobaltt7"
     },
     {
       "number": 5217,
@@ -61980,7 +61980,7 @@
       "is_pr": true,
       "created_at": "2026-08-21T17:23:05+00:00",
       "created_by": "dajinzhu",
-      "closed_at": null,
+      "closed_at": "2026-11-20T05:40:11+00:00",
       "closed_by": null
     },
     {
@@ -63630,7 +63630,7 @@
       "is_pr": true,
       "created_at": "2026-10-11T07:21:28+00:00",
       "created_by": "TusharND12",
-      "closed_at": null,
+      "closed_at": "2026-11-20T05:40:59+00:00",
       "closed_by": null
     },
     {
@@ -64789,7 +64789,7 @@
       "is_pr": true,
       "created_at": "2026-10-31T06:40:26+00:00",
       "created_by": "Prateek99-s",
-      "closed_at": null,
+      "closed_at": "2026-11-20T05:41:03+00:00",
       "closed_by": null
     },
     {
@@ -65377,7 +65377,7 @@
       "is_pr": true,
       "created_at": "2026-11-17T04:12:10+00:00",
       "created_by": "LuisFigueroaG",
-      "closed_at": null,
+      "closed_at": "2026-11-20T05:32:14+00:00",
       "closed_by": null
     },
     {
@@ -65471,7 +65471,7 @@
       "is_pr": true,
       "created_at": "2026-11-18T09:21:02+00:00",
       "created_by": "divya0795",
-      "closed_at": null,
+      "closed_at": "2026-11-20T05:30:29+00:00",
       "closed_by": null
     },
     {
@@ -65481,7 +65481,7 @@
       "is_pr": true,
       "created_at": "2026-11-18T10:10:27+00:00",
       "created_by": "divya0795",
-      "closed_at": null,
+      "closed_at": "2026-11-20T05:29:19+00:00",
       "closed_by": null
     },
     {
@@ -65523,7 +65523,7 @@
       "is_pr": true,
       "created_at": "2026-11-19T10:49:35+00:00",
       "created_by": "YK-03",
-      "closed_at": null,
+      "closed_at": "2026-11-20T05:55:03+00:00",
       "closed_by": null
     },
     {
@@ -65535,6 +65535,36 @@
       "created_by": "BlueX888",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5717,
+      "title": "Fix # fmt: skip inside f-string and t-string replacement fields (#5708)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-20T05:46:57+00:00",
+      "created_by": "Prateek99-s",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5718,
+      "title": "Hug nested brackets when a short inner body fits on one line",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-20T18:03:34+00:00",
+      "created_by": "joyhsia",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5719,
+      "title": "Wrap split positional strings next to string arguments",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-20T21:31:25+00:00",
+      "created_by": "wozhenbang2004",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65542,7 +65572,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-19T22:31:44+00:00",
+    "last_updated": "2026-11-20T22:04:31+00:00",
     "version": 1
   }
 }
