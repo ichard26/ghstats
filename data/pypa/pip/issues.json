@@ -178527,6 +178527,16 @@
       "created_by": "petrasvestartas",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14448,
+      "title": "Installing a wheel makes 13 file system calls per .py file, which is slow on Windows",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-11-21T04:04:15+00:00",
+      "created_by": "azchohfi",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -178534,7 +178544,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-20T22:04:39+00:00",
+    "last_updated": "2026-11-21T20:43:34+00:00",
     "version": 1
   }
 }
