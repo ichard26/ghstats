@@ -178537,6 +178537,42 @@
       "created_by": "azchohfi",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14449,
+      "title": "Document how direct URL constraints interact with requirements",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-22T06:32:56+00:00",
+      "created_by": "kunalkshah1",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14450,
+      "title": "Include build settings in the wheel cache key",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-22T06:51:49+00:00",
+      "created_by": "kunalkshah1",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14451,
+      "title": "Reject VCS revisions starting with a dash (option injection)",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-22T12:15:03+00:00",
+      "created_by": "m4te1-1",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -178544,7 +178580,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-21T20:43:34+00:00",
+    "last_updated": "2026-11-22T20:53:56+00:00",
     "version": 1
   }
 }

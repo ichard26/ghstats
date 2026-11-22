@@ -65647,6 +65647,56 @@
       "created_by": "sohailshk",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5728,
+      "title": "Preserve newlines around fmt: skip in f-string and t-string fields",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-21T23:41:09+00:00",
+      "created_by": "Ganesh1729-ui",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5729,
+      "title": "Align the first call in preview method chains",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-22T06:03:45+00:00",
+      "created_by": "azizu06",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5730,
+      "title": "Return an empty diff from BlackDClient for already formatted code",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-22T16:31:24+00:00",
+      "created_by": "thejesh23",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5731,
+      "title": "Document which Black version the GitHub Action installs by default",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-22T16:44:03+00:00",
+      "created_by": "thejesh23",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5732,
+      "title": "Fix blackd skipping an unterminated first source line",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-22T16:50:50+00:00",
+      "created_by": "devwez",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65654,7 +65704,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-21T20:43:28+00:00",
+    "last_updated": "2026-11-22T20:53:52+00:00",
     "version": 1
   }
 }
