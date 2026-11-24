@@ -64643,7 +64643,7 @@
       "is_pr": true,
       "created_at": "2026-10-27T06:33:07+00:00",
       "created_by": "dependabot[bot]",
-      "closed_at": null,
+      "closed_at": "2026-11-24T06:33:10+00:00",
       "closed_by": null
     },
     {
@@ -65727,6 +65727,49 @@
       "created_by": "oriya-peretz",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5736,
+      "title": "--line-ranges fails with INTERNAL ERROR on an if/else whose body has # fmt: off and no # fmt: on",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-11-24T06:14:33+00:00",
+      "created_by": "chrikrah",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5737,
+      "title": "Bump wcwidth from 0.2.14 to 0.9.5",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-24T06:33:01+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5738,
+      "title": "Fix --line-ranges crash with a fmt: off block before else/except",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-24T07:27:26+00:00",
+      "created_by": "cestercian",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5739,
+      "title": "Fix --line-ranges joining else onto unclosed # fmt: off block (#5736)",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-24T17:46:25+00:00",
+      "created_by": "Burakceliks",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65734,7 +65777,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-24T01:58:22+00:00",
+    "last_updated": "2026-11-24T23:42:42+00:00",
     "version": 1
   }
 }
