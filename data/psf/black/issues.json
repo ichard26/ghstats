@@ -65697,6 +65697,36 @@
       "created_by": "devwez",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5733,
+      "title": "Fix crash on trailing whitespace after `# fmt: off` in a nested f-string",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-23T03:05:41+00:00",
+      "created_by": "LuisFigueroaG",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5734,
+      "title": "Test CLI file collection with a relative directory and a root gitignore",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-23T17:30:34+00:00",
+      "created_by": "xhl123XHL352",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5735,
+      "title": "Preview split standalone boolean expressions",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-23T20:23:17+00:00",
+      "created_by": "oriya-peretz",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65704,7 +65734,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-22T20:53:52+00:00",
+    "last_updated": "2026-11-24T01:58:22+00:00",
     "version": 1
   }
 }
