@@ -178655,6 +178655,64 @@
       "created_by": "kmagai",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14459,
+      "title": "Force git checkout in freshly cloned repositories",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-25T13:52:18+00:00",
+      "created_by": "whysooraj",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14460,
+      "title": "`check_first_requirement_in_file` truncates the character before `\\` on line continuations, suppressing the `-r` hint",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-11-25T16:54:24+00:00",
+      "created_by": "trackoor",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14461,
+      "title": "MultiDomainBasicAuth sends https:// index and cached credentials over plaintext http:// requests",
+      "labels": [
+        "type: bug"
+      ],
+      "is_pr": false,
+      "created_at": "2026-11-25T16:56:04+00:00",
+      "created_by": "amirulian",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14462,
+      "title": "Prevent MultiDomainBasicAuth from sending HTTPS credentials over HTTP",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-25T16:59:56+00:00",
+      "created_by": "amirulian",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 14463,
+      "title": "fix: strip only the backslash in requirement continuation hint",
+      "labels": [
+        "bot:chronographer:provided"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-25T18:00:53+00:00",
+      "created_by": "draarivpatel-ui",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -178662,7 +178720,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-24T23:42:49+00:00",
+    "last_updated": "2026-11-25T23:27:20+00:00",
     "version": 1
   }
 }

@@ -65568,7 +65568,7 @@
     },
     {
       "number": 5720,
-      "title": "Start larger files first when formatting in parallel",
+      "title": "Reuse file sizes to schedule larger modified files first",
       "labels": [],
       "is_pr": true,
       "created_at": "2026-11-20T23:28:47+00:00",
@@ -65645,7 +65645,7 @@
       "is_pr": true,
       "created_at": "2026-11-21T19:19:35+00:00",
       "created_by": "sohailshk",
-      "closed_at": null,
+      "closed_at": "2026-11-25T01:17:00+00:00",
       "closed_by": null
     },
     {
@@ -65661,7 +65661,9 @@
     {
       "number": 5729,
       "title": "Align the first call in preview method chains",
-      "labels": [],
+      "labels": [
+        "S: needs discussion"
+      ],
       "is_pr": true,
       "created_at": "2026-11-22T06:03:45+00:00",
       "created_by": "azizu06",
@@ -65675,17 +65677,19 @@
       "is_pr": true,
       "created_at": "2026-11-22T16:31:24+00:00",
       "created_by": "thejesh23",
-      "closed_at": null,
+      "closed_at": "2026-11-25T01:11:52+00:00",
       "closed_by": null
     },
     {
       "number": 5731,
       "title": "Document which Black version the GitHub Action installs by default",
-      "labels": [],
+      "labels": [
+        "ci: skip news"
+      ],
       "is_pr": true,
       "created_at": "2026-11-22T16:44:03+00:00",
       "created_by": "thejesh23",
-      "closed_at": null,
+      "closed_at": "2026-11-25T00:42:14+00:00",
       "closed_by": null
     },
     {
@@ -65695,7 +65699,7 @@
       "is_pr": true,
       "created_at": "2026-11-22T16:50:50+00:00",
       "created_by": "devwez",
-      "closed_at": null,
+      "closed_at": "2026-11-25T01:12:08+00:00",
       "closed_by": null
     },
     {
@@ -65770,6 +65774,100 @@
       "created_by": "Burakceliks",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 5740,
+      "title": "Honor exclusion patterns when discovering symlink destinations",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-25T02:02:52+00:00",
+      "created_by": "xixi-box",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5741,
+      "title": "Honor explicit ancestor configuration for submodule exclusions",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-25T02:12:07+00:00",
+      "created_by": "xixi-box",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5742,
+      "title": "Keep trailing lint directives with single-line code in preview",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-25T02:21:04+00:00",
+      "created_by": "xixi-box",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5743,
+      "title": "Use the explicit Black config directory as the project root",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-25T02:30:21+00:00",
+      "created_by": "xixi-box",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5744,
+      "title": "Enable nested bracket hugging in preview mode",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-25T04:27:50+00:00",
+      "created_by": "xixi-box",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5745,
+      "title": "Allow Black to honor .gitignore with custom exclusions",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-25T04:35:39+00:00",
+      "created_by": "xixi-box",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5746,
+      "title": "Bump zizmorcore/zizmor-action from 0.8.1 to 0.9.2",
+      "labels": [
+        "C: dependencies",
+        "ci: skip news",
+        "C: maintenance"
+      ],
+      "is_pr": true,
+      "created_at": "2026-11-25T06:32:30+00:00",
+      "created_by": "dependabot[bot]",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5747,
+      "title": "Fix --line-ranges producing invalid code for a decorated one-line def in 2-space or tab-indented code",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-25T13:54:38+00:00",
+      "created_by": "jayhemnani9910",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 5748,
+      "title": "Reject the code key in pyproject.toml",
+      "labels": [],
+      "is_pr": true,
+      "created_at": "2026-11-25T17:10:54+00:00",
+      "created_by": "draarivpatel-ui",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -65777,7 +65875,7 @@
       "owner": "psf",
       "name": "black"
     },
-    "last_updated": "2026-11-24T23:42:42+00:00",
+    "last_updated": "2026-11-25T23:26:43+00:00",
     "version": 1
   }
 }
