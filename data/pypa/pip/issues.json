@@ -178713,6 +178713,19 @@
       "created_by": "draarivpatel-ui",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 14464,
+      "title": "Confusing \"Ignored the following versions\" error when attempting to install multiple packages",
+      "labels": [
+        "type: bug",
+        "S: needs triage"
+      ],
+      "is_pr": false,
+      "created_at": "2026-11-26T23:09:26+00:00",
+      "created_by": "RomanValov",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -178720,7 +178733,7 @@
       "owner": "pypa",
       "name": "pip"
     },
-    "last_updated": "2026-11-25T23:27:20+00:00",
+    "last_updated": "2026-11-26T23:26:04+00:00",
     "version": 1
   }
 }

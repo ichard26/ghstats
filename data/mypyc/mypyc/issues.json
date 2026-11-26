@@ -14171,6 +14171,36 @@
       "created_by": "yaseenisolated",
       "closed_at": null,
       "closed_by": null
+    },
+    {
+      "number": 1257,
+      "title": "Handled exception state leaks between coroutines across `await`",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-11-26T18:12:57+00:00",
+      "created_by": "Jahongir-Qurbonov",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1258,
+      "title": "`StopIteration` raised in a generator or coroutine isn't converted to `RuntimeError` (PEP 479)",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-11-26T18:12:59+00:00",
+      "created_by": "Jahongir-Qurbonov",
+      "closed_at": null,
+      "closed_by": null
+    },
+    {
+      "number": 1259,
+      "title": "Unpacking an iterator ignores exceptions raised by the iterator",
+      "labels": [],
+      "is_pr": false,
+      "created_at": "2026-11-26T18:13:03+00:00",
+      "created_by": "Jahongir-Qurbonov",
+      "closed_at": null,
+      "closed_by": null
     }
   ],
   "record": {
@@ -14178,7 +14208,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-11-24T23:42:48+00:00",
+    "last_updated": "2026-11-26T23:26:03+00:00",
     "version": 1
   }
 }
