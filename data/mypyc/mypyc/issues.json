@@ -14145,7 +14145,9 @@
     {
       "number": 1254,
       "title": "`x * y` on ints is more than 10x slower when either operand is negative",
-      "labels": [],
+      "labels": [
+        "speed"
+      ],
       "is_pr": false,
       "created_at": "2026-11-11T15:28:54+00:00",
       "created_by": "rheard",
@@ -14155,7 +14157,9 @@
     {
       "number": 1255,
       "title": "Unannotated function returning isinstance(x, cls) with a variable class returns int 1/0 instead of bool",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-11-17T14:26:04+00:00",
       "created_by": "Ink01101011",
@@ -14165,7 +14169,9 @@
     {
       "number": 1256,
       "title": "[mypyc] Equal dataclass instances incorrectly compare as not equal when typed as a base class",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-11-24T14:30:00+00:00",
       "created_by": "yaseenisolated",
@@ -14175,7 +14181,9 @@
     {
       "number": 1257,
       "title": "Handled exception state leaks between coroutines across `await`",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-11-26T18:12:57+00:00",
       "created_by": "Jahongir-Qurbonov",
@@ -14185,7 +14193,10 @@
     {
       "number": 1258,
       "title": "`StopIteration` raised in a generator or coroutine isn't converted to `RuntimeError` (PEP 479)",
-      "labels": [],
+      "labels": [
+        "bug",
+        "python compat"
+      ],
       "is_pr": false,
       "created_at": "2026-11-26T18:12:59+00:00",
       "created_by": "Jahongir-Qurbonov",
@@ -14195,7 +14206,9 @@
     {
       "number": 1259,
       "title": "Unpacking an iterator ignores exceptions raised by the iterator",
-      "labels": [],
+      "labels": [
+        "bug"
+      ],
       "is_pr": false,
       "created_at": "2026-11-26T18:13:03+00:00",
       "created_by": "Jahongir-Qurbonov",
@@ -14208,7 +14221,7 @@
       "owner": "mypyc",
       "name": "mypyc"
     },
-    "last_updated": "2026-11-26T23:26:03+00:00",
+    "last_updated": "2026-11-27T23:08:40+00:00",
     "version": 1
   }
 }
